@@ -34,17 +34,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHardwareISCSIInitiatorProfile {
-    public HardwareISCSIInitiatorProfile[] HardwareISCSIInitiatorProfile;
+	public HardwareISCSIInitiatorProfile[] HardwareISCSIInitiatorProfile;
 
-    public HardwareISCSIInitiatorProfile[] getHardwareISCSIInitiatorProfile() {
-        return this.HardwareISCSIInitiatorProfile;
-    }
+	public HardwareISCSIInitiatorProfile[] getHardwareISCSIInitiatorProfile() {
+		return this.HardwareISCSIInitiatorProfile;
+	}
 
-    public HardwareISCSIInitiatorProfile getHardwareISCSIInitiatorProfile(int i) {
-        return this.HardwareISCSIInitiatorProfile[i];
-    }
+	public HardwareISCSIInitiatorProfile getHardwareISCSIInitiatorProfile(int i) {
+		return this.HardwareISCSIInitiatorProfile[i];
+	}
 
-    public void setHardwareISCSIInitiatorProfile(HardwareISCSIInitiatorProfile[] HardwareISCSIInitiatorProfile) {
-        this.HardwareISCSIInitiatorProfile = HardwareISCSIInitiatorProfile;
-    }
+	public void setHardwareISCSIInitiatorProfile(HardwareISCSIInitiatorProfile[] HardwareISCSIInitiatorProfile) {
+		this.HardwareISCSIInitiatorProfile = HardwareISCSIInitiatorProfile;
+	}
 }

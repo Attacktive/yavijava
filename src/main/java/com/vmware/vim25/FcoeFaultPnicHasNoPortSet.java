@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FcoeFaultPnicHasNoPortSet extends FcoeFault {
-    public String nicDevice;
+	public String nicDevice;
 
-    public String getNicDevice() {
-        return this.nicDevice;
-    }
+	public String getNicDevice() {
+		return this.nicDevice;
+	}
 
-    public void setNicDevice(String nicDevice) {
-        this.nicDevice = nicDevice;
-    }
+	public void setNicDevice(String nicDevice) {
+		this.nicDevice = nicDevice;
+	}
 }

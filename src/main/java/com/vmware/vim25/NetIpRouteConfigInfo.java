@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetIpRouteConfigInfo extends DynamicData {
-    public NetIpRouteConfigInfoIpRoute[] ipRoute;
+	public NetIpRouteConfigInfoIpRoute[] ipRoute;
 
-    public NetIpRouteConfigInfoIpRoute[] getIpRoute() {
-        return this.ipRoute;
-    }
+	public NetIpRouteConfigInfoIpRoute[] getIpRoute() {
+		return this.ipRoute;
+	}
 
-    public void setIpRoute(NetIpRouteConfigInfoIpRoute[] ipRoute) {
-        this.ipRoute = ipRoute;
-    }
+	public void setIpRoute(NetIpRouteConfigInfoIpRoute[] ipRoute) {
+		this.ipRoute = ipRoute;
+	}
 }

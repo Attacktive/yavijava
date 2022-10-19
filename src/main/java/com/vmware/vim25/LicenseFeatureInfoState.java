@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum LicenseFeatureInfoState {
-    enabled("enabled"),
-    disabled("disabled"),
-    optional("optional");
+	enabled("enabled"),
+	disabled("disabled"),
+	optional("optional");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseFeatureInfoState(String val) {
-        this.val = val;
-    }
+	private LicenseFeatureInfoState(String val) {
+		this.val = val;
+	}
 }

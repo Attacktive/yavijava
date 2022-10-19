@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum UpgradePolicy {
-    manual("manual"),
-    upgradeAtPowerCycle("upgradeAtPowerCycle");
+	manual("manual"),
+	upgradeAtPowerCycle("upgradeAtPowerCycle");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private UpgradePolicy(String val) {
-        this.val = val;
-    }
+	private UpgradePolicy(String val) {
+		this.val = val;
+	}
 }

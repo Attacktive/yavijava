@@ -21,14 +21,13 @@ package com.vmware.vim25;
  */
 
 public class StorageDrsHbrDiskNotMovable extends VimFault {
-    public String nonMovableDiskIds;
+	public String nonMovableDiskIds;
 
-    public String getNonMovableDiskIds() {
-        return nonMovableDiskIds;
-    }
+	public String getNonMovableDiskIds() {
+		return nonMovableDiskIds;
+	}
 
-    public void setNonMovableDiskIds(String nonMovableDiskIds) {
-        this.nonMovableDiskIds = nonMovableDiskIds;
-    }
-
+	public void setNonMovableDiskIds(String nonMovableDiskIds) {
+		this.nonMovableDiskIds = nonMovableDiskIds;
+	}
 }

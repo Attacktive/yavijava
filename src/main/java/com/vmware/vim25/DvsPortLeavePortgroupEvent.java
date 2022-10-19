@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsPortLeavePortgroupEvent extends DvsEvent {
-    public String portKey;
-    public String portgroupKey;
-    public String portgroupName;
+	public String portKey;
+	public String portgroupKey;
+	public String portgroupName;
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public String getPortgroupKey() {
-        return this.portgroupKey;
-    }
+	public String getPortgroupKey() {
+		return this.portgroupKey;
+	}
 
-    public String getPortgroupName() {
-        return this.portgroupName;
-    }
+	public String getPortgroupName() {
+		return this.portgroupName;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 
-    public void setPortgroupKey(String portgroupKey) {
-        this.portgroupKey = portgroupKey;
-    }
+	public void setPortgroupKey(String portgroupKey) {
+		this.portgroupKey = portgroupKey;
+	}
 
-    public void setPortgroupName(String portgroupName) {
-        this.portgroupName = portgroupName;
-    }
+	public void setPortgroupName(String portgroupName) {
+		this.portgroupName = portgroupName;
+	}
 }

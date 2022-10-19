@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSystemReconnectSpec extends DynamicData {
-    public Boolean syncState;
+	public Boolean syncState;
 
-    public Boolean getSyncState() {
-        return this.syncState;
-    }
+	public Boolean getSyncState() {
+		return this.syncState;
+	}
 
-    public void setSyncState(Boolean syncState) {
-        this.syncState = syncState;
-    }
+	public void setSyncState(Boolean syncState) {
+		this.syncState = syncState;
+	}
 }

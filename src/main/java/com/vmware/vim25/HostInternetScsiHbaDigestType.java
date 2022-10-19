@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostInternetScsiHbaDigestType {
-    digestProhibited("digestProhibited"),
-    digestDiscouraged("digestDiscouraged"),
-    digestPreferred("digestPreferred"),
-    digestRequired("digestRequired");
+	digestProhibited("digestProhibited"),
+	digestDiscouraged("digestDiscouraged"),
+	digestPreferred("digestPreferred"),
+	digestRequired("digestRequired");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostInternetScsiHbaDigestType(String val) {
-        this.val = val;
-    }
+	private HostInternetScsiHbaDigestType(String val) {
+		this.val = val;
+	}
 }

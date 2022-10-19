@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ServiceManagerServiceInfo extends DynamicData {
-    public String serviceName;
-    public String[] location;
-    public ManagedObjectReference service;
-    public String description;
+	public String serviceName;
+	public String[] location;
+	public ManagedObjectReference service;
+	public String description;
 
-    public String getServiceName() {
-        return this.serviceName;
-    }
+	public String getServiceName() {
+		return this.serviceName;
+	}
 
-    public String[] getLocation() {
-        return this.location;
-    }
+	public String[] getLocation() {
+		return this.location;
+	}
 
-    public ManagedObjectReference getService() {
-        return this.service;
-    }
+	public ManagedObjectReference getService() {
+		return this.service;
+	}
 
-    public String getDescription() {
-        return this.description;
-    }
+	public String getDescription() {
+		return this.description;
+	}
 
-    public void setServiceName(String serviceName) {
-        this.serviceName = serviceName;
-    }
+	public void setServiceName(String serviceName) {
+		this.serviceName = serviceName;
+	}
 
-    public void setLocation(String[] location) {
-        this.location = location;
-    }
+	public void setLocation(String[] location) {
+		this.location = location;
+	}
 
-    public void setService(ManagedObjectReference service) {
-        this.service = service;
-    }
+	public void setService(ManagedObjectReference service) {
+		this.service = service;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }

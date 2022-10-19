@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NoActiveHostInCluster extends InvalidState {
-    public ManagedObjectReference computeResource;
+	public ManagedObjectReference computeResource;
 
-    public ManagedObjectReference getComputeResource() {
-        return this.computeResource;
-    }
+	public ManagedObjectReference getComputeResource() {
+		return this.computeResource;
+	}
 
-    public void setComputeResource(ManagedObjectReference computeResource) {
-        this.computeResource = computeResource;
-    }
+	public void setComputeResource(ManagedObjectReference computeResource) {
+		this.computeResource = computeResource;
+	}
 }

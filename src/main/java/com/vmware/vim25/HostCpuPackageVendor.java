@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostCpuPackageVendor {
-    unknown("unknown"),
-    intel("intel"),
-    amd("amd");
+	unknown("unknown"),
+	intel("intel"),
+	amd("amd");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostCpuPackageVendor(String val) {
-        this.val = val;
-    }
+	private HostCpuPackageVendor(String val) {
+		this.val = val;
+	}
 }

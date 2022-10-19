@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAuthorizationPrivilege {
-    public AuthorizationPrivilege[] AuthorizationPrivilege;
+	public AuthorizationPrivilege[] AuthorizationPrivilege;
 
-    public AuthorizationPrivilege[] getAuthorizationPrivilege() {
-        return this.AuthorizationPrivilege;
-    }
+	public AuthorizationPrivilege[] getAuthorizationPrivilege() {
+		return this.AuthorizationPrivilege;
+	}
 
-    public AuthorizationPrivilege getAuthorizationPrivilege(int i) {
-        return this.AuthorizationPrivilege[i];
-    }
+	public AuthorizationPrivilege getAuthorizationPrivilege(int i) {
+		return this.AuthorizationPrivilege[i];
+	}
 
-    public void setAuthorizationPrivilege(AuthorizationPrivilege[] AuthorizationPrivilege) {
-        this.AuthorizationPrivilege = AuthorizationPrivilege;
-    }
+	public void setAuthorizationPrivilege(AuthorizationPrivilege[] AuthorizationPrivilege) {
+		this.AuthorizationPrivilege = AuthorizationPrivilege;
+	}
 }

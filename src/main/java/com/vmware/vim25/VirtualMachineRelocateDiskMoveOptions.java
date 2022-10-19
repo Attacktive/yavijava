@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineRelocateDiskMoveOptions {
-    moveAllDiskBackingsAndAllowSharing("moveAllDiskBackingsAndAllowSharing"),
-    moveAllDiskBackingsAndDisallowSharing("moveAllDiskBackingsAndDisallowSharing"),
-    moveChildMostDiskBacking("moveChildMostDiskBacking"),
-    createNewChildDiskBacking("createNewChildDiskBacking"),
-    moveAllDiskBackingsAndConsolidate("moveAllDiskBackingsAndConsolidate");
+	moveAllDiskBackingsAndAllowSharing("moveAllDiskBackingsAndAllowSharing"),
+	moveAllDiskBackingsAndDisallowSharing("moveAllDiskBackingsAndDisallowSharing"),
+	moveChildMostDiskBacking("moveChildMostDiskBacking"),
+	createNewChildDiskBacking("createNewChildDiskBacking"),
+	moveAllDiskBackingsAndConsolidate("moveAllDiskBackingsAndConsolidate");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineRelocateDiskMoveOptions(String val) {
-        this.val = val;
-    }
+	private VirtualMachineRelocateDiskMoveOptions(String val) {
+		this.val = val;
+	}
 }

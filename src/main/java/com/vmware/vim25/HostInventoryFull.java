@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostInventoryFull extends NotEnoughLicenses {
-    public int capacity;
+	public int capacity;
 
-    public int getCapacity() {
-        return this.capacity;
-    }
+	public int getCapacity() {
+		return this.capacity;
+	}
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
 }

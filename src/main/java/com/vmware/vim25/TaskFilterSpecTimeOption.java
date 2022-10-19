@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum TaskFilterSpecTimeOption {
-    queuedTime("queuedTime"),
-    startedTime("startedTime"),
-    completedTime("completedTime");
+	queuedTime("queuedTime"),
+	startedTime("startedTime"),
+	completedTime("completedTime");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private TaskFilterSpecTimeOption(String val) {
-        this.val = val;
-    }
+	private TaskFilterSpecTimeOption(String val) {
+		this.val = val;
+	}
 }

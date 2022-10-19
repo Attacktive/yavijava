@@ -29,9 +29,14 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.FileFault;
+import com.vmware.vim25.InvalidBundle;
+import com.vmware.vim25.InvalidState;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.MismatchedBundle;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -41,24 +46,23 @@ import java.rmi.RemoteException;
 
 public class HostFirmwareSystem extends ManagedObject {
 
-    public HostFirmwareSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostFirmwareSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public String backupFirmwareConfiguration() throws RuntimeFault, RemoteException {
-        return getVimService().backupFirmwareConfiguration(getMOR());
-    }
+	public String backupFirmwareConfiguration() throws RuntimeFault, RemoteException {
+		return getVimService().backupFirmwareConfiguration(getMOR());
+	}
 
-    public String queryFirmwareConfigUploadURL() throws RuntimeFault, RemoteException {
-        return getVimService().queryFirmwareConfigUploadURL(getMOR());
-    }
+	public String queryFirmwareConfigUploadURL() throws RuntimeFault, RemoteException {
+		return getVimService().queryFirmwareConfigUploadURL(getMOR());
+	}
 
-    public void resetFirmwareToFactoryDefaults() throws InvalidState, RuntimeFault, RemoteException {
-        getVimService().resetFirmwareToFactoryDefaults(getMOR());
-    }
+	public void resetFirmwareToFactoryDefaults() throws InvalidState, RuntimeFault, RemoteException {
+		getVimService().resetFirmwareToFactoryDefaults(getMOR());
+	}
 
-    public void restoreFirmwareConfiguration(boolean force) throws InvalidBundle, MismatchedBundle, FileFault, InvalidState, RuntimeFault, RemoteException {
-        getVimService().restoreFirmwareConfiguration(getMOR(), force);
-    }
-
+	public void restoreFirmwareConfiguration(boolean force) throws InvalidBundle, MismatchedBundle, FileFault, InvalidState, RuntimeFault, RemoteException {
+		getVimService().restoreFirmwareConfiguration(getMOR(), force);
+	}
 }

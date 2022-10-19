@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UserInputRequiredParameterMetadata extends ProfilePolicyOptionMetadata {
-    public ProfileParameterMetadata[] userInputParameter;
+	public ProfileParameterMetadata[] userInputParameter;
 
-    public ProfileParameterMetadata[] getUserInputParameter() {
-        return this.userInputParameter;
-    }
+	public ProfileParameterMetadata[] getUserInputParameter() {
+		return this.userInputParameter;
+	}
 
-    public void setUserInputParameter(ProfileParameterMetadata[] userInputParameter) {
-        this.userInputParameter = userInputParameter;
-    }
+	public void setUserInputParameter(ProfileParameterMetadata[] userInputParameter) {
+		this.userInputParameter = userInputParameter;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetIpConfigInfo extends DynamicData {
-    public NetIpConfigInfoIpAddress[] ipAddress;
-    public NetDhcpConfigInfo dhcp;
-    public Boolean autoConfigurationEnabled;
+	public NetIpConfigInfoIpAddress[] ipAddress;
+	public NetDhcpConfigInfo dhcp;
+	public Boolean autoConfigurationEnabled;
 
-    public NetIpConfigInfoIpAddress[] getIpAddress() {
-        return this.ipAddress;
-    }
+	public NetIpConfigInfoIpAddress[] getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public NetDhcpConfigInfo getDhcp() {
-        return this.dhcp;
-    }
+	public NetDhcpConfigInfo getDhcp() {
+		return this.dhcp;
+	}
 
-    public Boolean getAutoConfigurationEnabled() {
-        return this.autoConfigurationEnabled;
-    }
+	public Boolean getAutoConfigurationEnabled() {
+		return this.autoConfigurationEnabled;
+	}
 
-    public void setIpAddress(NetIpConfigInfoIpAddress[] ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(NetIpConfigInfoIpAddress[] ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setDhcp(NetDhcpConfigInfo dhcp) {
-        this.dhcp = dhcp;
-    }
+	public void setDhcp(NetDhcpConfigInfo dhcp) {
+		this.dhcp = dhcp;
+	}
 
-    public void setAutoConfigurationEnabled(Boolean autoConfigurationEnabled) {
-        this.autoConfigurationEnabled = autoConfigurationEnabled;
-    }
+	public void setAutoConfigurationEnabled(Boolean autoConfigurationEnabled) {
+		this.autoConfigurationEnabled = autoConfigurationEnabled;
+	}
 }

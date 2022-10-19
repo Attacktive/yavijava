@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NotSupportedHostInHACluster extends NotSupportedHost {
-    public String hostName;
-    public String build;
+	public String hostName;
+	public String build;
 
-    public String getHostName() {
-        return this.hostName;
-    }
+	public String getHostName() {
+		return this.hostName;
+	}
 
-    public String getBuild() {
-        return this.build;
-    }
+	public String getBuild() {
+		return this.build;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public void setBuild(String build) {
-        this.build = build;
-    }
+	public void setBuild(String build) {
+		this.build = build;
+	}
 }

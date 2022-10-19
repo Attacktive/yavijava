@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDVSHealthCheckCapability extends DVSHealthCheckCapability {
-    public boolean vlanMtuSupported;
-    public boolean teamingSupported;
+	public boolean vlanMtuSupported;
+	public boolean teamingSupported;
 
-    public boolean isVlanMtuSupported() {
-        return this.vlanMtuSupported;
-    }
+	public boolean isVlanMtuSupported() {
+		return this.vlanMtuSupported;
+	}
 
-    public boolean isTeamingSupported() {
-        return this.teamingSupported;
-    }
+	public boolean isTeamingSupported() {
+		return this.teamingSupported;
+	}
 
-    public void setVlanMtuSupported(boolean vlanMtuSupported) {
-        this.vlanMtuSupported = vlanMtuSupported;
-    }
+	public void setVlanMtuSupported(boolean vlanMtuSupported) {
+		this.vlanMtuSupported = vlanMtuSupported;
+	}
 
-    public void setTeamingSupported(boolean teamingSupported) {
-        this.teamingSupported = teamingSupported;
-    }
+	public void setTeamingSupported(boolean teamingSupported) {
+		this.teamingSupported = teamingSupported;
+	}
 }

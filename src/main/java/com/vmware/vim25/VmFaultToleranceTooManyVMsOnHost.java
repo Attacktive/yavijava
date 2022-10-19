@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmFaultToleranceTooManyVMsOnHost extends InsufficientResourcesFault {
-    public String hostName;
-    public int maxNumFtVms;
+	public String hostName;
+	public int maxNumFtVms;
 
-    public String getHostName() {
-        return this.hostName;
-    }
+	public String getHostName() {
+		return this.hostName;
+	}
 
-    public int getMaxNumFtVms() {
-        return this.maxNumFtVms;
-    }
+	public int getMaxNumFtVms() {
+		return this.maxNumFtVms;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public void setMaxNumFtVms(int maxNumFtVms) {
-        this.maxNumFtVms = maxNumFtVms;
-    }
+	public void setMaxNumFtVms(int maxNumFtVms) {
+		this.maxNumFtVms = maxNumFtVms;
+	}
 }

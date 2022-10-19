@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseAssignmentFailed extends RuntimeFault {
-    public String reason;
+	public String reason;
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSHostLocalPortInfo extends DynamicData {
-    public String switchUuid;
-    public String portKey;
-    public DVPortSetting setting;
-    public String vnic;
+	public String switchUuid;
+	public String portKey;
+	public DVPortSetting setting;
+	public String vnic;
 
-    public String getSwitchUuid() {
-        return this.switchUuid;
-    }
+	public String getSwitchUuid() {
+		return this.switchUuid;
+	}
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public DVPortSetting getSetting() {
-        return this.setting;
-    }
+	public DVPortSetting getSetting() {
+		return this.setting;
+	}
 
-    public String getVnic() {
-        return this.vnic;
-    }
+	public String getVnic() {
+		return this.vnic;
+	}
 
-    public void setSwitchUuid(String switchUuid) {
-        this.switchUuid = switchUuid;
-    }
+	public void setSwitchUuid(String switchUuid) {
+		this.switchUuid = switchUuid;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 
-    public void setSetting(DVPortSetting setting) {
-        this.setting = setting;
-    }
+	public void setSetting(DVPortSetting setting) {
+		this.setting = setting;
+	}
 
-    public void setVnic(String vnic) {
-        this.vnic = vnic;
-    }
+	public void setVnic(String vnic) {
+		this.vnic = vnic;
+	}
 }

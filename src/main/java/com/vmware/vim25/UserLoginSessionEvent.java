@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UserLoginSessionEvent extends SessionEvent {
-    public String ipAddress;
-    public String userAgent;
-    public String locale;
-    public String sessionId;
+	public String ipAddress;
+	public String userAgent;
+	public String locale;
+	public String sessionId;
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public String getUserAgent() {
-        return this.userAgent;
-    }
+	public String getUserAgent() {
+		return this.userAgent;
+	}
 
-    public String getLocale() {
-        return this.locale;
-    }
+	public String getLocale() {
+		return this.locale;
+	}
 
-    public String getSessionId() {
-        return this.sessionId;
-    }
+	public String getSessionId() {
+		return this.sessionId;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setUserAgent(String userAgent) {
-        this.userAgent = userAgent;
-    }
+	public void setUserAgent(String userAgent) {
+		this.userAgent = userAgent;
+	}
 
-    public void setLocale(String locale) {
-        this.locale = locale;
-    }
+	public void setLocale(String locale) {
+		this.locale = locale;
+	}
 
-    public void setSessionId(String sessionId) {
-        this.sessionId = sessionId;
-    }
+	public void setSessionId(String sessionId) {
+		this.sessionId = sessionId;
+	}
 }

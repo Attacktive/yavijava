@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfCpuCompatibility extends OvfImport {
-    public String registerName;
-    public int level;
-    public String registerValue;
-    public String desiredRegisterValue;
+	public String registerName;
+	public int level;
+	public String registerValue;
+	public String desiredRegisterValue;
 
-    public String getRegisterName() {
-        return this.registerName;
-    }
+	public String getRegisterName() {
+		return this.registerName;
+	}
 
-    public int getLevel() {
-        return this.level;
-    }
+	public int getLevel() {
+		return this.level;
+	}
 
-    public String getRegisterValue() {
-        return this.registerValue;
-    }
+	public String getRegisterValue() {
+		return this.registerValue;
+	}
 
-    public String getDesiredRegisterValue() {
-        return this.desiredRegisterValue;
-    }
+	public String getDesiredRegisterValue() {
+		return this.desiredRegisterValue;
+	}
 
-    public void setRegisterName(String registerName) {
-        this.registerName = registerName;
-    }
+	public void setRegisterName(String registerName) {
+		this.registerName = registerName;
+	}
 
-    public void setLevel(int level) {
-        this.level = level;
-    }
+	public void setLevel(int level) {
+		this.level = level;
+	}
 
-    public void setRegisterValue(String registerValue) {
-        this.registerValue = registerValue;
-    }
+	public void setRegisterValue(String registerValue) {
+		this.registerValue = registerValue;
+	}
 
-    public void setDesiredRegisterValue(String desiredRegisterValue) {
-        this.desiredRegisterValue = desiredRegisterValue;
-    }
+	public void setDesiredRegisterValue(String desiredRegisterValue) {
+		this.desiredRegisterValue = desiredRegisterValue;
+	}
 }

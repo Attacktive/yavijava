@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualSriovEthernetCardSriovBackingInfo extends VirtualDeviceBackingInfo {
-    public VirtualPCIPassthroughDeviceBackingInfo physicalFunctionBacking;
-    public VirtualPCIPassthroughDeviceBackingInfo virtualFunctionBacking;
-    public Integer virtualFunctionIndex;
+	public VirtualPCIPassthroughDeviceBackingInfo physicalFunctionBacking;
+	public VirtualPCIPassthroughDeviceBackingInfo virtualFunctionBacking;
+	public Integer virtualFunctionIndex;
 
-    public VirtualPCIPassthroughDeviceBackingInfo getPhysicalFunctionBacking() {
-        return this.physicalFunctionBacking;
-    }
+	public VirtualPCIPassthroughDeviceBackingInfo getPhysicalFunctionBacking() {
+		return this.physicalFunctionBacking;
+	}
 
-    public VirtualPCIPassthroughDeviceBackingInfo getVirtualFunctionBacking() {
-        return this.virtualFunctionBacking;
-    }
+	public VirtualPCIPassthroughDeviceBackingInfo getVirtualFunctionBacking() {
+		return this.virtualFunctionBacking;
+	}
 
-    public Integer getVirtualFunctionIndex() {
-        return this.virtualFunctionIndex;
-    }
+	public Integer getVirtualFunctionIndex() {
+		return this.virtualFunctionIndex;
+	}
 
-    public void setPhysicalFunctionBacking(VirtualPCIPassthroughDeviceBackingInfo physicalFunctionBacking) {
-        this.physicalFunctionBacking = physicalFunctionBacking;
-    }
+	public void setPhysicalFunctionBacking(VirtualPCIPassthroughDeviceBackingInfo physicalFunctionBacking) {
+		this.physicalFunctionBacking = physicalFunctionBacking;
+	}
 
-    public void setVirtualFunctionBacking(VirtualPCIPassthroughDeviceBackingInfo virtualFunctionBacking) {
-        this.virtualFunctionBacking = virtualFunctionBacking;
-    }
+	public void setVirtualFunctionBacking(VirtualPCIPassthroughDeviceBackingInfo virtualFunctionBacking) {
+		this.virtualFunctionBacking = virtualFunctionBacking;
+	}
 
-    public void setVirtualFunctionIndex(Integer virtualFunctionIndex) {
-        this.virtualFunctionIndex = virtualFunctionIndex;
-    }
+	public void setVirtualFunctionIndex(Integer virtualFunctionIndex) {
+		this.virtualFunctionIndex = virtualFunctionIndex;
+	}
 }

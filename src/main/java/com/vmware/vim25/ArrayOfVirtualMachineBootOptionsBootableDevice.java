@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineBootOptionsBootableDevice {
-    public VirtualMachineBootOptionsBootableDevice[] VirtualMachineBootOptionsBootableDevice;
+	public VirtualMachineBootOptionsBootableDevice[] VirtualMachineBootOptionsBootableDevice;
 
-    public VirtualMachineBootOptionsBootableDevice[] getVirtualMachineBootOptionsBootableDevice() {
-        return this.VirtualMachineBootOptionsBootableDevice;
-    }
+	public VirtualMachineBootOptionsBootableDevice[] getVirtualMachineBootOptionsBootableDevice() {
+		return this.VirtualMachineBootOptionsBootableDevice;
+	}
 
-    public VirtualMachineBootOptionsBootableDevice getVirtualMachineBootOptionsBootableDevice(int i) {
-        return this.VirtualMachineBootOptionsBootableDevice[i];
-    }
+	public VirtualMachineBootOptionsBootableDevice getVirtualMachineBootOptionsBootableDevice(int i) {
+		return this.VirtualMachineBootOptionsBootableDevice[i];
+	}
 
-    public void setVirtualMachineBootOptionsBootableDevice(VirtualMachineBootOptionsBootableDevice[] VirtualMachineBootOptionsBootableDevice) {
-        this.VirtualMachineBootOptionsBootableDevice = VirtualMachineBootOptionsBootableDevice;
-    }
+	public void setVirtualMachineBootOptionsBootableDevice(VirtualMachineBootOptionsBootableDevice[] VirtualMachineBootOptionsBootableDevice) {
+		this.VirtualMachineBootOptionsBootableDevice = VirtualMachineBootOptionsBootableDevice;
+	}
 }

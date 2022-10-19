@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVMotionInfo extends DynamicData {
-    public HostVMotionNetConfig netConfig;
-    public HostIpConfig ipConfig;
+	public HostVMotionNetConfig netConfig;
+	public HostIpConfig ipConfig;
 
-    public HostVMotionNetConfig getNetConfig() {
-        return this.netConfig;
-    }
+	public HostVMotionNetConfig getNetConfig() {
+		return this.netConfig;
+	}
 
-    public HostIpConfig getIpConfig() {
-        return this.ipConfig;
-    }
+	public HostIpConfig getIpConfig() {
+		return this.ipConfig;
+	}
 
-    public void setNetConfig(HostVMotionNetConfig netConfig) {
-        this.netConfig = netConfig;
-    }
+	public void setNetConfig(HostVMotionNetConfig netConfig) {
+		this.netConfig = netConfig;
+	}
 
-    public void setIpConfig(HostIpConfig ipConfig) {
-        this.ipConfig = ipConfig;
-    }
+	public void setIpConfig(HostIpConfig ipConfig) {
+		this.ipConfig = ipConfig;
+	}
 }

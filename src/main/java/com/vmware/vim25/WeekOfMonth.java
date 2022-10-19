@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum WeekOfMonth {
-    first("first"),
-    second("second"),
-    third("third"),
-    fourth("fourth"),
-    last("last");
+	first("first"),
+	second("second"),
+	third("third"),
+	fourth("fourth"),
+	last("last");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private WeekOfMonth(String val) {
-        this.val = val;
-    }
+	private WeekOfMonth(String val) {
+		this.val = val;
+	}
 }

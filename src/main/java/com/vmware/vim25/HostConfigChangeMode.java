@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostConfigChangeMode {
-    modify("modify"),
-    replace("replace");
+	modify("modify"),
+	replace("replace");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostConfigChangeMode(String val) {
-        this.val = val;
-    }
+	private HostConfigChangeMode(String val) {
+		this.val = val;
+	}
 }

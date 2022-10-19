@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPortGroup {
-    public HostPortGroup[] HostPortGroup;
+	public HostPortGroup[] HostPortGroup;
 
-    public HostPortGroup[] getHostPortGroup() {
-        return this.HostPortGroup;
-    }
+	public HostPortGroup[] getHostPortGroup() {
+		return this.HostPortGroup;
+	}
 
-    public HostPortGroup getHostPortGroup(int i) {
-        return this.HostPortGroup[i];
-    }
+	public HostPortGroup getHostPortGroup(int i) {
+		return this.HostPortGroup[i];
+	}
 
-    public void setHostPortGroup(HostPortGroup[] HostPortGroup) {
-        this.HostPortGroup = HostPortGroup;
-    }
+	public void setHostPortGroup(HostPortGroup[] HostPortGroup) {
+		this.HostPortGroup = HostPortGroup;
+	}
 }

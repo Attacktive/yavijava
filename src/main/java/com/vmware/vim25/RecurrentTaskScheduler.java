@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RecurrentTaskScheduler extends TaskScheduler {
-    public int interval;
+	public int interval;
 
-    public int getInterval() {
-        return this.interval;
-    }
+	public int getInterval() {
+		return this.interval;
+	}
 
-    public void setInterval(int interval) {
-        this.interval = interval;
-    }
+	public void setInterval(int interval) {
+		this.interval = interval;
+	}
 }

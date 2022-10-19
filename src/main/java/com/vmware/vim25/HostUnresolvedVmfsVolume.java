@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostUnresolvedVmfsVolume extends DynamicData {
-    public HostUnresolvedVmfsExtent[] extent;
-    public String vmfsLabel;
-    public String vmfsUuid;
-    public int totalBlocks;
-    public HostUnresolvedVmfsVolumeResolveStatus resolveStatus;
+	public HostUnresolvedVmfsExtent[] extent;
+	public String vmfsLabel;
+	public String vmfsUuid;
+	public int totalBlocks;
+	public HostUnresolvedVmfsVolumeResolveStatus resolveStatus;
 
-    public HostUnresolvedVmfsExtent[] getExtent() {
-        return this.extent;
-    }
+	public HostUnresolvedVmfsExtent[] getExtent() {
+		return this.extent;
+	}
 
-    public String getVmfsLabel() {
-        return this.vmfsLabel;
-    }
+	public String getVmfsLabel() {
+		return this.vmfsLabel;
+	}
 
-    public String getVmfsUuid() {
-        return this.vmfsUuid;
-    }
+	public String getVmfsUuid() {
+		return this.vmfsUuid;
+	}
 
-    public int getTotalBlocks() {
-        return this.totalBlocks;
-    }
+	public int getTotalBlocks() {
+		return this.totalBlocks;
+	}
 
-    public HostUnresolvedVmfsVolumeResolveStatus getResolveStatus() {
-        return this.resolveStatus;
-    }
+	public HostUnresolvedVmfsVolumeResolveStatus getResolveStatus() {
+		return this.resolveStatus;
+	}
 
-    public void setExtent(HostUnresolvedVmfsExtent[] extent) {
-        this.extent = extent;
-    }
+	public void setExtent(HostUnresolvedVmfsExtent[] extent) {
+		this.extent = extent;
+	}
 
-    public void setVmfsLabel(String vmfsLabel) {
-        this.vmfsLabel = vmfsLabel;
-    }
+	public void setVmfsLabel(String vmfsLabel) {
+		this.vmfsLabel = vmfsLabel;
+	}
 
-    public void setVmfsUuid(String vmfsUuid) {
-        this.vmfsUuid = vmfsUuid;
-    }
+	public void setVmfsUuid(String vmfsUuid) {
+		this.vmfsUuid = vmfsUuid;
+	}
 
-    public void setTotalBlocks(int totalBlocks) {
-        this.totalBlocks = totalBlocks;
-    }
+	public void setTotalBlocks(int totalBlocks) {
+		this.totalBlocks = totalBlocks;
+	}
 
-    public void setResolveStatus(HostUnresolvedVmfsVolumeResolveStatus resolveStatus) {
-        this.resolveStatus = resolveStatus;
-    }
+	public void setResolveStatus(HostUnresolvedVmfsVolumeResolveStatus resolveStatus) {
+		this.resolveStatus = resolveStatus;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDiagnosticPartition {
-    public HostDiagnosticPartition[] HostDiagnosticPartition;
+	public HostDiagnosticPartition[] HostDiagnosticPartition;
 
-    public HostDiagnosticPartition[] getHostDiagnosticPartition() {
-        return this.HostDiagnosticPartition;
-    }
+	public HostDiagnosticPartition[] getHostDiagnosticPartition() {
+		return this.HostDiagnosticPartition;
+	}
 
-    public HostDiagnosticPartition getHostDiagnosticPartition(int i) {
-        return this.HostDiagnosticPartition[i];
-    }
+	public HostDiagnosticPartition getHostDiagnosticPartition(int i) {
+		return this.HostDiagnosticPartition[i];
+	}
 
-    public void setHostDiagnosticPartition(HostDiagnosticPartition[] HostDiagnosticPartition) {
-        this.HostDiagnosticPartition = HostDiagnosticPartition;
-    }
+	public void setHostDiagnosticPartition(HostDiagnosticPartition[] HostDiagnosticPartition) {
+		this.HostDiagnosticPartition = HostDiagnosticPartition;
+	}
 }

@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostHardwareElementStatus {
-    Unknown("Unknown"),
-    Green("Green"),
-    Yellow("Yellow"),
-    Red("Red");
+	Unknown("Unknown"),
+	Green("Green"),
+	Yellow("Yellow"),
+	Red("Red");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostHardwareElementStatus(String val) {
-        this.val = val;
-    }
+	private HostHardwareElementStatus(String val) {
+		this.val = val;
+	}
 }

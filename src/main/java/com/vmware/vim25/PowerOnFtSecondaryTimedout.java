@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PowerOnFtSecondaryTimedout extends Timedout {
-    public ManagedObjectReference vm;
-    public String vmName;
-    public int timeout;
+	public ManagedObjectReference vm;
+	public String vmName;
+	public int timeout;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public int getTimeout() {
-        return this.timeout;
-    }
+	public int getTimeout() {
+		return this.timeout;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 
-    public void setTimeout(int timeout) {
-        this.timeout = timeout;
-    }
+	public void setTimeout(int timeout) {
+		this.timeout = timeout;
+	}
 }

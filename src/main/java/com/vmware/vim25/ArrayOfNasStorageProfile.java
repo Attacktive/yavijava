@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNasStorageProfile {
-    public NasStorageProfile[] NasStorageProfile;
+	public NasStorageProfile[] NasStorageProfile;
 
-    public NasStorageProfile[] getNasStorageProfile() {
-        return this.NasStorageProfile;
-    }
+	public NasStorageProfile[] getNasStorageProfile() {
+		return this.NasStorageProfile;
+	}
 
-    public NasStorageProfile getNasStorageProfile(int i) {
-        return this.NasStorageProfile[i];
-    }
+	public NasStorageProfile getNasStorageProfile(int i) {
+		return this.NasStorageProfile[i];
+	}
 
-    public void setNasStorageProfile(NasStorageProfile[] NasStorageProfile) {
-        this.NasStorageProfile = NasStorageProfile;
-    }
+	public void setNasStorageProfile(NasStorageProfile[] NasStorageProfile) {
+		this.NasStorageProfile = NasStorageProfile;
+	}
 }

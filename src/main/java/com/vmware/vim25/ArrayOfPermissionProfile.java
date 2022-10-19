@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPermissionProfile {
-    public PermissionProfile[] PermissionProfile;
+	public PermissionProfile[] PermissionProfile;
 
-    public PermissionProfile[] getPermissionProfile() {
-        return this.PermissionProfile;
-    }
+	public PermissionProfile[] getPermissionProfile() {
+		return this.PermissionProfile;
+	}
 
-    public PermissionProfile getPermissionProfile(int i) {
-        return this.PermissionProfile[i];
-    }
+	public PermissionProfile getPermissionProfile(int i) {
+		return this.PermissionProfile[i];
+	}
 
-    public void setPermissionProfile(PermissionProfile[] PermissionProfile) {
-        this.PermissionProfile = PermissionProfile;
-    }
+	public void setPermissionProfile(PermissionProfile[] PermissionProfile) {
+		this.PermissionProfile = PermissionProfile;
+	}
 }

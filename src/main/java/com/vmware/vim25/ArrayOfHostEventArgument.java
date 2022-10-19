@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostEventArgument {
-    public HostEventArgument[] HostEventArgument;
+	public HostEventArgument[] HostEventArgument;
 
-    public HostEventArgument[] getHostEventArgument() {
-        return this.HostEventArgument;
-    }
+	public HostEventArgument[] getHostEventArgument() {
+		return this.HostEventArgument;
+	}
 
-    public HostEventArgument getHostEventArgument(int i) {
-        return this.HostEventArgument[i];
-    }
+	public HostEventArgument getHostEventArgument(int i) {
+		return this.HostEventArgument[i];
+	}
 
-    public void setHostEventArgument(HostEventArgument[] HostEventArgument) {
-        this.HostEventArgument = HostEventArgument;
-    }
+	public void setHostEventArgument(HostEventArgument[] HostEventArgument) {
+		this.HostEventArgument = HostEventArgument;
+	}
 }

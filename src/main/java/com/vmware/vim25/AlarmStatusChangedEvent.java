@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmStatusChangedEvent extends AlarmEvent {
-    public ManagedEntityEventArgument source;
-    public ManagedEntityEventArgument entity;
-    public String from;
-    public String to;
+	public ManagedEntityEventArgument source;
+	public ManagedEntityEventArgument entity;
+	public String from;
+	public String to;
 
-    public ManagedEntityEventArgument getSource() {
-        return this.source;
-    }
+	public ManagedEntityEventArgument getSource() {
+		return this.source;
+	}
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public String getFrom() {
-        return this.from;
-    }
+	public String getFrom() {
+		return this.from;
+	}
 
-    public String getTo() {
-        return this.to;
-    }
+	public String getTo() {
+		return this.to;
+	}
 
-    public void setSource(ManagedEntityEventArgument source) {
-        this.source = source;
-    }
+	public void setSource(ManagedEntityEventArgument source) {
+		this.source = source;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 
-    public void setFrom(String from) {
-        this.from = from;
-    }
+	public void setFrom(String from) {
+		this.from = from;
+	}
 
-    public void setTo(String to) {
-        this.to = to;
-    }
+	public void setTo(String to) {
+		this.to = to;
+	}
 }

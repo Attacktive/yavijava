@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class BoolPolicy extends InheritablePolicy {
-    public Boolean value;
+	public Boolean value;
 
-    public Boolean getValue() {
-        return this.value;
-    }
+	public Boolean getValue() {
+		return this.value;
+	}
 
-    public void setValue(Boolean value) {
-        this.value = value;
-    }
+	public void setValue(Boolean value) {
+		this.value = value;
+	}
 }

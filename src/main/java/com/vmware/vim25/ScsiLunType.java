@@ -35,24 +35,24 @@ package com.vmware.vim25;
  */
 
 public enum ScsiLunType {
-    disk("disk"),
-    tape("tape"),
-    printer("printer"),
-    processor("processor"),
-    worm("worm"),
-    cdrom("cdrom"),
-    scanner("scanner"),
-    opticalDevice("opticalDevice"),
-    mediaChanger("mediaChanger"),
-    communications("communications"),
-    storageArrayController("storageArrayController"),
-    enclosure("enclosure"),
-    unknown("unknown");
+	disk("disk"),
+	tape("tape"),
+	printer("printer"),
+	processor("processor"),
+	worm("worm"),
+	cdrom("cdrom"),
+	scanner("scanner"),
+	opticalDevice("opticalDevice"),
+	mediaChanger("mediaChanger"),
+	communications("communications"),
+	storageArrayController("storageArrayController"),
+	enclosure("enclosure"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScsiLunType(String val) {
-        this.val = val;
-    }
+	private ScsiLunType(String val) {
+		this.val = val;
+	}
 }

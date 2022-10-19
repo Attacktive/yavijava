@@ -35,24 +35,24 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskType {
-    preallocated("preallocated"),
-    thin("thin"),
-    seSparse("seSparse"),
-    rdm("rdm"),
-    rdmp("rdmp"),
-    raw("raw"),
-    delta("delta"),
-    sparse2Gb("sparse2Gb"),
-    thick2Gb("thick2Gb"),
-    eagerZeroedThick("eagerZeroedThick"),
-    sparseMonolithic("sparseMonolithic"),
-    flatMonolithic("flatMonolithic"),
-    thick("thick");
+	preallocated("preallocated"),
+	thin("thin"),
+	seSparse("seSparse"),
+	rdm("rdm"),
+	rdmp("rdmp"),
+	raw("raw"),
+	delta("delta"),
+	sparse2Gb("sparse2Gb"),
+	thick2Gb("thick2Gb"),
+	eagerZeroedThick("eagerZeroedThick"),
+	sparseMonolithic("sparseMonolithic"),
+	flatMonolithic("flatMonolithic"),
+	thick("thick");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskType(String val) {
-        this.val = val;
-    }
+	private VirtualDiskType(String val) {
+		this.val = val;
+	}
 }

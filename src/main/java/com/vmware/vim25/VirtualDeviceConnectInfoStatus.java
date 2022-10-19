@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDeviceConnectInfoStatus {
-    ok("ok"),
-    recoverableError("recoverableError"),
-    unrecoverableError("unrecoverableError"),
-    untried("untried");
+	ok("ok"),
+	recoverableError("recoverableError"),
+	unrecoverableError("unrecoverableError"),
+	untried("untried");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDeviceConnectInfoStatus(String val) {
-        this.val = val;
-    }
+	private VirtualDeviceConnectInfoStatus(String val) {
+		this.val = val;
+	}
 }

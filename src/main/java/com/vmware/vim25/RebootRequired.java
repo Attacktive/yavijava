@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RebootRequired extends VimFault {
-    public String patch;
+	public String patch;
 
-    public String getPatch() {
-        return this.patch;
-    }
+	public String getPatch() {
+		return this.patch;
+	}
 
-    public void setPatch(String patch) {
-        this.patch = patch;
-    }
+	public void setPatch(String patch) {
+		this.patch = patch;
+	}
 }

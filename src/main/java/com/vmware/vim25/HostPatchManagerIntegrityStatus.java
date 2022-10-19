@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum HostPatchManagerIntegrityStatus {
-    validated("validated"),
-    keyNotFound("keyNotFound"),
-    keyRevoked("keyRevoked"),
-    keyExpired("keyExpired"),
-    digestMismatch("digestMismatch"),
-    notEnoughSignatures("notEnoughSignatures"),
-    validationError("validationError");
+	validated("validated"),
+	keyNotFound("keyNotFound"),
+	keyRevoked("keyRevoked"),
+	keyExpired("keyExpired"),
+	digestMismatch("digestMismatch"),
+	notEnoughSignatures("notEnoughSignatures"),
+	validationError("validationError");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostPatchManagerIntegrityStatus(String val) {
-        this.val = val;
-    }
+	private HostPatchManagerIntegrityStatus(String val) {
+		this.val = val;
+	}
 }

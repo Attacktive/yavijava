@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmRestartedOnAlternateHostEvent extends VmPoweredOnEvent {
-    public HostEventArgument sourceHost;
+	public HostEventArgument sourceHost;
 
-    public HostEventArgument getSourceHost() {
-        return this.sourceHost;
-    }
+	public HostEventArgument getSourceHost() {
+		return this.sourceHost;
+	}
 
-    public void setSourceHost(HostEventArgument sourceHost) {
-        this.sourceHost = sourceHost;
-    }
+	public void setSourceHost(HostEventArgument sourceHost) {
+		this.sourceHost = sourceHost;
+	}
 }

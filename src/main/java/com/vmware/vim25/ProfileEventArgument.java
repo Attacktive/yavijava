@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileEventArgument extends EventArgument {
-    public ManagedObjectReference profile;
-    public String name;
+	public ManagedObjectReference profile;
+	public String name;
 
-    public ManagedObjectReference getProfile() {
-        return this.profile;
-    }
+	public ManagedObjectReference getProfile() {
+		return this.profile;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public void setProfile(ManagedObjectReference profile) {
-        this.profile = profile;
-    }
+	public void setProfile(ManagedObjectReference profile) {
+		this.profile = profile;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 }

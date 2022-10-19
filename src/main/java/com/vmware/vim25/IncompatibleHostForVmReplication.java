@@ -21,34 +21,33 @@ package com.vmware.vim25;
  */
 
 public class IncompatibleHostForVmReplication extends ReplicationFault {
-    public String vmName;
+	public String vmName;
 
-    public String hostName;
+	public String hostName;
 
-    public String reason;
+	public String reason;
 
-    public String getVmName() {
-        return vmName;
-    }
+	public String getVmName() {
+		return vmName;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public String getReason() {
-        return reason;
-    }
+	public String getReason() {
+		return reason;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
-
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskDescription extends DynamicData {
-    public ElementDescription[] methodInfo;
-    public ElementDescription[] state;
-    public TypeDescription[] reason;
+	public ElementDescription[] methodInfo;
+	public ElementDescription[] state;
+	public TypeDescription[] reason;
 
-    public ElementDescription[] getMethodInfo() {
-        return this.methodInfo;
-    }
+	public ElementDescription[] getMethodInfo() {
+		return this.methodInfo;
+	}
 
-    public ElementDescription[] getState() {
-        return this.state;
-    }
+	public ElementDescription[] getState() {
+		return this.state;
+	}
 
-    public TypeDescription[] getReason() {
-        return this.reason;
-    }
+	public TypeDescription[] getReason() {
+		return this.reason;
+	}
 
-    public void setMethodInfo(ElementDescription[] methodInfo) {
-        this.methodInfo = methodInfo;
-    }
+	public void setMethodInfo(ElementDescription[] methodInfo) {
+		this.methodInfo = methodInfo;
+	}
 
-    public void setState(ElementDescription[] state) {
-        this.state = state;
-    }
+	public void setState(ElementDescription[] state) {
+		this.state = state;
+	}
 
-    public void setReason(TypeDescription[] reason) {
-        this.reason = reason;
-    }
+	public void setReason(TypeDescription[] reason) {
+		this.reason = reason;
+	}
 }

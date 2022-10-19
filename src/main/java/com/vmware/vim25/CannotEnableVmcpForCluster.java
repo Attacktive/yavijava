@@ -21,34 +21,33 @@ package com.vmware.vim25;
  */
 
 public class CannotEnableVmcpForCluster extends VimFault {
-    public ManagedObjectReference host;
+	public ManagedObjectReference host;
 
-    public String hostName;
+	public String hostName;
 
-    public String reason;
+	public String reason;
 
-    public ManagedObjectReference getHost() {
-        return host;
-    }
+	public ManagedObjectReference getHost() {
+		return host;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public String getReason() {
-        return reason;
-    }
+	public String getReason() {
+		return reason;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
-
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 }

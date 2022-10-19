@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVmciAccessManagerAccessSpec extends DynamicData {
-    public ManagedObjectReference vm;
-    public String[] services;
-    public String mode;
+	public ManagedObjectReference vm;
+	public String[] services;
+	public String mode;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public String[] getServices() {
-        return this.services;
-    }
+	public String[] getServices() {
+		return this.services;
+	}
 
-    public String getMode() {
-        return this.mode;
-    }
+	public String getMode() {
+		return this.mode;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setServices(String[] services) {
-        this.services = services;
-    }
+	public void setServices(String[] services) {
+		this.services = services;
+	}
 
-    public void setMode(String mode) {
-        this.mode = mode;
-    }
+	public void setMode(String mode) {
+		this.mode = mode;
+	}
 }

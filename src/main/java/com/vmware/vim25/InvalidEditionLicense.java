@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidEditionLicense extends NotEnoughLicenses {
-    public String feature;
+	public String feature;
 
-    public String getFeature() {
-        return this.feature;
-    }
+	public String getFeature() {
+		return this.feature;
+	}
 
-    public void setFeature(String feature) {
-        this.feature = feature;
-    }
+	public void setFeature(String feature) {
+		this.feature = feature;
+	}
 }

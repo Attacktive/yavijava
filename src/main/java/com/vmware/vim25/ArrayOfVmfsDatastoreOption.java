@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVmfsDatastoreOption {
-    public VmfsDatastoreOption[] VmfsDatastoreOption;
+	public VmfsDatastoreOption[] VmfsDatastoreOption;
 
-    public VmfsDatastoreOption[] getVmfsDatastoreOption() {
-        return this.VmfsDatastoreOption;
-    }
+	public VmfsDatastoreOption[] getVmfsDatastoreOption() {
+		return this.VmfsDatastoreOption;
+	}
 
-    public VmfsDatastoreOption getVmfsDatastoreOption(int i) {
-        return this.VmfsDatastoreOption[i];
-    }
+	public VmfsDatastoreOption getVmfsDatastoreOption(int i) {
+		return this.VmfsDatastoreOption[i];
+	}
 
-    public void setVmfsDatastoreOption(VmfsDatastoreOption[] VmfsDatastoreOption) {
-        this.VmfsDatastoreOption = VmfsDatastoreOption;
-    }
+	public void setVmfsDatastoreOption(VmfsDatastoreOption[] VmfsDatastoreOption) {
+		this.VmfsDatastoreOption = VmfsDatastoreOption;
+	}
 }

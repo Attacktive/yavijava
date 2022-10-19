@@ -34,12 +34,12 @@ package com.vmware.vim25;
  */
 
 public enum FileManagerFileType {
-    File("File"),
-    VirtualDisk("VirtualDisk");
+	File("File"),
+	VirtualDisk("VirtualDisk");
 
-    private final String val;
+	private final String val;
 
-    private FileManagerFileType(String val) {
-        this.val = val;
-    }
+	private FileManagerFileType(String val) {
+		this.val = val;
+	}
 }

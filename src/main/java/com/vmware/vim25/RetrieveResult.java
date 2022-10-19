@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RetrieveResult extends DynamicData {
-    public String token;
-    public ObjectContent[] objects;
+	public String token;
+	public ObjectContent[] objects;
 
-    public String getToken() {
-        return this.token;
-    }
+	public String getToken() {
+		return this.token;
+	}
 
-    public ObjectContent[] getObjects() {
-        return this.objects;
-    }
+	public ObjectContent[] getObjects() {
+		return this.objects;
+	}
 
-    public void setToken(String token) {
-        this.token = token;
-    }
+	public void setToken(String token) {
+		this.token = token;
+	}
 
-    public void setObjects(ObjectContent[] objects) {
-        this.objects = objects;
-    }
+	public void setObjects(ObjectContent[] objects) {
+		this.objects = objects;
+	}
 }

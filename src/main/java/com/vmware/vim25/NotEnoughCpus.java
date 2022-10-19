@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NotEnoughCpus extends VirtualHardwareCompatibilityIssue {
-    public int numCpuDest;
-    public int numCpuVm;
+	public int numCpuDest;
+	public int numCpuVm;
 
-    public int getNumCpuDest() {
-        return this.numCpuDest;
-    }
+	public int getNumCpuDest() {
+		return this.numCpuDest;
+	}
 
-    public int getNumCpuVm() {
-        return this.numCpuVm;
-    }
+	public int getNumCpuVm() {
+		return this.numCpuVm;
+	}
 
-    public void setNumCpuDest(int numCpuDest) {
-        this.numCpuDest = numCpuDest;
-    }
+	public void setNumCpuDest(int numCpuDest) {
+		this.numCpuDest = numCpuDest;
+	}
 
-    public void setNumCpuVm(int numCpuVm) {
-        this.numCpuVm = numCpuVm;
-    }
+	public void setNumCpuVm(int numCpuVm) {
+		this.numCpuVm = numCpuVm;
+	}
 }

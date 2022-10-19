@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfilePropertyPath extends DynamicData {
-    public String profilePath;
-    public String policyId;
-    public String parameterId;
+	public String profilePath;
+	public String policyId;
+	public String parameterId;
 
-    public String getProfilePath() {
-        return this.profilePath;
-    }
+	public String getProfilePath() {
+		return this.profilePath;
+	}
 
-    public String getPolicyId() {
-        return this.policyId;
-    }
+	public String getPolicyId() {
+		return this.policyId;
+	}
 
-    public String getParameterId() {
-        return this.parameterId;
-    }
+	public String getParameterId() {
+		return this.parameterId;
+	}
 
-    public void setProfilePath(String profilePath) {
-        this.profilePath = profilePath;
-    }
+	public void setProfilePath(String profilePath) {
+		this.profilePath = profilePath;
+	}
 
-    public void setPolicyId(String policyId) {
-        this.policyId = policyId;
-    }
+	public void setPolicyId(String policyId) {
+		this.policyId = policyId;
+	}
 
-    public void setParameterId(String parameterId) {
-        this.parameterId = parameterId;
-    }
+	public void setParameterId(String parameterId) {
+		this.parameterId = parameterId;
+	}
 }

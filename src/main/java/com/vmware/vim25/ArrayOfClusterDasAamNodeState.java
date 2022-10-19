@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDasAamNodeState {
-    public ClusterDasAamNodeState[] ClusterDasAamNodeState;
+	public ClusterDasAamNodeState[] ClusterDasAamNodeState;
 
-    public ClusterDasAamNodeState[] getClusterDasAamNodeState() {
-        return this.ClusterDasAamNodeState;
-    }
+	public ClusterDasAamNodeState[] getClusterDasAamNodeState() {
+		return this.ClusterDasAamNodeState;
+	}
 
-    public ClusterDasAamNodeState getClusterDasAamNodeState(int i) {
-        return this.ClusterDasAamNodeState[i];
-    }
+	public ClusterDasAamNodeState getClusterDasAamNodeState(int i) {
+		return this.ClusterDasAamNodeState[i];
+	}
 
-    public void setClusterDasAamNodeState(ClusterDasAamNodeState[] ClusterDasAamNodeState) {
-        this.ClusterDasAamNodeState = ClusterDasAamNodeState;
-    }
+	public void setClusterDasAamNodeState(ClusterDasAamNodeState[] ClusterDasAamNodeState) {
+		this.ClusterDasAamNodeState = ClusterDasAamNodeState;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum ClusterPowerOnVmOption {
-    OverrideAutomationLevel("OverrideAutomationLevel"),
-    ReserveResources("ReserveResources");
+	OverrideAutomationLevel("OverrideAutomationLevel"),
+	ReserveResources("ReserveResources");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterPowerOnVmOption(String val) {
-        this.val = val;
-    }
+	private ClusterPowerOnVmOption(String val) {
+		this.val = val;
+	}
 }

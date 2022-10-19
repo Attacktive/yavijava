@@ -35,19 +35,19 @@ package com.vmware.vim25;
  */
 
 public enum ScsiLunState {
-    unknownState("unknownState"),
-    ok("ok"),
-    error("error"),
-    off("off"),
-    quiesced("quiesced"),
-    degraded("degraded"),
-    lostCommunication("lostCommunication"),
-    timeout("timeout");
+	unknownState("unknownState"),
+	ok("ok"),
+	error("error"),
+	off("off"),
+	quiesced("quiesced"),
+	degraded("degraded"),
+	lostCommunication("lostCommunication"),
+	timeout("timeout");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScsiLunState(String val) {
-        this.val = val;
-    }
+	private ScsiLunState(String val) {
+		this.val = val;
+	}
 }

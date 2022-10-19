@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IscsiDependencyEntity extends DynamicData {
-    public String pnicDevice;
-    public String vnicDevice;
-    public String vmhbaName;
+	public String pnicDevice;
+	public String vnicDevice;
+	public String vmhbaName;
 
-    public String getPnicDevice() {
-        return this.pnicDevice;
-    }
+	public String getPnicDevice() {
+		return this.pnicDevice;
+	}
 
-    public String getVnicDevice() {
-        return this.vnicDevice;
-    }
+	public String getVnicDevice() {
+		return this.vnicDevice;
+	}
 
-    public String getVmhbaName() {
-        return this.vmhbaName;
-    }
+	public String getVmhbaName() {
+		return this.vmhbaName;
+	}
 
-    public void setPnicDevice(String pnicDevice) {
-        this.pnicDevice = pnicDevice;
-    }
+	public void setPnicDevice(String pnicDevice) {
+		this.pnicDevice = pnicDevice;
+	}
 
-    public void setVnicDevice(String vnicDevice) {
-        this.vnicDevice = vnicDevice;
-    }
+	public void setVnicDevice(String vnicDevice) {
+		this.vnicDevice = vnicDevice;
+	}
 
-    public void setVmhbaName(String vmhbaName) {
-        this.vmhbaName = vmhbaName;
-    }
+	public void setVmhbaName(String vmhbaName) {
+		this.vmhbaName = vmhbaName;
+	}
 }

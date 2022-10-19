@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LongOption extends OptionType {
-    public long min;
-    public long max;
-    public long defaultValue;
+	public long min;
+	public long max;
+	public long defaultValue;
 
-    public long getMin() {
-        return this.min;
-    }
+	public long getMin() {
+		return this.min;
+	}
 
-    public long getMax() {
-        return this.max;
-    }
+	public long getMax() {
+		return this.max;
+	}
 
-    public long getDefaultValue() {
-        return this.defaultValue;
-    }
+	public long getDefaultValue() {
+		return this.defaultValue;
+	}
 
-    public void setMin(long min) {
-        this.min = min;
-    }
+	public void setMin(long min) {
+		this.min = min;
+	}
 
-    public void setMax(long max) {
-        this.max = max;
-    }
+	public void setMax(long max) {
+		this.max = max;
+	}
 
-    public void setDefaultValue(long defaultValue) {
-        this.defaultValue = defaultValue;
-    }
+	public void setDefaultValue(long defaultValue) {
+		this.defaultValue = defaultValue;
+	}
 }

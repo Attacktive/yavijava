@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFirewallDefaultPolicy extends DynamicData {
-    public Boolean incomingBlocked;
-    public Boolean outgoingBlocked;
+	public Boolean incomingBlocked;
+	public Boolean outgoingBlocked;
 
-    public Boolean getIncomingBlocked() {
-        return this.incomingBlocked;
-    }
+	public Boolean getIncomingBlocked() {
+		return this.incomingBlocked;
+	}
 
-    public Boolean getOutgoingBlocked() {
-        return this.outgoingBlocked;
-    }
+	public Boolean getOutgoingBlocked() {
+		return this.outgoingBlocked;
+	}
 
-    public void setIncomingBlocked(Boolean incomingBlocked) {
-        this.incomingBlocked = incomingBlocked;
-    }
+	public void setIncomingBlocked(Boolean incomingBlocked) {
+		this.incomingBlocked = incomingBlocked;
+	}
 
-    public void setOutgoingBlocked(Boolean outgoingBlocked) {
-        this.outgoingBlocked = outgoingBlocked;
-    }
+	public void setOutgoingBlocked(Boolean outgoingBlocked) {
+		this.outgoingBlocked = outgoingBlocked;
+	}
 }

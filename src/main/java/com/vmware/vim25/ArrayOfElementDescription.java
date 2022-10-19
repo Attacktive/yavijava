@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfElementDescription {
-    public ElementDescription[] ElementDescription;
+	public ElementDescription[] ElementDescription;
 
-    public ElementDescription[] getElementDescription() {
-        return this.ElementDescription;
-    }
+	public ElementDescription[] getElementDescription() {
+		return this.ElementDescription;
+	}
 
-    public ElementDescription getElementDescription(int i) {
-        return this.ElementDescription[i];
-    }
+	public ElementDescription getElementDescription(int i) {
+		return this.ElementDescription[i];
+	}
 
-    public void setElementDescription(ElementDescription[] ElementDescription) {
-        this.ElementDescription = ElementDescription;
-    }
+	public void setElementDescription(ElementDescription[] ElementDescription) {
+		this.ElementDescription = ElementDescription;
+	}
 }

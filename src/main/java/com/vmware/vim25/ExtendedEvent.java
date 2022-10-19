@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtendedEvent extends GeneralEvent {
-    public String eventTypeId;
-    public ManagedObjectReference managedObject;
-    public ExtendedEventPair[] data;
+	public String eventTypeId;
+	public ManagedObjectReference managedObject;
+	public ExtendedEventPair[] data;
 
-    public String getEventTypeId() {
-        return this.eventTypeId;
-    }
+	public String getEventTypeId() {
+		return this.eventTypeId;
+	}
 
-    public ManagedObjectReference getManagedObject() {
-        return this.managedObject;
-    }
+	public ManagedObjectReference getManagedObject() {
+		return this.managedObject;
+	}
 
-    public ExtendedEventPair[] getData() {
-        return this.data;
-    }
+	public ExtendedEventPair[] getData() {
+		return this.data;
+	}
 
-    public void setEventTypeId(String eventTypeId) {
-        this.eventTypeId = eventTypeId;
-    }
+	public void setEventTypeId(String eventTypeId) {
+		this.eventTypeId = eventTypeId;
+	}
 
-    public void setManagedObject(ManagedObjectReference managedObject) {
-        this.managedObject = managedObject;
-    }
+	public void setManagedObject(ManagedObjectReference managedObject) {
+		this.managedObject = managedObject;
+	}
 
-    public void setData(ExtendedEventPair[] data) {
-        this.data = data;
-    }
+	public void setData(ExtendedEventPair[] data) {
+		this.data = data;
+	}
 }

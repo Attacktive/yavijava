@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostNatServicePortForwardSpec {
-    public HostNatServicePortForwardSpec[] HostNatServicePortForwardSpec;
+	public HostNatServicePortForwardSpec[] HostNatServicePortForwardSpec;
 
-    public HostNatServicePortForwardSpec[] getHostNatServicePortForwardSpec() {
-        return this.HostNatServicePortForwardSpec;
-    }
+	public HostNatServicePortForwardSpec[] getHostNatServicePortForwardSpec() {
+		return this.HostNatServicePortForwardSpec;
+	}
 
-    public HostNatServicePortForwardSpec getHostNatServicePortForwardSpec(int i) {
-        return this.HostNatServicePortForwardSpec[i];
-    }
+	public HostNatServicePortForwardSpec getHostNatServicePortForwardSpec(int i) {
+		return this.HostNatServicePortForwardSpec[i];
+	}
 
-    public void setHostNatServicePortForwardSpec(HostNatServicePortForwardSpec[] HostNatServicePortForwardSpec) {
-        this.HostNatServicePortForwardSpec = HostNatServicePortForwardSpec;
-    }
+	public void setHostNatServicePortForwardSpec(HostNatServicePortForwardSpec[] HostNatServicePortForwardSpec) {
+		this.HostNatServicePortForwardSpec = HostNatServicePortForwardSpec;
+	}
 }

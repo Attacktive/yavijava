@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterHostGroup extends ClusterGroupInfo {
-    public ManagedObjectReference[] host;
+	public ManagedObjectReference[] host;
 
-    public ManagedObjectReference[] getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference[] getHost() {
+		return this.host;
+	}
 
-    public void setHost(ManagedObjectReference[] host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference[] host) {
+		this.host = host;
+	}
 }

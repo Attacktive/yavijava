@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterFailoverResourcesAdmissionControlPolicy extends ClusterDasAdmissionControlPolicy {
-    public int cpuFailoverResourcesPercent;
-    public int memoryFailoverResourcesPercent;
+	public int cpuFailoverResourcesPercent;
+	public int memoryFailoverResourcesPercent;
 
-    public int getCpuFailoverResourcesPercent() {
-        return this.cpuFailoverResourcesPercent;
-    }
+	public int getCpuFailoverResourcesPercent() {
+		return this.cpuFailoverResourcesPercent;
+	}
 
-    public int getMemoryFailoverResourcesPercent() {
-        return this.memoryFailoverResourcesPercent;
-    }
+	public int getMemoryFailoverResourcesPercent() {
+		return this.memoryFailoverResourcesPercent;
+	}
 
-    public void setCpuFailoverResourcesPercent(int cpuFailoverResourcesPercent) {
-        this.cpuFailoverResourcesPercent = cpuFailoverResourcesPercent;
-    }
+	public void setCpuFailoverResourcesPercent(int cpuFailoverResourcesPercent) {
+		this.cpuFailoverResourcesPercent = cpuFailoverResourcesPercent;
+	}
 
-    public void setMemoryFailoverResourcesPercent(int memoryFailoverResourcesPercent) {
-        this.memoryFailoverResourcesPercent = memoryFailoverResourcesPercent;
-    }
+	public void setMemoryFailoverResourcesPercent(int memoryFailoverResourcesPercent) {
+		this.memoryFailoverResourcesPercent = memoryFailoverResourcesPercent;
+	}
 }

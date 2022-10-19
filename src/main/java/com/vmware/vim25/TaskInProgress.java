@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskInProgress extends VimFault {
-    public ManagedObjectReference task;
+	public ManagedObjectReference task;
 
-    public ManagedObjectReference getTask() {
-        return this.task;
-    }
+	public ManagedObjectReference getTask() {
+		return this.task;
+	}
 
-    public void setTask(ManagedObjectReference task) {
-        this.task = task;
-    }
+	public void setTask(ManagedObjectReference task) {
+		this.task = task;
+	}
 }

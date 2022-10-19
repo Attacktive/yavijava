@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsHostWentOutOfSyncEvent extends DvsEvent {
-    public DvsOutOfSyncHostArgument hostOutOfSync;
+	public DvsOutOfSyncHostArgument hostOutOfSync;
 
-    public DvsOutOfSyncHostArgument getHostOutOfSync() {
-        return this.hostOutOfSync;
-    }
+	public DvsOutOfSyncHostArgument getHostOutOfSync() {
+		return this.hostOutOfSync;
+	}
 
-    public void setHostOutOfSync(DvsOutOfSyncHostArgument hostOutOfSync) {
-        this.hostOutOfSync = hostOutOfSync;
-    }
+	public void setHostOutOfSync(DvsOutOfSyncHostArgument hostOutOfSync) {
+		this.hostOutOfSync = hostOutOfSync;
+	}
 }

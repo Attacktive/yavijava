@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageVmotionIncompatible extends VirtualHardwareCompatibilityIssue {
-    public ManagedObjectReference datastore;
+	public ManagedObjectReference datastore;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 }

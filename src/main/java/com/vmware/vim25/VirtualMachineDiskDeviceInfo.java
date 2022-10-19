@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineDiskDeviceInfo extends VirtualMachineTargetInfo {
-    public Long capacity;
-    public ManagedObjectReference[] vm;
+	public Long capacity;
+	public ManagedObjectReference[] vm;
 
-    public Long getCapacity() {
-        return this.capacity;
-    }
+	public Long getCapacity() {
+		return this.capacity;
+	}
 
-    public ManagedObjectReference[] getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference[] getVm() {
+		return this.vm;
+	}
 
-    public void setCapacity(Long capacity) {
-        this.capacity = capacity;
-    }
+	public void setCapacity(Long capacity) {
+		this.capacity = capacity;
+	}
 
-    public void setVm(ManagedObjectReference[] vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference[] vm) {
+		this.vm = vm;
+	}
 }

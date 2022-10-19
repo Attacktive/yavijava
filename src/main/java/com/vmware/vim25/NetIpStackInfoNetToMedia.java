@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetIpStackInfoNetToMedia extends DynamicData {
-    public String ipAddress;
-    public String physicalAddress;
-    public String device;
-    public String type;
+	public String ipAddress;
+	public String physicalAddress;
+	public String device;
+	public String type;
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public String getPhysicalAddress() {
-        return this.physicalAddress;
-    }
+	public String getPhysicalAddress() {
+		return this.physicalAddress;
+	}
 
-    public String getDevice() {
-        return this.device;
-    }
+	public String getDevice() {
+		return this.device;
+	}
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setPhysicalAddress(String physicalAddress) {
-        this.physicalAddress = physicalAddress;
-    }
+	public void setPhysicalAddress(String physicalAddress) {
+		this.physicalAddress = physicalAddress;
+	}
 
-    public void setDevice(String device) {
-        this.device = device;
-    }
+	public void setDevice(String device) {
+		this.device = device;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 }

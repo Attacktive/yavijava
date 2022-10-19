@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPhysicalNicLinkInfo {
-    public PhysicalNicLinkInfo[] PhysicalNicLinkInfo;
+	public PhysicalNicLinkInfo[] PhysicalNicLinkInfo;
 
-    public PhysicalNicLinkInfo[] getPhysicalNicLinkInfo() {
-        return this.PhysicalNicLinkInfo;
-    }
+	public PhysicalNicLinkInfo[] getPhysicalNicLinkInfo() {
+		return this.PhysicalNicLinkInfo;
+	}
 
-    public PhysicalNicLinkInfo getPhysicalNicLinkInfo(int i) {
-        return this.PhysicalNicLinkInfo[i];
-    }
+	public PhysicalNicLinkInfo getPhysicalNicLinkInfo(int i) {
+		return this.PhysicalNicLinkInfo[i];
+	}
 
-    public void setPhysicalNicLinkInfo(PhysicalNicLinkInfo[] PhysicalNicLinkInfo) {
-        this.PhysicalNicLinkInfo = PhysicalNicLinkInfo;
-    }
+	public void setPhysicalNicLinkInfo(PhysicalNicLinkInfo[] PhysicalNicLinkInfo) {
+		this.PhysicalNicLinkInfo = PhysicalNicLinkInfo;
+	}
 }

@@ -17,12 +17,11 @@ package org.doublecloud.ws.util.testUtils;
  */
 public class ReflectUtilImplementsSimpleWith4Fields implements ReflectUtilSimpleInterfaceWith2Fields1Method {
 
-    public int anInt1;
-    private int anInt2;
-    private int anInt3;
-    private int anInt4;
+	public int anInt1;
+	private int anInt2;
+	private int anInt3;
+	private int anInt4;
 
-    @Override
-    public void helloWorld() {}
-
+	@Override
+	public void helloWorld() { }
 }

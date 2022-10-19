@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VMwareDVSVspanSessionType {
-    mixedDestMirror("mixedDestMirror"),
-    dvPortMirror("dvPortMirror"),
-    remoteMirrorSource("remoteMirrorSource"),
-    remoteMirrorDest("remoteMirrorDest"),
-    encapsulatedRemoteMirrorSource("encapsulatedRemoteMirrorSource");
+	mixedDestMirror("mixedDestMirror"),
+	dvPortMirror("dvPortMirror"),
+	remoteMirrorSource("remoteMirrorSource"),
+	remoteMirrorDest("remoteMirrorDest"),
+	encapsulatedRemoteMirrorSource("encapsulatedRemoteMirrorSource");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VMwareDVSVspanSessionType(String val) {
-        this.val = val;
-    }
+	private VMwareDVSVspanSessionType(String val) {
+		this.val = val;
+	}
 }

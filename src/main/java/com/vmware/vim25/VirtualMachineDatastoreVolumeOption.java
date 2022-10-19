@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineDatastoreVolumeOption extends DynamicData {
-    public String fileSystemType;
-    public Integer majorVersion;
+	public String fileSystemType;
+	public Integer majorVersion;
 
-    public String getFileSystemType() {
-        return this.fileSystemType;
-    }
+	public String getFileSystemType() {
+		return this.fileSystemType;
+	}
 
-    public Integer getMajorVersion() {
-        return this.majorVersion;
-    }
+	public Integer getMajorVersion() {
+		return this.majorVersion;
+	}
 
-    public void setFileSystemType(String fileSystemType) {
-        this.fileSystemType = fileSystemType;
-    }
+	public void setFileSystemType(String fileSystemType) {
+		this.fileSystemType = fileSystemType;
+	}
 
-    public void setMajorVersion(Integer majorVersion) {
-        this.majorVersion = majorVersion;
-    }
+	public void setMajorVersion(Integer majorVersion) {
+		this.majorVersion = majorVersion;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsSingleIpPort extends DvsIpPort {
-    public int portNumber;
+	public int portNumber;
 
-    public int getPortNumber() {
-        return this.portNumber;
-    }
+	public int getPortNumber() {
+		return this.portNumber;
+	}
 
-    public void setPortNumber(int portNumber) {
-        this.portNumber = portNumber;
-    }
+	public void setPortNumber(int portNumber) {
+		this.portNumber = portNumber;
+	}
 }

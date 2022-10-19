@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostFirewallConfigRuleSetConfig {
-    public HostFirewallConfigRuleSetConfig[] HostFirewallConfigRuleSetConfig;
+	public HostFirewallConfigRuleSetConfig[] HostFirewallConfigRuleSetConfig;
 
-    public HostFirewallConfigRuleSetConfig[] getHostFirewallConfigRuleSetConfig() {
-        return this.HostFirewallConfigRuleSetConfig;
-    }
+	public HostFirewallConfigRuleSetConfig[] getHostFirewallConfigRuleSetConfig() {
+		return this.HostFirewallConfigRuleSetConfig;
+	}
 
-    public HostFirewallConfigRuleSetConfig getHostFirewallConfigRuleSetConfig(int i) {
-        return this.HostFirewallConfigRuleSetConfig[i];
-    }
+	public HostFirewallConfigRuleSetConfig getHostFirewallConfigRuleSetConfig(int i) {
+		return this.HostFirewallConfigRuleSetConfig[i];
+	}
 
-    public void setHostFirewallConfigRuleSetConfig(HostFirewallConfigRuleSetConfig[] HostFirewallConfigRuleSetConfig) {
-        this.HostFirewallConfigRuleSetConfig = HostFirewallConfigRuleSetConfig;
-    }
+	public void setHostFirewallConfigRuleSetConfig(HostFirewallConfigRuleSetConfig[] HostFirewallConfigRuleSetConfig) {
+		this.HostFirewallConfigRuleSetConfig = HostFirewallConfigRuleSetConfig;
+	}
 }

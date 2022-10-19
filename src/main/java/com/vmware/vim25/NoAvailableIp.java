@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NoAvailableIp extends VAppPropertyFault {
-    public ManagedObjectReference network;
+	public ManagedObjectReference network;
 
-    public ManagedObjectReference getNetwork() {
-        return this.network;
-    }
+	public ManagedObjectReference getNetwork() {
+		return this.network;
+	}
 
-    public void setNetwork(ManagedObjectReference network) {
-        this.network = network;
-    }
+	public void setNetwork(ManagedObjectReference network) {
+		this.network = network;
+	}
 }

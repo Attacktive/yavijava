@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatastoreHostMount extends DynamicData {
-    public ManagedObjectReference key;
-    public HostMountInfo mountInfo;
+	public ManagedObjectReference key;
+	public HostMountInfo mountInfo;
 
-    public ManagedObjectReference getKey() {
-        return this.key;
-    }
+	public ManagedObjectReference getKey() {
+		return this.key;
+	}
 
-    public HostMountInfo getMountInfo() {
-        return this.mountInfo;
-    }
+	public HostMountInfo getMountInfo() {
+		return this.mountInfo;
+	}
 
-    public void setKey(ManagedObjectReference key) {
-        this.key = key;
-    }
+	public void setKey(ManagedObjectReference key) {
+		this.key = key;
+	}
 
-    public void setMountInfo(HostMountInfo mountInfo) {
-        this.mountInfo = mountInfo;
-    }
+	public void setMountInfo(HostMountInfo mountInfo) {
+		this.mountInfo = mountInfo;
+	}
 }

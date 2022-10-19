@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VMwareDvsLacpApiVersion {
-    singleLag("singleLag"),
-    multipleLag("multipleLag");
+	singleLag("singleLag"),
+	multipleLag("multipleLag");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VMwareDvsLacpApiVersion(String val) {
-        this.val = val;
-    }
+	private VMwareDvsLacpApiVersion(String val) {
+		this.val = val;
+	}
 }

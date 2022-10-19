@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PhysicalNicHintInfo extends DynamicData {
-    public String device;
-    public PhysicalNicIpHint[] subnet;
-    public PhysicalNicNameHint[] network;
-    public PhysicalNicCdpInfo connectedSwitchPort;
-    public LinkLayerDiscoveryProtocolInfo lldpInfo;
+	public String device;
+	public PhysicalNicIpHint[] subnet;
+	public PhysicalNicNameHint[] network;
+	public PhysicalNicCdpInfo connectedSwitchPort;
+	public LinkLayerDiscoveryProtocolInfo lldpInfo;
 
-    public String getDevice() {
-        return this.device;
-    }
+	public String getDevice() {
+		return this.device;
+	}
 
-    public PhysicalNicIpHint[] getSubnet() {
-        return this.subnet;
-    }
+	public PhysicalNicIpHint[] getSubnet() {
+		return this.subnet;
+	}
 
-    public PhysicalNicNameHint[] getNetwork() {
-        return this.network;
-    }
+	public PhysicalNicNameHint[] getNetwork() {
+		return this.network;
+	}
 
-    public PhysicalNicCdpInfo getConnectedSwitchPort() {
-        return this.connectedSwitchPort;
-    }
+	public PhysicalNicCdpInfo getConnectedSwitchPort() {
+		return this.connectedSwitchPort;
+	}
 
-    public LinkLayerDiscoveryProtocolInfo getLldpInfo() {
-        return this.lldpInfo;
-    }
+	public LinkLayerDiscoveryProtocolInfo getLldpInfo() {
+		return this.lldpInfo;
+	}
 
-    public void setDevice(String device) {
-        this.device = device;
-    }
+	public void setDevice(String device) {
+		this.device = device;
+	}
 
-    public void setSubnet(PhysicalNicIpHint[] subnet) {
-        this.subnet = subnet;
-    }
+	public void setSubnet(PhysicalNicIpHint[] subnet) {
+		this.subnet = subnet;
+	}
 
-    public void setNetwork(PhysicalNicNameHint[] network) {
-        this.network = network;
-    }
+	public void setNetwork(PhysicalNicNameHint[] network) {
+		this.network = network;
+	}
 
-    public void setConnectedSwitchPort(PhysicalNicCdpInfo connectedSwitchPort) {
-        this.connectedSwitchPort = connectedSwitchPort;
-    }
+	public void setConnectedSwitchPort(PhysicalNicCdpInfo connectedSwitchPort) {
+		this.connectedSwitchPort = connectedSwitchPort;
+	}
 
-    public void setLldpInfo(LinkLayerDiscoveryProtocolInfo lldpInfo) {
-        this.lldpInfo = lldpInfo;
-    }
+	public void setLldpInfo(LinkLayerDiscoveryProtocolInfo lldpInfo) {
+		this.lldpInfo = lldpInfo;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDeviceDeviceBackingOption extends VirtualDeviceBackingOption {
-    public BoolOption autoDetectAvailable;
+	public BoolOption autoDetectAvailable;
 
-    public BoolOption getAutoDetectAvailable() {
-        return this.autoDetectAvailable;
-    }
+	public BoolOption getAutoDetectAvailable() {
+		return this.autoDetectAvailable;
+	}
 
-    public void setAutoDetectAvailable(BoolOption autoDetectAvailable) {
-        this.autoDetectAvailable = autoDetectAvailable;
-    }
+	public void setAutoDetectAvailable(BoolOption autoDetectAvailable) {
+		this.autoDetectAvailable = autoDetectAvailable;
+	}
 }

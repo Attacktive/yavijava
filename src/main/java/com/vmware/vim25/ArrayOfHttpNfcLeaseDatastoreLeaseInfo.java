@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHttpNfcLeaseDatastoreLeaseInfo {
-    public HttpNfcLeaseDatastoreLeaseInfo[] HttpNfcLeaseDatastoreLeaseInfo;
+	public HttpNfcLeaseDatastoreLeaseInfo[] HttpNfcLeaseDatastoreLeaseInfo;
 
-    public HttpNfcLeaseDatastoreLeaseInfo[] getHttpNfcLeaseDatastoreLeaseInfo() {
-        return this.HttpNfcLeaseDatastoreLeaseInfo;
-    }
+	public HttpNfcLeaseDatastoreLeaseInfo[] getHttpNfcLeaseDatastoreLeaseInfo() {
+		return this.HttpNfcLeaseDatastoreLeaseInfo;
+	}
 
-    public HttpNfcLeaseDatastoreLeaseInfo getHttpNfcLeaseDatastoreLeaseInfo(int i) {
-        return this.HttpNfcLeaseDatastoreLeaseInfo[i];
-    }
+	public HttpNfcLeaseDatastoreLeaseInfo getHttpNfcLeaseDatastoreLeaseInfo(int i) {
+		return this.HttpNfcLeaseDatastoreLeaseInfo[i];
+	}
 
-    public void setHttpNfcLeaseDatastoreLeaseInfo(HttpNfcLeaseDatastoreLeaseInfo[] HttpNfcLeaseDatastoreLeaseInfo) {
-        this.HttpNfcLeaseDatastoreLeaseInfo = HttpNfcLeaseDatastoreLeaseInfo;
-    }
+	public void setHttpNfcLeaseDatastoreLeaseInfo(HttpNfcLeaseDatastoreLeaseInfo[] HttpNfcLeaseDatastoreLeaseInfo) {
+		this.HttpNfcLeaseDatastoreLeaseInfo = HttpNfcLeaseDatastoreLeaseInfo;
+	}
 }

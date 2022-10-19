@@ -38,11 +38,11 @@ import com.vmware.vim25.ManagedObjectReference;
  * @since 4.0
  */
 public class LocalizationManager extends ManagedObject {
-    public LocalizationManager(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public LocalizationManager(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public LocalizationManagerMessageCatalog[] getCatalog() {
-        return (LocalizationManagerMessageCatalog[]) getCurrentProperty("catalog");
-    }
+	public LocalizationManagerMessageCatalog[] getCatalog() {
+		return (LocalizationManagerMessageCatalog[])getCurrentProperty("catalog");
+	}
 }

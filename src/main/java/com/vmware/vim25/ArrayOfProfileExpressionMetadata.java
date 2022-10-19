@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfileExpressionMetadata {
-    public ProfileExpressionMetadata[] ProfileExpressionMetadata;
+	public ProfileExpressionMetadata[] ProfileExpressionMetadata;
 
-    public ProfileExpressionMetadata[] getProfileExpressionMetadata() {
-        return this.ProfileExpressionMetadata;
-    }
+	public ProfileExpressionMetadata[] getProfileExpressionMetadata() {
+		return this.ProfileExpressionMetadata;
+	}
 
-    public ProfileExpressionMetadata getProfileExpressionMetadata(int i) {
-        return this.ProfileExpressionMetadata[i];
-    }
+	public ProfileExpressionMetadata getProfileExpressionMetadata(int i) {
+		return this.ProfileExpressionMetadata[i];
+	}
 
-    public void setProfileExpressionMetadata(ProfileExpressionMetadata[] ProfileExpressionMetadata) {
-        this.ProfileExpressionMetadata = ProfileExpressionMetadata;
-    }
+	public void setProfileExpressionMetadata(ProfileExpressionMetadata[] ProfileExpressionMetadata) {
+		this.ProfileExpressionMetadata = ProfileExpressionMetadata;
+	}
 }

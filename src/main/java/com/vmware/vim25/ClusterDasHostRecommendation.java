@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDasHostRecommendation extends DynamicData {
-    public ManagedObjectReference host;
-    public Integer drsRating;
+	public ManagedObjectReference host;
+	public Integer drsRating;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public Integer getDrsRating() {
-        return this.drsRating;
-    }
+	public Integer getDrsRating() {
+		return this.drsRating;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setDrsRating(Integer drsRating) {
-        this.drsRating = drsRating;
-    }
+	public void setDrsRating(Integer drsRating) {
+		this.drsRating = drsRating;
+	}
 }

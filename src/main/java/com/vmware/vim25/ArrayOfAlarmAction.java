@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAlarmAction {
-    public AlarmAction[] AlarmAction;
+	public AlarmAction[] AlarmAction;
 
-    public AlarmAction[] getAlarmAction() {
-        return this.AlarmAction;
-    }
+	public AlarmAction[] getAlarmAction() {
+		return this.AlarmAction;
+	}
 
-    public AlarmAction getAlarmAction(int i) {
-        return this.AlarmAction[i];
-    }
+	public AlarmAction getAlarmAction(int i) {
+		return this.AlarmAction[i];
+	}
 
-    public void setAlarmAction(AlarmAction[] AlarmAction) {
-        this.AlarmAction = AlarmAction;
-    }
+	public void setAlarmAction(AlarmAction[] AlarmAction) {
+		this.AlarmAction = AlarmAction;
+	}
 }

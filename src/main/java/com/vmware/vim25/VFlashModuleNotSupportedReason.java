@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VFlashModuleNotSupportedReason {
-    CacheModeNotSupported("CacheModeNotSupported"),
-    CacheConsistencyTypeNotSupported("CacheConsistencyTypeNotSupported"),
-    CacheBlockSizeNotSupported("CacheBlockSizeNotSupported"),
-    CacheReservationNotSupported("CacheReservationNotSupported"),
-    DiskSizeNotSupported("DiskSizeNotSupported");
+	CacheModeNotSupported("CacheModeNotSupported"),
+	CacheConsistencyTypeNotSupported("CacheConsistencyTypeNotSupported"),
+	CacheBlockSizeNotSupported("CacheBlockSizeNotSupported"),
+	CacheReservationNotSupported("CacheReservationNotSupported"),
+	DiskSizeNotSupported("DiskSizeNotSupported");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VFlashModuleNotSupportedReason(String val) {
-        this.val = val;
-    }
+	private VFlashModuleNotSupportedReason(String val) {
+		this.val = val;
+	}
 }

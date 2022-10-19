@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfObjectContent {
-    public ObjectContent[] ObjectContent;
+	public ObjectContent[] ObjectContent;
 
-    public ObjectContent[] getObjectContent() {
-        return this.ObjectContent;
-    }
+	public ObjectContent[] getObjectContent() {
+		return this.ObjectContent;
+	}
 
-    public ObjectContent getObjectContent(int i) {
-        return this.ObjectContent[i];
-    }
+	public ObjectContent getObjectContent(int i) {
+		return this.ObjectContent[i];
+	}
 
-    public void setObjectContent(ObjectContent[] ObjectContent) {
-        this.ObjectContent = ObjectContent;
-    }
+	public void setObjectContent(ObjectContent[] ObjectContent) {
+		this.ObjectContent = ObjectContent;
+	}
 }

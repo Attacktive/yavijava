@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsGreEncapNetworkRuleAction extends DvsNetworkRuleAction {
-    public SingleIp encapsulationIp;
+	public SingleIp encapsulationIp;
 
-    public SingleIp getEncapsulationIp() {
-        return this.encapsulationIp;
-    }
+	public SingleIp getEncapsulationIp() {
+		return this.encapsulationIp;
+	}
 
-    public void setEncapsulationIp(SingleIp encapsulationIp) {
-        this.encapsulationIp = encapsulationIp;
-    }
+	public void setEncapsulationIp(SingleIp encapsulationIp) {
+		this.encapsulationIp = encapsulationIp;
+	}
 }

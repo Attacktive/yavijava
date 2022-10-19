@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterMigrationAction extends ClusterAction {
-    public ClusterDrsMigration drsMigration;
+	public ClusterDrsMigration drsMigration;
 
-    public ClusterDrsMigration getDrsMigration() {
-        return this.drsMigration;
-    }
+	public ClusterDrsMigration getDrsMigration() {
+		return this.drsMigration;
+	}
 
-    public void setDrsMigration(ClusterDrsMigration drsMigration) {
-        this.drsMigration = drsMigration;
-    }
+	public void setDrsMigration(ClusterDrsMigration drsMigration) {
+		this.drsMigration = drsMigration;
+	}
 }

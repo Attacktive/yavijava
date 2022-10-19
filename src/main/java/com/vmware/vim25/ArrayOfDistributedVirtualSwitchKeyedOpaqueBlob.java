@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDistributedVirtualSwitchKeyedOpaqueBlob {
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] DistributedVirtualSwitchKeyedOpaqueBlob;
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] DistributedVirtualSwitchKeyedOpaqueBlob;
 
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] getDistributedVirtualSwitchKeyedOpaqueBlob() {
-        return this.DistributedVirtualSwitchKeyedOpaqueBlob;
-    }
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] getDistributedVirtualSwitchKeyedOpaqueBlob() {
+		return this.DistributedVirtualSwitchKeyedOpaqueBlob;
+	}
 
-    public DistributedVirtualSwitchKeyedOpaqueBlob getDistributedVirtualSwitchKeyedOpaqueBlob(int i) {
-        return this.DistributedVirtualSwitchKeyedOpaqueBlob[i];
-    }
+	public DistributedVirtualSwitchKeyedOpaqueBlob getDistributedVirtualSwitchKeyedOpaqueBlob(int i) {
+		return this.DistributedVirtualSwitchKeyedOpaqueBlob[i];
+	}
 
-    public void setDistributedVirtualSwitchKeyedOpaqueBlob(DistributedVirtualSwitchKeyedOpaqueBlob[] DistributedVirtualSwitchKeyedOpaqueBlob) {
-        this.DistributedVirtualSwitchKeyedOpaqueBlob = DistributedVirtualSwitchKeyedOpaqueBlob;
-    }
+	public void setDistributedVirtualSwitchKeyedOpaqueBlob(DistributedVirtualSwitchKeyedOpaqueBlob[] DistributedVirtualSwitchKeyedOpaqueBlob) {
+		this.DistributedVirtualSwitchKeyedOpaqueBlob = DistributedVirtualSwitchKeyedOpaqueBlob;
+	}
 }

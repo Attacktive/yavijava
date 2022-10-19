@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UnsupportedGuest extends InvalidVmConfig {
-    public String unsupportedGuestOS;
+	public String unsupportedGuestOS;
 
-    public String getUnsupportedGuestOS() {
-        return this.unsupportedGuestOS;
-    }
+	public String getUnsupportedGuestOS() {
+		return this.unsupportedGuestOS;
+	}
 
-    public void setUnsupportedGuestOS(String unsupportedGuestOS) {
-        this.unsupportedGuestOS = unsupportedGuestOS;
-    }
+	public void setUnsupportedGuestOS(String unsupportedGuestOS) {
+		this.unsupportedGuestOS = unsupportedGuestOS;
+	}
 }

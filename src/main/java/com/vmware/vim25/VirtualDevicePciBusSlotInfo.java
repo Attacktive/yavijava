@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDevicePciBusSlotInfo extends VirtualDeviceBusSlotInfo {
-    public int pciSlotNumber;
+	public int pciSlotNumber;
 
-    public int getPciSlotNumber() {
-        return this.pciSlotNumber;
-    }
+	public int getPciSlotNumber() {
+		return this.pciSlotNumber;
+	}
 
-    public void setPciSlotNumber(int pciSlotNumber) {
-        this.pciSlotNumber = pciSlotNumber;
-    }
+	public void setPciSlotNumber(int pciSlotNumber) {
+		this.pciSlotNumber = pciSlotNumber;
+	}
 }

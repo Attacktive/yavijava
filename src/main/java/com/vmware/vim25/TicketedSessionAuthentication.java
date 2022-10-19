@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TicketedSessionAuthentication extends GuestAuthentication {
-    public String ticket;
+	public String ticket;
 
-    public String getTicket() {
-        return this.ticket;
-    }
+	public String getTicket() {
+		return this.ticket;
+	}
 
-    public void setTicket(String ticket) {
-        this.ticket = ticket;
-    }
+	public void setTicket(String ticket) {
+		this.ticket = ticket;
+	}
 }

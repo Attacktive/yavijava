@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ResourcePoolEvent extends Event {
-    public ResourcePoolEventArgument resourcePool;
+	public ResourcePoolEventArgument resourcePool;
 
-    public ResourcePoolEventArgument getResourcePool() {
-        return this.resourcePool;
-    }
+	public ResourcePoolEventArgument getResourcePool() {
+		return this.resourcePool;
+	}
 
-    public void setResourcePool(ResourcePoolEventArgument resourcePool) {
-        this.resourcePool = resourcePool;
-    }
+	public void setResourcePool(ResourcePoolEventArgument resourcePool) {
+		this.resourcePool = resourcePool;
+	}
 }

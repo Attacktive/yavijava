@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfGuestOsDescriptor {
-    public GuestOsDescriptor[] GuestOsDescriptor;
+	public GuestOsDescriptor[] GuestOsDescriptor;
 
-    public GuestOsDescriptor[] getGuestOsDescriptor() {
-        return this.GuestOsDescriptor;
-    }
+	public GuestOsDescriptor[] getGuestOsDescriptor() {
+		return this.GuestOsDescriptor;
+	}
 
-    public GuestOsDescriptor getGuestOsDescriptor(int i) {
-        return this.GuestOsDescriptor[i];
-    }
+	public GuestOsDescriptor getGuestOsDescriptor(int i) {
+		return this.GuestOsDescriptor[i];
+	}
 
-    public void setGuestOsDescriptor(GuestOsDescriptor[] GuestOsDescriptor) {
-        this.GuestOsDescriptor = GuestOsDescriptor;
-    }
+	public void setGuestOsDescriptor(GuestOsDescriptor[] GuestOsDescriptor) {
+		this.GuestOsDescriptor = GuestOsDescriptor;
+	}
 }

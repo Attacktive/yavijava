@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FirewallProfile extends ApplyProfile {
-    public FirewallProfileRulesetProfile[] ruleset;
+	public FirewallProfileRulesetProfile[] ruleset;
 
-    public FirewallProfileRulesetProfile[] getRuleset() {
-        return this.ruleset;
-    }
+	public FirewallProfileRulesetProfile[] getRuleset() {
+		return this.ruleset;
+	}
 
-    public void setRuleset(FirewallProfileRulesetProfile[] ruleset) {
-        this.ruleset = ruleset;
-    }
+	public void setRuleset(FirewallProfileRulesetProfile[] ruleset) {
+		this.ruleset = ruleset;
+	}
 }

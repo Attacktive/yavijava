@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InsufficientVFlashResourcesFault extends InsufficientResourcesFault {
-    public long freeSpace;
-    public long requestedSpace;
+	public long freeSpace;
+	public long requestedSpace;
 
-    public long getFreeSpace() {
-        return this.freeSpace;
-    }
+	public long getFreeSpace() {
+		return this.freeSpace;
+	}
 
-    public long getRequestedSpace() {
-        return this.requestedSpace;
-    }
+	public long getRequestedSpace() {
+		return this.requestedSpace;
+	}
 
-    public void setFreeSpace(long freeSpace) {
-        this.freeSpace = freeSpace;
-    }
+	public void setFreeSpace(long freeSpace) {
+		this.freeSpace = freeSpace;
+	}
 
-    public void setRequestedSpace(long requestedSpace) {
-        this.requestedSpace = requestedSpace;
-    }
+	public void setRequestedSpace(long requestedSpace) {
+		this.requestedSpace = requestedSpace;
+	}
 }

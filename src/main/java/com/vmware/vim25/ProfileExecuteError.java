@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileExecuteError extends DynamicData {
-    public ProfilePropertyPath path;
-    public LocalizableMessage message;
+	public ProfilePropertyPath path;
+	public LocalizableMessage message;
 
-    public ProfilePropertyPath getPath() {
-        return this.path;
-    }
+	public ProfilePropertyPath getPath() {
+		return this.path;
+	}
 
-    public LocalizableMessage getMessage() {
-        return this.message;
-    }
+	public LocalizableMessage getMessage() {
+		return this.message;
+	}
 
-    public void setPath(ProfilePropertyPath path) {
-        this.path = path;
-    }
+	public void setPath(ProfilePropertyPath path) {
+		this.path = path;
+	}
 
-    public void setMessage(LocalizableMessage message) {
-        this.message = message;
-    }
+	public void setMessage(LocalizableMessage message) {
+		this.message = message;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchHostMemberConfigInfo extends DynamicData {
-    public ManagedObjectReference host;
-    public int maxProxySwitchPorts;
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig;
-    public DistributedVirtualSwitchHostMemberBacking backing;
+	public ManagedObjectReference host;
+	public int maxProxySwitchPorts;
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig;
+	public DistributedVirtualSwitchHostMemberBacking backing;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public int getMaxProxySwitchPorts() {
-        return this.maxProxySwitchPorts;
-    }
+	public int getMaxProxySwitchPorts() {
+		return this.maxProxySwitchPorts;
+	}
 
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] getVendorSpecificConfig() {
-        return this.vendorSpecificConfig;
-    }
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] getVendorSpecificConfig() {
+		return this.vendorSpecificConfig;
+	}
 
-    public DistributedVirtualSwitchHostMemberBacking getBacking() {
-        return this.backing;
-    }
+	public DistributedVirtualSwitchHostMemberBacking getBacking() {
+		return this.backing;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setMaxProxySwitchPorts(int maxProxySwitchPorts) {
-        this.maxProxySwitchPorts = maxProxySwitchPorts;
-    }
+	public void setMaxProxySwitchPorts(int maxProxySwitchPorts) {
+		this.maxProxySwitchPorts = maxProxySwitchPorts;
+	}
 
-    public void setVendorSpecificConfig(DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig) {
-        this.vendorSpecificConfig = vendorSpecificConfig;
-    }
+	public void setVendorSpecificConfig(DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig) {
+		this.vendorSpecificConfig = vendorSpecificConfig;
+	}
 
-    public void setBacking(DistributedVirtualSwitchHostMemberBacking backing) {
-        this.backing = backing;
-    }
+	public void setBacking(DistributedVirtualSwitchHostMemberBacking backing) {
+		this.backing = backing;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EVCAdmissionFailedCPUFeaturesForMode extends EVCAdmissionFailed {
-    public String currentEVCModeKey;
+	public String currentEVCModeKey;
 
-    public String getCurrentEVCModeKey() {
-        return this.currentEVCModeKey;
-    }
+	public String getCurrentEVCModeKey() {
+		return this.currentEVCModeKey;
+	}
 
-    public void setCurrentEVCModeKey(String currentEVCModeKey) {
-        this.currentEVCModeKey = currentEVCModeKey;
-    }
+	public void setCurrentEVCModeKey(String currentEVCModeKey) {
+		this.currentEVCModeKey = currentEVCModeKey;
+	}
 }

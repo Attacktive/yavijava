@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineAppHeartbeatStatusType {
-    appStatusGray("appStatusGray"),
-    appStatusGreen("appStatusGreen"),
-    appStatusRed("appStatusRed");
+	appStatusGray("appStatusGray"),
+	appStatusGreen("appStatusGreen"),
+	appStatusRed("appStatusRed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineAppHeartbeatStatusType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineAppHeartbeatStatusType(String val) {
+		this.val = val;
+	}
 }

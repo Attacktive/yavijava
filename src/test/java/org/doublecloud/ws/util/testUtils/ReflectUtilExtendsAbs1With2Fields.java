@@ -16,5 +16,5 @@ package org.doublecloud.ws.util.testUtils;
  * limitations under the License.
  */
 public class ReflectUtilExtendsAbs1With2Fields extends ReflectUtilAbsClass1Field {
-    public String string1;
+	public String string1;
 }

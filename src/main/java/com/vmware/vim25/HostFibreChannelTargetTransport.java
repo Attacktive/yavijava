@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFibreChannelTargetTransport extends HostTargetTransport {
-    public long portWorldWideName;
-    public long nodeWorldWideName;
+	public long portWorldWideName;
+	public long nodeWorldWideName;
 
-    public long getPortWorldWideName() {
-        return this.portWorldWideName;
-    }
+	public long getPortWorldWideName() {
+		return this.portWorldWideName;
+	}
 
-    public long getNodeWorldWideName() {
-        return this.nodeWorldWideName;
-    }
+	public long getNodeWorldWideName() {
+		return this.nodeWorldWideName;
+	}
 
-    public void setPortWorldWideName(long portWorldWideName) {
-        this.portWorldWideName = portWorldWideName;
-    }
+	public void setPortWorldWideName(long portWorldWideName) {
+		this.portWorldWideName = portWorldWideName;
+	}
 
-    public void setNodeWorldWideName(long nodeWorldWideName) {
-        this.nodeWorldWideName = nodeWorldWideName;
-    }
+	public void setNodeWorldWideName(long nodeWorldWideName) {
+		this.nodeWorldWideName = nodeWorldWideName;
+	}
 }

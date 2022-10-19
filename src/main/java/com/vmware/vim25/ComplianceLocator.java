@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ComplianceLocator extends DynamicData {
-    public String expressionName;
-    public ProfilePropertyPath applyPath;
+	public String expressionName;
+	public ProfilePropertyPath applyPath;
 
-    public String getExpressionName() {
-        return this.expressionName;
-    }
+	public String getExpressionName() {
+		return this.expressionName;
+	}
 
-    public ProfilePropertyPath getApplyPath() {
-        return this.applyPath;
-    }
+	public ProfilePropertyPath getApplyPath() {
+		return this.applyPath;
+	}
 
-    public void setExpressionName(String expressionName) {
-        this.expressionName = expressionName;
-    }
+	public void setExpressionName(String expressionName) {
+		this.expressionName = expressionName;
+	}
 
-    public void setApplyPath(ProfilePropertyPath applyPath) {
-        this.applyPath = applyPath;
-    }
+	public void setApplyPath(ProfilePropertyPath applyPath) {
+		this.applyPath = applyPath;
+	}
 }

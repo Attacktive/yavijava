@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerInvalidSection extends OvfConsumerCallbackFault {
-    public int lineNumber;
-    public String description;
+	public int lineNumber;
+	public String description;
 
-    public int getLineNumber() {
-        return this.lineNumber;
-    }
+	public int getLineNumber() {
+		return this.lineNumber;
+	}
 
-    public String getDescription() {
-        return this.description;
-    }
+	public String getDescription() {
+		return this.description;
+	}
 
-    public void setLineNumber(int lineNumber) {
-        this.lineNumber = lineNumber;
-    }
+	public void setLineNumber(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }

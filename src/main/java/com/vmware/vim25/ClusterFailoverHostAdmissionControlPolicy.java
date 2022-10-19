@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterFailoverHostAdmissionControlPolicy extends ClusterDasAdmissionControlPolicy {
-    public ManagedObjectReference[] failoverHosts;
+	public ManagedObjectReference[] failoverHosts;
 
-    public ManagedObjectReference[] getFailoverHosts() {
-        return this.failoverHosts;
-    }
+	public ManagedObjectReference[] getFailoverHosts() {
+		return this.failoverHosts;
+	}
 
-    public void setFailoverHosts(ManagedObjectReference[] failoverHosts) {
-        this.failoverHosts = failoverHosts;
-    }
+	public void setFailoverHosts(ManagedObjectReference[] failoverHosts) {
+		this.failoverHosts = failoverHosts;
+	}
 }

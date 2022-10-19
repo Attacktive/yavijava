@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineFloppyInfo {
-    public VirtualMachineFloppyInfo[] VirtualMachineFloppyInfo;
+	public VirtualMachineFloppyInfo[] VirtualMachineFloppyInfo;
 
-    public VirtualMachineFloppyInfo[] getVirtualMachineFloppyInfo() {
-        return this.VirtualMachineFloppyInfo;
-    }
+	public VirtualMachineFloppyInfo[] getVirtualMachineFloppyInfo() {
+		return this.VirtualMachineFloppyInfo;
+	}
 
-    public VirtualMachineFloppyInfo getVirtualMachineFloppyInfo(int i) {
-        return this.VirtualMachineFloppyInfo[i];
-    }
+	public VirtualMachineFloppyInfo getVirtualMachineFloppyInfo(int i) {
+		return this.VirtualMachineFloppyInfo[i];
+	}
 
-    public void setVirtualMachineFloppyInfo(VirtualMachineFloppyInfo[] VirtualMachineFloppyInfo) {
-        this.VirtualMachineFloppyInfo = VirtualMachineFloppyInfo;
-    }
+	public void setVirtualMachineFloppyInfo(VirtualMachineFloppyInfo[] VirtualMachineFloppyInfo) {
+		this.VirtualMachineFloppyInfo = VirtualMachineFloppyInfo;
+	}
 }

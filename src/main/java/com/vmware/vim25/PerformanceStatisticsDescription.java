@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerformanceStatisticsDescription extends DynamicData {
-    public PerfInterval[] intervals;
+	public PerfInterval[] intervals;
 
-    public PerfInterval[] getIntervals() {
-        return this.intervals;
-    }
+	public PerfInterval[] getIntervals() {
+		return this.intervals;
+	}
 
-    public void setIntervals(PerfInterval[] intervals) {
-        this.intervals = intervals;
-    }
+	public void setIntervals(PerfInterval[] intervals) {
+		this.intervals = intervals;
+	}
 }

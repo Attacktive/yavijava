@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfUserSession {
-    public UserSession[] UserSession;
+	public UserSession[] UserSession;
 
-    public UserSession[] getUserSession() {
-        return this.UserSession;
-    }
+	public UserSession[] getUserSession() {
+		return this.UserSession;
+	}
 
-    public UserSession getUserSession(int i) {
-        return this.UserSession[i];
-    }
+	public UserSession getUserSession(int i) {
+		return this.UserSession[i];
+	}
 
-    public void setUserSession(UserSession[] UserSession) {
-        this.UserSession = UserSession;
-    }
+	public void setUserSession(UserSession[] UserSession) {
+		this.UserSession = UserSession;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEvent {
-    public Event[] Event;
+	public Event[] Event;
 
-    public Event[] getEvent() {
-        return this.Event;
-    }
+	public Event[] getEvent() {
+		return this.Event;
+	}
 
-    public Event getEvent(int i) {
-        return this.Event[i];
-    }
+	public Event getEvent(int i) {
+		return this.Event[i];
+	}
 
-    public void setEvent(Event[] Event) {
-        this.Event = Event;
-    }
+	public void setEvent(Event[] Event) {
+		this.Event = Event;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEntityPrivilege {
-    public EntityPrivilege[] EntityPrivilege;
+	public EntityPrivilege[] EntityPrivilege;
 
-    public EntityPrivilege[] getEntityPrivilege() {
-        return this.EntityPrivilege;
-    }
+	public EntityPrivilege[] getEntityPrivilege() {
+		return this.EntityPrivilege;
+	}
 
-    public EntityPrivilege getEntityPrivilege(int i) {
-        return this.EntityPrivilege[i];
-    }
+	public EntityPrivilege getEntityPrivilege(int i) {
+		return this.EntityPrivilege[i];
+	}
 
-    public void setEntityPrivilege(EntityPrivilege[] EntityPrivilege) {
-        this.EntityPrivilege = EntityPrivilege;
-    }
+	public void setEntityPrivilege(EntityPrivilege[] EntityPrivilege) {
+		this.EntityPrivilege = EntityPrivilege;
+	}
 }

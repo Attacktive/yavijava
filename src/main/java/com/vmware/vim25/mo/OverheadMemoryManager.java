@@ -1,8 +1,13 @@
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.InvalidArgument;
+import com.vmware.vim25.InvalidType;
+import com.vmware.vim25.ManagedObjectNotFound;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.NotFound;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * Copyright 2015 Michael Rice &lt;michael@michaelrice.org&gt;
@@ -23,25 +28,25 @@ import java.rmi.RemoteException;
  */
 public class OverheadMemoryManager extends ManagedObject {
 
-    public OverheadMemoryManager(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public OverheadMemoryManager(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    /**
-     * Return static VM overhead memory value in bytes for a (vm, host) pair from the overhead memory module (OMM)
-     * in Virtual Center.
-     *
-     * @param vm   The Virtual Machine
-     * @param host The Host
-     * @return Overhead memory value, if found in the OMM.
-     * @throws InvalidArgument
-     * @throws InvalidType
-     * @throws ManagedObjectNotFound
-     * @throws NotFound
-     * @throws RuntimeFault
-     * @throws RemoteException
-     */
-    public long lookupVmOverheadMemory(VirtualMachine vm, HostSystem host) throws InvalidArgument, InvalidType, ManagedObjectNotFound, NotFound, RuntimeFault, RemoteException {
-        return getVimService().lookupVmOverheadMemory(getMOR(), vm.getMOR(), host.getMOR());
-    }
+	/**
+	 * Return static VM overhead memory value in bytes for a (vm, host) pair from the overhead memory module (OMM)
+	 * in Virtual Center.
+	 *
+	 * @param vm The Virtual Machine
+	 * @param host The Host
+	 * @return Overhead memory value, if found in the OMM.
+	 * @throws com.vmware.vim25.InvalidArgument
+	 * @throws com.vmware.vim25.InvalidType
+	 * @throws com.vmware.vim25.ManagedObjectNotFound
+	 * @throws com.vmware.vim25.NotFound
+	 * @throws com.vmware.vim25.RuntimeFault
+	 * @throws java.rmi.RemoteException
+	 */
+	public long lookupVmOverheadMemory(VirtualMachine vm, HostSystem host) throws InvalidArgument, InvalidType, ManagedObjectNotFound, NotFound, RuntimeFault, RemoteException {
+		return getVimService().lookupVmOverheadMemory(getMOR(), vm.getMOR(), host.getMOR());
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CompositePolicyOption extends PolicyOption {
-    public PolicyOption[] option;
+	public PolicyOption[] option;
 
-    public PolicyOption[] getOption() {
-        return this.option;
-    }
+	public PolicyOption[] getOption() {
+		return this.option;
+	}
 
-    public void setOption(PolicyOption[] option) {
-        this.option = option;
-    }
+	public void setOption(PolicyOption[] option) {
+		this.option = option;
+	}
 }

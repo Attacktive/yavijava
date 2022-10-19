@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDynamicProperty {
-    public DynamicProperty[] DynamicProperty;
+	public DynamicProperty[] DynamicProperty;
 
-    public DynamicProperty[] getDynamicProperty() {
-        return this.DynamicProperty;
-    }
+	public DynamicProperty[] getDynamicProperty() {
+		return this.DynamicProperty;
+	}
 
-    public DynamicProperty getDynamicProperty(int i) {
-        return this.DynamicProperty[i];
-    }
+	public DynamicProperty getDynamicProperty(int i) {
+		return this.DynamicProperty[i];
+	}
 
-    public void setDynamicProperty(DynamicProperty[] DynamicProperty) {
-        this.DynamicProperty = DynamicProperty;
-    }
+	public void setDynamicProperty(DynamicProperty[] DynamicProperty) {
+		this.DynamicProperty = DynamicProperty;
+	}
 }

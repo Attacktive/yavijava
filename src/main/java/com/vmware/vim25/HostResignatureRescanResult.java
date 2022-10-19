@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostResignatureRescanResult extends DynamicData {
-    public HostVmfsRescanResult[] rescan;
-    public ManagedObjectReference result;
+	public HostVmfsRescanResult[] rescan;
+	public ManagedObjectReference result;
 
-    public HostVmfsRescanResult[] getRescan() {
-        return this.rescan;
-    }
+	public HostVmfsRescanResult[] getRescan() {
+		return this.rescan;
+	}
 
-    public ManagedObjectReference getResult() {
-        return this.result;
-    }
+	public ManagedObjectReference getResult() {
+		return this.result;
+	}
 
-    public void setRescan(HostVmfsRescanResult[] rescan) {
-        this.rescan = rescan;
-    }
+	public void setRescan(HostVmfsRescanResult[] rescan) {
+		this.rescan = rescan;
+	}
 
-    public void setResult(ManagedObjectReference result) {
-        this.result = result;
-    }
+	public void setResult(ManagedObjectReference result) {
+		this.result = result;
+	}
 }

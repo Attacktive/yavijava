@@ -38,22 +38,22 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class EventFilterSpecByTime extends DynamicData {
-    public Calendar beginTime;
-    public Calendar endTime;
+	public Calendar beginTime;
+	public Calendar endTime;
 
-    public Calendar getBeginTime() {
-        return this.beginTime;
-    }
+	public Calendar getBeginTime() {
+		return this.beginTime;
+	}
 
-    public Calendar getEndTime() {
-        return this.endTime;
-    }
+	public Calendar getEndTime() {
+		return this.endTime;
+	}
 
-    public void setBeginTime(Calendar beginTime) {
-        this.beginTime = beginTime;
-    }
+	public void setBeginTime(Calendar beginTime) {
+		this.beginTime = beginTime;
+	}
 
-    public void setEndTime(Calendar endTime) {
-        this.endTime = endTime;
-    }
+	public void setEndTime(Calendar endTime) {
+		this.endTime = endTime;
+	}
 }

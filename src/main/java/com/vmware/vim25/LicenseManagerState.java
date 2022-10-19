@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum LicenseManagerState {
-    initializing("initializing"),
-    normal("normal"),
-    marginal("marginal"),
-    fault("fault");
+	initializing("initializing"),
+	normal("normal"),
+	marginal("marginal"),
+	fault("fault");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseManagerState(String val) {
-        this.val = val;
-    }
+	private LicenseManagerState(String val) {
+		this.val = val;
+	}
 }

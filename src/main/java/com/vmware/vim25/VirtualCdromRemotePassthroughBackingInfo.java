@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualCdromRemotePassthroughBackingInfo extends VirtualDeviceRemoteDeviceBackingInfo {
-    public boolean exclusive;
+	public boolean exclusive;
 
-    public boolean isExclusive() {
-        return this.exclusive;
-    }
+	public boolean isExclusive() {
+		return this.exclusive;
+	}
 
-    public void setExclusive(boolean exclusive) {
-        this.exclusive = exclusive;
-    }
+	public void setExclusive(boolean exclusive) {
+		this.exclusive = exclusive;
+	}
 }

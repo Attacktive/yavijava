@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationAdapterMapping extends DynamicData {
-    public String macAddress;
-    public CustomizationIPSettings adapter;
+	public String macAddress;
+	public CustomizationIPSettings adapter;
 
-    public String getMacAddress() {
-        return this.macAddress;
-    }
+	public String getMacAddress() {
+		return this.macAddress;
+	}
 
-    public CustomizationIPSettings getAdapter() {
-        return this.adapter;
-    }
+	public CustomizationIPSettings getAdapter() {
+		return this.adapter;
+	}
 
-    public void setMacAddress(String macAddress) {
-        this.macAddress = macAddress;
-    }
+	public void setMacAddress(String macAddress) {
+		this.macAddress = macAddress;
+	}
 
-    public void setAdapter(CustomizationIPSettings adapter) {
-        this.adapter = adapter;
-    }
+	public void setAdapter(CustomizationIPSettings adapter) {
+		this.adapter = adapter;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineIdeDiskDevicePartitionInfo extends DynamicData {
-    public int id;
-    public int capacity;
+	public int id;
+	public int capacity;
 
-    public int getId() {
-        return this.id;
-    }
+	public int getId() {
+		return this.id;
+	}
 
-    public int getCapacity() {
-        return this.capacity;
-    }
+	public int getCapacity() {
+		return this.capacity;
+	}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	public void setId(int id) {
+		this.id = id;
+	}
 
-    public void setCapacity(int capacity) {
-        this.capacity = capacity;
-    }
+	public void setCapacity(int capacity) {
+		this.capacity = capacity;
+	}
 }

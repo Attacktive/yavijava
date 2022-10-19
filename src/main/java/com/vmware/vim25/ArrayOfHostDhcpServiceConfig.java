@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDhcpServiceConfig {
-    public HostDhcpServiceConfig[] HostDhcpServiceConfig;
+	public HostDhcpServiceConfig[] HostDhcpServiceConfig;
 
-    public HostDhcpServiceConfig[] getHostDhcpServiceConfig() {
-        return this.HostDhcpServiceConfig;
-    }
+	public HostDhcpServiceConfig[] getHostDhcpServiceConfig() {
+		return this.HostDhcpServiceConfig;
+	}
 
-    public HostDhcpServiceConfig getHostDhcpServiceConfig(int i) {
-        return this.HostDhcpServiceConfig[i];
-    }
+	public HostDhcpServiceConfig getHostDhcpServiceConfig(int i) {
+		return this.HostDhcpServiceConfig[i];
+	}
 
-    public void setHostDhcpServiceConfig(HostDhcpServiceConfig[] HostDhcpServiceConfig) {
-        this.HostDhcpServiceConfig = HostDhcpServiceConfig;
-    }
+	public void setHostDhcpServiceConfig(HostDhcpServiceConfig[] HostDhcpServiceConfig) {
+		this.HostDhcpServiceConfig = HostDhcpServiceConfig;
+	}
 }

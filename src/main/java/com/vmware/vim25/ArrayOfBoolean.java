@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfBoolean {
-    public boolean[] _boolean;
+	public boolean[] _boolean;
 
-    public boolean[] get_boolean() {
-        return this._boolean;
-    }
+	public boolean[] get_boolean() {
+		return this._boolean;
+	}
 
-    public boolean get_boolean(int i) {
-        return this._boolean[i];
-    }
+	public boolean get_boolean(int i) {
+		return this._boolean[i];
+	}
 
-    public void set_boolean(boolean[] _boolean) {
-        this._boolean = _boolean;
-    }
+	public void set_boolean(boolean[] _boolean) {
+		this._boolean = _boolean;
+	}
 }

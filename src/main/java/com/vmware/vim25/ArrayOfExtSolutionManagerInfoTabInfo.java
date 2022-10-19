@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtSolutionManagerInfoTabInfo {
-    public ExtSolutionManagerInfoTabInfo[] ExtSolutionManagerInfoTabInfo;
+	public ExtSolutionManagerInfoTabInfo[] ExtSolutionManagerInfoTabInfo;
 
-    public ExtSolutionManagerInfoTabInfo[] getExtSolutionManagerInfoTabInfo() {
-        return this.ExtSolutionManagerInfoTabInfo;
-    }
+	public ExtSolutionManagerInfoTabInfo[] getExtSolutionManagerInfoTabInfo() {
+		return this.ExtSolutionManagerInfoTabInfo;
+	}
 
-    public ExtSolutionManagerInfoTabInfo getExtSolutionManagerInfoTabInfo(int i) {
-        return this.ExtSolutionManagerInfoTabInfo[i];
-    }
+	public ExtSolutionManagerInfoTabInfo getExtSolutionManagerInfoTabInfo(int i) {
+		return this.ExtSolutionManagerInfoTabInfo[i];
+	}
 
-    public void setExtSolutionManagerInfoTabInfo(ExtSolutionManagerInfoTabInfo[] ExtSolutionManagerInfoTabInfo) {
-        this.ExtSolutionManagerInfoTabInfo = ExtSolutionManagerInfoTabInfo;
-    }
+	public void setExtSolutionManagerInfoTabInfo(ExtSolutionManagerInfoTabInfo[] ExtSolutionManagerInfoTabInfo) {
+		this.ExtSolutionManagerInfoTabInfo = ExtSolutionManagerInfoTabInfo;
+	}
 }

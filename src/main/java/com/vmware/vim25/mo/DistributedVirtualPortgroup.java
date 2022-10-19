@@ -30,9 +30,18 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.ConcurrentAccess;
+import com.vmware.vim25.DVPortgroupConfigInfo;
+import com.vmware.vim25.DVPortgroupConfigSpec;
+import com.vmware.vim25.DuplicateName;
+import com.vmware.vim25.DvsFault;
+import com.vmware.vim25.EntityBackupConfig;
+import com.vmware.vim25.InvalidName;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RollbackFailure;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -43,32 +52,32 @@ import java.rmi.RemoteException;
 
 public class DistributedVirtualPortgroup extends Network {
 
-    public DistributedVirtualPortgroup(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public DistributedVirtualPortgroup(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public DVPortgroupConfigInfo getConfig() {
-        return (DVPortgroupConfigInfo) getCurrentProperty("config");
-    }
+	public DVPortgroupConfigInfo getConfig() {
+		return (DVPortgroupConfigInfo)getCurrentProperty("config");
+	}
 
-    public String getKey() {
-        return (String) getCurrentProperty("key");
-    }
+	public String getKey() {
+		return (String)getCurrentProperty("key");
+	}
 
-    public String[] getPortKeys() {
-        return (String[]) getCurrentProperty("portKeys");
-    }
+	public String[] getPortKeys() {
+		return (String[])getCurrentProperty("portKeys");
+	}
 
-    public Task reconfigureDVPortgroup_Task(DVPortgroupConfigSpec spec) throws DvsFault, ConcurrentAccess, DuplicateName, InvalidName, RuntimeFault, RemoteException {
-        ManagedObjectReference mor = getVimService().reconfigureDVPortgroup_Task(getMOR(), spec);
-        return new Task(getServerConnection(), mor);
-    }
+	public Task reconfigureDVPortgroup_Task(DVPortgroupConfigSpec spec) throws DvsFault, ConcurrentAccess, DuplicateName, InvalidName, RuntimeFault, RemoteException {
+		ManagedObjectReference mor = getVimService().reconfigureDVPortgroup_Task(getMOR(), spec);
+		return new Task(getServerConnection(), mor);
+	}
 
-    /**
-     * @since SDK5.1
-     */
-    public Task dVPortgroupRollback_Task(EntityBackupConfig entityBackup) throws RollbackFailure, DvsFault, RuntimeFault, RemoteException {
-        ManagedObjectReference mor = getVimService().dVPortgroupRollback_Task(getMOR(), entityBackup);
-        return new Task(getServerConnection(), mor);
-    }
+	/**
+	 * @since SDK5.1
+	 */
+	public Task dVPortgroupRollback_Task(EntityBackupConfig entityBackup) throws RollbackFailure, DvsFault, RuntimeFault, RemoteException {
+		ManagedObjectReference mor = getVimService().dVPortgroupRollback_Task(getMOR(), entityBackup);
+		return new Task(getServerConnection(), mor);
+	}
 }

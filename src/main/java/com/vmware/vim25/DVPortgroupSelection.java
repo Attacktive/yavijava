@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVPortgroupSelection extends SelectionSet {
-    public String dvsUuid;
-    public String[] portgroupKey;
+	public String dvsUuid;
+	public String[] portgroupKey;
 
-    public String getDvsUuid() {
-        return this.dvsUuid;
-    }
+	public String getDvsUuid() {
+		return this.dvsUuid;
+	}
 
-    public String[] getPortgroupKey() {
-        return this.portgroupKey;
-    }
+	public String[] getPortgroupKey() {
+		return this.portgroupKey;
+	}
 
-    public void setDvsUuid(String dvsUuid) {
-        this.dvsUuid = dvsUuid;
-    }
+	public void setDvsUuid(String dvsUuid) {
+		this.dvsUuid = dvsUuid;
+	}
 
-    public void setPortgroupKey(String[] portgroupKey) {
-        this.portgroupKey = portgroupKey;
-    }
+	public void setPortgroupKey(String[] portgroupKey) {
+		this.portgroupKey = portgroupKey;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostNasVolumeConfig {
-    public HostNasVolumeConfig[] HostNasVolumeConfig;
+	public HostNasVolumeConfig[] HostNasVolumeConfig;
 
-    public HostNasVolumeConfig[] getHostNasVolumeConfig() {
-        return this.HostNasVolumeConfig;
-    }
+	public HostNasVolumeConfig[] getHostNasVolumeConfig() {
+		return this.HostNasVolumeConfig;
+	}
 
-    public HostNasVolumeConfig getHostNasVolumeConfig(int i) {
-        return this.HostNasVolumeConfig[i];
-    }
+	public HostNasVolumeConfig getHostNasVolumeConfig(int i) {
+		return this.HostNasVolumeConfig[i];
+	}
 
-    public void setHostNasVolumeConfig(HostNasVolumeConfig[] HostNasVolumeConfig) {
-        this.HostNasVolumeConfig = HostNasVolumeConfig;
-    }
+	public void setHostNasVolumeConfig(HostNasVolumeConfig[] HostNasVolumeConfig) {
+		this.HostNasVolumeConfig = HostNasVolumeConfig;
+	}
 }

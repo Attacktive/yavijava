@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineFileLayoutExDiskLayout {
-    public VirtualMachineFileLayoutExDiskLayout[] VirtualMachineFileLayoutExDiskLayout;
+	public VirtualMachineFileLayoutExDiskLayout[] VirtualMachineFileLayoutExDiskLayout;
 
-    public VirtualMachineFileLayoutExDiskLayout[] getVirtualMachineFileLayoutExDiskLayout() {
-        return this.VirtualMachineFileLayoutExDiskLayout;
-    }
+	public VirtualMachineFileLayoutExDiskLayout[] getVirtualMachineFileLayoutExDiskLayout() {
+		return this.VirtualMachineFileLayoutExDiskLayout;
+	}
 
-    public VirtualMachineFileLayoutExDiskLayout getVirtualMachineFileLayoutExDiskLayout(int i) {
-        return this.VirtualMachineFileLayoutExDiskLayout[i];
-    }
+	public VirtualMachineFileLayoutExDiskLayout getVirtualMachineFileLayoutExDiskLayout(int i) {
+		return this.VirtualMachineFileLayoutExDiskLayout[i];
+	}
 
-    public void setVirtualMachineFileLayoutExDiskLayout(VirtualMachineFileLayoutExDiskLayout[] VirtualMachineFileLayoutExDiskLayout) {
-        this.VirtualMachineFileLayoutExDiskLayout = VirtualMachineFileLayoutExDiskLayout;
-    }
+	public void setVirtualMachineFileLayoutExDiskLayout(VirtualMachineFileLayoutExDiskLayout[] VirtualMachineFileLayoutExDiskLayout) {
+		this.VirtualMachineFileLayoutExDiskLayout = VirtualMachineFileLayoutExDiskLayout;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineSoundInfo {
-    public VirtualMachineSoundInfo[] VirtualMachineSoundInfo;
+	public VirtualMachineSoundInfo[] VirtualMachineSoundInfo;
 
-    public VirtualMachineSoundInfo[] getVirtualMachineSoundInfo() {
-        return this.VirtualMachineSoundInfo;
-    }
+	public VirtualMachineSoundInfo[] getVirtualMachineSoundInfo() {
+		return this.VirtualMachineSoundInfo;
+	}
 
-    public VirtualMachineSoundInfo getVirtualMachineSoundInfo(int i) {
-        return this.VirtualMachineSoundInfo[i];
-    }
+	public VirtualMachineSoundInfo getVirtualMachineSoundInfo(int i) {
+		return this.VirtualMachineSoundInfo[i];
+	}
 
-    public void setVirtualMachineSoundInfo(VirtualMachineSoundInfo[] VirtualMachineSoundInfo) {
-        this.VirtualMachineSoundInfo = VirtualMachineSoundInfo;
-    }
+	public void setVirtualMachineSoundInfo(VirtualMachineSoundInfo[] VirtualMachineSoundInfo) {
+		this.VirtualMachineSoundInfo = VirtualMachineSoundInfo;
+	}
 }

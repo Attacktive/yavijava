@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostConfigInfoClusterInfo extends DynamicData {
-    public String uuid;
-    public String nodeUuid;
+	public String uuid;
+	public String nodeUuid;
 
-    public String getUuid() {
-        return this.uuid;
-    }
+	public String getUuid() {
+		return this.uuid;
+	}
 
-    public String getNodeUuid() {
-        return this.nodeUuid;
-    }
+	public String getNodeUuid() {
+		return this.nodeUuid;
+	}
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 
-    public void setNodeUuid(String nodeUuid) {
-        this.nodeUuid = nodeUuid;
-    }
+	public void setNodeUuid(String nodeUuid) {
+		this.nodeUuid = nodeUuid;
+	}
 }

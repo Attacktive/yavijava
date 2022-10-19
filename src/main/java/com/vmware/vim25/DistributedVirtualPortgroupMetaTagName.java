@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum DistributedVirtualPortgroupMetaTagName {
-    dvsName("dvsName"),
-    portgroupName("portgroupName"),
-    portIndex("portIndex");
+	dvsName("dvsName"),
+	portgroupName("portgroupName"),
+	portIndex("portIndex");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DistributedVirtualPortgroupMetaTagName(String val) {
-        this.val = val;
-    }
+	private DistributedVirtualPortgroupMetaTagName(String val) {
+		this.val = val;
+	}
 }

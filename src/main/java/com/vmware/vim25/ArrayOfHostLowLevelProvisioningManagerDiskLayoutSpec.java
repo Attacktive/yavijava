@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostLowLevelProvisioningManagerDiskLayoutSpec {
-    public HostLowLevelProvisioningManagerDiskLayoutSpec[] HostLowLevelProvisioningManagerDiskLayoutSpec;
+	public HostLowLevelProvisioningManagerDiskLayoutSpec[] HostLowLevelProvisioningManagerDiskLayoutSpec;
 
-    public HostLowLevelProvisioningManagerDiskLayoutSpec[] getHostLowLevelProvisioningManagerDiskLayoutSpec() {
-        return this.HostLowLevelProvisioningManagerDiskLayoutSpec;
-    }
+	public HostLowLevelProvisioningManagerDiskLayoutSpec[] getHostLowLevelProvisioningManagerDiskLayoutSpec() {
+		return this.HostLowLevelProvisioningManagerDiskLayoutSpec;
+	}
 
-    public HostLowLevelProvisioningManagerDiskLayoutSpec getHostLowLevelProvisioningManagerDiskLayoutSpec(int i) {
-        return this.HostLowLevelProvisioningManagerDiskLayoutSpec[i];
-    }
+	public HostLowLevelProvisioningManagerDiskLayoutSpec getHostLowLevelProvisioningManagerDiskLayoutSpec(int i) {
+		return this.HostLowLevelProvisioningManagerDiskLayoutSpec[i];
+	}
 
-    public void setHostLowLevelProvisioningManagerDiskLayoutSpec(HostLowLevelProvisioningManagerDiskLayoutSpec[] HostLowLevelProvisioningManagerDiskLayoutSpec) {
-        this.HostLowLevelProvisioningManagerDiskLayoutSpec = HostLowLevelProvisioningManagerDiskLayoutSpec;
-    }
+	public void setHostLowLevelProvisioningManagerDiskLayoutSpec(HostLowLevelProvisioningManagerDiskLayoutSpec[] HostLowLevelProvisioningManagerDiskLayoutSpec) {
+		this.HostLowLevelProvisioningManagerDiskLayoutSpec = HostLowLevelProvisioningManagerDiskLayoutSpec;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UserSearchResult extends DynamicData {
-    public String principal;
-    public String fullName;
-    public boolean group;
+	public String principal;
+	public String fullName;
+	public boolean group;
 
-    public String getPrincipal() {
-        return this.principal;
-    }
+	public String getPrincipal() {
+		return this.principal;
+	}
 
-    public String getFullName() {
-        return this.fullName;
-    }
+	public String getFullName() {
+		return this.fullName;
+	}
 
-    public boolean isGroup() {
-        return this.group;
-    }
+	public boolean isGroup() {
+		return this.group;
+	}
 
-    public void setPrincipal(String principal) {
-        this.principal = principal;
-    }
+	public void setPrincipal(String principal) {
+		this.principal = principal;
+	}
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
 
-    public void setGroup(boolean group) {
-        this.group = group;
-    }
+	public void setGroup(boolean group) {
+		this.group = group;
+	}
 }

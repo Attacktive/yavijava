@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfFileInfo {
-    public FileInfo[] FileInfo;
+	public FileInfo[] FileInfo;
 
-    public FileInfo[] getFileInfo() {
-        return this.FileInfo;
-    }
+	public FileInfo[] getFileInfo() {
+		return this.FileInfo;
+	}
 
-    public FileInfo getFileInfo(int i) {
-        return this.FileInfo[i];
-    }
+	public FileInfo getFileInfo(int i) {
+		return this.FileInfo[i];
+	}
 
-    public void setFileInfo(FileInfo[] FileInfo) {
-        this.FileInfo = FileInfo;
-    }
+	public void setFileInfo(FileInfo[] FileInfo) {
+		this.FileInfo = FileInfo;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetBIOSConfigInfo extends DynamicData {
-    public String mode;
+	public String mode;
 
-    public String getMode() {
-        return this.mode;
-    }
+	public String getMode() {
+		return this.mode;
+	}
 
-    public void setMode(String mode) {
-        this.mode = mode;
-    }
+	public void setMode(String mode) {
+		this.mode = mode;
+	}
 }

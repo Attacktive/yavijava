@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualControllerOption extends VirtualDeviceOption {
-    public IntOption devices;
-    public String[] supportedDevice;
+	public IntOption devices;
+	public String[] supportedDevice;
 
-    public IntOption getDevices() {
-        return this.devices;
-    }
+	public IntOption getDevices() {
+		return this.devices;
+	}
 
-    public String[] getSupportedDevice() {
-        return this.supportedDevice;
-    }
+	public String[] getSupportedDevice() {
+		return this.supportedDevice;
+	}
 
-    public void setDevices(IntOption devices) {
-        this.devices = devices;
-    }
+	public void setDevices(IntOption devices) {
+		this.devices = devices;
+	}
 
-    public void setSupportedDevice(String[] supportedDevice) {
-        this.supportedDevice = supportedDevice;
-    }
+	public void setSupportedDevice(String[] supportedDevice) {
+		this.supportedDevice = supportedDevice;
+	}
 }

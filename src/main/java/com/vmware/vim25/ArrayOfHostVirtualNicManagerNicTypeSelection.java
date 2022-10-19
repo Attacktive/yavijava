@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostVirtualNicManagerNicTypeSelection {
-    public HostVirtualNicManagerNicTypeSelection[] HostVirtualNicManagerNicTypeSelection;
+	public HostVirtualNicManagerNicTypeSelection[] HostVirtualNicManagerNicTypeSelection;
 
-    public HostVirtualNicManagerNicTypeSelection[] getHostVirtualNicManagerNicTypeSelection() {
-        return this.HostVirtualNicManagerNicTypeSelection;
-    }
+	public HostVirtualNicManagerNicTypeSelection[] getHostVirtualNicManagerNicTypeSelection() {
+		return this.HostVirtualNicManagerNicTypeSelection;
+	}
 
-    public HostVirtualNicManagerNicTypeSelection getHostVirtualNicManagerNicTypeSelection(int i) {
-        return this.HostVirtualNicManagerNicTypeSelection[i];
-    }
+	public HostVirtualNicManagerNicTypeSelection getHostVirtualNicManagerNicTypeSelection(int i) {
+		return this.HostVirtualNicManagerNicTypeSelection[i];
+	}
 
-    public void setHostVirtualNicManagerNicTypeSelection(HostVirtualNicManagerNicTypeSelection[] HostVirtualNicManagerNicTypeSelection) {
-        this.HostVirtualNicManagerNicTypeSelection = HostVirtualNicManagerNicTypeSelection;
-    }
+	public void setHostVirtualNicManagerNicTypeSelection(HostVirtualNicManagerNicTypeSelection[] HostVirtualNicManagerNicTypeSelection) {
+		this.HostVirtualNicManagerNicTypeSelection = HostVirtualNicManagerNicTypeSelection;
+	}
 }

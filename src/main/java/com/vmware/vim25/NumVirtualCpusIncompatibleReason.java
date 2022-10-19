@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum NumVirtualCpusIncompatibleReason {
-    recordReplay("recordReplay"),
-    faultTolerance("faultTolerance");
+	recordReplay("recordReplay"),
+	faultTolerance("faultTolerance");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NumVirtualCpusIncompatibleReason(String val) {
-        this.val = val;
-    }
+	private NumVirtualCpusIncompatibleReason(String val) {
+		this.val = val;
+	}
 }

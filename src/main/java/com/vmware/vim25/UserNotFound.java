@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UserNotFound extends VimFault {
-    public String principal;
-    public boolean unresolved;
+	public String principal;
+	public boolean unresolved;
 
-    public String getPrincipal() {
-        return this.principal;
-    }
+	public String getPrincipal() {
+		return this.principal;
+	}
 
-    public boolean isUnresolved() {
-        return this.unresolved;
-    }
+	public boolean isUnresolved() {
+		return this.unresolved;
+	}
 
-    public void setPrincipal(String principal) {
-        this.principal = principal;
-    }
+	public void setPrincipal(String principal) {
+		this.principal = principal;
+	}
 
-    public void setUnresolved(boolean unresolved) {
-        this.unresolved = unresolved;
-    }
+	public void setUnresolved(boolean unresolved) {
+		this.unresolved = unresolved;
+	}
 }

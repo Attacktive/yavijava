@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum DatastoreSummaryMaintenanceModeState {
-    normal("normal"),
-    enteringMaintenance("enteringMaintenance"),
-    inMaintenance("inMaintenance");
+	normal("normal"),
+	enteringMaintenance("enteringMaintenance"),
+	inMaintenance("inMaintenance");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DatastoreSummaryMaintenanceModeState(String val) {
-        this.val = val;
-    }
+	private DatastoreSummaryMaintenanceModeState(String val) {
+		this.val = val;
+	}
 }

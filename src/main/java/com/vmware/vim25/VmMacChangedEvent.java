@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmMacChangedEvent extends VmEvent {
-    public String adapter;
-    public String oldMac;
-    public String newMac;
+	public String adapter;
+	public String oldMac;
+	public String newMac;
 
-    public String getAdapter() {
-        return this.adapter;
-    }
+	public String getAdapter() {
+		return this.adapter;
+	}
 
-    public String getOldMac() {
-        return this.oldMac;
-    }
+	public String getOldMac() {
+		return this.oldMac;
+	}
 
-    public String getNewMac() {
-        return this.newMac;
-    }
+	public String getNewMac() {
+		return this.newMac;
+	}
 
-    public void setAdapter(String adapter) {
-        this.adapter = adapter;
-    }
+	public void setAdapter(String adapter) {
+		this.adapter = adapter;
+	}
 
-    public void setOldMac(String oldMac) {
-        this.oldMac = oldMac;
-    }
+	public void setOldMac(String oldMac) {
+		this.oldMac = oldMac;
+	}
 
-    public void setNewMac(String newMac) {
-        this.newMac = newMac;
-    }
+	public void setNewMac(String newMac) {
+		this.newMac = newMac;
+	}
 }

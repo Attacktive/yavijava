@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineDeviceRuntimeInfo extends DynamicData {
-    public VirtualMachineDeviceRuntimeInfoDeviceRuntimeState runtimeState;
-    public int key;
+	public VirtualMachineDeviceRuntimeInfoDeviceRuntimeState runtimeState;
+	public int key;
 
-    public VirtualMachineDeviceRuntimeInfoDeviceRuntimeState getRuntimeState() {
-        return this.runtimeState;
-    }
+	public VirtualMachineDeviceRuntimeInfoDeviceRuntimeState getRuntimeState() {
+		return this.runtimeState;
+	}
 
-    public int getKey() {
-        return this.key;
-    }
+	public int getKey() {
+		return this.key;
+	}
 
-    public void setRuntimeState(VirtualMachineDeviceRuntimeInfoDeviceRuntimeState runtimeState) {
-        this.runtimeState = runtimeState;
-    }
+	public void setRuntimeState(VirtualMachineDeviceRuntimeInfoDeviceRuntimeState runtimeState) {
+		this.runtimeState = runtimeState;
+	}
 
-    public void setKey(int key) {
-        this.key = key;
-    }
+	public void setKey(int key) {
+		this.key = key;
+	}
 }

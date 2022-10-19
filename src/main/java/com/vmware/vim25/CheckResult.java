@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CheckResult extends DynamicData {
-    public ManagedObjectReference vm;
-    public ManagedObjectReference host;
-    public LocalizedMethodFault[] warning;
-    public LocalizedMethodFault[] error;
+	public ManagedObjectReference vm;
+	public ManagedObjectReference host;
+	public LocalizedMethodFault[] warning;
+	public LocalizedMethodFault[] error;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public LocalizedMethodFault[] getWarning() {
-        return this.warning;
-    }
+	public LocalizedMethodFault[] getWarning() {
+		return this.warning;
+	}
 
-    public LocalizedMethodFault[] getError() {
-        return this.error;
-    }
+	public LocalizedMethodFault[] getError() {
+		return this.error;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setWarning(LocalizedMethodFault[] warning) {
-        this.warning = warning;
-    }
+	public void setWarning(LocalizedMethodFault[] warning) {
+		this.warning = warning;
+	}
 
-    public void setError(LocalizedMethodFault[] error) {
-        this.error = error;
-    }
+	public void setError(LocalizedMethodFault[] error) {
+		this.error = error;
+	}
 }

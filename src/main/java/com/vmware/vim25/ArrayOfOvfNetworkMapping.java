@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfNetworkMapping {
-    public OvfNetworkMapping[] OvfNetworkMapping;
+	public OvfNetworkMapping[] OvfNetworkMapping;
 
-    public OvfNetworkMapping[] getOvfNetworkMapping() {
-        return this.OvfNetworkMapping;
-    }
+	public OvfNetworkMapping[] getOvfNetworkMapping() {
+		return this.OvfNetworkMapping;
+	}
 
-    public OvfNetworkMapping getOvfNetworkMapping(int i) {
-        return this.OvfNetworkMapping[i];
-    }
+	public OvfNetworkMapping getOvfNetworkMapping(int i) {
+		return this.OvfNetworkMapping[i];
+	}
 
-    public void setOvfNetworkMapping(OvfNetworkMapping[] OvfNetworkMapping) {
-        this.OvfNetworkMapping = OvfNetworkMapping;
-    }
+	public void setOvfNetworkMapping(OvfNetworkMapping[] OvfNetworkMapping) {
+		this.OvfNetworkMapping = OvfNetworkMapping;
+	}
 }

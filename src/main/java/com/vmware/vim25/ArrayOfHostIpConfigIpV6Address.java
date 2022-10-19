@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostIpConfigIpV6Address {
-    public HostIpConfigIpV6Address[] HostIpConfigIpV6Address;
+	public HostIpConfigIpV6Address[] HostIpConfigIpV6Address;
 
-    public HostIpConfigIpV6Address[] getHostIpConfigIpV6Address() {
-        return this.HostIpConfigIpV6Address;
-    }
+	public HostIpConfigIpV6Address[] getHostIpConfigIpV6Address() {
+		return this.HostIpConfigIpV6Address;
+	}
 
-    public HostIpConfigIpV6Address getHostIpConfigIpV6Address(int i) {
-        return this.HostIpConfigIpV6Address[i];
-    }
+	public HostIpConfigIpV6Address getHostIpConfigIpV6Address(int i) {
+		return this.HostIpConfigIpV6Address[i];
+	}
 
-    public void setHostIpConfigIpV6Address(HostIpConfigIpV6Address[] HostIpConfigIpV6Address) {
-        this.HostIpConfigIpV6Address = HostIpConfigIpV6Address;
-    }
+	public void setHostIpConfigIpV6Address(HostIpConfigIpV6Address[] HostIpConfigIpV6Address) {
+		this.HostIpConfigIpV6Address = HostIpConfigIpV6Address;
+	}
 }

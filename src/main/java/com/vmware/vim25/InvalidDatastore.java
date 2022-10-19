@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidDatastore extends VimFault {
-    public ManagedObjectReference datastore;
-    public String name;
+	public ManagedObjectReference datastore;
+	public String name;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 }

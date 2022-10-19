@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfIpPoolAssociation {
-    public IpPoolAssociation[] IpPoolAssociation;
+	public IpPoolAssociation[] IpPoolAssociation;
 
-    public IpPoolAssociation[] getIpPoolAssociation() {
-        return this.IpPoolAssociation;
-    }
+	public IpPoolAssociation[] getIpPoolAssociation() {
+		return this.IpPoolAssociation;
+	}
 
-    public IpPoolAssociation getIpPoolAssociation(int i) {
-        return this.IpPoolAssociation[i];
-    }
+	public IpPoolAssociation getIpPoolAssociation(int i) {
+		return this.IpPoolAssociation[i];
+	}
 
-    public void setIpPoolAssociation(IpPoolAssociation[] IpPoolAssociation) {
-        this.IpPoolAssociation = IpPoolAssociation;
-    }
+	public void setIpPoolAssociation(IpPoolAssociation[] IpPoolAssociation) {
+		this.IpPoolAssociation = IpPoolAssociation;
+	}
 }

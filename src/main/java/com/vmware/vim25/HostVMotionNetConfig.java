@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVMotionNetConfig extends DynamicData {
-    public HostVirtualNic[] candidateVnic;
-    public String selectedVnic;
+	public HostVirtualNic[] candidateVnic;
+	public String selectedVnic;
 
-    public HostVirtualNic[] getCandidateVnic() {
-        return this.candidateVnic;
-    }
+	public HostVirtualNic[] getCandidateVnic() {
+		return this.candidateVnic;
+	}
 
-    public String getSelectedVnic() {
-        return this.selectedVnic;
-    }
+	public String getSelectedVnic() {
+		return this.selectedVnic;
+	}
 
-    public void setCandidateVnic(HostVirtualNic[] candidateVnic) {
-        this.candidateVnic = candidateVnic;
-    }
+	public void setCandidateVnic(HostVirtualNic[] candidateVnic) {
+		this.candidateVnic = candidateVnic;
+	}
 
-    public void setSelectedVnic(String selectedVnic) {
-        this.selectedVnic = selectedVnic;
-    }
+	public void setSelectedVnic(String selectedVnic) {
+		this.selectedVnic = selectedVnic;
+	}
 }

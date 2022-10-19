@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SeSparseVirtualDiskSpec extends FileBackedVirtualDiskSpec {
-    public Integer grainSizeKb;
+	public Integer grainSizeKb;
 
-    public Integer getGrainSizeKb() {
-        return this.grainSizeKb;
-    }
+	public Integer getGrainSizeKb() {
+		return this.grainSizeKb;
+	}
 
-    public void setGrainSizeKb(Integer grainSizeKb) {
-        this.grainSizeKb = grainSizeKb;
-    }
+	public void setGrainSizeKb(Integer grainSizeKb) {
+		this.grainSizeKb = grainSizeKb;
+	}
 }

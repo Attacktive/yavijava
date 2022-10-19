@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineSriovInfo {
-    public VirtualMachineSriovInfo[] VirtualMachineSriovInfo;
+	public VirtualMachineSriovInfo[] VirtualMachineSriovInfo;
 
-    public VirtualMachineSriovInfo[] getVirtualMachineSriovInfo() {
-        return this.VirtualMachineSriovInfo;
-    }
+	public VirtualMachineSriovInfo[] getVirtualMachineSriovInfo() {
+		return this.VirtualMachineSriovInfo;
+	}
 
-    public VirtualMachineSriovInfo getVirtualMachineSriovInfo(int i) {
-        return this.VirtualMachineSriovInfo[i];
-    }
+	public VirtualMachineSriovInfo getVirtualMachineSriovInfo(int i) {
+		return this.VirtualMachineSriovInfo[i];
+	}
 
-    public void setVirtualMachineSriovInfo(VirtualMachineSriovInfo[] VirtualMachineSriovInfo) {
-        this.VirtualMachineSriovInfo = VirtualMachineSriovInfo;
-    }
+	public void setVirtualMachineSriovInfo(VirtualMachineSriovInfo[] VirtualMachineSriovInfo) {
+		this.VirtualMachineSriovInfo = VirtualMachineSriovInfo;
+	}
 }

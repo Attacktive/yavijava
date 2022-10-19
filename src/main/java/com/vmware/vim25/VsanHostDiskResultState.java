@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VsanHostDiskResultState {
-    inUse("inUse"),
-    eligible("eligible"),
-    ineligible("ineligible");
+	inUse("inUse"),
+	eligible("eligible"),
+	ineligible("ineligible");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VsanHostDiskResultState(String val) {
-        this.val = val;
-    }
+	private VsanHostDiskResultState(String val) {
+		this.val = val;
+	}
 }

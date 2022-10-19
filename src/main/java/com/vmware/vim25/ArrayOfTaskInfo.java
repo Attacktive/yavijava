@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfTaskInfo {
-    public TaskInfo[] TaskInfo;
+	public TaskInfo[] TaskInfo;
 
-    public TaskInfo[] getTaskInfo() {
-        return this.TaskInfo;
-    }
+	public TaskInfo[] getTaskInfo() {
+		return this.TaskInfo;
+	}
 
-    public TaskInfo getTaskInfo(int i) {
-        return this.TaskInfo[i];
-    }
+	public TaskInfo getTaskInfo(int i) {
+		return this.TaskInfo[i];
+	}
 
-    public void setTaskInfo(TaskInfo[] TaskInfo) {
-        this.TaskInfo = TaskInfo;
-    }
+	public void setTaskInfo(TaskInfo[] TaskInfo) {
+		this.TaskInfo = TaskInfo;
+	}
 }

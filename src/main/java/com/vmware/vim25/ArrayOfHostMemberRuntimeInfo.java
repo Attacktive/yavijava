@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostMemberRuntimeInfo {
-    public HostMemberRuntimeInfo[] HostMemberRuntimeInfo;
+	public HostMemberRuntimeInfo[] HostMemberRuntimeInfo;
 
-    public HostMemberRuntimeInfo[] getHostMemberRuntimeInfo() {
-        return this.HostMemberRuntimeInfo;
-    }
+	public HostMemberRuntimeInfo[] getHostMemberRuntimeInfo() {
+		return this.HostMemberRuntimeInfo;
+	}
 
-    public HostMemberRuntimeInfo getHostMemberRuntimeInfo(int i) {
-        return this.HostMemberRuntimeInfo[i];
-    }
+	public HostMemberRuntimeInfo getHostMemberRuntimeInfo(int i) {
+		return this.HostMemberRuntimeInfo[i];
+	}
 
-    public void setHostMemberRuntimeInfo(HostMemberRuntimeInfo[] HostMemberRuntimeInfo) {
-        this.HostMemberRuntimeInfo = HostMemberRuntimeInfo;
-    }
+	public void setHostMemberRuntimeInfo(HostMemberRuntimeInfo[] HostMemberRuntimeInfo) {
+		this.HostMemberRuntimeInfo = HostMemberRuntimeInfo;
+	}
 }

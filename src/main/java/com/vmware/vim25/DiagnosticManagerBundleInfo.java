@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DiagnosticManagerBundleInfo extends DynamicData {
-    public ManagedObjectReference system;
-    public String url;
+	public ManagedObjectReference system;
+	public String url;
 
-    public ManagedObjectReference getSystem() {
-        return this.system;
-    }
+	public ManagedObjectReference getSystem() {
+		return this.system;
+	}
 
-    public String getUrl() {
-        return this.url;
-    }
+	public String getUrl() {
+		return this.url;
+	}
 
-    public void setSystem(ManagedObjectReference system) {
-        this.system = system;
-    }
+	public void setSystem(ManagedObjectReference system) {
+		this.system = system;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 }

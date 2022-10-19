@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNetIpStackInfoDefaultRouter {
-    public NetIpStackInfoDefaultRouter[] NetIpStackInfoDefaultRouter;
+	public NetIpStackInfoDefaultRouter[] NetIpStackInfoDefaultRouter;
 
-    public NetIpStackInfoDefaultRouter[] getNetIpStackInfoDefaultRouter() {
-        return this.NetIpStackInfoDefaultRouter;
-    }
+	public NetIpStackInfoDefaultRouter[] getNetIpStackInfoDefaultRouter() {
+		return this.NetIpStackInfoDefaultRouter;
+	}
 
-    public NetIpStackInfoDefaultRouter getNetIpStackInfoDefaultRouter(int i) {
-        return this.NetIpStackInfoDefaultRouter[i];
-    }
+	public NetIpStackInfoDefaultRouter getNetIpStackInfoDefaultRouter(int i) {
+		return this.NetIpStackInfoDefaultRouter[i];
+	}
 
-    public void setNetIpStackInfoDefaultRouter(NetIpStackInfoDefaultRouter[] NetIpStackInfoDefaultRouter) {
-        this.NetIpStackInfoDefaultRouter = NetIpStackInfoDefaultRouter;
-    }
+	public void setNetIpStackInfoDefaultRouter(NetIpStackInfoDefaultRouter[] NetIpStackInfoDefaultRouter) {
+		this.NetIpStackInfoDefaultRouter = NetIpStackInfoDefaultRouter;
+	}
 }

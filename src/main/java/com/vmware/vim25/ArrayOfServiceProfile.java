@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfServiceProfile {
-    public ServiceProfile[] ServiceProfile;
+	public ServiceProfile[] ServiceProfile;
 
-    public ServiceProfile[] getServiceProfile() {
-        return this.ServiceProfile;
-    }
+	public ServiceProfile[] getServiceProfile() {
+		return this.ServiceProfile;
+	}
 
-    public ServiceProfile getServiceProfile(int i) {
-        return this.ServiceProfile[i];
-    }
+	public ServiceProfile getServiceProfile(int i) {
+		return this.ServiceProfile[i];
+	}
 
-    public void setServiceProfile(ServiceProfile[] ServiceProfile) {
-        this.ServiceProfile = ServiceProfile;
-    }
+	public void setServiceProfile(ServiceProfile[] ServiceProfile) {
+		this.ServiceProfile = ServiceProfile;
+	}
 }

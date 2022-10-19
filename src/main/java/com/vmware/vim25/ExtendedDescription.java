@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtendedDescription extends Description {
-    public String messageCatalogKeyPrefix;
-    public KeyAnyValue[] messageArg;
+	public String messageCatalogKeyPrefix;
+	public KeyAnyValue[] messageArg;
 
-    public String getMessageCatalogKeyPrefix() {
-        return this.messageCatalogKeyPrefix;
-    }
+	public String getMessageCatalogKeyPrefix() {
+		return this.messageCatalogKeyPrefix;
+	}
 
-    public KeyAnyValue[] getMessageArg() {
-        return this.messageArg;
-    }
+	public KeyAnyValue[] getMessageArg() {
+		return this.messageArg;
+	}
 
-    public void setMessageCatalogKeyPrefix(String messageCatalogKeyPrefix) {
-        this.messageCatalogKeyPrefix = messageCatalogKeyPrefix;
-    }
+	public void setMessageCatalogKeyPrefix(String messageCatalogKeyPrefix) {
+		this.messageCatalogKeyPrefix = messageCatalogKeyPrefix;
+	}
 
-    public void setMessageArg(KeyAnyValue[] messageArg) {
-        this.messageArg = messageArg;
-    }
+	public void setMessageArg(KeyAnyValue[] messageArg) {
+		this.messageArg = messageArg;
+	}
 }

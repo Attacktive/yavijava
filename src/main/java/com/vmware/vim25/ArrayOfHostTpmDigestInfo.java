@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostTpmDigestInfo {
-    public HostTpmDigestInfo[] HostTpmDigestInfo;
+	public HostTpmDigestInfo[] HostTpmDigestInfo;
 
-    public HostTpmDigestInfo[] getHostTpmDigestInfo() {
-        return this.HostTpmDigestInfo;
-    }
+	public HostTpmDigestInfo[] getHostTpmDigestInfo() {
+		return this.HostTpmDigestInfo;
+	}
 
-    public HostTpmDigestInfo getHostTpmDigestInfo(int i) {
-        return this.HostTpmDigestInfo[i];
-    }
+	public HostTpmDigestInfo getHostTpmDigestInfo(int i) {
+		return this.HostTpmDigestInfo[i];
+	}
 
-    public void setHostTpmDigestInfo(HostTpmDigestInfo[] HostTpmDigestInfo) {
-        this.HostTpmDigestInfo = HostTpmDigestInfo;
-    }
+	public void setHostTpmDigestInfo(HostTpmDigestInfo[] HostTpmDigestInfo) {
+		this.HostTpmDigestInfo = HostTpmDigestInfo;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostSnmpDestination {
-    public HostSnmpDestination[] HostSnmpDestination;
+	public HostSnmpDestination[] HostSnmpDestination;
 
-    public HostSnmpDestination[] getHostSnmpDestination() {
-        return this.HostSnmpDestination;
-    }
+	public HostSnmpDestination[] getHostSnmpDestination() {
+		return this.HostSnmpDestination;
+	}
 
-    public HostSnmpDestination getHostSnmpDestination(int i) {
-        return this.HostSnmpDestination[i];
-    }
+	public HostSnmpDestination getHostSnmpDestination(int i) {
+		return this.HostSnmpDestination[i];
+	}
 
-    public void setHostSnmpDestination(HostSnmpDestination[] HostSnmpDestination) {
-        this.HostSnmpDestination = HostSnmpDestination;
-    }
+	public void setHostSnmpDestination(HostSnmpDestination[] HostSnmpDestination) {
+		this.HostSnmpDestination = HostSnmpDestination;
+	}
 }

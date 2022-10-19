@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMultipathStateInfo extends DynamicData {
-    public HostMultipathStateInfoPath[] path;
+	public HostMultipathStateInfoPath[] path;
 
-    public HostMultipathStateInfoPath[] getPath() {
-        return this.path;
-    }
+	public HostMultipathStateInfoPath[] getPath() {
+		return this.path;
+	}
 
-    public void setPath(HostMultipathStateInfoPath[] path) {
-        this.path = path;
-    }
+	public void setPath(HostMultipathStateInfoPath[] path) {
+		this.path = path;
+	}
 }

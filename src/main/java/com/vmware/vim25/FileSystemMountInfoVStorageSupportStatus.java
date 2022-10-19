@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum FileSystemMountInfoVStorageSupportStatus {
-    vStorageSupported("vStorageSupported"),
-    vStorageUnsupported("vStorageUnsupported"),
-    vStorageUnknown("vStorageUnknown");
+	vStorageSupported("vStorageSupported"),
+	vStorageUnsupported("vStorageUnsupported"),
+	vStorageUnknown("vStorageUnknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private FileSystemMountInfoVStorageSupportStatus(String val) {
-        this.val = val;
-    }
+	private FileSystemMountInfoVStorageSupportStatus(String val) {
+		this.val = val;
+	}
 }

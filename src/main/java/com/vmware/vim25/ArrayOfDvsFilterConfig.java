@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsFilterConfig {
-    public DvsFilterConfig[] DvsFilterConfig;
+	public DvsFilterConfig[] DvsFilterConfig;
 
-    public DvsFilterConfig[] getDvsFilterConfig() {
-        return this.DvsFilterConfig;
-    }
+	public DvsFilterConfig[] getDvsFilterConfig() {
+		return this.DvsFilterConfig;
+	}
 
-    public DvsFilterConfig getDvsFilterConfig(int i) {
-        return this.DvsFilterConfig[i];
-    }
+	public DvsFilterConfig getDvsFilterConfig(int i) {
+		return this.DvsFilterConfig[i];
+	}
 
-    public void setDvsFilterConfig(DvsFilterConfig[] DvsFilterConfig) {
-        this.DvsFilterConfig = DvsFilterConfig;
-    }
+	public void setDvsFilterConfig(DvsFilterConfig[] DvsFilterConfig) {
+		this.DvsFilterConfig = DvsFilterConfig;
+	}
 }

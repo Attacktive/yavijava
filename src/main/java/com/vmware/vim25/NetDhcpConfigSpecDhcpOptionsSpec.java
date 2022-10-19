@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetDhcpConfigSpecDhcpOptionsSpec extends DynamicData {
-    public Boolean enable;
-    public KeyValue[] config;
-    public String operation;
+	public Boolean enable;
+	public KeyValue[] config;
+	public String operation;
 
-    public Boolean getEnable() {
-        return this.enable;
-    }
+	public Boolean getEnable() {
+		return this.enable;
+	}
 
-    public KeyValue[] getConfig() {
-        return this.config;
-    }
+	public KeyValue[] getConfig() {
+		return this.config;
+	}
 
-    public String getOperation() {
-        return this.operation;
-    }
+	public String getOperation() {
+		return this.operation;
+	}
 
-    public void setEnable(Boolean enable) {
-        this.enable = enable;
-    }
+	public void setEnable(Boolean enable) {
+		this.enable = enable;
+	}
 
-    public void setConfig(KeyValue[] config) {
-        this.config = config;
-    }
+	public void setConfig(KeyValue[] config) {
+		this.config = config;
+	}
 
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
 }

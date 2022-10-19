@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmDeployedEvent extends VmEvent {
-    public VmEventArgument srcTemplate;
+	public VmEventArgument srcTemplate;
 
-    public VmEventArgument getSrcTemplate() {
-        return this.srcTemplate;
-    }
+	public VmEventArgument getSrcTemplate() {
+		return this.srcTemplate;
+	}
 
-    public void setSrcTemplate(VmEventArgument srcTemplate) {
-        this.srcTemplate = srcTemplate;
-    }
+	public void setSrcTemplate(VmEventArgument srcTemplate) {
+		this.srcTemplate = srcTemplate;
+	}
 }

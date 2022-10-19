@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IncompatibleHostForFtSecondary extends VmFaultToleranceIssue {
-    public ManagedObjectReference host;
-    public LocalizedMethodFault[] error;
+	public ManagedObjectReference host;
+	public LocalizedMethodFault[] error;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public LocalizedMethodFault[] getError() {
-        return this.error;
-    }
+	public LocalizedMethodFault[] getError() {
+		return this.error;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setError(LocalizedMethodFault[] error) {
-        this.error = error;
-    }
+	public void setError(LocalizedMethodFault[] error) {
+		this.error = error;
+	}
 }

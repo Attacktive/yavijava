@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ImportOperationBulkFault extends DvsFault {
-    public ImportOperationBulkFaultFaultOnImport[] importFaults;
+	public ImportOperationBulkFaultFaultOnImport[] importFaults;
 
-    public ImportOperationBulkFaultFaultOnImport[] getImportFaults() {
-        return this.importFaults;
-    }
+	public ImportOperationBulkFaultFaultOnImport[] getImportFaults() {
+		return this.importFaults;
+	}
 
-    public void setImportFaults(ImportOperationBulkFaultFaultOnImport[] importFaults) {
-        this.importFaults = importFaults;
-    }
+	public void setImportFaults(ImportOperationBulkFaultFaultOnImport[] importFaults) {
+		this.importFaults = importFaults;
+	}
 }

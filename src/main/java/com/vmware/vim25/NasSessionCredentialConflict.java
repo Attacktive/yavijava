@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NasSessionCredentialConflict extends NasConfigFault {
-    public String remoteHost;
-    public String remotePath;
-    public String userName;
+	public String remoteHost;
+	public String remotePath;
+	public String userName;
 
-    public String getRemoteHost() {
-        return this.remoteHost;
-    }
+	public String getRemoteHost() {
+		return this.remoteHost;
+	}
 
-    public String getRemotePath() {
-        return this.remotePath;
-    }
+	public String getRemotePath() {
+		return this.remotePath;
+	}
 
-    public String getUserName() {
-        return this.userName;
-    }
+	public String getUserName() {
+		return this.userName;
+	}
 
-    public void setRemoteHost(String remoteHost) {
-        this.remoteHost = remoteHost;
-    }
+	public void setRemoteHost(String remoteHost) {
+		this.remoteHost = remoteHost;
+	}
 
-    public void setRemotePath(String remotePath) {
-        this.remotePath = remotePath;
-    }
+	public void setRemotePath(String remotePath) {
+		this.remotePath = remotePath;
+	}
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 }

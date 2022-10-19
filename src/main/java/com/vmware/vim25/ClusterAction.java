@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterAction extends DynamicData {
-    public String type;
-    public ManagedObjectReference target;
+	public String type;
+	public ManagedObjectReference target;
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public ManagedObjectReference getTarget() {
-        return this.target;
-    }
+	public ManagedObjectReference getTarget() {
+		return this.target;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setTarget(ManagedObjectReference target) {
-        this.target = target;
-    }
+	public void setTarget(ManagedObjectReference target) {
+		this.target = target;
+	}
 }

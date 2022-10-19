@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetIpRouteConfigInfoIpRoute extends DynamicData {
-    public String network;
-    public int prefixLength;
-    public NetIpRouteConfigInfoGateway gateway;
+	public String network;
+	public int prefixLength;
+	public NetIpRouteConfigInfoGateway gateway;
 
-    public String getNetwork() {
-        return this.network;
-    }
+	public String getNetwork() {
+		return this.network;
+	}
 
-    public int getPrefixLength() {
-        return this.prefixLength;
-    }
+	public int getPrefixLength() {
+		return this.prefixLength;
+	}
 
-    public NetIpRouteConfigInfoGateway getGateway() {
-        return this.gateway;
-    }
+	public NetIpRouteConfigInfoGateway getGateway() {
+		return this.gateway;
+	}
 
-    public void setNetwork(String network) {
-        this.network = network;
-    }
+	public void setNetwork(String network) {
+		this.network = network;
+	}
 
-    public void setPrefixLength(int prefixLength) {
-        this.prefixLength = prefixLength;
-    }
+	public void setPrefixLength(int prefixLength) {
+		this.prefixLength = prefixLength;
+	}
 
-    public void setGateway(NetIpRouteConfigInfoGateway gateway) {
-        this.gateway = gateway;
-    }
+	public void setGateway(NetIpRouteConfigInfoGateway gateway) {
+		this.gateway = gateway;
+	}
 }

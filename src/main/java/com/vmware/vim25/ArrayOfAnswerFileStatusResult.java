@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAnswerFileStatusResult {
-    public AnswerFileStatusResult[] AnswerFileStatusResult;
+	public AnswerFileStatusResult[] AnswerFileStatusResult;
 
-    public AnswerFileStatusResult[] getAnswerFileStatusResult() {
-        return this.AnswerFileStatusResult;
-    }
+	public AnswerFileStatusResult[] getAnswerFileStatusResult() {
+		return this.AnswerFileStatusResult;
+	}
 
-    public AnswerFileStatusResult getAnswerFileStatusResult(int i) {
-        return this.AnswerFileStatusResult[i];
-    }
+	public AnswerFileStatusResult getAnswerFileStatusResult(int i) {
+		return this.AnswerFileStatusResult[i];
+	}
 
-    public void setAnswerFileStatusResult(AnswerFileStatusResult[] AnswerFileStatusResult) {
-        this.AnswerFileStatusResult = AnswerFileStatusResult;
-    }
+	public void setAnswerFileStatusResult(AnswerFileStatusResult[] AnswerFileStatusResult) {
+		this.AnswerFileStatusResult = AnswerFileStatusResult;
+	}
 }

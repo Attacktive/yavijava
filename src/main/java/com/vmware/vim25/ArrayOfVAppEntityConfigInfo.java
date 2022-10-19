@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppEntityConfigInfo {
-    public VAppEntityConfigInfo[] VAppEntityConfigInfo;
+	public VAppEntityConfigInfo[] VAppEntityConfigInfo;
 
-    public VAppEntityConfigInfo[] getVAppEntityConfigInfo() {
-        return this.VAppEntityConfigInfo;
-    }
+	public VAppEntityConfigInfo[] getVAppEntityConfigInfo() {
+		return this.VAppEntityConfigInfo;
+	}
 
-    public VAppEntityConfigInfo getVAppEntityConfigInfo(int i) {
-        return this.VAppEntityConfigInfo[i];
-    }
+	public VAppEntityConfigInfo getVAppEntityConfigInfo(int i) {
+		return this.VAppEntityConfigInfo[i];
+	}
 
-    public void setVAppEntityConfigInfo(VAppEntityConfigInfo[] VAppEntityConfigInfo) {
-        this.VAppEntityConfigInfo = VAppEntityConfigInfo;
-    }
+	public void setVAppEntityConfigInfo(VAppEntityConfigInfo[] VAppEntityConfigInfo) {
+		this.VAppEntityConfigInfo = VAppEntityConfigInfo;
+	}
 }

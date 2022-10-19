@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPhysicalNic {
-    public PhysicalNic[] PhysicalNic;
+	public PhysicalNic[] PhysicalNic;
 
-    public PhysicalNic[] getPhysicalNic() {
-        return this.PhysicalNic;
-    }
+	public PhysicalNic[] getPhysicalNic() {
+		return this.PhysicalNic;
+	}
 
-    public PhysicalNic getPhysicalNic(int i) {
-        return this.PhysicalNic[i];
-    }
+	public PhysicalNic getPhysicalNic(int i) {
+		return this.PhysicalNic[i];
+	}
 
-    public void setPhysicalNic(PhysicalNic[] PhysicalNic) {
-        this.PhysicalNic = PhysicalNic;
-    }
+	public void setPhysicalNic(PhysicalNic[] PhysicalNic) {
+		this.PhysicalNic = PhysicalNic;
+	}
 }

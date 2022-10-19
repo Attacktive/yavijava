@@ -21,24 +21,23 @@ package com.vmware.vim25;
  */
 
 public class VmFaultToleranceTooManyFtVcpusOnHost extends InsufficientResourcesFault {
-    public String hostName;
+	public String hostName;
 
-    public int maxNumFtVcpus;
+	public int maxNumFtVcpus;
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public int getMaxNumFtVcpus() {
-        return maxNumFtVcpus;
-    }
+	public int getMaxNumFtVcpus() {
+		return maxNumFtVcpus;
+	}
 
-    public void setMaxNumFtVcpus(int maxNumFtVcpus) {
-        this.maxNumFtVcpus = maxNumFtVcpus;
-    }
-
+	public void setMaxNumFtVcpus(int maxNumFtVcpus) {
+		this.maxNumFtVcpus = maxNumFtVcpus;
+	}
 }

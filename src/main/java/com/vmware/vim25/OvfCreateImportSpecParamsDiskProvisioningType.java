@@ -35,21 +35,21 @@ package com.vmware.vim25;
  */
 
 public enum OvfCreateImportSpecParamsDiskProvisioningType {
-    monolithicSparse("monolithicSparse"),
-    monolithicFlat("monolithicFlat"),
-    twoGbMaxExtentSparse("twoGbMaxExtentSparse"),
-    twoGbMaxExtentFlat("twoGbMaxExtentFlat"),
-    thin("thin"),
-    thick("thick"),
-    seSparse("seSparse"),
-    eagerZeroedThick("eagerZeroedThick"),
-    sparse("sparse"),
-    flat("flat");
+	monolithicSparse("monolithicSparse"),
+	monolithicFlat("monolithicFlat"),
+	twoGbMaxExtentSparse("twoGbMaxExtentSparse"),
+	twoGbMaxExtentFlat("twoGbMaxExtentFlat"),
+	thin("thin"),
+	thick("thick"),
+	seSparse("seSparse"),
+	eagerZeroedThick("eagerZeroedThick"),
+	sparse("sparse"),
+	flat("flat");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private OvfCreateImportSpecParamsDiskProvisioningType(String val) {
-        this.val = val;
-    }
+	private OvfCreateImportSpecParamsDiskProvisioningType(String val) {
+		this.val = val;
+	}
 }

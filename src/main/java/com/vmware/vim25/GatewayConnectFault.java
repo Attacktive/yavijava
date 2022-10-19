@@ -17,53 +17,53 @@ package com.vmware.vim25;
  */
 public class GatewayConnectFault extends HostConnectFault {
 
-    /**
-     * Details of the cause for this fault. This is the way in which Host
-     * Gateway servers propagate opaque error messages through vCenter Server.
-     */
-    public LocalizableMessage details;
-    /**
-     * Identifier of the gateway that is used for the connection to the host.
-     */
-    public String gatewayId;
-    /**
-     * Human-readable information about the host gateway server.
-     */
-    public String gatewayInfo;
-    /**
-     * The type of the gateway used for the connection to the host.
-     */
-    public String gatewayType;
+	/**
+	 * Details of the cause for this fault. This is the way in which Host
+	 * Gateway servers propagate opaque error messages through vCenter Server.
+	 */
+	public LocalizableMessage details;
+	/**
+	 * Identifier of the gateway that is used for the connection to the host.
+	 */
+	public String gatewayId;
+	/**
+	 * Human-readable information about the host gateway server.
+	 */
+	public String gatewayInfo;
+	/**
+	 * The type of the gateway used for the connection to the host.
+	 */
+	public String gatewayType;
 
-    public LocalizableMessage getDetails() {
-        return details;
-    }
+	public LocalizableMessage getDetails() {
+		return details;
+	}
 
-    public void setDetails(LocalizableMessage details) {
-        this.details = details;
-    }
+	public void setDetails(LocalizableMessage details) {
+		this.details = details;
+	}
 
-    public String getGatewayId() {
-        return gatewayId;
-    }
+	public String getGatewayId() {
+		return gatewayId;
+	}
 
-    public void setGatewayId(String gatewayId) {
-        this.gatewayId = gatewayId;
-    }
+	public void setGatewayId(String gatewayId) {
+		this.gatewayId = gatewayId;
+	}
 
-    public String getGatewayInfo() {
-        return gatewayInfo;
-    }
+	public String getGatewayInfo() {
+		return gatewayInfo;
+	}
 
-    public void setGatewayInfo(String gatewayInfo) {
-        this.gatewayInfo = gatewayInfo;
-    }
+	public void setGatewayInfo(String gatewayInfo) {
+		this.gatewayInfo = gatewayInfo;
+	}
 
-    public String getGatewayType() {
-        return gatewayType;
-    }
+	public String getGatewayType() {
+		return gatewayType;
+	}
 
-    public void setGatewayType(String gatewayType) {
-        this.gatewayType = gatewayType;
-    }
+	public void setGatewayType(String gatewayType) {
+		this.gatewayType = gatewayType;
+	}
 }

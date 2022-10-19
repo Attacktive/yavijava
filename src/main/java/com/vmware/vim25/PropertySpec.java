@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PropertySpec extends DynamicData {
-    public String type;
-    public Boolean all;
-    public String[] pathSet;
+	public String type;
+	public Boolean all;
+	public String[] pathSet;
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public Boolean getAll() {
-        return this.all;
-    }
+	public Boolean getAll() {
+		return this.all;
+	}
 
-    public String[] getPathSet() {
-        return this.pathSet;
-    }
+	public String[] getPathSet() {
+		return this.pathSet;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setAll(Boolean all) {
-        this.all = all;
-    }
+	public void setAll(Boolean all) {
+		this.all = all;
+	}
 
-    public void setPathSet(String[] pathSet) {
-        this.pathSet = pathSet;
-    }
+	public void setPathSet(String[] pathSet) {
+		this.pathSet = pathSet;
+	}
 }

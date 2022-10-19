@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfileDeferredPolicyOptionParameter {
-    public ProfileDeferredPolicyOptionParameter[] ProfileDeferredPolicyOptionParameter;
+	public ProfileDeferredPolicyOptionParameter[] ProfileDeferredPolicyOptionParameter;
 
-    public ProfileDeferredPolicyOptionParameter[] getProfileDeferredPolicyOptionParameter() {
-        return this.ProfileDeferredPolicyOptionParameter;
-    }
+	public ProfileDeferredPolicyOptionParameter[] getProfileDeferredPolicyOptionParameter() {
+		return this.ProfileDeferredPolicyOptionParameter;
+	}
 
-    public ProfileDeferredPolicyOptionParameter getProfileDeferredPolicyOptionParameter(int i) {
-        return this.ProfileDeferredPolicyOptionParameter[i];
-    }
+	public ProfileDeferredPolicyOptionParameter getProfileDeferredPolicyOptionParameter(int i) {
+		return this.ProfileDeferredPolicyOptionParameter[i];
+	}
 
-    public void setProfileDeferredPolicyOptionParameter(ProfileDeferredPolicyOptionParameter[] ProfileDeferredPolicyOptionParameter) {
-        this.ProfileDeferredPolicyOptionParameter = ProfileDeferredPolicyOptionParameter;
-    }
+	public void setProfileDeferredPolicyOptionParameter(ProfileDeferredPolicyOptionParameter[] ProfileDeferredPolicyOptionParameter) {
+		this.ProfileDeferredPolicyOptionParameter = ProfileDeferredPolicyOptionParameter;
+	}
 }

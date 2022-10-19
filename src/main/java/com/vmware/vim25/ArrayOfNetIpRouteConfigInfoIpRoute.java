@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNetIpRouteConfigInfoIpRoute {
-    public NetIpRouteConfigInfoIpRoute[] NetIpRouteConfigInfoIpRoute;
+	public NetIpRouteConfigInfoIpRoute[] NetIpRouteConfigInfoIpRoute;
 
-    public NetIpRouteConfigInfoIpRoute[] getNetIpRouteConfigInfoIpRoute() {
-        return this.NetIpRouteConfigInfoIpRoute;
-    }
+	public NetIpRouteConfigInfoIpRoute[] getNetIpRouteConfigInfoIpRoute() {
+		return this.NetIpRouteConfigInfoIpRoute;
+	}
 
-    public NetIpRouteConfigInfoIpRoute getNetIpRouteConfigInfoIpRoute(int i) {
-        return this.NetIpRouteConfigInfoIpRoute[i];
-    }
+	public NetIpRouteConfigInfoIpRoute getNetIpRouteConfigInfoIpRoute(int i) {
+		return this.NetIpRouteConfigInfoIpRoute[i];
+	}
 
-    public void setNetIpRouteConfigInfoIpRoute(NetIpRouteConfigInfoIpRoute[] NetIpRouteConfigInfoIpRoute) {
-        this.NetIpRouteConfigInfoIpRoute = NetIpRouteConfigInfoIpRoute;
-    }
+	public void setNetIpRouteConfigInfoIpRoute(NetIpRouteConfigInfoIpRoute[] NetIpRouteConfigInfoIpRoute) {
+		this.NetIpRouteConfigInfoIpRoute = NetIpRouteConfigInfoIpRoute;
+	}
 }

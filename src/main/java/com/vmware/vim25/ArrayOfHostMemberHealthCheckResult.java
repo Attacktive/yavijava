@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostMemberHealthCheckResult {
-    public HostMemberHealthCheckResult[] HostMemberHealthCheckResult;
+	public HostMemberHealthCheckResult[] HostMemberHealthCheckResult;
 
-    public HostMemberHealthCheckResult[] getHostMemberHealthCheckResult() {
-        return this.HostMemberHealthCheckResult;
-    }
+	public HostMemberHealthCheckResult[] getHostMemberHealthCheckResult() {
+		return this.HostMemberHealthCheckResult;
+	}
 
-    public HostMemberHealthCheckResult getHostMemberHealthCheckResult(int i) {
-        return this.HostMemberHealthCheckResult[i];
-    }
+	public HostMemberHealthCheckResult getHostMemberHealthCheckResult(int i) {
+		return this.HostMemberHealthCheckResult[i];
+	}
 
-    public void setHostMemberHealthCheckResult(HostMemberHealthCheckResult[] HostMemberHealthCheckResult) {
-        this.HostMemberHealthCheckResult = HostMemberHealthCheckResult;
-    }
+	public void setHostMemberHealthCheckResult(HostMemberHealthCheckResult[] HostMemberHealthCheckResult) {
+		this.HostMemberHealthCheckResult = HostMemberHealthCheckResult;
+	}
 }

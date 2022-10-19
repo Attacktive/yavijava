@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDiskOption extends VirtualDeviceOption {
-    public LongOption capacityInKB;
-    public StorageIOAllocationOption ioAllocationOption;
-    public VirtualDiskOptionVFlashCacheConfigOption vFlashCacheConfigOption;
+	public LongOption capacityInKB;
+	public StorageIOAllocationOption ioAllocationOption;
+	public VirtualDiskOptionVFlashCacheConfigOption vFlashCacheConfigOption;
 
-    public LongOption getCapacityInKB() {
-        return this.capacityInKB;
-    }
+	public LongOption getCapacityInKB() {
+		return this.capacityInKB;
+	}
 
-    public StorageIOAllocationOption getIoAllocationOption() {
-        return this.ioAllocationOption;
-    }
+	public StorageIOAllocationOption getIoAllocationOption() {
+		return this.ioAllocationOption;
+	}
 
-    public VirtualDiskOptionVFlashCacheConfigOption getVFlashCacheConfigOption() {
-        return this.vFlashCacheConfigOption;
-    }
+	public VirtualDiskOptionVFlashCacheConfigOption getVFlashCacheConfigOption() {
+		return this.vFlashCacheConfigOption;
+	}
 
-    public void setCapacityInKB(LongOption capacityInKB) {
-        this.capacityInKB = capacityInKB;
-    }
+	public void setCapacityInKB(LongOption capacityInKB) {
+		this.capacityInKB = capacityInKB;
+	}
 
-    public void setIoAllocationOption(StorageIOAllocationOption ioAllocationOption) {
-        this.ioAllocationOption = ioAllocationOption;
-    }
+	public void setIoAllocationOption(StorageIOAllocationOption ioAllocationOption) {
+		this.ioAllocationOption = ioAllocationOption;
+	}
 
-    public void setVFlashCacheConfigOption(VirtualDiskOptionVFlashCacheConfigOption vFlashCacheConfigOption) {
-        this.vFlashCacheConfigOption = vFlashCacheConfigOption;
-    }
+	public void setVFlashCacheConfigOption(VirtualDiskOptionVFlashCacheConfigOption vFlashCacheConfigOption) {
+		this.vFlashCacheConfigOption = vFlashCacheConfigOption;
+	}
 }

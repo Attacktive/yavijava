@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineMetadataManagerVmMetadataOwnerOwner {
-    ComVmwareVsphereHA("ComVmwareVsphereHA");
+	ComVmwareVsphereHA("ComVmwareVsphereHA");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineMetadataManagerVmMetadataOwnerOwner(String val) {
-        this.val = val;
-    }
+	private VirtualMachineMetadataManagerVmMetadataOwnerOwner(String val) {
+		this.val = val;
+	}
 }

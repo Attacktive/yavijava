@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum PerfStatsType {
-    absolute("absolute"),
-    delta("delta"),
-    rate("rate");
+	absolute("absolute"),
+	delta("delta"),
+	rate("rate");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PerfStatsType(String val) {
-        this.val = val;
-    }
+	private PerfStatsType(String val) {
+		this.val = val;
+	}
 }

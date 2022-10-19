@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VspanPortgroupPromiscChangeFault extends DvsFault {
-    public String portgroupName;
+	public String portgroupName;
 
-    public String getPortgroupName() {
-        return this.portgroupName;
-    }
+	public String getPortgroupName() {
+		return this.portgroupName;
+	}
 
-    public void setPortgroupName(String portgroupName) {
-        this.portgroupName = portgroupName;
-    }
+	public void setPortgroupName(String portgroupName) {
+		this.portgroupName = portgroupName;
+	}
 }

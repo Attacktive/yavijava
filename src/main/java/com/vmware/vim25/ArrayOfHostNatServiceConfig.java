@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostNatServiceConfig {
-    public HostNatServiceConfig[] HostNatServiceConfig;
+	public HostNatServiceConfig[] HostNatServiceConfig;
 
-    public HostNatServiceConfig[] getHostNatServiceConfig() {
-        return this.HostNatServiceConfig;
-    }
+	public HostNatServiceConfig[] getHostNatServiceConfig() {
+		return this.HostNatServiceConfig;
+	}
 
-    public HostNatServiceConfig getHostNatServiceConfig(int i) {
-        return this.HostNatServiceConfig[i];
-    }
+	public HostNatServiceConfig getHostNatServiceConfig(int i) {
+		return this.HostNatServiceConfig[i];
+	}
 
-    public void setHostNatServiceConfig(HostNatServiceConfig[] HostNatServiceConfig) {
-        this.HostNatServiceConfig = HostNatServiceConfig;
-    }
+	public void setHostNatServiceConfig(HostNatServiceConfig[] HostNatServiceConfig) {
+		this.HostNatServiceConfig = HostNatServiceConfig;
+	}
 }

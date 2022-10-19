@@ -28,9 +28,15 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.DuplicateName;
+import com.vmware.vim25.HostProfileConfigSpec;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.ProfileDeferredPolicyOptionParameter;
+import com.vmware.vim25.ProfileExecuteResult;
+import com.vmware.vim25.ProfileUpdateFailed;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -39,24 +45,24 @@ import java.rmi.RemoteException;
  * @since 4.0
  */
 public class HostProfile extends Profile {
-    public HostProfile(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public HostProfile(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public HostSystem getReferenceHost() {
-        return (HostSystem) getManagedObject("referenceHost");
-    }
+	public HostSystem getReferenceHost() {
+		return (HostSystem)getManagedObject("referenceHost");
+	}
 
-    public ProfileExecuteResult executeHostProfile(HostSystem host, ProfileDeferredPolicyOptionParameter[] deferredParam) throws RuntimeFault, RemoteException {
-        return getVimService().executeHostProfile(getMOR(), host.getMOR(), deferredParam);
-    }
+	public ProfileExecuteResult executeHostProfile(HostSystem host, ProfileDeferredPolicyOptionParameter[] deferredParam) throws RuntimeFault, RemoteException {
+		return getVimService().executeHostProfile(getMOR(), host.getMOR(), deferredParam);
+	}
 
-    public void updateHostProfile(HostProfileConfigSpec config) throws DuplicateName, ProfileUpdateFailed, RuntimeFault, RemoteException {
-        getVimService().updateHostProfile(getMOR(), config);
-    }
+	public void updateHostProfile(HostProfileConfigSpec config) throws DuplicateName, ProfileUpdateFailed, RuntimeFault, RemoteException {
+		getVimService().updateHostProfile(getMOR(), config);
+	}
 
-    public void updateReferenceHost(HostSystem host) throws RuntimeFault, RemoteException {
-        getVimService().updateReferenceHost(getMOR(),
-            host == null ? null : host.getMOR());
-    }
+	public void updateReferenceHost(HostSystem host) throws RuntimeFault, RemoteException {
+		getVimService().updateReferenceHost(getMOR(),
+			host == null? null: host.getMOR());
+	}
 }

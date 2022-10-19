@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAlarmExpression {
-    public AlarmExpression[] AlarmExpression;
+	public AlarmExpression[] AlarmExpression;
 
-    public AlarmExpression[] getAlarmExpression() {
-        return this.AlarmExpression;
-    }
+	public AlarmExpression[] getAlarmExpression() {
+		return this.AlarmExpression;
+	}
 
-    public AlarmExpression getAlarmExpression(int i) {
-        return this.AlarmExpression[i];
-    }
+	public AlarmExpression getAlarmExpression(int i) {
+		return this.AlarmExpression[i];
+	}
 
-    public void setAlarmExpression(AlarmExpression[] AlarmExpression) {
-        this.AlarmExpression = AlarmExpression;
-    }
+	public void setAlarmExpression(AlarmExpression[] AlarmExpression) {
+		this.AlarmExpression = AlarmExpression;
+	}
 }

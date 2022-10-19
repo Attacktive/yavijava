@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ProfileExecuteResultStatus {
-    success("success"),
-    needInput("needInput"),
-    error("error");
+	success("success"),
+	needInput("needInput"),
+	error("error");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ProfileExecuteResultStatus(String val) {
-        this.val = val;
-    }
+	private ProfileExecuteResultStatus(String val) {
+		this.val = val;
+	}
 }

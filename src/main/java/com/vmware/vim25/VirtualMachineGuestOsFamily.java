@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineGuestOsFamily {
-    windowsGuest("windowsGuest"),
-    linuxGuest("linuxGuest"),
-    netwareGuest("netwareGuest"),
-    solarisGuest("solarisGuest"),
-    darwinGuestFamily("darwinGuestFamily"),
-    otherGuestFamily("otherGuestFamily");
+	windowsGuest("windowsGuest"),
+	linuxGuest("linuxGuest"),
+	netwareGuest("netwareGuest"),
+	solarisGuest("solarisGuest"),
+	darwinGuestFamily("darwinGuestFamily"),
+	otherGuestFamily("otherGuestFamily");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineGuestOsFamily(String val) {
-        this.val = val;
-    }
+	private VirtualMachineGuestOsFamily(String val) {
+		this.val = val;
+	}
 }

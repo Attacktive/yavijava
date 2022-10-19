@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CreateTaskAction extends Action {
-    public String taskTypeId;
-    public boolean cancelable;
+	public String taskTypeId;
+	public boolean cancelable;
 
-    public String getTaskTypeId() {
-        return this.taskTypeId;
-    }
+	public String getTaskTypeId() {
+		return this.taskTypeId;
+	}
 
-    public boolean isCancelable() {
-        return this.cancelable;
-    }
+	public boolean isCancelable() {
+		return this.cancelable;
+	}
 
-    public void setTaskTypeId(String taskTypeId) {
-        this.taskTypeId = taskTypeId;
-    }
+	public void setTaskTypeId(String taskTypeId) {
+		this.taskTypeId = taskTypeId;
+	}
 
-    public void setCancelable(boolean cancelable) {
-        this.cancelable = cancelable;
-    }
+	public void setCancelable(boolean cancelable) {
+		this.cancelable = cancelable;
+	}
 }

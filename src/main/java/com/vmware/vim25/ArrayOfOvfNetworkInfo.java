@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfNetworkInfo {
-    public OvfNetworkInfo[] OvfNetworkInfo;
+	public OvfNetworkInfo[] OvfNetworkInfo;
 
-    public OvfNetworkInfo[] getOvfNetworkInfo() {
-        return this.OvfNetworkInfo;
-    }
+	public OvfNetworkInfo[] getOvfNetworkInfo() {
+		return this.OvfNetworkInfo;
+	}
 
-    public OvfNetworkInfo getOvfNetworkInfo(int i) {
-        return this.OvfNetworkInfo[i];
-    }
+	public OvfNetworkInfo getOvfNetworkInfo(int i) {
+		return this.OvfNetworkInfo[i];
+	}
 
-    public void setOvfNetworkInfo(OvfNetworkInfo[] OvfNetworkInfo) {
-        this.OvfNetworkInfo = OvfNetworkInfo;
-    }
+	public void setOvfNetworkInfo(OvfNetworkInfo[] OvfNetworkInfo) {
+		this.OvfNetworkInfo = OvfNetworkInfo;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmfsDatastoreMultipleExtentOption extends VmfsDatastoreBaseOption {
-    public HostDiskPartitionBlockRange[] vmfsExtent;
+	public HostDiskPartitionBlockRange[] vmfsExtent;
 
-    public HostDiskPartitionBlockRange[] getVmfsExtent() {
-        return this.vmfsExtent;
-    }
+	public HostDiskPartitionBlockRange[] getVmfsExtent() {
+		return this.vmfsExtent;
+	}
 
-    public void setVmfsExtent(HostDiskPartitionBlockRange[] vmfsExtent) {
-        this.vmfsExtent = vmfsExtent;
-    }
+	public void setVmfsExtent(HostDiskPartitionBlockRange[] vmfsExtent) {
+		this.vmfsExtent = vmfsExtent;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNumericRange {
-    public NumericRange[] NumericRange;
+	public NumericRange[] NumericRange;
 
-    public NumericRange[] getNumericRange() {
-        return this.NumericRange;
-    }
+	public NumericRange[] getNumericRange() {
+		return this.NumericRange;
+	}
 
-    public NumericRange getNumericRange(int i) {
-        return this.NumericRange[i];
-    }
+	public NumericRange getNumericRange(int i) {
+		return this.NumericRange[i];
+	}
 
-    public void setNumericRange(NumericRange[] NumericRange) {
-        this.NumericRange = NumericRange;
-    }
+	public void setNumericRange(NumericRange[] NumericRange) {
+		this.NumericRange = NumericRange;
+	}
 }

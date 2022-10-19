@@ -17,22 +17,22 @@ package com.vmware.vim25;
  */
 public class VsanPolicyChangeBatch extends DynamicData {
 
-    public String policy;
-    public String[] uuid;
+	public String policy;
+	public String[] uuid;
 
-    public String getPolicy() {
-        return policy;
-    }
+	public String getPolicy() {
+		return policy;
+	}
 
-    public void setPolicy(String policy) {
-        this.policy = policy;
-    }
+	public void setPolicy(String policy) {
+		this.policy = policy;
+	}
 
-    public String[] getUuid() {
-        return uuid;
-    }
+	public String[] getUuid() {
+		return uuid;
+	}
 
-    public void setUuid(String[] uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String[] uuid) {
+		this.uuid = uuid;
+	}
 }

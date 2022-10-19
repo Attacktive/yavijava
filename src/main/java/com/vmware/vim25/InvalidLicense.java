@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidLicense extends VimFault {
-    public String licenseContent;
+	public String licenseContent;
 
-    public String getLicenseContent() {
-        return this.licenseContent;
-    }
+	public String getLicenseContent() {
+		return this.licenseContent;
+	}
 
-    public void setLicenseContent(String licenseContent) {
-        this.licenseContent = licenseContent;
-    }
+	public void setLicenseContent(String licenseContent) {
+		this.licenseContent = licenseContent;
+	}
 }

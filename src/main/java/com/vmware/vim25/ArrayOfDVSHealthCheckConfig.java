@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDVSHealthCheckConfig {
-    public DVSHealthCheckConfig[] DVSHealthCheckConfig;
+	public DVSHealthCheckConfig[] DVSHealthCheckConfig;
 
-    public DVSHealthCheckConfig[] getDVSHealthCheckConfig() {
-        return this.DVSHealthCheckConfig;
-    }
+	public DVSHealthCheckConfig[] getDVSHealthCheckConfig() {
+		return this.DVSHealthCheckConfig;
+	}
 
-    public DVSHealthCheckConfig getDVSHealthCheckConfig(int i) {
-        return this.DVSHealthCheckConfig[i];
-    }
+	public DVSHealthCheckConfig getDVSHealthCheckConfig(int i) {
+		return this.DVSHealthCheckConfig[i];
+	}
 
-    public void setDVSHealthCheckConfig(DVSHealthCheckConfig[] DVSHealthCheckConfig) {
-        this.DVSHealthCheckConfig = DVSHealthCheckConfig;
-    }
+	public void setDVSHealthCheckConfig(DVSHealthCheckConfig[] DVSHealthCheckConfig) {
+		this.DVSHealthCheckConfig = DVSHealthCheckConfig;
+	}
 }

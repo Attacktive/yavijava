@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FileQueryFlags extends DynamicData {
-    public boolean fileType;
-    public boolean fileSize;
-    public boolean modification;
-    public Boolean fileOwner;
+	public boolean fileType;
+	public boolean fileSize;
+	public boolean modification;
+	public Boolean fileOwner;
 
-    public boolean isFileType() {
-        return this.fileType;
-    }
+	public boolean isFileType() {
+		return this.fileType;
+	}
 
-    public boolean isFileSize() {
-        return this.fileSize;
-    }
+	public boolean isFileSize() {
+		return this.fileSize;
+	}
 
-    public boolean isModification() {
-        return this.modification;
-    }
+	public boolean isModification() {
+		return this.modification;
+	}
 
-    public Boolean getFileOwner() {
-        return this.fileOwner;
-    }
+	public Boolean getFileOwner() {
+		return this.fileOwner;
+	}
 
-    public void setFileType(boolean fileType) {
-        this.fileType = fileType;
-    }
+	public void setFileType(boolean fileType) {
+		this.fileType = fileType;
+	}
 
-    public void setFileSize(boolean fileSize) {
-        this.fileSize = fileSize;
-    }
+	public void setFileSize(boolean fileSize) {
+		this.fileSize = fileSize;
+	}
 
-    public void setModification(boolean modification) {
-        this.modification = modification;
-    }
+	public void setModification(boolean modification) {
+		this.modification = modification;
+	}
 
-    public void setFileOwner(Boolean fileOwner) {
-        this.fileOwner = fileOwner;
-    }
+	public void setFileOwner(Boolean fileOwner) {
+		this.fileOwner = fileOwner;
+	}
 }

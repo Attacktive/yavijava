@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSNameArrayUplinkPortPolicy extends DVSUplinkPortPolicy {
-    public String[] uplinkPortName;
+	public String[] uplinkPortName;
 
-    public String[] getUplinkPortName() {
-        return this.uplinkPortName;
-    }
+	public String[] getUplinkPortName() {
+		return this.uplinkPortName;
+	}
 
-    public void setUplinkPortName(String[] uplinkPortName) {
-        this.uplinkPortName = uplinkPortName;
-    }
+	public void setUplinkPortName(String[] uplinkPortName) {
+		this.uplinkPortName = uplinkPortName;
+	}
 }

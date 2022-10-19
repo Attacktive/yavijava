@@ -35,20 +35,20 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineToolsVersionStatus {
-    guestToolsNotInstalled("guestToolsNotInstalled"),
-    guestToolsNeedUpgrade("guestToolsNeedUpgrade"),
-    guestToolsCurrent("guestToolsCurrent"),
-    guestToolsUnmanaged("guestToolsUnmanaged"),
-    guestToolsTooOld("guestToolsTooOld"),
-    guestToolsSupportedOld("guestToolsSupportedOld"),
-    guestToolsSupportedNew("guestToolsSupportedNew"),
-    guestToolsTooNew("guestToolsTooNew"),
-    guestToolsBlacklisted("guestToolsBlacklisted");
+	guestToolsNotInstalled("guestToolsNotInstalled"),
+	guestToolsNeedUpgrade("guestToolsNeedUpgrade"),
+	guestToolsCurrent("guestToolsCurrent"),
+	guestToolsUnmanaged("guestToolsUnmanaged"),
+	guestToolsTooOld("guestToolsTooOld"),
+	guestToolsSupportedOld("guestToolsSupportedOld"),
+	guestToolsSupportedNew("guestToolsSupportedNew"),
+	guestToolsTooNew("guestToolsTooNew"),
+	guestToolsBlacklisted("guestToolsBlacklisted");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineToolsVersionStatus(String val) {
-        this.val = val;
-    }
+	private VirtualMachineToolsVersionStatus(String val) {
+		this.val = val;
+	}
 }

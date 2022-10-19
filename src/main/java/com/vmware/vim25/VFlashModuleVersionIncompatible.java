@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VFlashModuleVersionIncompatible extends VimFault {
-    public String moduleName;
-    public String vmRequestModuleVersion;
-    public String hostMinSupportedVerson;
-    public String hostModuleVersion;
+	public String moduleName;
+	public String vmRequestModuleVersion;
+	public String hostMinSupportedVerson;
+	public String hostModuleVersion;
 
-    public String getModuleName() {
-        return this.moduleName;
-    }
+	public String getModuleName() {
+		return this.moduleName;
+	}
 
-    public String getVmRequestModuleVersion() {
-        return this.vmRequestModuleVersion;
-    }
+	public String getVmRequestModuleVersion() {
+		return this.vmRequestModuleVersion;
+	}
 
-    public String getHostMinSupportedVerson() {
-        return this.hostMinSupportedVerson;
-    }
+	public String getHostMinSupportedVerson() {
+		return this.hostMinSupportedVerson;
+	}
 
-    public String getHostModuleVersion() {
-        return this.hostModuleVersion;
-    }
+	public String getHostModuleVersion() {
+		return this.hostModuleVersion;
+	}
 
-    public void setModuleName(String moduleName) {
-        this.moduleName = moduleName;
-    }
+	public void setModuleName(String moduleName) {
+		this.moduleName = moduleName;
+	}
 
-    public void setVmRequestModuleVersion(String vmRequestModuleVersion) {
-        this.vmRequestModuleVersion = vmRequestModuleVersion;
-    }
+	public void setVmRequestModuleVersion(String vmRequestModuleVersion) {
+		this.vmRequestModuleVersion = vmRequestModuleVersion;
+	}
 
-    public void setHostMinSupportedVerson(String hostMinSupportedVerson) {
-        this.hostMinSupportedVerson = hostMinSupportedVerson;
-    }
+	public void setHostMinSupportedVerson(String hostMinSupportedVerson) {
+		this.hostMinSupportedVerson = hostMinSupportedVerson;
+	}
 
-    public void setHostModuleVersion(String hostModuleVersion) {
-        this.hostModuleVersion = hostModuleVersion;
-    }
+	public void setHostModuleVersion(String hostModuleVersion) {
+		this.hostModuleVersion = hostModuleVersion;
+	}
 }

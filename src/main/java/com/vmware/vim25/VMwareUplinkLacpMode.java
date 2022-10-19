@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VMwareUplinkLacpMode {
-    active("active"),
-    passive("passive");
+	active("active"),
+	passive("passive");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VMwareUplinkLacpMode(String val) {
-        this.val = val;
-    }
+	private VMwareUplinkLacpMode(String val) {
+		this.val = val;
+	}
 }

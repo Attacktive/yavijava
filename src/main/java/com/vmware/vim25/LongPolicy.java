@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LongPolicy extends InheritablePolicy {
-    public Long value;
+	public Long value;
 
-    public Long getValue() {
-        return this.value;
-    }
+	public Long getValue() {
+		return this.value;
+	}
 
-    public void setValue(Long value) {
-        this.value = value;
-    }
+	public void setValue(Long value) {
+		this.value = value;
+	}
 }

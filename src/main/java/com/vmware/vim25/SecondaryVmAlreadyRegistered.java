@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SecondaryVmAlreadyRegistered extends VmFaultToleranceIssue {
-    public String instanceUuid;
+	public String instanceUuid;
 
-    public String getInstanceUuid() {
-        return this.instanceUuid;
-    }
+	public String getInstanceUuid() {
+		return this.instanceUuid;
+	}
 
-    public void setInstanceUuid(String instanceUuid) {
-        this.instanceUuid = instanceUuid;
-    }
+	public void setInstanceUuid(String instanceUuid) {
+		this.instanceUuid = instanceUuid;
+	}
 }

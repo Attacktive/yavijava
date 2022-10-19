@@ -29,9 +29,15 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.DuplicateName;
+import com.vmware.vim25.InvalidName;
+import com.vmware.vim25.InvalidState;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.ScheduledTaskInfo;
+import com.vmware.vim25.ScheduledTaskSpec;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -41,32 +47,31 @@ import java.rmi.RemoteException;
 
 public class ScheduledTask extends ExtensibleManagedObject {
 
-    public ScheduledTask(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public ScheduledTask(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public ScheduledTaskInfo getInfo() {
-        return (ScheduledTaskInfo) getCurrentProperty("info");
-    }
+	public ScheduledTaskInfo getInfo() {
+		return (ScheduledTaskInfo)getCurrentProperty("info");
+	}
 
-    public Task getActiveTask() {
-        return (Task) getCurrentProperty("info.activeTask"); //only if the state is running
-    }
+	public Task getActiveTask() {
+		return (Task)getCurrentProperty("info.activeTask"); //only if the state is running
+	}
 
-    public ManagedEntity getAssociatedManagedEntity() {
-        return (ManagedEntity) getCurrentProperty("info.entity");
-    }
+	public ManagedEntity getAssociatedManagedEntity() {
+		return (ManagedEntity)getCurrentProperty("info.entity");
+	}
 
-    public void reconfigureScheduledTask(ScheduledTaskSpec spec) throws InvalidName, DuplicateName, InvalidState, RuntimeFault, RemoteException {
-        getVimService().reconfigureScheduledTask(getMOR(), spec);
-    }
+	public void reconfigureScheduledTask(ScheduledTaskSpec spec) throws InvalidName, DuplicateName, InvalidState, RuntimeFault, RemoteException {
+		getVimService().reconfigureScheduledTask(getMOR(), spec);
+	}
 
-    public void removeScheduledTask() throws InvalidState, RuntimeFault, RemoteException {
-        getVimService().removeScheduledTask(getMOR());
-    }
+	public void removeScheduledTask() throws InvalidState, RuntimeFault, RemoteException {
+		getVimService().removeScheduledTask(getMOR());
+	}
 
-    public void runScheduledTask() throws InvalidState, RuntimeFault, RemoteException {
-        getVimService().runScheduledTask(getMOR());
-    }
-
+	public void runScheduledTask() throws InvalidState, RuntimeFault, RemoteException {
+		getVimService().runScheduledTask(getMOR());
+	}
 }

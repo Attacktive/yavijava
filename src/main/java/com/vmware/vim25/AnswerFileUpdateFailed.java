@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AnswerFileUpdateFailed extends VimFault {
-    public AnswerFileUpdateFailure[] failure;
+	public AnswerFileUpdateFailure[] failure;
 
-    public AnswerFileUpdateFailure[] getFailure() {
-        return this.failure;
-    }
+	public AnswerFileUpdateFailure[] getFailure() {
+		return this.failure;
+	}
 
-    public void setFailure(AnswerFileUpdateFailure[] failure) {
-        this.failure = failure;
-    }
+	public void setFailure(AnswerFileUpdateFailure[] failure) {
+		this.failure = failure;
+	}
 }

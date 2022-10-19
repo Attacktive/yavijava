@@ -35,20 +35,20 @@ package com.vmware.vim25;
  */
 
 public enum ActionParameter {
-    targetName("targetName"),
-    alarmName("alarmName"),
-    oldStatus("oldStatus"),
-    newStatus("newStatus"),
-    triggeringSummary("triggeringSummary"),
-    declaringSummary("declaringSummary"),
-    eventDescription("eventDescription"),
-    target("target"),
-    alarm("alarm");
+	targetName("targetName"),
+	alarmName("alarmName"),
+	oldStatus("oldStatus"),
+	newStatus("newStatus"),
+	triggeringSummary("triggeringSummary"),
+	declaringSummary("declaringSummary"),
+	eventDescription("eventDescription"),
+	target("target"),
+	alarm("alarm");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ActionParameter(String val) {
-        this.val = val;
-    }
+	private ActionParameter(String val) {
+		this.val = val;
+	}
 }

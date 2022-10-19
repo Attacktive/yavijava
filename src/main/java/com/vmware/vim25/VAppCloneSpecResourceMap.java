@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VAppCloneSpecResourceMap extends DynamicData {
-    public ManagedObjectReference source;
-    public ManagedObjectReference parent;
-    public ResourceConfigSpec resourceSpec;
-    public ManagedObjectReference location;
+	public ManagedObjectReference source;
+	public ManagedObjectReference parent;
+	public ResourceConfigSpec resourceSpec;
+	public ManagedObjectReference location;
 
-    public ManagedObjectReference getSource() {
-        return this.source;
-    }
+	public ManagedObjectReference getSource() {
+		return this.source;
+	}
 
-    public ManagedObjectReference getParent() {
-        return this.parent;
-    }
+	public ManagedObjectReference getParent() {
+		return this.parent;
+	}
 
-    public ResourceConfigSpec getResourceSpec() {
-        return this.resourceSpec;
-    }
+	public ResourceConfigSpec getResourceSpec() {
+		return this.resourceSpec;
+	}
 
-    public ManagedObjectReference getLocation() {
-        return this.location;
-    }
+	public ManagedObjectReference getLocation() {
+		return this.location;
+	}
 
-    public void setSource(ManagedObjectReference source) {
-        this.source = source;
-    }
+	public void setSource(ManagedObjectReference source) {
+		this.source = source;
+	}
 
-    public void setParent(ManagedObjectReference parent) {
-        this.parent = parent;
-    }
+	public void setParent(ManagedObjectReference parent) {
+		this.parent = parent;
+	}
 
-    public void setResourceSpec(ResourceConfigSpec resourceSpec) {
-        this.resourceSpec = resourceSpec;
-    }
+	public void setResourceSpec(ResourceConfigSpec resourceSpec) {
+		this.resourceSpec = resourceSpec;
+	}
 
-    public void setLocation(ManagedObjectReference location) {
-        this.location = location;
-    }
+	public void setLocation(ManagedObjectReference location) {
+		this.location = location;
+	}
 }

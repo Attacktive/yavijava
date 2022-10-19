@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UnlicensedVirtualMachinesFoundEvent extends LicenseEvent {
-    public int available;
+	public int available;
 
-    public int getAvailable() {
-        return this.available;
-    }
+	public int getAvailable() {
+		return this.available;
+	}
 
-    public void setAvailable(int available) {
-        this.available = available;
-    }
+	public void setAvailable(int available) {
+		this.available = available;
+	}
 }

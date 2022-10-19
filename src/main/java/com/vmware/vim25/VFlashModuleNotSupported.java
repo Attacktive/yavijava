@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VFlashModuleNotSupported extends VmConfigFault {
-    public String vmName;
-    public String moduleName;
-    public String reason;
-    public String hostName;
+	public String vmName;
+	public String moduleName;
+	public String reason;
+	public String hostName;
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public String getModuleName() {
-        return this.moduleName;
-    }
+	public String getModuleName() {
+		return this.moduleName;
+	}
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public String getHostName() {
-        return this.hostName;
-    }
+	public String getHostName() {
+		return this.hostName;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 
-    public void setModuleName(String moduleName) {
-        this.moduleName = moduleName;
-    }
+	public void setModuleName(String moduleName) {
+		this.moduleName = moduleName;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 }

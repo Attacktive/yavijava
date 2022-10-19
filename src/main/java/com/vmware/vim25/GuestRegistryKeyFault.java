@@ -17,13 +17,13 @@ package com.vmware.vim25;
  */
 public class GuestRegistryKeyFault extends GuestRegistryFault {
 
-    public String keyName;
+	public String keyName;
 
-    public String getKeyName() {
-        return keyName;
-    }
+	public String getKeyName() {
+		return keyName;
+	}
 
-    public void setKeyName(String keyName) {
-        this.keyName = keyName;
-    }
+	public void setKeyName(String keyName) {
+		this.keyName = keyName;
+	}
 }

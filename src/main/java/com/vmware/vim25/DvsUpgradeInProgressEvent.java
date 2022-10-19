@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsUpgradeInProgressEvent extends DvsEvent {
-    public DistributedVirtualSwitchProductSpec productInfo;
+	public DistributedVirtualSwitchProductSpec productInfo;
 
-    public DistributedVirtualSwitchProductSpec getProductInfo() {
-        return this.productInfo;
-    }
+	public DistributedVirtualSwitchProductSpec getProductInfo() {
+		return this.productInfo;
+	}
 
-    public void setProductInfo(DistributedVirtualSwitchProductSpec productInfo) {
-        this.productInfo = productInfo;
-    }
+	public void setProductInfo(DistributedVirtualSwitchProductSpec productInfo) {
+		this.productInfo = productInfo;
+	}
 }

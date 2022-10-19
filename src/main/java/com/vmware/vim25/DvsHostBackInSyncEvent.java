@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsHostBackInSyncEvent extends DvsEvent {
-    public HostEventArgument hostBackInSync;
+	public HostEventArgument hostBackInSync;
 
-    public HostEventArgument getHostBackInSync() {
-        return this.hostBackInSync;
-    }
+	public HostEventArgument getHostBackInSync() {
+		return this.hostBackInSync;
+	}
 
-    public void setHostBackInSync(HostEventArgument hostBackInSync) {
-        this.hostBackInSync = hostBackInSync;
-    }
+	public void setHostBackInSync(HostEventArgument hostBackInSync) {
+		this.hostBackInSync = hostBackInSync;
+	}
 }

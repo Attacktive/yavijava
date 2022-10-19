@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNumaNode extends DynamicData {
-    public byte typeId;
-    public short[] cpuID;
-    public long memoryRangeBegin;
-    public long memoryRangeLength;
+	public byte typeId;
+	public short[] cpuID;
+	public long memoryRangeBegin;
+	public long memoryRangeLength;
 
-    public byte getTypeId() {
-        return this.typeId;
-    }
+	public byte getTypeId() {
+		return this.typeId;
+	}
 
-    public short[] getCpuID() {
-        return this.cpuID;
-    }
+	public short[] getCpuID() {
+		return this.cpuID;
+	}
 
-    public long getMemoryRangeBegin() {
-        return this.memoryRangeBegin;
-    }
+	public long getMemoryRangeBegin() {
+		return this.memoryRangeBegin;
+	}
 
-    public long getMemoryRangeLength() {
-        return this.memoryRangeLength;
-    }
+	public long getMemoryRangeLength() {
+		return this.memoryRangeLength;
+	}
 
-    public void setTypeId(byte typeId) {
-        this.typeId = typeId;
-    }
+	public void setTypeId(byte typeId) {
+		this.typeId = typeId;
+	}
 
-    public void setCpuID(short[] cpuID) {
-        this.cpuID = cpuID;
-    }
+	public void setCpuID(short[] cpuID) {
+		this.cpuID = cpuID;
+	}
 
-    public void setMemoryRangeBegin(long memoryRangeBegin) {
-        this.memoryRangeBegin = memoryRangeBegin;
-    }
+	public void setMemoryRangeBegin(long memoryRangeBegin) {
+		this.memoryRangeBegin = memoryRangeBegin;
+	}
 
-    public void setMemoryRangeLength(long memoryRangeLength) {
-        this.memoryRangeLength = memoryRangeLength;
-    }
+	public void setMemoryRangeLength(long memoryRangeLength) {
+		this.memoryRangeLength = memoryRangeLength;
+	}
 }

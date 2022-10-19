@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum EventAlarmExpressionComparisonOperator {
-    equals("equals"),
-    notEqualTo("notEqualTo"),
-    startsWith("startsWith"),
-    doesNotStartWith("doesNotStartWith"),
-    endsWith("endsWith"),
-    doesNotEndWith("doesNotEndWith");
+	equals("equals"),
+	notEqualTo("notEqualTo"),
+	startsWith("startsWith"),
+	doesNotStartWith("doesNotStartWith"),
+	endsWith("endsWith"),
+	doesNotEndWith("doesNotEndWith");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private EventAlarmExpressionComparisonOperator(String val) {
-        this.val = val;
-    }
+	private EventAlarmExpressionComparisonOperator(String val) {
+		this.val = val;
+	}
 }

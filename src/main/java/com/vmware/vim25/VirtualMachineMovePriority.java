@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineMovePriority {
-    lowPriority("lowPriority"),
-    highPriority("highPriority"),
-    defaultPriority("defaultPriority");
+	lowPriority("lowPriority"),
+	highPriority("highPriority"),
+	defaultPriority("defaultPriority");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineMovePriority(String val) {
-        this.val = val;
-    }
+	private VirtualMachineMovePriority(String val) {
+		this.val = val;
+	}
 }

@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum ReplicationVmFaultReasonForFault {
-    notConfigured("notConfigured"),
-    poweredOff("poweredOff"),
-    suspended("suspended"),
-    poweredOn("poweredOn"),
-    offlineReplicating("offlineReplicating"),
-    invalidState("invalidState"),
-    invalidInstanceId("invalidInstanceId");
+	notConfigured("notConfigured"),
+	poweredOff("poweredOff"),
+	suspended("suspended"),
+	poweredOn("poweredOn"),
+	offlineReplicating("offlineReplicating"),
+	invalidState("invalidState"),
+	invalidInstanceId("invalidInstanceId");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ReplicationVmFaultReasonForFault(String val) {
-        this.val = val;
-    }
+	private ReplicationVmFaultReasonForFault(String val) {
+		this.val = val;
+	}
 }

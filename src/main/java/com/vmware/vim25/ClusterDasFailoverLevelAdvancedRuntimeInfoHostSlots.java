@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDasFailoverLevelAdvancedRuntimeInfoHostSlots extends DynamicData {
-    public ManagedObjectReference host;
-    public int slots;
+	public ManagedObjectReference host;
+	public int slots;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public int getSlots() {
-        return this.slots;
-    }
+	public int getSlots() {
+		return this.slots;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setSlots(int slots) {
-        this.slots = slots;
-    }
+	public void setSlots(int slots) {
+		this.slots = slots;
+	}
 }

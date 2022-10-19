@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostVmfsRescanResult {
-    public HostVmfsRescanResult[] HostVmfsRescanResult;
+	public HostVmfsRescanResult[] HostVmfsRescanResult;
 
-    public HostVmfsRescanResult[] getHostVmfsRescanResult() {
-        return this.HostVmfsRescanResult;
-    }
+	public HostVmfsRescanResult[] getHostVmfsRescanResult() {
+		return this.HostVmfsRescanResult;
+	}
 
-    public HostVmfsRescanResult getHostVmfsRescanResult(int i) {
-        return this.HostVmfsRescanResult[i];
-    }
+	public HostVmfsRescanResult getHostVmfsRescanResult(int i) {
+		return this.HostVmfsRescanResult[i];
+	}
 
-    public void setHostVmfsRescanResult(HostVmfsRescanResult[] HostVmfsRescanResult) {
-        this.HostVmfsRescanResult = HostVmfsRescanResult;
-    }
+	public void setHostVmfsRescanResult(HostVmfsRescanResult[] HostVmfsRescanResult) {
+		this.HostVmfsRescanResult = HostVmfsRescanResult;
+	}
 }

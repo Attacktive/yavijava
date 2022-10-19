@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationFixedIpV6 extends CustomizationIpV6Generator {
-    public String ipAddress;
-    public int subnetMask;
+	public String ipAddress;
+	public int subnetMask;
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public int getSubnetMask() {
-        return this.subnetMask;
-    }
+	public int getSubnetMask() {
+		return this.subnetMask;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setSubnetMask(int subnetMask) {
-        this.subnetMask = subnetMask;
-    }
+	public void setSubnetMask(int subnetMask) {
+		this.subnetMask = subnetMask;
+	}
 }

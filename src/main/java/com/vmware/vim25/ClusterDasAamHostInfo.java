@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDasAamHostInfo extends ClusterDasHostInfo {
-    public ClusterDasAamNodeState[] hostDasState;
-    public String[] primaryHosts;
+	public ClusterDasAamNodeState[] hostDasState;
+	public String[] primaryHosts;
 
-    public ClusterDasAamNodeState[] getHostDasState() {
-        return this.hostDasState;
-    }
+	public ClusterDasAamNodeState[] getHostDasState() {
+		return this.hostDasState;
+	}
 
-    public String[] getPrimaryHosts() {
-        return this.primaryHosts;
-    }
+	public String[] getPrimaryHosts() {
+		return this.primaryHosts;
+	}
 
-    public void setHostDasState(ClusterDasAamNodeState[] hostDasState) {
-        this.hostDasState = hostDasState;
-    }
+	public void setHostDasState(ClusterDasAamNodeState[] hostDasState) {
+		this.hostDasState = hostDasState;
+	}
 
-    public void setPrimaryHosts(String[] primaryHosts) {
-        this.primaryHosts = primaryHosts;
-    }
+	public void setPrimaryHosts(String[] primaryHosts) {
+		this.primaryHosts = primaryHosts;
+	}
 }

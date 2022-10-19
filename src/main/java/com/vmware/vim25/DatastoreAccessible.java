@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DatastoreAccessible {
-    True("True"),
-    False("False");
+	True("True"),
+	False("False");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DatastoreAccessible(String val) {
-        this.val = val;
-    }
+	private DatastoreAccessible(String val) {
+		this.val = val;
+	}
 }

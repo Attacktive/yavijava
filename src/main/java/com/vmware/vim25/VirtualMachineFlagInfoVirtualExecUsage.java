@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineFlagInfoVirtualExecUsage {
-    hvAuto("hvAuto"),
-    hvOn("hvOn"),
-    hvOff("hvOff");
+	hvAuto("hvAuto"),
+	hvOn("hvOn"),
+	hvOff("hvOff");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineFlagInfoVirtualExecUsage(String val) {
-        this.val = val;
-    }
+	private VirtualMachineFlagInfoVirtualExecUsage(String val) {
+		this.val = val;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostDigestInfoDigestMethodType {
-    SHA1("SHA1"),
-    MD5("MD5");
+	SHA1("SHA1"),
+	MD5("MD5");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostDigestInfoDigestMethodType(String val) {
-        this.val = val;
-    }
+	private HostDigestInfoDigestMethodType(String val) {
+		this.val = val;
+	}
 }

@@ -17,22 +17,22 @@ package com.vmware.vim25;
  */
 public class GatewayToHostTrustVerifyFault extends GatewayToHostConnectFault {
 
-    public KeyValue[] propertiesToVerify;
-    public String verificationToken;
+	public KeyValue[] propertiesToVerify;
+	public String verificationToken;
 
-    public KeyValue[] getPropertiesToVerify() {
-        return propertiesToVerify;
-    }
+	public KeyValue[] getPropertiesToVerify() {
+		return propertiesToVerify;
+	}
 
-    public void setPropertiesToVerify(KeyValue[] propertiesToVerify) {
-        this.propertiesToVerify = propertiesToVerify;
-    }
+	public void setPropertiesToVerify(KeyValue[] propertiesToVerify) {
+		this.propertiesToVerify = propertiesToVerify;
+	}
 
-    public String getVerificationToken() {
-        return verificationToken;
-    }
+	public String getVerificationToken() {
+		return verificationToken;
+	}
 
-    public void setVerificationToken(String verificationToken) {
-        this.verificationToken = verificationToken;
-    }
+	public void setVerificationToken(String verificationToken) {
+		this.verificationToken = verificationToken;
+	}
 }

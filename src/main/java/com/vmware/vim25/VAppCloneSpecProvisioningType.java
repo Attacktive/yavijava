@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VAppCloneSpecProvisioningType {
-    sameAsSource("sameAsSource"),
-    thin("thin"),
-    thick("thick");
+	sameAsSource("sameAsSource"),
+	thin("thin"),
+	thick("thick");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VAppCloneSpecProvisioningType(String val) {
-        this.val = val;
-    }
+	private VAppCloneSpecProvisioningType(String val) {
+		this.val = val;
+	}
 }

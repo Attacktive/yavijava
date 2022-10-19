@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDiskConfigurationResult {
-    public HostDiskConfigurationResult[] HostDiskConfigurationResult;
+	public HostDiskConfigurationResult[] HostDiskConfigurationResult;
 
-    public HostDiskConfigurationResult[] getHostDiskConfigurationResult() {
-        return this.HostDiskConfigurationResult;
-    }
+	public HostDiskConfigurationResult[] getHostDiskConfigurationResult() {
+		return this.HostDiskConfigurationResult;
+	}
 
-    public HostDiskConfigurationResult getHostDiskConfigurationResult(int i) {
-        return this.HostDiskConfigurationResult[i];
-    }
+	public HostDiskConfigurationResult getHostDiskConfigurationResult(int i) {
+		return this.HostDiskConfigurationResult[i];
+	}
 
-    public void setHostDiskConfigurationResult(HostDiskConfigurationResult[] HostDiskConfigurationResult) {
-        this.HostDiskConfigurationResult = HostDiskConfigurationResult;
-    }
+	public void setHostDiskConfigurationResult(HostDiskConfigurationResult[] HostDiskConfigurationResult) {
+		this.HostDiskConfigurationResult = HostDiskConfigurationResult;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFileAccess extends DynamicData {
-    public String who;
-    public String what;
+	public String who;
+	public String what;
 
-    public String getWho() {
-        return this.who;
-    }
+	public String getWho() {
+		return this.who;
+	}
 
-    public String getWhat() {
-        return this.what;
-    }
+	public String getWhat() {
+		return this.what;
+	}
 
-    public void setWho(String who) {
-        this.who = who;
-    }
+	public void setWho(String who) {
+		this.who = who;
+	}
 
-    public void setWhat(String what) {
-        this.what = what;
-    }
+	public void setWhat(String what) {
+		this.what = what;
+	}
 }

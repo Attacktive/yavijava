@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerfEntityMetric extends PerfEntityMetricBase {
-    public PerfSampleInfo[] sampleInfo;
-    public PerfMetricSeries[] value;
+	public PerfSampleInfo[] sampleInfo;
+	public PerfMetricSeries[] value;
 
-    public PerfSampleInfo[] getSampleInfo() {
-        return this.sampleInfo;
-    }
+	public PerfSampleInfo[] getSampleInfo() {
+		return this.sampleInfo;
+	}
 
-    public PerfMetricSeries[] getValue() {
-        return this.value;
-    }
+	public PerfMetricSeries[] getValue() {
+		return this.value;
+	}
 
-    public void setSampleInfo(PerfSampleInfo[] sampleInfo) {
-        this.sampleInfo = sampleInfo;
-    }
+	public void setSampleInfo(PerfSampleInfo[] sampleInfo) {
+		this.sampleInfo = sampleInfo;
+	}
 
-    public void setValue(PerfMetricSeries[] value) {
-        this.value = value;
-    }
+	public void setValue(PerfMetricSeries[] value) {
+		this.value = value;
+	}
 }

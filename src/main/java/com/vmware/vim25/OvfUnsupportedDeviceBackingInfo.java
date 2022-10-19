@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnsupportedDeviceBackingInfo extends OvfSystemFault {
-    public String elementName;
-    public String instanceId;
-    public String deviceName;
-    public String backingName;
+	public String elementName;
+	public String instanceId;
+	public String deviceName;
+	public String backingName;
 
-    public String getElementName() {
-        return this.elementName;
-    }
+	public String getElementName() {
+		return this.elementName;
+	}
 
-    public String getInstanceId() {
-        return this.instanceId;
-    }
+	public String getInstanceId() {
+		return this.instanceId;
+	}
 
-    public String getDeviceName() {
-        return this.deviceName;
-    }
+	public String getDeviceName() {
+		return this.deviceName;
+	}
 
-    public String getBackingName() {
-        return this.backingName;
-    }
+	public String getBackingName() {
+		return this.backingName;
+	}
 
-    public void setElementName(String elementName) {
-        this.elementName = elementName;
-    }
+	public void setElementName(String elementName) {
+		this.elementName = elementName;
+	}
 
-    public void setInstanceId(String instanceId) {
-        this.instanceId = instanceId;
-    }
+	public void setInstanceId(String instanceId) {
+		this.instanceId = instanceId;
+	}
 
-    public void setDeviceName(String deviceName) {
-        this.deviceName = deviceName;
-    }
+	public void setDeviceName(String deviceName) {
+		this.deviceName = deviceName;
+	}
 
-    public void setBackingName(String backingName) {
-        this.backingName = backingName;
-    }
+	public void setBackingName(String backingName) {
+		this.backingName = backingName;
+	}
 }

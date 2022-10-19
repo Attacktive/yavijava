@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsHostLeftEvent extends DvsEvent {
-    public HostEventArgument hostLeft;
+	public HostEventArgument hostLeft;
 
-    public HostEventArgument getHostLeft() {
-        return this.hostLeft;
-    }
+	public HostEventArgument getHostLeft() {
+		return this.hostLeft;
+	}
 
-    public void setHostLeft(HostEventArgument hostLeft) {
-        this.hostLeft = hostLeft;
-    }
+	public void setHostLeft(HostEventArgument hostLeft) {
+		this.hostLeft = hostLeft;
+	}
 }

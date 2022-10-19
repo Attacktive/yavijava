@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchManagerHostDvsMembershipFilter extends DistributedVirtualSwitchManagerHostDvsFilterSpec {
-    public ManagedObjectReference distributedVirtualSwitch;
+	public ManagedObjectReference distributedVirtualSwitch;
 
-    public ManagedObjectReference getDistributedVirtualSwitch() {
-        return this.distributedVirtualSwitch;
-    }
+	public ManagedObjectReference getDistributedVirtualSwitch() {
+		return this.distributedVirtualSwitch;
+	}
 
-    public void setDistributedVirtualSwitch(ManagedObjectReference distributedVirtualSwitch) {
-        this.distributedVirtualSwitch = distributedVirtualSwitch;
-    }
+	public void setDistributedVirtualSwitch(ManagedObjectReference distributedVirtualSwitch) {
+		this.distributedVirtualSwitch = distributedVirtualSwitch;
+	}
 }

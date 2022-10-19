@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfResourceConfigSpec {
-    public ResourceConfigSpec[] ResourceConfigSpec;
+	public ResourceConfigSpec[] ResourceConfigSpec;
 
-    public ResourceConfigSpec[] getResourceConfigSpec() {
-        return this.ResourceConfigSpec;
-    }
+	public ResourceConfigSpec[] getResourceConfigSpec() {
+		return this.ResourceConfigSpec;
+	}
 
-    public ResourceConfigSpec getResourceConfigSpec(int i) {
-        return this.ResourceConfigSpec[i];
-    }
+	public ResourceConfigSpec getResourceConfigSpec(int i) {
+		return this.ResourceConfigSpec[i];
+	}
 
-    public void setResourceConfigSpec(ResourceConfigSpec[] ResourceConfigSpec) {
-        this.ResourceConfigSpec = ResourceConfigSpec;
-    }
+	public void setResourceConfigSpec(ResourceConfigSpec[] ResourceConfigSpec) {
+		this.ResourceConfigSpec = ResourceConfigSpec;
+	}
 }

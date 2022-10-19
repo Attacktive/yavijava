@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ManagedObjectNotFound extends RuntimeFault {
-    public ManagedObjectReference obj;
+	public ManagedObjectReference obj;
 
-    public ManagedObjectReference getObj() {
-        return this.obj;
-    }
+	public ManagedObjectReference getObj() {
+		return this.obj;
+	}
 
-    public void setObj(ManagedObjectReference obj) {
-        this.obj = obj;
-    }
+	public void setObj(ManagedObjectReference obj) {
+		this.obj = obj;
+	}
 
-    @Override
-    public String getMessage() {
-        if (obj != null) {
-            return obj.getType() + ":" + obj.getVal();
-        } else {
-            return "<null ManagedObjectReference>";
-        }
-    }
+	@Override
+	public String getMessage() {
+		if (obj != null) {
+			return obj.getType() + ":" + obj.getVal();
+		} else {
+			return "<null ManagedObjectReference>";
+		}
+	}
 }

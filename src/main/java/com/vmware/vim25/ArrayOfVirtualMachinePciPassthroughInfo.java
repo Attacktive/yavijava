@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachinePciPassthroughInfo {
-    public VirtualMachinePciPassthroughInfo[] VirtualMachinePciPassthroughInfo;
+	public VirtualMachinePciPassthroughInfo[] VirtualMachinePciPassthroughInfo;
 
-    public VirtualMachinePciPassthroughInfo[] getVirtualMachinePciPassthroughInfo() {
-        return this.VirtualMachinePciPassthroughInfo;
-    }
+	public VirtualMachinePciPassthroughInfo[] getVirtualMachinePciPassthroughInfo() {
+		return this.VirtualMachinePciPassthroughInfo;
+	}
 
-    public VirtualMachinePciPassthroughInfo getVirtualMachinePciPassthroughInfo(int i) {
-        return this.VirtualMachinePciPassthroughInfo[i];
-    }
+	public VirtualMachinePciPassthroughInfo getVirtualMachinePciPassthroughInfo(int i) {
+		return this.VirtualMachinePciPassthroughInfo[i];
+	}
 
-    public void setVirtualMachinePciPassthroughInfo(VirtualMachinePciPassthroughInfo[] VirtualMachinePciPassthroughInfo) {
-        this.VirtualMachinePciPassthroughInfo = VirtualMachinePciPassthroughInfo;
-    }
+	public void setVirtualMachinePciPassthroughInfo(VirtualMachinePciPassthroughInfo[] VirtualMachinePciPassthroughInfo) {
+		this.VirtualMachinePciPassthroughInfo = VirtualMachinePciPassthroughInfo;
+	}
 }

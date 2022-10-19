@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFlagInfo extends DynamicData {
-    public Boolean backgroundSnapshotsEnabled;
+	public Boolean backgroundSnapshotsEnabled;
 
-    public Boolean getBackgroundSnapshotsEnabled() {
-        return this.backgroundSnapshotsEnabled;
-    }
+	public Boolean getBackgroundSnapshotsEnabled() {
+		return this.backgroundSnapshotsEnabled;
+	}
 
-    public void setBackgroundSnapshotsEnabled(Boolean backgroundSnapshotsEnabled) {
-        this.backgroundSnapshotsEnabled = backgroundSnapshotsEnabled;
-    }
+	public void setBackgroundSnapshotsEnabled(Boolean backgroundSnapshotsEnabled) {
+		this.backgroundSnapshotsEnabled = backgroundSnapshotsEnabled;
+	}
 }

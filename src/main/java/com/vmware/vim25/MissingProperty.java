@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MissingProperty extends DynamicData {
-    public String path;
-    public LocalizedMethodFault fault;
+	public String path;
+	public LocalizedMethodFault fault;
 
-    public String getPath() {
-        return this.path;
-    }
+	public String getPath() {
+		return this.path;
+	}
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setPath(String path) {
-        this.path = path;
-    }
+	public void setPath(String path) {
+		this.path = path;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDeviceURIBackingOption extends VirtualDeviceBackingOption {
-    public ChoiceOption directions;
+	public ChoiceOption directions;
 
-    public ChoiceOption getDirections() {
-        return this.directions;
-    }
+	public ChoiceOption getDirections() {
+		return this.directions;
+	}
 
-    public void setDirections(ChoiceOption directions) {
-        this.directions = directions;
-    }
+	public void setDirections(ChoiceOption directions) {
+		this.directions = directions;
+	}
 }

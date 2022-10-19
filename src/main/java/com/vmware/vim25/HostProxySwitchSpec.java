@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostProxySwitchSpec extends DynamicData {
-    public DistributedVirtualSwitchHostMemberBacking backing;
+	public DistributedVirtualSwitchHostMemberBacking backing;
 
-    public DistributedVirtualSwitchHostMemberBacking getBacking() {
-        return this.backing;
-    }
+	public DistributedVirtualSwitchHostMemberBacking getBacking() {
+		return this.backing;
+	}
 
-    public void setBacking(DistributedVirtualSwitchHostMemberBacking backing) {
-        this.backing = backing;
-    }
+	public void setBacking(DistributedVirtualSwitchHostMemberBacking backing) {
+		this.backing = backing;
+	}
 }

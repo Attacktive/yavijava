@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfManagerCommonParams extends DynamicData {
-    public String locale;
-    public String deploymentOption;
-    public KeyValue[] msgBundle;
-    public String[] importOption;
+	public String locale;
+	public String deploymentOption;
+	public KeyValue[] msgBundle;
+	public String[] importOption;
 
-    public String getLocale() {
-        return this.locale;
-    }
+	public String getLocale() {
+		return this.locale;
+	}
 
-    public String getDeploymentOption() {
-        return this.deploymentOption;
-    }
+	public String getDeploymentOption() {
+		return this.deploymentOption;
+	}
 
-    public KeyValue[] getMsgBundle() {
-        return this.msgBundle;
-    }
+	public KeyValue[] getMsgBundle() {
+		return this.msgBundle;
+	}
 
-    public String[] getImportOption() {
-        return this.importOption;
-    }
+	public String[] getImportOption() {
+		return this.importOption;
+	}
 
-    public void setLocale(String locale) {
-        this.locale = locale;
-    }
+	public void setLocale(String locale) {
+		this.locale = locale;
+	}
 
-    public void setDeploymentOption(String deploymentOption) {
-        this.deploymentOption = deploymentOption;
-    }
+	public void setDeploymentOption(String deploymentOption) {
+		this.deploymentOption = deploymentOption;
+	}
 
-    public void setMsgBundle(KeyValue[] msgBundle) {
-        this.msgBundle = msgBundle;
-    }
+	public void setMsgBundle(KeyValue[] msgBundle) {
+		this.msgBundle = msgBundle;
+	}
 
-    public void setImportOption(String[] importOption) {
-        this.importOption = importOption;
-    }
+	public void setImportOption(String[] importOption) {
+		this.importOption = importOption;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseEntityNotFound extends VimFault {
-    public String entityId;
+	public String entityId;
 
-    public String getEntityId() {
-        return this.entityId;
-    }
+	public String getEntityId() {
+		return this.entityId;
+	}
 
-    public void setEntityId(String entityId) {
-        this.entityId = entityId;
-    }
+	public void setEntityId(String entityId) {
+		this.entityId = entityId;
+	}
 }

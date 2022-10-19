@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineConfigInfoNpivWwnType {
-    vc("vc"),
-    host("host"),
-    external("external");
+	vc("vc"),
+	host("host"),
+	external("external");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineConfigInfoNpivWwnType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineConfigInfoNpivWwnType(String val) {
+		this.val = val;
+	}
 }

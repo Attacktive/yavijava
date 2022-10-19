@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CannotAccessVmDisk extends CannotAccessVmDevice {
-    public LocalizedMethodFault fault;
+	public LocalizedMethodFault fault;
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

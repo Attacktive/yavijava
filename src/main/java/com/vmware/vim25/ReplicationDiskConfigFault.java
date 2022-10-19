@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ReplicationDiskConfigFault extends ReplicationConfigFault {
-    public String reason;
-    public ManagedObjectReference vmRef;
-    public Integer key;
+	public String reason;
+	public ManagedObjectReference vmRef;
+	public Integer key;
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public ManagedObjectReference getVmRef() {
-        return this.vmRef;
-    }
+	public ManagedObjectReference getVmRef() {
+		return this.vmRef;
+	}
 
-    public Integer getKey() {
-        return this.key;
-    }
+	public Integer getKey() {
+		return this.key;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setVmRef(ManagedObjectReference vmRef) {
-        this.vmRef = vmRef;
-    }
+	public void setVmRef(ManagedObjectReference vmRef) {
+		this.vmRef = vmRef;
+	}
 
-    public void setKey(Integer key) {
-        this.key = key;
-    }
+	public void setKey(Integer key) {
+		this.key = key;
+	}
 }

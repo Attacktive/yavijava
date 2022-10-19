@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsPortVendorSpecificStateChangeEvent extends DvsEvent {
-    public String portKey;
+	public String portKey;
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 }

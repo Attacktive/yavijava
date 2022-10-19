@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfKeyAnyValue {
-    public KeyAnyValue[] KeyAnyValue;
+	public KeyAnyValue[] KeyAnyValue;
 
-    public KeyAnyValue[] getKeyAnyValue() {
-        return this.KeyAnyValue;
-    }
+	public KeyAnyValue[] getKeyAnyValue() {
+		return this.KeyAnyValue;
+	}
 
-    public KeyAnyValue getKeyAnyValue(int i) {
-        return this.KeyAnyValue[i];
-    }
+	public KeyAnyValue getKeyAnyValue(int i) {
+		return this.KeyAnyValue[i];
+	}
 
-    public void setKeyAnyValue(KeyAnyValue[] KeyAnyValue) {
-        this.KeyAnyValue = KeyAnyValue;
-    }
+	public void setKeyAnyValue(KeyAnyValue[] KeyAnyValue) {
+		this.KeyAnyValue = KeyAnyValue;
+	}
 }

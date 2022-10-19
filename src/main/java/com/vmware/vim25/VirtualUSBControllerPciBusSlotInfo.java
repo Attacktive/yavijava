@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualUSBControllerPciBusSlotInfo extends VirtualDevicePciBusSlotInfo {
-    public Integer ehciPciSlotNumber;
+	public Integer ehciPciSlotNumber;
 
-    public Integer getEhciPciSlotNumber() {
-        return this.ehciPciSlotNumber;
-    }
+	public Integer getEhciPciSlotNumber() {
+		return this.ehciPciSlotNumber;
+	}
 
-    public void setEhciPciSlotNumber(Integer ehciPciSlotNumber) {
-        this.ehciPciSlotNumber = ehciPciSlotNumber;
-    }
+	public void setEhciPciSlotNumber(Integer ehciPciSlotNumber) {
+		this.ehciPciSlotNumber = ehciPciSlotNumber;
+	}
 }

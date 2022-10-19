@@ -21,24 +21,23 @@ package com.vmware.vim25;
  */
 
 public class MemoryFileFormatNotSupportedByDatastore extends UnsupportedDatastore {
-    public String datastoreName;
+	public String datastoreName;
 
-    public String type;
+	public String type;
 
-    public String getDatastoreName() {
-        return datastoreName;
-    }
+	public String getDatastoreName() {
+		return datastoreName;
+	}
 
-    public void setDatastoreName(String datastoreName) {
-        this.datastoreName = datastoreName;
-    }
+	public void setDatastoreName(String datastoreName) {
+		this.datastoreName = datastoreName;
+	}
 
-    public String getType() {
-        return type;
-    }
+	public String getType() {
+		return type;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
+	public void setType(String type) {
+		this.type = type;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InaccessibleDatastore extends InvalidDatastore {
-    public String detail;
+	public String detail;
 
-    public String getDetail() {
-        return this.detail;
-    }
+	public String getDetail() {
+		return this.detail;
+	}
 
-    public void setDetail(String detail) {
-        this.detail = detail;
-    }
+	public void setDetail(String detail) {
+		this.detail = detail;
+	}
 }

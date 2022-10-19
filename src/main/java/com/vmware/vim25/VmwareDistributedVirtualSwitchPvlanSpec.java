@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmwareDistributedVirtualSwitchPvlanSpec extends VmwareDistributedVirtualSwitchVlanSpec {
-    public int pvlanId;
+	public int pvlanId;
 
-    public int getPvlanId() {
-        return this.pvlanId;
-    }
+	public int getPvlanId() {
+		return this.pvlanId;
+	}
 
-    public void setPvlanId(int pvlanId) {
-        this.pvlanId = pvlanId;
-    }
+	public void setPvlanId(int pvlanId) {
+		this.pvlanId = pvlanId;
+	}
 }

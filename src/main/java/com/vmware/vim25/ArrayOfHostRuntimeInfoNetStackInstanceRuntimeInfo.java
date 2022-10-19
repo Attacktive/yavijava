@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostRuntimeInfoNetStackInstanceRuntimeInfo {
-    public HostRuntimeInfoNetStackInstanceRuntimeInfo[] HostRuntimeInfoNetStackInstanceRuntimeInfo;
+	public HostRuntimeInfoNetStackInstanceRuntimeInfo[] HostRuntimeInfoNetStackInstanceRuntimeInfo;
 
-    public HostRuntimeInfoNetStackInstanceRuntimeInfo[] getHostRuntimeInfoNetStackInstanceRuntimeInfo() {
-        return this.HostRuntimeInfoNetStackInstanceRuntimeInfo;
-    }
+	public HostRuntimeInfoNetStackInstanceRuntimeInfo[] getHostRuntimeInfoNetStackInstanceRuntimeInfo() {
+		return this.HostRuntimeInfoNetStackInstanceRuntimeInfo;
+	}
 
-    public HostRuntimeInfoNetStackInstanceRuntimeInfo getHostRuntimeInfoNetStackInstanceRuntimeInfo(int i) {
-        return this.HostRuntimeInfoNetStackInstanceRuntimeInfo[i];
-    }
+	public HostRuntimeInfoNetStackInstanceRuntimeInfo getHostRuntimeInfoNetStackInstanceRuntimeInfo(int i) {
+		return this.HostRuntimeInfoNetStackInstanceRuntimeInfo[i];
+	}
 
-    public void setHostRuntimeInfoNetStackInstanceRuntimeInfo(HostRuntimeInfoNetStackInstanceRuntimeInfo[] HostRuntimeInfoNetStackInstanceRuntimeInfo) {
-        this.HostRuntimeInfoNetStackInstanceRuntimeInfo = HostRuntimeInfoNetStackInstanceRuntimeInfo;
-    }
+	public void setHostRuntimeInfoNetStackInstanceRuntimeInfo(HostRuntimeInfoNetStackInstanceRuntimeInfo[] HostRuntimeInfoNetStackInstanceRuntimeInfo) {
+		this.HostRuntimeInfoNetStackInstanceRuntimeInfo = HostRuntimeInfoNetStackInstanceRuntimeInfo;
+	}
 }

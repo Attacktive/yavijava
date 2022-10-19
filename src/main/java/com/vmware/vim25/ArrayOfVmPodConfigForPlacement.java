@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVmPodConfigForPlacement {
-    public VmPodConfigForPlacement[] VmPodConfigForPlacement;
+	public VmPodConfigForPlacement[] VmPodConfigForPlacement;
 
-    public VmPodConfigForPlacement[] getVmPodConfigForPlacement() {
-        return this.VmPodConfigForPlacement;
-    }
+	public VmPodConfigForPlacement[] getVmPodConfigForPlacement() {
+		return this.VmPodConfigForPlacement;
+	}
 
-    public VmPodConfigForPlacement getVmPodConfigForPlacement(int i) {
-        return this.VmPodConfigForPlacement[i];
-    }
+	public VmPodConfigForPlacement getVmPodConfigForPlacement(int i) {
+		return this.VmPodConfigForPlacement[i];
+	}
 
-    public void setVmPodConfigForPlacement(VmPodConfigForPlacement[] VmPodConfigForPlacement) {
-        this.VmPodConfigForPlacement = VmPodConfigForPlacement;
-    }
+	public void setVmPodConfigForPlacement(VmPodConfigForPlacement[] VmPodConfigForPlacement) {
+		this.VmPodConfigForPlacement = VmPodConfigForPlacement;
+	}
 }

@@ -37,7 +37,7 @@ import com.vmware.vim25.ManagedObjectReference;
  * @since 4.0
  */
 public class ClusterProfileManager extends ProfileManager {
-    public ClusterProfileManager(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public ClusterProfileManager(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachinePowerOpType {
-    soft("soft"),
-    hard("hard"),
-    preset("preset");
+	soft("soft"),
+	hard("hard"),
+	preset("preset");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachinePowerOpType(String val) {
-        this.val = val;
-    }
+	private VirtualMachinePowerOpType(String val) {
+		this.val = val;
+	}
 }

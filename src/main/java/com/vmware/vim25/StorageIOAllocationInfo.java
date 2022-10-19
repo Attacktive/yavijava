@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageIOAllocationInfo extends DynamicData {
-    public Long limit;
-    public SharesInfo shares;
-    public Integer reservation;
+	public Long limit;
+	public SharesInfo shares;
+	public Integer reservation;
 
-    public Long getLimit() {
-        return this.limit;
-    }
+	public Long getLimit() {
+		return this.limit;
+	}
 
-    public SharesInfo getShares() {
-        return this.shares;
-    }
+	public SharesInfo getShares() {
+		return this.shares;
+	}
 
-    public Integer getReservation() {
-        return this.reservation;
-    }
+	public Integer getReservation() {
+		return this.reservation;
+	}
 
-    public void setLimit(Long limit) {
-        this.limit = limit;
-    }
+	public void setLimit(Long limit) {
+		this.limit = limit;
+	}
 
-    public void setShares(SharesInfo shares) {
-        this.shares = shares;
-    }
+	public void setShares(SharesInfo shares) {
+		this.shares = shares;
+	}
 
-    public void setReservation(Integer reservation) {
-        this.reservation = reservation;
-    }
+	public void setReservation(Integer reservation) {
+		this.reservation = reservation;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfString {
-    public String[] string;
+	public String[] string;
 
-    public String[] getString() {
-        return this.string;
-    }
+	public String[] getString() {
+		return this.string;
+	}
 
-    public String getString(int i) {
-        return this.string[i];
-    }
+	public String getString(int i) {
+		return this.string[i];
+	}
 
-    public void setString(String[] string) {
-        this.string = string;
-    }
+	public void setString(String[] string) {
+		this.string = string;
+	}
 }

@@ -28,9 +28,13 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.HostConfigFault;
+import com.vmware.vim25.HostPciPassthruConfig;
+import com.vmware.vim25.HostPciPassthruInfo;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -39,19 +43,19 @@ import java.rmi.RemoteException;
  * @since 4.0
  */
 public class HostPciPassthruSystem extends ExtensibleManagedObject {
-    public HostPciPassthruSystem(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public HostPciPassthruSystem(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public HostPciPassthruInfo[] getPciPassthruInfo() {
-        return (HostPciPassthruInfo[]) getCurrentProperty("pciPassthruInfo");
-    }
+	public HostPciPassthruInfo[] getPciPassthruInfo() {
+		return (HostPciPassthruInfo[])getCurrentProperty("pciPassthruInfo");
+	}
 
-    public void refresh() throws RuntimeFault, RemoteException {
-        getVimService().refresh(getMOR());
-    }
+	public void refresh() throws RuntimeFault, RemoteException {
+		getVimService().refresh(getMOR());
+	}
 
-    public void updatePassthruConfig(HostPciPassthruConfig[] config) throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().updatePassthruConfig(getMOR(), config);
-    }
+	public void updatePassthruConfig(HostPciPassthruConfig[] config) throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().updatePassthruConfig(getMOR(), config);
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum DrsBehavior {
-    manual("manual"),
-    partiallyAutomated("partiallyAutomated"),
-    fullyAutomated("fullyAutomated");
+	manual("manual"),
+	partiallyAutomated("partiallyAutomated"),
+	fullyAutomated("fullyAutomated");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DrsBehavior(String val) {
-        this.val = val;
-    }
+	private DrsBehavior(String val) {
+		this.val = val;
+	}
 }

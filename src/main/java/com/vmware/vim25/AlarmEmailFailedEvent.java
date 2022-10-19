@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmEmailFailedEvent extends AlarmEvent {
-    public ManagedEntityEventArgument entity;
-    public String to;
-    public LocalizedMethodFault reason;
+	public ManagedEntityEventArgument entity;
+	public String to;
+	public LocalizedMethodFault reason;
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public String getTo() {
-        return this.to;
-    }
+	public String getTo() {
+		return this.to;
+	}
 
-    public LocalizedMethodFault getReason() {
-        return this.reason;
-    }
+	public LocalizedMethodFault getReason() {
+		return this.reason;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 
-    public void setTo(String to) {
-        this.to = to;
-    }
+	public void setTo(String to) {
+		this.to = to;
+	}
 
-    public void setReason(LocalizedMethodFault reason) {
-        this.reason = reason;
-    }
+	public void setReason(LocalizedMethodFault reason) {
+		this.reason = reason;
+	}
 }

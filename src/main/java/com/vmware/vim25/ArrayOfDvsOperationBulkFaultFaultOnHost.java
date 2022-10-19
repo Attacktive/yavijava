@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsOperationBulkFaultFaultOnHost {
-    public DvsOperationBulkFaultFaultOnHost[] DvsOperationBulkFaultFaultOnHost;
+	public DvsOperationBulkFaultFaultOnHost[] DvsOperationBulkFaultFaultOnHost;
 
-    public DvsOperationBulkFaultFaultOnHost[] getDvsOperationBulkFaultFaultOnHost() {
-        return this.DvsOperationBulkFaultFaultOnHost;
-    }
+	public DvsOperationBulkFaultFaultOnHost[] getDvsOperationBulkFaultFaultOnHost() {
+		return this.DvsOperationBulkFaultFaultOnHost;
+	}
 
-    public DvsOperationBulkFaultFaultOnHost getDvsOperationBulkFaultFaultOnHost(int i) {
-        return this.DvsOperationBulkFaultFaultOnHost[i];
-    }
+	public DvsOperationBulkFaultFaultOnHost getDvsOperationBulkFaultFaultOnHost(int i) {
+		return this.DvsOperationBulkFaultFaultOnHost[i];
+	}
 
-    public void setDvsOperationBulkFaultFaultOnHost(DvsOperationBulkFaultFaultOnHost[] DvsOperationBulkFaultFaultOnHost) {
-        this.DvsOperationBulkFaultFaultOnHost = DvsOperationBulkFaultFaultOnHost;
-    }
+	public void setDvsOperationBulkFaultFaultOnHost(DvsOperationBulkFaultFaultOnHost[] DvsOperationBulkFaultFaultOnHost) {
+		this.DvsOperationBulkFaultFaultOnHost = DvsOperationBulkFaultFaultOnHost;
+	}
 }

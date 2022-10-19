@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionTaskTypeInfo {
-    public ExtensionTaskTypeInfo[] ExtensionTaskTypeInfo;
+	public ExtensionTaskTypeInfo[] ExtensionTaskTypeInfo;
 
-    public ExtensionTaskTypeInfo[] getExtensionTaskTypeInfo() {
-        return this.ExtensionTaskTypeInfo;
-    }
+	public ExtensionTaskTypeInfo[] getExtensionTaskTypeInfo() {
+		return this.ExtensionTaskTypeInfo;
+	}
 
-    public ExtensionTaskTypeInfo getExtensionTaskTypeInfo(int i) {
-        return this.ExtensionTaskTypeInfo[i];
-    }
+	public ExtensionTaskTypeInfo getExtensionTaskTypeInfo(int i) {
+		return this.ExtensionTaskTypeInfo[i];
+	}
 
-    public void setExtensionTaskTypeInfo(ExtensionTaskTypeInfo[] ExtensionTaskTypeInfo) {
-        this.ExtensionTaskTypeInfo = ExtensionTaskTypeInfo;
-    }
+	public void setExtensionTaskTypeInfo(ExtensionTaskTypeInfo[] ExtensionTaskTypeInfo) {
+		this.ExtensionTaskTypeInfo = ExtensionTaskTypeInfo;
+	}
 }

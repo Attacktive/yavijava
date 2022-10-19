@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMultipathInfoFixedLogicalUnitPolicy extends HostMultipathInfoLogicalUnitPolicy {
-    public String prefer;
+	public String prefer;
 
-    public String getPrefer() {
-        return this.prefer;
-    }
+	public String getPrefer() {
+		return this.prefer;
+	}
 
-    public void setPrefer(String prefer) {
-        this.prefer = prefer;
-    }
+	public void setPrefer(String prefer) {
+		this.prefer = prefer;
+	}
 }

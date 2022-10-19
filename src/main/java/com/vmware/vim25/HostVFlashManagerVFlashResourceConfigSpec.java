@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVFlashManagerVFlashResourceConfigSpec extends DynamicData {
-    public String vffsUuid;
+	public String vffsUuid;
 
-    public String getVffsUuid() {
-        return this.vffsUuid;
-    }
+	public String getVffsUuid() {
+		return this.vffsUuid;
+	}
 
-    public void setVffsUuid(String vffsUuid) {
-        this.vffsUuid = vffsUuid;
-    }
+	public void setVffsUuid(String vffsUuid) {
+		this.vffsUuid = vffsUuid;
+	}
 }

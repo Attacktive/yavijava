@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchManagerDvsProductSpec extends DynamicData {
-    public DistributedVirtualSwitchProductSpec newSwitchProductSpec;
-    public ManagedObjectReference distributedVirtualSwitch;
+	public DistributedVirtualSwitchProductSpec newSwitchProductSpec;
+	public ManagedObjectReference distributedVirtualSwitch;
 
-    public DistributedVirtualSwitchProductSpec getNewSwitchProductSpec() {
-        return this.newSwitchProductSpec;
-    }
+	public DistributedVirtualSwitchProductSpec getNewSwitchProductSpec() {
+		return this.newSwitchProductSpec;
+	}
 
-    public ManagedObjectReference getDistributedVirtualSwitch() {
-        return this.distributedVirtualSwitch;
-    }
+	public ManagedObjectReference getDistributedVirtualSwitch() {
+		return this.distributedVirtualSwitch;
+	}
 
-    public void setNewSwitchProductSpec(DistributedVirtualSwitchProductSpec newSwitchProductSpec) {
-        this.newSwitchProductSpec = newSwitchProductSpec;
-    }
+	public void setNewSwitchProductSpec(DistributedVirtualSwitchProductSpec newSwitchProductSpec) {
+		this.newSwitchProductSpec = newSwitchProductSpec;
+	}
 
-    public void setDistributedVirtualSwitch(ManagedObjectReference distributedVirtualSwitch) {
-        this.distributedVirtualSwitch = distributedVirtualSwitch;
-    }
+	public void setDistributedVirtualSwitch(ManagedObjectReference distributedVirtualSwitch) {
+		this.distributedVirtualSwitch = distributedVirtualSwitch;
+	}
 }

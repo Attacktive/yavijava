@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CannotPowerOffVmInCluster extends InvalidState {
-    public String operation;
-    public ManagedObjectReference vm;
-    public String vmName;
+	public String operation;
+	public ManagedObjectReference vm;
+	public String vmName;
 
-    public String getOperation() {
-        return this.operation;
-    }
+	public String getOperation() {
+		return this.operation;
+	}
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 }

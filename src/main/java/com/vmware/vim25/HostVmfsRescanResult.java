@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVmfsRescanResult extends DynamicData {
-    public ManagedObjectReference host;
-    public LocalizedMethodFault fault;
+	public ManagedObjectReference host;
+	public LocalizedMethodFault fault;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

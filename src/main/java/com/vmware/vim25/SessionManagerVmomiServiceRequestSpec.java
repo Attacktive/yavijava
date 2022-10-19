@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SessionManagerVmomiServiceRequestSpec extends SessionManagerServiceRequestSpec {
-    public String method;
+	public String method;
 
-    public String getMethod() {
-        return this.method;
-    }
+	public String getMethod() {
+		return this.method;
+	}
 
-    public void setMethod(String method) {
-        this.method = method;
-    }
+	public void setMethod(String method) {
+		this.method = method;
+	}
 }

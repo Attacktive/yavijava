@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionManagerIpAllocationUsage {
-    public ExtensionManagerIpAllocationUsage[] ExtensionManagerIpAllocationUsage;
+	public ExtensionManagerIpAllocationUsage[] ExtensionManagerIpAllocationUsage;
 
-    public ExtensionManagerIpAllocationUsage[] getExtensionManagerIpAllocationUsage() {
-        return this.ExtensionManagerIpAllocationUsage;
-    }
+	public ExtensionManagerIpAllocationUsage[] getExtensionManagerIpAllocationUsage() {
+		return this.ExtensionManagerIpAllocationUsage;
+	}
 
-    public ExtensionManagerIpAllocationUsage getExtensionManagerIpAllocationUsage(int i) {
-        return this.ExtensionManagerIpAllocationUsage[i];
-    }
+	public ExtensionManagerIpAllocationUsage getExtensionManagerIpAllocationUsage(int i) {
+		return this.ExtensionManagerIpAllocationUsage[i];
+	}
 
-    public void setExtensionManagerIpAllocationUsage(ExtensionManagerIpAllocationUsage[] ExtensionManagerIpAllocationUsage) {
-        this.ExtensionManagerIpAllocationUsage = ExtensionManagerIpAllocationUsage;
-    }
+	public void setExtensionManagerIpAllocationUsage(ExtensionManagerIpAllocationUsage[] ExtensionManagerIpAllocationUsage) {
+		this.ExtensionManagerIpAllocationUsage = ExtensionManagerIpAllocationUsage;
+	}
 }

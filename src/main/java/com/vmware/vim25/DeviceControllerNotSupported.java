@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DeviceControllerNotSupported extends DeviceNotSupported {
-    public String controller;
+	public String controller;
 
-    public String getController() {
-        return this.controller;
-    }
+	public String getController() {
+		return this.controller;
+	}
 
-    public void setController(String controller) {
-        this.controller = controller;
-    }
+	public void setController(String controller) {
+		this.controller = controller;
+	}
 }

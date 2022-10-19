@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasConfigInfoHBDatastoreCandidate {
-    userSelectedDs("userSelectedDs"),
-    allFeasibleDs("allFeasibleDs"),
-    allFeasibleDsWithUserPreference("allFeasibleDsWithUserPreference");
+	userSelectedDs("userSelectedDs"),
+	allFeasibleDs("allFeasibleDs"),
+	allFeasibleDsWithUserPreference("allFeasibleDsWithUserPreference");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasConfigInfoHBDatastoreCandidate(String val) {
-        this.val = val;
-    }
+	private ClusterDasConfigInfoHBDatastoreCandidate(String val) {
+		this.val = val;
+	}
 }

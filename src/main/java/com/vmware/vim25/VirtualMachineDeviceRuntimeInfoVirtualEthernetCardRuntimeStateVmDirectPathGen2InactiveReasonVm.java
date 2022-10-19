@@ -35,25 +35,25 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonVm {
-    vmNptIncompatibleGuest("vmNptIncompatibleGuest"),
-    vmNptIncompatibleGuestDriver("vmNptIncompatibleGuestDriver"),
-    vmNptIncompatibleAdapterType("vmNptIncompatibleAdapterType"),
-    vmNptDisabledOrDisconnectedAdapter("vmNptDisabledOrDisconnectedAdapter"),
-    vmNptIncompatibleAdapterFeatures("vmNptIncompatibleAdapterFeatures"),
-    vmNptIncompatibleBackingType("vmNptIncompatibleBackingType"),
-    vmNptInsufficientMemoryReservation("vmNptInsufficientMemoryReservation"),
-    vmNptFaultToleranceOrRecordReplayConfigured("vmNptFaultToleranceOrRecordReplayConfigured"),
-    vmNptConflictingIOChainConfigured("vmNptConflictingIOChainConfigured"),
-    vmNptMonitorBlocks("vmNptMonitorBlocks"),
-    vmNptConflictingOperationInProgress("vmNptConflictingOperationInProgress"),
-    vmNptRuntimeError("vmNptRuntimeError"),
-    vmNptOutOfIntrVector("vmNptOutOfIntrVector"),
-    vmNptVMCIActive("vmNptVMCIActive");
+	vmNptIncompatibleGuest("vmNptIncompatibleGuest"),
+	vmNptIncompatibleGuestDriver("vmNptIncompatibleGuestDriver"),
+	vmNptIncompatibleAdapterType("vmNptIncompatibleAdapterType"),
+	vmNptDisabledOrDisconnectedAdapter("vmNptDisabledOrDisconnectedAdapter"),
+	vmNptIncompatibleAdapterFeatures("vmNptIncompatibleAdapterFeatures"),
+	vmNptIncompatibleBackingType("vmNptIncompatibleBackingType"),
+	vmNptInsufficientMemoryReservation("vmNptInsufficientMemoryReservation"),
+	vmNptFaultToleranceOrRecordReplayConfigured("vmNptFaultToleranceOrRecordReplayConfigured"),
+	vmNptConflictingIOChainConfigured("vmNptConflictingIOChainConfigured"),
+	vmNptMonitorBlocks("vmNptMonitorBlocks"),
+	vmNptConflictingOperationInProgress("vmNptConflictingOperationInProgress"),
+	vmNptRuntimeError("vmNptRuntimeError"),
+	vmNptOutOfIntrVector("vmNptOutOfIntrVector"),
+	vmNptVMCIActive("vmNptVMCIActive");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonVm(String val) {
-        this.val = val;
-    }
+	private VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonVm(String val) {
+		this.val = val;
+	}
 }

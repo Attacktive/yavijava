@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfMethodFault {
-    public MethodFault[] MethodFault;
+	public MethodFault[] MethodFault;
 
-    public MethodFault[] getMethodFault() {
-        return this.MethodFault;
-    }
+	public MethodFault[] getMethodFault() {
+		return this.MethodFault;
+	}
 
-    public MethodFault getMethodFault(int i) {
-        return this.MethodFault[i];
-    }
+	public MethodFault getMethodFault(int i) {
+		return this.MethodFault[i];
+	}
 
-    public void setMethodFault(MethodFault[] MethodFault) {
-        this.MethodFault = MethodFault;
-    }
+	public void setMethodFault(MethodFault[] MethodFault) {
+		this.MethodFault = MethodFault;
+	}
 }

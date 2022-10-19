@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageDrsConfigInfo extends DynamicData {
-    public StorageDrsPodConfigInfo podConfig;
-    public StorageDrsVmConfigInfo[] vmConfig;
+	public StorageDrsPodConfigInfo podConfig;
+	public StorageDrsVmConfigInfo[] vmConfig;
 
-    public StorageDrsPodConfigInfo getPodConfig() {
-        return this.podConfig;
-    }
+	public StorageDrsPodConfigInfo getPodConfig() {
+		return this.podConfig;
+	}
 
-    public StorageDrsVmConfigInfo[] getVmConfig() {
-        return this.vmConfig;
-    }
+	public StorageDrsVmConfigInfo[] getVmConfig() {
+		return this.vmConfig;
+	}
 
-    public void setPodConfig(StorageDrsPodConfigInfo podConfig) {
-        this.podConfig = podConfig;
-    }
+	public void setPodConfig(StorageDrsPodConfigInfo podConfig) {
+		this.podConfig = podConfig;
+	}
 
-    public void setVmConfig(StorageDrsVmConfigInfo[] vmConfig) {
-        this.vmConfig = vmConfig;
-    }
+	public void setVmConfig(StorageDrsVmConfigInfo[] vmConfig) {
+		this.vmConfig = vmConfig;
+	}
 }

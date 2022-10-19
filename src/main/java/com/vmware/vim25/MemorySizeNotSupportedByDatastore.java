@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MemorySizeNotSupportedByDatastore extends VirtualHardwareCompatibilityIssue {
-    public ManagedObjectReference datastore;
-    public int memorySizeMB;
-    public int maxMemorySizeMB;
+	public ManagedObjectReference datastore;
+	public int memorySizeMB;
+	public int maxMemorySizeMB;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public int getMemorySizeMB() {
-        return this.memorySizeMB;
-    }
+	public int getMemorySizeMB() {
+		return this.memorySizeMB;
+	}
 
-    public int getMaxMemorySizeMB() {
-        return this.maxMemorySizeMB;
-    }
+	public int getMaxMemorySizeMB() {
+		return this.maxMemorySizeMB;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setMemorySizeMB(int memorySizeMB) {
-        this.memorySizeMB = memorySizeMB;
-    }
+	public void setMemorySizeMB(int memorySizeMB) {
+		this.memorySizeMB = memorySizeMB;
+	}
 
-    public void setMaxMemorySizeMB(int maxMemorySizeMB) {
-        this.maxMemorySizeMB = maxMemorySizeMB;
-    }
+	public void setMaxMemorySizeMB(int maxMemorySizeMB) {
+		this.maxMemorySizeMB = maxMemorySizeMB;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSriovConfig extends HostPciPassthruConfig {
-    public boolean sriovEnabled;
-    public int numVirtualFunction;
+	public boolean sriovEnabled;
+	public int numVirtualFunction;
 
-    public boolean isSriovEnabled() {
-        return this.sriovEnabled;
-    }
+	public boolean isSriovEnabled() {
+		return this.sriovEnabled;
+	}
 
-    public int getNumVirtualFunction() {
-        return this.numVirtualFunction;
-    }
+	public int getNumVirtualFunction() {
+		return this.numVirtualFunction;
+	}
 
-    public void setSriovEnabled(boolean sriovEnabled) {
-        this.sriovEnabled = sriovEnabled;
-    }
+	public void setSriovEnabled(boolean sriovEnabled) {
+		this.sriovEnabled = sriovEnabled;
+	}
 
-    public void setNumVirtualFunction(int numVirtualFunction) {
-        this.numVirtualFunction = numVirtualFunction;
-    }
+	public void setNumVirtualFunction(int numVirtualFunction) {
+		this.numVirtualFunction = numVirtualFunction;
+	}
 }

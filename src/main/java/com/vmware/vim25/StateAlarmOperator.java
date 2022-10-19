@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum StateAlarmOperator {
-    isEqual("isEqual"),
-    isUnequal("isUnequal");
+	isEqual("isEqual"),
+	isUnequal("isUnequal");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private StateAlarmOperator(String val) {
-        this.val = val;
-    }
+	private StateAlarmOperator(String val) {
+		this.val = val;
+	}
 }

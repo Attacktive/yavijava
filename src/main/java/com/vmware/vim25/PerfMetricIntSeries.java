@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerfMetricIntSeries extends PerfMetricSeries {
-    public long[] value;
+	public long[] value;
 
-    public long[] getValue() {
-        return this.value;
-    }
+	public long[] getValue() {
+		return this.value;
+	}
 
-    public void setValue(long[] value) {
-        this.value = value;
-    }
+	public void setValue(long[] value) {
+		this.value = value;
+	}
 }

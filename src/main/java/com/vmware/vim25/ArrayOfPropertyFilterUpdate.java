@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPropertyFilterUpdate {
-    public PropertyFilterUpdate[] PropertyFilterUpdate;
+	public PropertyFilterUpdate[] PropertyFilterUpdate;
 
-    public PropertyFilterUpdate[] getPropertyFilterUpdate() {
-        return this.PropertyFilterUpdate;
-    }
+	public PropertyFilterUpdate[] getPropertyFilterUpdate() {
+		return this.PropertyFilterUpdate;
+	}
 
-    public PropertyFilterUpdate getPropertyFilterUpdate(int i) {
-        return this.PropertyFilterUpdate[i];
-    }
+	public PropertyFilterUpdate getPropertyFilterUpdate(int i) {
+		return this.PropertyFilterUpdate[i];
+	}
 
-    public void setPropertyFilterUpdate(PropertyFilterUpdate[] PropertyFilterUpdate) {
-        this.PropertyFilterUpdate = PropertyFilterUpdate;
-    }
+	public void setPropertyFilterUpdate(PropertyFilterUpdate[] PropertyFilterUpdate) {
+		this.PropertyFilterUpdate = PropertyFilterUpdate;
+	}
 }

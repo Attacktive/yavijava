@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDiskPartitionLayout extends DynamicData {
-    public HostDiskDimensionsLba total;
-    public HostDiskPartitionBlockRange[] partition;
+	public HostDiskDimensionsLba total;
+	public HostDiskPartitionBlockRange[] partition;
 
-    public HostDiskDimensionsLba getTotal() {
-        return this.total;
-    }
+	public HostDiskDimensionsLba getTotal() {
+		return this.total;
+	}
 
-    public HostDiskPartitionBlockRange[] getPartition() {
-        return this.partition;
-    }
+	public HostDiskPartitionBlockRange[] getPartition() {
+		return this.partition;
+	}
 
-    public void setTotal(HostDiskDimensionsLba total) {
-        this.total = total;
-    }
+	public void setTotal(HostDiskDimensionsLba total) {
+		this.total = total;
+	}
 
-    public void setPartition(HostDiskPartitionBlockRange[] partition) {
-        this.partition = partition;
-    }
+	public void setPartition(HostDiskPartitionBlockRange[] partition) {
+		this.partition = partition;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmNoNetworkAccessEvent extends VmEvent {
-    public HostEventArgument destHost;
+	public HostEventArgument destHost;
 
-    public HostEventArgument getDestHost() {
-        return this.destHost;
-    }
+	public HostEventArgument getDestHost() {
+		return this.destHost;
+	}
 
-    public void setDestHost(HostEventArgument destHost) {
-        this.destHost = destHost;
-    }
+	public void setDestHost(HostEventArgument destHost) {
+		this.destHost = destHost;
+	}
 }

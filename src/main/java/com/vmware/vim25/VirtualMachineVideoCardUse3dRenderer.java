@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineVideoCardUse3dRenderer {
-    automatic("automatic"),
-    software("software"),
-    hardware("hardware");
+	automatic("automatic"),
+	software("software"),
+	hardware("hardware");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineVideoCardUse3dRenderer(String val) {
-        this.val = val;
-    }
+	private VirtualMachineVideoCardUse3dRenderer(String val) {
+		this.val = val;
+	}
 }

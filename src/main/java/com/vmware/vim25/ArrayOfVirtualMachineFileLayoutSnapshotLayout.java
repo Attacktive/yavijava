@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineFileLayoutSnapshotLayout {
-    public VirtualMachineFileLayoutSnapshotLayout[] VirtualMachineFileLayoutSnapshotLayout;
+	public VirtualMachineFileLayoutSnapshotLayout[] VirtualMachineFileLayoutSnapshotLayout;
 
-    public VirtualMachineFileLayoutSnapshotLayout[] getVirtualMachineFileLayoutSnapshotLayout() {
-        return this.VirtualMachineFileLayoutSnapshotLayout;
-    }
+	public VirtualMachineFileLayoutSnapshotLayout[] getVirtualMachineFileLayoutSnapshotLayout() {
+		return this.VirtualMachineFileLayoutSnapshotLayout;
+	}
 
-    public VirtualMachineFileLayoutSnapshotLayout getVirtualMachineFileLayoutSnapshotLayout(int i) {
-        return this.VirtualMachineFileLayoutSnapshotLayout[i];
-    }
+	public VirtualMachineFileLayoutSnapshotLayout getVirtualMachineFileLayoutSnapshotLayout(int i) {
+		return this.VirtualMachineFileLayoutSnapshotLayout[i];
+	}
 
-    public void setVirtualMachineFileLayoutSnapshotLayout(VirtualMachineFileLayoutSnapshotLayout[] VirtualMachineFileLayoutSnapshotLayout) {
-        this.VirtualMachineFileLayoutSnapshotLayout = VirtualMachineFileLayoutSnapshotLayout;
-    }
+	public void setVirtualMachineFileLayoutSnapshotLayout(VirtualMachineFileLayoutSnapshotLayout[] VirtualMachineFileLayoutSnapshotLayout) {
+		this.VirtualMachineFileLayoutSnapshotLayout = VirtualMachineFileLayoutSnapshotLayout;
+	}
 }

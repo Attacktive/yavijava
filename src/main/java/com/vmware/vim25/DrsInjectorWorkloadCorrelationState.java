@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DrsInjectorWorkloadCorrelationState {
-    Correlated("Correlated"),
-    Uncorrelated("Uncorrelated");
+	Correlated("Correlated"),
+	Uncorrelated("Uncorrelated");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DrsInjectorWorkloadCorrelationState(String val) {
-        this.val = val;
-    }
+	private DrsInjectorWorkloadCorrelationState(String val) {
+		this.val = val;
+	}
 }

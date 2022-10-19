@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum MultipathState {
-    standby("standby"),
-    active("active"),
-    disabled("disabled"),
-    dead("dead"),
-    unknown("unknown");
+	standby("standby"),
+	active("active"),
+	disabled("disabled"),
+	dead("dead"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private MultipathState(String val) {
-        this.val = val;
-    }
+	private MultipathState(String val) {
+		this.val = val;
+	}
 }

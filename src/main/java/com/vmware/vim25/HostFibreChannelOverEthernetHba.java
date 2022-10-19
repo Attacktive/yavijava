@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFibreChannelOverEthernetHba extends HostFibreChannelHba {
-    public String underlyingNic;
-    public HostFibreChannelOverEthernetHbaLinkInfo linkInfo;
-    public boolean isSoftwareFcoe;
-    public boolean markedForRemoval;
+	public String underlyingNic;
+	public HostFibreChannelOverEthernetHbaLinkInfo linkInfo;
+	public boolean isSoftwareFcoe;
+	public boolean markedForRemoval;
 
-    public String getUnderlyingNic() {
-        return this.underlyingNic;
-    }
+	public String getUnderlyingNic() {
+		return this.underlyingNic;
+	}
 
-    public HostFibreChannelOverEthernetHbaLinkInfo getLinkInfo() {
-        return this.linkInfo;
-    }
+	public HostFibreChannelOverEthernetHbaLinkInfo getLinkInfo() {
+		return this.linkInfo;
+	}
 
-    public boolean isIsSoftwareFcoe() {
-        return this.isSoftwareFcoe;
-    }
+	public boolean isIsSoftwareFcoe() {
+		return this.isSoftwareFcoe;
+	}
 
-    public boolean isMarkedForRemoval() {
-        return this.markedForRemoval;
-    }
+	public boolean isMarkedForRemoval() {
+		return this.markedForRemoval;
+	}
 
-    public void setUnderlyingNic(String underlyingNic) {
-        this.underlyingNic = underlyingNic;
-    }
+	public void setUnderlyingNic(String underlyingNic) {
+		this.underlyingNic = underlyingNic;
+	}
 
-    public void setLinkInfo(HostFibreChannelOverEthernetHbaLinkInfo linkInfo) {
-        this.linkInfo = linkInfo;
-    }
+	public void setLinkInfo(HostFibreChannelOverEthernetHbaLinkInfo linkInfo) {
+		this.linkInfo = linkInfo;
+	}
 
-    public void setIsSoftwareFcoe(boolean isSoftwareFcoe) {
-        this.isSoftwareFcoe = isSoftwareFcoe;
-    }
+	public void setIsSoftwareFcoe(boolean isSoftwareFcoe) {
+		this.isSoftwareFcoe = isSoftwareFcoe;
+	}
 
-    public void setMarkedForRemoval(boolean markedForRemoval) {
-        this.markedForRemoval = markedForRemoval;
-    }
+	public void setMarkedForRemoval(boolean markedForRemoval) {
+		this.markedForRemoval = markedForRemoval;
+	}
 }

@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum DistributedVirtualSwitchNicTeamingPolicyMode {
-    loadbalance_ip("loadbalance_ip"),
-    loadbalance_srcmac("loadbalance_srcmac"),
-    loadbalance_srcid("loadbalance_srcid"),
-    failover_explicit("failover_explicit"),
-    loadbalance_loadbased("loadbalance_loadbased");
+	loadbalance_ip("loadbalance_ip"),
+	loadbalance_srcmac("loadbalance_srcmac"),
+	loadbalance_srcid("loadbalance_srcid"),
+	failover_explicit("failover_explicit"),
+	loadbalance_loadbased("loadbalance_loadbased");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DistributedVirtualSwitchNicTeamingPolicyMode(String val) {
-        this.val = val;
-    }
+	private DistributedVirtualSwitchNicTeamingPolicyMode(String val) {
+		this.val = val;
+	}
 }

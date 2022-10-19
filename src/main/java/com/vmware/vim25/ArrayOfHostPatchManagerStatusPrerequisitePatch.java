@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPatchManagerStatusPrerequisitePatch {
-    public HostPatchManagerStatusPrerequisitePatch[] HostPatchManagerStatusPrerequisitePatch;
+	public HostPatchManagerStatusPrerequisitePatch[] HostPatchManagerStatusPrerequisitePatch;
 
-    public HostPatchManagerStatusPrerequisitePatch[] getHostPatchManagerStatusPrerequisitePatch() {
-        return this.HostPatchManagerStatusPrerequisitePatch;
-    }
+	public HostPatchManagerStatusPrerequisitePatch[] getHostPatchManagerStatusPrerequisitePatch() {
+		return this.HostPatchManagerStatusPrerequisitePatch;
+	}
 
-    public HostPatchManagerStatusPrerequisitePatch getHostPatchManagerStatusPrerequisitePatch(int i) {
-        return this.HostPatchManagerStatusPrerequisitePatch[i];
-    }
+	public HostPatchManagerStatusPrerequisitePatch getHostPatchManagerStatusPrerequisitePatch(int i) {
+		return this.HostPatchManagerStatusPrerequisitePatch[i];
+	}
 
-    public void setHostPatchManagerStatusPrerequisitePatch(HostPatchManagerStatusPrerequisitePatch[] HostPatchManagerStatusPrerequisitePatch) {
-        this.HostPatchManagerStatusPrerequisitePatch = HostPatchManagerStatusPrerequisitePatch;
-    }
+	public void setHostPatchManagerStatusPrerequisitePatch(HostPatchManagerStatusPrerequisitePatch[] HostPatchManagerStatusPrerequisitePatch) {
+		this.HostPatchManagerStatusPrerequisitePatch = HostPatchManagerStatusPrerequisitePatch;
+	}
 }

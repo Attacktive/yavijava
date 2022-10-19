@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfOptionInfo {
-    public OvfOptionInfo[] OvfOptionInfo;
+	public OvfOptionInfo[] OvfOptionInfo;
 
-    public OvfOptionInfo[] getOvfOptionInfo() {
-        return this.OvfOptionInfo;
-    }
+	public OvfOptionInfo[] getOvfOptionInfo() {
+		return this.OvfOptionInfo;
+	}
 
-    public OvfOptionInfo getOvfOptionInfo(int i) {
-        return this.OvfOptionInfo[i];
-    }
+	public OvfOptionInfo getOvfOptionInfo(int i) {
+		return this.OvfOptionInfo[i];
+	}
 
-    public void setOvfOptionInfo(OvfOptionInfo[] OvfOptionInfo) {
-        this.OvfOptionInfo = OvfOptionInfo;
-    }
+	public void setOvfOptionInfo(OvfOptionInfo[] OvfOptionInfo) {
+		this.OvfOptionInfo = OvfOptionInfo;
+	}
 }

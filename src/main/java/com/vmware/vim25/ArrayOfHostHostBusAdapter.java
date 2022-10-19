@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostHostBusAdapter {
-    public HostHostBusAdapter[] HostHostBusAdapter;
+	public HostHostBusAdapter[] HostHostBusAdapter;
 
-    public HostHostBusAdapter[] getHostHostBusAdapter() {
-        return this.HostHostBusAdapter;
-    }
+	public HostHostBusAdapter[] getHostHostBusAdapter() {
+		return this.HostHostBusAdapter;
+	}
 
-    public HostHostBusAdapter getHostHostBusAdapter(int i) {
-        return this.HostHostBusAdapter[i];
-    }
+	public HostHostBusAdapter getHostHostBusAdapter(int i) {
+		return this.HostHostBusAdapter[i];
+	}
 
-    public void setHostHostBusAdapter(HostHostBusAdapter[] HostHostBusAdapter) {
-        this.HostHostBusAdapter = HostHostBusAdapter;
-    }
+	public void setHostHostBusAdapter(HostHostBusAdapter[] HostHostBusAdapter) {
+		this.HostHostBusAdapter = HostHostBusAdapter;
+	}
 }

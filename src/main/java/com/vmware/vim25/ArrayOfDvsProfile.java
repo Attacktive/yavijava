@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsProfile {
-    public DvsProfile[] DvsProfile;
+	public DvsProfile[] DvsProfile;
 
-    public DvsProfile[] getDvsProfile() {
-        return this.DvsProfile;
-    }
+	public DvsProfile[] getDvsProfile() {
+		return this.DvsProfile;
+	}
 
-    public DvsProfile getDvsProfile(int i) {
-        return this.DvsProfile[i];
-    }
+	public DvsProfile getDvsProfile(int i) {
+		return this.DvsProfile[i];
+	}
 
-    public void setDvsProfile(DvsProfile[] DvsProfile) {
-        this.DvsProfile = DvsProfile;
-    }
+	public void setDvsProfile(DvsProfile[] DvsProfile) {
+		this.DvsProfile = DvsProfile;
+	}
 }

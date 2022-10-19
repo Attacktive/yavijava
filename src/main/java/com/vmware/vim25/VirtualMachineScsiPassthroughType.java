@@ -35,23 +35,23 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineScsiPassthroughType {
-    disk("disk"),
-    tape("tape"),
-    printer("printer"),
-    processor("processor"),
-    worm("worm"),
-    cdrom("cdrom"),
-    scanner("scanner"),
-    optical("optical"),
-    media("media"),
-    com("com"),
-    raid("raid"),
-    unknown("unknown");
+	disk("disk"),
+	tape("tape"),
+	printer("printer"),
+	processor("processor"),
+	worm("worm"),
+	cdrom("cdrom"),
+	scanner("scanner"),
+	optical("optical"),
+	media("media"),
+	com("com"),
+	raid("raid"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineScsiPassthroughType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineScsiPassthroughType(String val) {
+		this.val = val;
+	}
 }

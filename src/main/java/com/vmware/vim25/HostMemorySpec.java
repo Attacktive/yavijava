@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMemorySpec extends DynamicData {
-    public Long serviceConsoleReservation;
+	public Long serviceConsoleReservation;
 
-    public Long getServiceConsoleReservation() {
-        return this.serviceConsoleReservation;
-    }
+	public Long getServiceConsoleReservation() {
+		return this.serviceConsoleReservation;
+	}
 
-    public void setServiceConsoleReservation(Long serviceConsoleReservation) {
-        this.serviceConsoleReservation = serviceConsoleReservation;
-    }
+	public void setServiceConsoleReservation(Long serviceConsoleReservation) {
+		this.serviceConsoleReservation = serviceConsoleReservation;
+	}
 }

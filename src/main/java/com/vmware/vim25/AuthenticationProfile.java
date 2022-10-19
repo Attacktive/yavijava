@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AuthenticationProfile extends ApplyProfile {
-    public ActiveDirectoryProfile activeDirectory;
+	public ActiveDirectoryProfile activeDirectory;
 
-    public ActiveDirectoryProfile getActiveDirectory() {
-        return this.activeDirectory;
-    }
+	public ActiveDirectoryProfile getActiveDirectory() {
+		return this.activeDirectory;
+	}
 
-    public void setActiveDirectory(ActiveDirectoryProfile activeDirectory) {
-        this.activeDirectory = activeDirectory;
-    }
+	public void setActiveDirectory(ActiveDirectoryProfile activeDirectory) {
+		this.activeDirectory = activeDirectory;
+	}
 }

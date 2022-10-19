@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAnswerFileUpdateFailure {
-    public AnswerFileUpdateFailure[] AnswerFileUpdateFailure;
+	public AnswerFileUpdateFailure[] AnswerFileUpdateFailure;
 
-    public AnswerFileUpdateFailure[] getAnswerFileUpdateFailure() {
-        return this.AnswerFileUpdateFailure;
-    }
+	public AnswerFileUpdateFailure[] getAnswerFileUpdateFailure() {
+		return this.AnswerFileUpdateFailure;
+	}
 
-    public AnswerFileUpdateFailure getAnswerFileUpdateFailure(int i) {
-        return this.AnswerFileUpdateFailure[i];
-    }
+	public AnswerFileUpdateFailure getAnswerFileUpdateFailure(int i) {
+		return this.AnswerFileUpdateFailure[i];
+	}
 
-    public void setAnswerFileUpdateFailure(AnswerFileUpdateFailure[] AnswerFileUpdateFailure) {
-        this.AnswerFileUpdateFailure = AnswerFileUpdateFailure;
-    }
+	public void setAnswerFileUpdateFailure(AnswerFileUpdateFailure[] AnswerFileUpdateFailure) {
+		this.AnswerFileUpdateFailure = AnswerFileUpdateFailure;
+	}
 }

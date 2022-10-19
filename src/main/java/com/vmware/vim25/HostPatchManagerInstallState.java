@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostPatchManagerInstallState {
-    hostRestarted("hostRestarted"),
-    imageActive("imageActive");
+	hostRestarted("hostRestarted"),
+	imageActive("imageActive");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostPatchManagerInstallState(String val) {
-        this.val = val;
-    }
+	private HostPatchManagerInstallState(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfScsiLunDescriptor {
-    public ScsiLunDescriptor[] ScsiLunDescriptor;
+	public ScsiLunDescriptor[] ScsiLunDescriptor;
 
-    public ScsiLunDescriptor[] getScsiLunDescriptor() {
-        return this.ScsiLunDescriptor;
-    }
+	public ScsiLunDescriptor[] getScsiLunDescriptor() {
+		return this.ScsiLunDescriptor;
+	}
 
-    public ScsiLunDescriptor getScsiLunDescriptor(int i) {
-        return this.ScsiLunDescriptor[i];
-    }
+	public ScsiLunDescriptor getScsiLunDescriptor(int i) {
+		return this.ScsiLunDescriptor[i];
+	}
 
-    public void setScsiLunDescriptor(ScsiLunDescriptor[] ScsiLunDescriptor) {
-        this.ScsiLunDescriptor = ScsiLunDescriptor;
-    }
+	public void setScsiLunDescriptor(ScsiLunDescriptor[] ScsiLunDescriptor) {
+		this.ScsiLunDescriptor = ScsiLunDescriptor;
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskAdapterType {
-    ide("ide"),
-    busLogic("busLogic"),
-    lsiLogic("lsiLogic");
+	ide("ide"),
+	busLogic("busLogic"),
+	lsiLogic("lsiLogic");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskAdapterType(String val) {
-        this.val = val;
-    }
+	private VirtualDiskAdapterType(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostNumericSensorInfo {
-    public HostNumericSensorInfo[] HostNumericSensorInfo;
+	public HostNumericSensorInfo[] HostNumericSensorInfo;
 
-    public HostNumericSensorInfo[] getHostNumericSensorInfo() {
-        return this.HostNumericSensorInfo;
-    }
+	public HostNumericSensorInfo[] getHostNumericSensorInfo() {
+		return this.HostNumericSensorInfo;
+	}
 
-    public HostNumericSensorInfo getHostNumericSensorInfo(int i) {
-        return this.HostNumericSensorInfo[i];
-    }
+	public HostNumericSensorInfo getHostNumericSensorInfo(int i) {
+		return this.HostNumericSensorInfo[i];
+	}
 
-    public void setHostNumericSensorInfo(HostNumericSensorInfo[] HostNumericSensorInfo) {
-        this.HostNumericSensorInfo = HostNumericSensorInfo;
-    }
+	public void setHostNumericSensorInfo(HostNumericSensorInfo[] HostNumericSensorInfo) {
+		this.HostNumericSensorInfo = HostNumericSensorInfo;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDrsVmConfigInfo {
-    public ClusterDrsVmConfigInfo[] ClusterDrsVmConfigInfo;
+	public ClusterDrsVmConfigInfo[] ClusterDrsVmConfigInfo;
 
-    public ClusterDrsVmConfigInfo[] getClusterDrsVmConfigInfo() {
-        return this.ClusterDrsVmConfigInfo;
-    }
+	public ClusterDrsVmConfigInfo[] getClusterDrsVmConfigInfo() {
+		return this.ClusterDrsVmConfigInfo;
+	}
 
-    public ClusterDrsVmConfigInfo getClusterDrsVmConfigInfo(int i) {
-        return this.ClusterDrsVmConfigInfo[i];
-    }
+	public ClusterDrsVmConfigInfo getClusterDrsVmConfigInfo(int i) {
+		return this.ClusterDrsVmConfigInfo[i];
+	}
 
-    public void setClusterDrsVmConfigInfo(ClusterDrsVmConfigInfo[] ClusterDrsVmConfigInfo) {
-        this.ClusterDrsVmConfigInfo = ClusterDrsVmConfigInfo;
-    }
+	public void setClusterDrsVmConfigInfo(ClusterDrsVmConfigInfo[] ClusterDrsVmConfigInfo) {
+		this.ClusterDrsVmConfigInfo = ClusterDrsVmConfigInfo;
+	}
 }

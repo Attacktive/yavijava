@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMultipathInfoLogicalUnitPolicy extends DynamicData {
-    public String policy;
+	public String policy;
 
-    public String getPolicy() {
-        return this.policy;
-    }
+	public String getPolicy() {
+		return this.policy;
+	}
 
-    public void setPolicy(String policy) {
-        this.policy = policy;
-    }
+	public void setPolicy(String policy) {
+		this.policy = policy;
+	}
 }

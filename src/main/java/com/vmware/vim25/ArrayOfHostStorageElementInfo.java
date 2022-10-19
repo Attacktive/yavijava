@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostStorageElementInfo {
-    public HostStorageElementInfo[] HostStorageElementInfo;
+	public HostStorageElementInfo[] HostStorageElementInfo;
 
-    public HostStorageElementInfo[] getHostStorageElementInfo() {
-        return this.HostStorageElementInfo;
-    }
+	public HostStorageElementInfo[] getHostStorageElementInfo() {
+		return this.HostStorageElementInfo;
+	}
 
-    public HostStorageElementInfo getHostStorageElementInfo(int i) {
-        return this.HostStorageElementInfo[i];
-    }
+	public HostStorageElementInfo getHostStorageElementInfo(int i) {
+		return this.HostStorageElementInfo[i];
+	}
 
-    public void setHostStorageElementInfo(HostStorageElementInfo[] HostStorageElementInfo) {
-        this.HostStorageElementInfo = HostStorageElementInfo;
-    }
+	public void setHostStorageElementInfo(HostStorageElementInfo[] HostStorageElementInfo) {
+		this.HostStorageElementInfo = HostStorageElementInfo;
+	}
 }

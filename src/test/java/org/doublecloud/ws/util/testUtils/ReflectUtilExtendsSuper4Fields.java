@@ -16,6 +16,6 @@ package org.doublecloud.ws.util.testUtils;
  * limitations under the License.
  */
 public class ReflectUtilExtendsSuper4Fields extends ReflectUtilSuperClassWith2Fields {
-    private int myField1;
-    private String myField2;
+	private int myField1;
+	private String myField2;
 }

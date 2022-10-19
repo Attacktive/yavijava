@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfDeploymentOption {
-    public OvfDeploymentOption[] OvfDeploymentOption;
+	public OvfDeploymentOption[] OvfDeploymentOption;
 
-    public OvfDeploymentOption[] getOvfDeploymentOption() {
-        return this.OvfDeploymentOption;
-    }
+	public OvfDeploymentOption[] getOvfDeploymentOption() {
+		return this.OvfDeploymentOption;
+	}
 
-    public OvfDeploymentOption getOvfDeploymentOption(int i) {
-        return this.OvfDeploymentOption[i];
-    }
+	public OvfDeploymentOption getOvfDeploymentOption(int i) {
+		return this.OvfDeploymentOption[i];
+	}
 
-    public void setOvfDeploymentOption(OvfDeploymentOption[] OvfDeploymentOption) {
-        this.OvfDeploymentOption = OvfDeploymentOption;
-    }
+	public void setOvfDeploymentOption(OvfDeploymentOption[] OvfDeploymentOption) {
+		this.OvfDeploymentOption = OvfDeploymentOption;
+	}
 }

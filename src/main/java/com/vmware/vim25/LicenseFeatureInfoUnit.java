@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum LicenseFeatureInfoUnit {
-    host("host"),
-    cpuCore("cpuCore"),
-    cpuPackage("cpuPackage"),
-    server("server"),
-    vm("vm");
+	host("host"),
+	cpuCore("cpuCore"),
+	cpuPackage("cpuPackage"),
+	server("server"),
+	vm("vm");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseFeatureInfoUnit(String val) {
-        this.val = val;
-    }
+	private LicenseFeatureInfoUnit(String val) {
+		this.val = val;
+	}
 }

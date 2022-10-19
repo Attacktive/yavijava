@@ -29,9 +29,14 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.AlarmInfo;
+import com.vmware.vim25.AlarmSpec;
+import com.vmware.vim25.DuplicateName;
+import com.vmware.vim25.InvalidName;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -40,23 +45,23 @@ import java.rmi.RemoteException;
  */
 
 public class Alarm extends ExtensibleManagedObject {
-    public Alarm(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public Alarm(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public AlarmInfo getAlarmInfo() {
-        return (AlarmInfo) getCurrentProperty("info");
-    }
+	public AlarmInfo getAlarmInfo() {
+		return (AlarmInfo)getCurrentProperty("info");
+	}
 
-    public ManagedEntity getAssociatedEntity() {
-        return (ManagedEntity) getManagedObject("info.entity");
-    }
+	public ManagedEntity getAssociatedEntity() {
+		return (ManagedEntity)getManagedObject("info.entity");
+	}
 
-    public void reconfigureAlarm(AlarmSpec alarmSpec) throws InvalidName, DuplicateName, RuntimeFault, RemoteException {
-        getVimService().reconfigureAlarm(getMOR(), alarmSpec);
-    }
+	public void reconfigureAlarm(AlarmSpec alarmSpec) throws InvalidName, DuplicateName, RuntimeFault, RemoteException {
+		getVimService().reconfigureAlarm(getMOR(), alarmSpec);
+	}
 
-    public void removeAlarm() throws RuntimeFault, RemoteException {
-        getVimService().removeAlarm(getMOR());
-    }
+	public void removeAlarm() throws RuntimeFault, RemoteException {
+		getVimService().removeAlarm(getMOR());
+	}
 }

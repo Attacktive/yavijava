@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatacenterConfigSpec extends DynamicData {
-    public String defaultHardwareVersionKey;
+	public String defaultHardwareVersionKey;
 
-    public String getDefaultHardwareVersionKey() {
-        return this.defaultHardwareVersionKey;
-    }
+	public String getDefaultHardwareVersionKey() {
+		return this.defaultHardwareVersionKey;
+	}
 
-    public void setDefaultHardwareVersionKey(String defaultHardwareVersionKey) {
-        this.defaultHardwareVersionKey = defaultHardwareVersionKey;
-    }
+	public void setDefaultHardwareVersionKey(String defaultHardwareVersionKey) {
+		this.defaultHardwareVersionKey = defaultHardwareVersionKey;
+	}
 }

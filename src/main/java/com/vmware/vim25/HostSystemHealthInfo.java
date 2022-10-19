@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSystemHealthInfo extends DynamicData {
-    public HostNumericSensorInfo[] numericSensorInfo;
+	public HostNumericSensorInfo[] numericSensorInfo;
 
-    public HostNumericSensorInfo[] getNumericSensorInfo() {
-        return this.numericSensorInfo;
-    }
+	public HostNumericSensorInfo[] getNumericSensorInfo() {
+		return this.numericSensorInfo;
+	}
 
-    public void setNumericSensorInfo(HostNumericSensorInfo[] numericSensorInfo) {
-        this.numericSensorInfo = numericSensorInfo;
-    }
+	public void setNumericSensorInfo(HostNumericSensorInfo[] numericSensorInfo) {
+		this.numericSensorInfo = numericSensorInfo;
+	}
 }

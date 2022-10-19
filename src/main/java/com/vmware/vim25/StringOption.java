@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StringOption extends OptionType {
-    public String defaultValue;
-    public String validCharacters;
+	public String defaultValue;
+	public String validCharacters;
 
-    public String getDefaultValue() {
-        return this.defaultValue;
-    }
+	public String getDefaultValue() {
+		return this.defaultValue;
+	}
 
-    public String getValidCharacters() {
-        return this.validCharacters;
-    }
+	public String getValidCharacters() {
+		return this.validCharacters;
+	}
 
-    public void setDefaultValue(String defaultValue) {
-        this.defaultValue = defaultValue;
-    }
+	public void setDefaultValue(String defaultValue) {
+		this.defaultValue = defaultValue;
+	}
 
-    public void setValidCharacters(String validCharacters) {
-        this.validCharacters = validCharacters;
-    }
+	public void setValidCharacters(String validCharacters) {
+		this.validCharacters = validCharacters;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmConfigFileInfo extends FileInfo {
-    public Integer configVersion;
+	public Integer configVersion;
 
-    public Integer getConfigVersion() {
-        return this.configVersion;
-    }
+	public Integer getConfigVersion() {
+		return this.configVersion;
+	}
 
-    public void setConfigVersion(Integer configVersion) {
-        this.configVersion = configVersion;
-    }
+	public void setConfigVersion(Integer configVersion) {
+		this.configVersion = configVersion;
+	}
 }

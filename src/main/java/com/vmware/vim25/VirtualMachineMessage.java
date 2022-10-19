@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineMessage extends DynamicData {
-    public String id;
-    public Object[] argument;
-    public String text;
+	public String id;
+	public Object[] argument;
+	public String text;
 
-    public String getId() {
-        return this.id;
-    }
+	public String getId() {
+		return this.id;
+	}
 
-    public Object[] getArgument() {
-        return this.argument;
-    }
+	public Object[] getArgument() {
+		return this.argument;
+	}
 
-    public String getText() {
-        return this.text;
-    }
+	public String getText() {
+		return this.text;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public void setArgument(Object[] argument) {
-        this.argument = argument;
-    }
+	public void setArgument(Object[] argument) {
+		this.argument = argument;
+	}
 
-    public void setText(String text) {
-        this.text = text;
-    }
+	public void setText(String text) {
+		this.text = text;
+	}
 }

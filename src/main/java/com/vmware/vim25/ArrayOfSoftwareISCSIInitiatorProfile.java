@@ -34,17 +34,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfSoftwareISCSIInitiatorProfile {
-    public SoftwareISCSIInitiatorProfile[] SoftwareISCSIInitiatorProfile;
+	public SoftwareISCSIInitiatorProfile[] SoftwareISCSIInitiatorProfile;
 
-    public SoftwareISCSIInitiatorProfile[] getSoftwareISCSIInitiatorProfile() {
-        return this.SoftwareISCSIInitiatorProfile;
-    }
+	public SoftwareISCSIInitiatorProfile[] getSoftwareISCSIInitiatorProfile() {
+		return this.SoftwareISCSIInitiatorProfile;
+	}
 
-    public SoftwareISCSIInitiatorProfile getSoftwareISCSIInitiatorProfile(int i) {
-        return this.SoftwareISCSIInitiatorProfile[i];
-    }
+	public SoftwareISCSIInitiatorProfile getSoftwareISCSIInitiatorProfile(int i) {
+		return this.SoftwareISCSIInitiatorProfile[i];
+	}
 
-    public void setSoftwareISCSIInitiatorProfile(SoftwareISCSIInitiatorProfile[] SoftwareISCSIInitiatorProfile) {
-        this.SoftwareISCSIInitiatorProfile = SoftwareISCSIInitiatorProfile;
-    }
+	public void setSoftwareISCSIInitiatorProfile(SoftwareISCSIInitiatorProfile[] SoftwareISCSIInitiatorProfile) {
+		this.SoftwareISCSIInitiatorProfile = SoftwareISCSIInitiatorProfile;
+	}
 }

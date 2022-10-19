@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineDatastoreVolumeOption {
-    public VirtualMachineDatastoreVolumeOption[] VirtualMachineDatastoreVolumeOption;
+	public VirtualMachineDatastoreVolumeOption[] VirtualMachineDatastoreVolumeOption;
 
-    public VirtualMachineDatastoreVolumeOption[] getVirtualMachineDatastoreVolumeOption() {
-        return this.VirtualMachineDatastoreVolumeOption;
-    }
+	public VirtualMachineDatastoreVolumeOption[] getVirtualMachineDatastoreVolumeOption() {
+		return this.VirtualMachineDatastoreVolumeOption;
+	}
 
-    public VirtualMachineDatastoreVolumeOption getVirtualMachineDatastoreVolumeOption(int i) {
-        return this.VirtualMachineDatastoreVolumeOption[i];
-    }
+	public VirtualMachineDatastoreVolumeOption getVirtualMachineDatastoreVolumeOption(int i) {
+		return this.VirtualMachineDatastoreVolumeOption[i];
+	}
 
-    public void setVirtualMachineDatastoreVolumeOption(VirtualMachineDatastoreVolumeOption[] VirtualMachineDatastoreVolumeOption) {
-        this.VirtualMachineDatastoreVolumeOption = VirtualMachineDatastoreVolumeOption;
-    }
+	public void setVirtualMachineDatastoreVolumeOption(VirtualMachineDatastoreVolumeOption[] VirtualMachineDatastoreVolumeOption) {
+		this.VirtualMachineDatastoreVolumeOption = VirtualMachineDatastoreVolumeOption;
+	}
 }

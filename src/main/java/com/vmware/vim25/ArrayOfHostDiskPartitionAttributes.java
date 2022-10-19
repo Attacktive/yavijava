@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDiskPartitionAttributes {
-    public HostDiskPartitionAttributes[] HostDiskPartitionAttributes;
+	public HostDiskPartitionAttributes[] HostDiskPartitionAttributes;
 
-    public HostDiskPartitionAttributes[] getHostDiskPartitionAttributes() {
-        return this.HostDiskPartitionAttributes;
-    }
+	public HostDiskPartitionAttributes[] getHostDiskPartitionAttributes() {
+		return this.HostDiskPartitionAttributes;
+	}
 
-    public HostDiskPartitionAttributes getHostDiskPartitionAttributes(int i) {
-        return this.HostDiskPartitionAttributes[i];
-    }
+	public HostDiskPartitionAttributes getHostDiskPartitionAttributes(int i) {
+		return this.HostDiskPartitionAttributes[i];
+	}
 
-    public void setHostDiskPartitionAttributes(HostDiskPartitionAttributes[] HostDiskPartitionAttributes) {
-        this.HostDiskPartitionAttributes = HostDiskPartitionAttributes;
-    }
+	public void setHostDiskPartitionAttributes(HostDiskPartitionAttributes[] HostDiskPartitionAttributes) {
+		this.HostDiskPartitionAttributes = HostDiskPartitionAttributes;
+	}
 }

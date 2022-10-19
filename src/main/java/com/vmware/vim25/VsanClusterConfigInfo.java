@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanClusterConfigInfo extends DynamicData {
-    public Boolean enabled;
-    public VsanClusterConfigInfoHostDefaultInfo defaultConfig;
+	public Boolean enabled;
+	public VsanClusterConfigInfoHostDefaultInfo defaultConfig;
 
-    public Boolean getEnabled() {
-        return this.enabled;
-    }
+	public Boolean getEnabled() {
+		return this.enabled;
+	}
 
-    public VsanClusterConfigInfoHostDefaultInfo getDefaultConfig() {
-        return this.defaultConfig;
-    }
+	public VsanClusterConfigInfoHostDefaultInfo getDefaultConfig() {
+		return this.defaultConfig;
+	}
 
-    public void setEnabled(Boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
-    public void setDefaultConfig(VsanClusterConfigInfoHostDefaultInfo defaultConfig) {
-        this.defaultConfig = defaultConfig;
-    }
+	public void setDefaultConfig(VsanClusterConfigInfoHostDefaultInfo defaultConfig) {
+		this.defaultConfig = defaultConfig;
+	}
 }

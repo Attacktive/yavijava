@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterGroupSpec extends ArrayUpdateSpec {
-    public ClusterGroupInfo info;
+	public ClusterGroupInfo info;
 
-    public ClusterGroupInfo getInfo() {
-        return this.info;
-    }
+	public ClusterGroupInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(ClusterGroupInfo info) {
-        this.info = info;
-    }
+	public void setInfo(ClusterGroupInfo info) {
+		this.info = info;
+	}
 }

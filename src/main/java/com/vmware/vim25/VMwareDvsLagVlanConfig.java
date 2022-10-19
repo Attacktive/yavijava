@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDvsLagVlanConfig extends DynamicData {
-    public NumericRange[] vlanId;
+	public NumericRange[] vlanId;
 
-    public NumericRange[] getVlanId() {
-        return this.vlanId;
-    }
+	public NumericRange[] getVlanId() {
+		return this.vlanId;
+	}
 
-    public void setVlanId(NumericRange[] vlanId) {
-        this.vlanId = vlanId;
-    }
+	public void setVlanId(NumericRange[] vlanId) {
+		this.vlanId = vlanId;
+	}
 }

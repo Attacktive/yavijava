@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfCheckResult {
-    public CheckResult[] CheckResult;
+	public CheckResult[] CheckResult;
 
-    public CheckResult[] getCheckResult() {
-        return this.CheckResult;
-    }
+	public CheckResult[] getCheckResult() {
+		return this.CheckResult;
+	}
 
-    public CheckResult getCheckResult(int i) {
-        return this.CheckResult[i];
-    }
+	public CheckResult getCheckResult(int i) {
+		return this.CheckResult[i];
+	}
 
-    public void setCheckResult(CheckResult[] CheckResult) {
-        this.CheckResult = CheckResult;
-    }
+	public void setCheckResult(CheckResult[] CheckResult) {
+		this.CheckResult = CheckResult;
+	}
 }

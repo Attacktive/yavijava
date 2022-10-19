@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmActionTriggeredEvent extends AlarmEvent {
-    public ManagedEntityEventArgument source;
-    public ManagedEntityEventArgument entity;
+	public ManagedEntityEventArgument source;
+	public ManagedEntityEventArgument entity;
 
-    public ManagedEntityEventArgument getSource() {
-        return this.source;
-    }
+	public ManagedEntityEventArgument getSource() {
+		return this.source;
+	}
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public void setSource(ManagedEntityEventArgument source) {
-        this.source = source;
-    }
+	public void setSource(ManagedEntityEventArgument source) {
+		this.source = source;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 }

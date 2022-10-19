@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineDatastoreInfo {
-    public VirtualMachineDatastoreInfo[] VirtualMachineDatastoreInfo;
+	public VirtualMachineDatastoreInfo[] VirtualMachineDatastoreInfo;
 
-    public VirtualMachineDatastoreInfo[] getVirtualMachineDatastoreInfo() {
-        return this.VirtualMachineDatastoreInfo;
-    }
+	public VirtualMachineDatastoreInfo[] getVirtualMachineDatastoreInfo() {
+		return this.VirtualMachineDatastoreInfo;
+	}
 
-    public VirtualMachineDatastoreInfo getVirtualMachineDatastoreInfo(int i) {
-        return this.VirtualMachineDatastoreInfo[i];
-    }
+	public VirtualMachineDatastoreInfo getVirtualMachineDatastoreInfo(int i) {
+		return this.VirtualMachineDatastoreInfo[i];
+	}
 
-    public void setVirtualMachineDatastoreInfo(VirtualMachineDatastoreInfo[] VirtualMachineDatastoreInfo) {
-        this.VirtualMachineDatastoreInfo = VirtualMachineDatastoreInfo;
-    }
+	public void setVirtualMachineDatastoreInfo(VirtualMachineDatastoreInfo[] VirtualMachineDatastoreInfo) {
+		this.VirtualMachineDatastoreInfo = VirtualMachineDatastoreInfo;
+	}
 }

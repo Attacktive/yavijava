@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostLocalPortCreatedEvent extends DvsEvent {
-    public DVSHostLocalPortInfo hostLocalPort;
+	public DVSHostLocalPortInfo hostLocalPort;
 
-    public DVSHostLocalPortInfo getHostLocalPort() {
-        return this.hostLocalPort;
-    }
+	public DVSHostLocalPortInfo getHostLocalPort() {
+		return this.hostLocalPort;
+	}
 
-    public void setHostLocalPort(DVSHostLocalPortInfo hostLocalPort) {
-        this.hostLocalPort = hostLocalPort;
-    }
+	public void setHostLocalPort(DVSHostLocalPortInfo hostLocalPort) {
+		this.hostLocalPort = hostLocalPort;
+	}
 }

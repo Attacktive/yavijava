@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsApplyOperationFault extends DvsFault {
-    public DvsApplyOperationFaultFaultOnObject[] objectFault;
+	public DvsApplyOperationFaultFaultOnObject[] objectFault;
 
-    public DvsApplyOperationFaultFaultOnObject[] getObjectFault() {
-        return this.objectFault;
-    }
+	public DvsApplyOperationFaultFaultOnObject[] getObjectFault() {
+		return this.objectFault;
+	}
 
-    public void setObjectFault(DvsApplyOperationFaultFaultOnObject[] objectFault) {
-        this.objectFault = objectFault;
-    }
+	public void setObjectFault(DvsApplyOperationFaultFaultOnObject[] objectFault) {
+		this.objectFault = objectFault;
+	}
 }

@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum PhysicalNicVmDirectPathGen2SupportedMode {
-    upt("upt");
+	upt("upt");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PhysicalNicVmDirectPathGen2SupportedMode(String val) {
-        this.val = val;
-    }
+	private PhysicalNicVmDirectPathGen2SupportedMode(String val) {
+		this.val = val;
+	}
 }

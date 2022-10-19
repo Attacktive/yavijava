@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSRollbackCapability extends DynamicData {
-    public boolean rollbackSupported;
+	public boolean rollbackSupported;
 
-    public boolean isRollbackSupported() {
-        return this.rollbackSupported;
-    }
+	public boolean isRollbackSupported() {
+		return this.rollbackSupported;
+	}
 
-    public void setRollbackSupported(boolean rollbackSupported) {
-        this.rollbackSupported = rollbackSupported;
-    }
+	public void setRollbackSupported(boolean rollbackSupported) {
+		this.rollbackSupported = rollbackSupported;
+	}
 }

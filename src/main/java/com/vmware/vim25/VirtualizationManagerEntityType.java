@@ -34,15 +34,15 @@ package com.vmware.vim25;
  */
 
 public enum VirtualizationManagerEntityType {
-    host("host"),
-    application("application"),
-    service("service"),
-    esxServer("esxServer"),
-    vmwareServer("vmwareServer");
+	host("host"),
+	application("application"),
+	service("service"),
+	esxServer("esxServer"),
+	vmwareServer("vmwareServer");
 
-    private final String val;
+	private final String val;
 
-    private VirtualizationManagerEntityType(String val) {
-        this.val = val;
-    }
+	private VirtualizationManagerEntityType(String val) {
+		this.val = val;
+	}
 }

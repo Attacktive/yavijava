@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineConfigSpecNpivWwnOp {
-    generate("generate"),
-    set("set"),
-    remove("remove"),
-    extend("extend");
+	generate("generate"),
+	set("set"),
+	remove("remove"),
+	extend("extend");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineConfigSpecNpivWwnOp(String val) {
-        this.val = val;
-    }
+	private VirtualMachineConfigSpecNpivWwnOp(String val) {
+		this.val = val;
+	}
 }

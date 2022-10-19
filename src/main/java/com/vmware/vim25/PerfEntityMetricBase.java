@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerfEntityMetricBase extends DynamicData {
-    public ManagedObjectReference entity;
+	public ManagedObjectReference entity;
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 }

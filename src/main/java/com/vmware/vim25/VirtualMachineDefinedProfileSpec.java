@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineDefinedProfileSpec extends VirtualMachineProfileSpec {
-    public String profileId;
-    public VirtualMachineProfileRawData profileData;
+	public String profileId;
+	public VirtualMachineProfileRawData profileData;
 
-    public String getProfileId() {
-        return this.profileId;
-    }
+	public String getProfileId() {
+		return this.profileId;
+	}
 
-    public VirtualMachineProfileRawData getProfileData() {
-        return this.profileData;
-    }
+	public VirtualMachineProfileRawData getProfileData() {
+		return this.profileData;
+	}
 
-    public void setProfileId(String profileId) {
-        this.profileId = profileId;
-    }
+	public void setProfileId(String profileId) {
+		this.profileId = profileId;
+	}
 
-    public void setProfileData(VirtualMachineProfileRawData profileData) {
-        this.profileData = profileData;
-    }
+	public void setProfileData(VirtualMachineProfileRawData profileData) {
+		this.profileData = profileData;
+	}
 }

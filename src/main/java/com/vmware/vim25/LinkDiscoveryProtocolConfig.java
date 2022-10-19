@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LinkDiscoveryProtocolConfig extends DynamicData {
-    public String protocol;
-    public String operation;
+	public String protocol;
+	public String operation;
 
-    public String getProtocol() {
-        return this.protocol;
-    }
+	public String getProtocol() {
+		return this.protocol;
+	}
 
-    public String getOperation() {
-        return this.operation;
-    }
+	public String getOperation() {
+		return this.operation;
+	}
 
-    public void setProtocol(String protocol) {
-        this.protocol = protocol;
-    }
+	public void setProtocol(String protocol) {
+		this.protocol = protocol;
+	}
 
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
 }

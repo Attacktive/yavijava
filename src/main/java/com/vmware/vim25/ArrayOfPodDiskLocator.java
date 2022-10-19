@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPodDiskLocator {
-    public PodDiskLocator[] PodDiskLocator;
+	public PodDiskLocator[] PodDiskLocator;
 
-    public PodDiskLocator[] getPodDiskLocator() {
-        return this.PodDiskLocator;
-    }
+	public PodDiskLocator[] getPodDiskLocator() {
+		return this.PodDiskLocator;
+	}
 
-    public PodDiskLocator getPodDiskLocator(int i) {
-        return this.PodDiskLocator[i];
-    }
+	public PodDiskLocator getPodDiskLocator(int i) {
+		return this.PodDiskLocator[i];
+	}
 
-    public void setPodDiskLocator(PodDiskLocator[] PodDiskLocator) {
-        this.PodDiskLocator = PodDiskLocator;
-    }
+	public void setPodDiskLocator(PodDiskLocator[] PodDiskLocator) {
+		this.PodDiskLocator = PodDiskLocator;
+	}
 }

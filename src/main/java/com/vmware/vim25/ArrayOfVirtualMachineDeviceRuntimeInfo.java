@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineDeviceRuntimeInfo {
-    public VirtualMachineDeviceRuntimeInfo[] VirtualMachineDeviceRuntimeInfo;
+	public VirtualMachineDeviceRuntimeInfo[] VirtualMachineDeviceRuntimeInfo;
 
-    public VirtualMachineDeviceRuntimeInfo[] getVirtualMachineDeviceRuntimeInfo() {
-        return this.VirtualMachineDeviceRuntimeInfo;
-    }
+	public VirtualMachineDeviceRuntimeInfo[] getVirtualMachineDeviceRuntimeInfo() {
+		return this.VirtualMachineDeviceRuntimeInfo;
+	}
 
-    public VirtualMachineDeviceRuntimeInfo getVirtualMachineDeviceRuntimeInfo(int i) {
-        return this.VirtualMachineDeviceRuntimeInfo[i];
-    }
+	public VirtualMachineDeviceRuntimeInfo getVirtualMachineDeviceRuntimeInfo(int i) {
+		return this.VirtualMachineDeviceRuntimeInfo[i];
+	}
 
-    public void setVirtualMachineDeviceRuntimeInfo(VirtualMachineDeviceRuntimeInfo[] VirtualMachineDeviceRuntimeInfo) {
-        this.VirtualMachineDeviceRuntimeInfo = VirtualMachineDeviceRuntimeInfo;
-    }
+	public void setVirtualMachineDeviceRuntimeInfo(VirtualMachineDeviceRuntimeInfo[] VirtualMachineDeviceRuntimeInfo) {
+		this.VirtualMachineDeviceRuntimeInfo = VirtualMachineDeviceRuntimeInfo;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVmfsSpec extends DynamicData {
-    public HostScsiDiskPartition extent;
-    public Integer blockSizeMb;
-    public int majorVersion;
-    public String volumeName;
+	public HostScsiDiskPartition extent;
+	public Integer blockSizeMb;
+	public int majorVersion;
+	public String volumeName;
 
-    public HostScsiDiskPartition getExtent() {
-        return this.extent;
-    }
+	public HostScsiDiskPartition getExtent() {
+		return this.extent;
+	}
 
-    public Integer getBlockSizeMb() {
-        return this.blockSizeMb;
-    }
+	public Integer getBlockSizeMb() {
+		return this.blockSizeMb;
+	}
 
-    public int getMajorVersion() {
-        return this.majorVersion;
-    }
+	public int getMajorVersion() {
+		return this.majorVersion;
+	}
 
-    public String getVolumeName() {
-        return this.volumeName;
-    }
+	public String getVolumeName() {
+		return this.volumeName;
+	}
 
-    public void setExtent(HostScsiDiskPartition extent) {
-        this.extent = extent;
-    }
+	public void setExtent(HostScsiDiskPartition extent) {
+		this.extent = extent;
+	}
 
-    public void setBlockSizeMb(Integer blockSizeMb) {
-        this.blockSizeMb = blockSizeMb;
-    }
+	public void setBlockSizeMb(Integer blockSizeMb) {
+		this.blockSizeMb = blockSizeMb;
+	}
 
-    public void setMajorVersion(int majorVersion) {
-        this.majorVersion = majorVersion;
-    }
+	public void setMajorVersion(int majorVersion) {
+		this.majorVersion = majorVersion;
+	}
 
-    public void setVolumeName(String volumeName) {
-        this.volumeName = volumeName;
-    }
+	public void setVolumeName(String volumeName) {
+		this.volumeName = volumeName;
+	}
 }

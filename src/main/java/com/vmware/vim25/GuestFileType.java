@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum GuestFileType {
-    file("file"),
-    directory("directory"),
-    symlink("symlink");
+	file("file"),
+	directory("directory"),
+	symlink("symlink");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private GuestFileType(String val) {
-        this.val = val;
-    }
+	private GuestFileType(String val) {
+		this.val = val;
+	}
 }

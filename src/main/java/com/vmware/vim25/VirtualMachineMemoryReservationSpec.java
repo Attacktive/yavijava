@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineMemoryReservationSpec extends DynamicData {
-    public Long virtualMachineReserved;
-    public String allocationPolicy;
+	public Long virtualMachineReserved;
+	public String allocationPolicy;
 
-    public Long getVirtualMachineReserved() {
-        return this.virtualMachineReserved;
-    }
+	public Long getVirtualMachineReserved() {
+		return this.virtualMachineReserved;
+	}
 
-    public String getAllocationPolicy() {
-        return this.allocationPolicy;
-    }
+	public String getAllocationPolicy() {
+		return this.allocationPolicy;
+	}
 
-    public void setVirtualMachineReserved(Long virtualMachineReserved) {
-        this.virtualMachineReserved = virtualMachineReserved;
-    }
+	public void setVirtualMachineReserved(Long virtualMachineReserved) {
+		this.virtualMachineReserved = virtualMachineReserved;
+	}
 
-    public void setAllocationPolicy(String allocationPolicy) {
-        this.allocationPolicy = allocationPolicy;
-    }
+	public void setAllocationPolicy(String allocationPolicy) {
+		this.allocationPolicy = allocationPolicy;
+	}
 }

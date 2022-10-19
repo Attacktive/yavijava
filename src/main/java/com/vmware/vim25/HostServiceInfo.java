@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostServiceInfo extends DynamicData {
-    public HostService[] service;
+	public HostService[] service;
 
-    public HostService[] getService() {
-        return this.service;
-    }
+	public HostService[] getService() {
+		return this.service;
+	}
 
-    public void setService(HostService[] service) {
-        this.service = service;
-    }
+	public void setService(HostService[] service) {
+		this.service = service;
+	}
 }

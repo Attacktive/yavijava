@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmTimedoutStartingSecondaryEvent extends VmEvent {
-    public Long timeout;
+	public Long timeout;
 
-    public Long getTimeout() {
-        return this.timeout;
-    }
+	public Long getTimeout() {
+		return this.timeout;
+	}
 
-    public void setTimeout(Long timeout) {
-        this.timeout = timeout;
-    }
+	public void setTimeout(Long timeout) {
+		this.timeout = timeout;
+	}
 }

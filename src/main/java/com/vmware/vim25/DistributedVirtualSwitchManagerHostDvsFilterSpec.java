@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchManagerHostDvsFilterSpec extends DynamicData {
-    public boolean inclusive;
+	public boolean inclusive;
 
-    public boolean isInclusive() {
-        return this.inclusive;
-    }
+	public boolean isInclusive() {
+		return this.inclusive;
+	}
 
-    public void setInclusive(boolean inclusive) {
-        this.inclusive = inclusive;
-    }
+	public void setInclusive(boolean inclusive) {
+		this.inclusive = inclusive;
+	}
 }

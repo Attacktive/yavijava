@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VAppIPAssignmentInfo extends DynamicData {
-    public String[] supportedAllocationScheme;
-    public String ipAllocationPolicy;
-    public String[] supportedIpProtocol;
-    public String ipProtocol;
+	public String[] supportedAllocationScheme;
+	public String ipAllocationPolicy;
+	public String[] supportedIpProtocol;
+	public String ipProtocol;
 
-    public String[] getSupportedAllocationScheme() {
-        return this.supportedAllocationScheme;
-    }
+	public String[] getSupportedAllocationScheme() {
+		return this.supportedAllocationScheme;
+	}
 
-    public String getIpAllocationPolicy() {
-        return this.ipAllocationPolicy;
-    }
+	public String getIpAllocationPolicy() {
+		return this.ipAllocationPolicy;
+	}
 
-    public String[] getSupportedIpProtocol() {
-        return this.supportedIpProtocol;
-    }
+	public String[] getSupportedIpProtocol() {
+		return this.supportedIpProtocol;
+	}
 
-    public String getIpProtocol() {
-        return this.ipProtocol;
-    }
+	public String getIpProtocol() {
+		return this.ipProtocol;
+	}
 
-    public void setSupportedAllocationScheme(String[] supportedAllocationScheme) {
-        this.supportedAllocationScheme = supportedAllocationScheme;
-    }
+	public void setSupportedAllocationScheme(String[] supportedAllocationScheme) {
+		this.supportedAllocationScheme = supportedAllocationScheme;
+	}
 
-    public void setIpAllocationPolicy(String ipAllocationPolicy) {
-        this.ipAllocationPolicy = ipAllocationPolicy;
-    }
+	public void setIpAllocationPolicy(String ipAllocationPolicy) {
+		this.ipAllocationPolicy = ipAllocationPolicy;
+	}
 
-    public void setSupportedIpProtocol(String[] supportedIpProtocol) {
-        this.supportedIpProtocol = supportedIpProtocol;
-    }
+	public void setSupportedIpProtocol(String[] supportedIpProtocol) {
+		this.supportedIpProtocol = supportedIpProtocol;
+	}
 
-    public void setIpProtocol(String ipProtocol) {
-        this.ipProtocol = ipProtocol;
-    }
+	public void setIpProtocol(String ipProtocol) {
+		this.ipProtocol = ipProtocol;
+	}
 }

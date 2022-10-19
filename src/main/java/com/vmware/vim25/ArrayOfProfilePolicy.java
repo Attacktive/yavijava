@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfilePolicy {
-    public ProfilePolicy[] ProfilePolicy;
+	public ProfilePolicy[] ProfilePolicy;
 
-    public ProfilePolicy[] getProfilePolicy() {
-        return this.ProfilePolicy;
-    }
+	public ProfilePolicy[] getProfilePolicy() {
+		return this.ProfilePolicy;
+	}
 
-    public ProfilePolicy getProfilePolicy(int i) {
-        return this.ProfilePolicy[i];
-    }
+	public ProfilePolicy getProfilePolicy(int i) {
+		return this.ProfilePolicy[i];
+	}
 
-    public void setProfilePolicy(ProfilePolicy[] ProfilePolicy) {
-        this.ProfilePolicy = ProfilePolicy;
-    }
+	public void setProfilePolicy(ProfilePolicy[] ProfilePolicy) {
+		this.ProfilePolicy = ProfilePolicy;
+	}
 }

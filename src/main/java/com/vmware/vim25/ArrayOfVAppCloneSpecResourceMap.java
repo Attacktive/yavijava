@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppCloneSpecResourceMap {
-    public VAppCloneSpecResourceMap[] VAppCloneSpecResourceMap;
+	public VAppCloneSpecResourceMap[] VAppCloneSpecResourceMap;
 
-    public VAppCloneSpecResourceMap[] getVAppCloneSpecResourceMap() {
-        return this.VAppCloneSpecResourceMap;
-    }
+	public VAppCloneSpecResourceMap[] getVAppCloneSpecResourceMap() {
+		return this.VAppCloneSpecResourceMap;
+	}
 
-    public VAppCloneSpecResourceMap getVAppCloneSpecResourceMap(int i) {
-        return this.VAppCloneSpecResourceMap[i];
-    }
+	public VAppCloneSpecResourceMap getVAppCloneSpecResourceMap(int i) {
+		return this.VAppCloneSpecResourceMap[i];
+	}
 
-    public void setVAppCloneSpecResourceMap(VAppCloneSpecResourceMap[] VAppCloneSpecResourceMap) {
-        this.VAppCloneSpecResourceMap = VAppCloneSpecResourceMap;
-    }
+	public void setVAppCloneSpecResourceMap(VAppCloneSpecResourceMap[] VAppCloneSpecResourceMap) {
+		this.VAppCloneSpecResourceMap = VAppCloneSpecResourceMap;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InheritablePolicy extends DynamicData {
-    public boolean inherited;
+	public boolean inherited;
 
-    public boolean isInherited() {
-        return this.inherited;
-    }
+	public boolean isInherited() {
+		return this.inherited;
+	}
 
-    public void setInherited(boolean inherited) {
-        this.inherited = inherited;
-    }
+	public void setInherited(boolean inherited) {
+		this.inherited = inherited;
+	}
 }

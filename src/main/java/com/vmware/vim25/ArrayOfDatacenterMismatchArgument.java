@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDatacenterMismatchArgument {
-    public DatacenterMismatchArgument[] DatacenterMismatchArgument;
+	public DatacenterMismatchArgument[] DatacenterMismatchArgument;
 
-    public DatacenterMismatchArgument[] getDatacenterMismatchArgument() {
-        return this.DatacenterMismatchArgument;
-    }
+	public DatacenterMismatchArgument[] getDatacenterMismatchArgument() {
+		return this.DatacenterMismatchArgument;
+	}
 
-    public DatacenterMismatchArgument getDatacenterMismatchArgument(int i) {
-        return this.DatacenterMismatchArgument[i];
-    }
+	public DatacenterMismatchArgument getDatacenterMismatchArgument(int i) {
+		return this.DatacenterMismatchArgument[i];
+	}
 
-    public void setDatacenterMismatchArgument(DatacenterMismatchArgument[] DatacenterMismatchArgument) {
-        this.DatacenterMismatchArgument = DatacenterMismatchArgument;
-    }
+	public void setDatacenterMismatchArgument(DatacenterMismatchArgument[] DatacenterMismatchArgument) {
+		this.DatacenterMismatchArgument = DatacenterMismatchArgument;
+	}
 }

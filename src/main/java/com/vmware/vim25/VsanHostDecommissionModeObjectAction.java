@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VsanHostDecommissionModeObjectAction {
-    noAction("noAction"),
-    ensureObjectAccessibility("ensureObjectAccessibility"),
-    evacuateAllData("evacuateAllData");
+	noAction("noAction"),
+	ensureObjectAccessibility("ensureObjectAccessibility"),
+	evacuateAllData("evacuateAllData");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VsanHostDecommissionModeObjectAction(String val) {
-        this.val = val;
-    }
+	private VsanHostDecommissionModeObjectAction(String val) {
+		this.val = val;
+	}
 }

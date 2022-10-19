@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ConfigSpecOperation {
-    add("add"),
-    edit("edit"),
-    remove("remove");
+	add("add"),
+	edit("edit"),
+	remove("remove");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ConfigSpecOperation(String val) {
-        this.val = val;
-    }
+	private ConfigSpecOperation(String val) {
+		this.val = val;
+	}
 }

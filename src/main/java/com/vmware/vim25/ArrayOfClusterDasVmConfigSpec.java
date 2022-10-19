@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDasVmConfigSpec {
-    public ClusterDasVmConfigSpec[] ClusterDasVmConfigSpec;
+	public ClusterDasVmConfigSpec[] ClusterDasVmConfigSpec;
 
-    public ClusterDasVmConfigSpec[] getClusterDasVmConfigSpec() {
-        return this.ClusterDasVmConfigSpec;
-    }
+	public ClusterDasVmConfigSpec[] getClusterDasVmConfigSpec() {
+		return this.ClusterDasVmConfigSpec;
+	}
 
-    public ClusterDasVmConfigSpec getClusterDasVmConfigSpec(int i) {
-        return this.ClusterDasVmConfigSpec[i];
-    }
+	public ClusterDasVmConfigSpec getClusterDasVmConfigSpec(int i) {
+		return this.ClusterDasVmConfigSpec[i];
+	}
 
-    public void setClusterDasVmConfigSpec(ClusterDasVmConfigSpec[] ClusterDasVmConfigSpec) {
-        this.ClusterDasVmConfigSpec = ClusterDasVmConfigSpec;
-    }
+	public void setClusterDasVmConfigSpec(ClusterDasVmConfigSpec[] ClusterDasVmConfigSpec) {
+		this.ClusterDasVmConfigSpec = ClusterDasVmConfigSpec;
+	}
 }

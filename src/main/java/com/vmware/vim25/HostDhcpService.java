@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDhcpService extends DynamicData {
-    public String key;
-    public HostDhcpServiceSpec spec;
+	public String key;
+	public HostDhcpServiceSpec spec;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public HostDhcpServiceSpec getSpec() {
-        return this.spec;
-    }
+	public HostDhcpServiceSpec getSpec() {
+		return this.spec;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setSpec(HostDhcpServiceSpec spec) {
-        this.spec = spec;
-    }
+	public void setSpec(HostDhcpServiceSpec spec) {
+		this.spec = spec;
+	}
 }

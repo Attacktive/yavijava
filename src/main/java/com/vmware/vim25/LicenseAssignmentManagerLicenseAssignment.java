@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseAssignmentManagerLicenseAssignment extends DynamicData {
-    public String entityId;
-    public String scope;
-    public String entityDisplayName;
-    public LicenseManagerLicenseInfo assignedLicense;
-    public KeyAnyValue[] properties;
+	public String entityId;
+	public String scope;
+	public String entityDisplayName;
+	public LicenseManagerLicenseInfo assignedLicense;
+	public KeyAnyValue[] properties;
 
-    public String getEntityId() {
-        return this.entityId;
-    }
+	public String getEntityId() {
+		return this.entityId;
+	}
 
-    public String getScope() {
-        return this.scope;
-    }
+	public String getScope() {
+		return this.scope;
+	}
 
-    public String getEntityDisplayName() {
-        return this.entityDisplayName;
-    }
+	public String getEntityDisplayName() {
+		return this.entityDisplayName;
+	}
 
-    public LicenseManagerLicenseInfo getAssignedLicense() {
-        return this.assignedLicense;
-    }
+	public LicenseManagerLicenseInfo getAssignedLicense() {
+		return this.assignedLicense;
+	}
 
-    public KeyAnyValue[] getProperties() {
-        return this.properties;
-    }
+	public KeyAnyValue[] getProperties() {
+		return this.properties;
+	}
 
-    public void setEntityId(String entityId) {
-        this.entityId = entityId;
-    }
+	public void setEntityId(String entityId) {
+		this.entityId = entityId;
+	}
 
-    public void setScope(String scope) {
-        this.scope = scope;
-    }
+	public void setScope(String scope) {
+		this.scope = scope;
+	}
 
-    public void setEntityDisplayName(String entityDisplayName) {
-        this.entityDisplayName = entityDisplayName;
-    }
+	public void setEntityDisplayName(String entityDisplayName) {
+		this.entityDisplayName = entityDisplayName;
+	}
 
-    public void setAssignedLicense(LicenseManagerLicenseInfo assignedLicense) {
-        this.assignedLicense = assignedLicense;
-    }
+	public void setAssignedLicense(LicenseManagerLicenseInfo assignedLicense) {
+		this.assignedLicense = assignedLicense;
+	}
 
-    public void setProperties(KeyAnyValue[] properties) {
-        this.properties = properties;
-    }
+	public void setProperties(KeyAnyValue[] properties) {
+		this.properties = properties;
+	}
 }

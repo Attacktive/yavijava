@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDnsConfigSpec extends HostDnsConfig {
-    public HostVirtualNicConnection virtualNicConnection;
+	public HostVirtualNicConnection virtualNicConnection;
 
-    public HostVirtualNicConnection getVirtualNicConnection() {
-        return this.virtualNicConnection;
-    }
+	public HostVirtualNicConnection getVirtualNicConnection() {
+		return this.virtualNicConnection;
+	}
 
-    public void setVirtualNicConnection(HostVirtualNicConnection virtualNicConnection) {
-        this.virtualNicConnection = virtualNicConnection;
-    }
+	public void setVirtualNicConnection(HostVirtualNicConnection virtualNicConnection) {
+		this.virtualNicConnection = virtualNicConnection;
+	}
 }

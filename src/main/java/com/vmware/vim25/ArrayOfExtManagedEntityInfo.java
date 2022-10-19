@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtManagedEntityInfo {
-    public ExtManagedEntityInfo[] ExtManagedEntityInfo;
+	public ExtManagedEntityInfo[] ExtManagedEntityInfo;
 
-    public ExtManagedEntityInfo[] getExtManagedEntityInfo() {
-        return this.ExtManagedEntityInfo;
-    }
+	public ExtManagedEntityInfo[] getExtManagedEntityInfo() {
+		return this.ExtManagedEntityInfo;
+	}
 
-    public ExtManagedEntityInfo getExtManagedEntityInfo(int i) {
-        return this.ExtManagedEntityInfo[i];
-    }
+	public ExtManagedEntityInfo getExtManagedEntityInfo(int i) {
+		return this.ExtManagedEntityInfo[i];
+	}
 
-    public void setExtManagedEntityInfo(ExtManagedEntityInfo[] ExtManagedEntityInfo) {
-        this.ExtManagedEntityInfo = ExtManagedEntityInfo;
-    }
+	public void setExtManagedEntityInfo(ExtManagedEntityInfo[] ExtManagedEntityInfo) {
+		this.ExtManagedEntityInfo = ExtManagedEntityInfo;
+	}
 }

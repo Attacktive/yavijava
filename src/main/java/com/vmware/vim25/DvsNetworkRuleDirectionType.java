@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum DvsNetworkRuleDirectionType {
-    incomingPackets("incomingPackets"),
-    outgoingPackets("outgoingPackets"),
-    both("both");
+	incomingPackets("incomingPackets"),
+	outgoingPackets("outgoingPackets"),
+	both("both");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DvsNetworkRuleDirectionType(String val) {
-        this.val = val;
-    }
+	private DvsNetworkRuleDirectionType(String val) {
+		this.val = val;
+	}
 }

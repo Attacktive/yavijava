@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RoleUpdatedEvent extends RoleEvent {
-    public String[] privilegeList;
+	public String[] privilegeList;
 
-    public String[] getPrivilegeList() {
-        return this.privilegeList;
-    }
+	public String[] getPrivilegeList() {
+		return this.privilegeList;
+	}
 
-    public void setPrivilegeList(String[] privilegeList) {
-        this.privilegeList = privilegeList;
-    }
+	public void setPrivilegeList(String[] privilegeList) {
+		this.privilegeList = privilegeList;
+	}
 }

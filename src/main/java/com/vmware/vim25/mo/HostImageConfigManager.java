@@ -29,12 +29,12 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.HostConfigFault;
 import com.vmware.vim25.HostImageProfileSummary;
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * manage configuration of the ESX software image, including properties
@@ -46,20 +46,19 @@ import java.rmi.RemoteException;
 
 public class HostImageConfigManager extends ManagedObject {
 
-    public HostImageConfigManager(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostImageConfigManager(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public String hostImageConfigGetAcceptance() throws HostConfigFault, RuntimeFault, RemoteException {
-        return getVimService().hostImageConfigGetAcceptance(getMOR());
-    }
+	public String hostImageConfigGetAcceptance() throws HostConfigFault, RuntimeFault, RemoteException {
+		return getVimService().hostImageConfigGetAcceptance(getMOR());
+	}
 
+	public HostImageProfileSummary hostImageConfigGetProfile() throws RuntimeFault, RemoteException {
+		return getVimService().hostImageConfigGetProfile(getMOR());
+	}
 
-    public HostImageProfileSummary hostImageConfigGetProfile() throws RuntimeFault, RemoteException {
-        return getVimService().hostImageConfigGetProfile(getMOR());
-    }
-
-    public void updateHostImageAcceptanceLevel(String newAcceptanceLevel) throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().updateHostImageAcceptanceLevel(getMOR(), newAcceptanceLevel);
-    }
+	public void updateHostImageAcceptanceLevel(String newAcceptanceLevel) throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().updateHostImageAcceptanceLevel(getMOR(), newAcceptanceLevel);
+	}
 }

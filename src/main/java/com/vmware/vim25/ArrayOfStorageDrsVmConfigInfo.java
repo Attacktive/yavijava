@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfStorageDrsVmConfigInfo {
-    public StorageDrsVmConfigInfo[] StorageDrsVmConfigInfo;
+	public StorageDrsVmConfigInfo[] StorageDrsVmConfigInfo;
 
-    public StorageDrsVmConfigInfo[] getStorageDrsVmConfigInfo() {
-        return this.StorageDrsVmConfigInfo;
-    }
+	public StorageDrsVmConfigInfo[] getStorageDrsVmConfigInfo() {
+		return this.StorageDrsVmConfigInfo;
+	}
 
-    public StorageDrsVmConfigInfo getStorageDrsVmConfigInfo(int i) {
-        return this.StorageDrsVmConfigInfo[i];
-    }
+	public StorageDrsVmConfigInfo getStorageDrsVmConfigInfo(int i) {
+		return this.StorageDrsVmConfigInfo[i];
+	}
 
-    public void setStorageDrsVmConfigInfo(StorageDrsVmConfigInfo[] StorageDrsVmConfigInfo) {
-        this.StorageDrsVmConfigInfo = StorageDrsVmConfigInfo;
-    }
+	public void setStorageDrsVmConfigInfo(StorageDrsVmConfigInfo[] StorageDrsVmConfigInfo) {
+		this.StorageDrsVmConfigInfo = StorageDrsVmConfigInfo;
+	}
 }

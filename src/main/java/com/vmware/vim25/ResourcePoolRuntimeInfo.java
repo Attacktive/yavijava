@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ResourcePoolRuntimeInfo extends DynamicData {
-    public ResourcePoolResourceUsage memory;
-    public ResourcePoolResourceUsage cpu;
-    public ManagedEntityStatus overallStatus;
+	public ResourcePoolResourceUsage memory;
+	public ResourcePoolResourceUsage cpu;
+	public ManagedEntityStatus overallStatus;
 
-    public ResourcePoolResourceUsage getMemory() {
-        return this.memory;
-    }
+	public ResourcePoolResourceUsage getMemory() {
+		return this.memory;
+	}
 
-    public ResourcePoolResourceUsage getCpu() {
-        return this.cpu;
-    }
+	public ResourcePoolResourceUsage getCpu() {
+		return this.cpu;
+	}
 
-    public ManagedEntityStatus getOverallStatus() {
-        return this.overallStatus;
-    }
+	public ManagedEntityStatus getOverallStatus() {
+		return this.overallStatus;
+	}
 
-    public void setMemory(ResourcePoolResourceUsage memory) {
-        this.memory = memory;
-    }
+	public void setMemory(ResourcePoolResourceUsage memory) {
+		this.memory = memory;
+	}
 
-    public void setCpu(ResourcePoolResourceUsage cpu) {
-        this.cpu = cpu;
-    }
+	public void setCpu(ResourcePoolResourceUsage cpu) {
+		this.cpu = cpu;
+	}
 
-    public void setOverallStatus(ManagedEntityStatus overallStatus) {
-        this.overallStatus = overallStatus;
-    }
+	public void setOverallStatus(ManagedEntityStatus overallStatus) {
+		this.overallStatus = overallStatus;
+	}
 }

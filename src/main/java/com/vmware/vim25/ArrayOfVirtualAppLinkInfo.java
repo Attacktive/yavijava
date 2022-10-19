@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualAppLinkInfo {
-    public VirtualAppLinkInfo[] VirtualAppLinkInfo;
+	public VirtualAppLinkInfo[] VirtualAppLinkInfo;
 
-    public VirtualAppLinkInfo[] getVirtualAppLinkInfo() {
-        return this.VirtualAppLinkInfo;
-    }
+	public VirtualAppLinkInfo[] getVirtualAppLinkInfo() {
+		return this.VirtualAppLinkInfo;
+	}
 
-    public VirtualAppLinkInfo getVirtualAppLinkInfo(int i) {
-        return this.VirtualAppLinkInfo[i];
-    }
+	public VirtualAppLinkInfo getVirtualAppLinkInfo(int i) {
+		return this.VirtualAppLinkInfo[i];
+	}
 
-    public void setVirtualAppLinkInfo(VirtualAppLinkInfo[] VirtualAppLinkInfo) {
-        this.VirtualAppLinkInfo = VirtualAppLinkInfo;
-    }
+	public void setVirtualAppLinkInfo(VirtualAppLinkInfo[] VirtualAppLinkInfo) {
+		this.VirtualAppLinkInfo = VirtualAppLinkInfo;
+	}
 }

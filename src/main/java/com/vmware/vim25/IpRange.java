@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IpRange extends IpAddress {
-    public String addressPrefix;
-    public Integer prefixLength;
+	public String addressPrefix;
+	public Integer prefixLength;
 
-    public String getAddressPrefix() {
-        return this.addressPrefix;
-    }
+	public String getAddressPrefix() {
+		return this.addressPrefix;
+	}
 
-    public Integer getPrefixLength() {
-        return this.prefixLength;
-    }
+	public Integer getPrefixLength() {
+		return this.prefixLength;
+	}
 
-    public void setAddressPrefix(String addressPrefix) {
-        this.addressPrefix = addressPrefix;
-    }
+	public void setAddressPrefix(String addressPrefix) {
+		this.addressPrefix = addressPrefix;
+	}
 
-    public void setPrefixLength(Integer prefixLength) {
-        this.prefixLength = prefixLength;
-    }
+	public void setPrefixLength(Integer prefixLength) {
+		this.prefixLength = prefixLength;
+	}
 }

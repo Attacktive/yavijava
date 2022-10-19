@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDasVmConfigInfo extends DynamicData {
-    public ManagedObjectReference key;
-    public DasVmPriority restartPriority;
-    public Boolean powerOffOnIsolation;
-    public ClusterDasVmSettings dasSettings;
+	public ManagedObjectReference key;
+	public DasVmPriority restartPriority;
+	public Boolean powerOffOnIsolation;
+	public ClusterDasVmSettings dasSettings;
 
-    public ManagedObjectReference getKey() {
-        return this.key;
-    }
+	public ManagedObjectReference getKey() {
+		return this.key;
+	}
 
-    public DasVmPriority getRestartPriority() {
-        return this.restartPriority;
-    }
+	public DasVmPriority getRestartPriority() {
+		return this.restartPriority;
+	}
 
-    public Boolean getPowerOffOnIsolation() {
-        return this.powerOffOnIsolation;
-    }
+	public Boolean getPowerOffOnIsolation() {
+		return this.powerOffOnIsolation;
+	}
 
-    public ClusterDasVmSettings getDasSettings() {
-        return this.dasSettings;
-    }
+	public ClusterDasVmSettings getDasSettings() {
+		return this.dasSettings;
+	}
 
-    public void setKey(ManagedObjectReference key) {
-        this.key = key;
-    }
+	public void setKey(ManagedObjectReference key) {
+		this.key = key;
+	}
 
-    public void setRestartPriority(DasVmPriority restartPriority) {
-        this.restartPriority = restartPriority;
-    }
+	public void setRestartPriority(DasVmPriority restartPriority) {
+		this.restartPriority = restartPriority;
+	}
 
-    public void setPowerOffOnIsolation(Boolean powerOffOnIsolation) {
-        this.powerOffOnIsolation = powerOffOnIsolation;
-    }
+	public void setPowerOffOnIsolation(Boolean powerOffOnIsolation) {
+		this.powerOffOnIsolation = powerOffOnIsolation;
+	}
 
-    public void setDasSettings(ClusterDasVmSettings dasSettings) {
-        this.dasSettings = dasSettings;
-    }
+	public void setDasSettings(ClusterDasVmSettings dasSettings) {
+		this.dasSettings = dasSettings;
+	}
 }

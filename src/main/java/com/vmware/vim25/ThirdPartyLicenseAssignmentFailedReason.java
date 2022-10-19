@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum ThirdPartyLicenseAssignmentFailedReason {
-    licenseAssignmentFailed("licenseAssignmentFailed"),
-    moduleNotInstalled("moduleNotInstalled");
+	licenseAssignmentFailed("licenseAssignmentFailed"),
+	moduleNotInstalled("moduleNotInstalled");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ThirdPartyLicenseAssignmentFailedReason(String val) {
-        this.val = val;
-    }
+	private ThirdPartyLicenseAssignmentFailedReason(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfGuestFileInfo {
-    public GuestFileInfo[] GuestFileInfo;
+	public GuestFileInfo[] GuestFileInfo;
 
-    public GuestFileInfo[] getGuestFileInfo() {
-        return this.GuestFileInfo;
-    }
+	public GuestFileInfo[] getGuestFileInfo() {
+		return this.GuestFileInfo;
+	}
 
-    public GuestFileInfo getGuestFileInfo(int i) {
-        return this.GuestFileInfo[i];
-    }
+	public GuestFileInfo getGuestFileInfo(int i) {
+		return this.GuestFileInfo[i];
+	}
 
-    public void setGuestFileInfo(GuestFileInfo[] GuestFileInfo) {
-        this.GuestFileInfo = GuestFileInfo;
-    }
+	public void setGuestFileInfo(GuestFileInfo[] GuestFileInfo) {
+		this.GuestFileInfo = GuestFileInfo;
+	}
 }

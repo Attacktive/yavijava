@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterRuleSpec extends ArrayUpdateSpec {
-    public ClusterRuleInfo info;
+	public ClusterRuleInfo info;
 
-    public ClusterRuleInfo getInfo() {
-        return this.info;
-    }
+	public ClusterRuleInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(ClusterRuleInfo info) {
-        this.info = info;
-    }
+	public void setInfo(ClusterRuleInfo info) {
+		this.info = info;
+	}
 }

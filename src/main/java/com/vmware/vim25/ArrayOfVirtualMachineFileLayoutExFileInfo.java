@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineFileLayoutExFileInfo {
-    public VirtualMachineFileLayoutExFileInfo[] VirtualMachineFileLayoutExFileInfo;
+	public VirtualMachineFileLayoutExFileInfo[] VirtualMachineFileLayoutExFileInfo;
 
-    public VirtualMachineFileLayoutExFileInfo[] getVirtualMachineFileLayoutExFileInfo() {
-        return this.VirtualMachineFileLayoutExFileInfo;
-    }
+	public VirtualMachineFileLayoutExFileInfo[] getVirtualMachineFileLayoutExFileInfo() {
+		return this.VirtualMachineFileLayoutExFileInfo;
+	}
 
-    public VirtualMachineFileLayoutExFileInfo getVirtualMachineFileLayoutExFileInfo(int i) {
-        return this.VirtualMachineFileLayoutExFileInfo[i];
-    }
+	public VirtualMachineFileLayoutExFileInfo getVirtualMachineFileLayoutExFileInfo(int i) {
+		return this.VirtualMachineFileLayoutExFileInfo[i];
+	}
 
-    public void setVirtualMachineFileLayoutExFileInfo(VirtualMachineFileLayoutExFileInfo[] VirtualMachineFileLayoutExFileInfo) {
-        this.VirtualMachineFileLayoutExFileInfo = VirtualMachineFileLayoutExFileInfo;
-    }
+	public void setVirtualMachineFileLayoutExFileInfo(VirtualMachineFileLayoutExFileInfo[] VirtualMachineFileLayoutExFileInfo) {
+		this.VirtualMachineFileLayoutExFileInfo = VirtualMachineFileLayoutExFileInfo;
+	}
 }

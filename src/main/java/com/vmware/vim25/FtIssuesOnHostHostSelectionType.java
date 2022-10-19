@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum FtIssuesOnHostHostSelectionType {
-    user("user"),
-    vc("vc"),
-    drs("drs");
+	user("user"),
+	vc("vc"),
+	drs("drs");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private FtIssuesOnHostHostSelectionType(String val) {
-        this.val = val;
-    }
+	private FtIssuesOnHostHostSelectionType(String val) {
+		this.val = val;
+	}
 }

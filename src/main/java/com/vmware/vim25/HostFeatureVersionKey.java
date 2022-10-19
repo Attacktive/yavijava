@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum HostFeatureVersionKey {
-    faultTolerance("faultTolerance");
+	faultTolerance("faultTolerance");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostFeatureVersionKey(String val) {
-        this.val = val;
-    }
+	private HostFeatureVersionKey(String val) {
+		this.val = val;
+	}
 }

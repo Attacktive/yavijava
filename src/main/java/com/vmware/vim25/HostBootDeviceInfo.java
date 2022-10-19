@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostBootDeviceInfo extends DynamicData {
-    public HostBootDevice[] bootDevices;
-    public String currentBootDeviceKey;
+	public HostBootDevice[] bootDevices;
+	public String currentBootDeviceKey;
 
-    public HostBootDevice[] getBootDevices() {
-        return this.bootDevices;
-    }
+	public HostBootDevice[] getBootDevices() {
+		return this.bootDevices;
+	}
 
-    public String getCurrentBootDeviceKey() {
-        return this.currentBootDeviceKey;
-    }
+	public String getCurrentBootDeviceKey() {
+		return this.currentBootDeviceKey;
+	}
 
-    public void setBootDevices(HostBootDevice[] bootDevices) {
-        this.bootDevices = bootDevices;
-    }
+	public void setBootDevices(HostBootDevice[] bootDevices) {
+		this.bootDevices = bootDevices;
+	}
 
-    public void setCurrentBootDeviceKey(String currentBootDeviceKey) {
-        this.currentBootDeviceKey = currentBootDeviceKey;
-    }
+	public void setCurrentBootDeviceKey(String currentBootDeviceKey) {
+		this.currentBootDeviceKey = currentBootDeviceKey;
+	}
 }

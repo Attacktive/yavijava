@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmEvent extends Event {
-    public boolean template;
+	public boolean template;
 
-    public boolean isTemplate() {
-        return this.template;
-    }
+	public boolean isTemplate() {
+		return this.template;
+	}
 
-    public void setTemplate(boolean template) {
-        this.template = template;
-    }
+	public void setTemplate(boolean template) {
+		this.template = template;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostConfigInfoNetworkInfo extends DynamicData {
-    public VsanHostConfigInfoNetworkInfoPortConfig[] port;
+	public VsanHostConfigInfoNetworkInfoPortConfig[] port;
 
-    public VsanHostConfigInfoNetworkInfoPortConfig[] getPort() {
-        return this.port;
-    }
+	public VsanHostConfigInfoNetworkInfoPortConfig[] getPort() {
+		return this.port;
+	}
 
-    public void setPort(VsanHostConfigInfoNetworkInfoPortConfig[] port) {
-        this.port = port;
-    }
+	public void setPort(VsanHostConfigInfoNetworkInfoPortConfig[] port) {
+		this.port = port;
+	}
 }

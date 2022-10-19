@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileMetadataProfileSortSpec extends DynamicData {
-    public String policyId;
-    public String parameter;
+	public String policyId;
+	public String parameter;
 
-    public String getPolicyId() {
-        return this.policyId;
-    }
+	public String getPolicyId() {
+		return this.policyId;
+	}
 
-    public String getParameter() {
-        return this.parameter;
-    }
+	public String getParameter() {
+		return this.parameter;
+	}
 
-    public void setPolicyId(String policyId) {
-        this.policyId = policyId;
-    }
+	public void setPolicyId(String policyId) {
+		this.policyId = policyId;
+	}
 
-    public void setParameter(String parameter) {
-        this.parameter = parameter;
-    }
+	public void setParameter(String parameter) {
+		this.parameter = parameter;
+	}
 }

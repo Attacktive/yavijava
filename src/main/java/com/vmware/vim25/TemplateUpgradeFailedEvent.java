@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TemplateUpgradeFailedEvent extends TemplateUpgradeEvent {
-    public LocalizedMethodFault reason;
+	public LocalizedMethodFault reason;
 
-    public LocalizedMethodFault getReason() {
-        return this.reason;
-    }
+	public LocalizedMethodFault getReason() {
+		return this.reason;
+	}
 
-    public void setReason(LocalizedMethodFault reason) {
-        this.reason = reason;
-    }
+	public void setReason(LocalizedMethodFault reason) {
+		this.reason = reason;
+	}
 }

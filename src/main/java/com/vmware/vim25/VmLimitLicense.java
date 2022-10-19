@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmLimitLicense extends NotEnoughLicenses {
-    public int limit;
+	public int limit;
 
-    public int getLimit() {
-        return this.limit;
-    }
+	public int getLimit() {
+		return this.limit;
+	}
 
-    public void setLimit(int limit) {
-        this.limit = limit;
-    }
+	public void setLimit(int limit) {
+		this.limit = limit;
+	}
 }

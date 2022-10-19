@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PhysicalNicIpHint extends PhysicalNicHint {
-    public String ipSubnet;
+	public String ipSubnet;
 
-    public String getIpSubnet() {
-        return this.ipSubnet;
-    }
+	public String getIpSubnet() {
+		return this.ipSubnet;
+	}
 
-    public void setIpSubnet(String ipSubnet) {
-        this.ipSubnet = ipSubnet;
-    }
+	public void setIpSubnet(String ipSubnet) {
+		this.ipSubnet = ipSubnet;
+	}
 }

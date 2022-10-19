@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostAuthenticationStoreInfo extends DynamicData {
-    public boolean enabled;
+	public boolean enabled;
 
-    public boolean isEnabled() {
-        return this.enabled;
-    }
+	public boolean isEnabled() {
+		return this.enabled;
+	}
 
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 }

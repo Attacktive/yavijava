@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterFailoverHostAdmissionControlInfoHostStatus extends DynamicData {
-    public ManagedObjectReference host;
-    public ManagedEntityStatus status;
+	public ManagedObjectReference host;
+	public ManagedEntityStatus status;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public ManagedEntityStatus getStatus() {
-        return this.status;
-    }
+	public ManagedEntityStatus getStatus() {
+		return this.status;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setStatus(ManagedEntityStatus status) {
-        this.status = status;
-    }
+	public void setStatus(ManagedEntityStatus status) {
+		this.status = status;
+	}
 }

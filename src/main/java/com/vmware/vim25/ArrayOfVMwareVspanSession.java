@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVMwareVspanSession {
-    public VMwareVspanSession[] VMwareVspanSession;
+	public VMwareVspanSession[] VMwareVspanSession;
 
-    public VMwareVspanSession[] getVMwareVspanSession() {
-        return this.VMwareVspanSession;
-    }
+	public VMwareVspanSession[] getVMwareVspanSession() {
+		return this.VMwareVspanSession;
+	}
 
-    public VMwareVspanSession getVMwareVspanSession(int i) {
-        return this.VMwareVspanSession[i];
-    }
+	public VMwareVspanSession getVMwareVspanSession(int i) {
+		return this.VMwareVspanSession[i];
+	}
 
-    public void setVMwareVspanSession(VMwareVspanSession[] VMwareVspanSession) {
-        this.VMwareVspanSession = VMwareVspanSession;
-    }
+	public void setVMwareVspanSession(VMwareVspanSession[] VMwareVspanSession) {
+		this.VMwareVspanSession = VMwareVspanSession;
+	}
 }

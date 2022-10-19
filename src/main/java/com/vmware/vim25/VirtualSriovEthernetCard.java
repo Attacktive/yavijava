@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualSriovEthernetCard extends VirtualEthernetCard {
-    public Boolean allowGuestOSMtuChange;
-    public VirtualSriovEthernetCardSriovBackingInfo sriovBacking;
+	public Boolean allowGuestOSMtuChange;
+	public VirtualSriovEthernetCardSriovBackingInfo sriovBacking;
 
-    public Boolean getAllowGuestOSMtuChange() {
-        return this.allowGuestOSMtuChange;
-    }
+	public Boolean getAllowGuestOSMtuChange() {
+		return this.allowGuestOSMtuChange;
+	}
 
-    public VirtualSriovEthernetCardSriovBackingInfo getSriovBacking() {
-        return this.sriovBacking;
-    }
+	public VirtualSriovEthernetCardSriovBackingInfo getSriovBacking() {
+		return this.sriovBacking;
+	}
 
-    public void setAllowGuestOSMtuChange(Boolean allowGuestOSMtuChange) {
-        this.allowGuestOSMtuChange = allowGuestOSMtuChange;
-    }
+	public void setAllowGuestOSMtuChange(Boolean allowGuestOSMtuChange) {
+		this.allowGuestOSMtuChange = allowGuestOSMtuChange;
+	}
 
-    public void setSriovBacking(VirtualSriovEthernetCardSriovBackingInfo sriovBacking) {
-        this.sriovBacking = sriovBacking;
-    }
+	public void setSriovBacking(VirtualSriovEthernetCardSriovBackingInfo sriovBacking) {
+		this.sriovBacking = sriovBacking;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineNetworkInfo {
-    public VirtualMachineNetworkInfo[] VirtualMachineNetworkInfo;
+	public VirtualMachineNetworkInfo[] VirtualMachineNetworkInfo;
 
-    public VirtualMachineNetworkInfo[] getVirtualMachineNetworkInfo() {
-        return this.VirtualMachineNetworkInfo;
-    }
+	public VirtualMachineNetworkInfo[] getVirtualMachineNetworkInfo() {
+		return this.VirtualMachineNetworkInfo;
+	}
 
-    public VirtualMachineNetworkInfo getVirtualMachineNetworkInfo(int i) {
-        return this.VirtualMachineNetworkInfo[i];
-    }
+	public VirtualMachineNetworkInfo getVirtualMachineNetworkInfo(int i) {
+		return this.VirtualMachineNetworkInfo[i];
+	}
 
-    public void setVirtualMachineNetworkInfo(VirtualMachineNetworkInfo[] VirtualMachineNetworkInfo) {
-        this.VirtualMachineNetworkInfo = VirtualMachineNetworkInfo;
-    }
+	public void setVirtualMachineNetworkInfo(VirtualMachineNetworkInfo[] VirtualMachineNetworkInfo) {
+		this.VirtualMachineNetworkInfo = VirtualMachineNetworkInfo;
+	}
 }

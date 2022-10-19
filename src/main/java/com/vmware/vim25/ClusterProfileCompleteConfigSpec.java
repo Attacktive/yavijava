@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterProfileCompleteConfigSpec extends ClusterProfileConfigSpec {
-    public ComplianceProfile complyProfile;
+	public ComplianceProfile complyProfile;
 
-    public ComplianceProfile getComplyProfile() {
-        return this.complyProfile;
-    }
+	public ComplianceProfile getComplyProfile() {
+		return this.complyProfile;
+	}
 
-    public void setComplyProfile(ComplianceProfile complyProfile) {
-        this.complyProfile = complyProfile;
-    }
+	public void setComplyProfile(ComplianceProfile complyProfile) {
+		this.complyProfile = complyProfile;
+	}
 }

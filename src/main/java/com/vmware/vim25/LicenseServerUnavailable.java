@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseServerUnavailable extends VimFault {
-    public String licenseServer;
+	public String licenseServer;
 
-    public String getLicenseServer() {
-        return this.licenseServer;
-    }
+	public String getLicenseServer() {
+		return this.licenseServer;
+	}
 
-    public void setLicenseServer(String licenseServer) {
-        this.licenseServer = licenseServer;
-    }
+	public void setLicenseServer(String licenseServer) {
+		this.licenseServer = licenseServer;
+	}
 }

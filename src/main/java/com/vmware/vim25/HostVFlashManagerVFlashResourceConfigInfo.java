@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVFlashManagerVFlashResourceConfigInfo extends DynamicData {
-    public HostVffsVolume vffs;
-    public long capacity;
+	public HostVffsVolume vffs;
+	public long capacity;
 
-    public HostVffsVolume getVffs() {
-        return this.vffs;
-    }
+	public HostVffsVolume getVffs() {
+		return this.vffs;
+	}
 
-    public long getCapacity() {
-        return this.capacity;
-    }
+	public long getCapacity() {
+		return this.capacity;
+	}
 
-    public void setVffs(HostVffsVolume vffs) {
-        this.vffs = vffs;
-    }
+	public void setVffs(HostVffsVolume vffs) {
+		this.vffs = vffs;
+	}
 
-    public void setCapacity(long capacity) {
-        this.capacity = capacity;
-    }
+	public void setCapacity(long capacity) {
+		this.capacity = capacity;
+	}
 }

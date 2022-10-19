@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum NetIpStackInfoPreference {
-    reserved("reserved"),
-    low("low"),
-    medium("medium"),
-    high("high");
+	reserved("reserved"),
+	low("low"),
+	medium("medium"),
+	high("high");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NetIpStackInfoPreference(String val) {
-        this.val = val;
-    }
+	private NetIpStackInfoPreference(String val) {
+		this.val = val;
+	}
 }

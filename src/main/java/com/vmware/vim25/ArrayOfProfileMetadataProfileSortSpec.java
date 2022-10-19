@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfileMetadataProfileSortSpec {
-    public ProfileMetadataProfileSortSpec[] ProfileMetadataProfileSortSpec;
+	public ProfileMetadataProfileSortSpec[] ProfileMetadataProfileSortSpec;
 
-    public ProfileMetadataProfileSortSpec[] getProfileMetadataProfileSortSpec() {
-        return this.ProfileMetadataProfileSortSpec;
-    }
+	public ProfileMetadataProfileSortSpec[] getProfileMetadataProfileSortSpec() {
+		return this.ProfileMetadataProfileSortSpec;
+	}
 
-    public ProfileMetadataProfileSortSpec getProfileMetadataProfileSortSpec(int i) {
-        return this.ProfileMetadataProfileSortSpec[i];
-    }
+	public ProfileMetadataProfileSortSpec getProfileMetadataProfileSortSpec(int i) {
+		return this.ProfileMetadataProfileSortSpec[i];
+	}
 
-    public void setProfileMetadataProfileSortSpec(ProfileMetadataProfileSortSpec[] ProfileMetadataProfileSortSpec) {
-        this.ProfileMetadataProfileSortSpec = ProfileMetadataProfileSortSpec;
-    }
+	public void setProfileMetadataProfileSortSpec(ProfileMetadataProfileSortSpec[] ProfileMetadataProfileSortSpec) {
+		this.ProfileMetadataProfileSortSpec = ProfileMetadataProfileSortSpec;
+	}
 }

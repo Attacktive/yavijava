@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDiskMappingPartitionOption {
-    public HostDiskMappingPartitionOption[] HostDiskMappingPartitionOption;
+	public HostDiskMappingPartitionOption[] HostDiskMappingPartitionOption;
 
-    public HostDiskMappingPartitionOption[] getHostDiskMappingPartitionOption() {
-        return this.HostDiskMappingPartitionOption;
-    }
+	public HostDiskMappingPartitionOption[] getHostDiskMappingPartitionOption() {
+		return this.HostDiskMappingPartitionOption;
+	}
 
-    public HostDiskMappingPartitionOption getHostDiskMappingPartitionOption(int i) {
-        return this.HostDiskMappingPartitionOption[i];
-    }
+	public HostDiskMappingPartitionOption getHostDiskMappingPartitionOption(int i) {
+		return this.HostDiskMappingPartitionOption[i];
+	}
 
-    public void setHostDiskMappingPartitionOption(HostDiskMappingPartitionOption[] HostDiskMappingPartitionOption) {
-        this.HostDiskMappingPartitionOption = HostDiskMappingPartitionOption;
-    }
+	public void setHostDiskMappingPartitionOption(HostDiskMappingPartitionOption[] HostDiskMappingPartitionOption) {
+		this.HostDiskMappingPartitionOption = HostDiskMappingPartitionOption;
+	}
 }

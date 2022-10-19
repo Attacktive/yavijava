@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskDeltaDiskFormat {
-    redoLogFormat("redoLogFormat"),
-    nativeFormat("nativeFormat"),
-    seSparseFormat("seSparseFormat");
+	redoLogFormat("redoLogFormat"),
+	nativeFormat("nativeFormat"),
+	seSparseFormat("seSparseFormat");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskDeltaDiskFormat(String val) {
-        this.val = val;
-    }
+	private VirtualDiskDeltaDiskFormat(String val) {
+		this.val = val;
+	}
 }

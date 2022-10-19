@@ -36,85 +36,85 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostConfigSummary extends DynamicData {
-    public String name;
-    public int port;
-    public String sslThumbprint;
-    public AboutInfo product;
-    public boolean vmotionEnabled;
-    public Boolean faultToleranceEnabled;
-    public HostFeatureVersionInfo[] featureVersion;
-    public ManagedObjectReference agentVmDatastore;
-    public ManagedObjectReference agentVmNetwork;
+	public String name;
+	public int port;
+	public String sslThumbprint;
+	public AboutInfo product;
+	public boolean vmotionEnabled;
+	public Boolean faultToleranceEnabled;
+	public HostFeatureVersionInfo[] featureVersion;
+	public ManagedObjectReference agentVmDatastore;
+	public ManagedObjectReference agentVmNetwork;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public int getPort() {
-        return this.port;
-    }
+	public int getPort() {
+		return this.port;
+	}
 
-    public String getSslThumbprint() {
-        return this.sslThumbprint;
-    }
+	public String getSslThumbprint() {
+		return this.sslThumbprint;
+	}
 
-    public AboutInfo getProduct() {
-        return this.product;
-    }
+	public AboutInfo getProduct() {
+		return this.product;
+	}
 
-    public boolean isVmotionEnabled() {
-        return this.vmotionEnabled;
-    }
+	public boolean isVmotionEnabled() {
+		return this.vmotionEnabled;
+	}
 
-    public Boolean getFaultToleranceEnabled() {
-        return this.faultToleranceEnabled;
-    }
+	public Boolean getFaultToleranceEnabled() {
+		return this.faultToleranceEnabled;
+	}
 
-    public HostFeatureVersionInfo[] getFeatureVersion() {
-        return this.featureVersion;
-    }
+	public HostFeatureVersionInfo[] getFeatureVersion() {
+		return this.featureVersion;
+	}
 
-    public ManagedObjectReference getAgentVmDatastore() {
-        return this.agentVmDatastore;
-    }
+	public ManagedObjectReference getAgentVmDatastore() {
+		return this.agentVmDatastore;
+	}
 
-    public ManagedObjectReference getAgentVmNetwork() {
-        return this.agentVmNetwork;
-    }
+	public ManagedObjectReference getAgentVmNetwork() {
+		return this.agentVmNetwork;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setPort(int port) {
-        this.port = port;
-    }
+	public void setPort(int port) {
+		this.port = port;
+	}
 
-    public void setSslThumbprint(String sslThumbprint) {
-        this.sslThumbprint = sslThumbprint;
-    }
+	public void setSslThumbprint(String sslThumbprint) {
+		this.sslThumbprint = sslThumbprint;
+	}
 
-    public void setProduct(AboutInfo product) {
-        this.product = product;
-    }
+	public void setProduct(AboutInfo product) {
+		this.product = product;
+	}
 
-    public void setVmotionEnabled(boolean vmotionEnabled) {
-        this.vmotionEnabled = vmotionEnabled;
-    }
+	public void setVmotionEnabled(boolean vmotionEnabled) {
+		this.vmotionEnabled = vmotionEnabled;
+	}
 
-    public void setFaultToleranceEnabled(Boolean faultToleranceEnabled) {
-        this.faultToleranceEnabled = faultToleranceEnabled;
-    }
+	public void setFaultToleranceEnabled(Boolean faultToleranceEnabled) {
+		this.faultToleranceEnabled = faultToleranceEnabled;
+	}
 
-    public void setFeatureVersion(HostFeatureVersionInfo[] featureVersion) {
-        this.featureVersion = featureVersion;
-    }
+	public void setFeatureVersion(HostFeatureVersionInfo[] featureVersion) {
+		this.featureVersion = featureVersion;
+	}
 
-    public void setAgentVmDatastore(ManagedObjectReference agentVmDatastore) {
-        this.agentVmDatastore = agentVmDatastore;
-    }
+	public void setAgentVmDatastore(ManagedObjectReference agentVmDatastore) {
+		this.agentVmDatastore = agentVmDatastore;
+	}
 
-    public void setAgentVmNetwork(ManagedObjectReference agentVmNetwork) {
-        this.agentVmNetwork = agentVmNetwork;
-    }
+	public void setAgentVmNetwork(ManagedObjectReference agentVmNetwork) {
+		this.agentVmNetwork = agentVmNetwork;
+	}
 }

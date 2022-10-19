@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostCacheConfigurationSpec extends DynamicData {
-    public ManagedObjectReference datastore;
-    public long swapSize;
+	public ManagedObjectReference datastore;
+	public long swapSize;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public long getSwapSize() {
-        return this.swapSize;
-    }
+	public long getSwapSize() {
+		return this.swapSize;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setSwapSize(long swapSize) {
-        this.swapSize = swapSize;
-    }
+	public void setSwapSize(long swapSize) {
+		this.swapSize = swapSize;
+	}
 }

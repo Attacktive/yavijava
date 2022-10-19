@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterProfileConfigServiceCreateSpec extends ClusterProfileConfigSpec {
-    public String[] serviceType;
+	public String[] serviceType;
 
-    public String[] getServiceType() {
-        return this.serviceType;
-    }
+	public String[] getServiceType() {
+		return this.serviceType;
+	}
 
-    public void setServiceType(String[] serviceType) {
-        this.serviceType = serviceType;
-    }
+	public void setServiceType(String[] serviceType) {
+		this.serviceType = serviceType;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageProfile extends ApplyProfile {
-    public NasStorageProfile[] nasStorage;
+	public NasStorageProfile[] nasStorage;
 
-    public NasStorageProfile[] getNasStorage() {
-        return this.nasStorage;
-    }
+	public NasStorageProfile[] getNasStorage() {
+		return this.nasStorage;
+	}
 
-    public void setNasStorage(NasStorageProfile[] nasStorage) {
-        this.nasStorage = nasStorage;
-    }
+	public void setNasStorage(NasStorageProfile[] nasStorage) {
+		this.nasStorage = nasStorage;
+	}
 }

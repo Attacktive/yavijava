@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfNoSpaceOnController extends OvfUnsupportedElement {
-    public String parent;
+	public String parent;
 
-    public String getParent() {
-        return this.parent;
-    }
+	public String getParent() {
+		return this.parent;
+	}
 
-    public void setParent(String parent) {
-        this.parent = parent;
-    }
+	public void setParent(String parent) {
+		this.parent = parent;
+	}
 }

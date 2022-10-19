@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDrsFaults extends DynamicData {
-    public String reason;
-    public ClusterDrsFaultsFaultsByVm[] faultsByVm;
+	public String reason;
+	public ClusterDrsFaultsFaultsByVm[] faultsByVm;
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public ClusterDrsFaultsFaultsByVm[] getFaultsByVm() {
-        return this.faultsByVm;
-    }
+	public ClusterDrsFaultsFaultsByVm[] getFaultsByVm() {
+		return this.faultsByVm;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setFaultsByVm(ClusterDrsFaultsFaultsByVm[] faultsByVm) {
-        this.faultsByVm = faultsByVm;
-    }
+	public void setFaultsByVm(ClusterDrsFaultsFaultsByVm[] faultsByVm) {
+		this.faultsByVm = faultsByVm;
+	}
 }

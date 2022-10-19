@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum HostNumericSensorType {
-    fan("fan"),
-    power("power"),
-    temperature("temperature"),
-    voltage("voltage"),
-    other("other");
+	fan("fan"),
+	power("power"),
+	temperature("temperature"),
+	voltage("voltage"),
+	other("other");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostNumericSensorType(String val) {
-        this.val = val;
-    }
+	private HostNumericSensorType(String val) {
+		this.val = val;
+	}
 }

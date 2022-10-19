@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MethodAction extends Action {
-    public String name;
-    public MethodActionArgument[] argument;
+	public String name;
+	public MethodActionArgument[] argument;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public MethodActionArgument[] getArgument() {
-        return this.argument;
-    }
+	public MethodActionArgument[] getArgument() {
+		return this.argument;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setArgument(MethodActionArgument[] argument) {
-        this.argument = argument;
-    }
+	public void setArgument(MethodActionArgument[] argument) {
+		this.argument = argument;
+	}
 }

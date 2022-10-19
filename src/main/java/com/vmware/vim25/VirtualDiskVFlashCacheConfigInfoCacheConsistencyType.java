@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskVFlashCacheConfigInfoCacheConsistencyType {
-    strong("strong"),
-    weak("weak");
+	strong("strong"),
+	weak("weak");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskVFlashCacheConfigInfoCacheConsistencyType(String val) {
-        this.val = val;
-    }
+	private VirtualDiskVFlashCacheConfigInfoCacheConsistencyType(String val) {
+		this.val = val;
+	}
 }

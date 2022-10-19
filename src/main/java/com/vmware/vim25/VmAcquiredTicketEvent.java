@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmAcquiredTicketEvent extends VmEvent {
-    public String ticketType;
+	public String ticketType;
 
-    public String getTicketType() {
-        return this.ticketType;
-    }
+	public String getTicketType() {
+		return this.ticketType;
+	}
 
-    public void setTicketType(String ticketType) {
-        this.ticketType = ticketType;
-    }
+	public void setTicketType(String ticketType) {
+		this.ticketType = ticketType;
+	}
 }

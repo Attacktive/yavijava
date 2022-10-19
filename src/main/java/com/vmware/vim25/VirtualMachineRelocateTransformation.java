@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineRelocateTransformation {
-    flat("flat"),
-    sparse("sparse");
+	flat("flat"),
+	sparse("sparse");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineRelocateTransformation(String val) {
-        this.val = val;
-    }
+	private VirtualMachineRelocateTransformation(String val) {
+		this.val = val;
+	}
 }

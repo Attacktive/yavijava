@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum HostPatchManagerReason {
-    obsoleted("obsoleted"),
-    missingPatch("missingPatch"),
-    missingLib("missingLib"),
-    hasDependentPatch("hasDependentPatch"),
-    conflictPatch("conflictPatch"),
-    conflictLib("conflictLib");
+	obsoleted("obsoleted"),
+	missingPatch("missingPatch"),
+	missingLib("missingLib"),
+	hasDependentPatch("hasDependentPatch"),
+	conflictPatch("conflictPatch"),
+	conflictLib("conflictLib");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostPatchManagerReason(String val) {
-        this.val = val;
-    }
+	private HostPatchManagerReason(String val) {
+		this.val = val;
+	}
 }

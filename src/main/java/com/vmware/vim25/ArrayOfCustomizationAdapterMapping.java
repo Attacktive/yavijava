@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfCustomizationAdapterMapping {
-    public CustomizationAdapterMapping[] CustomizationAdapterMapping;
+	public CustomizationAdapterMapping[] CustomizationAdapterMapping;
 
-    public CustomizationAdapterMapping[] getCustomizationAdapterMapping() {
-        return this.CustomizationAdapterMapping;
-    }
+	public CustomizationAdapterMapping[] getCustomizationAdapterMapping() {
+		return this.CustomizationAdapterMapping;
+	}
 
-    public CustomizationAdapterMapping getCustomizationAdapterMapping(int i) {
-        return this.CustomizationAdapterMapping[i];
-    }
+	public CustomizationAdapterMapping getCustomizationAdapterMapping(int i) {
+		return this.CustomizationAdapterMapping[i];
+	}
 
-    public void setCustomizationAdapterMapping(CustomizationAdapterMapping[] CustomizationAdapterMapping) {
-        this.CustomizationAdapterMapping = CustomizationAdapterMapping;
-    }
+	public void setCustomizationAdapterMapping(CustomizationAdapterMapping[] CustomizationAdapterMapping) {
+		this.CustomizationAdapterMapping = CustomizationAdapterMapping;
+	}
 }

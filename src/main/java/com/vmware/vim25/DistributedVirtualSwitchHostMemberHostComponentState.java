@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum DistributedVirtualSwitchHostMemberHostComponentState {
-    up("up"),
-    pending("pending"),
-    outOfSync("outOfSync"),
-    warning("warning"),
-    disconnected("disconnected"),
-    down("down");
+	up("up"),
+	pending("pending"),
+	outOfSync("outOfSync"),
+	warning("warning"),
+	disconnected("disconnected"),
+	down("down");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DistributedVirtualSwitchHostMemberHostComponentState(String val) {
-        this.val = val;
-    }
+	private DistributedVirtualSwitchHostMemberHostComponentState(String val) {
+		this.val = val;
+	}
 }

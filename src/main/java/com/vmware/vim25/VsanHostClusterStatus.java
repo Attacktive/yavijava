@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostClusterStatus extends DynamicData {
-    public String uuid;
-    public String nodeUuid;
-    public String health;
-    public VsanHostClusterStatusState nodeState;
-    public String[] memberUuid;
+	public String uuid;
+	public String nodeUuid;
+	public String health;
+	public VsanHostClusterStatusState nodeState;
+	public String[] memberUuid;
 
-    public String getUuid() {
-        return this.uuid;
-    }
+	public String getUuid() {
+		return this.uuid;
+	}
 
-    public String getNodeUuid() {
-        return this.nodeUuid;
-    }
+	public String getNodeUuid() {
+		return this.nodeUuid;
+	}
 
-    public String getHealth() {
-        return this.health;
-    }
+	public String getHealth() {
+		return this.health;
+	}
 
-    public VsanHostClusterStatusState getNodeState() {
-        return this.nodeState;
-    }
+	public VsanHostClusterStatusState getNodeState() {
+		return this.nodeState;
+	}
 
-    public String[] getMemberUuid() {
-        return this.memberUuid;
-    }
+	public String[] getMemberUuid() {
+		return this.memberUuid;
+	}
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 
-    public void setNodeUuid(String nodeUuid) {
-        this.nodeUuid = nodeUuid;
-    }
+	public void setNodeUuid(String nodeUuid) {
+		this.nodeUuid = nodeUuid;
+	}
 
-    public void setHealth(String health) {
-        this.health = health;
-    }
+	public void setHealth(String health) {
+		this.health = health;
+	}
 
-    public void setNodeState(VsanHostClusterStatusState nodeState) {
-        this.nodeState = nodeState;
-    }
+	public void setNodeState(VsanHostClusterStatusState nodeState) {
+		this.nodeState = nodeState;
+	}
 
-    public void setMemberUuid(String[] memberUuid) {
-        this.memberUuid = memberUuid;
-    }
+	public void setMemberUuid(String[] memberUuid) {
+		this.memberUuid = memberUuid;
+	}
 }

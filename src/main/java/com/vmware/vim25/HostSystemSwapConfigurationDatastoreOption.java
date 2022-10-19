@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSystemSwapConfigurationDatastoreOption extends HostSystemSwapConfigurationSystemSwapOption {
-    public String datastore;
+	public String datastore;
 
-    public String getDatastore() {
-        return this.datastore;
-    }
+	public String getDatastore() {
+		return this.datastore;
+	}
 
-    public void setDatastore(String datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(String datastore) {
+		this.datastore = datastore;
+	}
 }

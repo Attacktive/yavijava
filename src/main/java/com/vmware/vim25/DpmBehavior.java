@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DpmBehavior {
-    manual("manual"),
-    automated("automated");
+	manual("manual"),
+	automated("automated");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DpmBehavior(String val) {
-        this.val = val;
-    }
+	private DpmBehavior(String val) {
+		this.val = val;
+	}
 }

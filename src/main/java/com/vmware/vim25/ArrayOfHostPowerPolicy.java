@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPowerPolicy {
-    public HostPowerPolicy[] HostPowerPolicy;
+	public HostPowerPolicy[] HostPowerPolicy;
 
-    public HostPowerPolicy[] getHostPowerPolicy() {
-        return this.HostPowerPolicy;
-    }
+	public HostPowerPolicy[] getHostPowerPolicy() {
+		return this.HostPowerPolicy;
+	}
 
-    public HostPowerPolicy getHostPowerPolicy(int i) {
-        return this.HostPowerPolicy[i];
-    }
+	public HostPowerPolicy getHostPowerPolicy(int i) {
+		return this.HostPowerPolicy[i];
+	}
 
-    public void setHostPowerPolicy(HostPowerPolicy[] HostPowerPolicy) {
-        this.HostPowerPolicy = HostPowerPolicy;
-    }
+	public void setHostPowerPolicy(HostPowerPolicy[] HostPowerPolicy) {
+		this.HostPowerPolicy = HostPowerPolicy;
+	}
 }

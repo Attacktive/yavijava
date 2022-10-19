@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskEvent extends Event {
-    public ScheduledTaskEventArgument scheduledTask;
-    public ManagedEntityEventArgument entity;
+	public ScheduledTaskEventArgument scheduledTask;
+	public ManagedEntityEventArgument entity;
 
-    public ScheduledTaskEventArgument getScheduledTask() {
-        return this.scheduledTask;
-    }
+	public ScheduledTaskEventArgument getScheduledTask() {
+		return this.scheduledTask;
+	}
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public void setScheduledTask(ScheduledTaskEventArgument scheduledTask) {
-        this.scheduledTask = scheduledTask;
-    }
+	public void setScheduledTask(ScheduledTaskEventArgument scheduledTask) {
+		this.scheduledTask = scheduledTask;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 }

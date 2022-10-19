@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomFieldDefRenamedEvent extends CustomFieldDefEvent {
-    public String newName;
+	public String newName;
 
-    public String getNewName() {
-        return this.newName;
-    }
+	public String getNewName() {
+		return this.newName;
+	}
 
-    public void setNewName(String newName) {
-        this.newName = newName;
-    }
+	public void setNewName(String newName) {
+		this.newName = newName;
+	}
 }

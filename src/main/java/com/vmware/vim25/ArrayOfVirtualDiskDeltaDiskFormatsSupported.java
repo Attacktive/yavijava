@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualDiskDeltaDiskFormatsSupported {
-    public VirtualDiskDeltaDiskFormatsSupported[] VirtualDiskDeltaDiskFormatsSupported;
+	public VirtualDiskDeltaDiskFormatsSupported[] VirtualDiskDeltaDiskFormatsSupported;
 
-    public VirtualDiskDeltaDiskFormatsSupported[] getVirtualDiskDeltaDiskFormatsSupported() {
-        return this.VirtualDiskDeltaDiskFormatsSupported;
-    }
+	public VirtualDiskDeltaDiskFormatsSupported[] getVirtualDiskDeltaDiskFormatsSupported() {
+		return this.VirtualDiskDeltaDiskFormatsSupported;
+	}
 
-    public VirtualDiskDeltaDiskFormatsSupported getVirtualDiskDeltaDiskFormatsSupported(int i) {
-        return this.VirtualDiskDeltaDiskFormatsSupported[i];
-    }
+	public VirtualDiskDeltaDiskFormatsSupported getVirtualDiskDeltaDiskFormatsSupported(int i) {
+		return this.VirtualDiskDeltaDiskFormatsSupported[i];
+	}
 
-    public void setVirtualDiskDeltaDiskFormatsSupported(VirtualDiskDeltaDiskFormatsSupported[] VirtualDiskDeltaDiskFormatsSupported) {
-        this.VirtualDiskDeltaDiskFormatsSupported = VirtualDiskDeltaDiskFormatsSupported;
-    }
+	public void setVirtualDiskDeltaDiskFormatsSupported(VirtualDiskDeltaDiskFormatsSupported[] VirtualDiskDeltaDiskFormatsSupported) {
+		this.VirtualDiskDeltaDiskFormatsSupported = VirtualDiskDeltaDiskFormatsSupported;
+	}
 }

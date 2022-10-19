@@ -29,11 +29,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.HostEsxAgentHostManagerConfigInfo;
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * configure agent virtual machine resource configuration, such as what network
@@ -45,15 +45,15 @@ import java.rmi.RemoteException;
 
 public class HostEsxAgentHostManager extends ManagedObject {
 
-    public HostEsxAgentHostManager(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostEsxAgentHostManager(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HostEsxAgentHostManagerConfigInfo getCacheConfigurationInfo() {
-        return (HostEsxAgentHostManagerConfigInfo) getCurrentProperty("configInfo");
-    }
+	public HostEsxAgentHostManagerConfigInfo getCacheConfigurationInfo() {
+		return (HostEsxAgentHostManagerConfigInfo)getCurrentProperty("configInfo");
+	}
 
-    public void esxAgentHostManagerUpdateConfig(HostEsxAgentHostManagerConfigInfo configInfo) throws RuntimeFault, RemoteException {
-        getVimService().esxAgentHostManagerUpdateConfig(getMOR(), configInfo);
-    }
+	public void esxAgentHostManagerUpdateConfig(HostEsxAgentHostManagerConfigInfo configInfo) throws RuntimeFault, RemoteException {
+		getVimService().esxAgentHostManagerUpdateConfig(getMOR(), configInfo);
+	}
 }

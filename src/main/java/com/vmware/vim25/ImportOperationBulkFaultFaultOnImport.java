@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ImportOperationBulkFaultFaultOnImport extends DynamicData {
-    public String entityType;
-    public String key;
-    public LocalizedMethodFault fault;
+	public String entityType;
+	public String key;
+	public LocalizedMethodFault fault;
 
-    public String getEntityType() {
-        return this.entityType;
-    }
+	public String getEntityType() {
+		return this.entityType;
+	}
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setEntityType(String entityType) {
-        this.entityType = entityType;
-    }
+	public void setEntityType(String entityType) {
+		this.entityType = entityType;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

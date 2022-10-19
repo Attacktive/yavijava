@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOptionValue {
-    public OptionValue[] OptionValue;
+	public OptionValue[] OptionValue;
 
-    public OptionValue[] getOptionValue() {
-        return this.OptionValue;
-    }
+	public OptionValue[] getOptionValue() {
+		return this.OptionValue;
+	}
 
-    public OptionValue getOptionValue(int i) {
-        return this.OptionValue[i];
-    }
+	public OptionValue getOptionValue(int i) {
+		return this.OptionValue[i];
+	}
 
-    public void setOptionValue(OptionValue[] OptionValue) {
-        this.OptionValue = OptionValue;
-    }
+	public void setOptionValue(OptionValue[] OptionValue) {
+		this.OptionValue = OptionValue;
+	}
 }

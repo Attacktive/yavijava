@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostActiveDirectory {
-    public HostActiveDirectory[] HostActiveDirectory;
+	public HostActiveDirectory[] HostActiveDirectory;
 
-    public HostActiveDirectory[] getHostActiveDirectory() {
-        return this.HostActiveDirectory;
-    }
+	public HostActiveDirectory[] getHostActiveDirectory() {
+		return this.HostActiveDirectory;
+	}
 
-    public HostActiveDirectory getHostActiveDirectory(int i) {
-        return this.HostActiveDirectory[i];
-    }
+	public HostActiveDirectory getHostActiveDirectory(int i) {
+		return this.HostActiveDirectory[i];
+	}
 
-    public void setHostActiveDirectory(HostActiveDirectory[] HostActiveDirectory) {
-        this.HostActiveDirectory = HostActiveDirectory;
-    }
+	public void setHostActiveDirectory(HostActiveDirectory[] HostActiveDirectory) {
+		this.HostActiveDirectory = HostActiveDirectory;
+	}
 }

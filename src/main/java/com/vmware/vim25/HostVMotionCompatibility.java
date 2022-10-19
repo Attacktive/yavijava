@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVMotionCompatibility extends DynamicData {
-    public ManagedObjectReference host;
-    public String[] compatibility;
+	public ManagedObjectReference host;
+	public String[] compatibility;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public String[] getCompatibility() {
-        return this.compatibility;
-    }
+	public String[] getCompatibility() {
+		return this.compatibility;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setCompatibility(String[] compatibility) {
-        this.compatibility = compatibility;
-    }
+	public void setCompatibility(String[] compatibility) {
+		this.compatibility = compatibility;
+	}
 }

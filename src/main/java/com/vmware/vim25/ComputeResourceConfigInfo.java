@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ComputeResourceConfigInfo extends DynamicData {
-    public String vmSwapPlacement;
-    public Boolean spbmEnabled;
-    public String defaultHardwareVersionKey;
+	public String vmSwapPlacement;
+	public Boolean spbmEnabled;
+	public String defaultHardwareVersionKey;
 
-    public String getVmSwapPlacement() {
-        return this.vmSwapPlacement;
-    }
+	public String getVmSwapPlacement() {
+		return this.vmSwapPlacement;
+	}
 
-    public Boolean getSpbmEnabled() {
-        return this.spbmEnabled;
-    }
+	public Boolean getSpbmEnabled() {
+		return this.spbmEnabled;
+	}
 
-    public String getDefaultHardwareVersionKey() {
-        return this.defaultHardwareVersionKey;
-    }
+	public String getDefaultHardwareVersionKey() {
+		return this.defaultHardwareVersionKey;
+	}
 
-    public void setVmSwapPlacement(String vmSwapPlacement) {
-        this.vmSwapPlacement = vmSwapPlacement;
-    }
+	public void setVmSwapPlacement(String vmSwapPlacement) {
+		this.vmSwapPlacement = vmSwapPlacement;
+	}
 
-    public void setSpbmEnabled(Boolean spbmEnabled) {
-        this.spbmEnabled = spbmEnabled;
-    }
+	public void setSpbmEnabled(Boolean spbmEnabled) {
+		this.spbmEnabled = spbmEnabled;
+	}
 
-    public void setDefaultHardwareVersionKey(String defaultHardwareVersionKey) {
-        this.defaultHardwareVersionKey = defaultHardwareVersionKey;
-    }
+	public void setDefaultHardwareVersionKey(String defaultHardwareVersionKey) {
+		this.defaultHardwareVersionKey = defaultHardwareVersionKey;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterFailoverLevelAdmissionControlInfo extends ClusterDasAdmissionControlInfo {
-    public int currentFailoverLevel;
+	public int currentFailoverLevel;
 
-    public int getCurrentFailoverLevel() {
-        return this.currentFailoverLevel;
-    }
+	public int getCurrentFailoverLevel() {
+		return this.currentFailoverLevel;
+	}
 
-    public void setCurrentFailoverLevel(int currentFailoverLevel) {
-        this.currentFailoverLevel = currentFailoverLevel;
-    }
+	public void setCurrentFailoverLevel(int currentFailoverLevel) {
+		this.currentFailoverLevel = currentFailoverLevel;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostAccountSpec {
-    public HostAccountSpec[] HostAccountSpec;
+	public HostAccountSpec[] HostAccountSpec;
 
-    public HostAccountSpec[] getHostAccountSpec() {
-        return this.HostAccountSpec;
-    }
+	public HostAccountSpec[] getHostAccountSpec() {
+		return this.HostAccountSpec;
+	}
 
-    public HostAccountSpec getHostAccountSpec(int i) {
-        return this.HostAccountSpec[i];
-    }
+	public HostAccountSpec getHostAccountSpec(int i) {
+		return this.HostAccountSpec[i];
+	}
 
-    public void setHostAccountSpec(HostAccountSpec[] HostAccountSpec) {
-        this.HostAccountSpec = HostAccountSpec;
-    }
+	public void setHostAccountSpec(HostAccountSpec[] HostAccountSpec) {
+		this.HostAccountSpec = HostAccountSpec;
+	}
 }

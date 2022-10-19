@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppCloneSpecNetworkMappingPair {
-    public VAppCloneSpecNetworkMappingPair[] VAppCloneSpecNetworkMappingPair;
+	public VAppCloneSpecNetworkMappingPair[] VAppCloneSpecNetworkMappingPair;
 
-    public VAppCloneSpecNetworkMappingPair[] getVAppCloneSpecNetworkMappingPair() {
-        return this.VAppCloneSpecNetworkMappingPair;
-    }
+	public VAppCloneSpecNetworkMappingPair[] getVAppCloneSpecNetworkMappingPair() {
+		return this.VAppCloneSpecNetworkMappingPair;
+	}
 
-    public VAppCloneSpecNetworkMappingPair getVAppCloneSpecNetworkMappingPair(int i) {
-        return this.VAppCloneSpecNetworkMappingPair[i];
-    }
+	public VAppCloneSpecNetworkMappingPair getVAppCloneSpecNetworkMappingPair(int i) {
+		return this.VAppCloneSpecNetworkMappingPair[i];
+	}
 
-    public void setVAppCloneSpecNetworkMappingPair(VAppCloneSpecNetworkMappingPair[] VAppCloneSpecNetworkMappingPair) {
-        this.VAppCloneSpecNetworkMappingPair = VAppCloneSpecNetworkMappingPair;
-    }
+	public void setVAppCloneSpecNetworkMappingPair(VAppCloneSpecNetworkMappingPair[] VAppCloneSpecNetworkMappingPair) {
+		this.VAppCloneSpecNetworkMappingPair = VAppCloneSpecNetworkMappingPair;
+	}
 }

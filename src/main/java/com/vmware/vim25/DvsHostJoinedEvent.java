@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsHostJoinedEvent extends DvsEvent {
-    public HostEventArgument hostJoined;
+	public HostEventArgument hostJoined;
 
-    public HostEventArgument getHostJoined() {
-        return this.hostJoined;
-    }
+	public HostEventArgument getHostJoined() {
+		return this.hostJoined;
+	}
 
-    public void setHostJoined(HostEventArgument hostJoined) {
-        this.hostJoined = hostJoined;
-    }
+	public void setHostJoined(HostEventArgument hostJoined) {
+		this.hostJoined = hostJoined;
+	}
 }

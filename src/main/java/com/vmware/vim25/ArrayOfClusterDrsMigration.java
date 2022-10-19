@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDrsMigration {
-    public ClusterDrsMigration[] ClusterDrsMigration;
+	public ClusterDrsMigration[] ClusterDrsMigration;
 
-    public ClusterDrsMigration[] getClusterDrsMigration() {
-        return this.ClusterDrsMigration;
-    }
+	public ClusterDrsMigration[] getClusterDrsMigration() {
+		return this.ClusterDrsMigration;
+	}
 
-    public ClusterDrsMigration getClusterDrsMigration(int i) {
-        return this.ClusterDrsMigration[i];
-    }
+	public ClusterDrsMigration getClusterDrsMigration(int i) {
+		return this.ClusterDrsMigration[i];
+	}
 
-    public void setClusterDrsMigration(ClusterDrsMigration[] ClusterDrsMigration) {
-        this.ClusterDrsMigration = ClusterDrsMigration;
-    }
+	public void setClusterDrsMigration(ClusterDrsMigration[] ClusterDrsMigration) {
+		this.ClusterDrsMigration = ClusterDrsMigration;
+	}
 }

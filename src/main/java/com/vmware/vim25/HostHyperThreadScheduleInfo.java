@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostHyperThreadScheduleInfo extends DynamicData {
-    public boolean available;
-    public boolean active;
-    public boolean config;
+	public boolean available;
+	public boolean active;
+	public boolean config;
 
-    public boolean isAvailable() {
-        return this.available;
-    }
+	public boolean isAvailable() {
+		return this.available;
+	}
 
-    public boolean isActive() {
-        return this.active;
-    }
+	public boolean isActive() {
+		return this.active;
+	}
 
-    public boolean isConfig() {
-        return this.config;
-    }
+	public boolean isConfig() {
+		return this.config;
+	}
 
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
+	public void setAvailable(boolean available) {
+		this.available = available;
+	}
 
-    public void setActive(boolean active) {
-        this.active = active;
-    }
+	public void setActive(boolean active) {
+		this.active = active;
+	}
 
-    public void setConfig(boolean config) {
-        this.config = config;
-    }
+	public void setConfig(boolean config) {
+		this.config = config;
+	}
 }

@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum NetIpConfigInfoIpAddressOrigin {
-    other("other"),
-    manual("manual"),
-    dhcp("dhcp"),
-    linklayer("linklayer"),
-    random("random");
+	other("other"),
+	manual("manual"),
+	dhcp("dhcp"),
+	linklayer("linklayer"),
+	random("random");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NetIpConfigInfoIpAddressOrigin(String val) {
-        this.val = val;
-    }
+	private NetIpConfigInfoIpAddressOrigin(String val) {
+		this.val = val;
+	}
 }

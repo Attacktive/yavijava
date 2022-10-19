@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum OvfConsumerOstNodeType {
-    envelope("envelope"),
-    virtualSystem("virtualSystem"),
-    virtualSystemCollection("virtualSystemCollection");
+	envelope("envelope"),
+	virtualSystem("virtualSystem"),
+	virtualSystemCollection("virtualSystemCollection");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private OvfConsumerOstNodeType(String val) {
-        this.val = val;
-    }
+	private OvfConsumerOstNodeType(String val) {
+		this.val = val;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsPortLinkDownEvent extends DvsEvent {
-    public String portKey;
-    public DVPortStatus runtimeInfo;
+	public String portKey;
+	public DVPortStatus runtimeInfo;
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public DVPortStatus getRuntimeInfo() {
-        return this.runtimeInfo;
-    }
+	public DVPortStatus getRuntimeInfo() {
+		return this.runtimeInfo;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 
-    public void setRuntimeInfo(DVPortStatus runtimeInfo) {
-        this.runtimeInfo = runtimeInfo;
-    }
+	public void setRuntimeInfo(DVPortStatus runtimeInfo) {
+		this.runtimeInfo = runtimeInfo;
+	}
 }

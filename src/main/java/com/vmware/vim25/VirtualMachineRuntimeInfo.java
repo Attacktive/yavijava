@@ -28,59 +28,61 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 
 package com.vmware.vim25;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Calendar;
+
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * Created by Michael Rice on Thu Jun 11 17:52:06 CDT 2015
  * This code is auto generated using yavijava_generator
  * https://github.com/yavijava/yavijava_generator
- *
+ * <p>
  * Copyright 2015 Michael Rice
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
  * @since 6.0
  */
 
 public class VirtualMachineRuntimeInfo extends DynamicData {
-    @Getter @Setter public VirtualMachineDeviceRuntimeInfo[] device;
-    @Getter @Setter public ManagedObjectReference host;
-    @Getter @Setter public VirtualMachineConnectionState connectionState;
-    @Getter @Setter public VirtualMachinePowerState powerState;
-    @Getter @Setter public VirtualMachineFaultToleranceState faultToleranceState;
-    @Getter @Setter public VirtualMachineRuntimeInfoDasProtectionState dasVmProtection;
-    @Getter @Setter public boolean toolsInstallerMounted;
-    @Getter @Setter public Calendar suspendTime;
-    @Getter @Setter public Calendar bootTime;
-    @Getter @Setter public Long suspendInterval;
-    @Getter @Setter public VirtualMachineQuestionInfo question;
-    @Getter @Setter public Long memoryOverhead;
-    @Getter @Setter public Integer maxCpuUsage;
-    @Getter @Setter public Integer maxMemoryUsage;
-    @Getter @Setter public int numMksConnections;
-    @Getter @Setter public VirtualMachineRecordReplayState recordReplayState;
-    @Getter @Setter public Boolean cleanPowerOff;
-    @Getter @Setter public String needSecondaryReason;
-    @Getter @Setter public Boolean onlineStandby;
-    @Getter @Setter public String minRequiredEVCModeKey;
-    @Getter @Setter public Boolean consolidationNeeded;
-    @Getter @Setter public VirtualMachineFeatureRequirement[] offlineFeatureRequirement;
-    @Getter @Setter public VirtualMachineFeatureRequirement[] featureRequirement;
-    @Getter @Setter public HostFeatureMask[] featureMask;
-    @Getter @Setter public Long vFlashCacheAllocation;
-    @Getter @Setter public Boolean paused;
-    @Getter @Setter public Boolean snapshotInBackground;
-    @Getter @Setter public Boolean quiescedForkParent;
+	@Getter @Setter public VirtualMachineDeviceRuntimeInfo[] device;
+	@Getter @Setter public ManagedObjectReference host;
+	@Getter @Setter public VirtualMachineConnectionState connectionState;
+	@Getter @Setter public VirtualMachinePowerState powerState;
+	@Getter @Setter public VirtualMachineFaultToleranceState faultToleranceState;
+	@Getter @Setter public VirtualMachineRuntimeInfoDasProtectionState dasVmProtection;
+	@Getter @Setter public boolean toolsInstallerMounted;
+	@Getter @Setter public Calendar suspendTime;
+	@Getter @Setter public Calendar bootTime;
+	@Getter @Setter public Long suspendInterval;
+	@Getter @Setter public VirtualMachineQuestionInfo question;
+	@Getter @Setter public Long memoryOverhead;
+	@Getter @Setter public Integer maxCpuUsage;
+	@Getter @Setter public Integer maxMemoryUsage;
+	@Getter @Setter public int numMksConnections;
+	@Getter @Setter public VirtualMachineRecordReplayState recordReplayState;
+	@Getter @Setter public Boolean cleanPowerOff;
+	@Getter @Setter public String needSecondaryReason;
+	@Getter @Setter public Boolean onlineStandby;
+	@Getter @Setter public String minRequiredEVCModeKey;
+	@Getter @Setter public Boolean consolidationNeeded;
+	@Getter @Setter public VirtualMachineFeatureRequirement[] offlineFeatureRequirement;
+	@Getter @Setter public VirtualMachineFeatureRequirement[] featureRequirement;
+	@Getter @Setter public HostFeatureMask[] featureMask;
+	@Getter @Setter public Long vFlashCacheAllocation;
+	@Getter @Setter public Boolean paused;
+	@Getter @Setter public Boolean snapshotInBackground;
+	@Getter @Setter public Boolean quiescedForkParent;
 }

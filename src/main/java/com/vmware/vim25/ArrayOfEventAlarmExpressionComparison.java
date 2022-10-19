@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEventAlarmExpressionComparison {
-    public EventAlarmExpressionComparison[] EventAlarmExpressionComparison;
+	public EventAlarmExpressionComparison[] EventAlarmExpressionComparison;
 
-    public EventAlarmExpressionComparison[] getEventAlarmExpressionComparison() {
-        return this.EventAlarmExpressionComparison;
-    }
+	public EventAlarmExpressionComparison[] getEventAlarmExpressionComparison() {
+		return this.EventAlarmExpressionComparison;
+	}
 
-    public EventAlarmExpressionComparison getEventAlarmExpressionComparison(int i) {
-        return this.EventAlarmExpressionComparison[i];
-    }
+	public EventAlarmExpressionComparison getEventAlarmExpressionComparison(int i) {
+		return this.EventAlarmExpressionComparison[i];
+	}
 
-    public void setEventAlarmExpressionComparison(EventAlarmExpressionComparison[] EventAlarmExpressionComparison) {
-        this.EventAlarmExpressionComparison = EventAlarmExpressionComparison;
-    }
+	public void setEventAlarmExpressionComparison(EventAlarmExpressionComparison[] EventAlarmExpressionComparison) {
+		this.EventAlarmExpressionComparison = EventAlarmExpressionComparison;
+	}
 }

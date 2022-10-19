@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostUnresolvedVmfsVolume {
-    public HostUnresolvedVmfsVolume[] HostUnresolvedVmfsVolume;
+	public HostUnresolvedVmfsVolume[] HostUnresolvedVmfsVolume;
 
-    public HostUnresolvedVmfsVolume[] getHostUnresolvedVmfsVolume() {
-        return this.HostUnresolvedVmfsVolume;
-    }
+	public HostUnresolvedVmfsVolume[] getHostUnresolvedVmfsVolume() {
+		return this.HostUnresolvedVmfsVolume;
+	}
 
-    public HostUnresolvedVmfsVolume getHostUnresolvedVmfsVolume(int i) {
-        return this.HostUnresolvedVmfsVolume[i];
-    }
+	public HostUnresolvedVmfsVolume getHostUnresolvedVmfsVolume(int i) {
+		return this.HostUnresolvedVmfsVolume[i];
+	}
 
-    public void setHostUnresolvedVmfsVolume(HostUnresolvedVmfsVolume[] HostUnresolvedVmfsVolume) {
-        this.HostUnresolvedVmfsVolume = HostUnresolvedVmfsVolume;
-    }
+	public void setHostUnresolvedVmfsVolume(HostUnresolvedVmfsVolume[] HostUnresolvedVmfsVolume) {
+		this.HostUnresolvedVmfsVolume = HostUnresolvedVmfsVolume;
+	}
 }

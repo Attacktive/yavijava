@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileExpressionMetadata extends DynamicData {
-    public ExtendedElementDescription expressionId;
-    public ProfileParameterMetadata[] parameter;
+	public ExtendedElementDescription expressionId;
+	public ProfileParameterMetadata[] parameter;
 
-    public ExtendedElementDescription getExpressionId() {
-        return this.expressionId;
-    }
+	public ExtendedElementDescription getExpressionId() {
+		return this.expressionId;
+	}
 
-    public ProfileParameterMetadata[] getParameter() {
-        return this.parameter;
-    }
+	public ProfileParameterMetadata[] getParameter() {
+		return this.parameter;
+	}
 
-    public void setExpressionId(ExtendedElementDescription expressionId) {
-        this.expressionId = expressionId;
-    }
+	public void setExpressionId(ExtendedElementDescription expressionId) {
+		this.expressionId = expressionId;
+	}
 
-    public void setParameter(ProfileParameterMetadata[] parameter) {
-        this.parameter = parameter;
-    }
+	public void setParameter(ProfileParameterMetadata[] parameter) {
+		this.parameter = parameter;
+	}
 }

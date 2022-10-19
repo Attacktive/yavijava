@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineConsolePreferences extends DynamicData {
-    public Boolean powerOnWhenOpened;
-    public Boolean enterFullScreenOnPowerOn;
-    public Boolean closeOnPowerOffOrSuspend;
+	public Boolean powerOnWhenOpened;
+	public Boolean enterFullScreenOnPowerOn;
+	public Boolean closeOnPowerOffOrSuspend;
 
-    public Boolean getPowerOnWhenOpened() {
-        return this.powerOnWhenOpened;
-    }
+	public Boolean getPowerOnWhenOpened() {
+		return this.powerOnWhenOpened;
+	}
 
-    public Boolean getEnterFullScreenOnPowerOn() {
-        return this.enterFullScreenOnPowerOn;
-    }
+	public Boolean getEnterFullScreenOnPowerOn() {
+		return this.enterFullScreenOnPowerOn;
+	}
 
-    public Boolean getCloseOnPowerOffOrSuspend() {
-        return this.closeOnPowerOffOrSuspend;
-    }
+	public Boolean getCloseOnPowerOffOrSuspend() {
+		return this.closeOnPowerOffOrSuspend;
+	}
 
-    public void setPowerOnWhenOpened(Boolean powerOnWhenOpened) {
-        this.powerOnWhenOpened = powerOnWhenOpened;
-    }
+	public void setPowerOnWhenOpened(Boolean powerOnWhenOpened) {
+		this.powerOnWhenOpened = powerOnWhenOpened;
+	}
 
-    public void setEnterFullScreenOnPowerOn(Boolean enterFullScreenOnPowerOn) {
-        this.enterFullScreenOnPowerOn = enterFullScreenOnPowerOn;
-    }
+	public void setEnterFullScreenOnPowerOn(Boolean enterFullScreenOnPowerOn) {
+		this.enterFullScreenOnPowerOn = enterFullScreenOnPowerOn;
+	}
 
-    public void setCloseOnPowerOffOrSuspend(Boolean closeOnPowerOffOrSuspend) {
-        this.closeOnPowerOffOrSuspend = closeOnPowerOffOrSuspend;
-    }
+	public void setCloseOnPowerOffOrSuspend(Boolean closeOnPowerOffOrSuspend) {
+		this.closeOnPowerOffOrSuspend = closeOnPowerOffOrSuspend;
+	}
 }

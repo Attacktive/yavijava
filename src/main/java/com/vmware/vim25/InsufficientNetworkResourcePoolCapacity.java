@@ -21,64 +21,63 @@ package com.vmware.vim25;
  */
 
 public class InsufficientNetworkResourcePoolCapacity extends InsufficientResourcesFault {
-    public String dvsName;
+	public String dvsName;
 
-    public String dvsUuid;
+	public String dvsUuid;
 
-    public String resourcePoolKey;
+	public String resourcePoolKey;
 
-    public long available;
+	public long available;
 
-    public long requested;
+	public long requested;
 
-    public String[] device;
+	public String[] device;
 
-    public String getDvsName() {
-        return dvsName;
-    }
+	public String getDvsName() {
+		return dvsName;
+	}
 
-    public void setDvsName(String dvsName) {
-        this.dvsName = dvsName;
-    }
+	public void setDvsName(String dvsName) {
+		this.dvsName = dvsName;
+	}
 
-    public String getDvsUuid() {
-        return dvsUuid;
-    }
+	public String getDvsUuid() {
+		return dvsUuid;
+	}
 
-    public void setDvsUuid(String dvsUuid) {
-        this.dvsUuid = dvsUuid;
-    }
+	public void setDvsUuid(String dvsUuid) {
+		this.dvsUuid = dvsUuid;
+	}
 
-    public String getResourcePoolKey() {
-        return resourcePoolKey;
-    }
+	public String getResourcePoolKey() {
+		return resourcePoolKey;
+	}
 
-    public void setResourcePoolKey(String resourcePoolKey) {
-        this.resourcePoolKey = resourcePoolKey;
-    }
+	public void setResourcePoolKey(String resourcePoolKey) {
+		this.resourcePoolKey = resourcePoolKey;
+	}
 
-    public long getAvailable() {
-        return available;
-    }
+	public long getAvailable() {
+		return available;
+	}
 
-    public void setAvailable(long available) {
-        this.available = available;
-    }
+	public void setAvailable(long available) {
+		this.available = available;
+	}
 
-    public long getRequested() {
-        return requested;
-    }
+	public long getRequested() {
+		return requested;
+	}
 
-    public void setRequested(long requested) {
-        this.requested = requested;
-    }
+	public void setRequested(long requested) {
+		this.requested = requested;
+	}
 
-    public String[] getDevice() {
-        return device;
-    }
+	public String[] getDevice() {
+		return device;
+	}
 
-    public void setDevice(String[] device) {
-        this.device = device;
-    }
-
+	public void setDevice(String[] device) {
+		this.device = device;
+	}
 }

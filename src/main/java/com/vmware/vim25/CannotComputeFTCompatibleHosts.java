@@ -21,24 +21,23 @@ package com.vmware.vim25;
  */
 
 public class CannotComputeFTCompatibleHosts extends VmFaultToleranceIssue {
-    public ManagedObjectReference vm;
+	public ManagedObjectReference vm;
 
-    public String vmName;
+	public String vmName;
 
-    public ManagedObjectReference getVm() {
-        return vm;
-    }
+	public ManagedObjectReference getVm() {
+		return vm;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public String getVmName() {
-        return vmName;
-    }
+	public String getVmName() {
+		return vmName;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
-
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 }

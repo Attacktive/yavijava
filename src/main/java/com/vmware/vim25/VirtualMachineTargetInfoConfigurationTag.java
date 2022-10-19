@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineTargetInfoConfigurationTag {
-    compliant("compliant"),
-    clusterWide("clusterWide");
+	compliant("compliant"),
+	clusterWide("clusterWide");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineTargetInfoConfigurationTag(String val) {
-        this.val = val;
-    }
+	private VirtualMachineTargetInfoConfigurationTag(String val) {
+		this.val = val;
+	}
 }

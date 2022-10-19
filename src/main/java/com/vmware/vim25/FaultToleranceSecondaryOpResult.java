@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FaultToleranceSecondaryOpResult extends DynamicData {
-    public ManagedObjectReference vm;
-    public boolean powerOnAttempted;
-    public ClusterPowerOnVmResult powerOnResult;
+	public ManagedObjectReference vm;
+	public boolean powerOnAttempted;
+	public ClusterPowerOnVmResult powerOnResult;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public boolean isPowerOnAttempted() {
-        return this.powerOnAttempted;
-    }
+	public boolean isPowerOnAttempted() {
+		return this.powerOnAttempted;
+	}
 
-    public ClusterPowerOnVmResult getPowerOnResult() {
-        return this.powerOnResult;
-    }
+	public ClusterPowerOnVmResult getPowerOnResult() {
+		return this.powerOnResult;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setPowerOnAttempted(boolean powerOnAttempted) {
-        this.powerOnAttempted = powerOnAttempted;
-    }
+	public void setPowerOnAttempted(boolean powerOnAttempted) {
+		this.powerOnAttempted = powerOnAttempted;
+	}
 
-    public void setPowerOnResult(ClusterPowerOnVmResult powerOnResult) {
-        this.powerOnResult = powerOnResult;
-    }
+	public void setPowerOnResult(ClusterPowerOnVmResult powerOnResult) {
+		this.powerOnResult = powerOnResult;
+	}
 }

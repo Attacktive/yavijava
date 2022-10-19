@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostEsxAgentHostManagerConfigInfo extends DynamicData {
-    public ManagedObjectReference agentVmDatastore;
-    public ManagedObjectReference agentVmNetwork;
+	public ManagedObjectReference agentVmDatastore;
+	public ManagedObjectReference agentVmNetwork;
 
-    public ManagedObjectReference getAgentVmDatastore() {
-        return this.agentVmDatastore;
-    }
+	public ManagedObjectReference getAgentVmDatastore() {
+		return this.agentVmDatastore;
+	}
 
-    public ManagedObjectReference getAgentVmNetwork() {
-        return this.agentVmNetwork;
-    }
+	public ManagedObjectReference getAgentVmNetwork() {
+		return this.agentVmNetwork;
+	}
 
-    public void setAgentVmDatastore(ManagedObjectReference agentVmDatastore) {
-        this.agentVmDatastore = agentVmDatastore;
-    }
+	public void setAgentVmDatastore(ManagedObjectReference agentVmDatastore) {
+		this.agentVmDatastore = agentVmDatastore;
+	}
 
-    public void setAgentVmNetwork(ManagedObjectReference agentVmNetwork) {
-        this.agentVmNetwork = agentVmNetwork;
-    }
+	public void setAgentVmNetwork(ManagedObjectReference agentVmNetwork) {
+		this.agentVmNetwork = agentVmNetwork;
+	}
 }

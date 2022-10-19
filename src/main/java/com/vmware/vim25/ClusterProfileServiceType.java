@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ClusterProfileServiceType {
-    DRS("DRS"),
-    HA("HA"),
-    DPM("DPM"),
-    FT("FT");
+	DRS("DRS"),
+	HA("HA"),
+	DPM("DPM"),
+	FT("FT");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterProfileServiceType(String val) {
-        this.val = val;
-    }
+	private ClusterProfileServiceType(String val) {
+		this.val = val;
+	}
 }

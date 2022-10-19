@@ -29,11 +29,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
 import com.vmware.vim25.mo.util.MorUtil;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -43,32 +43,32 @@ import java.rmi.RemoteException;
 
 public class ListView extends ManagedObjectView {
 
-    public ListView(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public ListView(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public ManagedEntity[] modifyListView(ManagedEntity[] add, ManagedEntity[] remove)
-        throws RuntimeFault, RemoteException {
-        ManagedObjectReference[] mors =
-            getVimService().modifyListView(getMOR(),
-                add == null ? null : MorUtil.createMORs(add),
-                remove == null ? null : MorUtil.createMORs(remove));
-        return MorUtil.createManagedEntities(getServerConnection(), mors);
-    }
+	public ManagedEntity[] modifyListView(ManagedEntity[] add, ManagedEntity[] remove)
+		throws RuntimeFault, RemoteException {
+		ManagedObjectReference[] mors =
+			getVimService().modifyListView(getMOR(),
+				add == null? null: MorUtil.createMORs(add),
+				remove == null? null: MorUtil.createMORs(remove));
+		return MorUtil.createManagedEntities(getServerConnection(), mors);
+	}
 
-    public ManagedEntity[] resetListView(ManagedEntity[] obj)
-        throws RuntimeFault, RemoteException {
-        ManagedObjectReference[] mors =
-            getVimService().resetListView(getMOR(),
-                obj == null ? null : MorUtil.createMORs(obj));
-        return MorUtil.createManagedEntities(getServerConnection(), mors);
-    }
+	public ManagedEntity[] resetListView(ManagedEntity[] obj)
+		throws RuntimeFault, RemoteException {
+		ManagedObjectReference[] mors =
+			getVimService().resetListView(getMOR(),
+				obj == null? null: MorUtil.createMORs(obj));
+		return MorUtil.createManagedEntities(getServerConnection(), mors);
+	}
 
-    public void resetListViewFromView(View view)
-        throws RuntimeFault, RemoteException {
-        if (view == null) {
-            throw new IllegalArgumentException("view must not be null.");
-        }
-        getVimService().resetListViewFromView(getMOR(), view.getMOR());
-    }
+	public void resetListViewFromView(View view)
+		throws RuntimeFault, RemoteException {
+		if (view == null) {
+			throw new IllegalArgumentException("view must not be null.");
+		}
+		getVimService().resetListViewFromView(getMOR(), view.getMOR());
+	}
 }

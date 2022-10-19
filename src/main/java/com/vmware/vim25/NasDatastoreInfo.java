@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NasDatastoreInfo extends DatastoreInfo {
-    public HostNasVolume nas;
+	public HostNasVolume nas;
 
-    public HostNasVolume getNas() {
-        return this.nas;
-    }
+	public HostNasVolume getNas() {
+		return this.nas;
+	}
 
-    public void setNas(HostNasVolume nas) {
-        this.nas = nas;
-    }
+	public void setNas(HostNasVolume nas) {
+		this.nas = nas;
+	}
 }

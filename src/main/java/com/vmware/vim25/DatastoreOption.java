@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatastoreOption extends DynamicData {
-    public VirtualMachineDatastoreVolumeOption[] unsupportedVolumes;
+	public VirtualMachineDatastoreVolumeOption[] unsupportedVolumes;
 
-    public VirtualMachineDatastoreVolumeOption[] getUnsupportedVolumes() {
-        return this.unsupportedVolumes;
-    }
+	public VirtualMachineDatastoreVolumeOption[] getUnsupportedVolumes() {
+		return this.unsupportedVolumes;
+	}
 
-    public void setUnsupportedVolumes(VirtualMachineDatastoreVolumeOption[] unsupportedVolumes) {
-        this.unsupportedVolumes = unsupportedVolumes;
-    }
+	public void setUnsupportedVolumes(VirtualMachineDatastoreVolumeOption[] unsupportedVolumes) {
+		this.unsupportedVolumes = unsupportedVolumes;
+	}
 }

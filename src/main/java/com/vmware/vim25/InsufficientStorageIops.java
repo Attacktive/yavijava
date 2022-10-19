@@ -21,34 +21,33 @@ package com.vmware.vim25;
  */
 
 public class InsufficientStorageIops extends VimFault {
-    public long unreservedIops;
+	public long unreservedIops;
 
-    public long requestedIops;
+	public long requestedIops;
 
-    public String datastoreName;
+	public String datastoreName;
 
-    public long getUnreservedIops() {
-        return unreservedIops;
-    }
+	public long getUnreservedIops() {
+		return unreservedIops;
+	}
 
-    public void setUnreservedIops(long unreservedIops) {
-        this.unreservedIops = unreservedIops;
-    }
+	public void setUnreservedIops(long unreservedIops) {
+		this.unreservedIops = unreservedIops;
+	}
 
-    public long getRequestedIops() {
-        return requestedIops;
-    }
+	public long getRequestedIops() {
+		return requestedIops;
+	}
 
-    public void setRequestedIops(long requestedIops) {
-        this.requestedIops = requestedIops;
-    }
+	public void setRequestedIops(long requestedIops) {
+		this.requestedIops = requestedIops;
+	}
 
-    public String getDatastoreName() {
-        return datastoreName;
-    }
+	public String getDatastoreName() {
+		return datastoreName;
+	}
 
-    public void setDatastoreName(String datastoreName) {
-        this.datastoreName = datastoreName;
-    }
-
+	public void setDatastoreName(String datastoreName) {
+		this.datastoreName = datastoreName;
+	}
 }

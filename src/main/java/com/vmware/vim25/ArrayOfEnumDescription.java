@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEnumDescription {
-    public EnumDescription[] EnumDescription;
+	public EnumDescription[] EnumDescription;
 
-    public EnumDescription[] getEnumDescription() {
-        return this.EnumDescription;
-    }
+	public EnumDescription[] getEnumDescription() {
+		return this.EnumDescription;
+	}
 
-    public EnumDescription getEnumDescription(int i) {
-        return this.EnumDescription[i];
-    }
+	public EnumDescription getEnumDescription(int i) {
+		return this.EnumDescription[i];
+	}
 
-    public void setEnumDescription(EnumDescription[] EnumDescription) {
-        this.EnumDescription = EnumDescription;
-    }
+	public void setEnumDescription(EnumDescription[] EnumDescription) {
+		this.EnumDescription = EnumDescription;
+	}
 }

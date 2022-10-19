@@ -21,24 +21,23 @@ package com.vmware.vim25;
  */
 
 public class ReplicationVmInProgressFault extends ReplicationVmFault {
-    public String requestedActivity;
+	public String requestedActivity;
 
-    public String inProgressActivity;
+	public String inProgressActivity;
 
-    public String getRequestedActivity() {
-        return requestedActivity;
-    }
+	public String getRequestedActivity() {
+		return requestedActivity;
+	}
 
-    public void setRequestedActivity(String requestedActivity) {
-        this.requestedActivity = requestedActivity;
-    }
+	public void setRequestedActivity(String requestedActivity) {
+		this.requestedActivity = requestedActivity;
+	}
 
-    public String getInProgressActivity() {
-        return inProgressActivity;
-    }
+	public String getInProgressActivity() {
+		return inProgressActivity;
+	}
 
-    public void setInProgressActivity(String inProgressActivity) {
-        this.inProgressActivity = inProgressActivity;
-    }
-
+	public void setInProgressActivity(String inProgressActivity) {
+		this.inProgressActivity = inProgressActivity;
+	}
 }

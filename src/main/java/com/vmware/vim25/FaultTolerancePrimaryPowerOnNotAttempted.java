@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FaultTolerancePrimaryPowerOnNotAttempted extends VmFaultToleranceIssue {
-    public ManagedObjectReference secondaryVm;
-    public ManagedObjectReference primaryVm;
+	public ManagedObjectReference secondaryVm;
+	public ManagedObjectReference primaryVm;
 
-    public ManagedObjectReference getSecondaryVm() {
-        return this.secondaryVm;
-    }
+	public ManagedObjectReference getSecondaryVm() {
+		return this.secondaryVm;
+	}
 
-    public ManagedObjectReference getPrimaryVm() {
-        return this.primaryVm;
-    }
+	public ManagedObjectReference getPrimaryVm() {
+		return this.primaryVm;
+	}
 
-    public void setSecondaryVm(ManagedObjectReference secondaryVm) {
-        this.secondaryVm = secondaryVm;
-    }
+	public void setSecondaryVm(ManagedObjectReference secondaryVm) {
+		this.secondaryVm = secondaryVm;
+	}
 
-    public void setPrimaryVm(ManagedObjectReference primaryVm) {
-        this.primaryVm = primaryVm;
-    }
+	public void setPrimaryVm(ManagedObjectReference primaryVm) {
+		this.primaryVm = primaryVm;
+	}
 }

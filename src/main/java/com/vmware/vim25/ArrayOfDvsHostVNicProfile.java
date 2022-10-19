@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsHostVNicProfile {
-    public DvsHostVNicProfile[] DvsHostVNicProfile;
+	public DvsHostVNicProfile[] DvsHostVNicProfile;
 
-    public DvsHostVNicProfile[] getDvsHostVNicProfile() {
-        return this.DvsHostVNicProfile;
-    }
+	public DvsHostVNicProfile[] getDvsHostVNicProfile() {
+		return this.DvsHostVNicProfile;
+	}
 
-    public DvsHostVNicProfile getDvsHostVNicProfile(int i) {
-        return this.DvsHostVNicProfile[i];
-    }
+	public DvsHostVNicProfile getDvsHostVNicProfile(int i) {
+		return this.DvsHostVNicProfile[i];
+	}
 
-    public void setDvsHostVNicProfile(DvsHostVNicProfile[] DvsHostVNicProfile) {
-        this.DvsHostVNicProfile = DvsHostVNicProfile;
-    }
+	public void setDvsHostVNicProfile(DvsHostVNicProfile[] DvsHostVNicProfile) {
+		this.DvsHostVNicProfile = DvsHostVNicProfile;
+	}
 }

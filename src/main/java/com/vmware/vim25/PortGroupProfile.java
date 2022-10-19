@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PortGroupProfile extends ApplyProfile {
-    public String key;
-    public String name;
-    public VlanProfile vlan;
-    public VirtualSwitchSelectionProfile vswitch;
-    public NetworkPolicyProfile networkPolicy;
+	public String key;
+	public String name;
+	public VlanProfile vlan;
+	public VirtualSwitchSelectionProfile vswitch;
+	public NetworkPolicyProfile networkPolicy;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public VlanProfile getVlan() {
-        return this.vlan;
-    }
+	public VlanProfile getVlan() {
+		return this.vlan;
+	}
 
-    public VirtualSwitchSelectionProfile getVswitch() {
-        return this.vswitch;
-    }
+	public VirtualSwitchSelectionProfile getVswitch() {
+		return this.vswitch;
+	}
 
-    public NetworkPolicyProfile getNetworkPolicy() {
-        return this.networkPolicy;
-    }
+	public NetworkPolicyProfile getNetworkPolicy() {
+		return this.networkPolicy;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setVlan(VlanProfile vlan) {
-        this.vlan = vlan;
-    }
+	public void setVlan(VlanProfile vlan) {
+		this.vlan = vlan;
+	}
 
-    public void setVswitch(VirtualSwitchSelectionProfile vswitch) {
-        this.vswitch = vswitch;
-    }
+	public void setVswitch(VirtualSwitchSelectionProfile vswitch) {
+		this.vswitch = vswitch;
+	}
 
-    public void setNetworkPolicy(NetworkPolicyProfile networkPolicy) {
-        this.networkPolicy = networkPolicy;
-    }
+	public void setNetworkPolicy(NetworkPolicyProfile networkPolicy) {
+		this.networkPolicy = networkPolicy;
+	}
 }

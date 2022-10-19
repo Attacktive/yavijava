@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineBootOptionsBootableEthernetDevice extends VirtualMachineBootOptionsBootableDevice {
-    public int deviceKey;
+	public int deviceKey;
 
-    public int getDeviceKey() {
-        return this.deviceKey;
-    }
+	public int getDeviceKey() {
+		return this.deviceKey;
+	}
 
-    public void setDeviceKey(int deviceKey) {
-        this.deviceKey = deviceKey;
-    }
+	public void setDeviceKey(int deviceKey) {
+		this.deviceKey = deviceKey;
+	}
 }

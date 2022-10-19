@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfReplicationInfoDiskSettings {
-    public ReplicationInfoDiskSettings[] ReplicationInfoDiskSettings;
+	public ReplicationInfoDiskSettings[] ReplicationInfoDiskSettings;
 
-    public ReplicationInfoDiskSettings[] getReplicationInfoDiskSettings() {
-        return this.ReplicationInfoDiskSettings;
-    }
+	public ReplicationInfoDiskSettings[] getReplicationInfoDiskSettings() {
+		return this.ReplicationInfoDiskSettings;
+	}
 
-    public ReplicationInfoDiskSettings getReplicationInfoDiskSettings(int i) {
-        return this.ReplicationInfoDiskSettings[i];
-    }
+	public ReplicationInfoDiskSettings getReplicationInfoDiskSettings(int i) {
+		return this.ReplicationInfoDiskSettings[i];
+	}
 
-    public void setReplicationInfoDiskSettings(ReplicationInfoDiskSettings[] ReplicationInfoDiskSettings) {
-        this.ReplicationInfoDiskSettings = ReplicationInfoDiskSettings;
-    }
+	public void setReplicationInfoDiskSettings(ReplicationInfoDiskSettings[] ReplicationInfoDiskSettings) {
+		this.ReplicationInfoDiskSettings = ReplicationInfoDiskSettings;
+	}
 }

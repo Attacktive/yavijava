@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum HostLicensableResourceKey {
-    numCpuPackages("numCpuPackages"),
-    numCpuCores("numCpuCores"),
-    memorySize("memorySize"),
-    memoryForVms("memoryForVms"),
-    numVmsStarted("numVmsStarted"),
-    numVmsStarting("numVmsStarting");
+	numCpuPackages("numCpuPackages"),
+	numCpuCores("numCpuCores"),
+	memorySize("memorySize"),
+	memoryForVms("memoryForVms"),
+	numVmsStarted("numVmsStarted"),
+	numVmsStarting("numVmsStarting");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostLicensableResourceKey(String val) {
-        this.val = val;
-    }
+	private HostLicensableResourceKey(String val) {
+		this.val = val;
+	}
 }

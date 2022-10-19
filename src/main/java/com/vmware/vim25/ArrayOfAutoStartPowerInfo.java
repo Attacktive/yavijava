@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAutoStartPowerInfo {
-    public AutoStartPowerInfo[] AutoStartPowerInfo;
+	public AutoStartPowerInfo[] AutoStartPowerInfo;
 
-    public AutoStartPowerInfo[] getAutoStartPowerInfo() {
-        return this.AutoStartPowerInfo;
-    }
+	public AutoStartPowerInfo[] getAutoStartPowerInfo() {
+		return this.AutoStartPowerInfo;
+	}
 
-    public AutoStartPowerInfo getAutoStartPowerInfo(int i) {
-        return this.AutoStartPowerInfo[i];
-    }
+	public AutoStartPowerInfo getAutoStartPowerInfo(int i) {
+		return this.AutoStartPowerInfo[i];
+	}
 
-    public void setAutoStartPowerInfo(AutoStartPowerInfo[] AutoStartPowerInfo) {
-        this.AutoStartPowerInfo = AutoStartPowerInfo;
-    }
+	public void setAutoStartPowerInfo(AutoStartPowerInfo[] AutoStartPowerInfo) {
+		this.AutoStartPowerInfo = AutoStartPowerInfo;
+	}
 }

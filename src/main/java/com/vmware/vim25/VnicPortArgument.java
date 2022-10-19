@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VnicPortArgument extends DynamicData {
-    public String vnic;
-    public DistributedVirtualSwitchPortConnection port;
+	public String vnic;
+	public DistributedVirtualSwitchPortConnection port;
 
-    public String getVnic() {
-        return this.vnic;
-    }
+	public String getVnic() {
+		return this.vnic;
+	}
 
-    public DistributedVirtualSwitchPortConnection getPort() {
-        return this.port;
-    }
+	public DistributedVirtualSwitchPortConnection getPort() {
+		return this.port;
+	}
 
-    public void setVnic(String vnic) {
-        this.vnic = vnic;
-    }
+	public void setVnic(String vnic) {
+		this.vnic = vnic;
+	}
 
-    public void setPort(DistributedVirtualSwitchPortConnection port) {
-        this.port = port;
-    }
+	public void setPort(DistributedVirtualSwitchPortConnection port) {
+		this.port = port;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPlugStoreTopologyDevice extends DynamicData {
-    public String key;
-    public String lun;
-    public String[] path;
+	public String key;
+	public String lun;
+	public String[] path;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public String getLun() {
-        return this.lun;
-    }
+	public String getLun() {
+		return this.lun;
+	}
 
-    public String[] getPath() {
-        return this.path;
-    }
+	public String[] getPath() {
+		return this.path;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setLun(String lun) {
-        this.lun = lun;
-    }
+	public void setLun(String lun) {
+		this.lun = lun;
+	}
 
-    public void setPath(String[] path) {
-        this.path = path;
-    }
+	public void setPath(String[] path) {
+		this.path = path;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmSnmpCompletedEvent extends AlarmEvent {
-    public ManagedEntityEventArgument entity;
+	public ManagedEntityEventArgument entity;
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 }

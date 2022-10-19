@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfApplyProfile {
-    public ApplyProfile[] ApplyProfile;
+	public ApplyProfile[] ApplyProfile;
 
-    public ApplyProfile[] getApplyProfile() {
-        return this.ApplyProfile;
-    }
+	public ApplyProfile[] getApplyProfile() {
+		return this.ApplyProfile;
+	}
 
-    public ApplyProfile getApplyProfile(int i) {
-        return this.ApplyProfile[i];
-    }
+	public ApplyProfile getApplyProfile(int i) {
+		return this.ApplyProfile[i];
+	}
 
-    public void setApplyProfile(ApplyProfile[] ApplyProfile) {
-        this.ApplyProfile = ApplyProfile;
-    }
+	public void setApplyProfile(ApplyProfile[] ApplyProfile) {
+		this.ApplyProfile = ApplyProfile;
+	}
 }

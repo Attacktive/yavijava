@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineMetadataManagerVmMetadataOp {
-    Update("Update"),
-    Remove("Remove");
+	Update("Update"),
+	Remove("Remove");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineMetadataManagerVmMetadataOp(String val) {
-        this.val = val;
-    }
+	private VirtualMachineMetadataManagerVmMetadataOp(String val) {
+		this.val = val;
+	}
 }

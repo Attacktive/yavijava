@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ToolsConfigInfoToolsLastInstallInfo extends DynamicData {
-    public int counter;
-    public LocalizedMethodFault fault;
+	public int counter;
+	public LocalizedMethodFault fault;
 
-    public int getCounter() {
-        return this.counter;
-    }
+	public int getCounter() {
+		return this.counter;
+	}
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setCounter(int counter) {
-        this.counter = counter;
-    }
+	public void setCounter(int counter) {
+		this.counter = counter;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

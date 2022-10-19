@@ -35,19 +35,19 @@ package com.vmware.vim25;
  */
 
 public enum HostDasErrorEventHostDasErrorReason {
-    configFailed("configFailed"),
-    timeout("timeout"),
-    communicationInitFailed("communicationInitFailed"),
-    healthCheckScriptFailed("healthCheckScriptFailed"),
-    agentFailed("agentFailed"),
-    agentShutdown("agentShutdown"),
-    isolationAddressUnpingable("isolationAddressUnpingable"),
-    other("other");
+	configFailed("configFailed"),
+	timeout("timeout"),
+	communicationInitFailed("communicationInitFailed"),
+	healthCheckScriptFailed("healthCheckScriptFailed"),
+	agentFailed("agentFailed"),
+	agentShutdown("agentShutdown"),
+	isolationAddressUnpingable("isolationAddressUnpingable"),
+	other("other");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostDasErrorEventHostDasErrorReason(String val) {
-        this.val = val;
-    }
+	private HostDasErrorEventHostDasErrorReason(String val) {
+		this.val = val;
+	}
 }

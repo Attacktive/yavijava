@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineMetadataManagerVmMetadataResult extends DynamicData {
-    public VirtualMachineMetadataManagerVmMetadata vmMetadata;
-    public LocalizedMethodFault error;
+	public VirtualMachineMetadataManagerVmMetadata vmMetadata;
+	public LocalizedMethodFault error;
 
-    public VirtualMachineMetadataManagerVmMetadata getVmMetadata() {
-        return this.vmMetadata;
-    }
+	public VirtualMachineMetadataManagerVmMetadata getVmMetadata() {
+		return this.vmMetadata;
+	}
 
-    public LocalizedMethodFault getError() {
-        return this.error;
-    }
+	public LocalizedMethodFault getError() {
+		return this.error;
+	}
 
-    public void setVmMetadata(VirtualMachineMetadataManagerVmMetadata vmMetadata) {
-        this.vmMetadata = vmMetadata;
-    }
+	public void setVmMetadata(VirtualMachineMetadataManagerVmMetadata vmMetadata) {
+		this.vmMetadata = vmMetadata;
+	}
 
-    public void setError(LocalizedMethodFault error) {
-        this.error = error;
-    }
+	public void setError(LocalizedMethodFault error) {
+		this.error = error;
+	}
 }

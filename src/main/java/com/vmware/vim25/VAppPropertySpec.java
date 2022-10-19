@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VAppPropertySpec extends ArrayUpdateSpec {
-    public VAppPropertyInfo info;
+	public VAppPropertyInfo info;
 
-    public VAppPropertyInfo getInfo() {
-        return this.info;
-    }
+	public VAppPropertyInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(VAppPropertyInfo info) {
-        this.info = info;
-    }
+	public void setInfo(VAppPropertyInfo info) {
+		this.info = info;
+	}
 }

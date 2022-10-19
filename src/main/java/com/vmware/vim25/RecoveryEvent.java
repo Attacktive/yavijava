@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RecoveryEvent extends DvsEvent {
-    public String hostName;
-    public String portKey;
-    public String dvsUuid;
-    public String vnic;
+	public String hostName;
+	public String portKey;
+	public String dvsUuid;
+	public String vnic;
 
-    public String getHostName() {
-        return this.hostName;
-    }
+	public String getHostName() {
+		return this.hostName;
+	}
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public String getDvsUuid() {
-        return this.dvsUuid;
-    }
+	public String getDvsUuid() {
+		return this.dvsUuid;
+	}
 
-    public String getVnic() {
-        return this.vnic;
-    }
+	public String getVnic() {
+		return this.vnic;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 
-    public void setDvsUuid(String dvsUuid) {
-        this.dvsUuid = dvsUuid;
-    }
+	public void setDvsUuid(String dvsUuid) {
+		this.dvsUuid = dvsUuid;
+	}
 
-    public void setVnic(String vnic) {
-        this.vnic = vnic;
-    }
+	public void setVnic(String vnic) {
+		this.vnic = vnic;
+	}
 }

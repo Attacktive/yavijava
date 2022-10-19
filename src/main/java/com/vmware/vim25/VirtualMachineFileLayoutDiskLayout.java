@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineFileLayoutDiskLayout extends DynamicData {
-    public int key;
-    public String[] diskFile;
+	public int key;
+	public String[] diskFile;
 
-    public int getKey() {
-        return this.key;
-    }
+	public int getKey() {
+		return this.key;
+	}
 
-    public String[] getDiskFile() {
-        return this.diskFile;
-    }
+	public String[] getDiskFile() {
+		return this.diskFile;
+	}
 
-    public void setKey(int key) {
-        this.key = key;
-    }
+	public void setKey(int key) {
+		this.key = key;
+	}
 
-    public void setDiskFile(String[] diskFile) {
-        this.diskFile = diskFile;
-    }
+	public void setDiskFile(String[] diskFile) {
+		this.diskFile = diskFile;
+	}
 }

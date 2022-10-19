@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNetIpConfigInfoIpAddress {
-    public NetIpConfigInfoIpAddress[] NetIpConfigInfoIpAddress;
+	public NetIpConfigInfoIpAddress[] NetIpConfigInfoIpAddress;
 
-    public NetIpConfigInfoIpAddress[] getNetIpConfigInfoIpAddress() {
-        return this.NetIpConfigInfoIpAddress;
-    }
+	public NetIpConfigInfoIpAddress[] getNetIpConfigInfoIpAddress() {
+		return this.NetIpConfigInfoIpAddress;
+	}
 
-    public NetIpConfigInfoIpAddress getNetIpConfigInfoIpAddress(int i) {
-        return this.NetIpConfigInfoIpAddress[i];
-    }
+	public NetIpConfigInfoIpAddress getNetIpConfigInfoIpAddress(int i) {
+		return this.NetIpConfigInfoIpAddress[i];
+	}
 
-    public void setNetIpConfigInfoIpAddress(NetIpConfigInfoIpAddress[] NetIpConfigInfoIpAddress) {
-        this.NetIpConfigInfoIpAddress = NetIpConfigInfoIpAddress;
-    }
+	public void setNetIpConfigInfoIpAddress(NetIpConfigInfoIpAddress[] NetIpConfigInfoIpAddress) {
+		this.NetIpConfigInfoIpAddress = NetIpConfigInfoIpAddress;
+	}
 }

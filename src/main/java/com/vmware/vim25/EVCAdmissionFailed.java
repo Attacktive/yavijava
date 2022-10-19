@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EVCAdmissionFailed extends NotSupportedHostInCluster {
-    public LocalizedMethodFault[] faults;
+	public LocalizedMethodFault[] faults;
 
-    public LocalizedMethodFault[] getFaults() {
-        return this.faults;
-    }
+	public LocalizedMethodFault[] getFaults() {
+		return this.faults;
+	}
 
-    public void setFaults(LocalizedMethodFault[] faults) {
-        this.faults = faults;
-    }
+	public void setFaults(LocalizedMethodFault[] faults) {
+		this.faults = faults;
+	}
 }

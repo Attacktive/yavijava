@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostCpuInfo extends DynamicData {
-    public short numCpuPackages;
-    public short numCpuCores;
-    public short numCpuThreads;
-    public long hz;
+	public short numCpuPackages;
+	public short numCpuCores;
+	public short numCpuThreads;
+	public long hz;
 
-    public short getNumCpuPackages() {
-        return this.numCpuPackages;
-    }
+	public short getNumCpuPackages() {
+		return this.numCpuPackages;
+	}
 
-    public short getNumCpuCores() {
-        return this.numCpuCores;
-    }
+	public short getNumCpuCores() {
+		return this.numCpuCores;
+	}
 
-    public short getNumCpuThreads() {
-        return this.numCpuThreads;
-    }
+	public short getNumCpuThreads() {
+		return this.numCpuThreads;
+	}
 
-    public long getHz() {
-        return this.hz;
-    }
+	public long getHz() {
+		return this.hz;
+	}
 
-    public void setNumCpuPackages(short numCpuPackages) {
-        this.numCpuPackages = numCpuPackages;
-    }
+	public void setNumCpuPackages(short numCpuPackages) {
+		this.numCpuPackages = numCpuPackages;
+	}
 
-    public void setNumCpuCores(short numCpuCores) {
-        this.numCpuCores = numCpuCores;
-    }
+	public void setNumCpuCores(short numCpuCores) {
+		this.numCpuCores = numCpuCores;
+	}
 
-    public void setNumCpuThreads(short numCpuThreads) {
-        this.numCpuThreads = numCpuThreads;
-    }
+	public void setNumCpuThreads(short numCpuThreads) {
+		this.numCpuThreads = numCpuThreads;
+	}
 
-    public void setHz(long hz) {
-        this.hz = hz;
-    }
+	public void setHz(long hz) {
+		this.hz = hz;
+	}
 }

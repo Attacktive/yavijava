@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostNumericSensorHealthState {
-    unknown("unknown"),
-    green("green"),
-    yellow("yellow"),
-    red("red");
+	unknown("unknown"),
+	green("green"),
+	yellow("yellow"),
+	red("red");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostNumericSensorHealthState(String val) {
-        this.val = val;
-    }
+	private HostNumericSensorHealthState(String val) {
+		this.val = val;
+	}
 }

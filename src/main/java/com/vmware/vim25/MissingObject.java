@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MissingObject extends DynamicData {
-    public ManagedObjectReference obj;
-    public LocalizedMethodFault fault;
+	public ManagedObjectReference obj;
+	public LocalizedMethodFault fault;
 
-    public ManagedObjectReference getObj() {
-        return this.obj;
-    }
+	public ManagedObjectReference getObj() {
+		return this.obj;
+	}
 
-    public LocalizedMethodFault getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault getFault() {
+		return this.fault;
+	}
 
-    public void setObj(ManagedObjectReference obj) {
-        this.obj = obj;
-    }
+	public void setObj(ManagedObjectReference obj) {
+		this.obj = obj;
+	}
 
-    public void setFault(LocalizedMethodFault fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault fault) {
+		this.fault = fault;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsImportEvent extends DvsEvent {
-    public String importType;
+	public String importType;
 
-    public String getImportType() {
-        return this.importType;
-    }
+	public String getImportType() {
+		return this.importType;
+	}
 
-    public void setImportType(String importType) {
-        this.importType = importType;
-    }
+	public void setImportType(String importType) {
+		this.importType = importType;
+	}
 }

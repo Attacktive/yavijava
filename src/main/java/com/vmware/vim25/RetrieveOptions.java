@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RetrieveOptions extends DynamicData {
-    public Integer maxObjects;
+	public Integer maxObjects;
 
-    public Integer getMaxObjects() {
-        return this.maxObjects;
-    }
+	public Integer getMaxObjects() {
+		return this.maxObjects;
+	}
 
-    public void setMaxObjects(Integer maxObjects) {
-        this.maxObjects = maxObjects;
-    }
+	public void setMaxObjects(Integer maxObjects) {
+		this.maxObjects = maxObjects;
+	}
 }

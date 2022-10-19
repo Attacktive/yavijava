@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileSerializedCreateSpec extends ProfileCreateSpec {
-    public String profileConfigString;
+	public String profileConfigString;
 
-    public String getProfileConfigString() {
-        return this.profileConfigString;
-    }
+	public String getProfileConfigString() {
+		return this.profileConfigString;
+	}
 
-    public void setProfileConfigString(String profileConfigString) {
-        this.profileConfigString = profileConfigString;
-    }
+	public void setProfileConfigString(String profileConfigString) {
+		this.profileConfigString = profileConfigString;
+	}
 }

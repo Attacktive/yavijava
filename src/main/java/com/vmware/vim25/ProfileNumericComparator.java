@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum ProfileNumericComparator {
-    lessThan("lessThan"),
-    lessThanEqual("lessThanEqual"),
-    equal("equal"),
-    notEqual("notEqual"),
-    greaterThanEqual("greaterThanEqual"),
-    greaterThan("greaterThan");
+	lessThan("lessThan"),
+	lessThanEqual("lessThanEqual"),
+	equal("equal"),
+	notEqual("notEqual"),
+	greaterThanEqual("greaterThanEqual"),
+	greaterThan("greaterThan");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ProfileNumericComparator(String val) {
-        this.val = val;
-    }
+	private ProfileNumericComparator(String val) {
+		this.val = val;
+	}
 }

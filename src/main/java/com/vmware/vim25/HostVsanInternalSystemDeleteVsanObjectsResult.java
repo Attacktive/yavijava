@@ -17,31 +17,31 @@ package com.vmware.vim25;
  */
 public class HostVsanInternalSystemDeleteVsanObjectsResult extends DynamicData {
 
-    public LocalizableMessage[] failureReason;
-    public boolean success;
-    public String uuid;
+	public LocalizableMessage[] failureReason;
+	public boolean success;
+	public String uuid;
 
-    public LocalizableMessage[] getFailureReason() {
-        return failureReason;
-    }
+	public LocalizableMessage[] getFailureReason() {
+		return failureReason;
+	}
 
-    public void setFailureReason(LocalizableMessage[] failureReason) {
-        this.failureReason = failureReason;
-    }
+	public void setFailureReason(LocalizableMessage[] failureReason) {
+		this.failureReason = failureReason;
+	}
 
-    public boolean isSuccess() {
-        return success;
-    }
+	public boolean isSuccess() {
+		return success;
+	}
 
-    public void setSuccess(boolean success) {
-        this.success = success;
-    }
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
 
-    public String getUuid() {
-        return uuid;
-    }
+	public String getUuid() {
+		return uuid;
+	}
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 }

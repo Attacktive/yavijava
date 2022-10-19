@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMemberHealthCheckResult extends DynamicData {
-    public String summary;
+	public String summary;
 
-    public String getSummary() {
-        return this.summary;
-    }
+	public String getSummary() {
+		return this.summary;
+	}
 
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVirtualNicManagerInfo extends DynamicData {
-    public VirtualNicManagerNetConfig[] netConfig;
+	public VirtualNicManagerNetConfig[] netConfig;
 
-    public VirtualNicManagerNetConfig[] getNetConfig() {
-        return this.netConfig;
-    }
+	public VirtualNicManagerNetConfig[] getNetConfig() {
+		return this.netConfig;
+	}
 
-    public void setNetConfig(VirtualNicManagerNetConfig[] netConfig) {
-        this.netConfig = netConfig;
-    }
+	public void setNetConfig(VirtualNicManagerNetConfig[] netConfig) {
+		this.netConfig = netConfig;
+	}
 }

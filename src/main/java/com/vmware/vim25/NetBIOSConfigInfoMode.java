@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum NetBIOSConfigInfoMode {
-    unknown("unknown"),
-    enabled("enabled"),
-    disabled("disabled"),
-    enabledViaDHCP("enabledViaDHCP");
+	unknown("unknown"),
+	enabled("enabled"),
+	disabled("disabled"),
+	enabledViaDHCP("enabledViaDHCP");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NetBIOSConfigInfoMode(String val) {
-        this.val = val;
-    }
+	private NetBIOSConfigInfoMode(String val) {
+		this.val = val;
+	}
 }

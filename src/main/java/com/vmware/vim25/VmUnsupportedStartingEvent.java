@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmUnsupportedStartingEvent extends VmStartingEvent {
-    public String guestId;
+	public String guestId;
 
-    public String getGuestId() {
-        return this.guestId;
-    }
+	public String getGuestId() {
+		return this.guestId;
+	}
 
-    public void setGuestId(String guestId) {
-        this.guestId = guestId;
-    }
+	public void setGuestId(String guestId) {
+		this.guestId = guestId;
+	}
 }

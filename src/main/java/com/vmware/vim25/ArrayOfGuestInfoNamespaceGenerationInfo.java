@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfGuestInfoNamespaceGenerationInfo {
-    public GuestInfoNamespaceGenerationInfo[] GuestInfoNamespaceGenerationInfo;
+	public GuestInfoNamespaceGenerationInfo[] GuestInfoNamespaceGenerationInfo;
 
-    public GuestInfoNamespaceGenerationInfo[] getGuestInfoNamespaceGenerationInfo() {
-        return this.GuestInfoNamespaceGenerationInfo;
-    }
+	public GuestInfoNamespaceGenerationInfo[] getGuestInfoNamespaceGenerationInfo() {
+		return this.GuestInfoNamespaceGenerationInfo;
+	}
 
-    public GuestInfoNamespaceGenerationInfo getGuestInfoNamespaceGenerationInfo(int i) {
-        return this.GuestInfoNamespaceGenerationInfo[i];
-    }
+	public GuestInfoNamespaceGenerationInfo getGuestInfoNamespaceGenerationInfo(int i) {
+		return this.GuestInfoNamespaceGenerationInfo[i];
+	}
 
-    public void setGuestInfoNamespaceGenerationInfo(GuestInfoNamespaceGenerationInfo[] GuestInfoNamespaceGenerationInfo) {
-        this.GuestInfoNamespaceGenerationInfo = GuestInfoNamespaceGenerationInfo;
-    }
+	public void setGuestInfoNamespaceGenerationInfo(GuestInfoNamespaceGenerationInfo[] GuestInfoNamespaceGenerationInfo) {
+		this.GuestInfoNamespaceGenerationInfo = GuestInfoNamespaceGenerationInfo;
+	}
 }

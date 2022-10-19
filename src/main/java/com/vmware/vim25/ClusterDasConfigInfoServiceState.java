@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasConfigInfoServiceState {
-    disabled("disabled"),
-    enabled("enabled");
+	disabled("disabled"),
+	enabled("enabled");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasConfigInfoServiceState(String val) {
-        this.val = val;
-    }
+	private ClusterDasConfigInfoServiceState(String val) {
+		this.val = val;
+	}
 }

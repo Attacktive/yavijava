@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ReplicationInvalidOptions extends ReplicationFault {
-    public String options;
-    public ManagedObjectReference entity;
+	public String options;
+	public ManagedObjectReference entity;
 
-    public String getOptions() {
-        return this.options;
-    }
+	public String getOptions() {
+		return this.options;
+	}
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public void setOptions(String options) {
-        this.options = options;
-    }
+	public void setOptions(String options) {
+		this.options = options;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 }

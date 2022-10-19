@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DiagnosticPartitionStorageType {
-    directAttached("directAttached"),
-    networkAttached("networkAttached");
+	directAttached("directAttached"),
+	networkAttached("networkAttached");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DiagnosticPartitionStorageType(String val) {
-        this.val = val;
-    }
+	private DiagnosticPartitionStorageType(String val) {
+		this.val = val;
+	}
 }

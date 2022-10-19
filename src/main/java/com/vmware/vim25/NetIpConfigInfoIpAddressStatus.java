@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum NetIpConfigInfoIpAddressStatus {
-    preferred("preferred"),
-    deprecated("deprecated"),
-    invalid("invalid"),
-    inaccessible("inaccessible"),
-    unknown("unknown"),
-    tentative("tentative"),
-    duplicate("duplicate");
+	preferred("preferred"),
+	deprecated("deprecated"),
+	invalid("invalid"),
+	inaccessible("inaccessible"),
+	unknown("unknown"),
+	tentative("tentative"),
+	duplicate("duplicate");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NetIpConfigInfoIpAddressStatus(String val) {
-        this.val = val;
-    }
+	private NetIpConfigInfoIpAddressStatus(String val) {
+		this.val = val;
+	}
 }

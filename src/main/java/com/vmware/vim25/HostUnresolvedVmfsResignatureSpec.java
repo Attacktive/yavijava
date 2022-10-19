@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostUnresolvedVmfsResignatureSpec extends DynamicData {
-    public String[] extentDevicePath;
+	public String[] extentDevicePath;
 
-    public String[] getExtentDevicePath() {
-        return this.extentDevicePath;
-    }
+	public String[] getExtentDevicePath() {
+		return this.extentDevicePath;
+	}
 
-    public void setExtentDevicePath(String[] extentDevicePath) {
-        this.extentDevicePath = extentDevicePath;
-    }
+	public void setExtentDevicePath(String[] extentDevicePath) {
+		this.extentDevicePath = extentDevicePath;
+	}
 }

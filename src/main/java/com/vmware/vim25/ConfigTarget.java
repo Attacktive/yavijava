@@ -28,53 +28,55 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 
 package com.vmware.vim25;
+
 import lombok.Getter;
 import lombok.Setter;
 
 /**
  * Created by Michael Rice on Sun May 24 16:15:35 CDT 2015
- *
+ * <p>
  * Copyright 2015 Michael Rice
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
  * @since 6.0
  */
 
 public class ConfigTarget extends DynamicData {
-    @Getter @Setter public int numCpus;
-    @Getter @Setter public int numCpuCores;
-    @Getter @Setter public int numNumaNodes;
-    @Getter @Setter public Boolean smcPresent;
-    @Getter @Setter public VirtualMachineDatastoreInfo[] datastore;
-    @Getter @Setter public VirtualMachineNetworkInfo[] network;
-    @Getter @Setter public OpaqueNetworkTargetInfo[] opaqueNetwork;
-    @Getter @Setter public DistributedVirtualPortgroupInfo[] distributedVirtualPortgroup;
-    @Getter @Setter public DistributedVirtualSwitchInfo[] distributedVirtualSwitch;
-    @Getter @Setter public VirtualMachineCdromInfo[] cdRom;
-    @Getter @Setter public VirtualMachineSerialInfo[] serial;
-    @Getter @Setter public VirtualMachineParallelInfo[] parallel;
-    @Getter @Setter public VirtualMachineSoundInfo[] sound;
-    @Getter @Setter public VirtualMachineUsbInfo[] usb;
-    @Getter @Setter public VirtualMachineFloppyInfo[] floppy;
-    @Getter @Setter public VirtualMachineLegacyNetworkSwitchInfo[] legacyNetworkInfo;
-    @Getter @Setter public VirtualMachineScsiPassthroughInfo[] scsiPassthrough;
-    @Getter @Setter public VirtualMachineScsiDiskDeviceInfo[] scsiDisk;
-    @Getter @Setter public VirtualMachineIdeDiskDeviceInfo[] ideDisk;
-    @Getter @Setter public int maxMemMBOptimalPerf;
-    @Getter @Setter public ResourcePoolRuntimeInfo resourcePool;
-    @Getter @Setter public Boolean autoVmotion;
-    @Getter @Setter public VirtualMachinePciPassthroughInfo[] pciPassthrough;
-    @Getter @Setter public VirtualMachineSriovInfo[] sriov;
-    @Getter @Setter public VirtualMachineVFlashModuleInfo[] vFlashModule;
-    @Getter @Setter public VirtualMachinePciSharedGpuPassthroughInfo[] sharedGpuPassthroughTypes;
+	@Getter @Setter public int numCpus;
+	@Getter @Setter public int numCpuCores;
+	@Getter @Setter public int numNumaNodes;
+	@Getter @Setter public Boolean smcPresent;
+	@Getter @Setter public VirtualMachineDatastoreInfo[] datastore;
+	@Getter @Setter public VirtualMachineNetworkInfo[] network;
+	@Getter @Setter public OpaqueNetworkTargetInfo[] opaqueNetwork;
+	@Getter @Setter public DistributedVirtualPortgroupInfo[] distributedVirtualPortgroup;
+	@Getter @Setter public DistributedVirtualSwitchInfo[] distributedVirtualSwitch;
+	@Getter @Setter public VirtualMachineCdromInfo[] cdRom;
+	@Getter @Setter public VirtualMachineSerialInfo[] serial;
+	@Getter @Setter public VirtualMachineParallelInfo[] parallel;
+	@Getter @Setter public VirtualMachineSoundInfo[] sound;
+	@Getter @Setter public VirtualMachineUsbInfo[] usb;
+	@Getter @Setter public VirtualMachineFloppyInfo[] floppy;
+	@Getter @Setter public VirtualMachineLegacyNetworkSwitchInfo[] legacyNetworkInfo;
+	@Getter @Setter public VirtualMachineScsiPassthroughInfo[] scsiPassthrough;
+	@Getter @Setter public VirtualMachineScsiDiskDeviceInfo[] scsiDisk;
+	@Getter @Setter public VirtualMachineIdeDiskDeviceInfo[] ideDisk;
+	@Getter @Setter public int maxMemMBOptimalPerf;
+	@Getter @Setter public ResourcePoolRuntimeInfo resourcePool;
+	@Getter @Setter public Boolean autoVmotion;
+	@Getter @Setter public VirtualMachinePciPassthroughInfo[] pciPassthrough;
+	@Getter @Setter public VirtualMachineSriovInfo[] sriov;
+	@Getter @Setter public VirtualMachineVFlashModuleInfo[] vFlashModule;
+	@Getter @Setter public VirtualMachinePciSharedGpuPassthroughInfo[] sharedGpuPassthroughTypes;
 }

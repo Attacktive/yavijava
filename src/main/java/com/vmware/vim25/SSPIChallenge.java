@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SSPIChallenge extends VimFault {
-    public String base64Token;
+	public String base64Token;
 
-    public String getBase64Token() {
-        return this.base64Token;
-    }
+	public String getBase64Token() {
+		return this.base64Token;
+	}
 
-    public void setBase64Token(String base64Token) {
-        this.base64Token = base64Token;
-    }
+	public void setBase64Token(String base64Token) {
+		this.base64Token = base64Token;
+	}
 }

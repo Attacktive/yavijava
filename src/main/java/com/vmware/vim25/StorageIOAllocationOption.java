@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageIOAllocationOption extends DynamicData {
-    public LongOption limitOption;
-    public SharesOption sharesOption;
+	public LongOption limitOption;
+	public SharesOption sharesOption;
 
-    public LongOption getLimitOption() {
-        return this.limitOption;
-    }
+	public LongOption getLimitOption() {
+		return this.limitOption;
+	}
 
-    public SharesOption getSharesOption() {
-        return this.sharesOption;
-    }
+	public SharesOption getSharesOption() {
+		return this.sharesOption;
+	}
 
-    public void setLimitOption(LongOption limitOption) {
-        this.limitOption = limitOption;
-    }
+	public void setLimitOption(LongOption limitOption) {
+		this.limitOption = limitOption;
+	}
 
-    public void setSharesOption(SharesOption sharesOption) {
-        this.sharesOption = sharesOption;
-    }
+	public void setSharesOption(SharesOption sharesOption) {
+		this.sharesOption = sharesOption;
+	}
 }

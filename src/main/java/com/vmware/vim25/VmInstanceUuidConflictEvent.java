@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmInstanceUuidConflictEvent extends VmEvent {
-    public VmEventArgument conflictedVm;
-    public String instanceUuid;
+	public VmEventArgument conflictedVm;
+	public String instanceUuid;
 
-    public VmEventArgument getConflictedVm() {
-        return this.conflictedVm;
-    }
+	public VmEventArgument getConflictedVm() {
+		return this.conflictedVm;
+	}
 
-    public String getInstanceUuid() {
-        return this.instanceUuid;
-    }
+	public String getInstanceUuid() {
+		return this.instanceUuid;
+	}
 
-    public void setConflictedVm(VmEventArgument conflictedVm) {
-        this.conflictedVm = conflictedVm;
-    }
+	public void setConflictedVm(VmEventArgument conflictedVm) {
+		this.conflictedVm = conflictedVm;
+	}
 
-    public void setInstanceUuid(String instanceUuid) {
-        this.instanceUuid = instanceUuid;
-    }
+	public void setInstanceUuid(String instanceUuid) {
+		this.instanceUuid = instanceUuid;
+	}
 }

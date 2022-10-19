@@ -21,14 +21,13 @@ package com.vmware.vim25;
  */
 
 public class NotSupportedHostForVmcp extends NotSupportedHost {
-    public String hostName;
+	public String hostName;
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
-
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 }

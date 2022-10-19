@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerOstNode extends DynamicData {
-    public String id;
-    public String type;
-    public OvfConsumerOvfSection[] section;
-    public OvfConsumerOstNode[] child;
-    public ManagedObjectReference entity;
+	public String id;
+	public String type;
+	public OvfConsumerOvfSection[] section;
+	public OvfConsumerOstNode[] child;
+	public ManagedObjectReference entity;
 
-    public String getId() {
-        return this.id;
-    }
+	public String getId() {
+		return this.id;
+	}
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public OvfConsumerOvfSection[] getSection() {
-        return this.section;
-    }
+	public OvfConsumerOvfSection[] getSection() {
+		return this.section;
+	}
 
-    public OvfConsumerOstNode[] getChild() {
-        return this.child;
-    }
+	public OvfConsumerOstNode[] getChild() {
+		return this.child;
+	}
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setSection(OvfConsumerOvfSection[] section) {
-        this.section = section;
-    }
+	public void setSection(OvfConsumerOvfSection[] section) {
+		this.section = section;
+	}
 
-    public void setChild(OvfConsumerOstNode[] child) {
-        this.child = child;
-    }
+	public void setChild(OvfConsumerOstNode[] child) {
+		this.child = child;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 }

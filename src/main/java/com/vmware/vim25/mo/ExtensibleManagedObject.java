@@ -29,9 +29,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.CustomFieldDef;
+import com.vmware.vim25.CustomFieldValue;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -40,19 +44,19 @@ import java.rmi.RemoteException;
  */
 
 abstract public class ExtensibleManagedObject extends ManagedObject {
-    public CustomFieldDef[] getAvailableField() throws InvalidProperty, RuntimeFault, RemoteException {
-        return (CustomFieldDef[]) getCurrentProperty("availableField");
-    }
+	public CustomFieldDef[] getAvailableField() throws InvalidProperty, RuntimeFault, RemoteException {
+		return (CustomFieldDef[])getCurrentProperty("availableField");
+	}
 
-    public CustomFieldValue[] getValues() throws InvalidProperty, RuntimeFault, RemoteException {
-        return (CustomFieldValue[]) getCurrentProperty("value");
-    }
+	public CustomFieldValue[] getValues() throws InvalidProperty, RuntimeFault, RemoteException {
+		return (CustomFieldValue[])getCurrentProperty("value");
+	}
 
-    public ExtensibleManagedObject(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public ExtensibleManagedObject(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public void setCustomValue(String key, String value) throws RuntimeFault, RemoteException {
-        getVimService().setCustomValue(getMOR(), key, value);
-    }
+	public void setCustomValue(String key, String value) throws RuntimeFault, RemoteException {
+		getVimService().setCustomValue(getMOR(), key, value);
+	}
 }

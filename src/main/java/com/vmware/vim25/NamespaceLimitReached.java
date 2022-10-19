@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NamespaceLimitReached extends VimFault {
-    public Integer limit;
+	public Integer limit;
 
-    public Integer getLimit() {
-        return this.limit;
-    }
+	public Integer getLimit() {
+		return this.limit;
+	}
 
-    public void setLimit(Integer limit) {
-        this.limit = limit;
-    }
+	public void setLimit(Integer limit) {
+		this.limit = limit;
+	}
 }

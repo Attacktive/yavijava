@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MismatchedBundle extends VimFault {
-    public String bundleUuid;
-    public String hostUuid;
-    public int bundleBuildNumber;
-    public int hostBuildNumber;
+	public String bundleUuid;
+	public String hostUuid;
+	public int bundleBuildNumber;
+	public int hostBuildNumber;
 
-    public String getBundleUuid() {
-        return this.bundleUuid;
-    }
+	public String getBundleUuid() {
+		return this.bundleUuid;
+	}
 
-    public String getHostUuid() {
-        return this.hostUuid;
-    }
+	public String getHostUuid() {
+		return this.hostUuid;
+	}
 
-    public int getBundleBuildNumber() {
-        return this.bundleBuildNumber;
-    }
+	public int getBundleBuildNumber() {
+		return this.bundleBuildNumber;
+	}
 
-    public int getHostBuildNumber() {
-        return this.hostBuildNumber;
-    }
+	public int getHostBuildNumber() {
+		return this.hostBuildNumber;
+	}
 
-    public void setBundleUuid(String bundleUuid) {
-        this.bundleUuid = bundleUuid;
-    }
+	public void setBundleUuid(String bundleUuid) {
+		this.bundleUuid = bundleUuid;
+	}
 
-    public void setHostUuid(String hostUuid) {
-        this.hostUuid = hostUuid;
-    }
+	public void setHostUuid(String hostUuid) {
+		this.hostUuid = hostUuid;
+	}
 
-    public void setBundleBuildNumber(int bundleBuildNumber) {
-        this.bundleBuildNumber = bundleBuildNumber;
-    }
+	public void setBundleBuildNumber(int bundleBuildNumber) {
+		this.bundleBuildNumber = bundleBuildNumber;
+	}
 
-    public void setHostBuildNumber(int hostBuildNumber) {
-        this.hostBuildNumber = hostBuildNumber;
-    }
+	public void setHostBuildNumber(int hostBuildNumber) {
+		this.hostBuildNumber = hostBuildNumber;
+	}
 }

@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum PropertyChangeOp {
-    add("add"),
-    remove("remove"),
-    assign("assign"),
-    indirectRemove("indirectRemove");
+	add("add"),
+	remove("remove"),
+	assign("assign"),
+	indirectRemove("indirectRemove");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PropertyChangeOp(String val) {
-        this.val = val;
-    }
+	private PropertyChangeOp(String val) {
+		this.val = val;
+	}
 }

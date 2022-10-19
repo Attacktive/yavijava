@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ScsiLunVStorageSupportStatus {
-    vStorageSupported("vStorageSupported"),
-    vStorageUnsupported("vStorageUnsupported"),
-    vStorageUnknown("vStorageUnknown");
+	vStorageSupported("vStorageSupported"),
+	vStorageUnsupported("vStorageUnsupported"),
+	vStorageUnknown("vStorageUnknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScsiLunVStorageSupportStatus(String val) {
-        this.val = val;
-    }
+	private ScsiLunVStorageSupportStatus(String val) {
+		this.val = val;
+	}
 }

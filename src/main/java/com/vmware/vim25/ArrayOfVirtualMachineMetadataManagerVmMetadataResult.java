@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineMetadataManagerVmMetadataResult {
-    public VirtualMachineMetadataManagerVmMetadataResult[] VirtualMachineMetadataManagerVmMetadataResult;
+	public VirtualMachineMetadataManagerVmMetadataResult[] VirtualMachineMetadataManagerVmMetadataResult;
 
-    public VirtualMachineMetadataManagerVmMetadataResult[] getVirtualMachineMetadataManagerVmMetadataResult() {
-        return this.VirtualMachineMetadataManagerVmMetadataResult;
-    }
+	public VirtualMachineMetadataManagerVmMetadataResult[] getVirtualMachineMetadataManagerVmMetadataResult() {
+		return this.VirtualMachineMetadataManagerVmMetadataResult;
+	}
 
-    public VirtualMachineMetadataManagerVmMetadataResult getVirtualMachineMetadataManagerVmMetadataResult(int i) {
-        return this.VirtualMachineMetadataManagerVmMetadataResult[i];
-    }
+	public VirtualMachineMetadataManagerVmMetadataResult getVirtualMachineMetadataManagerVmMetadataResult(int i) {
+		return this.VirtualMachineMetadataManagerVmMetadataResult[i];
+	}
 
-    public void setVirtualMachineMetadataManagerVmMetadataResult(VirtualMachineMetadataManagerVmMetadataResult[] VirtualMachineMetadataManagerVmMetadataResult) {
-        this.VirtualMachineMetadataManagerVmMetadataResult = VirtualMachineMetadataManagerVmMetadataResult;
-    }
+	public void setVirtualMachineMetadataManagerVmMetadataResult(VirtualMachineMetadataManagerVmMetadataResult[] VirtualMachineMetadataManagerVmMetadataResult) {
+		this.VirtualMachineMetadataManagerVmMetadataResult = VirtualMachineMetadataManagerVmMetadataResult;
+	}
 }

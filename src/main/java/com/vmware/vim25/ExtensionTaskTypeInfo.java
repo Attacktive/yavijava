@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtensionTaskTypeInfo extends DynamicData {
-    public String taskID;
+	public String taskID;
 
-    public String getTaskID() {
-        return this.taskID;
-    }
+	public String getTaskID() {
+		return this.taskID;
+	}
 
-    public void setTaskID(String taskID) {
-        this.taskID = taskID;
-    }
+	public void setTaskID(String taskID) {
+		this.taskID = taskID;
+	}
 }

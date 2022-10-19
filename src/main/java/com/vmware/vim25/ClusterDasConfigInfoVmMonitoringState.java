@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasConfigInfoVmMonitoringState {
-    vmMonitoringDisabled("vmMonitoringDisabled"),
-    vmMonitoringOnly("vmMonitoringOnly"),
-    vmAndAppMonitoring("vmAndAppMonitoring");
+	vmMonitoringDisabled("vmMonitoringDisabled"),
+	vmMonitoringOnly("vmMonitoringOnly"),
+	vmAndAppMonitoring("vmAndAppMonitoring");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasConfigInfoVmMonitoringState(String val) {
-        this.val = val;
-    }
+	private ClusterDasConfigInfoVmMonitoringState(String val) {
+		this.val = val;
+	}
 }

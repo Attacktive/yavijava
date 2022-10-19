@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineMetadataManagerVmMetadataInput {
-    public VirtualMachineMetadataManagerVmMetadataInput[] VirtualMachineMetadataManagerVmMetadataInput;
+	public VirtualMachineMetadataManagerVmMetadataInput[] VirtualMachineMetadataManagerVmMetadataInput;
 
-    public VirtualMachineMetadataManagerVmMetadataInput[] getVirtualMachineMetadataManagerVmMetadataInput() {
-        return this.VirtualMachineMetadataManagerVmMetadataInput;
-    }
+	public VirtualMachineMetadataManagerVmMetadataInput[] getVirtualMachineMetadataManagerVmMetadataInput() {
+		return this.VirtualMachineMetadataManagerVmMetadataInput;
+	}
 
-    public VirtualMachineMetadataManagerVmMetadataInput getVirtualMachineMetadataManagerVmMetadataInput(int i) {
-        return this.VirtualMachineMetadataManagerVmMetadataInput[i];
-    }
+	public VirtualMachineMetadataManagerVmMetadataInput getVirtualMachineMetadataManagerVmMetadataInput(int i) {
+		return this.VirtualMachineMetadataManagerVmMetadataInput[i];
+	}
 
-    public void setVirtualMachineMetadataManagerVmMetadataInput(VirtualMachineMetadataManagerVmMetadataInput[] VirtualMachineMetadataManagerVmMetadataInput) {
-        this.VirtualMachineMetadataManagerVmMetadataInput = VirtualMachineMetadataManagerVmMetadataInput;
-    }
+	public void setVirtualMachineMetadataManagerVmMetadataInput(VirtualMachineMetadataManagerVmMetadataInput[] VirtualMachineMetadataManagerVmMetadataInput) {
+		this.VirtualMachineMetadataManagerVmMetadataInput = VirtualMachineMetadataManagerVmMetadataInput;
+	}
 }

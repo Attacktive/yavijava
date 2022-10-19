@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ResourcePoolEventArgument extends EntityEventArgument {
-    public ManagedObjectReference resourcePool;
+	public ManagedObjectReference resourcePool;
 
-    public ManagedObjectReference getResourcePool() {
-        return this.resourcePool;
-    }
+	public ManagedObjectReference getResourcePool() {
+		return this.resourcePool;
+	}
 
-    public void setResourcePool(ManagedObjectReference resourcePool) {
-        this.resourcePool = resourcePool;
-    }
+	public void setResourcePool(ManagedObjectReference resourcePool) {
+		this.resourcePool = resourcePool;
+	}
 }

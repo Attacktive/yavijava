@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualSwitchProfile extends ApplyProfile {
-    public String key;
-    public String name;
-    public LinkProfile link;
-    public NumPortsProfile numPorts;
-    public NetworkPolicyProfile networkPolicy;
+	public String key;
+	public String name;
+	public LinkProfile link;
+	public NumPortsProfile numPorts;
+	public NetworkPolicyProfile networkPolicy;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public LinkProfile getLink() {
-        return this.link;
-    }
+	public LinkProfile getLink() {
+		return this.link;
+	}
 
-    public NumPortsProfile getNumPorts() {
-        return this.numPorts;
-    }
+	public NumPortsProfile getNumPorts() {
+		return this.numPorts;
+	}
 
-    public NetworkPolicyProfile getNetworkPolicy() {
-        return this.networkPolicy;
-    }
+	public NetworkPolicyProfile getNetworkPolicy() {
+		return this.networkPolicy;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setLink(LinkProfile link) {
-        this.link = link;
-    }
+	public void setLink(LinkProfile link) {
+		this.link = link;
+	}
 
-    public void setNumPorts(NumPortsProfile numPorts) {
-        this.numPorts = numPorts;
-    }
+	public void setNumPorts(NumPortsProfile numPorts) {
+		this.numPorts = numPorts;
+	}
 
-    public void setNetworkPolicy(NetworkPolicyProfile networkPolicy) {
-        this.networkPolicy = networkPolicy;
-    }
+	public void setNetworkPolicy(NetworkPolicyProfile networkPolicy) {
+		this.networkPolicy = networkPolicy;
+	}
 }

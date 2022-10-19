@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostUnresolvedVmfsResolutionSpecVmfsUuidResolution {
-    resignature("resignature"),
-    forceMount("forceMount");
+	resignature("resignature"),
+	forceMount("forceMount");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostUnresolvedVmfsResolutionSpecVmfsUuidResolution(String val) {
-        this.val = val;
-    }
+	private HostUnresolvedVmfsResolutionSpecVmfsUuidResolution(String val) {
+		this.val = val;
+	}
 }

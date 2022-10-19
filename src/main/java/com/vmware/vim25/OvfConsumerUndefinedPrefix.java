@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerUndefinedPrefix extends OvfConsumerCallbackFault {
-    public String prefix;
+	public String prefix;
 
-    public String getPrefix() {
-        return this.prefix;
-    }
+	public String getPrefix() {
+		return this.prefix;
+	}
 
-    public void setPrefix(String prefix) {
-        this.prefix = prefix;
-    }
+	public void setPrefix(String prefix) {
+		this.prefix = prefix;
+	}
 }

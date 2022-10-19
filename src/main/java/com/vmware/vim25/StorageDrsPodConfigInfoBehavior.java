@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum StorageDrsPodConfigInfoBehavior {
-    manual("manual"),
-    automated("automated");
+	manual("manual"),
+	automated("automated");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private StorageDrsPodConfigInfoBehavior(String val) {
-        this.val = val;
-    }
+	private StorageDrsPodConfigInfoBehavior(String val) {
+		this.val = val;
+	}
 }

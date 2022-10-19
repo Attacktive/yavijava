@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum EntityType {
-    distributedVirtualSwitch("distributedVirtualSwitch"),
-    distributedVirtualPortgroup("distributedVirtualPortgroup");
+	distributedVirtualSwitch("distributedVirtualSwitch"),
+	distributedVirtualPortgroup("distributedVirtualPortgroup");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private EntityType(String val) {
-        this.val = val;
-    }
+	private EntityType(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskMode {
-    persistent("persistent"),
-    nonpersistent("nonpersistent"),
-    undoable("undoable"),
-    independent_persistent("independent_persistent"),
-    independent_nonpersistent("independent_nonpersistent"),
-    append("append");
+	persistent("persistent"),
+	nonpersistent("nonpersistent"),
+	undoable("undoable"),
+	independent_persistent("independent_persistent"),
+	independent_nonpersistent("independent_nonpersistent"),
+	append("append");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskMode(String val) {
-        this.val = val;
-    }
+	private VirtualDiskMode(String val) {
+		this.val = val;
+	}
 }

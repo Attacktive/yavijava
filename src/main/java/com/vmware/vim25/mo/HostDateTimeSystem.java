@@ -29,10 +29,15 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
 import java.util.Calendar;
+
+import com.vmware.vim25.HostConfigFault;
+import com.vmware.vim25.HostDateTimeConfig;
+import com.vmware.vim25.HostDateTimeInfo;
+import com.vmware.vim25.HostDateTimeSystemTimeZone;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -42,32 +47,31 @@ import java.util.Calendar;
 
 public class HostDateTimeSystem extends ManagedObject {
 
-    public HostDateTimeSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostDateTimeSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HostDateTimeInfo getDateTimeInfo() {
-        return (HostDateTimeInfo) getCurrentProperty("dateTimeInfo");
-    }
+	public HostDateTimeInfo getDateTimeInfo() {
+		return (HostDateTimeInfo)getCurrentProperty("dateTimeInfo");
+	}
 
-    public HostDateTimeSystemTimeZone[] queryAvailableTimeZones() throws RuntimeFault, RemoteException {
-        return getVimService().queryAvailableTimeZones(getMOR());
-    }
+	public HostDateTimeSystemTimeZone[] queryAvailableTimeZones() throws RuntimeFault, RemoteException {
+		return getVimService().queryAvailableTimeZones(getMOR());
+	}
 
-    public Calendar queryDateTime() throws RuntimeFault, RemoteException {
-        return getVimService().queryDateTime(getMOR());
-    }
+	public Calendar queryDateTime() throws RuntimeFault, RemoteException {
+		return getVimService().queryDateTime(getMOR());
+	}
 
-    public void refreshDateTimeSystem() throws RuntimeFault, RemoteException {
-        getVimService().refreshDateTimeSystem(getMOR());
-    }
+	public void refreshDateTimeSystem() throws RuntimeFault, RemoteException {
+		getVimService().refreshDateTimeSystem(getMOR());
+	}
 
-    public void updateDateTime(Calendar dateTime) throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().updateDateTime(getMOR(), dateTime);
-    }
+	public void updateDateTime(Calendar dateTime) throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().updateDateTime(getMOR(), dateTime);
+	}
 
-    public void updateDateTimeConfig(HostDateTimeConfig config) throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().updateDateTimeConfig(getMOR(), config);
-    }
-
+	public void updateDateTimeConfig(HostDateTimeConfig config) throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().updateDateTimeConfig(getMOR(), config);
+	}
 }

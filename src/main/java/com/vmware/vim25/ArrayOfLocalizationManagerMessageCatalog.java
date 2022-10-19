@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLocalizationManagerMessageCatalog {
-    public LocalizationManagerMessageCatalog[] LocalizationManagerMessageCatalog;
+	public LocalizationManagerMessageCatalog[] LocalizationManagerMessageCatalog;
 
-    public LocalizationManagerMessageCatalog[] getLocalizationManagerMessageCatalog() {
-        return this.LocalizationManagerMessageCatalog;
-    }
+	public LocalizationManagerMessageCatalog[] getLocalizationManagerMessageCatalog() {
+		return this.LocalizationManagerMessageCatalog;
+	}
 
-    public LocalizationManagerMessageCatalog getLocalizationManagerMessageCatalog(int i) {
-        return this.LocalizationManagerMessageCatalog[i];
-    }
+	public LocalizationManagerMessageCatalog getLocalizationManagerMessageCatalog(int i) {
+		return this.LocalizationManagerMessageCatalog[i];
+	}
 
-    public void setLocalizationManagerMessageCatalog(LocalizationManagerMessageCatalog[] LocalizationManagerMessageCatalog) {
-        this.LocalizationManagerMessageCatalog = LocalizationManagerMessageCatalog;
-    }
+	public void setLocalizationManagerMessageCatalog(LocalizationManagerMessageCatalog[] LocalizationManagerMessageCatalog) {
+		this.LocalizationManagerMessageCatalog = LocalizationManagerMessageCatalog;
+	}
 }

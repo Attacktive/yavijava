@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLicenseAssignmentManagerLicenseAssignment {
-    public LicenseAssignmentManagerLicenseAssignment[] LicenseAssignmentManagerLicenseAssignment;
+	public LicenseAssignmentManagerLicenseAssignment[] LicenseAssignmentManagerLicenseAssignment;
 
-    public LicenseAssignmentManagerLicenseAssignment[] getLicenseAssignmentManagerLicenseAssignment() {
-        return this.LicenseAssignmentManagerLicenseAssignment;
-    }
+	public LicenseAssignmentManagerLicenseAssignment[] getLicenseAssignmentManagerLicenseAssignment() {
+		return this.LicenseAssignmentManagerLicenseAssignment;
+	}
 
-    public LicenseAssignmentManagerLicenseAssignment getLicenseAssignmentManagerLicenseAssignment(int i) {
-        return this.LicenseAssignmentManagerLicenseAssignment[i];
-    }
+	public LicenseAssignmentManagerLicenseAssignment getLicenseAssignmentManagerLicenseAssignment(int i) {
+		return this.LicenseAssignmentManagerLicenseAssignment[i];
+	}
 
-    public void setLicenseAssignmentManagerLicenseAssignment(LicenseAssignmentManagerLicenseAssignment[] LicenseAssignmentManagerLicenseAssignment) {
-        this.LicenseAssignmentManagerLicenseAssignment = LicenseAssignmentManagerLicenseAssignment;
-    }
+	public void setLicenseAssignmentManagerLicenseAssignment(LicenseAssignmentManagerLicenseAssignment[] LicenseAssignmentManagerLicenseAssignment) {
+		this.LicenseAssignmentManagerLicenseAssignment = LicenseAssignmentManagerLicenseAssignment;
+	}
 }

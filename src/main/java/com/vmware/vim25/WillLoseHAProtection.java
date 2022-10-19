@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class WillLoseHAProtection extends MigrationFault {
-    public String resolution;
+	public String resolution;
 
-    public String getResolution() {
-        return this.resolution;
-    }
+	public String getResolution() {
+		return this.resolution;
+	}
 
-    public void setResolution(String resolution) {
-        this.resolution = resolution;
-    }
+	public void setResolution(String resolution) {
+		this.resolution = resolution;
+	}
 }

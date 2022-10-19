@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfResourceMap {
-    public OvfResourceMap[] OvfResourceMap;
+	public OvfResourceMap[] OvfResourceMap;
 
-    public OvfResourceMap[] getOvfResourceMap() {
-        return this.OvfResourceMap;
-    }
+	public OvfResourceMap[] getOvfResourceMap() {
+		return this.OvfResourceMap;
+	}
 
-    public OvfResourceMap getOvfResourceMap(int i) {
-        return this.OvfResourceMap[i];
-    }
+	public OvfResourceMap getOvfResourceMap(int i) {
+		return this.OvfResourceMap[i];
+	}
 
-    public void setOvfResourceMap(OvfResourceMap[] OvfResourceMap) {
-        this.OvfResourceMap = OvfResourceMap;
-    }
+	public void setOvfResourceMap(OvfResourceMap[] OvfResourceMap) {
+		this.OvfResourceMap = OvfResourceMap;
+	}
 }

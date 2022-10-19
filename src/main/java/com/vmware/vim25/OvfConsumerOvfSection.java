@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerOvfSection extends DynamicData {
-    public int lineNumber;
-    public String xml;
+	public int lineNumber;
+	public String xml;
 
-    public int getLineNumber() {
-        return this.lineNumber;
-    }
+	public int getLineNumber() {
+		return this.lineNumber;
+	}
 
-    public String getXml() {
-        return this.xml;
-    }
+	public String getXml() {
+		return this.xml;
+	}
 
-    public void setLineNumber(int lineNumber) {
-        this.lineNumber = lineNumber;
-    }
+	public void setLineNumber(int lineNumber) {
+		this.lineNumber = lineNumber;
+	}
 
-    public void setXml(String xml) {
-        this.xml = xml;
-    }
+	public void setXml(String xml) {
+		this.xml = xml;
+	}
 }

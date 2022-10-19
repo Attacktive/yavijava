@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineMemoryAllocationPolicy {
-    swapNone("swapNone"),
-    swapSome("swapSome"),
-    swapMost("swapMost");
+	swapNone("swapNone"),
+	swapSome("swapSome"),
+	swapMost("swapMost");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineMemoryAllocationPolicy(String val) {
-        this.val = val;
-    }
+	private VirtualMachineMemoryAllocationPolicy(String val) {
+		this.val = val;
+	}
 }

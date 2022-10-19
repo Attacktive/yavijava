@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDistributedVirtualSwitchHostProductSpec {
-    public DistributedVirtualSwitchHostProductSpec[] DistributedVirtualSwitchHostProductSpec;
+	public DistributedVirtualSwitchHostProductSpec[] DistributedVirtualSwitchHostProductSpec;
 
-    public DistributedVirtualSwitchHostProductSpec[] getDistributedVirtualSwitchHostProductSpec() {
-        return this.DistributedVirtualSwitchHostProductSpec;
-    }
+	public DistributedVirtualSwitchHostProductSpec[] getDistributedVirtualSwitchHostProductSpec() {
+		return this.DistributedVirtualSwitchHostProductSpec;
+	}
 
-    public DistributedVirtualSwitchHostProductSpec getDistributedVirtualSwitchHostProductSpec(int i) {
-        return this.DistributedVirtualSwitchHostProductSpec[i];
-    }
+	public DistributedVirtualSwitchHostProductSpec getDistributedVirtualSwitchHostProductSpec(int i) {
+		return this.DistributedVirtualSwitchHostProductSpec[i];
+	}
 
-    public void setDistributedVirtualSwitchHostProductSpec(DistributedVirtualSwitchHostProductSpec[] DistributedVirtualSwitchHostProductSpec) {
-        this.DistributedVirtualSwitchHostProductSpec = DistributedVirtualSwitchHostProductSpec;
-    }
+	public void setDistributedVirtualSwitchHostProductSpec(DistributedVirtualSwitchHostProductSpec[] DistributedVirtualSwitchHostProductSpec) {
+		this.DistributedVirtualSwitchHostProductSpec = DistributedVirtualSwitchHostProductSpec;
+	}
 }

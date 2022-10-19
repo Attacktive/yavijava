@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMotionLinkCapacityLow extends VMotionInterfaceIssue {
-    public String network;
+	public String network;
 
-    public String getNetwork() {
-        return this.network;
-    }
+	public String getNetwork() {
+		return this.network;
+	}
 
-    public void setNetwork(String network) {
-        this.network = network;
-    }
+	public void setNetwork(String network) {
+		this.network = network;
+	}
 }

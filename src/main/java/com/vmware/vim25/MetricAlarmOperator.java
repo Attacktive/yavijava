@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum MetricAlarmOperator {
-    isAbove("isAbove"),
-    isBelow("isBelow");
+	isAbove("isAbove"),
+	isBelow("isBelow");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private MetricAlarmOperator(String val) {
-        this.val = val;
-    }
+	private MetricAlarmOperator(String val) {
+		this.val = val;
+	}
 }

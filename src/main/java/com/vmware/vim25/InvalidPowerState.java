@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidPowerState extends InvalidState {
-    public VirtualMachinePowerState requestedState;
-    public VirtualMachinePowerState existingState;
+	public VirtualMachinePowerState requestedState;
+	public VirtualMachinePowerState existingState;
 
-    public VirtualMachinePowerState getRequestedState() {
-        return this.requestedState;
-    }
+	public VirtualMachinePowerState getRequestedState() {
+		return this.requestedState;
+	}
 
-    public VirtualMachinePowerState getExistingState() {
-        return this.existingState;
-    }
+	public VirtualMachinePowerState getExistingState() {
+		return this.existingState;
+	}
 
-    public void setRequestedState(VirtualMachinePowerState requestedState) {
-        this.requestedState = requestedState;
-    }
+	public void setRequestedState(VirtualMachinePowerState requestedState) {
+		this.requestedState = requestedState;
+	}
 
-    public void setExistingState(VirtualMachinePowerState existingState) {
-        this.existingState = existingState;
-    }
+	public void setExistingState(VirtualMachinePowerState existingState) {
+		this.existingState = existingState;
+	}
 }

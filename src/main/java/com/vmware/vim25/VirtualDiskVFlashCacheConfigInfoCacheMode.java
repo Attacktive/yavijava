@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskVFlashCacheConfigInfoCacheMode {
-    write_thru("write_thru"),
-    write_back("write_back");
+	write_thru("write_thru"),
+	write_back("write_back");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskVFlashCacheConfigInfoCacheMode(String val) {
-        this.val = val;
-    }
+	private VirtualDiskVFlashCacheConfigInfoCacheMode(String val) {
+		this.val = val;
+	}
 }

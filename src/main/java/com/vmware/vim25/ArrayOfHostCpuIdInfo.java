@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostCpuIdInfo {
-    public HostCpuIdInfo[] HostCpuIdInfo;
+	public HostCpuIdInfo[] HostCpuIdInfo;
 
-    public HostCpuIdInfo[] getHostCpuIdInfo() {
-        return this.HostCpuIdInfo;
-    }
+	public HostCpuIdInfo[] getHostCpuIdInfo() {
+		return this.HostCpuIdInfo;
+	}
 
-    public HostCpuIdInfo getHostCpuIdInfo(int i) {
-        return this.HostCpuIdInfo[i];
-    }
+	public HostCpuIdInfo getHostCpuIdInfo(int i) {
+		return this.HostCpuIdInfo[i];
+	}
 
-    public void setHostCpuIdInfo(HostCpuIdInfo[] HostCpuIdInfo) {
-        this.HostCpuIdInfo = HostCpuIdInfo;
-    }
+	public void setHostCpuIdInfo(HostCpuIdInfo[] HostCpuIdInfo) {
+		this.HostCpuIdInfo = HostCpuIdInfo;
+	}
 }

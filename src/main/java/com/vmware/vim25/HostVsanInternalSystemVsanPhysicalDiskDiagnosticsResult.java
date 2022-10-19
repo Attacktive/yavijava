@@ -17,31 +17,31 @@ package com.vmware.vim25;
  */
 public class HostVsanInternalSystemVsanPhysicalDiskDiagnosticsResult extends DynamicData {
 
-    public String diskUuid;
-    public String failureReason;
-    public boolean success;
+	public String diskUuid;
+	public String failureReason;
+	public boolean success;
 
-    public String getDiskUuid() {
-        return diskUuid;
-    }
+	public String getDiskUuid() {
+		return diskUuid;
+	}
 
-    public void setDiskUuid(String diskUuid) {
-        this.diskUuid = diskUuid;
-    }
+	public void setDiskUuid(String diskUuid) {
+		this.diskUuid = diskUuid;
+	}
 
-    public String getFailureReason() {
-        return failureReason;
-    }
+	public String getFailureReason() {
+		return failureReason;
+	}
 
-    public void setFailureReason(String failureReason) {
-        this.failureReason = failureReason;
-    }
+	public void setFailureReason(String failureReason) {
+		this.failureReason = failureReason;
+	}
 
-    public boolean isSuccess() {
-        return success;
-    }
+	public boolean isSuccess() {
+		return success;
+	}
 
-    public void setSuccess(boolean success) {
-        this.success = success;
-    }
+	public void setSuccess(boolean success) {
+		this.success = success;
+	}
 }

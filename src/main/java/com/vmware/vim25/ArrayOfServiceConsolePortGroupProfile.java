@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfServiceConsolePortGroupProfile {
-    public ServiceConsolePortGroupProfile[] ServiceConsolePortGroupProfile;
+	public ServiceConsolePortGroupProfile[] ServiceConsolePortGroupProfile;
 
-    public ServiceConsolePortGroupProfile[] getServiceConsolePortGroupProfile() {
-        return this.ServiceConsolePortGroupProfile;
-    }
+	public ServiceConsolePortGroupProfile[] getServiceConsolePortGroupProfile() {
+		return this.ServiceConsolePortGroupProfile;
+	}
 
-    public ServiceConsolePortGroupProfile getServiceConsolePortGroupProfile(int i) {
-        return this.ServiceConsolePortGroupProfile[i];
-    }
+	public ServiceConsolePortGroupProfile getServiceConsolePortGroupProfile(int i) {
+		return this.ServiceConsolePortGroupProfile[i];
+	}
 
-    public void setServiceConsolePortGroupProfile(ServiceConsolePortGroupProfile[] ServiceConsolePortGroupProfile) {
-        this.ServiceConsolePortGroupProfile = ServiceConsolePortGroupProfile;
-    }
+	public void setServiceConsolePortGroupProfile(ServiceConsolePortGroupProfile[] ServiceConsolePortGroupProfile) {
+		this.ServiceConsolePortGroupProfile = ServiceConsolePortGroupProfile;
+	}
 }

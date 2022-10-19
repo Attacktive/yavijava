@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LockerReconfiguredEvent extends Event {
-    public DatastoreEventArgument oldDatastore;
-    public DatastoreEventArgument newDatastore;
+	public DatastoreEventArgument oldDatastore;
+	public DatastoreEventArgument newDatastore;
 
-    public DatastoreEventArgument getOldDatastore() {
-        return this.oldDatastore;
-    }
+	public DatastoreEventArgument getOldDatastore() {
+		return this.oldDatastore;
+	}
 
-    public DatastoreEventArgument getNewDatastore() {
-        return this.newDatastore;
-    }
+	public DatastoreEventArgument getNewDatastore() {
+		return this.newDatastore;
+	}
 
-    public void setOldDatastore(DatastoreEventArgument oldDatastore) {
-        this.oldDatastore = oldDatastore;
-    }
+	public void setOldDatastore(DatastoreEventArgument oldDatastore) {
+		this.oldDatastore = oldDatastore;
+	}
 
-    public void setNewDatastore(DatastoreEventArgument newDatastore) {
-        this.newDatastore = newDatastore;
-    }
+	public void setNewDatastore(DatastoreEventArgument newDatastore) {
+		this.newDatastore = newDatastore;
+	}
 }

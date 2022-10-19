@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DeviceNotSupported extends VirtualHardwareCompatibilityIssue {
-    public String device;
-    public String reason;
+	public String device;
+	public String reason;
 
-    public String getDevice() {
-        return this.device;
-    }
+	public String getDevice() {
+		return this.device;
+	}
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public void setDevice(String device) {
-        this.device = device;
-    }
+	public void setDevice(String device) {
+		this.device = device;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 }

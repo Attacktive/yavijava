@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostSslThumbprintInfo {
-    public HostSslThumbprintInfo[] HostSslThumbprintInfo;
+	public HostSslThumbprintInfo[] HostSslThumbprintInfo;
 
-    public HostSslThumbprintInfo[] getHostSslThumbprintInfo() {
-        return this.HostSslThumbprintInfo;
-    }
+	public HostSslThumbprintInfo[] getHostSslThumbprintInfo() {
+		return this.HostSslThumbprintInfo;
+	}
 
-    public HostSslThumbprintInfo getHostSslThumbprintInfo(int i) {
-        return this.HostSslThumbprintInfo[i];
-    }
+	public HostSslThumbprintInfo getHostSslThumbprintInfo(int i) {
+		return this.HostSslThumbprintInfo[i];
+	}
 
-    public void setHostSslThumbprintInfo(HostSslThumbprintInfo[] HostSslThumbprintInfo) {
-        this.HostSslThumbprintInfo = HostSslThumbprintInfo;
-    }
+	public void setHostSslThumbprintInfo(HostSslThumbprintInfo[] HostSslThumbprintInfo) {
+		this.HostSslThumbprintInfo = HostSslThumbprintInfo;
+	}
 }

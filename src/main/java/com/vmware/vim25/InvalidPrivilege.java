@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidPrivilege extends VimFault {
-    public String privilege;
+	public String privilege;
 
-    public String getPrivilege() {
-        return this.privilege;
-    }
+	public String getPrivilege() {
+		return this.privilege;
+	}
 
-    public void setPrivilege(String privilege) {
-        this.privilege = privilege;
-    }
+	public void setPrivilege(String privilege) {
+		this.privilege = privilege;
+	}
 }

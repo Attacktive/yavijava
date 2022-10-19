@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualDeviceConfigSpec {
-    public VirtualDeviceConfigSpec[] VirtualDeviceConfigSpec;
+	public VirtualDeviceConfigSpec[] VirtualDeviceConfigSpec;
 
-    public VirtualDeviceConfigSpec[] getVirtualDeviceConfigSpec() {
-        return this.VirtualDeviceConfigSpec;
-    }
+	public VirtualDeviceConfigSpec[] getVirtualDeviceConfigSpec() {
+		return this.VirtualDeviceConfigSpec;
+	}
 
-    public VirtualDeviceConfigSpec getVirtualDeviceConfigSpec(int i) {
-        return this.VirtualDeviceConfigSpec[i];
-    }
+	public VirtualDeviceConfigSpec getVirtualDeviceConfigSpec(int i) {
+		return this.VirtualDeviceConfigSpec[i];
+	}
 
-    public void setVirtualDeviceConfigSpec(VirtualDeviceConfigSpec[] VirtualDeviceConfigSpec) {
-        this.VirtualDeviceConfigSpec = VirtualDeviceConfigSpec;
-    }
+	public void setVirtualDeviceConfigSpec(VirtualDeviceConfigSpec[] VirtualDeviceConfigSpec) {
+		this.VirtualDeviceConfigSpec = VirtualDeviceConfigSpec;
+	}
 }

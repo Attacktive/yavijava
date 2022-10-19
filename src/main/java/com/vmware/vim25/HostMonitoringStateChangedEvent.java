@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMonitoringStateChangedEvent extends ClusterEvent {
-    public String state;
+	public String state;
 
-    public String getState() {
-        return this.state;
-    }
+	public String getState() {
+		return this.state;
+	}
 
-    public void setState(String state) {
-        this.state = state;
-    }
+	public void setState(String state) {
+		this.state = state;
+	}
 }

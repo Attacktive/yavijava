@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VMwareDVSTeamingMatchStatus {
-    iphashMatch("iphashMatch"),
-    nonIphashMatch("nonIphashMatch"),
-    iphashMismatch("iphashMismatch"),
-    nonIphashMismatch("nonIphashMismatch");
+	iphashMatch("iphashMatch"),
+	nonIphashMatch("nonIphashMatch"),
+	iphashMismatch("iphashMismatch"),
+	nonIphashMismatch("nonIphashMismatch");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VMwareDVSTeamingMatchStatus(String val) {
-        this.val = val;
-    }
+	private VMwareDVSTeamingMatchStatus(String val) {
+		this.val = val;
+	}
 }

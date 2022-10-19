@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfConsumerOvfSection {
-    public OvfConsumerOvfSection[] OvfConsumerOvfSection;
+	public OvfConsumerOvfSection[] OvfConsumerOvfSection;
 
-    public OvfConsumerOvfSection[] getOvfConsumerOvfSection() {
-        return this.OvfConsumerOvfSection;
-    }
+	public OvfConsumerOvfSection[] getOvfConsumerOvfSection() {
+		return this.OvfConsumerOvfSection;
+	}
 
-    public OvfConsumerOvfSection getOvfConsumerOvfSection(int i) {
-        return this.OvfConsumerOvfSection[i];
-    }
+	public OvfConsumerOvfSection getOvfConsumerOvfSection(int i) {
+		return this.OvfConsumerOvfSection[i];
+	}
 
-    public void setOvfConsumerOvfSection(OvfConsumerOvfSection[] OvfConsumerOvfSection) {
-        this.OvfConsumerOvfSection = OvfConsumerOvfSection;
-    }
+	public void setOvfConsumerOvfSection(OvfConsumerOvfSection[] OvfConsumerOvfSection) {
+		this.OvfConsumerOvfSection = OvfConsumerOvfSection;
+	}
 }

@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum DistributedVirtualSwitchProductSpecOperationType {
-    preInstall("preInstall"),
-    upgrade("upgrade"),
-    notifyAvailableUpgrade("notifyAvailableUpgrade"),
-    proceedWithUpgrade("proceedWithUpgrade"),
-    updateBundleInfo("updateBundleInfo");
+	preInstall("preInstall"),
+	upgrade("upgrade"),
+	notifyAvailableUpgrade("notifyAvailableUpgrade"),
+	proceedWithUpgrade("proceedWithUpgrade"),
+	updateBundleInfo("updateBundleInfo");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DistributedVirtualSwitchProductSpecOperationType(String val) {
-        this.val = val;
-    }
+	private DistributedVirtualSwitchProductSpecOperationType(String val) {
+		this.val = val;
+	}
 }

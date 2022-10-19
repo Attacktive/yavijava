@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfStoragePerformanceSummary {
-    public StoragePerformanceSummary[] StoragePerformanceSummary;
+	public StoragePerformanceSummary[] StoragePerformanceSummary;
 
-    public StoragePerformanceSummary[] getStoragePerformanceSummary() {
-        return this.StoragePerformanceSummary;
-    }
+	public StoragePerformanceSummary[] getStoragePerformanceSummary() {
+		return this.StoragePerformanceSummary;
+	}
 
-    public StoragePerformanceSummary getStoragePerformanceSummary(int i) {
-        return this.StoragePerformanceSummary[i];
-    }
+	public StoragePerformanceSummary getStoragePerformanceSummary(int i) {
+		return this.StoragePerformanceSummary[i];
+	}
 
-    public void setStoragePerformanceSummary(StoragePerformanceSummary[] StoragePerformanceSummary) {
-        this.StoragePerformanceSummary = StoragePerformanceSummary;
-    }
+	public void setStoragePerformanceSummary(StoragePerformanceSummary[] StoragePerformanceSummary) {
+		this.StoragePerformanceSummary = StoragePerformanceSummary;
+	}
 }

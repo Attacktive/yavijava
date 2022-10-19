@@ -29,11 +29,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.HostGraphicsInfo;
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -43,30 +43,30 @@ import java.rmi.RemoteException;
  */
 
 public class HostGraphicsManager extends ExtensibleManagedObject {
-    public HostGraphicsManager(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostGraphicsManager(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HostGraphicsInfo[] getGraphicsInfo() {
-        return (HostGraphicsInfo[]) getCurrentProperty("graphicsInfo");
-    }
+	public HostGraphicsInfo[] getGraphicsInfo() {
+		return (HostGraphicsInfo[])getCurrentProperty("graphicsInfo");
+	}
 
-    public boolean isSharedGraphicsActive() throws RuntimeFault, RemoteException {
-        return getVimService().isSharedGraphicsActive(this.getMOR());
-    }
+	public boolean isSharedGraphicsActive() throws RuntimeFault, RemoteException {
+		return getVimService().isSharedGraphicsActive(this.getMOR());
+	}
 
-    public void refreshGraphicsManager() throws RuntimeFault, RemoteException {
-        getVimService().queryFirmwareConfigUploadURL(this.getMOR());
-    }
+	public void refreshGraphicsManager() throws RuntimeFault, RemoteException {
+		getVimService().queryFirmwareConfigUploadURL(this.getMOR());
+	}
 
-    /**
-     * Array of shared passthru GPU types. These GPU types may be enabled when specific host hardware is present.
-     * Example values are "grid_k120q" and "grid_k240q".
-     *
-     * @return String[]
-     * @since 6.0
-     */
-    public String[] getSharedPassthruGpuTypes() {
-        return (String[]) getCurrentProperty("sharedPassthruGpuTypes");
-    }
+	/**
+	 * Array of shared passthru GPU types. These GPU types may be enabled when specific host hardware is present.
+	 * Example values are "grid_k120q" and "grid_k240q".
+	 *
+	 * @return String[]
+	 * @since 6.0
+	 */
+	public String[] getSharedPassthruGpuTypes() {
+		return (String[])getCurrentProperty("sharedPassthruGpuTypes");
+	}
 }

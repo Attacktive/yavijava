@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineRecordReplayState {
-    recording("recording"),
-    replaying("replaying"),
-    inactive("inactive");
+	recording("recording"),
+	replaying("replaying"),
+	inactive("inactive");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineRecordReplayState(String val) {
-        this.val = val;
-    }
+	private VirtualMachineRecordReplayState(String val) {
+		this.val = val;
+	}
 }

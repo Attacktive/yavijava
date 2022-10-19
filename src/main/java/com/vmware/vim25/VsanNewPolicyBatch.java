@@ -17,22 +17,22 @@ package com.vmware.vim25;
  */
 public class VsanNewPolicyBatch extends DynamicData {
 
-    public String policy;
-    public long[] size;
+	public String policy;
+	public long[] size;
 
-    public String getPolicy() {
-        return policy;
-    }
+	public String getPolicy() {
+		return policy;
+	}
 
-    public void setPolicy(String policy) {
-        this.policy = policy;
-    }
+	public void setPolicy(String policy) {
+		this.policy = policy;
+	}
 
-    public long[] getSize() {
-        return size;
-    }
+	public long[] getSize() {
+		return size;
+	}
 
-    public void setSize(long[] size) {
-        this.size = size;
-    }
+	public void setSize(long[] size) {
+		this.size = size;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDasFdmHostState extends DynamicData {
-    public String state;
-    public ManagedObjectReference stateReporter;
+	public String state;
+	public ManagedObjectReference stateReporter;
 
-    public String getState() {
-        return this.state;
-    }
+	public String getState() {
+		return this.state;
+	}
 
-    public ManagedObjectReference getStateReporter() {
-        return this.stateReporter;
-    }
+	public ManagedObjectReference getStateReporter() {
+		return this.stateReporter;
+	}
 
-    public void setState(String state) {
-        this.state = state;
-    }
+	public void setState(String state) {
+		this.state = state;
+	}
 
-    public void setStateReporter(ManagedObjectReference stateReporter) {
-        this.stateReporter = stateReporter;
-    }
+	public void setStateReporter(ManagedObjectReference stateReporter) {
+		this.stateReporter = stateReporter;
+	}
 }

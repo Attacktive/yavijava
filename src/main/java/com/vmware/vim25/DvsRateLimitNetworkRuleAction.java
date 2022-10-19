@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsRateLimitNetworkRuleAction extends DvsNetworkRuleAction {
-    public int packetsPerSecond;
+	public int packetsPerSecond;
 
-    public int getPacketsPerSecond() {
-        return this.packetsPerSecond;
-    }
+	public int getPacketsPerSecond() {
+		return this.packetsPerSecond;
+	}
 
-    public void setPacketsPerSecond(int packetsPerSecond) {
-        this.packetsPerSecond = packetsPerSecond;
-    }
+	public void setPacketsPerSecond(int packetsPerSecond) {
+		this.packetsPerSecond = packetsPerSecond;
+	}
 }

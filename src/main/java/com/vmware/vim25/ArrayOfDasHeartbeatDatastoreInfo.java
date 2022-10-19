@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDasHeartbeatDatastoreInfo {
-    public DasHeartbeatDatastoreInfo[] DasHeartbeatDatastoreInfo;
+	public DasHeartbeatDatastoreInfo[] DasHeartbeatDatastoreInfo;
 
-    public DasHeartbeatDatastoreInfo[] getDasHeartbeatDatastoreInfo() {
-        return this.DasHeartbeatDatastoreInfo;
-    }
+	public DasHeartbeatDatastoreInfo[] getDasHeartbeatDatastoreInfo() {
+		return this.DasHeartbeatDatastoreInfo;
+	}
 
-    public DasHeartbeatDatastoreInfo getDasHeartbeatDatastoreInfo(int i) {
-        return this.DasHeartbeatDatastoreInfo[i];
-    }
+	public DasHeartbeatDatastoreInfo getDasHeartbeatDatastoreInfo(int i) {
+		return this.DasHeartbeatDatastoreInfo[i];
+	}
 
-    public void setDasHeartbeatDatastoreInfo(DasHeartbeatDatastoreInfo[] DasHeartbeatDatastoreInfo) {
-        this.DasHeartbeatDatastoreInfo = DasHeartbeatDatastoreInfo;
-    }
+	public void setDasHeartbeatDatastoreInfo(DasHeartbeatDatastoreInfo[] DasHeartbeatDatastoreInfo) {
+		this.DasHeartbeatDatastoreInfo = DasHeartbeatDatastoreInfo;
+	}
 }

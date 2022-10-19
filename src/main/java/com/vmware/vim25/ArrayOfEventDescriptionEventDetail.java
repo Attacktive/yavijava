@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEventDescriptionEventDetail {
-    public EventDescriptionEventDetail[] EventDescriptionEventDetail;
+	public EventDescriptionEventDetail[] EventDescriptionEventDetail;
 
-    public EventDescriptionEventDetail[] getEventDescriptionEventDetail() {
-        return this.EventDescriptionEventDetail;
-    }
+	public EventDescriptionEventDetail[] getEventDescriptionEventDetail() {
+		return this.EventDescriptionEventDetail;
+	}
 
-    public EventDescriptionEventDetail getEventDescriptionEventDetail(int i) {
-        return this.EventDescriptionEventDetail[i];
-    }
+	public EventDescriptionEventDetail getEventDescriptionEventDetail(int i) {
+		return this.EventDescriptionEventDetail[i];
+	}
 
-    public void setEventDescriptionEventDetail(EventDescriptionEventDetail[] EventDescriptionEventDetail) {
-        this.EventDescriptionEventDetail = EventDescriptionEventDetail;
-    }
+	public void setEventDescriptionEventDetail(EventDescriptionEventDetail[] EventDescriptionEventDetail) {
+		this.EventDescriptionEventDetail = EventDescriptionEventDetail;
+	}
 }

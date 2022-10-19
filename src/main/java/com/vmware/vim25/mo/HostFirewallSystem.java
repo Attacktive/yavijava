@@ -29,9 +29,15 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.HostConfigFault;
+import com.vmware.vim25.HostFirewallDefaultPolicy;
+import com.vmware.vim25.HostFirewallInfo;
+import com.vmware.vim25.HostFirewallRulesetRulesetSpec;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.NotFound;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -41,34 +47,34 @@ import java.rmi.RemoteException;
 
 public class HostFirewallSystem extends ExtensibleManagedObject {
 
-    public HostFirewallSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostFirewallSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HostFirewallInfo getFirewallInfo() {
-        return (HostFirewallInfo) getCurrentProperty("firewallInfo");
-    }
+	public HostFirewallInfo getFirewallInfo() {
+		return (HostFirewallInfo)getCurrentProperty("firewallInfo");
+	}
 
-    public void disableRuleset(String id) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
-        getVimService().disableRuleset(getMOR(), id);
-    }
+	public void disableRuleset(String id) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
+		getVimService().disableRuleset(getMOR(), id);
+	}
 
-    public void enableRuleset(String id) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
-        getVimService().enableRuleset(getMOR(), id);
-    }
+	public void enableRuleset(String id) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
+		getVimService().enableRuleset(getMOR(), id);
+	}
 
-    public void refreshFirewall() throws RuntimeFault, RemoteException {
-        getVimService().refreshFirewall(getMOR());
-    }
+	public void refreshFirewall() throws RuntimeFault, RemoteException {
+		getVimService().refreshFirewall(getMOR());
+	}
 
-    public void updateDefaultPolicy(HostFirewallDefaultPolicy defaultPolicy) throws RuntimeFault, RemoteException {
-        getVimService().updateDefaultPolicy(getMOR(), defaultPolicy);
-    }
+	public void updateDefaultPolicy(HostFirewallDefaultPolicy defaultPolicy) throws RuntimeFault, RemoteException {
+		getVimService().updateDefaultPolicy(getMOR(), defaultPolicy);
+	}
 
-    /**
-     * @since SDK5.0
-     */
-    public void updateRuleset(String id, HostFirewallRulesetRulesetSpec spec) throws NotFound, HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().updateRuleset(getMOR(), id, spec);
-    }
+	/**
+	 * @since SDK5.0
+	 */
+	public void updateRuleset(String id, HostFirewallRulesetRulesetSpec spec) throws NotFound, HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().updateRuleset(getMOR(), id, spec);
+	}
 }

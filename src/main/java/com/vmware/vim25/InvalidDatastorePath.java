@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidDatastorePath extends InvalidDatastore {
-    public String datastorePath;
+	public String datastorePath;
 
-    public String getDatastorePath() {
-        return this.datastorePath;
-    }
+	public String getDatastorePath() {
+		return this.datastorePath;
+	}
 
-    public void setDatastorePath(String datastorePath) {
-        this.datastorePath = datastorePath;
-    }
+	public void setDatastorePath(String datastorePath) {
+		this.datastorePath = datastorePath;
+	}
 }

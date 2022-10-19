@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchHostMemberPnicSpec extends DynamicData {
-    public String pnicDevice;
-    public String uplinkPortKey;
-    public String uplinkPortgroupKey;
-    public Integer connectionCookie;
+	public String pnicDevice;
+	public String uplinkPortKey;
+	public String uplinkPortgroupKey;
+	public Integer connectionCookie;
 
-    public String getPnicDevice() {
-        return this.pnicDevice;
-    }
+	public String getPnicDevice() {
+		return this.pnicDevice;
+	}
 
-    public String getUplinkPortKey() {
-        return this.uplinkPortKey;
-    }
+	public String getUplinkPortKey() {
+		return this.uplinkPortKey;
+	}
 
-    public String getUplinkPortgroupKey() {
-        return this.uplinkPortgroupKey;
-    }
+	public String getUplinkPortgroupKey() {
+		return this.uplinkPortgroupKey;
+	}
 
-    public Integer getConnectionCookie() {
-        return this.connectionCookie;
-    }
+	public Integer getConnectionCookie() {
+		return this.connectionCookie;
+	}
 
-    public void setPnicDevice(String pnicDevice) {
-        this.pnicDevice = pnicDevice;
-    }
+	public void setPnicDevice(String pnicDevice) {
+		this.pnicDevice = pnicDevice;
+	}
 
-    public void setUplinkPortKey(String uplinkPortKey) {
-        this.uplinkPortKey = uplinkPortKey;
-    }
+	public void setUplinkPortKey(String uplinkPortKey) {
+		this.uplinkPortKey = uplinkPortKey;
+	}
 
-    public void setUplinkPortgroupKey(String uplinkPortgroupKey) {
-        this.uplinkPortgroupKey = uplinkPortgroupKey;
-    }
+	public void setUplinkPortgroupKey(String uplinkPortgroupKey) {
+		this.uplinkPortgroupKey = uplinkPortgroupKey;
+	}
 
-    public void setConnectionCookie(Integer connectionCookie) {
-        this.connectionCookie = connectionCookie;
-    }
+	public void setConnectionCookie(Integer connectionCookie) {
+		this.connectionCookie = connectionCookie;
+	}
 }

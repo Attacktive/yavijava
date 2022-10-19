@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmEvent extends Event {
-    public AlarmEventArgument alarm;
+	public AlarmEventArgument alarm;
 
-    public AlarmEventArgument getAlarm() {
-        return this.alarm;
-    }
+	public AlarmEventArgument getAlarm() {
+		return this.alarm;
+	}
 
-    public void setAlarm(AlarmEventArgument alarm) {
-        this.alarm = alarm;
-    }
+	public void setAlarm(AlarmEventArgument alarm) {
+		this.alarm = alarm;
+	}
 }

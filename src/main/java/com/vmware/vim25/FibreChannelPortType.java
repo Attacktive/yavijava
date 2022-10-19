@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum FibreChannelPortType {
-    fabric("fabric"),
-    loop("loop"),
-    pointToPoint("pointToPoint"),
-    unknown("unknown");
+	fabric("fabric"),
+	loop("loop"),
+	pointToPoint("pointToPoint"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private FibreChannelPortType(String val) {
-        this.val = val;
-    }
+	private FibreChannelPortType(String val) {
+		this.val = val;
+	}
 }

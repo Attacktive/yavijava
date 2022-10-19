@@ -21,14 +21,13 @@ package com.vmware.vim25;
  */
 
 public class FilterInUse extends ResourceInUse {
-    public VirtualDiskId[] disk;
+	public VirtualDiskId[] disk;
 
-    public VirtualDiskId[] getDisk() {
-        return disk;
-    }
+	public VirtualDiskId[] getDisk() {
+		return disk;
+	}
 
-    public void setDisk(VirtualDiskId[] disk) {
-        this.disk = disk;
-    }
-
+	public void setDisk(VirtualDiskId[] disk) {
+		this.disk = disk;
+	}
 }

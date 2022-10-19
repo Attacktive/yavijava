@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UpdateVirtualMachineFilesResult extends DynamicData {
-    public UpdateVirtualMachineFilesResultFailedVmFileInfo[] failedVmFile;
+	public UpdateVirtualMachineFilesResultFailedVmFileInfo[] failedVmFile;
 
-    public UpdateVirtualMachineFilesResultFailedVmFileInfo[] getFailedVmFile() {
-        return this.failedVmFile;
-    }
+	public UpdateVirtualMachineFilesResultFailedVmFileInfo[] getFailedVmFile() {
+		return this.failedVmFile;
+	}
 
-    public void setFailedVmFile(UpdateVirtualMachineFilesResultFailedVmFileInfo[] failedVmFile) {
-        this.failedVmFile = failedVmFile;
-    }
+	public void setFailedVmFile(UpdateVirtualMachineFilesResultFailedVmFileInfo[] failedVmFile) {
+		this.failedVmFile = failedVmFile;
+	}
 }

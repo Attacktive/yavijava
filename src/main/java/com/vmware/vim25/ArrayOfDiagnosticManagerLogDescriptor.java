@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDiagnosticManagerLogDescriptor {
-    public DiagnosticManagerLogDescriptor[] DiagnosticManagerLogDescriptor;
+	public DiagnosticManagerLogDescriptor[] DiagnosticManagerLogDescriptor;
 
-    public DiagnosticManagerLogDescriptor[] getDiagnosticManagerLogDescriptor() {
-        return this.DiagnosticManagerLogDescriptor;
-    }
+	public DiagnosticManagerLogDescriptor[] getDiagnosticManagerLogDescriptor() {
+		return this.DiagnosticManagerLogDescriptor;
+	}
 
-    public DiagnosticManagerLogDescriptor getDiagnosticManagerLogDescriptor(int i) {
-        return this.DiagnosticManagerLogDescriptor[i];
-    }
+	public DiagnosticManagerLogDescriptor getDiagnosticManagerLogDescriptor(int i) {
+		return this.DiagnosticManagerLogDescriptor[i];
+	}
 
-    public void setDiagnosticManagerLogDescriptor(DiagnosticManagerLogDescriptor[] DiagnosticManagerLogDescriptor) {
-        this.DiagnosticManagerLogDescriptor = DiagnosticManagerLogDescriptor;
-    }
+	public void setDiagnosticManagerLogDescriptor(DiagnosticManagerLogDescriptor[] DiagnosticManagerLogDescriptor) {
+		this.DiagnosticManagerLogDescriptor = DiagnosticManagerLogDescriptor;
+	}
 }

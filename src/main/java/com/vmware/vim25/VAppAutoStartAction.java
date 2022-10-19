@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VAppAutoStartAction {
-    none("none"),
-    powerOn("powerOn"),
-    powerOff("powerOff"),
-    guestShutdown("guestShutdown"),
-    suspend("suspend");
+	none("none"),
+	powerOn("powerOn"),
+	powerOff("powerOff"),
+	guestShutdown("guestShutdown"),
+	suspend("suspend");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VAppAutoStartAction(String val) {
-        this.val = val;
-    }
+	private VAppAutoStartAction(String val) {
+		this.val = val;
+	}
 }

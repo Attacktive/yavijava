@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostUnresolvedVmfsResolutionSpec {
-    public HostUnresolvedVmfsResolutionSpec[] HostUnresolvedVmfsResolutionSpec;
+	public HostUnresolvedVmfsResolutionSpec[] HostUnresolvedVmfsResolutionSpec;
 
-    public HostUnresolvedVmfsResolutionSpec[] getHostUnresolvedVmfsResolutionSpec() {
-        return this.HostUnresolvedVmfsResolutionSpec;
-    }
+	public HostUnresolvedVmfsResolutionSpec[] getHostUnresolvedVmfsResolutionSpec() {
+		return this.HostUnresolvedVmfsResolutionSpec;
+	}
 
-    public HostUnresolvedVmfsResolutionSpec getHostUnresolvedVmfsResolutionSpec(int i) {
-        return this.HostUnresolvedVmfsResolutionSpec[i];
-    }
+	public HostUnresolvedVmfsResolutionSpec getHostUnresolvedVmfsResolutionSpec(int i) {
+		return this.HostUnresolvedVmfsResolutionSpec[i];
+	}
 
-    public void setHostUnresolvedVmfsResolutionSpec(HostUnresolvedVmfsResolutionSpec[] HostUnresolvedVmfsResolutionSpec) {
-        this.HostUnresolvedVmfsResolutionSpec = HostUnresolvedVmfsResolutionSpec;
-    }
+	public void setHostUnresolvedVmfsResolutionSpec(HostUnresolvedVmfsResolutionSpec[] HostUnresolvedVmfsResolutionSpec) {
+		this.HostUnresolvedVmfsResolutionSpec = HostUnresolvedVmfsResolutionSpec;
+	}
 }

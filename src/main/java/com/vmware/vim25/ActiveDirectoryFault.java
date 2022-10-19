@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ActiveDirectoryFault extends VimFault {
-    public Integer errorCode;
+	public Integer errorCode;
 
-    public Integer getErrorCode() {
-        return this.errorCode;
-    }
+	public Integer getErrorCode() {
+		return this.errorCode;
+	}
 
-    public void setErrorCode(Integer errorCode) {
-        this.errorCode = errorCode;
-    }
+	public void setErrorCode(Integer errorCode) {
+		this.errorCode = errorCode;
+	}
 }

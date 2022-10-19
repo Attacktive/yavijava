@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidDasConfigArgument extends InvalidArgument {
-    public String entry;
-    public String clusterName;
+	public String entry;
+	public String clusterName;
 
-    public String getEntry() {
-        return this.entry;
-    }
+	public String getEntry() {
+		return this.entry;
+	}
 
-    public String getClusterName() {
-        return this.clusterName;
-    }
+	public String getClusterName() {
+		return this.clusterName;
+	}
 
-    public void setEntry(String entry) {
-        this.entry = entry;
-    }
+	public void setEntry(String entry) {
+		this.entry = entry;
+	}
 
-    public void setClusterName(String clusterName) {
-        this.clusterName = clusterName;
-    }
+	public void setClusterName(String clusterName) {
+		this.clusterName = clusterName;
+	}
 }

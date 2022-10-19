@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DasHeartbeatDatastoreInfo extends DynamicData {
-    public ManagedObjectReference datastore;
-    public ManagedObjectReference[] hosts;
+	public ManagedObjectReference datastore;
+	public ManagedObjectReference[] hosts;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public ManagedObjectReference[] getHosts() {
-        return this.hosts;
-    }
+	public ManagedObjectReference[] getHosts() {
+		return this.hosts;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setHosts(ManagedObjectReference[] hosts) {
-        this.hosts = hosts;
-    }
+	public void setHosts(ManagedObjectReference[] hosts) {
+		this.hosts = hosts;
+	}
 }

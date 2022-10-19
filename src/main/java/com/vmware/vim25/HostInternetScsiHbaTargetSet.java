@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostInternetScsiHbaTargetSet extends DynamicData {
-    public HostInternetScsiHbaStaticTarget[] staticTargets;
-    public HostInternetScsiHbaSendTarget[] sendTargets;
+	public HostInternetScsiHbaStaticTarget[] staticTargets;
+	public HostInternetScsiHbaSendTarget[] sendTargets;
 
-    public HostInternetScsiHbaStaticTarget[] getStaticTargets() {
-        return this.staticTargets;
-    }
+	public HostInternetScsiHbaStaticTarget[] getStaticTargets() {
+		return this.staticTargets;
+	}
 
-    public HostInternetScsiHbaSendTarget[] getSendTargets() {
-        return this.sendTargets;
-    }
+	public HostInternetScsiHbaSendTarget[] getSendTargets() {
+		return this.sendTargets;
+	}
 
-    public void setStaticTargets(HostInternetScsiHbaStaticTarget[] staticTargets) {
-        this.staticTargets = staticTargets;
-    }
+	public void setStaticTargets(HostInternetScsiHbaStaticTarget[] staticTargets) {
+		this.staticTargets = staticTargets;
+	}
 
-    public void setSendTargets(HostInternetScsiHbaSendTarget[] sendTargets) {
-        this.sendTargets = sendTargets;
-    }
+	public void setSendTargets(HostInternetScsiHbaSendTarget[] sendTargets) {
+		this.sendTargets = sendTargets;
+	}
 }

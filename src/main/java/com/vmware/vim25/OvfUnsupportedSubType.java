@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnsupportedSubType extends OvfUnsupportedPackage {
-    public String elementName;
-    public String instanceId;
-    public int deviceType;
-    public String deviceSubType;
+	public String elementName;
+	public String instanceId;
+	public int deviceType;
+	public String deviceSubType;
 
-    public String getElementName() {
-        return this.elementName;
-    }
+	public String getElementName() {
+		return this.elementName;
+	}
 
-    public String getInstanceId() {
-        return this.instanceId;
-    }
+	public String getInstanceId() {
+		return this.instanceId;
+	}
 
-    public int getDeviceType() {
-        return this.deviceType;
-    }
+	public int getDeviceType() {
+		return this.deviceType;
+	}
 
-    public String getDeviceSubType() {
-        return this.deviceSubType;
-    }
+	public String getDeviceSubType() {
+		return this.deviceSubType;
+	}
 
-    public void setElementName(String elementName) {
-        this.elementName = elementName;
-    }
+	public void setElementName(String elementName) {
+		this.elementName = elementName;
+	}
 
-    public void setInstanceId(String instanceId) {
-        this.instanceId = instanceId;
-    }
+	public void setInstanceId(String instanceId) {
+		this.instanceId = instanceId;
+	}
 
-    public void setDeviceType(int deviceType) {
-        this.deviceType = deviceType;
-    }
+	public void setDeviceType(int deviceType) {
+		this.deviceType = deviceType;
+	}
 
-    public void setDeviceSubType(String deviceSubType) {
-        this.deviceSubType = deviceSubType;
-    }
+	public void setDeviceSubType(String deviceSubType) {
+		this.deviceSubType = deviceSubType;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostStorageArrayTypePolicyOption extends DynamicData {
-    public ElementDescription policy;
+	public ElementDescription policy;
 
-    public ElementDescription getPolicy() {
-        return this.policy;
-    }
+	public ElementDescription getPolicy() {
+		return this.policy;
+	}
 
-    public void setPolicy(ElementDescription policy) {
-        this.policy = policy;
-    }
+	public void setPolicy(ElementDescription policy) {
+		this.policy = policy;
+	}
 }

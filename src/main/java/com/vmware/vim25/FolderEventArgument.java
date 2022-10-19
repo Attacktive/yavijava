@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FolderEventArgument extends EntityEventArgument {
-    public ManagedObjectReference folder;
+	public ManagedObjectReference folder;
 
-    public ManagedObjectReference getFolder() {
-        return this.folder;
-    }
+	public ManagedObjectReference getFolder() {
+		return this.folder;
+	}
 
-    public void setFolder(ManagedObjectReference folder) {
-        this.folder = folder;
-    }
+	public void setFolder(ManagedObjectReference folder) {
+		this.folder = folder;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmCommandEventDetails extends HostTpmEventDetails {
-    public String commandLine;
+	public String commandLine;
 
-    public String getCommandLine() {
-        return this.commandLine;
-    }
+	public String getCommandLine() {
+		return this.commandLine;
+	}
 
-    public void setCommandLine(String commandLine) {
-        this.commandLine = commandLine;
-    }
+	public void setCommandLine(String commandLine) {
+		this.commandLine = commandLine;
+	}
 }

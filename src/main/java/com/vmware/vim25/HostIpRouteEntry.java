@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostIpRouteEntry extends DynamicData {
-    public String network;
-    public int prefixLength;
-    public String gateway;
-    public String deviceName;
+	public String network;
+	public int prefixLength;
+	public String gateway;
+	public String deviceName;
 
-    public String getNetwork() {
-        return this.network;
-    }
+	public String getNetwork() {
+		return this.network;
+	}
 
-    public int getPrefixLength() {
-        return this.prefixLength;
-    }
+	public int getPrefixLength() {
+		return this.prefixLength;
+	}
 
-    public String getGateway() {
-        return this.gateway;
-    }
+	public String getGateway() {
+		return this.gateway;
+	}
 
-    public String getDeviceName() {
-        return this.deviceName;
-    }
+	public String getDeviceName() {
+		return this.deviceName;
+	}
 
-    public void setNetwork(String network) {
-        this.network = network;
-    }
+	public void setNetwork(String network) {
+		this.network = network;
+	}
 
-    public void setPrefixLength(int prefixLength) {
-        this.prefixLength = prefixLength;
-    }
+	public void setPrefixLength(int prefixLength) {
+		this.prefixLength = prefixLength;
+	}
 
-    public void setGateway(String gateway) {
-        this.gateway = gateway;
-    }
+	public void setGateway(String gateway) {
+		this.gateway = gateway;
+	}
 
-    public void setDeviceName(String deviceName) {
-        this.deviceName = deviceName;
-    }
+	public void setDeviceName(String deviceName) {
+		this.deviceName = deviceName;
+	}
 }

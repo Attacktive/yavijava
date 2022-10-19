@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ComplianceProfile extends DynamicData {
-    public ProfileExpression[] expression;
-    public String rootExpression;
+	public ProfileExpression[] expression;
+	public String rootExpression;
 
-    public ProfileExpression[] getExpression() {
-        return this.expression;
-    }
+	public ProfileExpression[] getExpression() {
+		return this.expression;
+	}
 
-    public String getRootExpression() {
-        return this.rootExpression;
-    }
+	public String getRootExpression() {
+		return this.rootExpression;
+	}
 
-    public void setExpression(ProfileExpression[] expression) {
-        this.expression = expression;
-    }
+	public void setExpression(ProfileExpression[] expression) {
+		this.expression = expression;
+	}
 
-    public void setRootExpression(String rootExpression) {
-        this.rootExpression = rootExpression;
-    }
+	public void setRootExpression(String rootExpression) {
+		this.rootExpression = rootExpression;
+	}
 }

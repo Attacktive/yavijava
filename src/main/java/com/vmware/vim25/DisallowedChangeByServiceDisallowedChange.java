@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum DisallowedChangeByServiceDisallowedChange {
-    hotExtendDisk("hotExtendDisk");
+	hotExtendDisk("hotExtendDisk");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DisallowedChangeByServiceDisallowedChange(String val) {
-        this.val = val;
-    }
+	private DisallowedChangeByServiceDisallowedChange(String val) {
+		this.val = val;
+	}
 }

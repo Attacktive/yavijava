@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LargeRDMNotSupportedOnDatastore extends VmConfigFault {
-    public String device;
-    public ManagedObjectReference datastore;
-    public String datastoreName;
+	public String device;
+	public ManagedObjectReference datastore;
+	public String datastoreName;
 
-    public String getDevice() {
-        return this.device;
-    }
+	public String getDevice() {
+		return this.device;
+	}
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public String getDatastoreName() {
-        return this.datastoreName;
-    }
+	public String getDatastoreName() {
+		return this.datastoreName;
+	}
 
-    public void setDevice(String device) {
-        this.device = device;
-    }
+	public void setDevice(String device) {
+		this.device = device;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setDatastoreName(String datastoreName) {
-        this.datastoreName = datastoreName;
-    }
+	public void setDatastoreName(String datastoreName) {
+		this.datastoreName = datastoreName;
+	}
 }

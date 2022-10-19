@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtensionEventTypeInfo extends DynamicData {
-    public String eventID;
-    public String eventTypeSchema;
+	public String eventID;
+	public String eventTypeSchema;
 
-    public String getEventID() {
-        return this.eventID;
-    }
+	public String getEventID() {
+		return this.eventID;
+	}
 
-    public String getEventTypeSchema() {
-        return this.eventTypeSchema;
-    }
+	public String getEventTypeSchema() {
+		return this.eventTypeSchema;
+	}
 
-    public void setEventID(String eventID) {
-        this.eventID = eventID;
-    }
+	public void setEventID(String eventID) {
+		this.eventID = eventID;
+	}
 
-    public void setEventTypeSchema(String eventTypeSchema) {
-        this.eventTypeSchema = eventTypeSchema;
-    }
+	public void setEventTypeSchema(String eventTypeSchema) {
+		this.eventTypeSchema = eventTypeSchema;
+	}
 }

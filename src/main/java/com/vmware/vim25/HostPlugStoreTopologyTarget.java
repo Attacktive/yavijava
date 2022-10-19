@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPlugStoreTopologyTarget extends DynamicData {
-    public String key;
-    public HostTargetTransport transport;
+	public String key;
+	public HostTargetTransport transport;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public HostTargetTransport getTransport() {
-        return this.transport;
-    }
+	public HostTargetTransport getTransport() {
+		return this.transport;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setTransport(HostTargetTransport transport) {
-        this.transport = transport;
-    }
+	public void setTransport(HostTargetTransport transport) {
+		this.transport = transport;
+	}
 }

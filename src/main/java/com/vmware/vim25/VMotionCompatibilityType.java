@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VMotionCompatibilityType {
-    cpu("cpu"),
-    software("software");
+	cpu("cpu"),
+	software("software");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VMotionCompatibilityType(String val) {
-        this.val = val;
-    }
+	private VMotionCompatibilityType(String val) {
+		this.val = val;
+	}
 }

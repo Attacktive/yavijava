@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostScsiDiskPartition {
-    public HostScsiDiskPartition[] HostScsiDiskPartition;
+	public HostScsiDiskPartition[] HostScsiDiskPartition;
 
-    public HostScsiDiskPartition[] getHostScsiDiskPartition() {
-        return this.HostScsiDiskPartition;
-    }
+	public HostScsiDiskPartition[] getHostScsiDiskPartition() {
+		return this.HostScsiDiskPartition;
+	}
 
-    public HostScsiDiskPartition getHostScsiDiskPartition(int i) {
-        return this.HostScsiDiskPartition[i];
-    }
+	public HostScsiDiskPartition getHostScsiDiskPartition(int i) {
+		return this.HostScsiDiskPartition[i];
+	}
 
-    public void setHostScsiDiskPartition(HostScsiDiskPartition[] HostScsiDiskPartition) {
-        this.HostScsiDiskPartition = HostScsiDiskPartition;
-    }
+	public void setHostScsiDiskPartition(HostScsiDiskPartition[] HostScsiDiskPartition) {
+		this.HostScsiDiskPartition = HostScsiDiskPartition;
+	}
 }

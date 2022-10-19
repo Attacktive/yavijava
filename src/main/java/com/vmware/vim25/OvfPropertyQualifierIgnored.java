@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfPropertyQualifierIgnored extends OvfProperty {
-    public String qualifier;
+	public String qualifier;
 
-    public String getQualifier() {
-        return this.qualifier;
-    }
+	public String getQualifier() {
+		return this.qualifier;
+	}
 
-    public void setQualifier(String qualifier) {
-        this.qualifier = qualifier;
-    }
+	public void setQualifier(String qualifier) {
+		this.qualifier = qualifier;
+	}
 }

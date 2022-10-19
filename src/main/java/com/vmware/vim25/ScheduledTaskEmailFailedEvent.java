@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskEmailFailedEvent extends ScheduledTaskEvent {
-    public String to;
-    public LocalizedMethodFault reason;
+	public String to;
+	public LocalizedMethodFault reason;
 
-    public String getTo() {
-        return this.to;
-    }
+	public String getTo() {
+		return this.to;
+	}
 
-    public LocalizedMethodFault getReason() {
-        return this.reason;
-    }
+	public LocalizedMethodFault getReason() {
+		return this.reason;
+	}
 
-    public void setTo(String to) {
-        this.to = to;
-    }
+	public void setTo(String to) {
+		this.to = to;
+	}
 
-    public void setReason(LocalizedMethodFault reason) {
-        this.reason = reason;
-    }
+	public void setReason(LocalizedMethodFault reason) {
+		this.reason = reason;
+	}
 }

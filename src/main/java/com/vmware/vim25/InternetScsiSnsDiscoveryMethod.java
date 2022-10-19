@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum InternetScsiSnsDiscoveryMethod {
-    isnsStatic("isnsStatic"),
-    isnsDhcp("isnsDhcp"),
-    isnsSlp("isnsSlp");
+	isnsStatic("isnsStatic"),
+	isnsDhcp("isnsDhcp"),
+	isnsSlp("isnsSlp");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private InternetScsiSnsDiscoveryMethod(String val) {
-        this.val = val;
-    }
+	private InternetScsiSnsDiscoveryMethod(String val) {
+		this.val = val;
+	}
 }

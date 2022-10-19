@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualUSBRemoteHostBackingInfo extends VirtualDeviceDeviceBackingInfo {
-    public String hostname;
+	public String hostname;
 
-    public String getHostname() {
-        return this.hostname;
-    }
+	public String getHostname() {
+		return this.hostname;
+	}
 
-    public void setHostname(String hostname) {
-        this.hostname = hostname;
-    }
+	public void setHostname(String hostname) {
+		this.hostname = hostname;
+	}
 }

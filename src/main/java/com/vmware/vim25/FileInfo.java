@@ -38,40 +38,40 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class FileInfo extends DynamicData {
-    public String path;
-    public Long fileSize;
-    public Calendar modification;
-    public String owner;
+	public String path;
+	public Long fileSize;
+	public Calendar modification;
+	public String owner;
 
-    public String getPath() {
-        return this.path;
-    }
+	public String getPath() {
+		return this.path;
+	}
 
-    public Long getFileSize() {
-        return this.fileSize;
-    }
+	public Long getFileSize() {
+		return this.fileSize;
+	}
 
-    public Calendar getModification() {
-        return this.modification;
-    }
+	public Calendar getModification() {
+		return this.modification;
+	}
 
-    public String getOwner() {
-        return this.owner;
-    }
+	public String getOwner() {
+		return this.owner;
+	}
 
-    public void setPath(String path) {
-        this.path = path;
-    }
+	public void setPath(String path) {
+		this.path = path;
+	}
 
-    public void setFileSize(Long fileSize) {
-        this.fileSize = fileSize;
-    }
+	public void setFileSize(Long fileSize) {
+		this.fileSize = fileSize;
+	}
 
-    public void setModification(Calendar modification) {
-        this.modification = modification;
-    }
+	public void setModification(Calendar modification) {
+		this.modification = modification;
+	}
 
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
+	public void setOwner(String owner) {
+		this.owner = owner;
+	}
 }

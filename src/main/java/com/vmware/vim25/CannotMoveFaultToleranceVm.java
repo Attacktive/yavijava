@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CannotMoveFaultToleranceVm extends VimFault {
-    public String moveType;
-    public String vmName;
+	public String moveType;
+	public String vmName;
 
-    public String getMoveType() {
-        return this.moveType;
-    }
+	public String getMoveType() {
+		return this.moveType;
+	}
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public void setMoveType(String moveType) {
-        this.moveType = moveType;
-    }
+	public void setMoveType(String moveType) {
+		this.moveType = moveType;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 }

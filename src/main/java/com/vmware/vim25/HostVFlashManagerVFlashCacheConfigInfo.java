@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVFlashManagerVFlashCacheConfigInfo extends DynamicData {
-    public HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] vFlashModuleConfigOption;
-    public String defaultVFlashModule;
-    public Long swapCacheReservationInGB;
+	public HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] vFlashModuleConfigOption;
+	public String defaultVFlashModule;
+	public Long swapCacheReservationInGB;
 
-    public HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] getVFlashModuleConfigOption() {
-        return this.vFlashModuleConfigOption;
-    }
+	public HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] getVFlashModuleConfigOption() {
+		return this.vFlashModuleConfigOption;
+	}
 
-    public String getDefaultVFlashModule() {
-        return this.defaultVFlashModule;
-    }
+	public String getDefaultVFlashModule() {
+		return this.defaultVFlashModule;
+	}
 
-    public Long getSwapCacheReservationInGB() {
-        return this.swapCacheReservationInGB;
-    }
+	public Long getSwapCacheReservationInGB() {
+		return this.swapCacheReservationInGB;
+	}
 
-    public void setVFlashModuleConfigOption(HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] vFlashModuleConfigOption) {
-        this.vFlashModuleConfigOption = vFlashModuleConfigOption;
-    }
+	public void setVFlashModuleConfigOption(HostVFlashManagerVFlashCacheConfigInfoVFlashModuleConfigOption[] vFlashModuleConfigOption) {
+		this.vFlashModuleConfigOption = vFlashModuleConfigOption;
+	}
 
-    public void setDefaultVFlashModule(String defaultVFlashModule) {
-        this.defaultVFlashModule = defaultVFlashModule;
-    }
+	public void setDefaultVFlashModule(String defaultVFlashModule) {
+		this.defaultVFlashModule = defaultVFlashModule;
+	}
 
-    public void setSwapCacheReservationInGB(Long swapCacheReservationInGB) {
-        this.swapCacheReservationInGB = swapCacheReservationInGB;
-    }
+	public void setSwapCacheReservationInGB(Long swapCacheReservationInGB) {
+		this.swapCacheReservationInGB = swapCacheReservationInGB;
+	}
 }

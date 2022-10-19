@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsApplyOperationFaultFaultOnObject {
-    public DvsApplyOperationFaultFaultOnObject[] DvsApplyOperationFaultFaultOnObject;
+	public DvsApplyOperationFaultFaultOnObject[] DvsApplyOperationFaultFaultOnObject;
 
-    public DvsApplyOperationFaultFaultOnObject[] getDvsApplyOperationFaultFaultOnObject() {
-        return this.DvsApplyOperationFaultFaultOnObject;
-    }
+	public DvsApplyOperationFaultFaultOnObject[] getDvsApplyOperationFaultFaultOnObject() {
+		return this.DvsApplyOperationFaultFaultOnObject;
+	}
 
-    public DvsApplyOperationFaultFaultOnObject getDvsApplyOperationFaultFaultOnObject(int i) {
-        return this.DvsApplyOperationFaultFaultOnObject[i];
-    }
+	public DvsApplyOperationFaultFaultOnObject getDvsApplyOperationFaultFaultOnObject(int i) {
+		return this.DvsApplyOperationFaultFaultOnObject[i];
+	}
 
-    public void setDvsApplyOperationFaultFaultOnObject(DvsApplyOperationFaultFaultOnObject[] DvsApplyOperationFaultFaultOnObject) {
-        this.DvsApplyOperationFaultFaultOnObject = DvsApplyOperationFaultFaultOnObject;
-    }
+	public void setDvsApplyOperationFaultFaultOnObject(DvsApplyOperationFaultFaultOnObject[] DvsApplyOperationFaultFaultOnObject) {
+		this.DvsApplyOperationFaultFaultOnObject = DvsApplyOperationFaultFaultOnObject;
+	}
 }

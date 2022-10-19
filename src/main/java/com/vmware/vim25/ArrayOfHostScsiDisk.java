@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostScsiDisk {
-    public HostScsiDisk[] HostScsiDisk;
+	public HostScsiDisk[] HostScsiDisk;
 
-    public HostScsiDisk[] getHostScsiDisk() {
-        return this.HostScsiDisk;
-    }
+	public HostScsiDisk[] getHostScsiDisk() {
+		return this.HostScsiDisk;
+	}
 
-    public HostScsiDisk getHostScsiDisk(int i) {
-        return this.HostScsiDisk[i];
-    }
+	public HostScsiDisk getHostScsiDisk(int i) {
+		return this.HostScsiDisk[i];
+	}
 
-    public void setHostScsiDisk(HostScsiDisk[] HostScsiDisk) {
-        this.HostScsiDisk = HostScsiDisk;
-    }
+	public void setHostScsiDisk(HostScsiDisk[] HostScsiDisk) {
+		this.HostScsiDisk = HostScsiDisk;
+	}
 }

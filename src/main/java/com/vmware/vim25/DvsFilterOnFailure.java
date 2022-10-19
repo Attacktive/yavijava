@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DvsFilterOnFailure {
-    failOpen("failOpen"),
-    failClosed("failClosed");
+	failOpen("failOpen"),
+	failClosed("failClosed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DvsFilterOnFailure(String val) {
-        this.val = val;
-    }
+	private DvsFilterOnFailure(String val) {
+		this.val = val;
+	}
 }

@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum DasVmPriority {
-    disabled("disabled"),
-    low("low"),
-    medium("medium"),
-    high("high");
+	disabled("disabled"),
+	low("low"),
+	medium("medium"),
+	high("high");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DasVmPriority(String val) {
-        this.val = val;
-    }
+	private DasVmPriority(String val) {
+		this.val = val;
+	}
 }
