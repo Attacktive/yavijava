@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.toastcoders"
-version = "1.0-SNAPSHOT"
+version = "7.0.00"
 
 repositories {
 	mavenCentral()
