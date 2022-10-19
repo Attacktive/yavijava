@@ -29,9 +29,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.ComputeResourceConfigInfo;
+import com.vmware.vim25.ComputeResourceConfigSpec;
+import com.vmware.vim25.ComputeResourceSummary;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -40,41 +44,40 @@ import java.rmi.RemoteException;
  */
 
 public class ComputeResource extends ManagedEntity {
-    public ComputeResource(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public ComputeResource(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public ComputeResourceConfigInfo getConfigurationEx() {
-        return (ComputeResourceConfigInfo) this.getCurrentProperty("configurationEx");
-    }
+	public ComputeResourceConfigInfo getConfigurationEx() {
+		return (ComputeResourceConfigInfo)this.getCurrentProperty("configurationEx");
+	}
 
-    public Datastore[] getDatastores() {
-        return getDatastores("datastore");
-    }
+	public Datastore[] getDatastores() {
+		return getDatastores("datastore");
+	}
 
-    public Network[] getNetworks() {
-        return getNetworks("network");
-    }
+	public Network[] getNetworks() {
+		return getNetworks("network");
+	}
 
-    public HostSystem[] getHosts() {
-        return getHosts("host");
-    }
+	public HostSystem[] getHosts() {
+		return getHosts("host");
+	}
 
-    public ResourcePool getResourcePool() {
-        return (ResourcePool) this.getManagedObject("resourcePool");
-    }
+	public ResourcePool getResourcePool() {
+		return (ResourcePool)this.getManagedObject("resourcePool");
+	}
 
-    public EnvironmentBrowser getEnvironmentBrowser() {
-        return (EnvironmentBrowser) this.getManagedObject("environmentBrowser");
-    }
+	public EnvironmentBrowser getEnvironmentBrowser() {
+		return (EnvironmentBrowser)this.getManagedObject("environmentBrowser");
+	}
 
-    public ComputeResourceSummary getSummary() {
-        return (ComputeResourceSummary) this.getCurrentProperty("summary");
-    }
+	public ComputeResourceSummary getSummary() {
+		return (ComputeResourceSummary)this.getCurrentProperty("summary");
+	}
 
-    public Task reconfigureComputeResource_Task(ComputeResourceConfigSpec spec, boolean modify) throws RuntimeFault, RemoteException {
-        ManagedObjectReference taskMOR = getVimService().reconfigureComputeResource_Task(getMOR(), spec, modify);
-        return new Task(getServerConnection(), taskMOR);
-    }
-
+	public Task reconfigureComputeResource_Task(ComputeResourceConfigSpec spec, boolean modify) throws RuntimeFault, RemoteException {
+		ManagedObjectReference taskMOR = getVimService().reconfigureComputeResource_Task(getMOR(), spec, modify);
+		return new Task(getServerConnection(), taskMOR);
+	}
 }

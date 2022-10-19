@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum StoragePlacementSpecPlacementType {
-    create("create"),
-    reconfigure("reconfigure"),
-    relocate("relocate"),
-    clone("clone");
+	create("create"),
+	reconfigure("reconfigure"),
+	relocate("relocate"),
+	clone("clone");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private StoragePlacementSpecPlacementType(String val) {
-        this.val = val;
-    }
+	private StoragePlacementSpecPlacementType(String val) {
+		this.val = val;
+	}
 }

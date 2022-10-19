@@ -21,34 +21,33 @@ package com.vmware.vim25;
  */
 
 public class HostHasComponentFailure extends VimFault {
-    public String hostName;
+	public String hostName;
 
-    public String componentType;
+	public String componentType;
 
-    public String componentName;
+	public String componentName;
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public String getComponentType() {
-        return componentType;
-    }
+	public String getComponentType() {
+		return componentType;
+	}
 
-    public void setComponentType(String componentType) {
-        this.componentType = componentType;
-    }
+	public void setComponentType(String componentType) {
+		this.componentType = componentType;
+	}
 
-    public String getComponentName() {
-        return componentName;
-    }
+	public String getComponentName() {
+		return componentName;
+	}
 
-    public void setComponentName(String componentName) {
-        this.componentName = componentName;
-    }
-
+	public void setComponentName(String componentName) {
+		this.componentName = componentName;
+	}
 }

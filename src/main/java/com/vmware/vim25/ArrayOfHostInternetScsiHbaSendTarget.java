@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostInternetScsiHbaSendTarget {
-    public HostInternetScsiHbaSendTarget[] HostInternetScsiHbaSendTarget;
+	public HostInternetScsiHbaSendTarget[] HostInternetScsiHbaSendTarget;
 
-    public HostInternetScsiHbaSendTarget[] getHostInternetScsiHbaSendTarget() {
-        return this.HostInternetScsiHbaSendTarget;
-    }
+	public HostInternetScsiHbaSendTarget[] getHostInternetScsiHbaSendTarget() {
+		return this.HostInternetScsiHbaSendTarget;
+	}
 
-    public HostInternetScsiHbaSendTarget getHostInternetScsiHbaSendTarget(int i) {
-        return this.HostInternetScsiHbaSendTarget[i];
-    }
+	public HostInternetScsiHbaSendTarget getHostInternetScsiHbaSendTarget(int i) {
+		return this.HostInternetScsiHbaSendTarget[i];
+	}
 
-    public void setHostInternetScsiHbaSendTarget(HostInternetScsiHbaSendTarget[] HostInternetScsiHbaSendTarget) {
-        this.HostInternetScsiHbaSendTarget = HostInternetScsiHbaSendTarget;
-    }
+	public void setHostInternetScsiHbaSendTarget(HostInternetScsiHbaSendTarget[] HostInternetScsiHbaSendTarget) {
+		this.HostInternetScsiHbaSendTarget = HostInternetScsiHbaSendTarget;
+	}
 }

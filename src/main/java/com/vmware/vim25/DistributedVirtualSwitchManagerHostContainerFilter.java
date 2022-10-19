@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchManagerHostContainerFilter extends DistributedVirtualSwitchManagerHostDvsFilterSpec {
-    public DistributedVirtualSwitchManagerHostContainer hostContainer;
+	public DistributedVirtualSwitchManagerHostContainer hostContainer;
 
-    public DistributedVirtualSwitchManagerHostContainer getHostContainer() {
-        return this.hostContainer;
-    }
+	public DistributedVirtualSwitchManagerHostContainer getHostContainer() {
+		return this.hostContainer;
+	}
 
-    public void setHostContainer(DistributedVirtualSwitchManagerHostContainer hostContainer) {
-        this.hostContainer = hostContainer;
-    }
+	public void setHostContainer(DistributedVirtualSwitchManagerHostContainer hostContainer) {
+		this.hostContainer = hostContainer;
+	}
 }

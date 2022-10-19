@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnknownDevice extends OvfSystemFault {
-    public VirtualDevice device;
-    public String vmName;
+	public VirtualDevice device;
+	public String vmName;
 
-    public VirtualDevice getDevice() {
-        return this.device;
-    }
+	public VirtualDevice getDevice() {
+		return this.device;
+	}
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public void setDevice(VirtualDevice device) {
-        this.device = device;
-    }
+	public void setDevice(VirtualDevice device) {
+		this.device = device;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 }

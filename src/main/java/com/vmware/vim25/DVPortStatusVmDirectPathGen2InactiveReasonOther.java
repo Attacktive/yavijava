@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DVPortStatusVmDirectPathGen2InactiveReasonOther {
-    portNptIncompatibleHost("portNptIncompatibleHost"),
-    portNptIncompatibleConnectee("portNptIncompatibleConnectee");
+	portNptIncompatibleHost("portNptIncompatibleHost"),
+	portNptIncompatibleConnectee("portNptIncompatibleConnectee");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DVPortStatusVmDirectPathGen2InactiveReasonOther(String val) {
-        this.val = val;
-    }
+	private DVPortStatusVmDirectPathGen2InactiveReasonOther(String val) {
+		this.val = val;
+	}
 }

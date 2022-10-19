@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostSystemResourceInfo {
-    public HostSystemResourceInfo[] HostSystemResourceInfo;
+	public HostSystemResourceInfo[] HostSystemResourceInfo;
 
-    public HostSystemResourceInfo[] getHostSystemResourceInfo() {
-        return this.HostSystemResourceInfo;
-    }
+	public HostSystemResourceInfo[] getHostSystemResourceInfo() {
+		return this.HostSystemResourceInfo;
+	}
 
-    public HostSystemResourceInfo getHostSystemResourceInfo(int i) {
-        return this.HostSystemResourceInfo[i];
-    }
+	public HostSystemResourceInfo getHostSystemResourceInfo(int i) {
+		return this.HostSystemResourceInfo[i];
+	}
 
-    public void setHostSystemResourceInfo(HostSystemResourceInfo[] HostSystemResourceInfo) {
-        this.HostSystemResourceInfo = HostSystemResourceInfo;
-    }
+	public void setHostSystemResourceInfo(HostSystemResourceInfo[] HostSystemResourceInfo) {
+		this.HostSystemResourceInfo = HostSystemResourceInfo;
+	}
 }

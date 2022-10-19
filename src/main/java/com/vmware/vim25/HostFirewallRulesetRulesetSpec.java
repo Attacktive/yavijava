@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFirewallRulesetRulesetSpec extends DynamicData {
-    public HostFirewallRulesetIpList allowedHosts;
+	public HostFirewallRulesetIpList allowedHosts;
 
-    public HostFirewallRulesetIpList getAllowedHosts() {
-        return this.allowedHosts;
-    }
+	public HostFirewallRulesetIpList getAllowedHosts() {
+		return this.allowedHosts;
+	}
 
-    public void setAllowedHosts(HostFirewallRulesetIpList allowedHosts) {
-        this.allowedHosts = allowedHosts;
-    }
+	public void setAllowedHosts(HostFirewallRulesetIpList allowedHosts) {
+		this.allowedHosts = allowedHosts;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DailyTaskScheduler extends HourlyTaskScheduler {
-    public int hour;
+	public int hour;
 
-    public int getHour() {
-        return this.hour;
-    }
+	public int getHour() {
+		return this.hour;
+	}
 
-    public void setHour(int hour) {
-        this.hour = hour;
-    }
+	public void setHour(int hour) {
+		this.hour = hour;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppPropertySpec {
-    public VAppPropertySpec[] VAppPropertySpec;
+	public VAppPropertySpec[] VAppPropertySpec;
 
-    public VAppPropertySpec[] getVAppPropertySpec() {
-        return this.VAppPropertySpec;
-    }
+	public VAppPropertySpec[] getVAppPropertySpec() {
+		return this.VAppPropertySpec;
+	}
 
-    public VAppPropertySpec getVAppPropertySpec(int i) {
-        return this.VAppPropertySpec[i];
-    }
+	public VAppPropertySpec getVAppPropertySpec(int i) {
+		return this.VAppPropertySpec[i];
+	}
 
-    public void setVAppPropertySpec(VAppPropertySpec[] VAppPropertySpec) {
-        this.VAppPropertySpec = VAppPropertySpec;
-    }
+	public void setVAppPropertySpec(VAppPropertySpec[] VAppPropertySpec) {
+		this.VAppPropertySpec = VAppPropertySpec;
+	}
 }

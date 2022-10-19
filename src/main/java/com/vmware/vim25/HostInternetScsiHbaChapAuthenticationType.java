@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostInternetScsiHbaChapAuthenticationType {
-    chapProhibited("chapProhibited"),
-    chapDiscouraged("chapDiscouraged"),
-    chapPreferred("chapPreferred"),
-    chapRequired("chapRequired");
+	chapProhibited("chapProhibited"),
+	chapDiscouraged("chapDiscouraged"),
+	chapPreferred("chapPreferred"),
+	chapRequired("chapRequired");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostInternetScsiHbaChapAuthenticationType(String val) {
-        this.val = val;
-    }
+	private HostInternetScsiHbaChapAuthenticationType(String val) {
+		this.val = val;
+	}
 }

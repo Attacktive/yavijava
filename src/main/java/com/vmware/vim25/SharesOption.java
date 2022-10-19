@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SharesOption extends DynamicData {
-    public IntOption sharesOption;
-    public SharesLevel defaultLevel;
+	public IntOption sharesOption;
+	public SharesLevel defaultLevel;
 
-    public IntOption getSharesOption() {
-        return this.sharesOption;
-    }
+	public IntOption getSharesOption() {
+		return this.sharesOption;
+	}
 
-    public SharesLevel getDefaultLevel() {
-        return this.defaultLevel;
-    }
+	public SharesLevel getDefaultLevel() {
+		return this.defaultLevel;
+	}
 
-    public void setSharesOption(IntOption sharesOption) {
-        this.sharesOption = sharesOption;
-    }
+	public void setSharesOption(IntOption sharesOption) {
+		this.sharesOption = sharesOption;
+	}
 
-    public void setDefaultLevel(SharesLevel defaultLevel) {
-        this.defaultLevel = defaultLevel;
-    }
+	public void setDefaultLevel(SharesLevel defaultLevel) {
+		this.defaultLevel = defaultLevel;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfComplianceResult {
-    public ComplianceResult[] ComplianceResult;
+	public ComplianceResult[] ComplianceResult;
 
-    public ComplianceResult[] getComplianceResult() {
-        return this.ComplianceResult;
-    }
+	public ComplianceResult[] getComplianceResult() {
+		return this.ComplianceResult;
+	}
 
-    public ComplianceResult getComplianceResult(int i) {
-        return this.ComplianceResult[i];
-    }
+	public ComplianceResult getComplianceResult(int i) {
+		return this.ComplianceResult[i];
+	}
 
-    public void setComplianceResult(ComplianceResult[] ComplianceResult) {
-        this.ComplianceResult = ComplianceResult;
-    }
+	public void setComplianceResult(ComplianceResult[] ComplianceResult) {
+		this.ComplianceResult = ComplianceResult;
+	}
 }

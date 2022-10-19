@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VmwareDistributedVirtualSwitchPvlanPortType {
-    promiscuous("promiscuous"),
-    isolated("isolated"),
-    community("community");
+	promiscuous("promiscuous"),
+	isolated("isolated"),
+	community("community");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VmwareDistributedVirtualSwitchPvlanPortType(String val) {
-        this.val = val;
-    }
+	private VmwareDistributedVirtualSwitchPvlanPortType(String val) {
+		this.val = val;
+	}
 }

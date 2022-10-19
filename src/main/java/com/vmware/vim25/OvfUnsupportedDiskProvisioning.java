@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnsupportedDiskProvisioning extends OvfImport {
-    public String diskProvisioning;
-    public String supportedDiskProvisioning;
+	public String diskProvisioning;
+	public String supportedDiskProvisioning;
 
-    public String getDiskProvisioning() {
-        return this.diskProvisioning;
-    }
+	public String getDiskProvisioning() {
+		return this.diskProvisioning;
+	}
 
-    public String getSupportedDiskProvisioning() {
-        return this.supportedDiskProvisioning;
-    }
+	public String getSupportedDiskProvisioning() {
+		return this.supportedDiskProvisioning;
+	}
 
-    public void setDiskProvisioning(String diskProvisioning) {
-        this.diskProvisioning = diskProvisioning;
-    }
+	public void setDiskProvisioning(String diskProvisioning) {
+		this.diskProvisioning = diskProvisioning;
+	}
 
-    public void setSupportedDiskProvisioning(String supportedDiskProvisioning) {
-        this.supportedDiskProvisioning = supportedDiskProvisioning;
-    }
+	public void setSupportedDiskProvisioning(String supportedDiskProvisioning) {
+		this.supportedDiskProvisioning = supportedDiskProvisioning;
+	}
 }

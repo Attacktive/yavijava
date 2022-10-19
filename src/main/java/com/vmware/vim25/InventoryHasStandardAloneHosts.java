@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InventoryHasStandardAloneHosts extends NotEnoughLicenses {
-    public String[] hosts;
+	public String[] hosts;
 
-    public String[] getHosts() {
-        return this.hosts;
-    }
+	public String[] getHosts() {
+		return this.hosts;
+	}
 
-    public void setHosts(String[] hosts) {
-        this.hosts = hosts;
-    }
+	public void setHosts(String[] hosts) {
+		this.hosts = hosts;
+	}
 }

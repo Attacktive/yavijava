@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineFlagInfoMonitorType {
-    release("release"),
-    debug("debug"),
-    stats("stats");
+	release("release"),
+	debug("debug"),
+	stats("stats");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineFlagInfoMonitorType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineFlagInfoMonitorType(String val) {
+		this.val = val;
+	}
 }

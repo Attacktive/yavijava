@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskEvent extends Event {
-    public TaskInfo info;
+	public TaskInfo info;
 
-    public TaskInfo getInfo() {
-        return this.info;
-    }
+	public TaskInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(TaskInfo info) {
-        this.info = info;
-    }
+	public void setInfo(TaskInfo info) {
+		this.info = info;
+	}
 }

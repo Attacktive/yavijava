@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDpmHostConfigSpec extends ArrayUpdateSpec {
-    public ClusterDpmHostConfigInfo info;
+	public ClusterDpmHostConfigInfo info;
 
-    public ClusterDpmHostConfigInfo getInfo() {
-        return this.info;
-    }
+	public ClusterDpmHostConfigInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(ClusterDpmHostConfigInfo info) {
-        this.info = info;
-    }
+	public void setInfo(ClusterDpmHostConfigInfo info) {
+		this.info = info;
+	}
 }

@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum EventCategory {
-    info("info"),
-    warning("warning"),
-    error("error"),
-    user("user");
+	info("info"),
+	warning("warning"),
+	error("error"),
+	user("user");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private EventCategory(String val) {
-        this.val = val;
-    }
+	private EventCategory(String val) {
+		this.val = val;
+	}
 }

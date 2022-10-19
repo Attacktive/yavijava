@@ -28,55 +28,57 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 
 package com.vmware.vim25;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.Calendar;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * Created by Michael Rice on Sun May 24 16:15:35 CDT 2015
- *
+ * <p>
  * Copyright 2015 Michael Rice
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
  * @since 6.0
  */
 
 public class DVSConfigInfo extends DynamicData {
-    @Getter @Setter public String uuid;
-    @Getter @Setter public String name;
-    @Getter @Setter public int numStandalonePorts;
-    @Getter @Setter public int numPorts;
-    @Getter @Setter public int maxPorts;
-    @Getter @Setter public DVSUplinkPortPolicy uplinkPortPolicy;
-    @Getter @Setter public ManagedObjectReference[] uplinkPortgroup;
-    @Getter @Setter public DVPortSetting defaultPortConfig;
-    @Getter @Setter public DistributedVirtualSwitchHostMember[] host;
-    @Getter @Setter public DistributedVirtualSwitchProductSpec productInfo;
-    @Getter @Setter public DistributedVirtualSwitchProductSpec targetInfo;
-    @Getter @Setter public String extensionKey;
-    @Getter @Setter public DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig;
-    @Getter @Setter public DVSPolicy policy;
-    @Getter @Setter public String description;
-    @Getter @Setter public String configVersion;
-    @Getter @Setter public DVSContactInfo contact;
-    @Getter @Setter public String switchIpAddress;
-    @Getter @Setter public Calendar createTime;
-    @Getter @Setter public Boolean networkResourceManagementEnabled;
-    @Getter @Setter public Integer defaultProxySwitchMaxNumPorts;
-    @Getter @Setter public DVSHealthCheckConfig[] healthCheckConfig;
-    @Getter @Setter public DvsHostInfrastructureTrafficResource[] infrastructureTrafficResourceConfig;
-    @Getter @Setter public String networkResourceControlVersion;
-    @Getter @Setter public DVSVmVnicNetworkResourcePool[] vmVnicNetworkResourcePool;
-    @Getter @Setter public Integer pnicCapacityRatioForReservation;
+	@Getter @Setter public String uuid;
+	@Getter @Setter public String name;
+	@Getter @Setter public int numStandalonePorts;
+	@Getter @Setter public int numPorts;
+	@Getter @Setter public int maxPorts;
+	@Getter @Setter public DVSUplinkPortPolicy uplinkPortPolicy;
+	@Getter @Setter public ManagedObjectReference[] uplinkPortgroup;
+	@Getter @Setter public DVPortSetting defaultPortConfig;
+	@Getter @Setter public DistributedVirtualSwitchHostMember[] host;
+	@Getter @Setter public DistributedVirtualSwitchProductSpec productInfo;
+	@Getter @Setter public DistributedVirtualSwitchProductSpec targetInfo;
+	@Getter @Setter public String extensionKey;
+	@Getter @Setter public DistributedVirtualSwitchKeyedOpaqueBlob[] vendorSpecificConfig;
+	@Getter @Setter public DVSPolicy policy;
+	@Getter @Setter public String description;
+	@Getter @Setter public String configVersion;
+	@Getter @Setter public DVSContactInfo contact;
+	@Getter @Setter public String switchIpAddress;
+	@Getter @Setter public Calendar createTime;
+	@Getter @Setter public Boolean networkResourceManagementEnabled;
+	@Getter @Setter public Integer defaultProxySwitchMaxNumPorts;
+	@Getter @Setter public DVSHealthCheckConfig[] healthCheckConfig;
+	@Getter @Setter public DvsHostInfrastructureTrafficResource[] infrastructureTrafficResourceConfig;
+	@Getter @Setter public String networkResourceControlVersion;
+	@Getter @Setter public DVSVmVnicNetworkResourcePool[] vmVnicNetworkResourcePool;
+	@Getter @Setter public Integer pnicCapacityRatioForReservation;
 }

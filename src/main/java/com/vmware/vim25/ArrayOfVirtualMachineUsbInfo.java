@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineUsbInfo {
-    public VirtualMachineUsbInfo[] VirtualMachineUsbInfo;
+	public VirtualMachineUsbInfo[] VirtualMachineUsbInfo;
 
-    public VirtualMachineUsbInfo[] getVirtualMachineUsbInfo() {
-        return this.VirtualMachineUsbInfo;
-    }
+	public VirtualMachineUsbInfo[] getVirtualMachineUsbInfo() {
+		return this.VirtualMachineUsbInfo;
+	}
 
-    public VirtualMachineUsbInfo getVirtualMachineUsbInfo(int i) {
-        return this.VirtualMachineUsbInfo[i];
-    }
+	public VirtualMachineUsbInfo getVirtualMachineUsbInfo(int i) {
+		return this.VirtualMachineUsbInfo[i];
+	}
 
-    public void setVirtualMachineUsbInfo(VirtualMachineUsbInfo[] VirtualMachineUsbInfo) {
-        this.VirtualMachineUsbInfo = VirtualMachineUsbInfo;
-    }
+	public void setVirtualMachineUsbInfo(VirtualMachineUsbInfo[] VirtualMachineUsbInfo) {
+		this.VirtualMachineUsbInfo = VirtualMachineUsbInfo;
+	}
 }

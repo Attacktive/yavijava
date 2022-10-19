@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PhysicalNicHint extends DynamicData {
-    public Integer vlanId;
+	public Integer vlanId;
 
-    public Integer getVlanId() {
-        return this.vlanId;
-    }
+	public Integer getVlanId() {
+		return this.vlanId;
+	}
 
-    public void setVlanId(Integer vlanId) {
-        this.vlanId = vlanId;
-    }
+	public void setVlanId(Integer vlanId) {
+		this.vlanId = vlanId;
+	}
 }

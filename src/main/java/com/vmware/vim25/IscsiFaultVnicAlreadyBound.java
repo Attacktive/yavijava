@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IscsiFaultVnicAlreadyBound extends IscsiFault {
-    public String vnicDevice;
+	public String vnicDevice;
 
-    public String getVnicDevice() {
-        return this.vnicDevice;
-    }
+	public String getVnicDevice() {
+		return this.vnicDevice;
+	}
 
-    public void setVnicDevice(String vnicDevice) {
-        this.vnicDevice = vnicDevice;
-    }
+	public void setVnicDevice(String vnicDevice) {
+		this.vnicDevice = vnicDevice;
+	}
 }

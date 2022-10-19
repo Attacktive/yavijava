@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OutOfBounds extends VimFault {
-    public String argumentName;
+	public String argumentName;
 
-    public String getArgumentName() {
-        return this.argumentName;
-    }
+	public String getArgumentName() {
+		return this.argumentName;
+	}
 
-    public void setArgumentName(String argumentName) {
-        this.argumentName = argumentName;
-    }
+	public void setArgumentName(String argumentName) {
+		this.argumentName = argumentName;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineNetworkInfo extends VirtualMachineTargetInfo {
-    public NetworkSummary network;
+	public NetworkSummary network;
 
-    public NetworkSummary getNetwork() {
-        return this.network;
-    }
+	public NetworkSummary getNetwork() {
+		return this.network;
+	}
 
-    public void setNetwork(NetworkSummary network) {
-        this.network = network;
-    }
+	public void setNetwork(NetworkSummary network) {
+		this.network = network;
+	}
 }

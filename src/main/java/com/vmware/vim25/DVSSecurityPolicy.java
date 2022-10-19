@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSSecurityPolicy extends InheritablePolicy {
-    public BoolPolicy allowPromiscuous;
-    public BoolPolicy macChanges;
-    public BoolPolicy forgedTransmits;
+	public BoolPolicy allowPromiscuous;
+	public BoolPolicy macChanges;
+	public BoolPolicy forgedTransmits;
 
-    public BoolPolicy getAllowPromiscuous() {
-        return this.allowPromiscuous;
-    }
+	public BoolPolicy getAllowPromiscuous() {
+		return this.allowPromiscuous;
+	}
 
-    public BoolPolicy getMacChanges() {
-        return this.macChanges;
-    }
+	public BoolPolicy getMacChanges() {
+		return this.macChanges;
+	}
 
-    public BoolPolicy getForgedTransmits() {
-        return this.forgedTransmits;
-    }
+	public BoolPolicy getForgedTransmits() {
+		return this.forgedTransmits;
+	}
 
-    public void setAllowPromiscuous(BoolPolicy allowPromiscuous) {
-        this.allowPromiscuous = allowPromiscuous;
-    }
+	public void setAllowPromiscuous(BoolPolicy allowPromiscuous) {
+		this.allowPromiscuous = allowPromiscuous;
+	}
 
-    public void setMacChanges(BoolPolicy macChanges) {
-        this.macChanges = macChanges;
-    }
+	public void setMacChanges(BoolPolicy macChanges) {
+		this.macChanges = macChanges;
+	}
 
-    public void setForgedTransmits(BoolPolicy forgedTransmits) {
-        this.forgedTransmits = forgedTransmits;
-    }
+	public void setForgedTransmits(BoolPolicy forgedTransmits) {
+		this.forgedTransmits = forgedTransmits;
+	}
 }

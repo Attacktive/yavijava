@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVmPortGroupProfile {
-    public VmPortGroupProfile[] VmPortGroupProfile;
+	public VmPortGroupProfile[] VmPortGroupProfile;
 
-    public VmPortGroupProfile[] getVmPortGroupProfile() {
-        return this.VmPortGroupProfile;
-    }
+	public VmPortGroupProfile[] getVmPortGroupProfile() {
+		return this.VmPortGroupProfile;
+	}
 
-    public VmPortGroupProfile getVmPortGroupProfile(int i) {
-        return this.VmPortGroupProfile[i];
-    }
+	public VmPortGroupProfile getVmPortGroupProfile(int i) {
+		return this.VmPortGroupProfile[i];
+	}
 
-    public void setVmPortGroupProfile(VmPortGroupProfile[] VmPortGroupProfile) {
-        this.VmPortGroupProfile = VmPortGroupProfile;
-    }
+	public void setVmPortGroupProfile(VmPortGroupProfile[] VmPortGroupProfile) {
+		this.VmPortGroupProfile = VmPortGroupProfile;
+	}
 }

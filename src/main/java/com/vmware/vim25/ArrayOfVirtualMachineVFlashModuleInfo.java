@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineVFlashModuleInfo {
-    public VirtualMachineVFlashModuleInfo[] VirtualMachineVFlashModuleInfo;
+	public VirtualMachineVFlashModuleInfo[] VirtualMachineVFlashModuleInfo;
 
-    public VirtualMachineVFlashModuleInfo[] getVirtualMachineVFlashModuleInfo() {
-        return this.VirtualMachineVFlashModuleInfo;
-    }
+	public VirtualMachineVFlashModuleInfo[] getVirtualMachineVFlashModuleInfo() {
+		return this.VirtualMachineVFlashModuleInfo;
+	}
 
-    public VirtualMachineVFlashModuleInfo getVirtualMachineVFlashModuleInfo(int i) {
-        return this.VirtualMachineVFlashModuleInfo[i];
-    }
+	public VirtualMachineVFlashModuleInfo getVirtualMachineVFlashModuleInfo(int i) {
+		return this.VirtualMachineVFlashModuleInfo[i];
+	}
 
-    public void setVirtualMachineVFlashModuleInfo(VirtualMachineVFlashModuleInfo[] VirtualMachineVFlashModuleInfo) {
-        this.VirtualMachineVFlashModuleInfo = VirtualMachineVFlashModuleInfo;
-    }
+	public void setVirtualMachineVFlashModuleInfo(VirtualMachineVFlashModuleInfo[] VirtualMachineVFlashModuleInfo) {
+		this.VirtualMachineVFlashModuleInfo = VirtualMachineVFlashModuleInfo;
+	}
 }

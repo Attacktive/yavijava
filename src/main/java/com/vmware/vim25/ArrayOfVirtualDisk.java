@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualDisk {
-    public VirtualDisk[] VirtualDisk;
+	public VirtualDisk[] VirtualDisk;
 
-    public VirtualDisk[] getVirtualDisk() {
-        return this.VirtualDisk;
-    }
+	public VirtualDisk[] getVirtualDisk() {
+		return this.VirtualDisk;
+	}
 
-    public VirtualDisk getVirtualDisk(int i) {
-        return this.VirtualDisk[i];
-    }
+	public VirtualDisk getVirtualDisk(int i) {
+		return this.VirtualDisk[i];
+	}
 
-    public void setVirtualDisk(VirtualDisk[] VirtualDisk) {
-        this.VirtualDisk = VirtualDisk;
-    }
+	public void setVirtualDisk(VirtualDisk[] VirtualDisk) {
+		this.VirtualDisk = VirtualDisk;
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState {
-    licensed("licensed"),
-    unlicensed("unlicensed"),
-    unknown("unknown");
+	licensed("licensed"),
+	unlicensed("unlicensed"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState(String val) {
-        this.val = val;
-    }
+	private ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState(String val) {
+		this.val = val;
+	}
 }

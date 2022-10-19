@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppOvfSectionSpec {
-    public VAppOvfSectionSpec[] VAppOvfSectionSpec;
+	public VAppOvfSectionSpec[] VAppOvfSectionSpec;
 
-    public VAppOvfSectionSpec[] getVAppOvfSectionSpec() {
-        return this.VAppOvfSectionSpec;
-    }
+	public VAppOvfSectionSpec[] getVAppOvfSectionSpec() {
+		return this.VAppOvfSectionSpec;
+	}
 
-    public VAppOvfSectionSpec getVAppOvfSectionSpec(int i) {
-        return this.VAppOvfSectionSpec[i];
-    }
+	public VAppOvfSectionSpec getVAppOvfSectionSpec(int i) {
+		return this.VAppOvfSectionSpec[i];
+	}
 
-    public void setVAppOvfSectionSpec(VAppOvfSectionSpec[] VAppOvfSectionSpec) {
-        this.VAppOvfSectionSpec = VAppOvfSectionSpec;
-    }
+	public void setVAppOvfSectionSpec(VAppOvfSectionSpec[] VAppOvfSectionSpec) {
+		this.VAppOvfSectionSpec = VAppOvfSectionSpec;
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VsanHostHealthState {
-    unknown("unknown"),
-    healthy("healthy"),
-    unhealthy("unhealthy");
+	unknown("unknown"),
+	healthy("healthy"),
+	unhealthy("unhealthy");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VsanHostHealthState(String val) {
-        this.val = val;
-    }
+	private VsanHostHealthState(String val) {
+		this.val = val;
+	}
 }

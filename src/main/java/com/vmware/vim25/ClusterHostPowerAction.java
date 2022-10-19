@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterHostPowerAction extends ClusterAction {
-    public HostPowerOperationType operationType;
-    public Integer powerConsumptionWatt;
-    public Integer cpuCapacityMHz;
-    public Integer memCapacityMB;
+	public HostPowerOperationType operationType;
+	public Integer powerConsumptionWatt;
+	public Integer cpuCapacityMHz;
+	public Integer memCapacityMB;
 
-    public HostPowerOperationType getOperationType() {
-        return this.operationType;
-    }
+	public HostPowerOperationType getOperationType() {
+		return this.operationType;
+	}
 
-    public Integer getPowerConsumptionWatt() {
-        return this.powerConsumptionWatt;
-    }
+	public Integer getPowerConsumptionWatt() {
+		return this.powerConsumptionWatt;
+	}
 
-    public Integer getCpuCapacityMHz() {
-        return this.cpuCapacityMHz;
-    }
+	public Integer getCpuCapacityMHz() {
+		return this.cpuCapacityMHz;
+	}
 
-    public Integer getMemCapacityMB() {
-        return this.memCapacityMB;
-    }
+	public Integer getMemCapacityMB() {
+		return this.memCapacityMB;
+	}
 
-    public void setOperationType(HostPowerOperationType operationType) {
-        this.operationType = operationType;
-    }
+	public void setOperationType(HostPowerOperationType operationType) {
+		this.operationType = operationType;
+	}
 
-    public void setPowerConsumptionWatt(Integer powerConsumptionWatt) {
-        this.powerConsumptionWatt = powerConsumptionWatt;
-    }
+	public void setPowerConsumptionWatt(Integer powerConsumptionWatt) {
+		this.powerConsumptionWatt = powerConsumptionWatt;
+	}
 
-    public void setCpuCapacityMHz(Integer cpuCapacityMHz) {
-        this.cpuCapacityMHz = cpuCapacityMHz;
-    }
+	public void setCpuCapacityMHz(Integer cpuCapacityMHz) {
+		this.cpuCapacityMHz = cpuCapacityMHz;
+	}
 
-    public void setMemCapacityMB(Integer memCapacityMB) {
-        this.memCapacityMB = memCapacityMB;
-    }
+	public void setMemCapacityMB(Integer memCapacityMB) {
+		this.memCapacityMB = memCapacityMB;
+	}
 }

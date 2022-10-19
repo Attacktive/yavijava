@@ -18,7 +18,7 @@ import spock.lang.Specification
  *  limitations under the License.
  */
 class VerUtilTestSpec extends Specification {
-    def "GetTargetNameSpace"() {
+	def "GetTargetNameSpace"() {
 
-    }
+	}
 }

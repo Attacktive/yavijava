@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FailToEnableSPBM extends NotEnoughLicenses {
-    public ManagedObjectReference cs;
-    public String csName;
-    public ComputeResourceHostSPBMLicenseInfo[] hostLicenseStates;
+	public ManagedObjectReference cs;
+	public String csName;
+	public ComputeResourceHostSPBMLicenseInfo[] hostLicenseStates;
 
-    public ManagedObjectReference getCs() {
-        return this.cs;
-    }
+	public ManagedObjectReference getCs() {
+		return this.cs;
+	}
 
-    public String getCsName() {
-        return this.csName;
-    }
+	public String getCsName() {
+		return this.csName;
+	}
 
-    public ComputeResourceHostSPBMLicenseInfo[] getHostLicenseStates() {
-        return this.hostLicenseStates;
-    }
+	public ComputeResourceHostSPBMLicenseInfo[] getHostLicenseStates() {
+		return this.hostLicenseStates;
+	}
 
-    public void setCs(ManagedObjectReference cs) {
-        this.cs = cs;
-    }
+	public void setCs(ManagedObjectReference cs) {
+		this.cs = cs;
+	}
 
-    public void setCsName(String csName) {
-        this.csName = csName;
-    }
+	public void setCsName(String csName) {
+		this.csName = csName;
+	}
 
-    public void setHostLicenseStates(ComputeResourceHostSPBMLicenseInfo[] hostLicenseStates) {
-        this.hostLicenseStates = hostLicenseStates;
-    }
+	public void setHostLicenseStates(ComputeResourceHostSPBMLicenseInfo[] hostLicenseStates) {
+		this.hostLicenseStates = hostLicenseStates;
+	}
 }

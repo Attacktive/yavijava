@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum RecommendationType {
-    V1("V1");
+	V1("V1");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private RecommendationType(String val) {
-        this.val = val;
-    }
+	private RecommendationType(String val) {
+		this.val = val;
+	}
 }

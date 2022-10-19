@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareUplinkLacpPolicy extends InheritablePolicy {
-    public BoolPolicy enable;
-    public StringPolicy mode;
+	public BoolPolicy enable;
+	public StringPolicy mode;
 
-    public BoolPolicy getEnable() {
-        return this.enable;
-    }
+	public BoolPolicy getEnable() {
+		return this.enable;
+	}
 
-    public StringPolicy getMode() {
-        return this.mode;
-    }
+	public StringPolicy getMode() {
+		return this.mode;
+	}
 
-    public void setEnable(BoolPolicy enable) {
-        this.enable = enable;
-    }
+	public void setEnable(BoolPolicy enable) {
+		this.enable = enable;
+	}
 
-    public void setMode(StringPolicy mode) {
-        this.mode = mode;
-    }
+	public void setMode(StringPolicy mode) {
+		this.mode = mode;
+	}
 }

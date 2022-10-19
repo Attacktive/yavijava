@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDVPortgroupConfigSpec {
-    public DVPortgroupConfigSpec[] DVPortgroupConfigSpec;
+	public DVPortgroupConfigSpec[] DVPortgroupConfigSpec;
 
-    public DVPortgroupConfigSpec[] getDVPortgroupConfigSpec() {
-        return this.DVPortgroupConfigSpec;
-    }
+	public DVPortgroupConfigSpec[] getDVPortgroupConfigSpec() {
+		return this.DVPortgroupConfigSpec;
+	}
 
-    public DVPortgroupConfigSpec getDVPortgroupConfigSpec(int i) {
-        return this.DVPortgroupConfigSpec[i];
-    }
+	public DVPortgroupConfigSpec getDVPortgroupConfigSpec(int i) {
+		return this.DVPortgroupConfigSpec[i];
+	}
 
-    public void setDVPortgroupConfigSpec(DVPortgroupConfigSpec[] DVPortgroupConfigSpec) {
-        this.DVPortgroupConfigSpec = DVPortgroupConfigSpec;
-    }
+	public void setDVPortgroupConfigSpec(DVPortgroupConfigSpec[] DVPortgroupConfigSpec) {
+		this.DVPortgroupConfigSpec = DVPortgroupConfigSpec;
+	}
 }

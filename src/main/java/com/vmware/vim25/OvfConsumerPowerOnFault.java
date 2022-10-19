@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerPowerOnFault extends InvalidState {
-    public String extensionKey;
-    public String extensionName;
-    public String description;
+	public String extensionKey;
+	public String extensionName;
+	public String description;
 
-    public String getExtensionKey() {
-        return this.extensionKey;
-    }
+	public String getExtensionKey() {
+		return this.extensionKey;
+	}
 
-    public String getExtensionName() {
-        return this.extensionName;
-    }
+	public String getExtensionName() {
+		return this.extensionName;
+	}
 
-    public String getDescription() {
-        return this.description;
-    }
+	public String getDescription() {
+		return this.description;
+	}
 
-    public void setExtensionKey(String extensionKey) {
-        this.extensionKey = extensionKey;
-    }
+	public void setExtensionKey(String extensionKey) {
+		this.extensionKey = extensionKey;
+	}
 
-    public void setExtensionName(String extensionName) {
-        this.extensionName = extensionName;
-    }
+	public void setExtensionName(String extensionName) {
+		this.extensionName = extensionName;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }

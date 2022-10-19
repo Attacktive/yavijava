@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostProfileAppliedEvent extends HostEvent {
-    public ProfileEventArgument profile;
+	public ProfileEventArgument profile;
 
-    public ProfileEventArgument getProfile() {
-        return this.profile;
-    }
+	public ProfileEventArgument getProfile() {
+		return this.profile;
+	}
 
-    public void setProfile(ProfileEventArgument profile) {
-        this.profile = profile;
-    }
+	public void setProfile(ProfileEventArgument profile) {
+		this.profile = profile;
+	}
 }

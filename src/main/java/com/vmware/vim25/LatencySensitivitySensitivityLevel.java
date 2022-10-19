@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum LatencySensitivitySensitivityLevel {
-    low("low"),
-    normal("normal"),
-    medium("medium"),
-    high("high"),
-    custom("custom");
+	low("low"),
+	normal("normal"),
+	medium("medium"),
+	high("high"),
+	custom("custom");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LatencySensitivitySensitivityLevel(String val) {
-        this.val = val;
-    }
+	private LatencySensitivitySensitivityLevel(String val) {
+		this.val = val;
+	}
 }

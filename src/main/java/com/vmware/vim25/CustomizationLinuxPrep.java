@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationLinuxPrep extends CustomizationIdentitySettings {
-    public CustomizationName hostName;
-    public String domain;
-    public String timeZone;
-    public Boolean hwClockUTC;
+	public CustomizationName hostName;
+	public String domain;
+	public String timeZone;
+	public Boolean hwClockUTC;
 
-    public CustomizationName getHostName() {
-        return this.hostName;
-    }
+	public CustomizationName getHostName() {
+		return this.hostName;
+	}
 
-    public String getDomain() {
-        return this.domain;
-    }
+	public String getDomain() {
+		return this.domain;
+	}
 
-    public String getTimeZone() {
-        return this.timeZone;
-    }
+	public String getTimeZone() {
+		return this.timeZone;
+	}
 
-    public Boolean getHwClockUTC() {
-        return this.hwClockUTC;
-    }
+	public Boolean getHwClockUTC() {
+		return this.hwClockUTC;
+	}
 
-    public void setHostName(CustomizationName hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(CustomizationName hostName) {
+		this.hostName = hostName;
+	}
 
-    public void setDomain(String domain) {
-        this.domain = domain;
-    }
+	public void setDomain(String domain) {
+		this.domain = domain;
+	}
 
-    public void setTimeZone(String timeZone) {
-        this.timeZone = timeZone;
-    }
+	public void setTimeZone(String timeZone) {
+		this.timeZone = timeZone;
+	}
 
-    public void setHwClockUTC(Boolean hwClockUTC) {
-        this.hwClockUTC = hwClockUTC;
-    }
+	public void setHwClockUTC(Boolean hwClockUTC) {
+		this.hwClockUTC = hwClockUTC;
+	}
 }

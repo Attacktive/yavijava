@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDrsVmConfigSpec {
-    public ClusterDrsVmConfigSpec[] ClusterDrsVmConfigSpec;
+	public ClusterDrsVmConfigSpec[] ClusterDrsVmConfigSpec;
 
-    public ClusterDrsVmConfigSpec[] getClusterDrsVmConfigSpec() {
-        return this.ClusterDrsVmConfigSpec;
-    }
+	public ClusterDrsVmConfigSpec[] getClusterDrsVmConfigSpec() {
+		return this.ClusterDrsVmConfigSpec;
+	}
 
-    public ClusterDrsVmConfigSpec getClusterDrsVmConfigSpec(int i) {
-        return this.ClusterDrsVmConfigSpec[i];
-    }
+	public ClusterDrsVmConfigSpec getClusterDrsVmConfigSpec(int i) {
+		return this.ClusterDrsVmConfigSpec[i];
+	}
 
-    public void setClusterDrsVmConfigSpec(ClusterDrsVmConfigSpec[] ClusterDrsVmConfigSpec) {
-        this.ClusterDrsVmConfigSpec = ClusterDrsVmConfigSpec;
-    }
+	public void setClusterDrsVmConfigSpec(ClusterDrsVmConfigSpec[] ClusterDrsVmConfigSpec) {
+		this.ClusterDrsVmConfigSpec = ClusterDrsVmConfigSpec;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSystemSwapConfiguration extends DynamicData {
-    public HostSystemSwapConfigurationSystemSwapOption[] option;
+	public HostSystemSwapConfigurationSystemSwapOption[] option;
 
-    public HostSystemSwapConfigurationSystemSwapOption[] getOption() {
-        return this.option;
-    }
+	public HostSystemSwapConfigurationSystemSwapOption[] getOption() {
+		return this.option;
+	}
 
-    public void setOption(HostSystemSwapConfigurationSystemSwapOption[] option) {
-        this.option = option;
-    }
+	public void setOption(HostSystemSwapConfigurationSystemSwapOption[] option) {
+		this.option = option;
+	}
 }

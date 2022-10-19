@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MultipleCertificatesVerifyFault extends HostConnectFault {
-    public MultipleCertificatesVerifyFaultThumbprintData[] thumbprintData;
+	public MultipleCertificatesVerifyFaultThumbprintData[] thumbprintData;
 
-    public MultipleCertificatesVerifyFaultThumbprintData[] getThumbprintData() {
-        return this.thumbprintData;
-    }
+	public MultipleCertificatesVerifyFaultThumbprintData[] getThumbprintData() {
+		return this.thumbprintData;
+	}
 
-    public void setThumbprintData(MultipleCertificatesVerifyFaultThumbprintData[] thumbprintData) {
-        this.thumbprintData = thumbprintData;
-    }
+	public void setThumbprintData(MultipleCertificatesVerifyFaultThumbprintData[] thumbprintData) {
+		this.thumbprintData = thumbprintData;
+	}
 }

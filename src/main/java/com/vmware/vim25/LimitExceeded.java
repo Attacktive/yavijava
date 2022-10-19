@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LimitExceeded extends VimFault {
-    public String property;
-    public Integer limit;
+	public String property;
+	public Integer limit;
 
-    public String getProperty() {
-        return this.property;
-    }
+	public String getProperty() {
+		return this.property;
+	}
 
-    public Integer getLimit() {
-        return this.limit;
-    }
+	public Integer getLimit() {
+		return this.limit;
+	}
 
-    public void setProperty(String property) {
-        this.property = property;
-    }
+	public void setProperty(String property) {
+		this.property = property;
+	}
 
-    public void setLimit(Integer limit) {
-        this.limit = limit;
-    }
+	public void setLimit(Integer limit) {
+		this.limit = limit;
+	}
 }

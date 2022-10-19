@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileUpdateFailedUpdateFailure extends DynamicData {
-    public ProfilePropertyPath profilePath;
-    public LocalizableMessage errMsg;
+	public ProfilePropertyPath profilePath;
+	public LocalizableMessage errMsg;
 
-    public ProfilePropertyPath getProfilePath() {
-        return this.profilePath;
-    }
+	public ProfilePropertyPath getProfilePath() {
+		return this.profilePath;
+	}
 
-    public LocalizableMessage getErrMsg() {
-        return this.errMsg;
-    }
+	public LocalizableMessage getErrMsg() {
+		return this.errMsg;
+	}
 
-    public void setProfilePath(ProfilePropertyPath profilePath) {
-        this.profilePath = profilePath;
-    }
+	public void setProfilePath(ProfilePropertyPath profilePath) {
+		this.profilePath = profilePath;
+	}
 
-    public void setErrMsg(LocalizableMessage errMsg) {
-        this.errMsg = errMsg;
-    }
+	public void setErrMsg(LocalizableMessage errMsg) {
+		this.errMsg = errMsg;
+	}
 }

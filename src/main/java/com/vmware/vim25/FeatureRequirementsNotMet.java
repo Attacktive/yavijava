@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FeatureRequirementsNotMet extends VirtualHardwareCompatibilityIssue {
-    public VirtualMachineFeatureRequirement[] featureRequirement;
-    public ManagedObjectReference vm;
-    public ManagedObjectReference host;
+	public VirtualMachineFeatureRequirement[] featureRequirement;
+	public ManagedObjectReference vm;
+	public ManagedObjectReference host;
 
-    public VirtualMachineFeatureRequirement[] getFeatureRequirement() {
-        return this.featureRequirement;
-    }
+	public VirtualMachineFeatureRequirement[] getFeatureRequirement() {
+		return this.featureRequirement;
+	}
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public void setFeatureRequirement(VirtualMachineFeatureRequirement[] featureRequirement) {
-        this.featureRequirement = featureRequirement;
-    }
+	public void setFeatureRequirement(VirtualMachineFeatureRequirement[] featureRequirement) {
+		this.featureRequirement = featureRequirement;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 }

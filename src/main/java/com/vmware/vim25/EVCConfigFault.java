@@ -17,13 +17,13 @@ package com.vmware.vim25;
  */
 public class EVCConfigFault extends VimFault {
 
-    public LocalizedMethodFault[] faults;
+	public LocalizedMethodFault[] faults;
 
-    public LocalizedMethodFault[] getFaults() {
-        return faults;
-    }
+	public LocalizedMethodFault[] getFaults() {
+		return faults;
+	}
 
-    public void setFaults(LocalizedMethodFault[] faults) {
-        this.faults = faults;
-    }
+	public void setFaults(LocalizedMethodFault[] faults) {
+		this.faults = faults;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineStandbyActionType {
-    checkpoint("checkpoint"),
-    powerOnSuspend("powerOnSuspend");
+	checkpoint("checkpoint"),
+	powerOnSuspend("powerOnSuspend");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineStandbyActionType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineStandbyActionType(String val) {
+		this.val = val;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDeviceURIBackingOptionDirection {
-    server("server"),
-    client("client");
+	server("server"),
+	client("client");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDeviceURIBackingOptionDirection(String val) {
-        this.val = val;
-    }
+	private VirtualDeviceURIBackingOptionDirection(String val) {
+		this.val = val;
+	}
 }

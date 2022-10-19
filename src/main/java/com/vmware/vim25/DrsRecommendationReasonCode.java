@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum DrsRecommendationReasonCode {
-    fairnessCpuAvg("fairnessCpuAvg"),
-    fairnessMemAvg("fairnessMemAvg"),
-    jointAffin("jointAffin"),
-    antiAffin("antiAffin"),
-    hostMaint("hostMaint");
+	fairnessCpuAvg("fairnessCpuAvg"),
+	fairnessMemAvg("fairnessMemAvg"),
+	jointAffin("jointAffin"),
+	antiAffin("antiAffin"),
+	hostMaint("hostMaint");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DrsRecommendationReasonCode(String val) {
-        this.val = val;
-    }
+	private DrsRecommendationReasonCode(String val) {
+		this.val = val;
+	}
 }

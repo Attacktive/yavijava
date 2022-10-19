@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachinePowerState {
-    poweredOff("poweredOff"),
-    poweredOn("poweredOn"),
-    suspended("suspended");
+	poweredOff("poweredOff"),
+	poweredOn("poweredOn"),
+	suspended("suspended");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachinePowerState(String val) {
-        this.val = val;
-    }
+	private VirtualMachinePowerState(String val) {
+		this.val = val;
+	}
 }

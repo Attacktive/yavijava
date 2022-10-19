@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVMwareDVSPvlanMapEntry {
-    public VMwareDVSPvlanMapEntry[] VMwareDVSPvlanMapEntry;
+	public VMwareDVSPvlanMapEntry[] VMwareDVSPvlanMapEntry;
 
-    public VMwareDVSPvlanMapEntry[] getVMwareDVSPvlanMapEntry() {
-        return this.VMwareDVSPvlanMapEntry;
-    }
+	public VMwareDVSPvlanMapEntry[] getVMwareDVSPvlanMapEntry() {
+		return this.VMwareDVSPvlanMapEntry;
+	}
 
-    public VMwareDVSPvlanMapEntry getVMwareDVSPvlanMapEntry(int i) {
-        return this.VMwareDVSPvlanMapEntry[i];
-    }
+	public VMwareDVSPvlanMapEntry getVMwareDVSPvlanMapEntry(int i) {
+		return this.VMwareDVSPvlanMapEntry[i];
+	}
 
-    public void setVMwareDVSPvlanMapEntry(VMwareDVSPvlanMapEntry[] VMwareDVSPvlanMapEntry) {
-        this.VMwareDVSPvlanMapEntry = VMwareDVSPvlanMapEntry;
-    }
+	public void setVMwareDVSPvlanMapEntry(VMwareDVSPvlanMapEntry[] VMwareDVSPvlanMapEntry) {
+		this.VMwareDVSPvlanMapEntry = VMwareDVSPvlanMapEntry;
+	}
 }

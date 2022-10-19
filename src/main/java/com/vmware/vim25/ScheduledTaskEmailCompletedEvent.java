@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskEmailCompletedEvent extends ScheduledTaskEvent {
-    public String to;
+	public String to;
 
-    public String getTo() {
-        return this.to;
-    }
+	public String getTo() {
+		return this.to;
+	}
 
-    public void setTo(String to) {
-        this.to = to;
-    }
+	public void setTo(String to) {
+		this.to = to;
+	}
 }

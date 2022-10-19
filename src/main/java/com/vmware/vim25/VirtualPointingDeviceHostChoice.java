@@ -35,19 +35,19 @@ package com.vmware.vim25;
  */
 
 public enum VirtualPointingDeviceHostChoice {
-    autodetect("autodetect"),
-    intellimouseExplorer("intellimouseExplorer"),
-    intellimousePs2("intellimousePs2"),
-    logitechMouseman("logitechMouseman"),
-    microsoft_serial("microsoft_serial"),
-    mouseSystems("mouseSystems"),
-    mousemanSerial("mousemanSerial"),
-    ps2("ps2");
+	autodetect("autodetect"),
+	intellimouseExplorer("intellimouseExplorer"),
+	intellimousePs2("intellimousePs2"),
+	logitechMouseman("logitechMouseman"),
+	microsoft_serial("microsoft_serial"),
+	mouseSystems("mouseSystems"),
+	mousemanSerial("mousemanSerial"),
+	ps2("ps2");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualPointingDeviceHostChoice(String val) {
-        this.val = val;
-    }
+	private VirtualPointingDeviceHostChoice(String val) {
+		this.val = val;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsFilterPolicy extends InheritablePolicy {
-    public DvsFilterConfig[] filterConfig;
+	public DvsFilterConfig[] filterConfig;
 
-    public DvsFilterConfig[] getFilterConfig() {
-        return this.filterConfig;
-    }
+	public DvsFilterConfig[] getFilterConfig() {
+		return this.filterConfig;
+	}
 
-    public void setFilterConfig(DvsFilterConfig[] filterConfig) {
-        this.filterConfig = filterConfig;
-    }
+	public void setFilterConfig(DvsFilterConfig[] filterConfig) {
+		this.filterConfig = filterConfig;
+	}
 }

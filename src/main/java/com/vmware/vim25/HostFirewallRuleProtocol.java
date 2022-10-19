@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostFirewallRuleProtocol {
-    tcp("tcp"),
-    udp("udp");
+	tcp("tcp"),
+	udp("udp");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostFirewallRuleProtocol(String val) {
-        this.val = val;
-    }
+	private HostFirewallRuleProtocol(String val) {
+		this.val = val;
+	}
 }

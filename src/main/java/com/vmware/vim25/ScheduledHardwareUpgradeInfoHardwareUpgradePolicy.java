@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ScheduledHardwareUpgradeInfoHardwareUpgradePolicy {
-    never("never"),
-    onSoftPowerOff("onSoftPowerOff"),
-    always("always");
+	never("never"),
+	onSoftPowerOff("onSoftPowerOff"),
+	always("always");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScheduledHardwareUpgradeInfoHardwareUpgradePolicy(String val) {
-        this.val = val;
-    }
+	private ScheduledHardwareUpgradeInfoHardwareUpgradePolicy(String val) {
+		this.val = val;
+	}
 }

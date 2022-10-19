@@ -19,7 +19,7 @@ import com.vmware.vim25.ManagedObjectReference;
  */
 public class MessageBusProxy extends ManagedObject {
 
-    public MessageBusProxy(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public MessageBusProxy(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 }

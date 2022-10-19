@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmInstanceUuidChangedEvent extends VmEvent {
-    public String oldInstanceUuid;
-    public String newInstanceUuid;
+	public String oldInstanceUuid;
+	public String newInstanceUuid;
 
-    public String getOldInstanceUuid() {
-        return this.oldInstanceUuid;
-    }
+	public String getOldInstanceUuid() {
+		return this.oldInstanceUuid;
+	}
 
-    public String getNewInstanceUuid() {
-        return this.newInstanceUuid;
-    }
+	public String getNewInstanceUuid() {
+		return this.newInstanceUuid;
+	}
 
-    public void setOldInstanceUuid(String oldInstanceUuid) {
-        this.oldInstanceUuid = oldInstanceUuid;
-    }
+	public void setOldInstanceUuid(String oldInstanceUuid) {
+		this.oldInstanceUuid = oldInstanceUuid;
+	}
 
-    public void setNewInstanceUuid(String newInstanceUuid) {
-        this.newInstanceUuid = newInstanceUuid;
-    }
+	public void setNewInstanceUuid(String newInstanceUuid) {
+		this.newInstanceUuid = newInstanceUuid;
+	}
 }

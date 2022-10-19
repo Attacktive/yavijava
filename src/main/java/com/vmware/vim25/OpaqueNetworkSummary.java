@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OpaqueNetworkSummary extends NetworkSummary {
-    public String opaqueNetworkId;
-    public String opaqueNetworkType;
+	public String opaqueNetworkId;
+	public String opaqueNetworkType;
 
-    public String getOpaqueNetworkId() {
-        return this.opaqueNetworkId;
-    }
+	public String getOpaqueNetworkId() {
+		return this.opaqueNetworkId;
+	}
 
-    public String getOpaqueNetworkType() {
-        return this.opaqueNetworkType;
-    }
+	public String getOpaqueNetworkType() {
+		return this.opaqueNetworkType;
+	}
 
-    public void setOpaqueNetworkId(String opaqueNetworkId) {
-        this.opaqueNetworkId = opaqueNetworkId;
-    }
+	public void setOpaqueNetworkId(String opaqueNetworkId) {
+		this.opaqueNetworkId = opaqueNetworkId;
+	}
 
-    public void setOpaqueNetworkType(String opaqueNetworkType) {
-        this.opaqueNetworkType = opaqueNetworkType;
-    }
+	public void setOpaqueNetworkType(String opaqueNetworkType) {
+		this.opaqueNetworkType = opaqueNetworkType;
+	}
 }

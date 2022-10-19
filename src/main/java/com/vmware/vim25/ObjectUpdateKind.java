@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ObjectUpdateKind {
-    modify("modify"),
-    enter("enter"),
-    leave("leave");
+	modify("modify"),
+	enter("enter"),
+	leave("leave");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ObjectUpdateKind(String val) {
-        this.val = val;
-    }
+	private ObjectUpdateKind(String val) {
+		this.val = val;
+	}
 }

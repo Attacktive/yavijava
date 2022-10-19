@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AffinityConfigured extends MigrationFault {
-    public String[] configuredAffinity;
+	public String[] configuredAffinity;
 
-    public String[] getConfiguredAffinity() {
-        return this.configuredAffinity;
-    }
+	public String[] getConfiguredAffinity() {
+		return this.configuredAffinity;
+	}
 
-    public void setConfiguredAffinity(String[] configuredAffinity) {
-        this.configuredAffinity = configuredAffinity;
-    }
+	public void setConfiguredAffinity(String[] configuredAffinity) {
+		this.configuredAffinity = configuredAffinity;
+	}
 }

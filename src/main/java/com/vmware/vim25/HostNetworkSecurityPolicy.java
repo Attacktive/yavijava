@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNetworkSecurityPolicy extends DynamicData {
-    public Boolean allowPromiscuous;
-    public Boolean macChanges;
-    public Boolean forgedTransmits;
+	public Boolean allowPromiscuous;
+	public Boolean macChanges;
+	public Boolean forgedTransmits;
 
-    public Boolean getAllowPromiscuous() {
-        return this.allowPromiscuous;
-    }
+	public Boolean getAllowPromiscuous() {
+		return this.allowPromiscuous;
+	}
 
-    public Boolean getMacChanges() {
-        return this.macChanges;
-    }
+	public Boolean getMacChanges() {
+		return this.macChanges;
+	}
 
-    public Boolean getForgedTransmits() {
-        return this.forgedTransmits;
-    }
+	public Boolean getForgedTransmits() {
+		return this.forgedTransmits;
+	}
 
-    public void setAllowPromiscuous(Boolean allowPromiscuous) {
-        this.allowPromiscuous = allowPromiscuous;
-    }
+	public void setAllowPromiscuous(Boolean allowPromiscuous) {
+		this.allowPromiscuous = allowPromiscuous;
+	}
 
-    public void setMacChanges(Boolean macChanges) {
-        this.macChanges = macChanges;
-    }
+	public void setMacChanges(Boolean macChanges) {
+		this.macChanges = macChanges;
+	}
 
-    public void setForgedTransmits(Boolean forgedTransmits) {
-        this.forgedTransmits = forgedTransmits;
-    }
+	public void setForgedTransmits(Boolean forgedTransmits) {
+		this.forgedTransmits = forgedTransmits;
+	}
 }

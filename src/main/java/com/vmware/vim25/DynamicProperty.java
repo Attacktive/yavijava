@@ -37,22 +37,22 @@ package com.vmware.vim25;
 @SuppressWarnings("all")
 
 public class DynamicProperty {
-    public String name;
-    public Object val;
+	public String name;
+	public Object val;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public Object getVal() {
-        return this.val;
-    }
+	public Object getVal() {
+		return this.val;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setVal(Object val) {
-        this.val = val;
-    }
+	public void setVal(Object val) {
+		this.val = val;
+	}
 }

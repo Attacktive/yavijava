@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerfCompositeMetric extends DynamicData {
-    public PerfEntityMetricBase entity;
-    public PerfEntityMetricBase[] childEntity;
+	public PerfEntityMetricBase entity;
+	public PerfEntityMetricBase[] childEntity;
 
-    public PerfEntityMetricBase getEntity() {
-        return this.entity;
-    }
+	public PerfEntityMetricBase getEntity() {
+		return this.entity;
+	}
 
-    public PerfEntityMetricBase[] getChildEntity() {
-        return this.childEntity;
-    }
+	public PerfEntityMetricBase[] getChildEntity() {
+		return this.childEntity;
+	}
 
-    public void setEntity(PerfEntityMetricBase entity) {
-        this.entity = entity;
-    }
+	public void setEntity(PerfEntityMetricBase entity) {
+		this.entity = entity;
+	}
 
-    public void setChildEntity(PerfEntityMetricBase[] childEntity) {
-        this.childEntity = childEntity;
-    }
+	public void setChildEntity(PerfEntityMetricBase[] childEntity) {
+		this.childEntity = childEntity;
+	}
 }

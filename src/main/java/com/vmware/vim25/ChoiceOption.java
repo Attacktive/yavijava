@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ChoiceOption extends OptionType {
-    public ElementDescription[] choiceInfo;
-    public Integer defaultIndex;
+	public ElementDescription[] choiceInfo;
+	public Integer defaultIndex;
 
-    public ElementDescription[] getChoiceInfo() {
-        return this.choiceInfo;
-    }
+	public ElementDescription[] getChoiceInfo() {
+		return this.choiceInfo;
+	}
 
-    public Integer getDefaultIndex() {
-        return this.defaultIndex;
-    }
+	public Integer getDefaultIndex() {
+		return this.defaultIndex;
+	}
 
-    public void setChoiceInfo(ElementDescription[] choiceInfo) {
-        this.choiceInfo = choiceInfo;
-    }
+	public void setChoiceInfo(ElementDescription[] choiceInfo) {
+		this.choiceInfo = choiceInfo;
+	}
 
-    public void setDefaultIndex(Integer defaultIndex) {
-        this.defaultIndex = defaultIndex;
-    }
+	public void setDefaultIndex(Integer defaultIndex) {
+		this.defaultIndex = defaultIndex;
+	}
 }

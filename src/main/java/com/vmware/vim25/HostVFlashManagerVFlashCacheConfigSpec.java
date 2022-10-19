@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVFlashManagerVFlashCacheConfigSpec extends DynamicData {
-    public String defaultVFlashModule;
-    public long swapCacheReservationInGB;
+	public String defaultVFlashModule;
+	public long swapCacheReservationInGB;
 
-    public String getDefaultVFlashModule() {
-        return this.defaultVFlashModule;
-    }
+	public String getDefaultVFlashModule() {
+		return this.defaultVFlashModule;
+	}
 
-    public long getSwapCacheReservationInGB() {
-        return this.swapCacheReservationInGB;
-    }
+	public long getSwapCacheReservationInGB() {
+		return this.swapCacheReservationInGB;
+	}
 
-    public void setDefaultVFlashModule(String defaultVFlashModule) {
-        this.defaultVFlashModule = defaultVFlashModule;
-    }
+	public void setDefaultVFlashModule(String defaultVFlashModule) {
+		this.defaultVFlashModule = defaultVFlashModule;
+	}
 
-    public void setSwapCacheReservationInGB(long swapCacheReservationInGB) {
-        this.swapCacheReservationInGB = swapCacheReservationInGB;
-    }
+	public void setSwapCacheReservationInGB(long swapCacheReservationInGB) {
+		this.swapCacheReservationInGB = swapCacheReservationInGB;
+	}
 }

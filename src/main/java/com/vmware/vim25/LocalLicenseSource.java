@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LocalLicenseSource extends LicenseSource {
-    public String licenseKeys;
+	public String licenseKeys;
 
-    public String getLicenseKeys() {
-        return this.licenseKeys;
-    }
+	public String getLicenseKeys() {
+		return this.licenseKeys;
+	}
 
-    public void setLicenseKeys(String licenseKeys) {
-        this.licenseKeys = licenseKeys;
-    }
+	public void setLicenseKeys(String licenseKeys) {
+		this.licenseKeys = licenseKeys;
+	}
 }

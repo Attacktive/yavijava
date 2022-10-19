@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IpPoolAssociation extends DynamicData {
-    public ManagedObjectReference network;
-    public String networkName;
+	public ManagedObjectReference network;
+	public String networkName;
 
-    public ManagedObjectReference getNetwork() {
-        return this.network;
-    }
+	public ManagedObjectReference getNetwork() {
+		return this.network;
+	}
 
-    public String getNetworkName() {
-        return this.networkName;
-    }
+	public String getNetworkName() {
+		return this.networkName;
+	}
 
-    public void setNetwork(ManagedObjectReference network) {
-        this.network = network;
-    }
+	public void setNetwork(ManagedObjectReference network) {
+		this.network = network;
+	}
 
-    public void setNetworkName(String networkName) {
-        this.networkName = networkName;
-    }
+	public void setNetworkName(String networkName) {
+		this.networkName = networkName;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LocalDatastoreInfo extends DatastoreInfo {
-    public String path;
+	public String path;
 
-    public String getPath() {
-        return this.path;
-    }
+	public String getPath() {
+		return this.path;
+	}
 
-    public void setPath(String path) {
-        this.path = path;
-    }
+	public void setPath(String path) {
+		this.path = path;
+	}
 }

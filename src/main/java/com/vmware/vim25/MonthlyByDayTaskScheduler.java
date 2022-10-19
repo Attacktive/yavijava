@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MonthlyByDayTaskScheduler extends MonthlyTaskScheduler {
-    public int day;
+	public int day;
 
-    public int getDay() {
-        return this.day;
-    }
+	public int getDay() {
+		return this.day;
+	}
 
-    public void setDay(int day) {
-        this.day = day;
-    }
+	public void setDay(int day) {
+		this.day = day;
+	}
 }

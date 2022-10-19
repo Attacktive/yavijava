@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidCAMServer extends ActiveDirectoryFault {
-    public String camServer;
+	public String camServer;
 
-    public String getCamServer() {
-        return this.camServer;
-    }
+	public String getCamServer() {
+		return this.camServer;
+	}
 
-    public void setCamServer(String camServer) {
-        this.camServer = camServer;
-    }
+	public void setCamServer(String camServer) {
+		this.camServer = camServer;
+	}
 }

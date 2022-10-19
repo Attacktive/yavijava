@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfUserProfile {
-    public UserProfile[] UserProfile;
+	public UserProfile[] UserProfile;
 
-    public UserProfile[] getUserProfile() {
-        return this.UserProfile;
-    }
+	public UserProfile[] getUserProfile() {
+		return this.UserProfile;
+	}
 
-    public UserProfile getUserProfile(int i) {
-        return this.UserProfile[i];
-    }
+	public UserProfile getUserProfile(int i) {
+		return this.UserProfile[i];
+	}
 
-    public void setUserProfile(UserProfile[] UserProfile) {
-        this.UserProfile = UserProfile;
-    }
+	public void setUserProfile(UserProfile[] UserProfile) {
+		this.UserProfile = UserProfile;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineProfileSpec {
-    public VirtualMachineProfileSpec[] VirtualMachineProfileSpec;
+	public VirtualMachineProfileSpec[] VirtualMachineProfileSpec;
 
-    public VirtualMachineProfileSpec[] getVirtualMachineProfileSpec() {
-        return this.VirtualMachineProfileSpec;
-    }
+	public VirtualMachineProfileSpec[] getVirtualMachineProfileSpec() {
+		return this.VirtualMachineProfileSpec;
+	}
 
-    public VirtualMachineProfileSpec getVirtualMachineProfileSpec(int i) {
-        return this.VirtualMachineProfileSpec[i];
-    }
+	public VirtualMachineProfileSpec getVirtualMachineProfileSpec(int i) {
+		return this.VirtualMachineProfileSpec[i];
+	}
 
-    public void setVirtualMachineProfileSpec(VirtualMachineProfileSpec[] VirtualMachineProfileSpec) {
-        this.VirtualMachineProfileSpec = VirtualMachineProfileSpec;
-    }
+	public void setVirtualMachineProfileSpec(VirtualMachineProfileSpec[] VirtualMachineProfileSpec) {
+		this.VirtualMachineProfileSpec = VirtualMachineProfileSpec;
+	}
 }

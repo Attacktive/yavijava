@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HttpNfcLeaseState {
-    initializing("initializing"),
-    ready("ready"),
-    done("done"),
-    error("error");
+	initializing("initializing"),
+	ready("ready"),
+	done("done"),
+	error("error");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HttpNfcLeaseState(String val) {
-        this.val = val;
-    }
+	private HttpNfcLeaseState(String val) {
+		this.val = val;
+	}
 }

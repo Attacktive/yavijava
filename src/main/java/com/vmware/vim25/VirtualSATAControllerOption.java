@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualSATAControllerOption extends VirtualControllerOption {
-    public IntOption numSATADisks;
-    public IntOption numSATACdroms;
+	public IntOption numSATADisks;
+	public IntOption numSATACdroms;
 
-    public IntOption getNumSATADisks() {
-        return this.numSATADisks;
-    }
+	public IntOption getNumSATADisks() {
+		return this.numSATADisks;
+	}
 
-    public IntOption getNumSATACdroms() {
-        return this.numSATACdroms;
-    }
+	public IntOption getNumSATACdroms() {
+		return this.numSATACdroms;
+	}
 
-    public void setNumSATADisks(IntOption numSATADisks) {
-        this.numSATADisks = numSATADisks;
-    }
+	public void setNumSATADisks(IntOption numSATADisks) {
+		this.numSATADisks = numSATADisks;
+	}
 
-    public void setNumSATACdroms(IntOption numSATACdroms) {
-        this.numSATACdroms = numSATACdroms;
-    }
+	public void setNumSATACdroms(IntOption numSATACdroms) {
+		this.numSATACdroms = numSATACdroms;
+	}
 }

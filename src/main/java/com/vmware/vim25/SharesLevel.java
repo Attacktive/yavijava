@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum SharesLevel {
-    low("low"),
-    normal("normal"),
-    high("high"),
-    custom("custom");
+	low("low"),
+	normal("normal"),
+	high("high"),
+	custom("custom");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private SharesLevel(String val) {
-        this.val = val;
-    }
+	private SharesLevel(String val) {
+		this.val = val;
+	}
 }

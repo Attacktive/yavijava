@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ShrinkDiskFault extends VimFault {
-    public Integer diskId;
+	public Integer diskId;
 
-    public Integer getDiskId() {
-        return this.diskId;
-    }
+	public Integer getDiskId() {
+		return this.diskId;
+	}
 
-    public void setDiskId(Integer diskId) {
-        this.diskId = diskId;
-    }
+	public void setDiskId(Integer diskId) {
+		this.diskId = diskId;
+	}
 }

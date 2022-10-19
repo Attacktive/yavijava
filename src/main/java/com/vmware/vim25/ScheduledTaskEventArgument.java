@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskEventArgument extends EntityEventArgument {
-    public ManagedObjectReference scheduledTask;
+	public ManagedObjectReference scheduledTask;
 
-    public ManagedObjectReference getScheduledTask() {
-        return this.scheduledTask;
-    }
+	public ManagedObjectReference getScheduledTask() {
+		return this.scheduledTask;
+	}
 
-    public void setScheduledTask(ManagedObjectReference scheduledTask) {
-        this.scheduledTask = scheduledTask;
-    }
+	public void setScheduledTask(ManagedObjectReference scheduledTask) {
+		this.scheduledTask = scheduledTask;
+	}
 }

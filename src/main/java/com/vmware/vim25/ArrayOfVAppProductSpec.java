@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVAppProductSpec {
-    public VAppProductSpec[] VAppProductSpec;
+	public VAppProductSpec[] VAppProductSpec;
 
-    public VAppProductSpec[] getVAppProductSpec() {
-        return this.VAppProductSpec;
-    }
+	public VAppProductSpec[] getVAppProductSpec() {
+		return this.VAppProductSpec;
+	}
 
-    public VAppProductSpec getVAppProductSpec(int i) {
-        return this.VAppProductSpec[i];
-    }
+	public VAppProductSpec getVAppProductSpec(int i) {
+		return this.VAppProductSpec[i];
+	}
 
-    public void setVAppProductSpec(VAppProductSpec[] VAppProductSpec) {
-        this.VAppProductSpec = VAppProductSpec;
-    }
+	public void setVAppProductSpec(VAppProductSpec[] VAppProductSpec) {
+		this.VAppProductSpec = VAppProductSpec;
+	}
 }

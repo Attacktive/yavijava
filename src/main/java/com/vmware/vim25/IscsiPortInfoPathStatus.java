@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum IscsiPortInfoPathStatus {
-    notUsed("notUsed"),
-    active("active"),
-    standBy("standBy"),
-    lastActive("lastActive");
+	notUsed("notUsed"),
+	active("active"),
+	standBy("standBy"),
+	lastActive("lastActive");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private IscsiPortInfoPathStatus(String val) {
-        this.val = val;
-    }
+	private IscsiPortInfoPathStatus(String val) {
+		this.val = val;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MksConnectionLimitReached extends InvalidState {
-    public int connectionLimit;
+	public int connectionLimit;
 
-    public int getConnectionLimit() {
-        return this.connectionLimit;
-    }
+	public int getConnectionLimit() {
+		return this.connectionLimit;
+	}
 
-    public void setConnectionLimit(int connectionLimit) {
-        this.connectionLimit = connectionLimit;
-    }
+	public void setConnectionLimit(int connectionLimit) {
+		this.connectionLimit = connectionLimit;
+	}
 }

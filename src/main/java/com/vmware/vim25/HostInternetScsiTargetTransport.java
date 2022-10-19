@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostInternetScsiTargetTransport extends HostTargetTransport {
-    public String iScsiName;
-    public String iScsiAlias;
-    public String[] address;
+	public String iScsiName;
+	public String iScsiAlias;
+	public String[] address;
 
-    public String getIScsiName() {
-        return this.iScsiName;
-    }
+	public String getIScsiName() {
+		return this.iScsiName;
+	}
 
-    public String getIScsiAlias() {
-        return this.iScsiAlias;
-    }
+	public String getIScsiAlias() {
+		return this.iScsiAlias;
+	}
 
-    public String[] getAddress() {
-        return this.address;
-    }
+	public String[] getAddress() {
+		return this.address;
+	}
 
-    public void setIScsiName(String iScsiName) {
-        this.iScsiName = iScsiName;
-    }
+	public void setIScsiName(String iScsiName) {
+		this.iScsiName = iScsiName;
+	}
 
-    public void setIScsiAlias(String iScsiAlias) {
-        this.iScsiAlias = iScsiAlias;
-    }
+	public void setIScsiAlias(String iScsiAlias) {
+		this.iScsiAlias = iScsiAlias;
+	}
 
-    public void setAddress(String[] address) {
-        this.address = address;
-    }
+	public void setAddress(String[] address) {
+		this.address = address;
+	}
 }

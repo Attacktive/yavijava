@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmTriggeringActionTransitionSpec extends DynamicData {
-    public ManagedEntityStatus startState;
-    public ManagedEntityStatus finalState;
-    public boolean repeats;
+	public ManagedEntityStatus startState;
+	public ManagedEntityStatus finalState;
+	public boolean repeats;
 
-    public ManagedEntityStatus getStartState() {
-        return this.startState;
-    }
+	public ManagedEntityStatus getStartState() {
+		return this.startState;
+	}
 
-    public ManagedEntityStatus getFinalState() {
-        return this.finalState;
-    }
+	public ManagedEntityStatus getFinalState() {
+		return this.finalState;
+	}
 
-    public boolean isRepeats() {
-        return this.repeats;
-    }
+	public boolean isRepeats() {
+		return this.repeats;
+	}
 
-    public void setStartState(ManagedEntityStatus startState) {
-        this.startState = startState;
-    }
+	public void setStartState(ManagedEntityStatus startState) {
+		this.startState = startState;
+	}
 
-    public void setFinalState(ManagedEntityStatus finalState) {
-        this.finalState = finalState;
-    }
+	public void setFinalState(ManagedEntityStatus finalState) {
+		this.finalState = finalState;
+	}
 
-    public void setRepeats(boolean repeats) {
-        this.repeats = repeats;
-    }
+	public void setRepeats(boolean repeats) {
+		this.repeats = repeats;
+	}
 }

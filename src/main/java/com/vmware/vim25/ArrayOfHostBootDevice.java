@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostBootDevice {
-    public HostBootDevice[] HostBootDevice;
+	public HostBootDevice[] HostBootDevice;
 
-    public HostBootDevice[] getHostBootDevice() {
-        return this.HostBootDevice;
-    }
+	public HostBootDevice[] getHostBootDevice() {
+		return this.HostBootDevice;
+	}
 
-    public HostBootDevice getHostBootDevice(int i) {
-        return this.HostBootDevice[i];
-    }
+	public HostBootDevice getHostBootDevice(int i) {
+		return this.HostBootDevice[i];
+	}
 
-    public void setHostBootDevice(HostBootDevice[] HostBootDevice) {
-        this.HostBootDevice = HostBootDevice;
-    }
+	public void setHostBootDevice(HostBootDevice[] HostBootDevice) {
+		this.HostBootDevice = HostBootDevice;
+	}
 }

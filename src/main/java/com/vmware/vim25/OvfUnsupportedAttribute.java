@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnsupportedAttribute extends OvfUnsupportedPackage {
-    public String elementName;
-    public String attributeName;
+	public String elementName;
+	public String attributeName;
 
-    public String getElementName() {
-        return this.elementName;
-    }
+	public String getElementName() {
+		return this.elementName;
+	}
 
-    public String getAttributeName() {
-        return this.attributeName;
-    }
+	public String getAttributeName() {
+		return this.attributeName;
+	}
 
-    public void setElementName(String elementName) {
-        this.elementName = elementName;
-    }
+	public void setElementName(String elementName) {
+		this.elementName = elementName;
+	}
 
-    public void setAttributeName(String attributeName) {
-        this.attributeName = attributeName;
-    }
+	public void setAttributeName(String attributeName) {
+		this.attributeName = attributeName;
+	}
 }

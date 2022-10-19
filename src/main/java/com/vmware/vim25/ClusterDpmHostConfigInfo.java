@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDpmHostConfigInfo extends DynamicData {
-    public ManagedObjectReference key;
-    public Boolean enabled;
-    public DpmBehavior behavior;
+	public ManagedObjectReference key;
+	public Boolean enabled;
+	public DpmBehavior behavior;
 
-    public ManagedObjectReference getKey() {
-        return this.key;
-    }
+	public ManagedObjectReference getKey() {
+		return this.key;
+	}
 
-    public Boolean getEnabled() {
-        return this.enabled;
-    }
+	public Boolean getEnabled() {
+		return this.enabled;
+	}
 
-    public DpmBehavior getBehavior() {
-        return this.behavior;
-    }
+	public DpmBehavior getBehavior() {
+		return this.behavior;
+	}
 
-    public void setKey(ManagedObjectReference key) {
-        this.key = key;
-    }
+	public void setKey(ManagedObjectReference key) {
+		this.key = key;
+	}
 
-    public void setEnabled(Boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
-    public void setBehavior(DpmBehavior behavior) {
-        this.behavior = behavior;
-    }
+	public void setBehavior(DpmBehavior behavior) {
+		this.behavior = behavior;
+	}
 }

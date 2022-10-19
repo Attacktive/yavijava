@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOvfFileItem {
-    public OvfFileItem[] OvfFileItem;
+	public OvfFileItem[] OvfFileItem;
 
-    public OvfFileItem[] getOvfFileItem() {
-        return this.OvfFileItem;
-    }
+	public OvfFileItem[] getOvfFileItem() {
+		return this.OvfFileItem;
+	}
 
-    public OvfFileItem getOvfFileItem(int i) {
-        return this.OvfFileItem[i];
-    }
+	public OvfFileItem getOvfFileItem(int i) {
+		return this.OvfFileItem[i];
+	}
 
-    public void setOvfFileItem(OvfFileItem[] OvfFileItem) {
-        this.OvfFileItem = OvfFileItem;
-    }
+	public void setOvfFileItem(OvfFileItem[] OvfFileItem) {
+		this.OvfFileItem = OvfFileItem;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NotSupportedHostInDvs extends NotSupportedHost {
-    public DistributedVirtualSwitchProductSpec switchProductSpec;
+	public DistributedVirtualSwitchProductSpec switchProductSpec;
 
-    public DistributedVirtualSwitchProductSpec getSwitchProductSpec() {
-        return this.switchProductSpec;
-    }
+	public DistributedVirtualSwitchProductSpec getSwitchProductSpec() {
+		return this.switchProductSpec;
+	}
 
-    public void setSwitchProductSpec(DistributedVirtualSwitchProductSpec switchProductSpec) {
-        this.switchProductSpec = switchProductSpec;
-    }
+	public void setSwitchProductSpec(DistributedVirtualSwitchProductSpec switchProductSpec) {
+		this.switchProductSpec = switchProductSpec;
+	}
 }

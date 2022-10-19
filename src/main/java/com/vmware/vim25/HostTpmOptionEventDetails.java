@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmOptionEventDetails extends HostTpmEventDetails {
-    public String optionsFileName;
-    public byte[] bootOptions;
+	public String optionsFileName;
+	public byte[] bootOptions;
 
-    public String getOptionsFileName() {
-        return this.optionsFileName;
-    }
+	public String getOptionsFileName() {
+		return this.optionsFileName;
+	}
 
-    public byte[] getBootOptions() {
-        return this.bootOptions;
-    }
+	public byte[] getBootOptions() {
+		return this.bootOptions;
+	}
 
-    public void setOptionsFileName(String optionsFileName) {
-        this.optionsFileName = optionsFileName;
-    }
+	public void setOptionsFileName(String optionsFileName) {
+		this.optionsFileName = optionsFileName;
+	}
 
-    public void setBootOptions(byte[] bootOptions) {
-        this.bootOptions = bootOptions;
-    }
+	public void setBootOptions(byte[] bootOptions) {
+		this.bootOptions = bootOptions;
+	}
 }

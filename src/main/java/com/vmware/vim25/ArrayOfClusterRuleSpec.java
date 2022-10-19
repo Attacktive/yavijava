@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterRuleSpec {
-    public ClusterRuleSpec[] ClusterRuleSpec;
+	public ClusterRuleSpec[] ClusterRuleSpec;
 
-    public ClusterRuleSpec[] getClusterRuleSpec() {
-        return this.ClusterRuleSpec;
-    }
+	public ClusterRuleSpec[] getClusterRuleSpec() {
+		return this.ClusterRuleSpec;
+	}
 
-    public ClusterRuleSpec getClusterRuleSpec(int i) {
-        return this.ClusterRuleSpec[i];
-    }
+	public ClusterRuleSpec getClusterRuleSpec(int i) {
+		return this.ClusterRuleSpec[i];
+	}
 
-    public void setClusterRuleSpec(ClusterRuleSpec[] ClusterRuleSpec) {
-        this.ClusterRuleSpec = ClusterRuleSpec;
-    }
+	public void setClusterRuleSpec(ClusterRuleSpec[] ClusterRuleSpec) {
+		this.ClusterRuleSpec = ClusterRuleSpec;
+	}
 }

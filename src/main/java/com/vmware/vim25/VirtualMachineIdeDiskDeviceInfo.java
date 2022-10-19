@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineIdeDiskDeviceInfo extends VirtualMachineDiskDeviceInfo {
-    public VirtualMachineIdeDiskDevicePartitionInfo[] partitionTable;
+	public VirtualMachineIdeDiskDevicePartitionInfo[] partitionTable;
 
-    public VirtualMachineIdeDiskDevicePartitionInfo[] getPartitionTable() {
-        return this.partitionTable;
-    }
+	public VirtualMachineIdeDiskDevicePartitionInfo[] getPartitionTable() {
+		return this.partitionTable;
+	}
 
-    public void setPartitionTable(VirtualMachineIdeDiskDevicePartitionInfo[] partitionTable) {
-        this.partitionTable = partitionTable;
-    }
+	public void setPartitionTable(VirtualMachineIdeDiskDevicePartitionInfo[] partitionTable) {
+		this.partitionTable = partitionTable;
+	}
 }

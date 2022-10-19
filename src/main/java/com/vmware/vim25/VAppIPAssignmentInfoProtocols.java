@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VAppIPAssignmentInfoProtocols {
-    IPv4("IPv4"),
-    IPv6("IPv6");
+	IPv4("IPv4"),
+	IPv6("IPv6");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VAppIPAssignmentInfoProtocols(String val) {
-        this.val = val;
-    }
+	private VAppIPAssignmentInfoProtocols(String val) {
+		this.val = val;
+	}
 }

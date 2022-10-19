@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskReasonUser extends TaskReason {
-    public String userName;
+	public String userName;
 
-    public String getUserName() {
-        return this.userName;
-    }
+	public String getUserName() {
+		return this.userName;
+	}
 
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
 }

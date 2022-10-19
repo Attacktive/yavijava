@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum CheckTestType {
-    sourceTests("sourceTests"),
-    hostTests("hostTests"),
-    resourcePoolTests("resourcePoolTests"),
-    datastoreTests("datastoreTests"),
-    networkTests("networkTests");
+	sourceTests("sourceTests"),
+	hostTests("hostTests"),
+	resourcePoolTests("resourcePoolTests"),
+	datastoreTests("datastoreTests"),
+	networkTests("networkTests");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CheckTestType(String val) {
-        this.val = val;
-    }
+	private CheckTestType(String val) {
+		this.val = val;
+	}
 }

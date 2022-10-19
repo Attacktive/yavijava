@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ConnectedIso extends OvfExport {
-    public VirtualCdrom cdrom;
-    public String filename;
+	public VirtualCdrom cdrom;
+	public String filename;
 
-    public VirtualCdrom getCdrom() {
-        return this.cdrom;
-    }
+	public VirtualCdrom getCdrom() {
+		return this.cdrom;
+	}
 
-    public String getFilename() {
-        return this.filename;
-    }
+	public String getFilename() {
+		return this.filename;
+	}
 
-    public void setCdrom(VirtualCdrom cdrom) {
-        this.cdrom = cdrom;
-    }
+	public void setCdrom(VirtualCdrom cdrom) {
+		this.cdrom = cdrom;
+	}
 
-    public void setFilename(String filename) {
-        this.filename = filename;
-    }
+	public void setFilename(String filename) {
+		this.filename = filename;
+	}
 }

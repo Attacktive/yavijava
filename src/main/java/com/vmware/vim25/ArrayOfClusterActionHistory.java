@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterActionHistory {
-    public ClusterActionHistory[] ClusterActionHistory;
+	public ClusterActionHistory[] ClusterActionHistory;
 
-    public ClusterActionHistory[] getClusterActionHistory() {
-        return this.ClusterActionHistory;
-    }
+	public ClusterActionHistory[] getClusterActionHistory() {
+		return this.ClusterActionHistory;
+	}
 
-    public ClusterActionHistory getClusterActionHistory(int i) {
-        return this.ClusterActionHistory[i];
-    }
+	public ClusterActionHistory getClusterActionHistory(int i) {
+		return this.ClusterActionHistory[i];
+	}
 
-    public void setClusterActionHistory(ClusterActionHistory[] ClusterActionHistory) {
-        this.ClusterActionHistory = ClusterActionHistory;
-    }
+	public void setClusterActionHistory(ClusterActionHistory[] ClusterActionHistory) {
+		this.ClusterActionHistory = ClusterActionHistory;
+	}
 }

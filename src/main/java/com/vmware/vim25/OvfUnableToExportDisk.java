@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnableToExportDisk extends OvfHardwareExport {
-    public String diskName;
+	public String diskName;
 
-    public String getDiskName() {
-        return this.diskName;
-    }
+	public String getDiskName() {
+		return this.diskName;
+	}
 
-    public void setDiskName(String diskName) {
-        this.diskName = diskName;
-    }
+	public void setDiskName(String diskName) {
+		this.diskName = diskName;
+	}
 }

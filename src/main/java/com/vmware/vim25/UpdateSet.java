@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UpdateSet extends DynamicData {
-    public String version;
-    public PropertyFilterUpdate[] filterSet;
-    public Boolean truncated;
+	public String version;
+	public PropertyFilterUpdate[] filterSet;
+	public Boolean truncated;
 
-    public String getVersion() {
-        return this.version;
-    }
+	public String getVersion() {
+		return this.version;
+	}
 
-    public PropertyFilterUpdate[] getFilterSet() {
-        return this.filterSet;
-    }
+	public PropertyFilterUpdate[] getFilterSet() {
+		return this.filterSet;
+	}
 
-    public Boolean getTruncated() {
-        return this.truncated;
-    }
+	public Boolean getTruncated() {
+		return this.truncated;
+	}
 
-    public void setVersion(String version) {
-        this.version = version;
-    }
+	public void setVersion(String version) {
+		this.version = version;
+	}
 
-    public void setFilterSet(PropertyFilterUpdate[] filterSet) {
-        this.filterSet = filterSet;
-    }
+	public void setFilterSet(PropertyFilterUpdate[] filterSet) {
+		this.filterSet = filterSet;
+	}
 
-    public void setTruncated(Boolean truncated) {
-        this.truncated = truncated;
-    }
+	public void setTruncated(Boolean truncated) {
+		this.truncated = truncated;
+	}
 }

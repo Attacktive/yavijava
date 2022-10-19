@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNoAvailableNetworksEvent extends HostDasEvent {
-    public String ips;
+	public String ips;
 
-    public String getIps() {
-        return this.ips;
-    }
+	public String getIps() {
+		return this.ips;
+	}
 
-    public void setIps(String ips) {
-        this.ips = ips;
-    }
+	public void setIps(String ips) {
+		this.ips = ips;
+	}
 }

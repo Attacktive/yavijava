@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum LicenseFeatureInfoSourceRestriction {
-    unrestricted("unrestricted"),
-    served("served"),
-    file("file");
+	unrestricted("unrestricted"),
+	served("served"),
+	file("file");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseFeatureInfoSourceRestriction(String val) {
-        this.val = val;
-    }
+	private LicenseFeatureInfoSourceRestriction(String val) {
+		this.val = val;
+	}
 }

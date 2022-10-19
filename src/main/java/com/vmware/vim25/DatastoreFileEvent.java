@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatastoreFileEvent extends DatastoreEvent {
-    public String targetFile;
+	public String targetFile;
 
-    public String getTargetFile() {
-        return this.targetFile;
-    }
+	public String getTargetFile() {
+		return this.targetFile;
+	}
 
-    public void setTargetFile(String targetFile) {
-        this.targetFile = targetFile;
-    }
+	public void setTargetFile(String targetFile) {
+		this.targetFile = targetFile;
+	}
 }

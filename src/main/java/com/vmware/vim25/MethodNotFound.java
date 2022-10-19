@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MethodNotFound extends InvalidRequest {
-    public ManagedObjectReference receiver;
-    public String method;
+	public ManagedObjectReference receiver;
+	public String method;
 
-    public ManagedObjectReference getReceiver() {
-        return this.receiver;
-    }
+	public ManagedObjectReference getReceiver() {
+		return this.receiver;
+	}
 
-    public String getMethod() {
-        return this.method;
-    }
+	public String getMethod() {
+		return this.method;
+	}
 
-    public void setReceiver(ManagedObjectReference receiver) {
-        this.receiver = receiver;
-    }
+	public void setReceiver(ManagedObjectReference receiver) {
+		this.receiver = receiver;
+	}
 
-    public void setMethod(String method) {
-        this.method = method;
-    }
+	public void setMethod(String method) {
+		this.method = method;
+	}
 }

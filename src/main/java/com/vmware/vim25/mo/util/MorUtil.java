@@ -29,14 +29,14 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo.util;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.mo.ManagedEntity;
 import com.vmware.vim25.mo.ManagedObject;
 import com.vmware.vim25.mo.ServerConnection;
 import org.apache.log4j.Logger;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 /**
  * Utility class for the Managed Object and ManagedObjectReference.
@@ -46,102 +46,101 @@ import java.lang.reflect.InvocationTargetException;
 
 public class MorUtil {
 
-    /**
-     * Package name used for class generation
-     */
-    final public static String moPackageName = "com.vmware.vim25.mo";
+	/**
+	 * Package name used for class generation
+	 */
+	final public static String moPackageName = "com.vmware.vim25.mo";
 
-    /**
-     * Create a logger
-     */
-    private static Logger log = Logger.getLogger(MorUtil.class);
+	/**
+	 * Create a logger
+	 */
+	private static Logger log = Logger.getLogger(MorUtil.class);
 
-    /**
-     * Takes an array of ManagedObjects and returns the MOR for each MO
-     *
-     * @param mos
-     * @return
-     */
-    public static ManagedObjectReference[] createMORs(ManagedObject[] mos) {
-        if (mos == null) {
-            throw new IllegalArgumentException();
-        }
-        ManagedObjectReference[] mors = new ManagedObjectReference[mos.length];
-        for (int i = 0; i < mos.length; i++) {
-            mors[i] = mos[i].getMOR();
-        }
-        return mors;
-    }
+	/**
+	 * Takes an array of ManagedObjects and returns the MOR for each MO
+	 *
+	 * @param mos
+	 * @return
+	 */
+	public static ManagedObjectReference[] createMORs(ManagedObject[] mos) {
+		if (mos == null) {
+			throw new IllegalArgumentException();
+		}
+		ManagedObjectReference[] mors = new ManagedObjectReference[mos.length];
+		for (int i = 0; i < mos.length; i++) {
+			mors[i] = mos[i].getMOR();
+		}
+		return mors;
+	}
 
-    /**
-     * Given the ServerConnection and a MOR return the MO
-     *
-     * @param sc
-     * @param mor
-     * @return
-     */
-    public static ManagedObject createExactManagedObject(ServerConnection sc, ManagedObjectReference mor) {
-        if (mor == null) {
-            return null;
-        }
+	/**
+	 * Given the ServerConnection and a MOR return the MO
+	 *
+	 * @param sc
+	 * @param mor
+	 * @return
+	 */
+	public static ManagedObject createExactManagedObject(ServerConnection sc, ManagedObjectReference mor) {
+		if (mor == null) {
+			return null;
+		}
 
-        String moType = mor.getType();
-        Class moClass = null;
-        try {
-            moClass = Class.forName(moPackageName + "." + moType);
-            Constructor constructor = moClass.getConstructor(
-                    new Class[]{ServerConnection.class, ManagedObjectReference.class});
-            return (ManagedObject) constructor.newInstance(new Object[]{sc, mor});
-        }
-        catch (ClassNotFoundException e) {
-            throw new IllegalArgumentException("vijava does not have an associated class for this mor: " + mor.getVal(), e);
-        } catch (NoSuchMethodException e) {
-            throw new IllegalArgumentException("No constructor found in vijava for class: " + moClass.getName(),e);
-        } catch (InstantiationException e){
-            throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(),e);
-        } catch (IllegalAccessException e){
-            throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(),e);
-        } catch (InvocationTargetException e) {
-            throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(),e);
-        }
-    }
+		String moType = mor.getType();
+		Class moClass = null;
+		try {
+			moClass = Class.forName(moPackageName + "." + moType);
+			Constructor constructor = moClass.getConstructor(
+				new Class[] { ServerConnection.class, ManagedObjectReference.class });
+			return (ManagedObject)constructor.newInstance(new Object[] { sc, mor });
+		} catch (ClassNotFoundException e) {
+			throw new IllegalArgumentException("vijava does not have an associated class for this mor: " + mor.getVal(), e);
+		} catch (NoSuchMethodException e) {
+			throw new IllegalArgumentException("No constructor found in vijava for class: " + moClass.getName(), e);
+		} catch (InstantiationException e) {
+			throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(), e);
+		} catch (IllegalAccessException e) {
+			throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(), e);
+		} catch (InvocationTargetException e) {
+			throw new IllegalArgumentException("vijava is unable to create a managed object from this mor: " + mor.getVal(), e);
+		}
+	}
 
-    /**
-     * Given a ServerConnection and a MOR return the ME
-     *
-     * @param sc
-     * @param mor
-     * @return
-     */
-    public static ManagedEntity createExactManagedEntity(ServerConnection sc, ManagedObjectReference mor) {
-        return (ManagedEntity) createExactManagedObject(sc, mor);
-    }
+	/**
+	 * Given a ServerConnection and a MOR return the ME
+	 *
+	 * @param sc
+	 * @param mor
+	 * @return
+	 */
+	public static ManagedEntity createExactManagedEntity(ServerConnection sc, ManagedObjectReference mor) {
+		return (ManagedEntity)createExactManagedObject(sc, mor);
+	}
 
-    /**
-     * Given a ServerConnection and an array of MORs return an array
-     * of MEs
-     *
-     * @param sc
-     * @param mors
-     * @return
-     */
-    public static ManagedEntity[] createManagedEntities(ServerConnection sc, ManagedObjectReference[] mors) {
-        if (mors == null) {
-            return new ManagedEntity[0];
-        }
-        ManagedEntity[] mes = new ManagedEntity[mors.length];
+	/**
+	 * Given a ServerConnection and an array of MORs return an array
+	 * of MEs
+	 *
+	 * @param sc
+	 * @param mors
+	 * @return
+	 */
+	public static ManagedEntity[] createManagedEntities(ServerConnection sc, ManagedObjectReference[] mors) {
+		if (mors == null) {
+			return new ManagedEntity[0];
+		}
+		ManagedEntity[] mes = new ManagedEntity[mors.length];
 
-        for (int i = 0; i < mors.length; i++) {
-            mes[i] = createExactManagedEntity(sc, mors[i]);
-        }
+		for (int i = 0; i < mors.length; i++) {
+			mes[i] = createExactManagedEntity(sc, mors[i]);
+		}
 
-        return mes;
-    }
+		return mes;
+	}
 
-    public static ManagedObjectReference createMOR(String type, String value) {
-        ManagedObjectReference mor = new ManagedObjectReference();
-        mor.val = value;
-        mor.type = type;
-        return mor;
-    }
+	public static ManagedObjectReference createMOR(String type, String value) {
+		ManagedObjectReference mor = new ManagedObjectReference();
+		mor.val = value;
+		mor.type = type;
+		return mor;
+	}
 }

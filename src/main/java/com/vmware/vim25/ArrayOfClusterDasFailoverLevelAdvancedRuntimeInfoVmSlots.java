@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots {
-    public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
+	public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
 
-    public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] getClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots() {
-        return this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
-    }
+	public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] getClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots() {
+		return this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
+	}
 
-    public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots getClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots(int i) {
-        return this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[i];
-    }
+	public ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots getClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots(int i) {
+		return this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[i];
+	}
 
-    public void setClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots(ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots) {
-        this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots = ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
-    }
+	public void setClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots(ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots[] ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots) {
+		this.ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots = ClusterDasFailoverLevelAdvancedRuntimeInfoVmSlots;
+	}
 }

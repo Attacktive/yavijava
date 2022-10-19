@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareVspanPort extends DynamicData {
-    public String[] portKey;
-    public String[] uplinkPortName;
-    public String[] wildcardPortConnecteeType;
-    public int[] vlans;
-    public String[] ipAddress;
+	public String[] portKey;
+	public String[] uplinkPortName;
+	public String[] wildcardPortConnecteeType;
+	public int[] vlans;
+	public String[] ipAddress;
 
-    public String[] getPortKey() {
-        return this.portKey;
-    }
+	public String[] getPortKey() {
+		return this.portKey;
+	}
 
-    public String[] getUplinkPortName() {
-        return this.uplinkPortName;
-    }
+	public String[] getUplinkPortName() {
+		return this.uplinkPortName;
+	}
 
-    public String[] getWildcardPortConnecteeType() {
-        return this.wildcardPortConnecteeType;
-    }
+	public String[] getWildcardPortConnecteeType() {
+		return this.wildcardPortConnecteeType;
+	}
 
-    public int[] getVlans() {
-        return this.vlans;
-    }
+	public int[] getVlans() {
+		return this.vlans;
+	}
 
-    public String[] getIpAddress() {
-        return this.ipAddress;
-    }
+	public String[] getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public void setPortKey(String[] portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String[] portKey) {
+		this.portKey = portKey;
+	}
 
-    public void setUplinkPortName(String[] uplinkPortName) {
-        this.uplinkPortName = uplinkPortName;
-    }
+	public void setUplinkPortName(String[] uplinkPortName) {
+		this.uplinkPortName = uplinkPortName;
+	}
 
-    public void setWildcardPortConnecteeType(String[] wildcardPortConnecteeType) {
-        this.wildcardPortConnecteeType = wildcardPortConnecteeType;
-    }
+	public void setWildcardPortConnecteeType(String[] wildcardPortConnecteeType) {
+		this.wildcardPortConnecteeType = wildcardPortConnecteeType;
+	}
 
-    public void setVlans(int[] vlans) {
-        this.vlans = vlans;
-    }
+	public void setVlans(int[] vlans) {
+		this.vlans = vlans;
+	}
 
-    public void setIpAddress(String[] ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String[] ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 }

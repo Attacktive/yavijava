@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDiskPartitionBlockRange {
-    public HostDiskPartitionBlockRange[] HostDiskPartitionBlockRange;
+	public HostDiskPartitionBlockRange[] HostDiskPartitionBlockRange;
 
-    public HostDiskPartitionBlockRange[] getHostDiskPartitionBlockRange() {
-        return this.HostDiskPartitionBlockRange;
-    }
+	public HostDiskPartitionBlockRange[] getHostDiskPartitionBlockRange() {
+		return this.HostDiskPartitionBlockRange;
+	}
 
-    public HostDiskPartitionBlockRange getHostDiskPartitionBlockRange(int i) {
-        return this.HostDiskPartitionBlockRange[i];
-    }
+	public HostDiskPartitionBlockRange getHostDiskPartitionBlockRange(int i) {
+		return this.HostDiskPartitionBlockRange[i];
+	}
 
-    public void setHostDiskPartitionBlockRange(HostDiskPartitionBlockRange[] HostDiskPartitionBlockRange) {
-        this.HostDiskPartitionBlockRange = HostDiskPartitionBlockRange;
-    }
+	public void setHostDiskPartitionBlockRange(HostDiskPartitionBlockRange[] HostDiskPartitionBlockRange) {
+		this.HostDiskPartitionBlockRange = HostDiskPartitionBlockRange;
+	}
 }

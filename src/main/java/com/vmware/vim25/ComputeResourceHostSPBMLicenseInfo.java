@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ComputeResourceHostSPBMLicenseInfo extends DynamicData {
-    public ManagedObjectReference host;
-    public ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState licenseState;
+	public ManagedObjectReference host;
+	public ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState licenseState;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState getLicenseState() {
-        return this.licenseState;
-    }
+	public ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState getLicenseState() {
+		return this.licenseState;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setLicenseState(ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState licenseState) {
-        this.licenseState = licenseState;
-    }
+	public void setLicenseState(ComputeResourceHostSPBMLicenseInfoHostSPBMLicenseState licenseState) {
+		this.licenseState = licenseState;
+	}
 }

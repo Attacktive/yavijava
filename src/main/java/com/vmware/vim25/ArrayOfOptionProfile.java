@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOptionProfile {
-    public OptionProfile[] OptionProfile;
+	public OptionProfile[] OptionProfile;
 
-    public OptionProfile[] getOptionProfile() {
-        return this.OptionProfile;
-    }
+	public OptionProfile[] getOptionProfile() {
+		return this.OptionProfile;
+	}
 
-    public OptionProfile getOptionProfile(int i) {
-        return this.OptionProfile[i];
-    }
+	public OptionProfile getOptionProfile(int i) {
+		return this.OptionProfile[i];
+	}
 
-    public void setOptionProfile(OptionProfile[] OptionProfile) {
-        this.OptionProfile = OptionProfile;
-    }
+	public void setOptionProfile(OptionProfile[] OptionProfile) {
+		this.OptionProfile = OptionProfile;
+	}
 }

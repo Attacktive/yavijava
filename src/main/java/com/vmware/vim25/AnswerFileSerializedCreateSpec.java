@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AnswerFileSerializedCreateSpec extends AnswerFileCreateSpec {
-    public String answerFileConfigString;
+	public String answerFileConfigString;
 
-    public String getAnswerFileConfigString() {
-        return this.answerFileConfigString;
-    }
+	public String getAnswerFileConfigString() {
+		return this.answerFileConfigString;
+	}
 
-    public void setAnswerFileConfigString(String answerFileConfigString) {
-        this.answerFileConfigString = answerFileConfigString;
-    }
+	public void setAnswerFileConfigString(String answerFileConfigString) {
+		this.answerFileConfigString = answerFileConfigString;
+	}
 }

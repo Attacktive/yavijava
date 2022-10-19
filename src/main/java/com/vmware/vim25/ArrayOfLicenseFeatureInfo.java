@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLicenseFeatureInfo {
-    public LicenseFeatureInfo[] LicenseFeatureInfo;
+	public LicenseFeatureInfo[] LicenseFeatureInfo;
 
-    public LicenseFeatureInfo[] getLicenseFeatureInfo() {
-        return this.LicenseFeatureInfo;
-    }
+	public LicenseFeatureInfo[] getLicenseFeatureInfo() {
+		return this.LicenseFeatureInfo;
+	}
 
-    public LicenseFeatureInfo getLicenseFeatureInfo(int i) {
-        return this.LicenseFeatureInfo[i];
-    }
+	public LicenseFeatureInfo getLicenseFeatureInfo(int i) {
+		return this.LicenseFeatureInfo[i];
+	}
 
-    public void setLicenseFeatureInfo(LicenseFeatureInfo[] LicenseFeatureInfo) {
-        this.LicenseFeatureInfo = LicenseFeatureInfo;
-    }
+	public void setLicenseFeatureInfo(LicenseFeatureInfo[] LicenseFeatureInfo) {
+		this.LicenseFeatureInfo = LicenseFeatureInfo;
+	}
 }

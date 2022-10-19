@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GuestInfoNamespaceGenerationInfo extends DynamicData {
-    public String key;
-    public int generationNo;
+	public String key;
+	public int generationNo;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public int getGenerationNo() {
-        return this.generationNo;
-    }
+	public int getGenerationNo() {
+		return this.generationNo;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setGenerationNo(int generationNo) {
-        this.generationNo = generationNo;
-    }
+	public void setGenerationNo(int generationNo) {
+		this.generationNo = generationNo;
+	}
 }

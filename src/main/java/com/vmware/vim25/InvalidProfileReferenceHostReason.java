@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum InvalidProfileReferenceHostReason {
-    incompatibleVersion("incompatibleVersion"),
-    missingReferenceHost("missingReferenceHost");
+	incompatibleVersion("incompatibleVersion"),
+	missingReferenceHost("missingReferenceHost");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private InvalidProfileReferenceHostReason(String val) {
-        this.val = val;
-    }
+	private InvalidProfileReferenceHostReason(String val) {
+		this.val = val;
+	}
 }

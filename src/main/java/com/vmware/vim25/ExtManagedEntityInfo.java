@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtManagedEntityInfo extends DynamicData {
-    public String type;
-    public String smallIconUrl;
-    public String iconUrl;
-    public String description;
+	public String type;
+	public String smallIconUrl;
+	public String iconUrl;
+	public String description;
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public String getSmallIconUrl() {
-        return this.smallIconUrl;
-    }
+	public String getSmallIconUrl() {
+		return this.smallIconUrl;
+	}
 
-    public String getIconUrl() {
-        return this.iconUrl;
-    }
+	public String getIconUrl() {
+		return this.iconUrl;
+	}
 
-    public String getDescription() {
-        return this.description;
-    }
+	public String getDescription() {
+		return this.description;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setSmallIconUrl(String smallIconUrl) {
-        this.smallIconUrl = smallIconUrl;
-    }
+	public void setSmallIconUrl(String smallIconUrl) {
+		this.smallIconUrl = smallIconUrl;
+	}
 
-    public void setIconUrl(String iconUrl) {
-        this.iconUrl = iconUrl;
-    }
+	public void setIconUrl(String iconUrl) {
+		this.iconUrl = iconUrl;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
+	public void setDescription(String description) {
+		this.description = description;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatastorePrincipalConfigured extends HostEvent {
-    public String datastorePrincipal;
+	public String datastorePrincipal;
 
-    public String getDatastorePrincipal() {
-        return this.datastorePrincipal;
-    }
+	public String getDatastorePrincipal() {
+		return this.datastorePrincipal;
+	}
 
-    public void setDatastorePrincipal(String datastorePrincipal) {
-        this.datastorePrincipal = datastorePrincipal;
-    }
+	public void setDatastorePrincipal(String datastorePrincipal) {
+		this.datastorePrincipal = datastorePrincipal;
+	}
 }

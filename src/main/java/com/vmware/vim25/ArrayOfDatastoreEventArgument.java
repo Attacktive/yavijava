@@ -34,17 +34,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDatastoreEventArgument {
-    public DatastoreEventArgument[] DatastoreEventArgument;
+	public DatastoreEventArgument[] DatastoreEventArgument;
 
-    public DatastoreEventArgument[] getDatastoreEventArgument() {
-        return this.DatastoreEventArgument;
-    }
+	public DatastoreEventArgument[] getDatastoreEventArgument() {
+		return this.DatastoreEventArgument;
+	}
 
-    public DatastoreEventArgument getDatastoreEventArgument(int i) {
-        return this.DatastoreEventArgument[i];
-    }
+	public DatastoreEventArgument getDatastoreEventArgument(int i) {
+		return this.DatastoreEventArgument[i];
+	}
 
-    public void setDatastoreEventArgument(DatastoreEventArgument[] DatastoreEventArgument) {
-        this.DatastoreEventArgument = DatastoreEventArgument;
-    }
+	public void setDatastoreEventArgument(DatastoreEventArgument[] DatastoreEventArgument) {
+		this.DatastoreEventArgument = DatastoreEventArgument;
+	}
 }

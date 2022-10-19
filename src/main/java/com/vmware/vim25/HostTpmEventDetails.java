@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmEventDetails extends DynamicData {
-    public byte[] dataHash;
+	public byte[] dataHash;
 
-    public byte[] getDataHash() {
-        return this.dataHash;
-    }
+	public byte[] getDataHash() {
+		return this.dataHash;
+	}
 
-    public void setDataHash(byte[] dataHash) {
-        this.dataHash = dataHash;
-    }
+	public void setDataHash(byte[] dataHash) {
+		this.dataHash = dataHash;
+	}
 }

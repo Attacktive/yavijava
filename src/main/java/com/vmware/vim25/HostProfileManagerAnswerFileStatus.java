@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostProfileManagerAnswerFileStatus {
-    valid("valid"),
-    invalid("invalid"),
-    unknown("unknown");
+	valid("valid"),
+	invalid("invalid"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostProfileManagerAnswerFileStatus(String val) {
-        this.val = val;
-    }
+	private HostProfileManagerAnswerFileStatus(String val) {
+		this.val = val;
+	}
 }

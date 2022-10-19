@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmFailedMigrateEvent extends VmEvent {
-    public HostEventArgument destHost;
-    public LocalizedMethodFault reason;
-    public DatacenterEventArgument destDatacenter;
-    public DatastoreEventArgument destDatastore;
+	public HostEventArgument destHost;
+	public LocalizedMethodFault reason;
+	public DatacenterEventArgument destDatacenter;
+	public DatastoreEventArgument destDatastore;
 
-    public HostEventArgument getDestHost() {
-        return this.destHost;
-    }
+	public HostEventArgument getDestHost() {
+		return this.destHost;
+	}
 
-    public LocalizedMethodFault getReason() {
-        return this.reason;
-    }
+	public LocalizedMethodFault getReason() {
+		return this.reason;
+	}
 
-    public DatacenterEventArgument getDestDatacenter() {
-        return this.destDatacenter;
-    }
+	public DatacenterEventArgument getDestDatacenter() {
+		return this.destDatacenter;
+	}
 
-    public DatastoreEventArgument getDestDatastore() {
-        return this.destDatastore;
-    }
+	public DatastoreEventArgument getDestDatastore() {
+		return this.destDatastore;
+	}
 
-    public void setDestHost(HostEventArgument destHost) {
-        this.destHost = destHost;
-    }
+	public void setDestHost(HostEventArgument destHost) {
+		this.destHost = destHost;
+	}
 
-    public void setReason(LocalizedMethodFault reason) {
-        this.reason = reason;
-    }
+	public void setReason(LocalizedMethodFault reason) {
+		this.reason = reason;
+	}
 
-    public void setDestDatacenter(DatacenterEventArgument destDatacenter) {
-        this.destDatacenter = destDatacenter;
-    }
+	public void setDestDatacenter(DatacenterEventArgument destDatacenter) {
+		this.destDatacenter = destDatacenter;
+	}
 
-    public void setDestDatastore(DatastoreEventArgument destDatastore) {
-        this.destDatastore = destDatastore;
-    }
+	public void setDestDatastore(DatastoreEventArgument destDatastore) {
+		this.destDatastore = destDatastore;
+	}
 }

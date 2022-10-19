@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMaintenanceSpec extends DynamicData {
-    public VsanHostDecommissionMode vsanMode;
+	public VsanHostDecommissionMode vsanMode;
 
-    public VsanHostDecommissionMode getVsanMode() {
-        return this.vsanMode;
-    }
+	public VsanHostDecommissionMode getVsanMode() {
+		return this.vsanMode;
+	}
 
-    public void setVsanMode(VsanHostDecommissionMode vsanMode) {
-        this.vsanMode = vsanMode;
-    }
+	public void setVsanMode(VsanHostDecommissionMode vsanMode) {
+		this.vsanMode = vsanMode;
+	}
 }

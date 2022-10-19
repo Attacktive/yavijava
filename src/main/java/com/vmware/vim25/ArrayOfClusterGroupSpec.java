@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterGroupSpec {
-    public ClusterGroupSpec[] ClusterGroupSpec;
+	public ClusterGroupSpec[] ClusterGroupSpec;
 
-    public ClusterGroupSpec[] getClusterGroupSpec() {
-        return this.ClusterGroupSpec;
-    }
+	public ClusterGroupSpec[] getClusterGroupSpec() {
+		return this.ClusterGroupSpec;
+	}
 
-    public ClusterGroupSpec getClusterGroupSpec(int i) {
-        return this.ClusterGroupSpec[i];
-    }
+	public ClusterGroupSpec getClusterGroupSpec(int i) {
+		return this.ClusterGroupSpec[i];
+	}
 
-    public void setClusterGroupSpec(ClusterGroupSpec[] ClusterGroupSpec) {
-        this.ClusterGroupSpec = ClusterGroupSpec;
-    }
+	public void setClusterGroupSpec(ClusterGroupSpec[] ClusterGroupSpec) {
+		this.ClusterGroupSpec = ClusterGroupSpec;
+	}
 }

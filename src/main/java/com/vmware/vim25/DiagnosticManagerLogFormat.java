@@ -35,12 +35,12 @@ package com.vmware.vim25;
  */
 
 public enum DiagnosticManagerLogFormat {
-    plain("plain");
+	plain("plain");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DiagnosticManagerLogFormat(String val) {
-        this.val = val;
-    }
+	private DiagnosticManagerLogFormat(String val) {
+		this.val = val;
+	}
 }

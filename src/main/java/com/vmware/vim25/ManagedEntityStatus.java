@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ManagedEntityStatus {
-    gray("gray"),
-    green("green"),
-    yellow("yellow"),
-    red("red");
+	gray("gray"),
+	green("green"),
+	yellow("yellow"),
+	red("red");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ManagedEntityStatus(String val) {
-        this.val = val;
-    }
+	private ManagedEntityStatus(String val) {
+		this.val = val;
+	}
 }

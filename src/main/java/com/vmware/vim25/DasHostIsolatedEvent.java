@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DasHostIsolatedEvent extends ClusterEvent {
-    public HostEventArgument isolatedHost;
+	public HostEventArgument isolatedHost;
 
-    public HostEventArgument getIsolatedHost() {
-        return this.isolatedHost;
-    }
+	public HostEventArgument getIsolatedHost() {
+		return this.isolatedHost;
+	}
 
-    public void setIsolatedHost(HostEventArgument isolatedHost) {
-        this.isolatedHost = isolatedHost;
-    }
+	public void setIsolatedHost(HostEventArgument isolatedHost) {
+		this.isolatedHost = isolatedHost;
+	}
 }

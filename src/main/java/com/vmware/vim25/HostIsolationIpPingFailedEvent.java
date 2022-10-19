@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostIsolationIpPingFailedEvent extends HostDasEvent {
-    public String isolationIp;
+	public String isolationIp;
 
-    public String getIsolationIp() {
-        return this.isolationIp;
-    }
+	public String getIsolationIp() {
+		return this.isolationIp;
+	}
 
-    public void setIsolationIp(String isolationIp) {
-        this.isolationIp = isolationIp;
-    }
+	public void setIsolationIp(String isolationIp) {
+		this.isolationIp = isolationIp;
+	}
 }

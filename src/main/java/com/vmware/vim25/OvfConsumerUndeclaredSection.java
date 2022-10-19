@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfConsumerUndeclaredSection extends OvfConsumerCallbackFault {
-    public String qualifiedSectionType;
+	public String qualifiedSectionType;
 
-    public String getQualifiedSectionType() {
-        return this.qualifiedSectionType;
-    }
+	public String getQualifiedSectionType() {
+		return this.qualifiedSectionType;
+	}
 
-    public void setQualifiedSectionType(String qualifiedSectionType) {
-        this.qualifiedSectionType = qualifiedSectionType;
-    }
+	public void setQualifiedSectionType(String qualifiedSectionType) {
+		this.qualifiedSectionType = qualifiedSectionType;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileCompositePolicyOptionMetadata extends ProfilePolicyOptionMetadata {
-    public String[] option;
+	public String[] option;
 
-    public String[] getOption() {
-        return this.option;
-    }
+	public String[] getOption() {
+		return this.option;
+	}
 
-    public void setOption(String[] option) {
-        this.option = option;
-    }
+	public void setOption(String[] option) {
+		this.option = option;
+	}
 }

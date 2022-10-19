@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPatchManagerLocator extends DynamicData {
-    public String url;
-    public String proxy;
+	public String url;
+	public String proxy;
 
-    public String getUrl() {
-        return this.url;
-    }
+	public String getUrl() {
+		return this.url;
+	}
 
-    public String getProxy() {
-        return this.proxy;
-    }
+	public String getProxy() {
+		return this.proxy;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 
-    public void setProxy(String proxy) {
-        this.proxy = proxy;
-    }
+	public void setProxy(String proxy) {
+		this.proxy = proxy;
+	}
 }

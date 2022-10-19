@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVirtualNicConnection extends DynamicData {
-    public String portgroup;
-    public DistributedVirtualSwitchPortConnection dvPort;
+	public String portgroup;
+	public DistributedVirtualSwitchPortConnection dvPort;
 
-    public String getPortgroup() {
-        return this.portgroup;
-    }
+	public String getPortgroup() {
+		return this.portgroup;
+	}
 
-    public DistributedVirtualSwitchPortConnection getDvPort() {
-        return this.dvPort;
-    }
+	public DistributedVirtualSwitchPortConnection getDvPort() {
+		return this.dvPort;
+	}
 
-    public void setPortgroup(String portgroup) {
-        this.portgroup = portgroup;
-    }
+	public void setPortgroup(String portgroup) {
+		this.portgroup = portgroup;
+	}
 
-    public void setDvPort(DistributedVirtualSwitchPortConnection dvPort) {
-        this.dvPort = dvPort;
-    }
+	public void setDvPort(DistributedVirtualSwitchPortConnection dvPort) {
+		this.dvPort = dvPort;
+	}
 }

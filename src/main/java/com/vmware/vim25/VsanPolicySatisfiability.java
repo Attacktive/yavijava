@@ -17,5 +17,4 @@ package com.vmware.vim25;
  */
 public class VsanPolicySatisfiability extends DynamicData {
 
-
 }

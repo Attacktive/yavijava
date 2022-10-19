@@ -17,22 +17,22 @@ package com.vmware.vim25;
  */
 public class GatewayToHostAuthFault extends GatewayToHostConnectFault {
 
-    public String[] invalidProperties;
-    public String[] missingProperties;
+	public String[] invalidProperties;
+	public String[] missingProperties;
 
-    public String[] getInvalidProperties() {
-        return invalidProperties;
-    }
+	public String[] getInvalidProperties() {
+		return invalidProperties;
+	}
 
-    public void setInvalidProperties(String[] invalidProperties) {
-        this.invalidProperties = invalidProperties;
-    }
+	public void setInvalidProperties(String[] invalidProperties) {
+		this.invalidProperties = invalidProperties;
+	}
 
-    public String[] getMissingProperties() {
-        return missingProperties;
-    }
+	public String[] getMissingProperties() {
+		return missingProperties;
+	}
 
-    public void setMissingProperties(String[] missingProperties) {
-        this.missingProperties = missingProperties;
-    }
+	public void setMissingProperties(String[] missingProperties) {
+		this.missingProperties = missingProperties;
+	}
 }

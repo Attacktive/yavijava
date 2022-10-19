@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNetOffloadCapabilities extends DynamicData {
-    public Boolean csumOffload;
-    public Boolean tcpSegmentation;
-    public Boolean zeroCopyXmit;
+	public Boolean csumOffload;
+	public Boolean tcpSegmentation;
+	public Boolean zeroCopyXmit;
 
-    public Boolean getCsumOffload() {
-        return this.csumOffload;
-    }
+	public Boolean getCsumOffload() {
+		return this.csumOffload;
+	}
 
-    public Boolean getTcpSegmentation() {
-        return this.tcpSegmentation;
-    }
+	public Boolean getTcpSegmentation() {
+		return this.tcpSegmentation;
+	}
 
-    public Boolean getZeroCopyXmit() {
-        return this.zeroCopyXmit;
-    }
+	public Boolean getZeroCopyXmit() {
+		return this.zeroCopyXmit;
+	}
 
-    public void setCsumOffload(Boolean csumOffload) {
-        this.csumOffload = csumOffload;
-    }
+	public void setCsumOffload(Boolean csumOffload) {
+		this.csumOffload = csumOffload;
+	}
 
-    public void setTcpSegmentation(Boolean tcpSegmentation) {
-        this.tcpSegmentation = tcpSegmentation;
-    }
+	public void setTcpSegmentation(Boolean tcpSegmentation) {
+		this.tcpSegmentation = tcpSegmentation;
+	}
 
-    public void setZeroCopyXmit(Boolean zeroCopyXmit) {
-        this.zeroCopyXmit = zeroCopyXmit;
-    }
+	public void setZeroCopyXmit(Boolean zeroCopyXmit) {
+		this.zeroCopyXmit = zeroCopyXmit;
+	}
 }

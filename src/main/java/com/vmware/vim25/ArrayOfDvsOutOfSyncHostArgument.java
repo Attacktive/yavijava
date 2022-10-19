@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsOutOfSyncHostArgument {
-    public DvsOutOfSyncHostArgument[] DvsOutOfSyncHostArgument;
+	public DvsOutOfSyncHostArgument[] DvsOutOfSyncHostArgument;
 
-    public DvsOutOfSyncHostArgument[] getDvsOutOfSyncHostArgument() {
-        return this.DvsOutOfSyncHostArgument;
-    }
+	public DvsOutOfSyncHostArgument[] getDvsOutOfSyncHostArgument() {
+		return this.DvsOutOfSyncHostArgument;
+	}
 
-    public DvsOutOfSyncHostArgument getDvsOutOfSyncHostArgument(int i) {
-        return this.DvsOutOfSyncHostArgument[i];
-    }
+	public DvsOutOfSyncHostArgument getDvsOutOfSyncHostArgument(int i) {
+		return this.DvsOutOfSyncHostArgument[i];
+	}
 
-    public void setDvsOutOfSyncHostArgument(DvsOutOfSyncHostArgument[] DvsOutOfSyncHostArgument) {
-        this.DvsOutOfSyncHostArgument = DvsOutOfSyncHostArgument;
-    }
+	public void setDvsOutOfSyncHostArgument(DvsOutOfSyncHostArgument[] DvsOutOfSyncHostArgument) {
+		this.DvsOutOfSyncHostArgument = DvsOutOfSyncHostArgument;
+	}
 }

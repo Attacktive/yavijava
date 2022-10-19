@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostCpuPowerManagementInfo extends DynamicData {
-    public String currentPolicy;
-    public String hardwareSupport;
+	public String currentPolicy;
+	public String hardwareSupport;
 
-    public String getCurrentPolicy() {
-        return this.currentPolicy;
-    }
+	public String getCurrentPolicy() {
+		return this.currentPolicy;
+	}
 
-    public String getHardwareSupport() {
-        return this.hardwareSupport;
-    }
+	public String getHardwareSupport() {
+		return this.hardwareSupport;
+	}
 
-    public void setCurrentPolicy(String currentPolicy) {
-        this.currentPolicy = currentPolicy;
-    }
+	public void setCurrentPolicy(String currentPolicy) {
+		this.currentPolicy = currentPolicy;
+	}
 
-    public void setHardwareSupport(String hardwareSupport) {
-        this.hardwareSupport = hardwareSupport;
-    }
+	public void setHardwareSupport(String hardwareSupport) {
+		this.hardwareSupport = hardwareSupport;
+	}
 }

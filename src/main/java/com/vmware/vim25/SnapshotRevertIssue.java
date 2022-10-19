@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SnapshotRevertIssue extends MigrationFault {
-    public String snapshotName;
-    public Event[] event;
-    public boolean errors;
+	public String snapshotName;
+	public Event[] event;
+	public boolean errors;
 
-    public String getSnapshotName() {
-        return this.snapshotName;
-    }
+	public String getSnapshotName() {
+		return this.snapshotName;
+	}
 
-    public Event[] getEvent() {
-        return this.event;
-    }
+	public Event[] getEvent() {
+		return this.event;
+	}
 
-    public boolean isErrors() {
-        return this.errors;
-    }
+	public boolean isErrors() {
+		return this.errors;
+	}
 
-    public void setSnapshotName(String snapshotName) {
-        this.snapshotName = snapshotName;
-    }
+	public void setSnapshotName(String snapshotName) {
+		this.snapshotName = snapshotName;
+	}
 
-    public void setEvent(Event[] event) {
-        this.event = event;
-    }
+	public void setEvent(Event[] event) {
+		this.event = event;
+	}
 
-    public void setErrors(boolean errors) {
-        this.errors = errors;
-    }
+	public void setErrors(boolean errors) {
+		this.errors = errors;
+	}
 }

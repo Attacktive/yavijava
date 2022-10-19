@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLocalizableMessage {
-    public LocalizableMessage[] LocalizableMessage;
+	public LocalizableMessage[] LocalizableMessage;
 
-    public LocalizableMessage[] getLocalizableMessage() {
-        return this.LocalizableMessage;
-    }
+	public LocalizableMessage[] getLocalizableMessage() {
+		return this.LocalizableMessage;
+	}
 
-    public LocalizableMessage getLocalizableMessage(int i) {
-        return this.LocalizableMessage[i];
-    }
+	public LocalizableMessage getLocalizableMessage(int i) {
+		return this.LocalizableMessage[i];
+	}
 
-    public void setLocalizableMessage(LocalizableMessage[] LocalizableMessage) {
-        this.LocalizableMessage = LocalizableMessage;
-    }
+	public void setLocalizableMessage(LocalizableMessage[] LocalizableMessage) {
+		this.LocalizableMessage = LocalizableMessage;
+	}
 }

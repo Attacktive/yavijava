@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPerfEntityMetricBase {
-    public PerfEntityMetricBase[] PerfEntityMetricBase;
+	public PerfEntityMetricBase[] PerfEntityMetricBase;
 
-    public PerfEntityMetricBase[] getPerfEntityMetricBase() {
-        return this.PerfEntityMetricBase;
-    }
+	public PerfEntityMetricBase[] getPerfEntityMetricBase() {
+		return this.PerfEntityMetricBase;
+	}
 
-    public PerfEntityMetricBase getPerfEntityMetricBase(int i) {
-        return this.PerfEntityMetricBase[i];
-    }
+	public PerfEntityMetricBase getPerfEntityMetricBase(int i) {
+		return this.PerfEntityMetricBase[i];
+	}
 
-    public void setPerfEntityMetricBase(PerfEntityMetricBase[] PerfEntityMetricBase) {
-        this.PerfEntityMetricBase = PerfEntityMetricBase;
-    }
+	public void setPerfEntityMetricBase(PerfEntityMetricBase[] PerfEntityMetricBase) {
+		this.PerfEntityMetricBase = PerfEntityMetricBase;
+	}
 }

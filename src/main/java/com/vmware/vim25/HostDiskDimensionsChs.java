@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDiskDimensionsChs extends DynamicData {
-    public long cylinder;
-    public int head;
-    public int sector;
+	public long cylinder;
+	public int head;
+	public int sector;
 
-    public long getCylinder() {
-        return this.cylinder;
-    }
+	public long getCylinder() {
+		return this.cylinder;
+	}
 
-    public int getHead() {
-        return this.head;
-    }
+	public int getHead() {
+		return this.head;
+	}
 
-    public int getSector() {
-        return this.sector;
-    }
+	public int getSector() {
+		return this.sector;
+	}
 
-    public void setCylinder(long cylinder) {
-        this.cylinder = cylinder;
-    }
+	public void setCylinder(long cylinder) {
+		this.cylinder = cylinder;
+	}
 
-    public void setHead(int head) {
-        this.head = head;
-    }
+	public void setHead(int head) {
+		this.head = head;
+	}
 
-    public void setSector(int sector) {
-        this.sector = sector;
-    }
+	public void setSector(int sector) {
+		this.sector = sector;
+	}
 }

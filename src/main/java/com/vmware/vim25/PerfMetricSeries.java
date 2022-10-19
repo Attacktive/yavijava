@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PerfMetricSeries extends DynamicData {
-    public PerfMetricId id;
+	public PerfMetricId id;
 
-    public PerfMetricId getId() {
-        return this.id;
-    }
+	public PerfMetricId getId() {
+		return this.id;
+	}
 
-    public void setId(PerfMetricId id) {
-        this.id = id;
-    }
+	public void setId(PerfMetricId id) {
+		this.id = id;
+	}
 }

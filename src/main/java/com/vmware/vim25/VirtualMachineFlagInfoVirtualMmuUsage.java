@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineFlagInfoVirtualMmuUsage {
-    automatic("automatic"),
-    on("on"),
-    off("off");
+	automatic("automatic"),
+	on("on"),
+	off("off");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineFlagInfoVirtualMmuUsage(String val) {
-        this.val = val;
-    }
+	private VirtualMachineFlagInfoVirtualMmuUsage(String val) {
+		this.val = val;
+	}
 }

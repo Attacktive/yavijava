@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostStandbyMode {
-    entering("entering"),
-    exiting("exiting"),
-    in("in"),
-    none("none");
+	entering("entering"),
+	exiting("exiting"),
+	in("in"),
+	none("none");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostStandbyMode(String val) {
-        this.val = val;
-    }
+	private HostStandbyMode(String val) {
+		this.val = val;
+	}
 }

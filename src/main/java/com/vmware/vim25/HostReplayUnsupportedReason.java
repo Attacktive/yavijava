@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum HostReplayUnsupportedReason {
-    incompatibleProduct("incompatibleProduct"),
-    incompatibleCpu("incompatibleCpu"),
-    hvDisabled("hvDisabled"),
-    cpuidLimitSet("cpuidLimitSet"),
-    oldBIOS("oldBIOS"),
-    unknown("unknown");
+	incompatibleProduct("incompatibleProduct"),
+	incompatibleCpu("incompatibleCpu"),
+	hvDisabled("hvDisabled"),
+	cpuidLimitSet("cpuidLimitSet"),
+	oldBIOS("oldBIOS"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostReplayUnsupportedReason(String val) {
-        this.val = val;
-    }
+	private HostReplayUnsupportedReason(String val) {
+		this.val = val;
+	}
 }

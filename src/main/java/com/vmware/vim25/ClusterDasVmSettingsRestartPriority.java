@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasVmSettingsRestartPriority {
-    disabled("disabled"),
-    low("low"),
-    medium("medium"),
-    high("high"),
-    clusterRestartPriority("clusterRestartPriority");
+	disabled("disabled"),
+	low("low"),
+	medium("medium"),
+	high("high"),
+	clusterRestartPriority("clusterRestartPriority");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasVmSettingsRestartPriority(String val) {
-        this.val = val;
-    }
+	private ClusterDasVmSettingsRestartPriority(String val) {
+		this.val = val;
+	}
 }

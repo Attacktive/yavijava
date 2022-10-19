@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum TaskInfoState {
-    queued("queued"),
-    running("running"),
-    success("success"),
-    error("error");
+	queued("queued"),
+	running("running"),
+	success("success"),
+	error("error");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private TaskInfoState(String val) {
-        this.val = val;
-    }
+	private TaskInfoState(String val) {
+		this.val = val;
+	}
 }

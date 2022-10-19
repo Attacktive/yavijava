@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtensionManagerIpAllocationUsage extends DynamicData {
-    public String extensionKey;
-    public int numAddresses;
+	public String extensionKey;
+	public int numAddresses;
 
-    public String getExtensionKey() {
-        return this.extensionKey;
-    }
+	public String getExtensionKey() {
+		return this.extensionKey;
+	}
 
-    public int getNumAddresses() {
-        return this.numAddresses;
-    }
+	public int getNumAddresses() {
+		return this.numAddresses;
+	}
 
-    public void setExtensionKey(String extensionKey) {
-        this.extensionKey = extensionKey;
-    }
+	public void setExtensionKey(String extensionKey) {
+		this.extensionKey = extensionKey;
+	}
 
-    public void setNumAddresses(int numAddresses) {
-        this.numAddresses = numAddresses;
-    }
+	public void setNumAddresses(int numAddresses) {
+		this.numAddresses = numAddresses;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EventFilterSpecByEntity extends DynamicData {
-    public ManagedObjectReference entity;
-    public EventFilterSpecRecursionOption recursion;
+	public ManagedObjectReference entity;
+	public EventFilterSpecRecursionOption recursion;
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public EventFilterSpecRecursionOption getRecursion() {
-        return this.recursion;
-    }
+	public EventFilterSpecRecursionOption getRecursion() {
+		return this.recursion;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 
-    public void setRecursion(EventFilterSpecRecursionOption recursion) {
-        this.recursion = recursion;
-    }
+	public void setRecursion(EventFilterSpecRecursionOption recursion) {
+		this.recursion = recursion;
+	}
 }

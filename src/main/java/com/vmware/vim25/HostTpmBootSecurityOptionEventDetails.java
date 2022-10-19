@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmBootSecurityOptionEventDetails extends HostTpmEventDetails {
-    public String bootSecurityOption;
+	public String bootSecurityOption;
 
-    public String getBootSecurityOption() {
-        return this.bootSecurityOption;
-    }
+	public String getBootSecurityOption() {
+		return this.bootSecurityOption;
+	}
 
-    public void setBootSecurityOption(String bootSecurityOption) {
-        this.bootSecurityOption = bootSecurityOption;
-    }
+	public void setBootSecurityOption(String bootSecurityOption) {
+		this.bootSecurityOption = bootSecurityOption;
+	}
 }

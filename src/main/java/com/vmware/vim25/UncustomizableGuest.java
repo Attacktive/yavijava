@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UncustomizableGuest extends CustomizationFault {
-    public String uncustomizableGuestOS;
+	public String uncustomizableGuestOS;
 
-    public String getUncustomizableGuestOS() {
-        return this.uncustomizableGuestOS;
-    }
+	public String getUncustomizableGuestOS() {
+		return this.uncustomizableGuestOS;
+	}
 
-    public void setUncustomizableGuestOS(String uncustomizableGuestOS) {
-        this.uncustomizableGuestOS = uncustomizableGuestOS;
-    }
+	public void setUncustomizableGuestOS(String uncustomizableGuestOS) {
+		this.uncustomizableGuestOS = uncustomizableGuestOS;
+	}
 }

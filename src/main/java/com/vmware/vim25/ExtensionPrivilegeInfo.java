@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtensionPrivilegeInfo extends DynamicData {
-    public String privID;
-    public String privGroupName;
+	public String privID;
+	public String privGroupName;
 
-    public String getPrivID() {
-        return this.privID;
-    }
+	public String getPrivID() {
+		return this.privID;
+	}
 
-    public String getPrivGroupName() {
-        return this.privGroupName;
-    }
+	public String getPrivGroupName() {
+		return this.privGroupName;
+	}
 
-    public void setPrivID(String privID) {
-        this.privID = privID;
-    }
+	public void setPrivID(String privID) {
+		this.privID = privID;
+	}
 
-    public void setPrivGroupName(String privGroupName) {
-        this.privGroupName = privGroupName;
-    }
+	public void setPrivGroupName(String privGroupName) {
+		this.privGroupName = privGroupName;
+	}
 }

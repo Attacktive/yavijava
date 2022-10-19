@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualCdromPassthroughBackingOption extends VirtualDeviceDeviceBackingOption {
-    public BoolOption exclusive;
+	public BoolOption exclusive;
 
-    public BoolOption getExclusive() {
-        return this.exclusive;
-    }
+	public BoolOption getExclusive() {
+		return this.exclusive;
+	}
 
-    public void setExclusive(BoolOption exclusive) {
-        this.exclusive = exclusive;
-    }
+	public void setExclusive(BoolOption exclusive) {
+		this.exclusive = exclusive;
+	}
 }

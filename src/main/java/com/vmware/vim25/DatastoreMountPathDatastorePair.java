@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatastoreMountPathDatastorePair extends DynamicData {
-    public String oldMountPath;
-    public ManagedObjectReference datastore;
+	public String oldMountPath;
+	public ManagedObjectReference datastore;
 
-    public String getOldMountPath() {
-        return this.oldMountPath;
-    }
+	public String getOldMountPath() {
+		return this.oldMountPath;
+	}
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public void setOldMountPath(String oldMountPath) {
-        this.oldMountPath = oldMountPath;
-    }
+	public void setOldMountPath(String oldMountPath) {
+		this.oldMountPath = oldMountPath;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 }

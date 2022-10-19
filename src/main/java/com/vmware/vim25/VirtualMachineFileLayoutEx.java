@@ -38,40 +38,40 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class VirtualMachineFileLayoutEx extends DynamicData {
-    public VirtualMachineFileLayoutExFileInfo[] file;
-    public VirtualMachineFileLayoutExDiskLayout[] disk;
-    public VirtualMachineFileLayoutExSnapshotLayout[] snapshot;
-    public Calendar timestamp;
+	public VirtualMachineFileLayoutExFileInfo[] file;
+	public VirtualMachineFileLayoutExDiskLayout[] disk;
+	public VirtualMachineFileLayoutExSnapshotLayout[] snapshot;
+	public Calendar timestamp;
 
-    public VirtualMachineFileLayoutExFileInfo[] getFile() {
-        return this.file;
-    }
+	public VirtualMachineFileLayoutExFileInfo[] getFile() {
+		return this.file;
+	}
 
-    public VirtualMachineFileLayoutExDiskLayout[] getDisk() {
-        return this.disk;
-    }
+	public VirtualMachineFileLayoutExDiskLayout[] getDisk() {
+		return this.disk;
+	}
 
-    public VirtualMachineFileLayoutExSnapshotLayout[] getSnapshot() {
-        return this.snapshot;
-    }
+	public VirtualMachineFileLayoutExSnapshotLayout[] getSnapshot() {
+		return this.snapshot;
+	}
 
-    public Calendar getTimestamp() {
-        return this.timestamp;
-    }
+	public Calendar getTimestamp() {
+		return this.timestamp;
+	}
 
-    public void setFile(VirtualMachineFileLayoutExFileInfo[] file) {
-        this.file = file;
-    }
+	public void setFile(VirtualMachineFileLayoutExFileInfo[] file) {
+		this.file = file;
+	}
 
-    public void setDisk(VirtualMachineFileLayoutExDiskLayout[] disk) {
-        this.disk = disk;
-    }
+	public void setDisk(VirtualMachineFileLayoutExDiskLayout[] disk) {
+		this.disk = disk;
+	}
 
-    public void setSnapshot(VirtualMachineFileLayoutExSnapshotLayout[] snapshot) {
-        this.snapshot = snapshot;
-    }
+	public void setSnapshot(VirtualMachineFileLayoutExSnapshotLayout[] snapshot) {
+		this.snapshot = snapshot;
+	}
 
-    public void setTimestamp(Calendar timestamp) {
-        this.timestamp = timestamp;
-    }
+	public void setTimestamp(Calendar timestamp) {
+		this.timestamp = timestamp;
+	}
 }

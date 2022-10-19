@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVsanInternalSystemCmmdsQuery extends DynamicData {
-    public String type;
-    public String uuid;
-    public String owner;
+	public String type;
+	public String uuid;
+	public String owner;
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public String getUuid() {
-        return this.uuid;
-    }
+	public String getUuid() {
+		return this.uuid;
+	}
 
-    public String getOwner() {
-        return this.owner;
-    }
+	public String getOwner() {
+		return this.owner;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 
-    public void setOwner(String owner) {
-        this.owner = owner;
-    }
+	public void setOwner(String owner) {
+		this.owner = owner;
+	}
 }

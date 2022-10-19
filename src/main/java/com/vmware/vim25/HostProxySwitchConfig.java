@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostProxySwitchConfig extends DynamicData {
-    public String changeOperation;
-    public String uuid;
-    public HostProxySwitchSpec spec;
+	public String changeOperation;
+	public String uuid;
+	public HostProxySwitchSpec spec;
 
-    public String getChangeOperation() {
-        return this.changeOperation;
-    }
+	public String getChangeOperation() {
+		return this.changeOperation;
+	}
 
-    public String getUuid() {
-        return this.uuid;
-    }
+	public String getUuid() {
+		return this.uuid;
+	}
 
-    public HostProxySwitchSpec getSpec() {
-        return this.spec;
-    }
+	public HostProxySwitchSpec getSpec() {
+		return this.spec;
+	}
 
-    public void setChangeOperation(String changeOperation) {
-        this.changeOperation = changeOperation;
-    }
+	public void setChangeOperation(String changeOperation) {
+		this.changeOperation = changeOperation;
+	}
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(String uuid) {
+		this.uuid = uuid;
+	}
 
-    public void setSpec(HostProxySwitchSpec spec) {
-        this.spec = spec;
-    }
+	public void setSpec(HostProxySwitchSpec spec) {
+		this.spec = spec;
+	}
 }

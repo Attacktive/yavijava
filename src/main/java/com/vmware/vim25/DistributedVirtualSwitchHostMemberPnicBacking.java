@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchHostMemberPnicBacking extends DistributedVirtualSwitchHostMemberBacking {
-    public DistributedVirtualSwitchHostMemberPnicSpec[] pnicSpec;
+	public DistributedVirtualSwitchHostMemberPnicSpec[] pnicSpec;
 
-    public DistributedVirtualSwitchHostMemberPnicSpec[] getPnicSpec() {
-        return this.pnicSpec;
-    }
+	public DistributedVirtualSwitchHostMemberPnicSpec[] getPnicSpec() {
+		return this.pnicSpec;
+	}
 
-    public void setPnicSpec(DistributedVirtualSwitchHostMemberPnicSpec[] pnicSpec) {
-        this.pnicSpec = pnicSpec;
-    }
+	public void setPnicSpec(DistributedVirtualSwitchHostMemberPnicSpec[] pnicSpec) {
+		this.pnicSpec = pnicSpec;
+	}
 }

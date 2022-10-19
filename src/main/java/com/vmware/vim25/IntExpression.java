@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IntExpression extends NegatableExpression {
-    public Integer value;
+	public Integer value;
 
-    public Integer getValue() {
-        return this.value;
-    }
+	public Integer getValue() {
+		return this.value;
+	}
 
-    public void setValue(Integer value) {
-        this.value = value;
-    }
+	public void setValue(Integer value) {
+		this.value = value;
+	}
 }

@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VmFaultToleranceInvalidFileBackingDeviceType {
-    virtualFloppy("virtualFloppy"),
-    virtualCdrom("virtualCdrom"),
-    virtualSerialPort("virtualSerialPort"),
-    virtualParallelPort("virtualParallelPort"),
-    virtualDisk("virtualDisk");
+	virtualFloppy("virtualFloppy"),
+	virtualCdrom("virtualCdrom"),
+	virtualSerialPort("virtualSerialPort"),
+	virtualParallelPort("virtualParallelPort"),
+	virtualDisk("virtualDisk");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VmFaultToleranceInvalidFileBackingDeviceType(String val) {
-        this.val = val;
-    }
+	private VmFaultToleranceInvalidFileBackingDeviceType(String val) {
+		this.val = val;
+	}
 }

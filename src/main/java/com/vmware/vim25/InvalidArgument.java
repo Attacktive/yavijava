@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidArgument extends RuntimeFault {
-    public String invalidProperty;
+	public String invalidProperty;
 
-    public String getInvalidProperty() {
-        return this.invalidProperty;
-    }
+	public String getInvalidProperty() {
+		return this.invalidProperty;
+	}
 
-    public void setInvalidProperty(String invalidProperty) {
-        this.invalidProperty = invalidProperty;
-    }
+	public void setInvalidProperty(String invalidProperty) {
+		this.invalidProperty = invalidProperty;
+	}
 }

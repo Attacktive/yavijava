@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDatastoreExistsConnectInfo extends HostDatastoreConnectInfo {
-    public String newDatastoreName;
+	public String newDatastoreName;
 
-    public String getNewDatastoreName() {
-        return this.newDatastoreName;
-    }
+	public String getNewDatastoreName() {
+		return this.newDatastoreName;
+	}
 
-    public void setNewDatastoreName(String newDatastoreName) {
-        this.newDatastoreName = newDatastoreName;
-    }
+	public void setNewDatastoreName(String newDatastoreName) {
+		this.newDatastoreName = newDatastoreName;
+	}
 }

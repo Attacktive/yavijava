@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionPrivilegeInfo {
-    public ExtensionPrivilegeInfo[] ExtensionPrivilegeInfo;
+	public ExtensionPrivilegeInfo[] ExtensionPrivilegeInfo;
 
-    public ExtensionPrivilegeInfo[] getExtensionPrivilegeInfo() {
-        return this.ExtensionPrivilegeInfo;
-    }
+	public ExtensionPrivilegeInfo[] getExtensionPrivilegeInfo() {
+		return this.ExtensionPrivilegeInfo;
+	}
 
-    public ExtensionPrivilegeInfo getExtensionPrivilegeInfo(int i) {
-        return this.ExtensionPrivilegeInfo[i];
-    }
+	public ExtensionPrivilegeInfo getExtensionPrivilegeInfo(int i) {
+		return this.ExtensionPrivilegeInfo[i];
+	}
 
-    public void setExtensionPrivilegeInfo(ExtensionPrivilegeInfo[] ExtensionPrivilegeInfo) {
-        this.ExtensionPrivilegeInfo = ExtensionPrivilegeInfo;
-    }
+	public void setExtensionPrivilegeInfo(ExtensionPrivilegeInfo[] ExtensionPrivilegeInfo) {
+		this.ExtensionPrivilegeInfo = ExtensionPrivilegeInfo;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDiskPartitionSpec extends DynamicData {
-    public String partitionFormat;
-    public HostDiskDimensionsChs chs;
-    public Long totalSectors;
-    public HostDiskPartitionAttributes[] partition;
+	public String partitionFormat;
+	public HostDiskDimensionsChs chs;
+	public Long totalSectors;
+	public HostDiskPartitionAttributes[] partition;
 
-    public String getPartitionFormat() {
-        return this.partitionFormat;
-    }
+	public String getPartitionFormat() {
+		return this.partitionFormat;
+	}
 
-    public HostDiskDimensionsChs getChs() {
-        return this.chs;
-    }
+	public HostDiskDimensionsChs getChs() {
+		return this.chs;
+	}
 
-    public Long getTotalSectors() {
-        return this.totalSectors;
-    }
+	public Long getTotalSectors() {
+		return this.totalSectors;
+	}
 
-    public HostDiskPartitionAttributes[] getPartition() {
-        return this.partition;
-    }
+	public HostDiskPartitionAttributes[] getPartition() {
+		return this.partition;
+	}
 
-    public void setPartitionFormat(String partitionFormat) {
-        this.partitionFormat = partitionFormat;
-    }
+	public void setPartitionFormat(String partitionFormat) {
+		this.partitionFormat = partitionFormat;
+	}
 
-    public void setChs(HostDiskDimensionsChs chs) {
-        this.chs = chs;
-    }
+	public void setChs(HostDiskDimensionsChs chs) {
+		this.chs = chs;
+	}
 
-    public void setTotalSectors(Long totalSectors) {
-        this.totalSectors = totalSectors;
-    }
+	public void setTotalSectors(Long totalSectors) {
+		this.totalSectors = totalSectors;
+	}
 
-    public void setPartition(HostDiskPartitionAttributes[] partition) {
-        this.partition = partition;
-    }
+	public void setPartition(HostDiskPartitionAttributes[] partition) {
+		this.partition = partition;
+	}
 }

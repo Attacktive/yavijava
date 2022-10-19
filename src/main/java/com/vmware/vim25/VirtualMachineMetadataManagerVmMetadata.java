@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineMetadataManagerVmMetadata extends DynamicData {
-    public String vmId;
-    public String metadata;
+	public String vmId;
+	public String metadata;
 
-    public String getVmId() {
-        return this.vmId;
-    }
+	public String getVmId() {
+		return this.vmId;
+	}
 
-    public String getMetadata() {
-        return this.metadata;
-    }
+	public String getMetadata() {
+		return this.metadata;
+	}
 
-    public void setVmId(String vmId) {
-        this.vmId = vmId;
-    }
+	public void setVmId(String vmId) {
+		this.vmId = vmId;
+	}
 
-    public void setMetadata(String metadata) {
-        this.metadata = metadata;
-    }
+	public void setMetadata(String metadata) {
+		this.metadata = metadata;
+	}
 }

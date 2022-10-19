@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VAppIPAssignmentInfoAllocationSchemes {
-    dhcp("dhcp"),
-    ovfenv("ovfenv");
+	dhcp("dhcp"),
+	ovfenv("ovfenv");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VAppIPAssignmentInfoAllocationSchemes(String val) {
-        this.val = val;
-    }
+	private VAppIPAssignmentInfoAllocationSchemes(String val) {
+		this.val = val;
+	}
 }

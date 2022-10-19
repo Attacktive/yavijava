@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostMembershipInfo extends DynamicData {
-    public String nodeUuid;
-    public String hostname;
+	public String nodeUuid;
+	public String hostname;
 
-    public String getNodeUuid() {
-        return this.nodeUuid;
-    }
+	public String getNodeUuid() {
+		return this.nodeUuid;
+	}
 
-    public String getHostname() {
-        return this.hostname;
-    }
+	public String getHostname() {
+		return this.hostname;
+	}
 
-    public void setNodeUuid(String nodeUuid) {
-        this.nodeUuid = nodeUuid;
-    }
+	public void setNodeUuid(String nodeUuid) {
+		this.nodeUuid = nodeUuid;
+	}
 
-    public void setHostname(String hostname) {
-        this.hostname = hostname;
-    }
+	public void setHostname(String hostname) {
+		this.hostname = hostname;
+	}
 }

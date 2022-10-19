@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDvsLacpCapability extends DynamicData {
-    public Boolean lacpSupported;
-    public Boolean multiLacpGroupSupported;
+	public Boolean lacpSupported;
+	public Boolean multiLacpGroupSupported;
 
-    public Boolean getLacpSupported() {
-        return this.lacpSupported;
-    }
+	public Boolean getLacpSupported() {
+		return this.lacpSupported;
+	}
 
-    public Boolean getMultiLacpGroupSupported() {
-        return this.multiLacpGroupSupported;
-    }
+	public Boolean getMultiLacpGroupSupported() {
+		return this.multiLacpGroupSupported;
+	}
 
-    public void setLacpSupported(Boolean lacpSupported) {
-        this.lacpSupported = lacpSupported;
-    }
+	public void setLacpSupported(Boolean lacpSupported) {
+		this.lacpSupported = lacpSupported;
+	}
 
-    public void setMultiLacpGroupSupported(Boolean multiLacpGroupSupported) {
-        this.multiLacpGroupSupported = multiLacpGroupSupported;
-    }
+	public void setMultiLacpGroupSupported(Boolean multiLacpGroupSupported) {
+		this.multiLacpGroupSupported = multiLacpGroupSupported;
+	}
 }

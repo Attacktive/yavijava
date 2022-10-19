@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmWwnConflictEvent extends VmEvent {
-    public VmEventArgument[] conflictedVms;
-    public HostEventArgument[] conflictedHosts;
-    public long wwn;
+	public VmEventArgument[] conflictedVms;
+	public HostEventArgument[] conflictedHosts;
+	public long wwn;
 
-    public VmEventArgument[] getConflictedVms() {
-        return this.conflictedVms;
-    }
+	public VmEventArgument[] getConflictedVms() {
+		return this.conflictedVms;
+	}
 
-    public HostEventArgument[] getConflictedHosts() {
-        return this.conflictedHosts;
-    }
+	public HostEventArgument[] getConflictedHosts() {
+		return this.conflictedHosts;
+	}
 
-    public long getWwn() {
-        return this.wwn;
-    }
+	public long getWwn() {
+		return this.wwn;
+	}
 
-    public void setConflictedVms(VmEventArgument[] conflictedVms) {
-        this.conflictedVms = conflictedVms;
-    }
+	public void setConflictedVms(VmEventArgument[] conflictedVms) {
+		this.conflictedVms = conflictedVms;
+	}
 
-    public void setConflictedHosts(HostEventArgument[] conflictedHosts) {
-        this.conflictedHosts = conflictedHosts;
-    }
+	public void setConflictedHosts(HostEventArgument[] conflictedHosts) {
+		this.conflictedHosts = conflictedHosts;
+	}
 
-    public void setWwn(long wwn) {
-        this.wwn = wwn;
-    }
+	public void setWwn(long wwn) {
+		this.wwn = wwn;
+	}
 }

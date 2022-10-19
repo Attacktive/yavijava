@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfScsiLun {
-    public ScsiLun[] ScsiLun;
+	public ScsiLun[] ScsiLun;
 
-    public ScsiLun[] getScsiLun() {
-        return this.ScsiLun;
-    }
+	public ScsiLun[] getScsiLun() {
+		return this.ScsiLun;
+	}
 
-    public ScsiLun getScsiLun(int i) {
-        return this.ScsiLun[i];
-    }
+	public ScsiLun getScsiLun(int i) {
+		return this.ScsiLun[i];
+	}
 
-    public void setScsiLun(ScsiLun[] ScsiLun) {
-        this.ScsiLun = ScsiLun;
-    }
+	public void setScsiLun(ScsiLun[] ScsiLun) {
+		this.ScsiLun = ScsiLun;
+	}
 }

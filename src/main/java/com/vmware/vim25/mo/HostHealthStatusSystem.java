@@ -29,11 +29,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.HealthSystemRuntime;
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -43,21 +43,19 @@ import java.rmi.RemoteException;
 
 public class HostHealthStatusSystem extends ManagedObject {
 
-    public HostHealthStatusSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostHealthStatusSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HealthSystemRuntime getRuntime() {
-        return (HealthSystemRuntime) getCurrentProperty("runtime");
-    }
+	public HealthSystemRuntime getRuntime() {
+		return (HealthSystemRuntime)getCurrentProperty("runtime");
+	}
 
-    public void refreshHealthStatusSystem() throws RuntimeFault, RemoteException {
-        getVimService().refreshHealthStatusSystem(getMOR());
-    }
+	public void refreshHealthStatusSystem() throws RuntimeFault, RemoteException {
+		getVimService().refreshHealthStatusSystem(getMOR());
+	}
 
-    public void resetSystemHealthInfo() throws RuntimeFault, RemoteException {
-        getVimService().resetSystemHealthInfo(getMOR());
-    }
-
-
+	public void resetSystemHealthInfo() throws RuntimeFault, RemoteException {
+		getVimService().resetSystemHealthInfo(getMOR());
+	}
 }

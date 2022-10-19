@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum SlpDiscoveryMethod {
-    slpDhcp("slpDhcp"),
-    slpAutoUnicast("slpAutoUnicast"),
-    slpAutoMulticast("slpAutoMulticast"),
-    slpManual("slpManual");
+	slpDhcp("slpDhcp"),
+	slpAutoUnicast("slpAutoUnicast"),
+	slpAutoMulticast("slpAutoMulticast"),
+	slpManual("slpManual");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private SlpDiscoveryMethod(String val) {
-        this.val = val;
-    }
+	private SlpDiscoveryMethod(String val) {
+		this.val = val;
+	}
 }

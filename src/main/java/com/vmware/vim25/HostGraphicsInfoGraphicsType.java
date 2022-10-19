@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostGraphicsInfoGraphicsType {
-    basic("basic"),
-    shared("shared"),
-    direct("direct");
+	basic("basic"),
+	shared("shared"),
+	direct("direct");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostGraphicsInfoGraphicsType(String val) {
-        this.val = val;
-    }
+	private HostGraphicsInfoGraphicsType(String val) {
+		this.val = val;
+	}
 }

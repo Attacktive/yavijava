@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostStorageElementInfo extends HostHardwareElementInfo {
-    public HostStorageOperationalInfo[] operationalInfo;
+	public HostStorageOperationalInfo[] operationalInfo;
 
-    public HostStorageOperationalInfo[] getOperationalInfo() {
-        return this.operationalInfo;
-    }
+	public HostStorageOperationalInfo[] getOperationalInfo() {
+		return this.operationalInfo;
+	}
 
-    public void setOperationalInfo(HostStorageOperationalInfo[] operationalInfo) {
-        this.operationalInfo = operationalInfo;
-    }
+	public void setOperationalInfo(HostStorageOperationalInfo[] operationalInfo) {
+		this.operationalInfo = operationalInfo;
+	}
 }

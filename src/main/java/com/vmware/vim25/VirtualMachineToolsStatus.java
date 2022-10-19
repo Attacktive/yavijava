@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineToolsStatus {
-    toolsNotInstalled("toolsNotInstalled"),
-    toolsNotRunning("toolsNotRunning"),
-    toolsOld("toolsOld"),
-    toolsOk("toolsOk");
+	toolsNotInstalled("toolsNotInstalled"),
+	toolsNotRunning("toolsNotRunning"),
+	toolsOld("toolsOld"),
+	toolsOk("toolsOk");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineToolsStatus(String val) {
-        this.val = val;
-    }
+	private VirtualMachineToolsStatus(String val) {
+		this.val = val;
+	}
 }

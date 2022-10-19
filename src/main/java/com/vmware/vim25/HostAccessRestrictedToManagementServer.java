@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostAccessRestrictedToManagementServer extends NotSupported {
-    public String managementServer;
+	public String managementServer;
 
-    public String getManagementServer() {
-        return this.managementServer;
-    }
+	public String getManagementServer() {
+		return this.managementServer;
+	}
 
-    public void setManagementServer(String managementServer) {
-        this.managementServer = managementServer;
-    }
+	public void setManagementServer(String managementServer) {
+		this.managementServer = managementServer;
+	}
 }

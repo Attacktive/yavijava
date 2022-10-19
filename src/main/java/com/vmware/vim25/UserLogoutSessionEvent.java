@@ -38,49 +38,49 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class UserLogoutSessionEvent extends SessionEvent {
-    public String ipAddress;
-    public String userAgent;
-    public Long callCount;
-    public String sessionId;
-    public Calendar loginTime;
+	public String ipAddress;
+	public String userAgent;
+	public Long callCount;
+	public String sessionId;
+	public Calendar loginTime;
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public String getUserAgent() {
-        return this.userAgent;
-    }
+	public String getUserAgent() {
+		return this.userAgent;
+	}
 
-    public Long getCallCount() {
-        return this.callCount;
-    }
+	public Long getCallCount() {
+		return this.callCount;
+	}
 
-    public String getSessionId() {
-        return this.sessionId;
-    }
+	public String getSessionId() {
+		return this.sessionId;
+	}
 
-    public Calendar getLoginTime() {
-        return this.loginTime;
-    }
+	public Calendar getLoginTime() {
+		return this.loginTime;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setUserAgent(String userAgent) {
-        this.userAgent = userAgent;
-    }
+	public void setUserAgent(String userAgent) {
+		this.userAgent = userAgent;
+	}
 
-    public void setCallCount(Long callCount) {
-        this.callCount = callCount;
-    }
+	public void setCallCount(Long callCount) {
+		this.callCount = callCount;
+	}
 
-    public void setSessionId(String sessionId) {
-        this.sessionId = sessionId;
-    }
+	public void setSessionId(String sessionId) {
+		this.sessionId = sessionId;
+	}
 
-    public void setLoginTime(Calendar loginTime) {
-        this.loginTime = loginTime;
-    }
+	public void setLoginTime(Calendar loginTime) {
+		this.loginTime = loginTime;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileUpdateFailed extends VimFault {
-    public ProfileUpdateFailedUpdateFailure[] failure;
+	public ProfileUpdateFailedUpdateFailure[] failure;
 
-    public ProfileUpdateFailedUpdateFailure[] getFailure() {
-        return this.failure;
-    }
+	public ProfileUpdateFailedUpdateFailure[] getFailure() {
+		return this.failure;
+	}
 
-    public void setFailure(ProfileUpdateFailedUpdateFailure[] failure) {
-        this.failure = failure;
-    }
+	public void setFailure(ProfileUpdateFailedUpdateFailure[] failure) {
+		this.failure = failure;
+	}
 }

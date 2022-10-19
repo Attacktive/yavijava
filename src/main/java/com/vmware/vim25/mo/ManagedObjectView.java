@@ -39,12 +39,11 @@ import com.vmware.vim25.ManagedObjectReference;
 
 abstract public class ManagedObjectView extends View {
 
-    public ManagedObjectView(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public ManagedObjectView(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public ManagedObject[] getView() {
-        return getManagedObjects("view", true);
-    }
-
+	public ManagedObject[] getView() {
+		return getManagedObjects("view", true);
+	}
 }

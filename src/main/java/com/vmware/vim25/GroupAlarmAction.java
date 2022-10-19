@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GroupAlarmAction extends AlarmAction {
-    public AlarmAction[] action;
+	public AlarmAction[] action;
 
-    public AlarmAction[] getAction() {
-        return this.action;
-    }
+	public AlarmAction[] getAction() {
+		return this.action;
+	}
 
-    public void setAction(AlarmAction[] action) {
-        this.action = action;
-    }
+	public void setAction(AlarmAction[] action) {
+		this.action = action;
+	}
 }

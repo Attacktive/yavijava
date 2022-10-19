@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HttpNfcLeaseHostInfo extends DynamicData {
-    public String url;
-    public String sslThumbprint;
+	public String url;
+	public String sslThumbprint;
 
-    public String getUrl() {
-        return this.url;
-    }
+	public String getUrl() {
+		return this.url;
+	}
 
-    public String getSslThumbprint() {
-        return this.sslThumbprint;
-    }
+	public String getSslThumbprint() {
+		return this.sslThumbprint;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 
-    public void setSslThumbprint(String sslThumbprint) {
-        this.sslThumbprint = sslThumbprint;
-    }
+	public void setSslThumbprint(String sslThumbprint) {
+		this.sslThumbprint = sslThumbprint;
+	}
 }

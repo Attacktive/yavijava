@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostFeatureCapability {
-    public HostFeatureCapability[] HostFeatureCapability;
+	public HostFeatureCapability[] HostFeatureCapability;
 
-    public HostFeatureCapability[] getHostFeatureCapability() {
-        return this.HostFeatureCapability;
-    }
+	public HostFeatureCapability[] getHostFeatureCapability() {
+		return this.HostFeatureCapability;
+	}
 
-    public HostFeatureCapability getHostFeatureCapability(int i) {
-        return this.HostFeatureCapability[i];
-    }
+	public HostFeatureCapability getHostFeatureCapability(int i) {
+		return this.HostFeatureCapability[i];
+	}
 
-    public void setHostFeatureCapability(HostFeatureCapability[] HostFeatureCapability) {
-        this.HostFeatureCapability = HostFeatureCapability;
-    }
+	public void setHostFeatureCapability(HostFeatureCapability[] HostFeatureCapability) {
+		this.HostFeatureCapability = HostFeatureCapability;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidProfileReferenceHost extends RuntimeFault {
-    public String reason;
-    public ManagedObjectReference host;
-    public ManagedObjectReference profile;
+	public String reason;
+	public ManagedObjectReference host;
+	public ManagedObjectReference profile;
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public ManagedObjectReference getProfile() {
-        return this.profile;
-    }
+	public ManagedObjectReference getProfile() {
+		return this.profile;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setProfile(ManagedObjectReference profile) {
-        this.profile = profile;
-    }
+	public void setProfile(ManagedObjectReference profile) {
+		this.profile = profile;
+	}
 }

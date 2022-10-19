@@ -34,18 +34,18 @@ package com.vmware.vim25;
  */
 
 public enum VirtualizationManagerHealthValue {
-    notInstalled("notInstalled"),
-    notConfigured("notConfigured"),
-    starting("starting"),
-    running("running"),
-    partialRunning("partialRunning"),
-    stopping("stopping"),
-    stopped("stopped"),
-    notRunning("notRunning");
+	notInstalled("notInstalled"),
+	notConfigured("notConfigured"),
+	starting("starting"),
+	running("running"),
+	partialRunning("partialRunning"),
+	stopping("stopping"),
+	stopped("stopped"),
+	notRunning("notRunning");
 
-    private final String val;
+	private final String val;
 
-    private VirtualizationManagerHealthValue(String val) {
-        this.val = val;
-    }
+	private VirtualizationManagerHealthValue(String val) {
+		this.val = val;
+	}
 }

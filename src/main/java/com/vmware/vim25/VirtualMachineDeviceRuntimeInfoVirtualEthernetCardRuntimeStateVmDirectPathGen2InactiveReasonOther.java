@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonOther {
-    vmNptIncompatibleHost("vmNptIncompatibleHost"),
-    vmNptIncompatibleNetwork("vmNptIncompatibleNetwork");
+	vmNptIncompatibleHost("vmNptIncompatibleHost"),
+	vmNptIncompatibleNetwork("vmNptIncompatibleNetwork");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonOther(String val) {
-        this.val = val;
-    }
+	private VirtualMachineDeviceRuntimeInfoVirtualEthernetCardRuntimeStateVmDirectPathGen2InactiveReasonOther(String val) {
+		this.val = val;
+	}
 }

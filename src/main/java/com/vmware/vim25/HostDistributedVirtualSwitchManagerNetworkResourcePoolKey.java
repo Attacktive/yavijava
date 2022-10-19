@@ -34,16 +34,16 @@ package com.vmware.vim25;
  */
 
 public enum HostDistributedVirtualSwitchManagerNetworkResourcePoolKey {
-    management("management"),
-    faultTolerance("faultTolerance"),
-    vmotion("vmotion"),
-    iSCSI("iSCSI"),
-    nfs("nfs"),
-    virtualMachine("virtualMachine");
+	management("management"),
+	faultTolerance("faultTolerance"),
+	vmotion("vmotion"),
+	iSCSI("iSCSI"),
+	nfs("nfs"),
+	virtualMachine("virtualMachine");
 
-    private final String val;
+	private final String val;
 
-    private HostDistributedVirtualSwitchManagerNetworkResourcePoolKey(String val) {
-        this.val = val;
-    }
+	private HostDistributedVirtualSwitchManagerNetworkResourcePoolKey(String val) {
+		this.val = val;
+	}
 }

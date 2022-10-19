@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDeviceConfigSpecFileOperation {
-    create("create"),
-    destroy("destroy"),
-    replace("replace");
+	create("create"),
+	destroy("destroy"),
+	replace("replace");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDeviceConfigSpecFileOperation(String val) {
-        this.val = val;
-    }
+	private VirtualDeviceConfigSpecFileOperation(String val) {
+		this.val = val;
+	}
 }

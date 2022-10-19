@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmfsDatastoreSpec extends DynamicData {
-    public String diskUuid;
+	public String diskUuid;
 
-    public String getDiskUuid() {
-        return this.diskUuid;
-    }
+	public String getDiskUuid() {
+		return this.diskUuid;
+	}
 
-    public void setDiskUuid(String diskUuid) {
-        this.diskUuid = diskUuid;
-    }
+	public void setDiskUuid(String diskUuid) {
+		this.diskUuid = diskUuid;
+	}
 }

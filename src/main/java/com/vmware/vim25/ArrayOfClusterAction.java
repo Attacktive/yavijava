@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterAction {
-    public ClusterAction[] ClusterAction;
+	public ClusterAction[] ClusterAction;
 
-    public ClusterAction[] getClusterAction() {
-        return this.ClusterAction;
-    }
+	public ClusterAction[] getClusterAction() {
+		return this.ClusterAction;
+	}
 
-    public ClusterAction getClusterAction(int i) {
-        return this.ClusterAction[i];
-    }
+	public ClusterAction getClusterAction(int i) {
+		return this.ClusterAction[i];
+	}
 
-    public void setClusterAction(ClusterAction[] ClusterAction) {
-        this.ClusterAction = ClusterAction;
-    }
+	public void setClusterAction(ClusterAction[] ClusterAction) {
+		this.ClusterAction = ClusterAction;
+	}
 }

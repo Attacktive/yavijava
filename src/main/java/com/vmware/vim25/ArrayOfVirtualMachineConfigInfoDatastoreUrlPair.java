@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineConfigInfoDatastoreUrlPair {
-    public VirtualMachineConfigInfoDatastoreUrlPair[] VirtualMachineConfigInfoDatastoreUrlPair;
+	public VirtualMachineConfigInfoDatastoreUrlPair[] VirtualMachineConfigInfoDatastoreUrlPair;
 
-    public VirtualMachineConfigInfoDatastoreUrlPair[] getVirtualMachineConfigInfoDatastoreUrlPair() {
-        return this.VirtualMachineConfigInfoDatastoreUrlPair;
-    }
+	public VirtualMachineConfigInfoDatastoreUrlPair[] getVirtualMachineConfigInfoDatastoreUrlPair() {
+		return this.VirtualMachineConfigInfoDatastoreUrlPair;
+	}
 
-    public VirtualMachineConfigInfoDatastoreUrlPair getVirtualMachineConfigInfoDatastoreUrlPair(int i) {
-        return this.VirtualMachineConfigInfoDatastoreUrlPair[i];
-    }
+	public VirtualMachineConfigInfoDatastoreUrlPair getVirtualMachineConfigInfoDatastoreUrlPair(int i) {
+		return this.VirtualMachineConfigInfoDatastoreUrlPair[i];
+	}
 
-    public void setVirtualMachineConfigInfoDatastoreUrlPair(VirtualMachineConfigInfoDatastoreUrlPair[] VirtualMachineConfigInfoDatastoreUrlPair) {
-        this.VirtualMachineConfigInfoDatastoreUrlPair = VirtualMachineConfigInfoDatastoreUrlPair;
-    }
+	public void setVirtualMachineConfigInfoDatastoreUrlPair(VirtualMachineConfigInfoDatastoreUrlPair[] VirtualMachineConfigInfoDatastoreUrlPair) {
+		this.VirtualMachineConfigInfoDatastoreUrlPair = VirtualMachineConfigInfoDatastoreUrlPair;
+	}
 }

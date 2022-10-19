@@ -39,5 +39,5 @@ import lombok.Setter;
 
 @SuppressWarnings("all")
 public class CannotAccessNetwork extends CannotAccessVmDevice {
-    @Getter @Setter public ManagedObjectReference network;
+	@Getter @Setter public ManagedObjectReference network;
 }

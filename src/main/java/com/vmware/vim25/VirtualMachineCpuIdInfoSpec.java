@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineCpuIdInfoSpec extends ArrayUpdateSpec {
-    public HostCpuIdInfo info;
+	public HostCpuIdInfo info;
 
-    public HostCpuIdInfo getInfo() {
-        return this.info;
-    }
+	public HostCpuIdInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(HostCpuIdInfo info) {
-        this.info = info;
-    }
+	public void setInfo(HostCpuIdInfo info) {
+		this.info = info;
+	}
 }

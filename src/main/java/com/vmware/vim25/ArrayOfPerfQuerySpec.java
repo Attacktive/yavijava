@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPerfQuerySpec {
-    public PerfQuerySpec[] PerfQuerySpec;
+	public PerfQuerySpec[] PerfQuerySpec;
 
-    public PerfQuerySpec[] getPerfQuerySpec() {
-        return this.PerfQuerySpec;
-    }
+	public PerfQuerySpec[] getPerfQuerySpec() {
+		return this.PerfQuerySpec;
+	}
 
-    public PerfQuerySpec getPerfQuerySpec(int i) {
-        return this.PerfQuerySpec[i];
-    }
+	public PerfQuerySpec getPerfQuerySpec(int i) {
+		return this.PerfQuerySpec[i];
+	}
 
-    public void setPerfQuerySpec(PerfQuerySpec[] PerfQuerySpec) {
-        this.PerfQuerySpec = PerfQuerySpec;
-    }
+	public void setPerfQuerySpec(PerfQuerySpec[] PerfQuerySpec) {
+		this.PerfQuerySpec = PerfQuerySpec;
+	}
 }

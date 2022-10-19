@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationGuiRunOnce extends DynamicData {
-    public String[] commandList;
+	public String[] commandList;
 
-    public String[] getCommandList() {
-        return this.commandList;
-    }
+	public String[] getCommandList() {
+		return this.commandList;
+	}
 
-    public void setCommandList(String[] commandList) {
-        this.commandList = commandList;
-    }
+	public void setCommandList(String[] commandList) {
+		this.commandList = commandList;
+	}
 }

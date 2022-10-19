@@ -16,7 +16,7 @@ package org.doublecloud.ws.util.testUtils;
  * limitations under the License.
  */
 public interface ReflectUtilSimpleInterfaceWith2Fields1Method {
-    public int int1 = 0;
-    public String string1 = null;
-    public void helloWorld();
+	public int int1 = 0;
+	public String string1 = null;
+	public void helloWorld();
 }

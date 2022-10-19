@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPlugStoreTopologyDevice {
-    public HostPlugStoreTopologyDevice[] HostPlugStoreTopologyDevice;
+	public HostPlugStoreTopologyDevice[] HostPlugStoreTopologyDevice;
 
-    public HostPlugStoreTopologyDevice[] getHostPlugStoreTopologyDevice() {
-        return this.HostPlugStoreTopologyDevice;
-    }
+	public HostPlugStoreTopologyDevice[] getHostPlugStoreTopologyDevice() {
+		return this.HostPlugStoreTopologyDevice;
+	}
 
-    public HostPlugStoreTopologyDevice getHostPlugStoreTopologyDevice(int i) {
-        return this.HostPlugStoreTopologyDevice[i];
-    }
+	public HostPlugStoreTopologyDevice getHostPlugStoreTopologyDevice(int i) {
+		return this.HostPlugStoreTopologyDevice[i];
+	}
 
-    public void setHostPlugStoreTopologyDevice(HostPlugStoreTopologyDevice[] HostPlugStoreTopologyDevice) {
-        this.HostPlugStoreTopologyDevice = HostPlugStoreTopologyDevice;
-    }
+	public void setHostPlugStoreTopologyDevice(HostPlugStoreTopologyDevice[] HostPlugStoreTopologyDevice) {
+		this.HostPlugStoreTopologyDevice = HostPlugStoreTopologyDevice;
+	}
 }

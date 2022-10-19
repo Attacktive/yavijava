@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfFileQuery {
-    public FileQuery[] FileQuery;
+	public FileQuery[] FileQuery;
 
-    public FileQuery[] getFileQuery() {
-        return this.FileQuery;
-    }
+	public FileQuery[] getFileQuery() {
+		return this.FileQuery;
+	}
 
-    public FileQuery getFileQuery(int i) {
-        return this.FileQuery[i];
-    }
+	public FileQuery getFileQuery(int i) {
+		return this.FileQuery[i];
+	}
 
-    public void setFileQuery(FileQuery[] FileQuery) {
-        this.FileQuery = FileQuery;
-    }
+	public void setFileQuery(FileQuery[] FileQuery) {
+		this.FileQuery = FileQuery;
+	}
 }

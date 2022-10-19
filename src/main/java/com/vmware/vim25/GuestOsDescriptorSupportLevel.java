@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum GuestOsDescriptorSupportLevel {
-    experimental("experimental"),
-    legacy("legacy"),
-    terminated("terminated"),
-    supported("supported"),
-    unsupported("unsupported"),
-    deprecated("deprecated"),
-    techPreview("techPreview");
+	experimental("experimental"),
+	legacy("legacy"),
+	terminated("terminated"),
+	supported("supported"),
+	unsupported("unsupported"),
+	deprecated("deprecated"),
+	techPreview("techPreview");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private GuestOsDescriptorSupportLevel(String val) {
-        this.val = val;
-    }
+	private GuestOsDescriptorSupportLevel(String val) {
+		this.val = val;
+	}
 }

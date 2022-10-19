@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsSystemTrafficNetworkRuleQualifier extends DvsNetworkRuleQualifier {
-    public StringExpression typeOfSystemTraffic;
+	public StringExpression typeOfSystemTraffic;
 
-    public StringExpression getTypeOfSystemTraffic() {
-        return this.typeOfSystemTraffic;
-    }
+	public StringExpression getTypeOfSystemTraffic() {
+		return this.typeOfSystemTraffic;
+	}
 
-    public void setTypeOfSystemTraffic(StringExpression typeOfSystemTraffic) {
-        this.typeOfSystemTraffic = typeOfSystemTraffic;
-    }
+	public void setTypeOfSystemTraffic(StringExpression typeOfSystemTraffic) {
+		this.typeOfSystemTraffic = typeOfSystemTraffic;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NetDhcpConfigSpec extends DynamicData {
-    public NetDhcpConfigSpecDhcpOptionsSpec ipv6;
-    public NetDhcpConfigSpecDhcpOptionsSpec ipv4;
+	public NetDhcpConfigSpecDhcpOptionsSpec ipv6;
+	public NetDhcpConfigSpecDhcpOptionsSpec ipv4;
 
-    public NetDhcpConfigSpecDhcpOptionsSpec getIpv6() {
-        return this.ipv6;
-    }
+	public NetDhcpConfigSpecDhcpOptionsSpec getIpv6() {
+		return this.ipv6;
+	}
 
-    public NetDhcpConfigSpecDhcpOptionsSpec getIpv4() {
-        return this.ipv4;
-    }
+	public NetDhcpConfigSpecDhcpOptionsSpec getIpv4() {
+		return this.ipv4;
+	}
 
-    public void setIpv6(NetDhcpConfigSpecDhcpOptionsSpec ipv6) {
-        this.ipv6 = ipv6;
-    }
+	public void setIpv6(NetDhcpConfigSpecDhcpOptionsSpec ipv6) {
+		this.ipv6 = ipv6;
+	}
 
-    public void setIpv4(NetDhcpConfigSpecDhcpOptionsSpec ipv4) {
-        this.ipv4 = ipv4;
-    }
+	public void setIpv4(NetDhcpConfigSpecDhcpOptionsSpec ipv4) {
+		this.ipv4 = ipv4;
+	}
 }

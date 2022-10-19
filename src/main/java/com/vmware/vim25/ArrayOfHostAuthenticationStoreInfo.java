@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostAuthenticationStoreInfo {
-    public HostAuthenticationStoreInfo[] HostAuthenticationStoreInfo;
+	public HostAuthenticationStoreInfo[] HostAuthenticationStoreInfo;
 
-    public HostAuthenticationStoreInfo[] getHostAuthenticationStoreInfo() {
-        return this.HostAuthenticationStoreInfo;
-    }
+	public HostAuthenticationStoreInfo[] getHostAuthenticationStoreInfo() {
+		return this.HostAuthenticationStoreInfo;
+	}
 
-    public HostAuthenticationStoreInfo getHostAuthenticationStoreInfo(int i) {
-        return this.HostAuthenticationStoreInfo[i];
-    }
+	public HostAuthenticationStoreInfo getHostAuthenticationStoreInfo(int i) {
+		return this.HostAuthenticationStoreInfo[i];
+	}
 
-    public void setHostAuthenticationStoreInfo(HostAuthenticationStoreInfo[] HostAuthenticationStoreInfo) {
-        this.HostAuthenticationStoreInfo = HostAuthenticationStoreInfo;
-    }
+	public void setHostAuthenticationStoreInfo(HostAuthenticationStoreInfo[] HostAuthenticationStoreInfo) {
+		this.HostAuthenticationStoreInfo = HostAuthenticationStoreInfo;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPortGroupSpec extends DynamicData {
-    public String name;
-    public int vlanId;
-    public String vswitchName;
-    public HostNetworkPolicy policy;
+	public String name;
+	public int vlanId;
+	public String vswitchName;
+	public HostNetworkPolicy policy;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public int getVlanId() {
-        return this.vlanId;
-    }
+	public int getVlanId() {
+		return this.vlanId;
+	}
 
-    public String getVswitchName() {
-        return this.vswitchName;
-    }
+	public String getVswitchName() {
+		return this.vswitchName;
+	}
 
-    public HostNetworkPolicy getPolicy() {
-        return this.policy;
-    }
+	public HostNetworkPolicy getPolicy() {
+		return this.policy;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setVlanId(int vlanId) {
-        this.vlanId = vlanId;
-    }
+	public void setVlanId(int vlanId) {
+		this.vlanId = vlanId;
+	}
 
-    public void setVswitchName(String vswitchName) {
-        this.vswitchName = vswitchName;
-    }
+	public void setVswitchName(String vswitchName) {
+		this.vswitchName = vswitchName;
+	}
 
-    public void setPolicy(HostNetworkPolicy policy) {
-        this.policy = policy;
-    }
+	public void setPolicy(HostNetworkPolicy policy) {
+		this.policy = policy;
+	}
 }

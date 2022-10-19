@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NasVolumeNotMounted extends NasConfigFault {
-    public String remoteHost;
-    public String remotePath;
+	public String remoteHost;
+	public String remotePath;
 
-    public String getRemoteHost() {
-        return this.remoteHost;
-    }
+	public String getRemoteHost() {
+		return this.remoteHost;
+	}
 
-    public String getRemotePath() {
-        return this.remotePath;
-    }
+	public String getRemotePath() {
+		return this.remotePath;
+	}
 
-    public void setRemoteHost(String remoteHost) {
-        this.remoteHost = remoteHost;
-    }
+	public void setRemoteHost(String remoteHost) {
+		this.remoteHost = remoteHost;
+	}
 
-    public void setRemotePath(String remotePath) {
-        this.remotePath = remotePath;
-    }
+	public void setRemotePath(String remotePath) {
+		this.remotePath = remotePath;
+	}
 }

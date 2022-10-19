@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineCpuIdInfoSpec {
-    public VirtualMachineCpuIdInfoSpec[] VirtualMachineCpuIdInfoSpec;
+	public VirtualMachineCpuIdInfoSpec[] VirtualMachineCpuIdInfoSpec;
 
-    public VirtualMachineCpuIdInfoSpec[] getVirtualMachineCpuIdInfoSpec() {
-        return this.VirtualMachineCpuIdInfoSpec;
-    }
+	public VirtualMachineCpuIdInfoSpec[] getVirtualMachineCpuIdInfoSpec() {
+		return this.VirtualMachineCpuIdInfoSpec;
+	}
 
-    public VirtualMachineCpuIdInfoSpec getVirtualMachineCpuIdInfoSpec(int i) {
-        return this.VirtualMachineCpuIdInfoSpec[i];
-    }
+	public VirtualMachineCpuIdInfoSpec getVirtualMachineCpuIdInfoSpec(int i) {
+		return this.VirtualMachineCpuIdInfoSpec[i];
+	}
 
-    public void setVirtualMachineCpuIdInfoSpec(VirtualMachineCpuIdInfoSpec[] VirtualMachineCpuIdInfoSpec) {
-        this.VirtualMachineCpuIdInfoSpec = VirtualMachineCpuIdInfoSpec;
-    }
+	public void setVirtualMachineCpuIdInfoSpec(VirtualMachineCpuIdInfoSpec[] VirtualMachineCpuIdInfoSpec) {
+		this.VirtualMachineCpuIdInfoSpec = VirtualMachineCpuIdInfoSpec;
+	}
 }

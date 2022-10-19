@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum HostInternetScsiHbaStaticTargetTargetDiscoveryMethod {
-    staticMethod("staticMethod"),
-    sendTargetMethod("sendTargetMethod"),
-    slpMethod("slpMethod"),
-    isnsMethod("isnsMethod"),
-    unknownMethod("unknownMethod");
+	staticMethod("staticMethod"),
+	sendTargetMethod("sendTargetMethod"),
+	slpMethod("slpMethod"),
+	isnsMethod("isnsMethod"),
+	unknownMethod("unknownMethod");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostInternetScsiHbaStaticTargetTargetDiscoveryMethod(String val) {
-        this.val = val;
-    }
+	private HostInternetScsiHbaStaticTargetTargetDiscoveryMethod(String val) {
+		this.val = val;
+	}
 }

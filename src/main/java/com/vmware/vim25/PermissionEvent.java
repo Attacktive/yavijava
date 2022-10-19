@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PermissionEvent extends AuthorizationEvent {
-    public ManagedEntityEventArgument entity;
-    public String principal;
-    public boolean group;
+	public ManagedEntityEventArgument entity;
+	public String principal;
+	public boolean group;
 
-    public ManagedEntityEventArgument getEntity() {
-        return this.entity;
-    }
+	public ManagedEntityEventArgument getEntity() {
+		return this.entity;
+	}
 
-    public String getPrincipal() {
-        return this.principal;
-    }
+	public String getPrincipal() {
+		return this.principal;
+	}
 
-    public boolean isGroup() {
-        return this.group;
-    }
+	public boolean isGroup() {
+		return this.group;
+	}
 
-    public void setEntity(ManagedEntityEventArgument entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedEntityEventArgument entity) {
+		this.entity = entity;
+	}
 
-    public void setPrincipal(String principal) {
-        this.principal = principal;
-    }
+	public void setPrincipal(String principal) {
+		this.principal = principal;
+	}
 
-    public void setGroup(boolean group) {
-        this.group = group;
-    }
+	public void setGroup(boolean group) {
+		this.group = group;
+	}
 }

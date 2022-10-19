@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InsufficientStandbyCpuResource extends InsufficientStandbyResource {
-    public long available;
-    public long requested;
+	public long available;
+	public long requested;
 
-    public long getAvailable() {
-        return this.available;
-    }
+	public long getAvailable() {
+		return this.available;
+	}
 
-    public long getRequested() {
-        return this.requested;
-    }
+	public long getRequested() {
+		return this.requested;
+	}
 
-    public void setAvailable(long available) {
-        this.available = available;
-    }
+	public void setAvailable(long available) {
+		this.available = available;
+	}
 
-    public void setRequested(long requested) {
-        this.requested = requested;
-    }
+	public void setRequested(long requested) {
+		this.requested = requested;
+	}
 }

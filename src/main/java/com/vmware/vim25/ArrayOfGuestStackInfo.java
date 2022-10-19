@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfGuestStackInfo {
-    public GuestStackInfo[] GuestStackInfo;
+	public GuestStackInfo[] GuestStackInfo;
 
-    public GuestStackInfo[] getGuestStackInfo() {
-        return this.GuestStackInfo;
-    }
+	public GuestStackInfo[] getGuestStackInfo() {
+		return this.GuestStackInfo;
+	}
 
-    public GuestStackInfo getGuestStackInfo(int i) {
-        return this.GuestStackInfo[i];
-    }
+	public GuestStackInfo getGuestStackInfo(int i) {
+		return this.GuestStackInfo[i];
+	}
 
-    public void setGuestStackInfo(GuestStackInfo[] GuestStackInfo) {
-        this.GuestStackInfo = GuestStackInfo;
-    }
+	public void setGuestStackInfo(GuestStackInfo[] GuestStackInfo) {
+		this.GuestStackInfo = GuestStackInfo;
+	}
 }

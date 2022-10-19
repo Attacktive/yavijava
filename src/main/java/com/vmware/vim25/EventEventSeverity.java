@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum EventEventSeverity {
-    error("error"),
-    warning("warning"),
-    info("info"),
-    user("user");
+	error("error"),
+	warning("warning"),
+	info("info"),
+	user("user");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private EventEventSeverity(String val) {
-        this.val = val;
-    }
+	private EventEventSeverity(String val) {
+		this.val = val;
+	}
 }

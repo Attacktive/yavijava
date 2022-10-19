@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineUsbInfoSpeed {
-    low("low"),
-    full("full"),
-    high("high"),
-    superSpeed("superSpeed"),
-    unknownSpeed("unknownSpeed");
+	low("low"),
+	full("full"),
+	high("high"),
+	superSpeed("superSpeed"),
+	unknownSpeed("unknownSpeed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineUsbInfoSpeed(String val) {
-        this.val = val;
-    }
+	private VirtualMachineUsbInfoSpeed(String val) {
+		this.val = val;
+	}
 }

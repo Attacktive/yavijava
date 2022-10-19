@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPerfCounterInfo {
-    public PerfCounterInfo[] PerfCounterInfo;
+	public PerfCounterInfo[] PerfCounterInfo;
 
-    public PerfCounterInfo[] getPerfCounterInfo() {
-        return this.PerfCounterInfo;
-    }
+	public PerfCounterInfo[] getPerfCounterInfo() {
+		return this.PerfCounterInfo;
+	}
 
-    public PerfCounterInfo getPerfCounterInfo(int i) {
-        return this.PerfCounterInfo[i];
-    }
+	public PerfCounterInfo getPerfCounterInfo(int i) {
+		return this.PerfCounterInfo[i];
+	}
 
-    public void setPerfCounterInfo(PerfCounterInfo[] PerfCounterInfo) {
-        this.PerfCounterInfo = PerfCounterInfo;
-    }
+	public void setPerfCounterInfo(PerfCounterInfo[] PerfCounterInfo) {
+		this.PerfCounterInfo = PerfCounterInfo;
+	}
 }

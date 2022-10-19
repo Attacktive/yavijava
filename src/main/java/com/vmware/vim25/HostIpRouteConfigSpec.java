@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostIpRouteConfigSpec extends HostIpRouteConfig {
-    public HostVirtualNicConnection gatewayDeviceConnection;
-    public HostVirtualNicConnection ipV6GatewayDeviceConnection;
+	public HostVirtualNicConnection gatewayDeviceConnection;
+	public HostVirtualNicConnection ipV6GatewayDeviceConnection;
 
-    public HostVirtualNicConnection getGatewayDeviceConnection() {
-        return this.gatewayDeviceConnection;
-    }
+	public HostVirtualNicConnection getGatewayDeviceConnection() {
+		return this.gatewayDeviceConnection;
+	}
 
-    public HostVirtualNicConnection getIpV6GatewayDeviceConnection() {
-        return this.ipV6GatewayDeviceConnection;
-    }
+	public HostVirtualNicConnection getIpV6GatewayDeviceConnection() {
+		return this.ipV6GatewayDeviceConnection;
+	}
 
-    public void setGatewayDeviceConnection(HostVirtualNicConnection gatewayDeviceConnection) {
-        this.gatewayDeviceConnection = gatewayDeviceConnection;
-    }
+	public void setGatewayDeviceConnection(HostVirtualNicConnection gatewayDeviceConnection) {
+		this.gatewayDeviceConnection = gatewayDeviceConnection;
+	}
 
-    public void setIpV6GatewayDeviceConnection(HostVirtualNicConnection ipV6GatewayDeviceConnection) {
-        this.ipV6GatewayDeviceConnection = ipV6GatewayDeviceConnection;
-    }
+	public void setIpV6GatewayDeviceConnection(HostVirtualNicConnection ipV6GatewayDeviceConnection) {
+		this.ipV6GatewayDeviceConnection = ipV6GatewayDeviceConnection;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DuplicateIpDetectedEvent extends HostEvent {
-    public String duplicateIP;
-    public String macAddress;
+	public String duplicateIP;
+	public String macAddress;
 
-    public String getDuplicateIP() {
-        return this.duplicateIP;
-    }
+	public String getDuplicateIP() {
+		return this.duplicateIP;
+	}
 
-    public String getMacAddress() {
-        return this.macAddress;
-    }
+	public String getMacAddress() {
+		return this.macAddress;
+	}
 
-    public void setDuplicateIP(String duplicateIP) {
-        this.duplicateIP = duplicateIP;
-    }
+	public void setDuplicateIP(String duplicateIP) {
+		this.duplicateIP = duplicateIP;
+	}
 
-    public void setMacAddress(String macAddress) {
-        this.macAddress = macAddress;
-    }
+	public void setMacAddress(String macAddress) {
+		this.macAddress = macAddress;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum PhysicalNicResourcePoolSchedulerDisallowedReason {
-    userOptOut("userOptOut"),
-    hardwareUnsupported("hardwareUnsupported");
+	userOptOut("userOptOut"),
+	hardwareUnsupported("hardwareUnsupported");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PhysicalNicResourcePoolSchedulerDisallowedReason(String val) {
-        this.val = val;
-    }
+	private PhysicalNicResourcePoolSchedulerDisallowedReason(String val) {
+		this.val = val;
+	}
 }

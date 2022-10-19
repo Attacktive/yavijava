@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfileDescriptionSection {
-    public ProfileDescriptionSection[] ProfileDescriptionSection;
+	public ProfileDescriptionSection[] ProfileDescriptionSection;
 
-    public ProfileDescriptionSection[] getProfileDescriptionSection() {
-        return this.ProfileDescriptionSection;
-    }
+	public ProfileDescriptionSection[] getProfileDescriptionSection() {
+		return this.ProfileDescriptionSection;
+	}
 
-    public ProfileDescriptionSection getProfileDescriptionSection(int i) {
-        return this.ProfileDescriptionSection[i];
-    }
+	public ProfileDescriptionSection getProfileDescriptionSection(int i) {
+		return this.ProfileDescriptionSection[i];
+	}
 
-    public void setProfileDescriptionSection(ProfileDescriptionSection[] ProfileDescriptionSection) {
-        this.ProfileDescriptionSection = ProfileDescriptionSection;
-    }
+	public void setProfileDescriptionSection(ProfileDescriptionSection[] ProfileDescriptionSection) {
+		this.ProfileDescriptionSection = ProfileDescriptionSection;
+	}
 }

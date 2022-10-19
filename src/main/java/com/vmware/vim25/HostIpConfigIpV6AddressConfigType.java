@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum HostIpConfigIpV6AddressConfigType {
-    other("other"),
-    manual("manual"),
-    dhcp("dhcp"),
-    linklayer("linklayer"),
-    random("random");
+	other("other"),
+	manual("manual"),
+	dhcp("dhcp"),
+	linklayer("linklayer"),
+	random("random");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostIpConfigIpV6AddressConfigType(String val) {
-        this.val = val;
-    }
+	private HostIpConfigIpV6AddressConfigType(String val) {
+		this.val = val;
+	}
 }

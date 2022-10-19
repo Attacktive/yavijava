@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSBackupRestoreCapability extends DynamicData {
-    public boolean backupRestoreSupported;
+	public boolean backupRestoreSupported;
 
-    public boolean isBackupRestoreSupported() {
-        return this.backupRestoreSupported;
-    }
+	public boolean isBackupRestoreSupported() {
+		return this.backupRestoreSupported;
+	}
 
-    public void setBackupRestoreSupported(boolean backupRestoreSupported) {
-        this.backupRestoreSupported = backupRestoreSupported;
-    }
+	public void setBackupRestoreSupported(boolean backupRestoreSupported) {
+		this.backupRestoreSupported = backupRestoreSupported;
+	}
 }

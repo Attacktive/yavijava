@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class RollbackFailure extends DvsFault {
-    public String entityName;
-    public String entityType;
+	public String entityName;
+	public String entityType;
 
-    public String getEntityName() {
-        return this.entityName;
-    }
+	public String getEntityName() {
+		return this.entityName;
+	}
 
-    public String getEntityType() {
-        return this.entityType;
-    }
+	public String getEntityType() {
+		return this.entityType;
+	}
 
-    public void setEntityName(String entityName) {
-        this.entityName = entityName;
-    }
+	public void setEntityName(String entityName) {
+		this.entityName = entityName;
+	}
 
-    public void setEntityType(String entityType) {
-        this.entityType = entityType;
-    }
+	public void setEntityType(String entityType) {
+		this.entityType = entityType;
+	}
 }

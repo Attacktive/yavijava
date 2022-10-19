@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CannotAccessVmDevice extends CannotAccessVmComponent {
-    public String device;
-    public String backing;
-    public boolean connected;
+	public String device;
+	public String backing;
+	public boolean connected;
 
-    public String getDevice() {
-        return this.device;
-    }
+	public String getDevice() {
+		return this.device;
+	}
 
-    public String getBacking() {
-        return this.backing;
-    }
+	public String getBacking() {
+		return this.backing;
+	}
 
-    public boolean isConnected() {
-        return this.connected;
-    }
+	public boolean isConnected() {
+		return this.connected;
+	}
 
-    public void setDevice(String device) {
-        this.device = device;
-    }
+	public void setDevice(String device) {
+		this.device = device;
+	}
 
-    public void setBacking(String backing) {
-        this.backing = backing;
-    }
+	public void setBacking(String backing) {
+		this.backing = backing;
+	}
 
-    public void setConnected(boolean connected) {
-        this.connected = connected;
-    }
+	public void setConnected(boolean connected) {
+		this.connected = connected;
+	}
 }

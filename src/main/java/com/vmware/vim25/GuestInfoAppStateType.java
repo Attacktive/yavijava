@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum GuestInfoAppStateType {
-    none("none"),
-    appStateOk("appStateOk"),
-    appStateNeedReset("appStateNeedReset");
+	none("none"),
+	appStateOk("appStateOk"),
+	appStateNeedReset("appStateNeedReset");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private GuestInfoAppStateType(String val) {
-        this.val = val;
-    }
+	private GuestInfoAppStateType(String val) {
+		this.val = val;
+	}
 }

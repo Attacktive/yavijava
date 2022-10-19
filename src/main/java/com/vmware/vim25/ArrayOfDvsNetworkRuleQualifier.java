@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsNetworkRuleQualifier {
-    public DvsNetworkRuleQualifier[] DvsNetworkRuleQualifier;
+	public DvsNetworkRuleQualifier[] DvsNetworkRuleQualifier;
 
-    public DvsNetworkRuleQualifier[] getDvsNetworkRuleQualifier() {
-        return this.DvsNetworkRuleQualifier;
-    }
+	public DvsNetworkRuleQualifier[] getDvsNetworkRuleQualifier() {
+		return this.DvsNetworkRuleQualifier;
+	}
 
-    public DvsNetworkRuleQualifier getDvsNetworkRuleQualifier(int i) {
-        return this.DvsNetworkRuleQualifier[i];
-    }
+	public DvsNetworkRuleQualifier getDvsNetworkRuleQualifier(int i) {
+		return this.DvsNetworkRuleQualifier[i];
+	}
 
-    public void setDvsNetworkRuleQualifier(DvsNetworkRuleQualifier[] DvsNetworkRuleQualifier) {
-        this.DvsNetworkRuleQualifier = DvsNetworkRuleQualifier;
-    }
+	public void setDvsNetworkRuleQualifier(DvsNetworkRuleQualifier[] DvsNetworkRuleQualifier) {
+		this.DvsNetworkRuleQualifier = DvsNetworkRuleQualifier;
+	}
 }

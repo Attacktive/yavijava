@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class BoolOption extends OptionType {
-    public boolean supported;
-    public boolean defaultValue;
+	public boolean supported;
+	public boolean defaultValue;
 
-    public boolean isSupported() {
-        return this.supported;
-    }
+	public boolean isSupported() {
+		return this.supported;
+	}
 
-    public boolean isDefaultValue() {
-        return this.defaultValue;
-    }
+	public boolean isDefaultValue() {
+		return this.defaultValue;
+	}
 
-    public void setSupported(boolean supported) {
-        this.supported = supported;
-    }
+	public void setSupported(boolean supported) {
+		this.supported = supported;
+	}
 
-    public void setDefaultValue(boolean defaultValue) {
-        this.defaultValue = defaultValue;
-    }
+	public void setDefaultValue(boolean defaultValue) {
+		this.defaultValue = defaultValue;
+	}
 }

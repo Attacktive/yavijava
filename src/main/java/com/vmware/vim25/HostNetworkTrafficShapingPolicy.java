@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNetworkTrafficShapingPolicy extends DynamicData {
-    public Boolean enabled;
-    public Long averageBandwidth;
-    public Long peakBandwidth;
-    public Long burstSize;
+	public Boolean enabled;
+	public Long averageBandwidth;
+	public Long peakBandwidth;
+	public Long burstSize;
 
-    public Boolean getEnabled() {
-        return this.enabled;
-    }
+	public Boolean getEnabled() {
+		return this.enabled;
+	}
 
-    public Long getAverageBandwidth() {
-        return this.averageBandwidth;
-    }
+	public Long getAverageBandwidth() {
+		return this.averageBandwidth;
+	}
 
-    public Long getPeakBandwidth() {
-        return this.peakBandwidth;
-    }
+	public Long getPeakBandwidth() {
+		return this.peakBandwidth;
+	}
 
-    public Long getBurstSize() {
-        return this.burstSize;
-    }
+	public Long getBurstSize() {
+		return this.burstSize;
+	}
 
-    public void setEnabled(Boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
-    public void setAverageBandwidth(Long averageBandwidth) {
-        this.averageBandwidth = averageBandwidth;
-    }
+	public void setAverageBandwidth(Long averageBandwidth) {
+		this.averageBandwidth = averageBandwidth;
+	}
 
-    public void setPeakBandwidth(Long peakBandwidth) {
-        this.peakBandwidth = peakBandwidth;
-    }
+	public void setPeakBandwidth(Long peakBandwidth) {
+		this.peakBandwidth = peakBandwidth;
+	}
 
-    public void setBurstSize(Long burstSize) {
-        this.burstSize = burstSize;
-    }
+	public void setBurstSize(Long burstSize) {
+		this.burstSize = burstSize;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionFaultTypeInfo {
-    public ExtensionFaultTypeInfo[] ExtensionFaultTypeInfo;
+	public ExtensionFaultTypeInfo[] ExtensionFaultTypeInfo;
 
-    public ExtensionFaultTypeInfo[] getExtensionFaultTypeInfo() {
-        return this.ExtensionFaultTypeInfo;
-    }
+	public ExtensionFaultTypeInfo[] getExtensionFaultTypeInfo() {
+		return this.ExtensionFaultTypeInfo;
+	}
 
-    public ExtensionFaultTypeInfo getExtensionFaultTypeInfo(int i) {
-        return this.ExtensionFaultTypeInfo[i];
-    }
+	public ExtensionFaultTypeInfo getExtensionFaultTypeInfo(int i) {
+		return this.ExtensionFaultTypeInfo[i];
+	}
 
-    public void setExtensionFaultTypeInfo(ExtensionFaultTypeInfo[] ExtensionFaultTypeInfo) {
-        this.ExtensionFaultTypeInfo = ExtensionFaultTypeInfo;
-    }
+	public void setExtensionFaultTypeInfo(ExtensionFaultTypeInfo[] ExtensionFaultTypeInfo) {
+		this.ExtensionFaultTypeInfo = ExtensionFaultTypeInfo;
+	}
 }

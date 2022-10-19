@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostFirewallRuleDirection {
-    inbound("inbound"),
-    outbound("outbound");
+	inbound("inbound"),
+	outbound("outbound");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostFirewallRuleDirection(String val) {
-        this.val = val;
-    }
+	private HostFirewallRuleDirection(String val) {
+		this.val = val;
+	}
 }

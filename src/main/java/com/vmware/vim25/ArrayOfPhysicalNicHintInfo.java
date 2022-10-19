@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPhysicalNicHintInfo {
-    public PhysicalNicHintInfo[] PhysicalNicHintInfo;
+	public PhysicalNicHintInfo[] PhysicalNicHintInfo;
 
-    public PhysicalNicHintInfo[] getPhysicalNicHintInfo() {
-        return this.PhysicalNicHintInfo;
-    }
+	public PhysicalNicHintInfo[] getPhysicalNicHintInfo() {
+		return this.PhysicalNicHintInfo;
+	}
 
-    public PhysicalNicHintInfo getPhysicalNicHintInfo(int i) {
-        return this.PhysicalNicHintInfo[i];
-    }
+	public PhysicalNicHintInfo getPhysicalNicHintInfo(int i) {
+		return this.PhysicalNicHintInfo[i];
+	}
 
-    public void setPhysicalNicHintInfo(PhysicalNicHintInfo[] PhysicalNicHintInfo) {
-        this.PhysicalNicHintInfo = PhysicalNicHintInfo;
-    }
+	public void setPhysicalNicHintInfo(PhysicalNicHintInfo[] PhysicalNicHintInfo) {
+		this.PhysicalNicHintInfo = PhysicalNicHintInfo;
+	}
 }

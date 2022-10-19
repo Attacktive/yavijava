@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostIncompatibleForRecordReplayReason {
-    product("product"),
-    processor("processor");
+	product("product"),
+	processor("processor");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostIncompatibleForRecordReplayReason(String val) {
-        this.val = val;
-    }
+	private HostIncompatibleForRecordReplayReason(String val) {
+		this.val = val;
+	}
 }

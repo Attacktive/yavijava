@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostGraphicsInfo {
-    public HostGraphicsInfo[] HostGraphicsInfo;
+	public HostGraphicsInfo[] HostGraphicsInfo;
 
-    public HostGraphicsInfo[] getHostGraphicsInfo() {
-        return this.HostGraphicsInfo;
-    }
+	public HostGraphicsInfo[] getHostGraphicsInfo() {
+		return this.HostGraphicsInfo;
+	}
 
-    public HostGraphicsInfo getHostGraphicsInfo(int i) {
-        return this.HostGraphicsInfo[i];
-    }
+	public HostGraphicsInfo getHostGraphicsInfo(int i) {
+		return this.HostGraphicsInfo[i];
+	}
 
-    public void setHostGraphicsInfo(HostGraphicsInfo[] HostGraphicsInfo) {
-        this.HostGraphicsInfo = HostGraphicsInfo;
-    }
+	public void setHostGraphicsInfo(HostGraphicsInfo[] HostGraphicsInfo) {
+		this.HostGraphicsInfo = HostGraphicsInfo;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPrivilegeAvailability {
-    public PrivilegeAvailability[] PrivilegeAvailability;
+	public PrivilegeAvailability[] PrivilegeAvailability;
 
-    public PrivilegeAvailability[] getPrivilegeAvailability() {
-        return this.PrivilegeAvailability;
-    }
+	public PrivilegeAvailability[] getPrivilegeAvailability() {
+		return this.PrivilegeAvailability;
+	}
 
-    public PrivilegeAvailability getPrivilegeAvailability(int i) {
-        return this.PrivilegeAvailability[i];
-    }
+	public PrivilegeAvailability getPrivilegeAvailability(int i) {
+		return this.PrivilegeAvailability[i];
+	}
 
-    public void setPrivilegeAvailability(PrivilegeAvailability[] PrivilegeAvailability) {
-        this.PrivilegeAvailability = PrivilegeAvailability;
-    }
+	public void setPrivilegeAvailability(PrivilegeAvailability[] PrivilegeAvailability) {
+		this.PrivilegeAvailability = PrivilegeAvailability;
+	}
 }

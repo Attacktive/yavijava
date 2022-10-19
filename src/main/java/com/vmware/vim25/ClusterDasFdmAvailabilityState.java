@@ -35,21 +35,21 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasFdmAvailabilityState {
-    uninitialized("uninitialized"),
-    election("election"),
-    master("master"),
-    connectedToMaster("connectedToMaster"),
-    networkPartitionedFromMaster("networkPartitionedFromMaster"),
-    networkIsolated("networkIsolated"),
-    hostDown("hostDown"),
-    initializationError("initializationError"),
-    uninitializationError("uninitializationError"),
-    fdmUnreachable("fdmUnreachable");
+	uninitialized("uninitialized"),
+	election("election"),
+	master("master"),
+	connectedToMaster("connectedToMaster"),
+	networkPartitionedFromMaster("networkPartitionedFromMaster"),
+	networkIsolated("networkIsolated"),
+	hostDown("hostDown"),
+	initializationError("initializationError"),
+	uninitializationError("uninitializationError"),
+	fdmUnreachable("fdmUnreachable");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasFdmAvailabilityState(String val) {
-        this.val = val;
-    }
+	private ClusterDasFdmAvailabilityState(String val) {
+		this.val = val;
+	}
 }

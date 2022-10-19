@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostMultipathStateInfoPath {
-    public HostMultipathStateInfoPath[] HostMultipathStateInfoPath;
+	public HostMultipathStateInfoPath[] HostMultipathStateInfoPath;
 
-    public HostMultipathStateInfoPath[] getHostMultipathStateInfoPath() {
-        return this.HostMultipathStateInfoPath;
-    }
+	public HostMultipathStateInfoPath[] getHostMultipathStateInfoPath() {
+		return this.HostMultipathStateInfoPath;
+	}
 
-    public HostMultipathStateInfoPath getHostMultipathStateInfoPath(int i) {
-        return this.HostMultipathStateInfoPath[i];
-    }
+	public HostMultipathStateInfoPath getHostMultipathStateInfoPath(int i) {
+		return this.HostMultipathStateInfoPath[i];
+	}
 
-    public void setHostMultipathStateInfoPath(HostMultipathStateInfoPath[] HostMultipathStateInfoPath) {
-        this.HostMultipathStateInfoPath = HostMultipathStateInfoPath;
-    }
+	public void setHostMultipathStateInfoPath(HostMultipathStateInfoPath[] HostMultipathStateInfoPath) {
+		this.HostMultipathStateInfoPath = HostMultipathStateInfoPath;
+	}
 }

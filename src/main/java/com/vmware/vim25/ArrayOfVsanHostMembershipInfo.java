@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVsanHostMembershipInfo {
-    public VsanHostMembershipInfo[] VsanHostMembershipInfo;
+	public VsanHostMembershipInfo[] VsanHostMembershipInfo;
 
-    public VsanHostMembershipInfo[] getVsanHostMembershipInfo() {
-        return this.VsanHostMembershipInfo;
-    }
+	public VsanHostMembershipInfo[] getVsanHostMembershipInfo() {
+		return this.VsanHostMembershipInfo;
+	}
 
-    public VsanHostMembershipInfo getVsanHostMembershipInfo(int i) {
-        return this.VsanHostMembershipInfo[i];
-    }
+	public VsanHostMembershipInfo getVsanHostMembershipInfo(int i) {
+		return this.VsanHostMembershipInfo[i];
+	}
 
-    public void setVsanHostMembershipInfo(VsanHostMembershipInfo[] VsanHostMembershipInfo) {
-        this.VsanHostMembershipInfo = VsanHostMembershipInfo;
-    }
+	public void setVsanHostMembershipInfo(VsanHostMembershipInfo[] VsanHostMembershipInfo) {
+		this.VsanHostMembershipInfo = VsanHostMembershipInfo;
+	}
 }

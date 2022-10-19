@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FaultTolerancePrimaryConfigInfo extends FaultToleranceConfigInfo {
-    public ManagedObjectReference[] secondaries;
+	public ManagedObjectReference[] secondaries;
 
-    public ManagedObjectReference[] getSecondaries() {
-        return this.secondaries;
-    }
+	public ManagedObjectReference[] getSecondaries() {
+		return this.secondaries;
+	}
 
-    public void setSecondaries(ManagedObjectReference[] secondaries) {
-        this.secondaries = secondaries;
-    }
+	public void setSecondaries(ManagedObjectReference[] secondaries) {
+		this.secondaries = secondaries;
+	}
 }

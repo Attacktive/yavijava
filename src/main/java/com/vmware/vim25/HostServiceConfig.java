@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostServiceConfig extends DynamicData {
-    public String serviceId;
-    public String startupPolicy;
+	public String serviceId;
+	public String startupPolicy;
 
-    public String getServiceId() {
-        return this.serviceId;
-    }
+	public String getServiceId() {
+		return this.serviceId;
+	}
 
-    public String getStartupPolicy() {
-        return this.startupPolicy;
-    }
+	public String getStartupPolicy() {
+		return this.startupPolicy;
+	}
 
-    public void setServiceId(String serviceId) {
-        this.serviceId = serviceId;
-    }
+	public void setServiceId(String serviceId) {
+		this.serviceId = serviceId;
+	}
 
-    public void setStartupPolicy(String startupPolicy) {
-        this.startupPolicy = startupPolicy;
-    }
+	public void setStartupPolicy(String startupPolicy) {
+		this.startupPolicy = startupPolicy;
+	}
 }

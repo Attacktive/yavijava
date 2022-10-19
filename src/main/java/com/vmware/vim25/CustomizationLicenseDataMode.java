@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum CustomizationLicenseDataMode {
-    perServer("perServer"),
-    perSeat("perSeat");
+	perServer("perServer"),
+	perSeat("perSeat");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CustomizationLicenseDataMode(String val) {
-        this.val = val;
-    }
+	private CustomizationLicenseDataMode(String val) {
+		this.val = val;
+	}
 }

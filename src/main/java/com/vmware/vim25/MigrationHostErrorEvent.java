@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MigrationHostErrorEvent extends MigrationEvent {
-    public HostEventArgument dstHost;
+	public HostEventArgument dstHost;
 
-    public HostEventArgument getDstHost() {
-        return this.dstHost;
-    }
+	public HostEventArgument getDstHost() {
+		return this.dstHost;
+	}
 
-    public void setDstHost(HostEventArgument dstHost) {
-        this.dstHost = dstHost;
-    }
+	public void setDstHost(HostEventArgument dstHost) {
+		this.dstHost = dstHost;
+	}
 }

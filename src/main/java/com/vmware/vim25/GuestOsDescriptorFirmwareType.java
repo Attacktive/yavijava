@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum GuestOsDescriptorFirmwareType {
-    bios("bios"),
-    efi("efi");
+	bios("bios"),
+	efi("efi");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private GuestOsDescriptorFirmwareType(String val) {
-        this.val = val;
-    }
+	private GuestOsDescriptorFirmwareType(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionServerInfo {
-    public ExtensionServerInfo[] ExtensionServerInfo;
+	public ExtensionServerInfo[] ExtensionServerInfo;
 
-    public ExtensionServerInfo[] getExtensionServerInfo() {
-        return this.ExtensionServerInfo;
-    }
+	public ExtensionServerInfo[] getExtensionServerInfo() {
+		return this.ExtensionServerInfo;
+	}
 
-    public ExtensionServerInfo getExtensionServerInfo(int i) {
-        return this.ExtensionServerInfo[i];
-    }
+	public ExtensionServerInfo getExtensionServerInfo(int i) {
+		return this.ExtensionServerInfo[i];
+	}
 
-    public void setExtensionServerInfo(ExtensionServerInfo[] ExtensionServerInfo) {
-        this.ExtensionServerInfo = ExtensionServerInfo;
-    }
+	public void setExtensionServerInfo(ExtensionServerInfo[] ExtensionServerInfo) {
+		this.ExtensionServerInfo = ExtensionServerInfo;
+	}
 }

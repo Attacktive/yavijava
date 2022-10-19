@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterRecommendation {
-    public ClusterRecommendation[] ClusterRecommendation;
+	public ClusterRecommendation[] ClusterRecommendation;
 
-    public ClusterRecommendation[] getClusterRecommendation() {
-        return this.ClusterRecommendation;
-    }
+	public ClusterRecommendation[] getClusterRecommendation() {
+		return this.ClusterRecommendation;
+	}
 
-    public ClusterRecommendation getClusterRecommendation(int i) {
-        return this.ClusterRecommendation[i];
-    }
+	public ClusterRecommendation getClusterRecommendation(int i) {
+		return this.ClusterRecommendation[i];
+	}
 
-    public void setClusterRecommendation(ClusterRecommendation[] ClusterRecommendation) {
-        this.ClusterRecommendation = ClusterRecommendation;
-    }
+	public void setClusterRecommendation(ClusterRecommendation[] ClusterRecommendation) {
+		this.ClusterRecommendation = ClusterRecommendation;
+	}
 }

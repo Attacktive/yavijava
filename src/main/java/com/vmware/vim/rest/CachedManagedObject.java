@@ -34,41 +34,37 @@ import java.io.StringReader;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
+
 import org.xml.sax.InputSource;
 
-/** The cached managed object on the client side.
-* @author Steve JIN (sjin@vmware.com)
-*/
+/**
+ * The cached managed object on the client side.
+ *
+ * @author Steve JIN (sjin@vmware.com)
+ */
 
-public class CachedManagedObject
-{
-  private String propXML = null;
-  private XPath xpath = null;
-  
-  public CachedManagedObject(String propXML)
-  {
-    this.propXML = propXML;
-    this.xpath = XPathFactory.newInstance().newXPath();
-  }
-  
-  public String getProperty(String path) throws XPathExpressionException, IOException
-  {
-    String propName = null;
-    int last = path.lastIndexOf(".");
-    if(last!=-1)
-    {
-      propName = path.substring(last+1);
-    }
-    else
-    {
-      propName = path;
-    }
-    xpath.reset();
-    return xpath.evaluate("//" + propName + "/text()", new InputSource(new StringReader(propXML)));
-  }
-  
-  public String getPropXML()
-  {
-    return propXML;
-  }
+public class CachedManagedObject {
+	private String propXML = null;
+	private XPath xpath = null;
+
+	public CachedManagedObject(String propXML) {
+		this.propXML = propXML;
+		this.xpath = XPathFactory.newInstance().newXPath();
+	}
+
+	public String getProperty(String path) throws XPathExpressionException, IOException {
+		String propName = null;
+		int last = path.lastIndexOf(".");
+		if (last != -1) {
+			propName = path.substring(last + 1);
+		} else {
+			propName = path;
+		}
+		xpath.reset();
+		return xpath.evaluate("//" + propName + "/text()", new InputSource(new StringReader(propXML)));
+	}
+
+	public String getPropXML() {
+		return propXML;
+	}
 }

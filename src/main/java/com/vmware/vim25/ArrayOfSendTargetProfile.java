@@ -34,17 +34,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfSendTargetProfile {
-    public SendTargetProfile[] SendTargetProfile;
+	public SendTargetProfile[] SendTargetProfile;
 
-    public SendTargetProfile[] getSendTargetProfile() {
-        return this.SendTargetProfile;
-    }
+	public SendTargetProfile[] getSendTargetProfile() {
+		return this.SendTargetProfile;
+	}
 
-    public SendTargetProfile getSendTargetProfile(int i) {
-        return this.SendTargetProfile[i];
-    }
+	public SendTargetProfile getSendTargetProfile(int i) {
+		return this.SendTargetProfile[i];
+	}
 
-    public void setSendTargetProfile(SendTargetProfile[] SendTargetProfile) {
-        this.SendTargetProfile = SendTargetProfile;
-    }
+	public void setSendTargetProfile(SendTargetProfile[] SendTargetProfile) {
+		this.SendTargetProfile = SendTargetProfile;
+	}
 }

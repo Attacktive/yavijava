@@ -34,22 +34,22 @@ package com.vmware.vim25;
  */
 
 public class OvfUnsupportedDiskMode extends OvfImport {
-    public String diskMode;
-    public String supportedDiskModes;
+	public String diskMode;
+	public String supportedDiskModes;
 
-    public String getDiskMode() {
-        return this.diskMode;
-    }
+	public String getDiskMode() {
+		return this.diskMode;
+	}
 
-    public String getSupportedDiskModes() {
-        return this.supportedDiskModes;
-    }
+	public String getSupportedDiskModes() {
+		return this.supportedDiskModes;
+	}
 
-    public void setDiskMode(String diskMode) {
-        this.diskMode = diskMode;
-    }
+	public void setDiskMode(String diskMode) {
+		this.diskMode = diskMode;
+	}
 
-    public void setSupportedDiskModes(String supportedDiskModes) {
-        this.supportedDiskModes = supportedDiskModes;
-    }
+	public void setSupportedDiskModes(String supportedDiskModes) {
+		this.supportedDiskModes = supportedDiskModes;
+	}
 }

@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDrsRecommendation extends DynamicData {
-    public String key;
-    public int rating;
-    public String reason;
-    public String reasonText;
-    public ClusterDrsMigration[] migrationList;
+	public String key;
+	public int rating;
+	public String reason;
+	public String reasonText;
+	public ClusterDrsMigration[] migrationList;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public int getRating() {
-        return this.rating;
-    }
+	public int getRating() {
+		return this.rating;
+	}
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public String getReasonText() {
-        return this.reasonText;
-    }
+	public String getReasonText() {
+		return this.reasonText;
+	}
 
-    public ClusterDrsMigration[] getMigrationList() {
-        return this.migrationList;
-    }
+	public ClusterDrsMigration[] getMigrationList() {
+		return this.migrationList;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setReasonText(String reasonText) {
-        this.reasonText = reasonText;
-    }
+	public void setReasonText(String reasonText) {
+		this.reasonText = reasonText;
+	}
 
-    public void setMigrationList(ClusterDrsMigration[] migrationList) {
-        this.migrationList = migrationList;
-    }
+	public void setMigrationList(ClusterDrsMigration[] migrationList) {
+		this.migrationList = migrationList;
+	}
 }

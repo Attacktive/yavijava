@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfStaticRouteProfile {
-    public StaticRouteProfile[] StaticRouteProfile;
+	public StaticRouteProfile[] StaticRouteProfile;
 
-    public StaticRouteProfile[] getStaticRouteProfile() {
-        return this.StaticRouteProfile;
-    }
+	public StaticRouteProfile[] getStaticRouteProfile() {
+		return this.StaticRouteProfile;
+	}
 
-    public StaticRouteProfile getStaticRouteProfile(int i) {
-        return this.StaticRouteProfile[i];
-    }
+	public StaticRouteProfile getStaticRouteProfile(int i) {
+		return this.StaticRouteProfile[i];
+	}
 
-    public void setStaticRouteProfile(StaticRouteProfile[] StaticRouteProfile) {
-        this.StaticRouteProfile = StaticRouteProfile;
-    }
+	public void setStaticRouteProfile(StaticRouteProfile[] StaticRouteProfile) {
+		this.StaticRouteProfile = StaticRouteProfile;
+	}
 }

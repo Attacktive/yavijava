@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum PerfSummaryType {
-    average("average"),
-    maximum("maximum"),
-    minimum("minimum"),
-    latest("latest"),
-    summation("summation"),
-    none("none");
+	average("average"),
+	maximum("maximum"),
+	minimum("minimum"),
+	latest("latest"),
+	summation("summation"),
+	none("none");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PerfSummaryType(String val) {
-        this.val = val;
-    }
+	private PerfSummaryType(String val) {
+		this.val = val;
+	}
 }

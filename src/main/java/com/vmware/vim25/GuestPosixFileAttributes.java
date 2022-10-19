@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GuestPosixFileAttributes extends GuestFileAttributes {
-    public Integer ownerId;
-    public Integer groupId;
-    public Long permissions;
+	public Integer ownerId;
+	public Integer groupId;
+	public Long permissions;
 
-    public Integer getOwnerId() {
-        return this.ownerId;
-    }
+	public Integer getOwnerId() {
+		return this.ownerId;
+	}
 
-    public Integer getGroupId() {
-        return this.groupId;
-    }
+	public Integer getGroupId() {
+		return this.groupId;
+	}
 
-    public Long getPermissions() {
-        return this.permissions;
-    }
+	public Long getPermissions() {
+		return this.permissions;
+	}
 
-    public void setOwnerId(Integer ownerId) {
-        this.ownerId = ownerId;
-    }
+	public void setOwnerId(Integer ownerId) {
+		this.ownerId = ownerId;
+	}
 
-    public void setGroupId(Integer groupId) {
-        this.groupId = groupId;
-    }
+	public void setGroupId(Integer groupId) {
+		this.groupId = groupId;
+	}
 
-    public void setPermissions(Long permissions) {
-        this.permissions = permissions;
-    }
+	public void setPermissions(Long permissions) {
+		this.permissions = permissions;
+	}
 }

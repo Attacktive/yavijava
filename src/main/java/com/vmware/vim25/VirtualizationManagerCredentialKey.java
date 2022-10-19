@@ -34,12 +34,12 @@ package com.vmware.vim25;
  */
 
 public enum VirtualizationManagerCredentialKey {
-    physicalEntityDefault("physicalEntityDefault"),
-    vmwareDataCollector("vmwareDataCollector");
+	physicalEntityDefault("physicalEntityDefault"),
+	vmwareDataCollector("vmwareDataCollector");
 
-    private final String val;
+	private final String val;
 
-    private VirtualizationManagerCredentialKey(String val) {
-        this.val = val;
-    }
+	private VirtualizationManagerCredentialKey(String val) {
+		this.val = val;
+	}
 }

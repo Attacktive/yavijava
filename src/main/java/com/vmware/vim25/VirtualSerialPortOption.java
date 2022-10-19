@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualSerialPortOption extends VirtualDeviceOption {
-    public BoolOption yieldOnPoll;
+	public BoolOption yieldOnPoll;
 
-    public BoolOption getYieldOnPoll() {
-        return this.yieldOnPoll;
-    }
+	public BoolOption getYieldOnPoll() {
+		return this.yieldOnPoll;
+	}
 
-    public void setYieldOnPoll(BoolOption yieldOnPoll) {
-        this.yieldOnPoll = yieldOnPoll;
-    }
+	public void setYieldOnPoll(BoolOption yieldOnPoll) {
+		this.yieldOnPoll = yieldOnPoll;
+	}
 }

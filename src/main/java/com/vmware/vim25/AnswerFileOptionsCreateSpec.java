@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AnswerFileOptionsCreateSpec extends AnswerFileCreateSpec {
-    public ProfileDeferredPolicyOptionParameter[] userInput;
+	public ProfileDeferredPolicyOptionParameter[] userInput;
 
-    public ProfileDeferredPolicyOptionParameter[] getUserInput() {
-        return this.userInput;
-    }
+	public ProfileDeferredPolicyOptionParameter[] getUserInput() {
+		return this.userInput;
+	}
 
-    public void setUserInput(ProfileDeferredPolicyOptionParameter[] userInput) {
-        this.userInput = userInput;
-    }
+	public void setUserInput(ProfileDeferredPolicyOptionParameter[] userInput) {
+		this.userInput = userInput;
+	}
 }

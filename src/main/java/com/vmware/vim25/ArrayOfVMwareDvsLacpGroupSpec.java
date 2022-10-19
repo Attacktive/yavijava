@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVMwareDvsLacpGroupSpec {
-    public VMwareDvsLacpGroupSpec[] VMwareDvsLacpGroupSpec;
+	public VMwareDvsLacpGroupSpec[] VMwareDvsLacpGroupSpec;
 
-    public VMwareDvsLacpGroupSpec[] getVMwareDvsLacpGroupSpec() {
-        return this.VMwareDvsLacpGroupSpec;
-    }
+	public VMwareDvsLacpGroupSpec[] getVMwareDvsLacpGroupSpec() {
+		return this.VMwareDvsLacpGroupSpec;
+	}
 
-    public VMwareDvsLacpGroupSpec getVMwareDvsLacpGroupSpec(int i) {
-        return this.VMwareDvsLacpGroupSpec[i];
-    }
+	public VMwareDvsLacpGroupSpec getVMwareDvsLacpGroupSpec(int i) {
+		return this.VMwareDvsLacpGroupSpec[i];
+	}
 
-    public void setVMwareDvsLacpGroupSpec(VMwareDvsLacpGroupSpec[] VMwareDvsLacpGroupSpec) {
-        this.VMwareDvsLacpGroupSpec = VMwareDvsLacpGroupSpec;
-    }
+	public void setVMwareDvsLacpGroupSpec(VMwareDvsLacpGroupSpec[] VMwareDvsLacpGroupSpec) {
+		this.VMwareDvsLacpGroupSpec = VMwareDvsLacpGroupSpec;
+	}
 }

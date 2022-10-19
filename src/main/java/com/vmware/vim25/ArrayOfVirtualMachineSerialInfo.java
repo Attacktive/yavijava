@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineSerialInfo {
-    public VirtualMachineSerialInfo[] VirtualMachineSerialInfo;
+	public VirtualMachineSerialInfo[] VirtualMachineSerialInfo;
 
-    public VirtualMachineSerialInfo[] getVirtualMachineSerialInfo() {
-        return this.VirtualMachineSerialInfo;
-    }
+	public VirtualMachineSerialInfo[] getVirtualMachineSerialInfo() {
+		return this.VirtualMachineSerialInfo;
+	}
 
-    public VirtualMachineSerialInfo getVirtualMachineSerialInfo(int i) {
-        return this.VirtualMachineSerialInfo[i];
-    }
+	public VirtualMachineSerialInfo getVirtualMachineSerialInfo(int i) {
+		return this.VirtualMachineSerialInfo[i];
+	}
 
-    public void setVirtualMachineSerialInfo(VirtualMachineSerialInfo[] VirtualMachineSerialInfo) {
-        this.VirtualMachineSerialInfo = VirtualMachineSerialInfo;
-    }
+	public void setVirtualMachineSerialInfo(VirtualMachineSerialInfo[] VirtualMachineSerialInfo) {
+		this.VirtualMachineSerialInfo = VirtualMachineSerialInfo;
+	}
 }

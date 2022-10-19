@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum ReplicationDiskConfigFaultReasonForFault {
-    diskNotFound("diskNotFound"),
-    diskTypeNotSupported("diskTypeNotSupported"),
-    invalidDiskKey("invalidDiskKey"),
-    invalidDiskReplicationId("invalidDiskReplicationId"),
-    duplicateDiskReplicationId("duplicateDiskReplicationId"),
-    invalidPersistentFilePath("invalidPersistentFilePath"),
-    reconfigureDiskReplicationIdNotAllowed("reconfigureDiskReplicationIdNotAllowed");
+	diskNotFound("diskNotFound"),
+	diskTypeNotSupported("diskTypeNotSupported"),
+	invalidDiskKey("invalidDiskKey"),
+	invalidDiskReplicationId("invalidDiskReplicationId"),
+	duplicateDiskReplicationId("duplicateDiskReplicationId"),
+	invalidPersistentFilePath("invalidPersistentFilePath"),
+	reconfigureDiskReplicationIdNotAllowed("reconfigureDiskReplicationIdNotAllowed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ReplicationDiskConfigFaultReasonForFault(String val) {
-        this.val = val;
-    }
+	private ReplicationDiskConfigFaultReasonForFault(String val) {
+		this.val = val;
+	}
 }

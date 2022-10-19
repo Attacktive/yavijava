@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum LicenseAssignmentFailedReason {
-    keyEntityMismatch("keyEntityMismatch"),
-    downgradeDisallowed("downgradeDisallowed"),
-    inventoryNotManageableByVirtualCenter("inventoryNotManageableByVirtualCenter"),
-    hostsUnmanageableByVirtualCenterWithoutLicenseServer("hostsUnmanageableByVirtualCenterWithoutLicenseServer");
+	keyEntityMismatch("keyEntityMismatch"),
+	downgradeDisallowed("downgradeDisallowed"),
+	inventoryNotManageableByVirtualCenter("inventoryNotManageableByVirtualCenter"),
+	hostsUnmanageableByVirtualCenterWithoutLicenseServer("hostsUnmanageableByVirtualCenterWithoutLicenseServer");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseAssignmentFailedReason(String val) {
-        this.val = val;
-    }
+	private LicenseAssignmentFailedReason(String val) {
+		this.val = val;
+	}
 }

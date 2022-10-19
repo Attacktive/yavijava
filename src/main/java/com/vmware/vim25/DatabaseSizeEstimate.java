@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatabaseSizeEstimate extends DynamicData {
-    public long size;
+	public long size;
 
-    public long getSize() {
-        return this.size;
-    }
+	public long getSize() {
+		return this.size;
+	}
 
-    public void setSize(long size) {
-        this.size = size;
-    }
+	public void setSize(long size) {
+		this.size = size;
+	}
 }

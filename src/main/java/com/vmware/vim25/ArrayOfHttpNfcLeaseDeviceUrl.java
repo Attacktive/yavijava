@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHttpNfcLeaseDeviceUrl {
-    public HttpNfcLeaseDeviceUrl[] HttpNfcLeaseDeviceUrl;
+	public HttpNfcLeaseDeviceUrl[] HttpNfcLeaseDeviceUrl;
 
-    public HttpNfcLeaseDeviceUrl[] getHttpNfcLeaseDeviceUrl() {
-        return this.HttpNfcLeaseDeviceUrl;
-    }
+	public HttpNfcLeaseDeviceUrl[] getHttpNfcLeaseDeviceUrl() {
+		return this.HttpNfcLeaseDeviceUrl;
+	}
 
-    public HttpNfcLeaseDeviceUrl getHttpNfcLeaseDeviceUrl(int i) {
-        return this.HttpNfcLeaseDeviceUrl[i];
-    }
+	public HttpNfcLeaseDeviceUrl getHttpNfcLeaseDeviceUrl(int i) {
+		return this.HttpNfcLeaseDeviceUrl[i];
+	}
 
-    public void setHttpNfcLeaseDeviceUrl(HttpNfcLeaseDeviceUrl[] HttpNfcLeaseDeviceUrl) {
-        this.HttpNfcLeaseDeviceUrl = HttpNfcLeaseDeviceUrl;
-    }
+	public void setHttpNfcLeaseDeviceUrl(HttpNfcLeaseDeviceUrl[] HttpNfcLeaseDeviceUrl) {
+		this.HttpNfcLeaseDeviceUrl = HttpNfcLeaseDeviceUrl;
+	}
 }

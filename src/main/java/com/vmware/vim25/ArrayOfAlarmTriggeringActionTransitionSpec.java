@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAlarmTriggeringActionTransitionSpec {
-    public AlarmTriggeringActionTransitionSpec[] AlarmTriggeringActionTransitionSpec;
+	public AlarmTriggeringActionTransitionSpec[] AlarmTriggeringActionTransitionSpec;
 
-    public AlarmTriggeringActionTransitionSpec[] getAlarmTriggeringActionTransitionSpec() {
-        return this.AlarmTriggeringActionTransitionSpec;
-    }
+	public AlarmTriggeringActionTransitionSpec[] getAlarmTriggeringActionTransitionSpec() {
+		return this.AlarmTriggeringActionTransitionSpec;
+	}
 
-    public AlarmTriggeringActionTransitionSpec getAlarmTriggeringActionTransitionSpec(int i) {
-        return this.AlarmTriggeringActionTransitionSpec[i];
-    }
+	public AlarmTriggeringActionTransitionSpec getAlarmTriggeringActionTransitionSpec(int i) {
+		return this.AlarmTriggeringActionTransitionSpec[i];
+	}
 
-    public void setAlarmTriggeringActionTransitionSpec(AlarmTriggeringActionTransitionSpec[] AlarmTriggeringActionTransitionSpec) {
-        this.AlarmTriggeringActionTransitionSpec = AlarmTriggeringActionTransitionSpec;
-    }
+	public void setAlarmTriggeringActionTransitionSpec(AlarmTriggeringActionTransitionSpec[] AlarmTriggeringActionTransitionSpec) {
+		this.AlarmTriggeringActionTransitionSpec = AlarmTriggeringActionTransitionSpec;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEntityBackupConfig {
-    public EntityBackupConfig[] EntityBackupConfig;
+	public EntityBackupConfig[] EntityBackupConfig;
 
-    public EntityBackupConfig[] getEntityBackupConfig() {
-        return this.EntityBackupConfig;
-    }
+	public EntityBackupConfig[] getEntityBackupConfig() {
+		return this.EntityBackupConfig;
+	}
 
-    public EntityBackupConfig getEntityBackupConfig(int i) {
-        return this.EntityBackupConfig[i];
-    }
+	public EntityBackupConfig getEntityBackupConfig(int i) {
+		return this.EntityBackupConfig[i];
+	}
 
-    public void setEntityBackupConfig(EntityBackupConfig[] EntityBackupConfig) {
-        this.EntityBackupConfig = EntityBackupConfig;
-    }
+	public void setEntityBackupConfig(EntityBackupConfig[] EntityBackupConfig) {
+		this.EntityBackupConfig = EntityBackupConfig;
+	}
 }

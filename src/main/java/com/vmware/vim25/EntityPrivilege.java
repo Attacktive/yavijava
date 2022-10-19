@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EntityPrivilege extends DynamicData {
-    public ManagedObjectReference entity;
-    public PrivilegeAvailability[] privAvailability;
+	public ManagedObjectReference entity;
+	public PrivilegeAvailability[] privAvailability;
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public PrivilegeAvailability[] getPrivAvailability() {
-        return this.privAvailability;
-    }
+	public PrivilegeAvailability[] getPrivAvailability() {
+		return this.privAvailability;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 
-    public void setPrivAvailability(PrivilegeAvailability[] privAvailability) {
-        this.privAvailability = privAvailability;
-    }
+	public void setPrivAvailability(PrivilegeAvailability[] privAvailability) {
+		this.privAvailability = privAvailability;
+	}
 }

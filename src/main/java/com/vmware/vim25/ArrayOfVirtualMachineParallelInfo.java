@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineParallelInfo {
-    public VirtualMachineParallelInfo[] VirtualMachineParallelInfo;
+	public VirtualMachineParallelInfo[] VirtualMachineParallelInfo;
 
-    public VirtualMachineParallelInfo[] getVirtualMachineParallelInfo() {
-        return this.VirtualMachineParallelInfo;
-    }
+	public VirtualMachineParallelInfo[] getVirtualMachineParallelInfo() {
+		return this.VirtualMachineParallelInfo;
+	}
 
-    public VirtualMachineParallelInfo getVirtualMachineParallelInfo(int i) {
-        return this.VirtualMachineParallelInfo[i];
-    }
+	public VirtualMachineParallelInfo getVirtualMachineParallelInfo(int i) {
+		return this.VirtualMachineParallelInfo[i];
+	}
 
-    public void setVirtualMachineParallelInfo(VirtualMachineParallelInfo[] VirtualMachineParallelInfo) {
-        this.VirtualMachineParallelInfo = VirtualMachineParallelInfo;
-    }
+	public void setVirtualMachineParallelInfo(VirtualMachineParallelInfo[] VirtualMachineParallelInfo) {
+		this.VirtualMachineParallelInfo = VirtualMachineParallelInfo;
+	}
 }

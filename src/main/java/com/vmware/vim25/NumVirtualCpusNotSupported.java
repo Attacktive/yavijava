@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NumVirtualCpusNotSupported extends VirtualHardwareCompatibilityIssue {
-    public int maxSupportedVcpusDest;
-    public int numCpuVm;
+	public int maxSupportedVcpusDest;
+	public int numCpuVm;
 
-    public int getMaxSupportedVcpusDest() {
-        return this.maxSupportedVcpusDest;
-    }
+	public int getMaxSupportedVcpusDest() {
+		return this.maxSupportedVcpusDest;
+	}
 
-    public int getNumCpuVm() {
-        return this.numCpuVm;
-    }
+	public int getNumCpuVm() {
+		return this.numCpuVm;
+	}
 
-    public void setMaxSupportedVcpusDest(int maxSupportedVcpusDest) {
-        this.maxSupportedVcpusDest = maxSupportedVcpusDest;
-    }
+	public void setMaxSupportedVcpusDest(int maxSupportedVcpusDest) {
+		this.maxSupportedVcpusDest = maxSupportedVcpusDest;
+	}
 
-    public void setNumCpuVm(int numCpuVm) {
-        this.numCpuVm = numCpuVm;
-    }
+	public void setNumCpuVm(int numCpuVm) {
+		this.numCpuVm = numCpuVm;
+	}
 }

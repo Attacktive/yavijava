@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum LicenseReservationInfoState {
-    notUsed("notUsed"),
-    noLicense("noLicense"),
-    unlicensedUse("unlicensedUse"),
-    licensed("licensed");
+	notUsed("notUsed"),
+	noLicense("noLicense"),
+	unlicensedUse("unlicensedUse"),
+	licensed("licensed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseReservationInfoState(String val) {
-        this.val = val;
-    }
+	private LicenseReservationInfoState(String val) {
+		this.val = val;
+	}
 }

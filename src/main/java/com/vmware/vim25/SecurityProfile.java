@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SecurityProfile extends ApplyProfile {
-    public PermissionProfile[] permission;
+	public PermissionProfile[] permission;
 
-    public PermissionProfile[] getPermission() {
-        return this.permission;
-    }
+	public PermissionProfile[] getPermission() {
+		return this.permission;
+	}
 
-    public void setPermission(PermissionProfile[] permission) {
-        this.permission = permission;
-    }
+	public void setPermission(PermissionProfile[] permission) {
+		this.permission = permission;
+	}
 }

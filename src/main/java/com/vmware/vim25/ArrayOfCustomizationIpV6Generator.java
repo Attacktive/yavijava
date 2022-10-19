@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfCustomizationIpV6Generator {
-    public CustomizationIpV6Generator[] CustomizationIpV6Generator;
+	public CustomizationIpV6Generator[] CustomizationIpV6Generator;
 
-    public CustomizationIpV6Generator[] getCustomizationIpV6Generator() {
-        return this.CustomizationIpV6Generator;
-    }
+	public CustomizationIpV6Generator[] getCustomizationIpV6Generator() {
+		return this.CustomizationIpV6Generator;
+	}
 
-    public CustomizationIpV6Generator getCustomizationIpV6Generator(int i) {
-        return this.CustomizationIpV6Generator[i];
-    }
+	public CustomizationIpV6Generator getCustomizationIpV6Generator(int i) {
+		return this.CustomizationIpV6Generator[i];
+	}
 
-    public void setCustomizationIpV6Generator(CustomizationIpV6Generator[] CustomizationIpV6Generator) {
-        this.CustomizationIpV6Generator = CustomizationIpV6Generator;
-    }
+	public void setCustomizationIpV6Generator(CustomizationIpV6Generator[] CustomizationIpV6Generator) {
+		this.CustomizationIpV6Generator = CustomizationIpV6Generator;
+	}
 }

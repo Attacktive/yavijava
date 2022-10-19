@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfCustomizationSpecInfo {
-    public CustomizationSpecInfo[] CustomizationSpecInfo;
+	public CustomizationSpecInfo[] CustomizationSpecInfo;
 
-    public CustomizationSpecInfo[] getCustomizationSpecInfo() {
-        return this.CustomizationSpecInfo;
-    }
+	public CustomizationSpecInfo[] getCustomizationSpecInfo() {
+		return this.CustomizationSpecInfo;
+	}
 
-    public CustomizationSpecInfo getCustomizationSpecInfo(int i) {
-        return this.CustomizationSpecInfo[i];
-    }
+	public CustomizationSpecInfo getCustomizationSpecInfo(int i) {
+		return this.CustomizationSpecInfo[i];
+	}
 
-    public void setCustomizationSpecInfo(CustomizationSpecInfo[] CustomizationSpecInfo) {
-        this.CustomizationSpecInfo = CustomizationSpecInfo;
-    }
+	public void setCustomizationSpecInfo(CustomizationSpecInfo[] CustomizationSpecInfo) {
+		this.CustomizationSpecInfo = CustomizationSpecInfo;
+	}
 }

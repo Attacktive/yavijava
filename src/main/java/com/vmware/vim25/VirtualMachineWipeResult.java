@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineWipeResult extends DynamicData {
-    public int diskId;
-    public long shrinkableDiskSpace;
+	public int diskId;
+	public long shrinkableDiskSpace;
 
-    public int getDiskId() {
-        return this.diskId;
-    }
+	public int getDiskId() {
+		return this.diskId;
+	}
 
-    public long getShrinkableDiskSpace() {
-        return this.shrinkableDiskSpace;
-    }
+	public long getShrinkableDiskSpace() {
+		return this.shrinkableDiskSpace;
+	}
 
-    public void setDiskId(int diskId) {
-        this.diskId = diskId;
-    }
+	public void setDiskId(int diskId) {
+		this.diskId = diskId;
+	}
 
-    public void setShrinkableDiskSpace(long shrinkableDiskSpace) {
-        this.shrinkableDiskSpace = shrinkableDiskSpace;
-    }
+	public void setShrinkableDiskSpace(long shrinkableDiskSpace) {
+		this.shrinkableDiskSpace = shrinkableDiskSpace;
+	}
 }

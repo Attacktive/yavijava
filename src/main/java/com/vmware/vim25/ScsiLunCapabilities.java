@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScsiLunCapabilities extends DynamicData {
-    public boolean updateDisplayNameSupported;
+	public boolean updateDisplayNameSupported;
 
-    public boolean isUpdateDisplayNameSupported() {
-        return this.updateDisplayNameSupported;
-    }
+	public boolean isUpdateDisplayNameSupported() {
+		return this.updateDisplayNameSupported;
+	}
 
-    public void setUpdateDisplayNameSupported(boolean updateDisplayNameSupported) {
-        this.updateDisplayNameSupported = updateDisplayNameSupported;
-    }
+	public void setUpdateDisplayNameSupported(boolean updateDisplayNameSupported) {
+		this.updateDisplayNameSupported = updateDisplayNameSupported;
+	}
 }

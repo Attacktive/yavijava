@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineFileLayoutExDiskLayout extends DynamicData {
-    public int key;
-    public VirtualMachineFileLayoutExDiskUnit[] chain;
+	public int key;
+	public VirtualMachineFileLayoutExDiskUnit[] chain;
 
-    public int getKey() {
-        return this.key;
-    }
+	public int getKey() {
+		return this.key;
+	}
 
-    public VirtualMachineFileLayoutExDiskUnit[] getChain() {
-        return this.chain;
-    }
+	public VirtualMachineFileLayoutExDiskUnit[] getChain() {
+		return this.chain;
+	}
 
-    public void setKey(int key) {
-        this.key = key;
-    }
+	public void setKey(int key) {
+		this.key = key;
+	}
 
-    public void setChain(VirtualMachineFileLayoutExDiskUnit[] chain) {
-        this.chain = chain;
-    }
+	public void setChain(VirtualMachineFileLayoutExDiskUnit[] chain) {
+		this.chain = chain;
+	}
 }

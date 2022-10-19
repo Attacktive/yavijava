@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDigestInfo extends DynamicData {
-    public String digestMethod;
-    public byte[] digestValue;
-    public String objectName;
+	public String digestMethod;
+	public byte[] digestValue;
+	public String objectName;
 
-    public String getDigestMethod() {
-        return this.digestMethod;
-    }
+	public String getDigestMethod() {
+		return this.digestMethod;
+	}
 
-    public byte[] getDigestValue() {
-        return this.digestValue;
-    }
+	public byte[] getDigestValue() {
+		return this.digestValue;
+	}
 
-    public String getObjectName() {
-        return this.objectName;
-    }
+	public String getObjectName() {
+		return this.objectName;
+	}
 
-    public void setDigestMethod(String digestMethod) {
-        this.digestMethod = digestMethod;
-    }
+	public void setDigestMethod(String digestMethod) {
+		this.digestMethod = digestMethod;
+	}
 
-    public void setDigestValue(byte[] digestValue) {
-        this.digestValue = digestValue;
-    }
+	public void setDigestValue(byte[] digestValue) {
+		this.digestValue = digestValue;
+	}
 
-    public void setObjectName(String objectName) {
-        this.objectName = objectName;
-    }
+	public void setObjectName(String objectName) {
+		this.objectName = objectName;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualAppImportSpec extends ImportSpec {
-    public String name;
-    public VAppConfigSpec vAppConfigSpec;
-    public ResourceConfigSpec resourcePoolSpec;
-    public ImportSpec[] child;
+	public String name;
+	public VAppConfigSpec vAppConfigSpec;
+	public ResourceConfigSpec resourcePoolSpec;
+	public ImportSpec[] child;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public VAppConfigSpec getVAppConfigSpec() {
-        return this.vAppConfigSpec;
-    }
+	public VAppConfigSpec getVAppConfigSpec() {
+		return this.vAppConfigSpec;
+	}
 
-    public ResourceConfigSpec getResourcePoolSpec() {
-        return this.resourcePoolSpec;
-    }
+	public ResourceConfigSpec getResourcePoolSpec() {
+		return this.resourcePoolSpec;
+	}
 
-    public ImportSpec[] getChild() {
-        return this.child;
-    }
+	public ImportSpec[] getChild() {
+		return this.child;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setVAppConfigSpec(VAppConfigSpec vAppConfigSpec) {
-        this.vAppConfigSpec = vAppConfigSpec;
-    }
+	public void setVAppConfigSpec(VAppConfigSpec vAppConfigSpec) {
+		this.vAppConfigSpec = vAppConfigSpec;
+	}
 
-    public void setResourcePoolSpec(ResourceConfigSpec resourcePoolSpec) {
-        this.resourcePoolSpec = resourcePoolSpec;
-    }
+	public void setResourcePoolSpec(ResourceConfigSpec resourcePoolSpec) {
+		this.resourcePoolSpec = resourcePoolSpec;
+	}
 
-    public void setChild(ImportSpec[] child) {
-        this.child = child;
-    }
+	public void setChild(ImportSpec[] child) {
+		this.child = child;
+	}
 }

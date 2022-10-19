@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVPortgroupReconfiguredEvent extends DVPortgroupEvent {
-    public DVPortgroupConfigSpec configSpec;
+	public DVPortgroupConfigSpec configSpec;
 
-    public DVPortgroupConfigSpec getConfigSpec() {
-        return this.configSpec;
-    }
+	public DVPortgroupConfigSpec getConfigSpec() {
+		return this.configSpec;
+	}
 
-    public void setConfigSpec(DVPortgroupConfigSpec configSpec) {
-        this.configSpec = configSpec;
-    }
+	public void setConfigSpec(DVPortgroupConfigSpec configSpec) {
+		this.configSpec = configSpec;
+	}
 }

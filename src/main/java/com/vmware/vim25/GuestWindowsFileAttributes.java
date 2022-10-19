@@ -38,31 +38,31 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class GuestWindowsFileAttributes extends GuestFileAttributes {
-    public Boolean hidden;
-    public Boolean readOnly;
-    public Calendar createTime;
+	public Boolean hidden;
+	public Boolean readOnly;
+	public Calendar createTime;
 
-    public Boolean getHidden() {
-        return this.hidden;
-    }
+	public Boolean getHidden() {
+		return this.hidden;
+	}
 
-    public Boolean getReadOnly() {
-        return this.readOnly;
-    }
+	public Boolean getReadOnly() {
+		return this.readOnly;
+	}
 
-    public Calendar getCreateTime() {
-        return this.createTime;
-    }
+	public Calendar getCreateTime() {
+		return this.createTime;
+	}
 
-    public void setHidden(Boolean hidden) {
-        this.hidden = hidden;
-    }
+	public void setHidden(Boolean hidden) {
+		this.hidden = hidden;
+	}
 
-    public void setReadOnly(Boolean readOnly) {
-        this.readOnly = readOnly;
-    }
+	public void setReadOnly(Boolean readOnly) {
+		this.readOnly = readOnly;
+	}
 
-    public void setCreateTime(Calendar createTime) {
-        this.createTime = createTime;
-    }
+	public void setCreateTime(Calendar createTime) {
+		this.createTime = createTime;
+	}
 }

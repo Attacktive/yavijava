@@ -34,22 +34,22 @@ package com.vmware.vim25;
  */
 
 public class ISCSIStorageProfile extends ApplyProfile {
-    public SoftwareISCSIInitiatorProfile[] swISCSIInitiatorConfig;
-    public HardwareISCSIInitiatorProfile[] hwISCSIInitiatorConfig;
+	public SoftwareISCSIInitiatorProfile[] swISCSIInitiatorConfig;
+	public HardwareISCSIInitiatorProfile[] hwISCSIInitiatorConfig;
 
-    public SoftwareISCSIInitiatorProfile[] getSwISCSIInitiatorConfig() {
-        return this.swISCSIInitiatorConfig;
-    }
+	public SoftwareISCSIInitiatorProfile[] getSwISCSIInitiatorConfig() {
+		return this.swISCSIInitiatorConfig;
+	}
 
-    public HardwareISCSIInitiatorProfile[] getHwISCSIInitiatorConfig() {
-        return this.hwISCSIInitiatorConfig;
-    }
+	public HardwareISCSIInitiatorProfile[] getHwISCSIInitiatorConfig() {
+		return this.hwISCSIInitiatorConfig;
+	}
 
-    public void setSwISCSIInitiatorConfig(SoftwareISCSIInitiatorProfile[] swISCSIInitiatorConfig) {
-        this.swISCSIInitiatorConfig = swISCSIInitiatorConfig;
-    }
+	public void setSwISCSIInitiatorConfig(SoftwareISCSIInitiatorProfile[] swISCSIInitiatorConfig) {
+		this.swISCSIInitiatorConfig = swISCSIInitiatorConfig;
+	}
 
-    public void setHwISCSIInitiatorConfig(HardwareISCSIInitiatorProfile[] hwISCSIInitiatorConfig) {
-        this.hwISCSIInitiatorConfig = hwISCSIInitiatorConfig;
-    }
+	public void setHwISCSIInitiatorConfig(HardwareISCSIInitiatorProfile[] hwISCSIInitiatorConfig) {
+		this.hwISCSIInitiatorConfig = hwISCSIInitiatorConfig;
+	}
 }

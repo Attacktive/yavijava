@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FaultToleranceNotSameBuild extends MigrationFault {
-    public String build;
+	public String build;
 
-    public String getBuild() {
-        return this.build;
-    }
+	public String getBuild() {
+		return this.build;
+	}
 
-    public void setBuild(String build) {
-        this.build = build;
-    }
+	public void setBuild(String build) {
+		this.build = build;
+	}
 }

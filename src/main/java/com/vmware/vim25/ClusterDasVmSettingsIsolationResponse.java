@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ClusterDasVmSettingsIsolationResponse {
-    none("none"),
-    powerOff("powerOff"),
-    shutdown("shutdown"),
-    clusterIsolationResponse("clusterIsolationResponse");
+	none("none"),
+	powerOff("powerOff"),
+	shutdown("shutdown"),
+	clusterIsolationResponse("clusterIsolationResponse");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ClusterDasVmSettingsIsolationResponse(String val) {
-        this.val = val;
-    }
+	private ClusterDasVmSettingsIsolationResponse(String val) {
+		this.val = val;
+	}
 }

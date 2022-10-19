@@ -28,6 +28,7 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 
 package com.vmware.vim.cf;
+
 import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
@@ -47,103 +48,81 @@ import static com.vmware.vim.cf.NullObject.NULL;
  * @author Steve JIN (sjin@vmware.com)
  */
 
-class ManagedObjectCache implements Observer
-{
-    // each value is yet another child HashMap corresponding to a ManagedObject
-    // The child HashMap has key -- property name; value -- property value
-    private Map<ManagedObjectReference, Map<String, Object>> items;
-    private boolean isReady = false;
-    private ServiceInstance si;
+class ManagedObjectCache implements Observer {
+	// each value is yet another child HashMap corresponding to a ManagedObject
+	// The child HashMap has key -- property name; value -- property value
+	private Map<ManagedObjectReference, Map<String, Object>> items;
+	private boolean isReady = false;
+	private ServiceInstance si;
 
-    ManagedObjectCache(ServiceInstance si)
-    {
-      this.si = si;
-      items = new ConcurrentHashMap<ManagedObjectReference, Map<String, Object>>();
-    }
-    
-    public Map<ManagedObjectReference, Map<String, Object>> getCachedItems()
-    {
-        return items;
-    }
+	ManagedObjectCache(ServiceInstance si) {
+		this.si = si;
+		items = new ConcurrentHashMap<ManagedObjectReference, Map<String, Object>>();
+	}
 
-    public void update(Observable obj, Object arg)
-    {
-        if (arg instanceof PropertyFilterUpdate[])
-        {
-            PropertyFilterUpdate[] pfus = (PropertyFilterUpdate[]) arg;
-            
-            for(int i=0; pfus!=null && i< pfus.length; i++)
-            {
-                ObjectUpdate[] ous = pfus[i].getObjectSet();
-                for(int j=0; ous!=null && j < ous.length; j++)
-                {
-                    ManagedObjectReference mor = ous[j].getObj();
-                    if(! items.containsKey(mor))
-                    {
-                        items.put(mor, new ConcurrentHashMap<String, Object>());
-                    }
-                    Map<String, Object> moMap = items.get(mor);
-                    
-                    PropertyChange[] pcs = ous[j].getChangeSet();
-                    if(pcs==null)
-                    {
-                      continue;
-                    }
-                    for(int k=0; k < pcs.length; k++)
-                    {
-                    	  Object value = pcs[k].getVal();
-                    	  value = value == null ? NULL : value; //null is not allowed as value in CHM
-                    	  String propName = pcs[k].getName();
-                    	  if(moMap.containsKey(propName))
-                    	  {
-                    	    moMap.put(propName, value);
-                    	  }
-                    	  else
-                    	  {
-                    	    String parentPropName = getExistingParentPropName(moMap, propName);
-                    	    if(parentPropName != null)
-                    	    {
-                    	      ManagedObject mo = MorUtil.createExactManagedObject(si.getServerConnection(), mor);
-                    	      moMap.put(parentPropName, mo.getPropertyByPath(parentPropName));
-                    	    }
-                    	    else
-                    	    { //almost impossible to be here.
-                    	      moMap.put(propName, value);
-                    	    }
-                    	  }
-                    }
-                }
-            }
-        }
-        isReady = true;
-    }
-    
-    private String getExistingParentPropName(Map<String, Object> moMap, String propName)
-    {
-      //remove everything after the first "["
-      int pos = propName.indexOf("[");
-      if(pos != -1)
-      {
-        propName = propName.substring(0, pos);
-      }
-      
-      while(true)
-      {
-        int lastDot = propName.lastIndexOf(".");
-        if(lastDot==-1)
-        {
-          return null;
-        }
-        propName = propName.substring(0, lastDot);
-        if(moMap.containsKey(propName))
-        {
-          return propName;
-        }
-      }
-    }
-    
-    public boolean isReady()
-    {
-    	return isReady;
-    }
+	public Map<ManagedObjectReference, Map<String, Object>> getCachedItems() {
+		return items;
+	}
+
+	public void update(Observable obj, Object arg) {
+		if (arg instanceof PropertyFilterUpdate[]) {
+			PropertyFilterUpdate[] pfus = (PropertyFilterUpdate[])arg;
+
+			for (int i = 0; pfus != null && i < pfus.length; i++) {
+				ObjectUpdate[] ous = pfus[i].getObjectSet();
+				for (int j = 0; ous != null && j < ous.length; j++) {
+					ManagedObjectReference mor = ous[j].getObj();
+					if (!items.containsKey(mor)) {
+						items.put(mor, new ConcurrentHashMap<String, Object>());
+					}
+					Map<String, Object> moMap = items.get(mor);
+
+					PropertyChange[] pcs = ous[j].getChangeSet();
+					if (pcs == null) {
+						continue;
+					}
+					for (int k = 0; k < pcs.length; k++) {
+						Object value = pcs[k].getVal();
+						value = value == null? NULL: value; //null is not allowed as value in CHM
+						String propName = pcs[k].getName();
+						if (moMap.containsKey(propName)) {
+							moMap.put(propName, value);
+						} else {
+							String parentPropName = getExistingParentPropName(moMap, propName);
+							if (parentPropName != null) {
+								ManagedObject mo = MorUtil.createExactManagedObject(si.getServerConnection(), mor);
+								moMap.put(parentPropName, mo.getPropertyByPath(parentPropName));
+							} else { //almost impossible to be here.
+								moMap.put(propName, value);
+							}
+						}
+					}
+				}
+			}
+		}
+		isReady = true;
+	}
+
+	private String getExistingParentPropName(Map<String, Object> moMap, String propName) {
+		//remove everything after the first "["
+		int pos = propName.indexOf("[");
+		if (pos != -1) {
+			propName = propName.substring(0, pos);
+		}
+
+		while (true) {
+			int lastDot = propName.lastIndexOf(".");
+			if (lastDot == -1) {
+				return null;
+			}
+			propName = propName.substring(0, lastDot);
+			if (moMap.containsKey(propName)) {
+				return propName;
+			}
+		}
+	}
+
+	public boolean isReady() {
+		return isReady;
+	}
 }

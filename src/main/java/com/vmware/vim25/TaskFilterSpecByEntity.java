@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskFilterSpecByEntity extends DynamicData {
-    public ManagedObjectReference entity;
-    public TaskFilterSpecRecursionOption recursion;
+	public ManagedObjectReference entity;
+	public TaskFilterSpecRecursionOption recursion;
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public TaskFilterSpecRecursionOption getRecursion() {
-        return this.recursion;
-    }
+	public TaskFilterSpecRecursionOption getRecursion() {
+		return this.recursion;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 
-    public void setRecursion(TaskFilterSpecRecursionOption recursion) {
-        this.recursion = recursion;
-    }
+	public void setRecursion(TaskFilterSpecRecursionOption recursion) {
+		this.recursion = recursion;
+	}
 }

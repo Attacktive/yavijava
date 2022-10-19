@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileDeferredPolicyOptionParameter extends DynamicData {
-    public ProfilePropertyPath inputPath;
-    public KeyAnyValue[] parameter;
+	public ProfilePropertyPath inputPath;
+	public KeyAnyValue[] parameter;
 
-    public ProfilePropertyPath getInputPath() {
-        return this.inputPath;
-    }
+	public ProfilePropertyPath getInputPath() {
+		return this.inputPath;
+	}
 
-    public KeyAnyValue[] getParameter() {
-        return this.parameter;
-    }
+	public KeyAnyValue[] getParameter() {
+		return this.parameter;
+	}
 
-    public void setInputPath(ProfilePropertyPath inputPath) {
-        this.inputPath = inputPath;
-    }
+	public void setInputPath(ProfilePropertyPath inputPath) {
+		this.inputPath = inputPath;
+	}
 
-    public void setParameter(KeyAnyValue[] parameter) {
-        this.parameter = parameter;
-    }
+	public void setParameter(KeyAnyValue[] parameter) {
+		this.parameter = parameter;
+	}
 }

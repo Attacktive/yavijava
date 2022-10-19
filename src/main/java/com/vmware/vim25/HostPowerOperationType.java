@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostPowerOperationType {
-    powerOn("powerOn"),
-    powerOff("powerOff");
+	powerOn("powerOn"),
+	powerOff("powerOff");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostPowerOperationType(String val) {
-        this.val = val;
-    }
+	private HostPowerOperationType(String val) {
+		this.val = val;
+	}
 }

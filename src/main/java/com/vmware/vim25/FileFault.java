@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FileFault extends VimFault {
-    public String file;
+	public String file;
 
-    public String getFile() {
-        return this.file;
-    }
+	public String getFile() {
+		return this.file;
+	}
 
-    public void setFile(String file) {
-        this.file = file;
-    }
+	public void setFile(String file) {
+		this.file = file;
+	}
 }

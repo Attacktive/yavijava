@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IncompatibleSetting extends InvalidArgument {
-    public String conflictingProperty;
+	public String conflictingProperty;
 
-    public String getConflictingProperty() {
-        return this.conflictingProperty;
-    }
+	public String getConflictingProperty() {
+		return this.conflictingProperty;
+	}
 
-    public void setConflictingProperty(String conflictingProperty) {
-        this.conflictingProperty = conflictingProperty;
-    }
+	public void setConflictingProperty(String conflictingProperty) {
+		this.conflictingProperty = conflictingProperty;
+	}
 }

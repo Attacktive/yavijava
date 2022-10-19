@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GuestProcessNotFound extends GuestOperationsFault {
-    public long pid;
+	public long pid;
 
-    public long getPid() {
-        return this.pid;
-    }
+	public long getPid() {
+		return this.pid;
+	}
 
-    public void setPid(long pid) {
-        this.pid = pid;
-    }
+	public void setPid(long pid) {
+		this.pid = pid;
+	}
 }

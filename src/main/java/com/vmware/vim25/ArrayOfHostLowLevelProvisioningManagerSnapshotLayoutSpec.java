@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostLowLevelProvisioningManagerSnapshotLayoutSpec {
-    public HostLowLevelProvisioningManagerSnapshotLayoutSpec[] HostLowLevelProvisioningManagerSnapshotLayoutSpec;
+	public HostLowLevelProvisioningManagerSnapshotLayoutSpec[] HostLowLevelProvisioningManagerSnapshotLayoutSpec;
 
-    public HostLowLevelProvisioningManagerSnapshotLayoutSpec[] getHostLowLevelProvisioningManagerSnapshotLayoutSpec() {
-        return this.HostLowLevelProvisioningManagerSnapshotLayoutSpec;
-    }
+	public HostLowLevelProvisioningManagerSnapshotLayoutSpec[] getHostLowLevelProvisioningManagerSnapshotLayoutSpec() {
+		return this.HostLowLevelProvisioningManagerSnapshotLayoutSpec;
+	}
 
-    public HostLowLevelProvisioningManagerSnapshotLayoutSpec getHostLowLevelProvisioningManagerSnapshotLayoutSpec(int i) {
-        return this.HostLowLevelProvisioningManagerSnapshotLayoutSpec[i];
-    }
+	public HostLowLevelProvisioningManagerSnapshotLayoutSpec getHostLowLevelProvisioningManagerSnapshotLayoutSpec(int i) {
+		return this.HostLowLevelProvisioningManagerSnapshotLayoutSpec[i];
+	}
 
-    public void setHostLowLevelProvisioningManagerSnapshotLayoutSpec(HostLowLevelProvisioningManagerSnapshotLayoutSpec[] HostLowLevelProvisioningManagerSnapshotLayoutSpec) {
-        this.HostLowLevelProvisioningManagerSnapshotLayoutSpec = HostLowLevelProvisioningManagerSnapshotLayoutSpec;
-    }
+	public void setHostLowLevelProvisioningManagerSnapshotLayoutSpec(HostLowLevelProvisioningManagerSnapshotLayoutSpec[] HostLowLevelProvisioningManagerSnapshotLayoutSpec) {
+		this.HostLowLevelProvisioningManagerSnapshotLayoutSpec = HostLowLevelProvisioningManagerSnapshotLayoutSpec;
+	}
 }

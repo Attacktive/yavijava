@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatacenterMismatchArgument extends DynamicData {
-    public ManagedObjectReference entity;
-    public ManagedObjectReference inputDatacenter;
+	public ManagedObjectReference entity;
+	public ManagedObjectReference inputDatacenter;
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public ManagedObjectReference getInputDatacenter() {
-        return this.inputDatacenter;
-    }
+	public ManagedObjectReference getInputDatacenter() {
+		return this.inputDatacenter;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 
-    public void setInputDatacenter(ManagedObjectReference inputDatacenter) {
-        this.inputDatacenter = inputDatacenter;
-    }
+	public void setInputDatacenter(ManagedObjectReference inputDatacenter) {
+		this.inputDatacenter = inputDatacenter;
+	}
 }

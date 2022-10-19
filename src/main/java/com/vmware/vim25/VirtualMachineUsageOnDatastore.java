@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineUsageOnDatastore extends DynamicData {
-    public ManagedObjectReference datastore;
-    public long committed;
-    public long uncommitted;
-    public long unshared;
+	public ManagedObjectReference datastore;
+	public long committed;
+	public long uncommitted;
+	public long unshared;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public long getCommitted() {
-        return this.committed;
-    }
+	public long getCommitted() {
+		return this.committed;
+	}
 
-    public long getUncommitted() {
-        return this.uncommitted;
-    }
+	public long getUncommitted() {
+		return this.uncommitted;
+	}
 
-    public long getUnshared() {
-        return this.unshared;
-    }
+	public long getUnshared() {
+		return this.unshared;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setCommitted(long committed) {
-        this.committed = committed;
-    }
+	public void setCommitted(long committed) {
+		this.committed = committed;
+	}
 
-    public void setUncommitted(long uncommitted) {
-        this.uncommitted = uncommitted;
-    }
+	public void setUncommitted(long uncommitted) {
+		this.uncommitted = uncommitted;
+	}
 
-    public void setUnshared(long unshared) {
-        this.unshared = unshared;
-    }
+	public void setUnshared(long unshared) {
+		this.unshared = unshared;
+	}
 }

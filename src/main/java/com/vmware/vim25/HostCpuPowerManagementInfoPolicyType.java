@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostCpuPowerManagementInfoPolicyType {
-    off("off"),
-    staticPolicy("staticPolicy"),
-    dynamicPolicy("dynamicPolicy");
+	off("off"),
+	staticPolicy("staticPolicy"),
+	dynamicPolicy("dynamicPolicy");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostCpuPowerManagementInfoPolicyType(String val) {
-        this.val = val;
-    }
+	private HostCpuPowerManagementInfoPolicyType(String val) {
+		this.val = val;
+	}
 }

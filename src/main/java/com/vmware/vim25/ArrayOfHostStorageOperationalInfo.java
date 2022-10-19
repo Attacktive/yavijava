@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostStorageOperationalInfo {
-    public HostStorageOperationalInfo[] HostStorageOperationalInfo;
+	public HostStorageOperationalInfo[] HostStorageOperationalInfo;
 
-    public HostStorageOperationalInfo[] getHostStorageOperationalInfo() {
-        return this.HostStorageOperationalInfo;
-    }
+	public HostStorageOperationalInfo[] getHostStorageOperationalInfo() {
+		return this.HostStorageOperationalInfo;
+	}
 
-    public HostStorageOperationalInfo getHostStorageOperationalInfo(int i) {
-        return this.HostStorageOperationalInfo[i];
-    }
+	public HostStorageOperationalInfo getHostStorageOperationalInfo(int i) {
+		return this.HostStorageOperationalInfo[i];
+	}
 
-    public void setHostStorageOperationalInfo(HostStorageOperationalInfo[] HostStorageOperationalInfo) {
-        this.HostStorageOperationalInfo = HostStorageOperationalInfo;
-    }
+	public void setHostStorageOperationalInfo(HostStorageOperationalInfo[] HostStorageOperationalInfo) {
+		this.HostStorageOperationalInfo = HostStorageOperationalInfo;
+	}
 }

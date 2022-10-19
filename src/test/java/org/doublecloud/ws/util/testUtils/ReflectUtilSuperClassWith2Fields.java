@@ -16,6 +16,6 @@ package org.doublecloud.ws.util.testUtils;
  * limitations under the License.
  */
 public class ReflectUtilSuperClassWith2Fields {
-    public String field1;
-    public int field2;
+	public String field1;
+	public int field2;
 }

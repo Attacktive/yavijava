@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfStorageDrsOptionSpec {
-    public StorageDrsOptionSpec[] StorageDrsOptionSpec;
+	public StorageDrsOptionSpec[] StorageDrsOptionSpec;
 
-    public StorageDrsOptionSpec[] getStorageDrsOptionSpec() {
-        return this.StorageDrsOptionSpec;
-    }
+	public StorageDrsOptionSpec[] getStorageDrsOptionSpec() {
+		return this.StorageDrsOptionSpec;
+	}
 
-    public StorageDrsOptionSpec getStorageDrsOptionSpec(int i) {
-        return this.StorageDrsOptionSpec[i];
-    }
+	public StorageDrsOptionSpec getStorageDrsOptionSpec(int i) {
+		return this.StorageDrsOptionSpec[i];
+	}
 
-    public void setStorageDrsOptionSpec(StorageDrsOptionSpec[] StorageDrsOptionSpec) {
-        this.StorageDrsOptionSpec = StorageDrsOptionSpec;
-    }
+	public void setStorageDrsOptionSpec(StorageDrsOptionSpec[] StorageDrsOptionSpec) {
+		this.StorageDrsOptionSpec = StorageDrsOptionSpec;
+	}
 }

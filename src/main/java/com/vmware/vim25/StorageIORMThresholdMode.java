@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum StorageIORMThresholdMode {
-    automatic("automatic"),
-    manual("manual");
+	automatic("automatic"),
+	manual("manual");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private StorageIORMThresholdMode(String val) {
-        this.val = val;
-    }
+	private StorageIORMThresholdMode(String val) {
+		this.val = val;
+	}
 }

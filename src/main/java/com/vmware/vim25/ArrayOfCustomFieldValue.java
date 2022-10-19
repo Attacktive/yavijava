@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfCustomFieldValue {
-    public CustomFieldValue[] CustomFieldValue;
+	public CustomFieldValue[] CustomFieldValue;
 
-    public CustomFieldValue[] getCustomFieldValue() {
-        return this.CustomFieldValue;
-    }
+	public CustomFieldValue[] getCustomFieldValue() {
+		return this.CustomFieldValue;
+	}
 
-    public CustomFieldValue getCustomFieldValue(int i) {
-        return this.CustomFieldValue[i];
-    }
+	public CustomFieldValue getCustomFieldValue(int i) {
+		return this.CustomFieldValue[i];
+	}
 
-    public void setCustomFieldValue(CustomFieldValue[] CustomFieldValue) {
-        this.CustomFieldValue = CustomFieldValue;
-    }
+	public void setCustomFieldValue(CustomFieldValue[] CustomFieldValue) {
+		this.CustomFieldValue = CustomFieldValue;
+	}
 }

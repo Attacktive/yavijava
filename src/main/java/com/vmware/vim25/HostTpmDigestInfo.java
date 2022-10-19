@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmDigestInfo extends HostDigestInfo {
-    public int pcrNumber;
+	public int pcrNumber;
 
-    public int getPcrNumber() {
-        return this.pcrNumber;
-    }
+	public int getPcrNumber() {
+		return this.pcrNumber;
+	}
 
-    public void setPcrNumber(int pcrNumber) {
-        this.pcrNumber = pcrNumber;
-    }
+	public void setPcrNumber(int pcrNumber) {
+		this.pcrNumber = pcrNumber;
+	}
 }

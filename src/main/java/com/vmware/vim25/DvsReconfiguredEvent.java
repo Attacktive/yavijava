@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsReconfiguredEvent extends DvsEvent {
-    public DVSConfigSpec configSpec;
+	public DVSConfigSpec configSpec;
 
-    public DVSConfigSpec getConfigSpec() {
-        return this.configSpec;
-    }
+	public DVSConfigSpec getConfigSpec() {
+		return this.configSpec;
+	}
 
-    public void setConfigSpec(DVSConfigSpec configSpec) {
-        this.configSpec = configSpec;
-    }
+	public void setConfigSpec(DVSConfigSpec configSpec) {
+		this.configSpec = configSpec;
+	}
 }

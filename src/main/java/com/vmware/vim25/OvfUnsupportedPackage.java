@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnsupportedPackage extends OvfFault {
-    public Integer lineNumber;
+	public Integer lineNumber;
 
-    public Integer getLineNumber() {
-        return this.lineNumber;
-    }
+	public Integer getLineNumber() {
+		return this.lineNumber;
+	}
 
-    public void setLineNumber(Integer lineNumber) {
-        this.lineNumber = lineNumber;
-    }
+	public void setLineNumber(Integer lineNumber) {
+		this.lineNumber = lineNumber;
+	}
 }

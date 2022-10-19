@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostIpConfig extends DynamicData {
-    public String upstreamIpAddress;
-    public String downstreamIpAddress;
+	public String upstreamIpAddress;
+	public String downstreamIpAddress;
 
-    public String getUpstreamIpAddress() {
-        return this.upstreamIpAddress;
-    }
+	public String getUpstreamIpAddress() {
+		return this.upstreamIpAddress;
+	}
 
-    public String getDownstreamIpAddress() {
-        return this.downstreamIpAddress;
-    }
+	public String getDownstreamIpAddress() {
+		return this.downstreamIpAddress;
+	}
 
-    public void setUpstreamIpAddress(String upstreamIpAddress) {
-        this.upstreamIpAddress = upstreamIpAddress;
-    }
+	public void setUpstreamIpAddress(String upstreamIpAddress) {
+		this.upstreamIpAddress = upstreamIpAddress;
+	}
 
-    public void setDownstreamIpAddress(String downstreamIpAddress) {
-        this.downstreamIpAddress = downstreamIpAddress;
-    }
+	public void setDownstreamIpAddress(String downstreamIpAddress) {
+		this.downstreamIpAddress = downstreamIpAddress;
+	}
 }

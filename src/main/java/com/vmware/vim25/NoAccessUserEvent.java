@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NoAccessUserEvent extends SessionEvent {
-    public String ipAddress;
+	public String ipAddress;
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 }

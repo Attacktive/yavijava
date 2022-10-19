@@ -34,22 +34,22 @@ package com.vmware.vim25;
  */
 
 public class LicenseAssignmentManagerFeatureLicenseAvailability extends DynamicData {
-    public LicenseAssignmentManagerEntityFeaturePair entityFeature;
-    public boolean licensed;
+	public LicenseAssignmentManagerEntityFeaturePair entityFeature;
+	public boolean licensed;
 
-    public LicenseAssignmentManagerEntityFeaturePair getEntityFeature() {
-        return this.entityFeature;
-    }
+	public LicenseAssignmentManagerEntityFeaturePair getEntityFeature() {
+		return this.entityFeature;
+	}
 
-    public boolean isLicensed() {
-        return this.licensed;
-    }
+	public boolean isLicensed() {
+		return this.licensed;
+	}
 
-    public void setEntityFeature(LicenseAssignmentManagerEntityFeaturePair entityFeature) {
-        this.entityFeature = entityFeature;
-    }
+	public void setEntityFeature(LicenseAssignmentManagerEntityFeaturePair entityFeature) {
+		this.entityFeature = entityFeature;
+	}
 
-    public void setLicensed(boolean licensed) {
-        this.licensed = licensed;
-    }
+	public void setLicensed(boolean licensed) {
+		this.licensed = licensed;
+	}
 }

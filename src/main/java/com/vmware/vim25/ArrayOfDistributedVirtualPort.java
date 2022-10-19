@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDistributedVirtualPort {
-    public DistributedVirtualPort[] DistributedVirtualPort;
+	public DistributedVirtualPort[] DistributedVirtualPort;
 
-    public DistributedVirtualPort[] getDistributedVirtualPort() {
-        return this.DistributedVirtualPort;
-    }
+	public DistributedVirtualPort[] getDistributedVirtualPort() {
+		return this.DistributedVirtualPort;
+	}
 
-    public DistributedVirtualPort getDistributedVirtualPort(int i) {
-        return this.DistributedVirtualPort[i];
-    }
+	public DistributedVirtualPort getDistributedVirtualPort(int i) {
+		return this.DistributedVirtualPort[i];
+	}
 
-    public void setDistributedVirtualPort(DistributedVirtualPort[] DistributedVirtualPort) {
-        this.DistributedVirtualPort = DistributedVirtualPort;
-    }
+	public void setDistributedVirtualPort(DistributedVirtualPort[] DistributedVirtualPort) {
+		this.DistributedVirtualPort = DistributedVirtualPort;
+	}
 }

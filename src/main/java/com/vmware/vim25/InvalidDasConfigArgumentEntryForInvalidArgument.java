@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum InvalidDasConfigArgumentEntryForInvalidArgument {
-    admissionControl("admissionControl"),
-    userHeartbeatDs("userHeartbeatDs"),
-    vmConfig("vmConfig");
+	admissionControl("admissionControl"),
+	userHeartbeatDs("userHeartbeatDs"),
+	vmConfig("vmConfig");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private InvalidDasConfigArgumentEntryForInvalidArgument(String val) {
-        this.val = val;
-    }
+	private InvalidDasConfigArgumentEntryForInvalidArgument(String val) {
+		this.val = val;
+	}
 }

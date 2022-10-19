@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostVMotionCompatibility {
-    public HostVMotionCompatibility[] HostVMotionCompatibility;
+	public HostVMotionCompatibility[] HostVMotionCompatibility;
 
-    public HostVMotionCompatibility[] getHostVMotionCompatibility() {
-        return this.HostVMotionCompatibility;
-    }
+	public HostVMotionCompatibility[] getHostVMotionCompatibility() {
+		return this.HostVMotionCompatibility;
+	}
 
-    public HostVMotionCompatibility getHostVMotionCompatibility(int i) {
-        return this.HostVMotionCompatibility[i];
-    }
+	public HostVMotionCompatibility getHostVMotionCompatibility(int i) {
+		return this.HostVMotionCompatibility[i];
+	}
 
-    public void setHostVMotionCompatibility(HostVMotionCompatibility[] HostVMotionCompatibility) {
-        this.HostVMotionCompatibility = HostVMotionCompatibility;
-    }
+	public void setHostVMotionCompatibility(HostVMotionCompatibility[] HostVMotionCompatibility) {
+		this.HostVMotionCompatibility = HostVMotionCompatibility;
+	}
 }

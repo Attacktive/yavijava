@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDvsLagIpfixConfig extends DynamicData {
-    public Boolean ipfixEnabled;
+	public Boolean ipfixEnabled;
 
-    public Boolean getIpfixEnabled() {
-        return this.ipfixEnabled;
-    }
+	public Boolean getIpfixEnabled() {
+		return this.ipfixEnabled;
+	}
 
-    public void setIpfixEnabled(Boolean ipfixEnabled) {
-        this.ipfixEnabled = ipfixEnabled;
-    }
+	public void setIpfixEnabled(Boolean ipfixEnabled) {
+		this.ipfixEnabled = ipfixEnabled;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfileUpdateFailedUpdateFailure {
-    public ProfileUpdateFailedUpdateFailure[] ProfileUpdateFailedUpdateFailure;
+	public ProfileUpdateFailedUpdateFailure[] ProfileUpdateFailedUpdateFailure;
 
-    public ProfileUpdateFailedUpdateFailure[] getProfileUpdateFailedUpdateFailure() {
-        return this.ProfileUpdateFailedUpdateFailure;
-    }
+	public ProfileUpdateFailedUpdateFailure[] getProfileUpdateFailedUpdateFailure() {
+		return this.ProfileUpdateFailedUpdateFailure;
+	}
 
-    public ProfileUpdateFailedUpdateFailure getProfileUpdateFailedUpdateFailure(int i) {
-        return this.ProfileUpdateFailedUpdateFailure[i];
-    }
+	public ProfileUpdateFailedUpdateFailure getProfileUpdateFailedUpdateFailure(int i) {
+		return this.ProfileUpdateFailedUpdateFailure[i];
+	}
 
-    public void setProfileUpdateFailedUpdateFailure(ProfileUpdateFailedUpdateFailure[] ProfileUpdateFailedUpdateFailure) {
-        this.ProfileUpdateFailedUpdateFailure = ProfileUpdateFailedUpdateFailure;
-    }
+	public void setProfileUpdateFailedUpdateFailure(ProfileUpdateFailedUpdateFailure[] ProfileUpdateFailedUpdateFailure) {
+		this.ProfileUpdateFailedUpdateFailure = ProfileUpdateFailedUpdateFailure;
+	}
 }

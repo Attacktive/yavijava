@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfEVCMode {
-    public EVCMode[] EVCMode;
+	public EVCMode[] EVCMode;
 
-    public EVCMode[] getEVCMode() {
-        return this.EVCMode;
-    }
+	public EVCMode[] getEVCMode() {
+		return this.EVCMode;
+	}
 
-    public EVCMode getEVCMode(int i) {
-        return this.EVCMode[i];
-    }
+	public EVCMode getEVCMode(int i) {
+		return this.EVCMode[i];
+	}
 
-    public void setEVCMode(EVCMode[] EVCMode) {
-        this.EVCMode = EVCMode;
-    }
+	public void setEVCMode(EVCMode[] EVCMode) {
+		this.EVCMode = EVCMode;
+	}
 }

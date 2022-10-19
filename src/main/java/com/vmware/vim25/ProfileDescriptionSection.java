@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileDescriptionSection extends DynamicData {
-    public ExtendedElementDescription description;
-    public LocalizableMessage[] message;
+	public ExtendedElementDescription description;
+	public LocalizableMessage[] message;
 
-    public ExtendedElementDescription getDescription() {
-        return this.description;
-    }
+	public ExtendedElementDescription getDescription() {
+		return this.description;
+	}
 
-    public LocalizableMessage[] getMessage() {
-        return this.message;
-    }
+	public LocalizableMessage[] getMessage() {
+		return this.message;
+	}
 
-    public void setDescription(ExtendedElementDescription description) {
-        this.description = description;
-    }
+	public void setDescription(ExtendedElementDescription description) {
+		this.description = description;
+	}
 
-    public void setMessage(LocalizableMessage[] message) {
-        this.message = message;
-    }
+	public void setMessage(LocalizableMessage[] message) {
+		this.message = message;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPolicyOption {
-    public PolicyOption[] PolicyOption;
+	public PolicyOption[] PolicyOption;
 
-    public PolicyOption[] getPolicyOption() {
-        return this.PolicyOption;
-    }
+	public PolicyOption[] getPolicyOption() {
+		return this.PolicyOption;
+	}
 
-    public PolicyOption getPolicyOption(int i) {
-        return this.PolicyOption[i];
-    }
+	public PolicyOption getPolicyOption(int i) {
+		return this.PolicyOption[i];
+	}
 
-    public void setPolicyOption(PolicyOption[] PolicyOption) {
-        this.PolicyOption = PolicyOption;
-    }
+	public void setPolicyOption(PolicyOption[] PolicyOption) {
+		this.PolicyOption = PolicyOption;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidIpfixConfig extends DvsFault {
-    public String property;
+	public String property;
 
-    public String getProperty() {
-        return this.property;
-    }
+	public String getProperty() {
+		return this.property;
+	}
 
-    public void setProperty(String property) {
-        this.property = property;
-    }
+	public void setProperty(String property) {
+		this.property = property;
+	}
 }

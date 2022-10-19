@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDpmConfigInfo extends DynamicData {
-    public Boolean enabled;
-    public DpmBehavior defaultDpmBehavior;
-    public Integer hostPowerActionRate;
-    public OptionValue[] option;
+	public Boolean enabled;
+	public DpmBehavior defaultDpmBehavior;
+	public Integer hostPowerActionRate;
+	public OptionValue[] option;
 
-    public Boolean getEnabled() {
-        return this.enabled;
-    }
+	public Boolean getEnabled() {
+		return this.enabled;
+	}
 
-    public DpmBehavior getDefaultDpmBehavior() {
-        return this.defaultDpmBehavior;
-    }
+	public DpmBehavior getDefaultDpmBehavior() {
+		return this.defaultDpmBehavior;
+	}
 
-    public Integer getHostPowerActionRate() {
-        return this.hostPowerActionRate;
-    }
+	public Integer getHostPowerActionRate() {
+		return this.hostPowerActionRate;
+	}
 
-    public OptionValue[] getOption() {
-        return this.option;
-    }
+	public OptionValue[] getOption() {
+		return this.option;
+	}
 
-    public void setEnabled(Boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(Boolean enabled) {
+		this.enabled = enabled;
+	}
 
-    public void setDefaultDpmBehavior(DpmBehavior defaultDpmBehavior) {
-        this.defaultDpmBehavior = defaultDpmBehavior;
-    }
+	public void setDefaultDpmBehavior(DpmBehavior defaultDpmBehavior) {
+		this.defaultDpmBehavior = defaultDpmBehavior;
+	}
 
-    public void setHostPowerActionRate(Integer hostPowerActionRate) {
-        this.hostPowerActionRate = hostPowerActionRate;
-    }
+	public void setHostPowerActionRate(Integer hostPowerActionRate) {
+		this.hostPowerActionRate = hostPowerActionRate;
+	}
 
-    public void setOption(OptionValue[] option) {
-        this.option = option;
-    }
+	public void setOption(OptionValue[] option) {
+		this.option = option;
+	}
 }

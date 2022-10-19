@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfComputeResourceHostSPBMLicenseInfo {
-    public ComputeResourceHostSPBMLicenseInfo[] ComputeResourceHostSPBMLicenseInfo;
+	public ComputeResourceHostSPBMLicenseInfo[] ComputeResourceHostSPBMLicenseInfo;
 
-    public ComputeResourceHostSPBMLicenseInfo[] getComputeResourceHostSPBMLicenseInfo() {
-        return this.ComputeResourceHostSPBMLicenseInfo;
-    }
+	public ComputeResourceHostSPBMLicenseInfo[] getComputeResourceHostSPBMLicenseInfo() {
+		return this.ComputeResourceHostSPBMLicenseInfo;
+	}
 
-    public ComputeResourceHostSPBMLicenseInfo getComputeResourceHostSPBMLicenseInfo(int i) {
-        return this.ComputeResourceHostSPBMLicenseInfo[i];
-    }
+	public ComputeResourceHostSPBMLicenseInfo getComputeResourceHostSPBMLicenseInfo(int i) {
+		return this.ComputeResourceHostSPBMLicenseInfo[i];
+	}
 
-    public void setComputeResourceHostSPBMLicenseInfo(ComputeResourceHostSPBMLicenseInfo[] ComputeResourceHostSPBMLicenseInfo) {
-        this.ComputeResourceHostSPBMLicenseInfo = ComputeResourceHostSPBMLicenseInfo;
-    }
+	public void setComputeResourceHostSPBMLicenseInfo(ComputeResourceHostSPBMLicenseInfo[] ComputeResourceHostSPBMLicenseInfo) {
+		this.ComputeResourceHostSPBMLicenseInfo = ComputeResourceHostSPBMLicenseInfo;
+	}
 }

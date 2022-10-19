@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmReloadFromPathEvent extends VmEvent {
-    public String configPath;
+	public String configPath;
 
-    public String getConfigPath() {
-        return this.configPath;
-    }
+	public String getConfigPath() {
+		return this.configPath;
+	}
 
-    public void setConfigPath(String configPath) {
-        this.configPath = configPath;
-    }
+	public void setConfigPath(String configPath) {
+		this.configPath = configPath;
+	}
 }

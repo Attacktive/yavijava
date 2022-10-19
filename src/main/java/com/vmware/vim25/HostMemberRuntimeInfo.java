@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostMemberRuntimeInfo extends DynamicData {
-    public ManagedObjectReference host;
-    public String status;
-    public String statusDetail;
-    public HostMemberHealthCheckResult[] healthCheckResult;
+	public ManagedObjectReference host;
+	public String status;
+	public String statusDetail;
+	public HostMemberHealthCheckResult[] healthCheckResult;
 
-    public ManagedObjectReference getHost() {
-        return this.host;
-    }
+	public ManagedObjectReference getHost() {
+		return this.host;
+	}
 
-    public String getStatus() {
-        return this.status;
-    }
+	public String getStatus() {
+		return this.status;
+	}
 
-    public String getStatusDetail() {
-        return this.statusDetail;
-    }
+	public String getStatusDetail() {
+		return this.statusDetail;
+	}
 
-    public HostMemberHealthCheckResult[] getHealthCheckResult() {
-        return this.healthCheckResult;
-    }
+	public HostMemberHealthCheckResult[] getHealthCheckResult() {
+		return this.healthCheckResult;
+	}
 
-    public void setHost(ManagedObjectReference host) {
-        this.host = host;
-    }
+	public void setHost(ManagedObjectReference host) {
+		this.host = host;
+	}
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
+	public void setStatus(String status) {
+		this.status = status;
+	}
 
-    public void setStatusDetail(String statusDetail) {
-        this.statusDetail = statusDetail;
-    }
+	public void setStatusDetail(String statusDetail) {
+		this.statusDetail = statusDetail;
+	}
 
-    public void setHealthCheckResult(HostMemberHealthCheckResult[] healthCheckResult) {
-        this.healthCheckResult = healthCheckResult;
-    }
+	public void setHealthCheckResult(HostMemberHealthCheckResult[] healthCheckResult) {
+		this.healthCheckResult = healthCheckResult;
+	}
 }

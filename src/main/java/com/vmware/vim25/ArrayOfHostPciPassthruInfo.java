@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPciPassthruInfo {
-    public HostPciPassthruInfo[] HostPciPassthruInfo;
+	public HostPciPassthruInfo[] HostPciPassthruInfo;
 
-    public HostPciPassthruInfo[] getHostPciPassthruInfo() {
-        return this.HostPciPassthruInfo;
-    }
+	public HostPciPassthruInfo[] getHostPciPassthruInfo() {
+		return this.HostPciPassthruInfo;
+	}
 
-    public HostPciPassthruInfo getHostPciPassthruInfo(int i) {
-        return this.HostPciPassthruInfo[i];
-    }
+	public HostPciPassthruInfo getHostPciPassthruInfo(int i) {
+		return this.HostPciPassthruInfo[i];
+	}
 
-    public void setHostPciPassthruInfo(HostPciPassthruInfo[] HostPciPassthruInfo) {
-        this.HostPciPassthruInfo = HostPciPassthruInfo;
-    }
+	public void setHostPciPassthruInfo(HostPciPassthruInfo[] HostPciPassthruInfo) {
+		this.HostPciPassthruInfo = HostPciPassthruInfo;
+	}
 }

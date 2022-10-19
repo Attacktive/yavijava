@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostFirewallRulePortType {
-    src("src"),
-    dst("dst");
+	src("src"),
+	dst("dst");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostFirewallRulePortType(String val) {
-        this.val = val;
-    }
+	private HostFirewallRulePortType(String val) {
+		this.val = val;
+	}
 }

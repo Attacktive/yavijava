@@ -35,20 +35,20 @@ package com.vmware.vim25;
  */
 
 public enum AgentInstallFailedReason {
-    NotEnoughSpaceOnDevice("NotEnoughSpaceOnDevice"),
-    PrepareToUpgradeFailed("PrepareToUpgradeFailed"),
-    AgentNotRunning("AgentNotRunning"),
-    AgentNotReachable("AgentNotReachable"),
-    InstallTimedout("InstallTimedout"),
-    SignatureVerificationFailed("SignatureVerificationFailed"),
-    AgentUploadFailed("AgentUploadFailed"),
-    AgentUploadTimedout("AgentUploadTimedout"),
-    UnknownInstallerError("UnknownInstallerError");
+	NotEnoughSpaceOnDevice("NotEnoughSpaceOnDevice"),
+	PrepareToUpgradeFailed("PrepareToUpgradeFailed"),
+	AgentNotRunning("AgentNotRunning"),
+	AgentNotReachable("AgentNotReachable"),
+	InstallTimedout("InstallTimedout"),
+	SignatureVerificationFailed("SignatureVerificationFailed"),
+	AgentUploadFailed("AgentUploadFailed"),
+	AgentUploadTimedout("AgentUploadTimedout"),
+	UnknownInstallerError("UnknownInstallerError");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private AgentInstallFailedReason(String val) {
-        this.val = val;
-    }
+	private AgentInstallFailedReason(String val) {
+		this.val = val;
+	}
 }

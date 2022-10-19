@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostSystemIdentificationInfoIdentifier {
-    AssetTag("AssetTag"),
-    ServiceTag("ServiceTag"),
-    OemSpecificString("OemSpecificString");
+	AssetTag("AssetTag"),
+	ServiceTag("ServiceTag"),
+	OemSpecificString("OemSpecificString");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostSystemIdentificationInfoIdentifier(String val) {
-        this.val = val;
-    }
+	private HostSystemIdentificationInfoIdentifier(String val) {
+		this.val = val;
+	}
 }

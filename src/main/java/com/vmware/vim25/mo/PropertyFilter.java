@@ -29,11 +29,11 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.PropertyFilterSpec;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -42,19 +42,19 @@ import java.rmi.RemoteException;
  */
 
 public class PropertyFilter extends ManagedObject {
-    public PropertyFilter(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public PropertyFilter(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public boolean getPartialUpdates() {
-        return ((Boolean) getCurrentProperty("partialUpdates")).booleanValue();
-    }
+	public boolean getPartialUpdates() {
+		return ((Boolean)getCurrentProperty("partialUpdates")).booleanValue();
+	}
 
-    public PropertyFilterSpec getSpec() {
-        return (PropertyFilterSpec) this.getCurrentProperty("spec");
-    }
+	public PropertyFilterSpec getSpec() {
+		return (PropertyFilterSpec)this.getCurrentProperty("spec");
+	}
 
-    public void destroyPropertyFilter() throws RuntimeFault, RemoteException {
-        getVimService().destroyPropertyFilter(getMOR());
-    }
+	public void destroyPropertyFilter() throws RuntimeFault, RemoteException {
+		getVimService().destroyPropertyFilter(getMOR());
+	}
 }

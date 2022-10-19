@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum DayOfWeek {
-    sunday("sunday"),
-    monday("monday"),
-    tuesday("tuesday"),
-    wednesday("wednesday"),
-    thursday("thursday"),
-    friday("friday"),
-    saturday("saturday");
+	sunday("sunday"),
+	monday("monday"),
+	tuesday("tuesday"),
+	wednesday("wednesday"),
+	thursday("thursday"),
+	friday("friday"),
+	saturday("saturday");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DayOfWeek(String val) {
-        this.val = val;
-    }
+	private DayOfWeek(String val) {
+		this.val = val;
+	}
 }

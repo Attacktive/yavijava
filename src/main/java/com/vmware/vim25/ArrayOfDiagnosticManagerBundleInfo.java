@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDiagnosticManagerBundleInfo {
-    public DiagnosticManagerBundleInfo[] DiagnosticManagerBundleInfo;
+	public DiagnosticManagerBundleInfo[] DiagnosticManagerBundleInfo;
 
-    public DiagnosticManagerBundleInfo[] getDiagnosticManagerBundleInfo() {
-        return this.DiagnosticManagerBundleInfo;
-    }
+	public DiagnosticManagerBundleInfo[] getDiagnosticManagerBundleInfo() {
+		return this.DiagnosticManagerBundleInfo;
+	}
 
-    public DiagnosticManagerBundleInfo getDiagnosticManagerBundleInfo(int i) {
-        return this.DiagnosticManagerBundleInfo[i];
-    }
+	public DiagnosticManagerBundleInfo getDiagnosticManagerBundleInfo(int i) {
+		return this.DiagnosticManagerBundleInfo[i];
+	}
 
-    public void setDiagnosticManagerBundleInfo(DiagnosticManagerBundleInfo[] DiagnosticManagerBundleInfo) {
-        this.DiagnosticManagerBundleInfo = DiagnosticManagerBundleInfo;
-    }
+	public void setDiagnosticManagerBundleInfo(DiagnosticManagerBundleInfo[] DiagnosticManagerBundleInfo) {
+		this.DiagnosticManagerBundleInfo = DiagnosticManagerBundleInfo;
+	}
 }

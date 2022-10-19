@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDrsFaults {
-    public ClusterDrsFaults[] ClusterDrsFaults;
+	public ClusterDrsFaults[] ClusterDrsFaults;
 
-    public ClusterDrsFaults[] getClusterDrsFaults() {
-        return this.ClusterDrsFaults;
-    }
+	public ClusterDrsFaults[] getClusterDrsFaults() {
+		return this.ClusterDrsFaults;
+	}
 
-    public ClusterDrsFaults getClusterDrsFaults(int i) {
-        return this.ClusterDrsFaults[i];
-    }
+	public ClusterDrsFaults getClusterDrsFaults(int i) {
+		return this.ClusterDrsFaults[i];
+	}
 
-    public void setClusterDrsFaults(ClusterDrsFaults[] ClusterDrsFaults) {
-        this.ClusterDrsFaults = ClusterDrsFaults;
-    }
+	public void setClusterDrsFaults(ClusterDrsFaults[] ClusterDrsFaults) {
+		this.ClusterDrsFaults = ClusterDrsFaults;
+	}
 }

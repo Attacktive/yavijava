@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum PortGroupConnecteeType {
-    virtualMachine("virtualMachine"),
-    systemManagement("systemManagement"),
-    host("host"),
-    unknown("unknown");
+	virtualMachine("virtualMachine"),
+	systemManagement("systemManagement"),
+	host("host"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PortGroupConnecteeType(String val) {
-        this.val = val;
-    }
+	private PortGroupConnecteeType(String val) {
+		this.val = val;
+	}
 }

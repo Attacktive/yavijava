@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPosixAccountSpec extends HostAccountSpec {
-    public Integer posixId;
-    public Boolean shellAccess;
+	public Integer posixId;
+	public Boolean shellAccess;
 
-    public Integer getPosixId() {
-        return this.posixId;
-    }
+	public Integer getPosixId() {
+		return this.posixId;
+	}
 
-    public Boolean getShellAccess() {
-        return this.shellAccess;
-    }
+	public Boolean getShellAccess() {
+		return this.shellAccess;
+	}
 
-    public void setPosixId(Integer posixId) {
-        this.posixId = posixId;
-    }
+	public void setPosixId(Integer posixId) {
+		this.posixId = posixId;
+	}
 
-    public void setShellAccess(Boolean shellAccess) {
-        this.shellAccess = shellAccess;
-    }
+	public void setShellAccess(Boolean shellAccess) {
+		this.shellAccess = shellAccess;
+	}
 }

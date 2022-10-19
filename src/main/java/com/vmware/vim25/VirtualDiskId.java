@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDiskId extends DynamicData {
-    public ManagedObjectReference vm;
-    public int diskId;
+	public ManagedObjectReference vm;
+	public int diskId;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public int getDiskId() {
-        return this.diskId;
-    }
+	public int getDiskId() {
+		return this.diskId;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setDiskId(int diskId) {
-        this.diskId = diskId;
-    }
+	public void setDiskId(int diskId) {
+		this.diskId = diskId;
+	}
 }

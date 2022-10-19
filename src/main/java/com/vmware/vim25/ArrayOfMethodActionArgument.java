@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfMethodActionArgument {
-    public MethodActionArgument[] MethodActionArgument;
+	public MethodActionArgument[] MethodActionArgument;
 
-    public MethodActionArgument[] getMethodActionArgument() {
-        return this.MethodActionArgument;
-    }
+	public MethodActionArgument[] getMethodActionArgument() {
+		return this.MethodActionArgument;
+	}
 
-    public MethodActionArgument getMethodActionArgument(int i) {
-        return this.MethodActionArgument[i];
-    }
+	public MethodActionArgument getMethodActionArgument(int i) {
+		return this.MethodActionArgument[i];
+	}
 
-    public void setMethodActionArgument(MethodActionArgument[] MethodActionArgument) {
-        this.MethodActionArgument = MethodActionArgument;
-    }
+	public void setMethodActionArgument(MethodActionArgument[] MethodActionArgument) {
+		this.MethodActionArgument = MethodActionArgument;
+	}
 }

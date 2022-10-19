@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDVSNetworkResourcePoolConfigSpec {
-    public DVSNetworkResourcePoolConfigSpec[] DVSNetworkResourcePoolConfigSpec;
+	public DVSNetworkResourcePoolConfigSpec[] DVSNetworkResourcePoolConfigSpec;
 
-    public DVSNetworkResourcePoolConfigSpec[] getDVSNetworkResourcePoolConfigSpec() {
-        return this.DVSNetworkResourcePoolConfigSpec;
-    }
+	public DVSNetworkResourcePoolConfigSpec[] getDVSNetworkResourcePoolConfigSpec() {
+		return this.DVSNetworkResourcePoolConfigSpec;
+	}
 
-    public DVSNetworkResourcePoolConfigSpec getDVSNetworkResourcePoolConfigSpec(int i) {
-        return this.DVSNetworkResourcePoolConfigSpec[i];
-    }
+	public DVSNetworkResourcePoolConfigSpec getDVSNetworkResourcePoolConfigSpec(int i) {
+		return this.DVSNetworkResourcePoolConfigSpec[i];
+	}
 
-    public void setDVSNetworkResourcePoolConfigSpec(DVSNetworkResourcePoolConfigSpec[] DVSNetworkResourcePoolConfigSpec) {
-        this.DVSNetworkResourcePoolConfigSpec = DVSNetworkResourcePoolConfigSpec;
-    }
+	public void setDVSNetworkResourcePoolConfigSpec(DVSNetworkResourcePoolConfigSpec[] DVSNetworkResourcePoolConfigSpec) {
+		this.DVSNetworkResourcePoolConfigSpec = DVSNetworkResourcePoolConfigSpec;
+	}
 }

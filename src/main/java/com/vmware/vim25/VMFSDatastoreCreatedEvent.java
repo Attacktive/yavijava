@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMFSDatastoreCreatedEvent extends HostEvent {
-    public DatastoreEventArgument datastore;
+	public DatastoreEventArgument datastore;
 
-    public DatastoreEventArgument getDatastore() {
-        return this.datastore;
-    }
+	public DatastoreEventArgument getDatastore() {
+		return this.datastore;
+	}
 
-    public void setDatastore(DatastoreEventArgument datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(DatastoreEventArgument datastore) {
+		this.datastore = datastore;
+	}
 }

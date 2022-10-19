@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmFaultToleranceInvalidFileBacking extends VmFaultToleranceIssue {
-    public String backingType;
-    public String backingFilename;
+	public String backingType;
+	public String backingFilename;
 
-    public String getBackingType() {
-        return this.backingType;
-    }
+	public String getBackingType() {
+		return this.backingType;
+	}
 
-    public String getBackingFilename() {
-        return this.backingFilename;
-    }
+	public String getBackingFilename() {
+		return this.backingFilename;
+	}
 
-    public void setBackingType(String backingType) {
-        this.backingType = backingType;
-    }
+	public void setBackingType(String backingType) {
+		this.backingType = backingType;
+	}
 
-    public void setBackingFilename(String backingFilename) {
-        this.backingFilename = backingFilename;
-    }
+	public void setBackingFilename(String backingFilename) {
+		this.backingFilename = backingFilename;
+	}
 }

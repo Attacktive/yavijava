@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtSolutionManagerInfo extends DynamicData {
-    public ExtSolutionManagerInfoTabInfo[] tab;
-    public String smallIconUrl;
+	public ExtSolutionManagerInfoTabInfo[] tab;
+	public String smallIconUrl;
 
-    public ExtSolutionManagerInfoTabInfo[] getTab() {
-        return this.tab;
-    }
+	public ExtSolutionManagerInfoTabInfo[] getTab() {
+		return this.tab;
+	}
 
-    public String getSmallIconUrl() {
-        return this.smallIconUrl;
-    }
+	public String getSmallIconUrl() {
+		return this.smallIconUrl;
+	}
 
-    public void setTab(ExtSolutionManagerInfoTabInfo[] tab) {
-        this.tab = tab;
-    }
+	public void setTab(ExtSolutionManagerInfoTabInfo[] tab) {
+		this.tab = tab;
+	}
 
-    public void setSmallIconUrl(String smallIconUrl) {
-        this.smallIconUrl = smallIconUrl;
-    }
+	public void setSmallIconUrl(String smallIconUrl) {
+		this.smallIconUrl = smallIconUrl;
+	}
 }

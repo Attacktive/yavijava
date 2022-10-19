@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum CannotUseNetworkReason {
-    NetworkReservationNotSupported("NetworkReservationNotSupported"),
-    MismatchedNetworkPolicies("MismatchedNetworkPolicies"),
-    MismatchedDvsVersionOrVendor("MismatchedDvsVersionOrVendor"),
-    VMotionToUnsupportedNetworkType("VMotionToUnsupportedNetworkType");
+	NetworkReservationNotSupported("NetworkReservationNotSupported"),
+	MismatchedNetworkPolicies("MismatchedNetworkPolicies"),
+	MismatchedDvsVersionOrVendor("MismatchedDvsVersionOrVendor"),
+	VMotionToUnsupportedNetworkType("VMotionToUnsupportedNetworkType");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CannotUseNetworkReason(String val) {
-        this.val = val;
-    }
+	private CannotUseNetworkReason(String val) {
+		this.val = val;
+	}
 }

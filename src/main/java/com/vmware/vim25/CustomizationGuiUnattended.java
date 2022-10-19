@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationGuiUnattended extends DynamicData {
-    public CustomizationPassword password;
-    public int timeZone;
-    public boolean autoLogon;
-    public int autoLogonCount;
+	public CustomizationPassword password;
+	public int timeZone;
+	public boolean autoLogon;
+	public int autoLogonCount;
 
-    public CustomizationPassword getPassword() {
-        return this.password;
-    }
+	public CustomizationPassword getPassword() {
+		return this.password;
+	}
 
-    public int getTimeZone() {
-        return this.timeZone;
-    }
+	public int getTimeZone() {
+		return this.timeZone;
+	}
 
-    public boolean isAutoLogon() {
-        return this.autoLogon;
-    }
+	public boolean isAutoLogon() {
+		return this.autoLogon;
+	}
 
-    public int getAutoLogonCount() {
-        return this.autoLogonCount;
-    }
+	public int getAutoLogonCount() {
+		return this.autoLogonCount;
+	}
 
-    public void setPassword(CustomizationPassword password) {
-        this.password = password;
-    }
+	public void setPassword(CustomizationPassword password) {
+		this.password = password;
+	}
 
-    public void setTimeZone(int timeZone) {
-        this.timeZone = timeZone;
-    }
+	public void setTimeZone(int timeZone) {
+		this.timeZone = timeZone;
+	}
 
-    public void setAutoLogon(boolean autoLogon) {
-        this.autoLogon = autoLogon;
-    }
+	public void setAutoLogon(boolean autoLogon) {
+		this.autoLogon = autoLogon;
+	}
 
-    public void setAutoLogonCount(int autoLogonCount) {
-        this.autoLogonCount = autoLogonCount;
-    }
+	public void setAutoLogonCount(int autoLogonCount) {
+		this.autoLogonCount = autoLogonCount;
+	}
 }

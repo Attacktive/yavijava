@@ -36,32 +36,32 @@ package com.vmware.vim25.ws;
  * @author Steve Jin (http://www.doublecloud.org)
  */
 public class SoapFaultException extends java.rmi.RemoteException {
-    private static final long serialVersionUID = 1L;
-    protected String faultCode;
-    protected String faultString;
-    protected String faultActor;
+	private static final long serialVersionUID = 1L;
+	protected String faultCode;
+	protected String faultString;
+	protected String faultActor;
 
-    public String getFaultCode() {
-        return faultCode;
-    }
+	public String getFaultCode() {
+		return faultCode;
+	}
 
-    public void setFaultCode(String faultCode) {
-        this.faultCode = faultCode;
-    }
+	public void setFaultCode(String faultCode) {
+		this.faultCode = faultCode;
+	}
 
-    public String getFaultString() {
-        return faultString;
-    }
+	public String getFaultString() {
+		return faultString;
+	}
 
-    public void setFaultString(String faultString) {
-        this.faultString = faultString;
-    }
+	public void setFaultString(String faultString) {
+		this.faultString = faultString;
+	}
 
-    public String getFaultActor() {
-        return faultActor;
-    }
+	public String getFaultActor() {
+		return faultActor;
+	}
 
-    public void setFaultActor(String faultActor) {
-        this.faultActor = faultActor;
-    }
+	public void setFaultActor(String faultActor) {
+		this.faultActor = faultActor;
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineToolsRunningStatus {
-    guestToolsNotRunning("guestToolsNotRunning"),
-    guestToolsRunning("guestToolsRunning"),
-    guestToolsExecutingScripts("guestToolsExecutingScripts");
+	guestToolsNotRunning("guestToolsNotRunning"),
+	guestToolsRunning("guestToolsRunning"),
+	guestToolsExecutingScripts("guestToolsExecutingScripts");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineToolsRunningStatus(String val) {
-        this.val = val;
-    }
+	private VirtualMachineToolsRunningStatus(String val) {
+		this.val = val;
+	}
 }

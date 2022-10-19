@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class TaskReasonAlarm extends TaskReason {
-    public String alarmName;
-    public ManagedObjectReference alarm;
-    public String entityName;
-    public ManagedObjectReference entity;
+	public String alarmName;
+	public ManagedObjectReference alarm;
+	public String entityName;
+	public ManagedObjectReference entity;
 
-    public String getAlarmName() {
-        return this.alarmName;
-    }
+	public String getAlarmName() {
+		return this.alarmName;
+	}
 
-    public ManagedObjectReference getAlarm() {
-        return this.alarm;
-    }
+	public ManagedObjectReference getAlarm() {
+		return this.alarm;
+	}
 
-    public String getEntityName() {
-        return this.entityName;
-    }
+	public String getEntityName() {
+		return this.entityName;
+	}
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public void setAlarmName(String alarmName) {
-        this.alarmName = alarmName;
-    }
+	public void setAlarmName(String alarmName) {
+		this.alarmName = alarmName;
+	}
 
-    public void setAlarm(ManagedObjectReference alarm) {
-        this.alarm = alarm;
-    }
+	public void setAlarm(ManagedObjectReference alarm) {
+		this.alarm = alarm;
+	}
 
-    public void setEntityName(String entityName) {
-        this.entityName = entityName;
-    }
+	public void setEntityName(String entityName) {
+		this.entityName = entityName;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 }

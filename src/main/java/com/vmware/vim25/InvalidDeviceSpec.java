@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidDeviceSpec extends InvalidVmConfig {
-    public int deviceIndex;
+	public int deviceIndex;
 
-    public int getDeviceIndex() {
-        return this.deviceIndex;
-    }
+	public int getDeviceIndex() {
+		return this.deviceIndex;
+	}
 
-    public void setDeviceIndex(int deviceIndex) {
-        this.deviceIndex = deviceIndex;
-    }
+	public void setDeviceIndex(int deviceIndex) {
+		this.deviceIndex = deviceIndex;
+	}
 }

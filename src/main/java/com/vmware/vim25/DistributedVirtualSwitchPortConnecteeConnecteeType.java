@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum DistributedVirtualSwitchPortConnecteeConnecteeType {
-    pnic("pnic"),
-    vmVnic("vmVnic"),
-    hostConsoleVnic("hostConsoleVnic"),
-    hostVmkVnic("hostVmkVnic");
+	pnic("pnic"),
+	vmVnic("vmVnic"),
+	hostConsoleVnic("hostConsoleVnic"),
+	hostVmkVnic("hostVmkVnic");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DistributedVirtualSwitchPortConnecteeConnecteeType(String val) {
-        this.val = val;
-    }
+	private DistributedVirtualSwitchPortConnecteeConnecteeType(String val) {
+		this.val = val;
+	}
 }

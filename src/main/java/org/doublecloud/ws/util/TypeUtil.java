@@ -29,8 +29,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package org.doublecloud.ws.util;
 
-import org.apache.log4j.Logger;
-
 import java.lang.reflect.Array;
 import java.util.Calendar;
 import java.util.HashSet;
@@ -38,111 +36,109 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
+import org.apache.log4j.Logger;
+
 public class TypeUtil {
 
-    final public static Class<?> INT_ARRAY_CLASS = int[].class;
-    final public static Class<?> BYTE_ARRAY_CLASS = byte[].class;
-    final public static Class<?> LONG_ARRAY_CLASS = long[].class;
+	final public static Class<?> INT_ARRAY_CLASS = int[].class;
+	final public static Class<?> BYTE_ARRAY_CLASS = byte[].class;
+	final public static Class<?> LONG_ARRAY_CLASS = long[].class;
 
-    private static Logger log = Logger.getLogger(TypeUtil.class);
+	private static Logger log = Logger.getLogger(TypeUtil.class);
 
-    private final static Set<String> PRIMITIVE_TYPES = new HashSet<String>();
+	private final static Set<String> PRIMITIVE_TYPES = new HashSet<String>();
 
-    static {
-        PRIMITIVE_TYPES.add("int");
-        PRIMITIVE_TYPES.add("boolean");
-        PRIMITIVE_TYPES.add("short");
-        PRIMITIVE_TYPES.add("float");
-        PRIMITIVE_TYPES.add("byte");
-        PRIMITIVE_TYPES.add("long");
-        PRIMITIVE_TYPES.add("double");
-    }
+	static {
+		PRIMITIVE_TYPES.add("int");
+		PRIMITIVE_TYPES.add("boolean");
+		PRIMITIVE_TYPES.add("short");
+		PRIMITIVE_TYPES.add("float");
+		PRIMITIVE_TYPES.add("byte");
+		PRIMITIVE_TYPES.add("long");
+		PRIMITIVE_TYPES.add("double");
+	}
 
-    public static boolean isPrimitiveType(String type) {
-        return PRIMITIVE_TYPES.contains(type);
-    }
+	public static boolean isPrimitiveType(String type) {
+		return PRIMITIVE_TYPES.contains(type);
+	}
 
-    private static String[] BASIC_TYPES = new String[] {
-        "String", "int", "short",
-        "long", "float", "Float",
-        "byte", "boolean", "Boolean",
-        "Calendar", "double"
-    };
+	private static String[] BASIC_TYPES = new String[] {
+		"String", "int", "short",
+		"long", "float", "Float",
+		"byte", "boolean", "Boolean",
+		"Calendar", "double"
+	};
 
-    public static boolean isBasicType(String type) {
-        for (String BASIC_TYPE : BASIC_TYPES) {
-            if (type.startsWith(BASIC_TYPE)) {
-                return true;
-            }
-        }
-        return false;
-    }
+	public static boolean isBasicType(String type) {
+		for (String BASIC_TYPE : BASIC_TYPES) {
+			if (type.startsWith(BASIC_TYPE)) {
+				return true;
+			}
+		}
+		return false;
+	}
 
-    final private static String LANG_PKG = String.class.getPackage().getName();
-    final private static String UTIL_PKG = Calendar.class.getPackage().getName();
+	final private static String LANG_PKG = String.class.getPackage().getName();
+	final private static String UTIL_PKG = Calendar.class.getPackage().getName();
 
-    public static boolean isBasicType(Class<?> clazz) {
-        Package pkg = clazz.getPackage(); // for primitive type like int, the pkg is null
-        return pkg == null || pkg.getName().equals(LANG_PKG) || pkg.getName().equals(UTIL_PKG);
-    }
+	public static boolean isBasicType(Class<?> clazz) {
+		Package pkg = clazz.getPackage(); // for primitive type like int, the pkg is null
+		return pkg == null || pkg.getName().equals(LANG_PKG) || pkg.getName().equals(UTIL_PKG);
+	}
 
-    private static String PACKAGE_NAME = "com.vmware.vim25";
-    private final static Map<String, Class<?>> VIM_CLASSES = new ConcurrentHashMap<String, Class<?>>();
+	private static String PACKAGE_NAME = "com.vmware.vim25";
+	private final static Map<String, Class<?>> VIM_CLASSES = new ConcurrentHashMap<String, Class<?>>();
 
-    public static Class<?> getVimClass(String type) {
-        if (VIM_CLASSES.containsKey(type)) {
-            return VIM_CLASSES.get(type);
-        }
-        else {
-            try {
-                Class<?> clazz;
-                if (!type.endsWith("[]")) {
-                    clazz = Class.forName(PACKAGE_NAME + "." + type);
-                }
-                else {
-                    String arrayType = type.substring(0, type.length() - 2);
-                    clazz = Array.newInstance(getVimClass(arrayType), 0).getClass();
-                }
+	public static Class<?> getVimClass(String type) {
+		if (VIM_CLASSES.containsKey(type)) {
+			return VIM_CLASSES.get(type);
+		} else {
+			try {
+				Class<?> clazz;
+				if (!type.endsWith("[]")) {
+					clazz = Class.forName(PACKAGE_NAME + "." + type);
+				} else {
+					String arrayType = type.substring(0, type.length() - 2);
+					clazz = Array.newInstance(getVimClass(arrayType), 0).getClass();
+				}
 
-                VIM_CLASSES.put(type, clazz);
+				VIM_CLASSES.put(type, clazz);
 
-                return clazz;
-            }
-            catch (ClassNotFoundException cnfe) {
-                log.error("ClassNotFoundException caught for type: " + type, cnfe);
-                return null;
-            }
-        }
-    }
+				return clazz;
+			} catch (ClassNotFoundException cnfe) {
+				log.error("ClassNotFoundException caught for type: " + type, cnfe);
+				return null;
+			}
+		}
+	}
 
+	private static Class<?>[] clazzes = new Class[] {
+		Integer.class, Long.class,
+		Boolean.class, Short.class,
+		Float.class, String.class,
+		Byte.class, Double.class
+	};
+	private static String[] xsdStrs = new String[] {
+		"xsd:int", "xsd:long",
+		"xsd:boolean", "xsd:short",
+		"xsd:float", "xsd:string",
+		"xsd:byte", "xsd:double"
+	};
 
-    private static Class<?>[] clazzes = new Class[]{
-        java.lang.Integer.class, java.lang.Long.class,
-        java.lang.Boolean.class, java.lang.Short.class,
-        java.lang.Float.class, java.lang.String.class,
-        java.lang.Byte.class, java.lang.Double.class
-    };
-    private static String[] xsdStrs = new String[]{
-        "xsd:int", "xsd:long",
-        "xsd:boolean", "xsd:short",
-        "xsd:float", "xsd:string",
-        "xsd:byte", "xsd:double"
-    };
+	//only for the basic data types as shown above
+	public static String getXSIType(Object obj) {
+		Class<?> type = obj.getClass();
 
-    //only for the basic data types as shown above
-    public static String getXSIType(Object obj) {
-        Class<?> type = obj.getClass();
+		for (int i = 0; i < clazzes.length; i++) {
+			if (type == clazzes[i]) {
+				return xsdStrs[i];
+			}
+		}
 
-        for (int i = 0; i < clazzes.length; i++) {
-            if (type == clazzes[i]) {
-                return xsdStrs[i];
-            }
-        }
+		if (obj instanceof Calendar) {
+			return "xsd:dateTime";
+		}
 
-        if (obj instanceof java.util.Calendar) {
-            return "xsd:dateTime";
-        }
-
-        throw new RuntimeException("Unknown data type during serialization:" + type);
-    }
+		throw new RuntimeException("Unknown data type during serialization:" + type);
+	}
 }

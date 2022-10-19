@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NumericRange extends DynamicData {
-    public int start;
-    public int end;
+	public int start;
+	public int end;
 
-    public int getStart() {
-        return this.start;
-    }
+	public int getStart() {
+		return this.start;
+	}
 
-    public int getEnd() {
-        return this.end;
-    }
+	public int getEnd() {
+		return this.end;
+	}
 
-    public void setStart(int start) {
-        this.start = start;
-    }
+	public void setStart(int start) {
+		this.start = start;
+	}
 
-    public void setEnd(int end) {
-        this.end = end;
-    }
+	public void setEnd(int end) {
+		this.end = end;
+	}
 }

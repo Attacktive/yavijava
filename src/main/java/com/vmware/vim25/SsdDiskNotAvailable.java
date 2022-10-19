@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SsdDiskNotAvailable extends VimFault {
-    public String devicePath;
+	public String devicePath;
 
-    public String getDevicePath() {
-        return this.devicePath;
-    }
+	public String getDevicePath() {
+		return this.devicePath;
+	}
 
-    public void setDevicePath(String devicePath) {
-        this.devicePath = devicePath;
-    }
+	public void setDevicePath(String devicePath) {
+		this.devicePath = devicePath;
+	}
 }

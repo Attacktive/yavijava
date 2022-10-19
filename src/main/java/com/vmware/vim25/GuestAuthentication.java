@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GuestAuthentication extends DynamicData {
-    public boolean interactiveSession;
+	public boolean interactiveSession;
 
-    public boolean isInteractiveSession() {
-        return this.interactiveSession;
-    }
+	public boolean isInteractiveSession() {
+		return this.interactiveSession;
+	}
 
-    public void setInteractiveSession(boolean interactiveSession) {
-        this.interactiveSession = interactiveSession;
-    }
+	public void setInteractiveSession(boolean interactiveSession) {
+		this.interactiveSession = interactiveSession;
+	}
 }

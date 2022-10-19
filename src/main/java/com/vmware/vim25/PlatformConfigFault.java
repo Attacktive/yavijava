@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PlatformConfigFault extends HostConfigFault {
-    public String text;
+	public String text;
 
-    public String getText() {
-        return this.text;
-    }
+	public String getText() {
+		return this.text;
+	}
 
-    public void setText(String text) {
-        this.text = text;
-    }
+	public void setText(String text) {
+		this.text = text;
+	}
 }

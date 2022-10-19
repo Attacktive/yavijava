@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseSourceUnavailable extends NotEnoughLicenses {
-    public LicenseSource licenseSource;
+	public LicenseSource licenseSource;
 
-    public LicenseSource getLicenseSource() {
-        return this.licenseSource;
-    }
+	public LicenseSource getLicenseSource() {
+		return this.licenseSource;
+	}
 
-    public void setLicenseSource(LicenseSource licenseSource) {
-        this.licenseSource = licenseSource;
-    }
+	public void setLicenseSource(LicenseSource licenseSource) {
+		this.licenseSource = licenseSource;
+	}
 }

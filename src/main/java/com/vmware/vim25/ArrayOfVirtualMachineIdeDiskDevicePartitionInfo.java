@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineIdeDiskDevicePartitionInfo {
-    public VirtualMachineIdeDiskDevicePartitionInfo[] VirtualMachineIdeDiskDevicePartitionInfo;
+	public VirtualMachineIdeDiskDevicePartitionInfo[] VirtualMachineIdeDiskDevicePartitionInfo;
 
-    public VirtualMachineIdeDiskDevicePartitionInfo[] getVirtualMachineIdeDiskDevicePartitionInfo() {
-        return this.VirtualMachineIdeDiskDevicePartitionInfo;
-    }
+	public VirtualMachineIdeDiskDevicePartitionInfo[] getVirtualMachineIdeDiskDevicePartitionInfo() {
+		return this.VirtualMachineIdeDiskDevicePartitionInfo;
+	}
 
-    public VirtualMachineIdeDiskDevicePartitionInfo getVirtualMachineIdeDiskDevicePartitionInfo(int i) {
-        return this.VirtualMachineIdeDiskDevicePartitionInfo[i];
-    }
+	public VirtualMachineIdeDiskDevicePartitionInfo getVirtualMachineIdeDiskDevicePartitionInfo(int i) {
+		return this.VirtualMachineIdeDiskDevicePartitionInfo[i];
+	}
 
-    public void setVirtualMachineIdeDiskDevicePartitionInfo(VirtualMachineIdeDiskDevicePartitionInfo[] VirtualMachineIdeDiskDevicePartitionInfo) {
-        this.VirtualMachineIdeDiskDevicePartitionInfo = VirtualMachineIdeDiskDevicePartitionInfo;
-    }
+	public void setVirtualMachineIdeDiskDevicePartitionInfo(VirtualMachineIdeDiskDevicePartitionInfo[] VirtualMachineIdeDiskDevicePartitionInfo) {
+		this.VirtualMachineIdeDiskDevicePartitionInfo = VirtualMachineIdeDiskDevicePartitionInfo;
+	}
 }

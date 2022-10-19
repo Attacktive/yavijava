@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum CustomizationNetBIOSMode {
-    enableNetBIOSViaDhcp("enableNetBIOSViaDhcp"),
-    enableNetBIOS("enableNetBIOS"),
-    disableNetBIOS("disableNetBIOS");
+	enableNetBIOSViaDhcp("enableNetBIOSViaDhcp"),
+	enableNetBIOS("enableNetBIOS"),
+	disableNetBIOS("disableNetBIOS");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CustomizationNetBIOSMode(String val) {
-        this.val = val;
-    }
+	private CustomizationNetBIOSMode(String val) {
+		this.val = val;
+	}
 }

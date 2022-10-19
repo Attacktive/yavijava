@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostSnmpAgentCapability {
-    COMPLETE("COMPLETE"),
-    DIAGNOSTICS("DIAGNOSTICS"),
-    CONFIGURATION("CONFIGURATION");
+	COMPLETE("COMPLETE"),
+	DIAGNOSTICS("DIAGNOSTICS"),
+	CONFIGURATION("CONFIGURATION");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostSnmpAgentCapability(String val) {
-        this.val = val;
-    }
+	private HostSnmpAgentCapability(String val) {
+		this.val = val;
+	}
 }

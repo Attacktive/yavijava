@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineConfigInfoSwapPlacementType {
-    inherit("inherit"),
-    vmDirectory("vmDirectory"),
-    hostLocal("hostLocal");
+	inherit("inherit"),
+	vmDirectory("vmDirectory"),
+	hostLocal("hostLocal");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineConfigInfoSwapPlacementType(String val) {
-        this.val = val;
-    }
+	private VirtualMachineConfigInfoSwapPlacementType(String val) {
+		this.val = val;
+	}
 }

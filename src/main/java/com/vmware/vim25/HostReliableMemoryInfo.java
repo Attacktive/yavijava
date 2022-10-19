@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostReliableMemoryInfo extends DynamicData {
-    public long memorySize;
+	public long memorySize;
 
-    public long getMemorySize() {
-        return this.memorySize;
-    }
+	public long getMemorySize() {
+		return this.memorySize;
+	}
 
-    public void setMemorySize(long memorySize) {
-        this.memorySize = memorySize;
-    }
+	public void setMemorySize(long memorySize) {
+		this.memorySize = memorySize;
+	}
 }

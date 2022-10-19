@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ScsiLunDescriptorQuality {
-    highQuality("highQuality"),
-    mediumQuality("mediumQuality"),
-    lowQuality("lowQuality"),
-    unknownQuality("unknownQuality");
+	highQuality("highQuality"),
+	mediumQuality("mediumQuality"),
+	lowQuality("lowQuality"),
+	unknownQuality("unknownQuality");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScsiLunDescriptorQuality(String val) {
-        this.val = val;
-    }
+	private ScsiLunDescriptorQuality(String val) {
+		this.val = val;
+	}
 }

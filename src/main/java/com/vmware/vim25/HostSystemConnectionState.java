@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostSystemConnectionState {
-    connected("connected"),
-    notResponding("notResponding"),
-    disconnected("disconnected");
+	connected("connected"),
+	notResponding("notResponding"),
+	disconnected("disconnected");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostSystemConnectionState(String val) {
-        this.val = val;
-    }
+	private HostSystemConnectionState(String val) {
+		this.val = val;
+	}
 }

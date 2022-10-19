@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineHtSharing {
-    any("any"),
-    none("none"),
-    internal("internal");
+	any("any"),
+	none("none"),
+	internal("internal");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineHtSharing(String val) {
-        this.val = val;
-    }
+	private VirtualMachineHtSharing(String val) {
+		this.val = val;
+	}
 }

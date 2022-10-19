@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NegatableExpression extends DynamicData {
-    public Boolean negate;
+	public Boolean negate;
 
-    public Boolean getNegate() {
-        return this.negate;
-    }
+	public Boolean getNegate() {
+		return this.negate;
+	}
 
-    public void setNegate(Boolean negate) {
-        this.negate = negate;
-    }
+	public void setNegate(Boolean negate) {
+		this.negate = negate;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfClusterDpmHostConfigSpec {
-    public ClusterDpmHostConfigSpec[] ClusterDpmHostConfigSpec;
+	public ClusterDpmHostConfigSpec[] ClusterDpmHostConfigSpec;
 
-    public ClusterDpmHostConfigSpec[] getClusterDpmHostConfigSpec() {
-        return this.ClusterDpmHostConfigSpec;
-    }
+	public ClusterDpmHostConfigSpec[] getClusterDpmHostConfigSpec() {
+		return this.ClusterDpmHostConfigSpec;
+	}
 
-    public ClusterDpmHostConfigSpec getClusterDpmHostConfigSpec(int i) {
-        return this.ClusterDpmHostConfigSpec[i];
-    }
+	public ClusterDpmHostConfigSpec getClusterDpmHostConfigSpec(int i) {
+		return this.ClusterDpmHostConfigSpec[i];
+	}
 
-    public void setClusterDpmHostConfigSpec(ClusterDpmHostConfigSpec[] ClusterDpmHostConfigSpec) {
-        this.ClusterDpmHostConfigSpec = ClusterDpmHostConfigSpec;
-    }
+	public void setClusterDpmHostConfigSpec(ClusterDpmHostConfigSpec[] ClusterDpmHostConfigSpec) {
+		this.ClusterDpmHostConfigSpec = ClusterDpmHostConfigSpec;
+	}
 }

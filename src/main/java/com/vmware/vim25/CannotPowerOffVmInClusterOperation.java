@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum CannotPowerOffVmInClusterOperation {
-    suspend("suspend"),
-    powerOff("powerOff"),
-    guestShutdown("guestShutdown"),
-    guestSuspend("guestSuspend");
+	suspend("suspend"),
+	powerOff("powerOff"),
+	guestShutdown("guestShutdown"),
+	guestSuspend("guestSuspend");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CannotPowerOffVmInClusterOperation(String val) {
-        this.val = val;
-    }
+	private CannotPowerOffVmInClusterOperation(String val) {
+		this.val = val;
+	}
 }

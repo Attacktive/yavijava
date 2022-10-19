@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum SimpleCommandEncoding {
-    CSV("CSV"),
-    HEX("HEX"),
-    STRING("STRING");
+	CSV("CSV"),
+	HEX("HEX"),
+	STRING("STRING");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private SimpleCommandEncoding(String val) {
-        this.val = val;
-    }
+	private SimpleCommandEncoding(String val) {
+		this.val = val;
+	}
 }

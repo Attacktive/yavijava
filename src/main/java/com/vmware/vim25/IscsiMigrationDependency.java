@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class IscsiMigrationDependency extends DynamicData {
-    public boolean migrationAllowed;
-    public IscsiStatus disallowReason;
-    public IscsiDependencyEntity[] dependency;
+	public boolean migrationAllowed;
+	public IscsiStatus disallowReason;
+	public IscsiDependencyEntity[] dependency;
 
-    public boolean isMigrationAllowed() {
-        return this.migrationAllowed;
-    }
+	public boolean isMigrationAllowed() {
+		return this.migrationAllowed;
+	}
 
-    public IscsiStatus getDisallowReason() {
-        return this.disallowReason;
-    }
+	public IscsiStatus getDisallowReason() {
+		return this.disallowReason;
+	}
 
-    public IscsiDependencyEntity[] getDependency() {
-        return this.dependency;
-    }
+	public IscsiDependencyEntity[] getDependency() {
+		return this.dependency;
+	}
 
-    public void setMigrationAllowed(boolean migrationAllowed) {
-        this.migrationAllowed = migrationAllowed;
-    }
+	public void setMigrationAllowed(boolean migrationAllowed) {
+		this.migrationAllowed = migrationAllowed;
+	}
 
-    public void setDisallowReason(IscsiStatus disallowReason) {
-        this.disallowReason = disallowReason;
-    }
+	public void setDisallowReason(IscsiStatus disallowReason) {
+		this.disallowReason = disallowReason;
+	}
 
-    public void setDependency(IscsiDependencyEntity[] dependency) {
-        this.dependency = dependency;
-    }
+	public void setDependency(IscsiDependencyEntity[] dependency) {
+		this.dependency = dependency;
+	}
 }

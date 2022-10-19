@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostPatchManagerResult extends DynamicData {
-    public String version;
-    public HostPatchManagerStatus[] status;
-    public String xmlResult;
+	public String version;
+	public HostPatchManagerStatus[] status;
+	public String xmlResult;
 
-    public String getVersion() {
-        return this.version;
-    }
+	public String getVersion() {
+		return this.version;
+	}
 
-    public HostPatchManagerStatus[] getStatus() {
-        return this.status;
-    }
+	public HostPatchManagerStatus[] getStatus() {
+		return this.status;
+	}
 
-    public String getXmlResult() {
-        return this.xmlResult;
-    }
+	public String getXmlResult() {
+		return this.xmlResult;
+	}
 
-    public void setVersion(String version) {
-        this.version = version;
-    }
+	public void setVersion(String version) {
+		this.version = version;
+	}
 
-    public void setStatus(HostPatchManagerStatus[] status) {
-        this.status = status;
-    }
+	public void setStatus(HostPatchManagerStatus[] status) {
+		this.status = status;
+	}
 
-    public void setXmlResult(String xmlResult) {
-        this.xmlResult = xmlResult;
-    }
+	public void setXmlResult(String xmlResult) {
+		this.xmlResult = xmlResult;
+	}
 }

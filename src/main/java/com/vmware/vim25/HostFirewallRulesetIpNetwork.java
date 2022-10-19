@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFirewallRulesetIpNetwork extends DynamicData {
-    public String network;
-    public int prefixLength;
+	public String network;
+	public int prefixLength;
 
-    public String getNetwork() {
-        return this.network;
-    }
+	public String getNetwork() {
+		return this.network;
+	}
 
-    public int getPrefixLength() {
-        return this.prefixLength;
-    }
+	public int getPrefixLength() {
+		return this.prefixLength;
+	}
 
-    public void setNetwork(String network) {
-        this.network = network;
-    }
+	public void setNetwork(String network) {
+		this.network = network;
+	}
 
-    public void setPrefixLength(int prefixLength) {
-        this.prefixLength = prefixLength;
-    }
+	public void setPrefixLength(int prefixLength) {
+		this.prefixLength = prefixLength;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VmShutdownOnIsolationEventOperation {
-    shutdown("shutdown"),
-    poweredOff("poweredOff");
+	shutdown("shutdown"),
+	poweredOff("poweredOff");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VmShutdownOnIsolationEventOperation(String val) {
-        this.val = val;
-    }
+	private VmShutdownOnIsolationEventOperation(String val) {
+		this.val = val;
+	}
 }

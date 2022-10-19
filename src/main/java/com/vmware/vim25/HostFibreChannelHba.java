@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFibreChannelHba extends HostHostBusAdapter {
-    public long portWorldWideName;
-    public long nodeWorldWideName;
-    public FibreChannelPortType portType;
-    public long speed;
+	public long portWorldWideName;
+	public long nodeWorldWideName;
+	public FibreChannelPortType portType;
+	public long speed;
 
-    public long getPortWorldWideName() {
-        return this.portWorldWideName;
-    }
+	public long getPortWorldWideName() {
+		return this.portWorldWideName;
+	}
 
-    public long getNodeWorldWideName() {
-        return this.nodeWorldWideName;
-    }
+	public long getNodeWorldWideName() {
+		return this.nodeWorldWideName;
+	}
 
-    public FibreChannelPortType getPortType() {
-        return this.portType;
-    }
+	public FibreChannelPortType getPortType() {
+		return this.portType;
+	}
 
-    public long getSpeed() {
-        return this.speed;
-    }
+	public long getSpeed() {
+		return this.speed;
+	}
 
-    public void setPortWorldWideName(long portWorldWideName) {
-        this.portWorldWideName = portWorldWideName;
-    }
+	public void setPortWorldWideName(long portWorldWideName) {
+		this.portWorldWideName = portWorldWideName;
+	}
 
-    public void setNodeWorldWideName(long nodeWorldWideName) {
-        this.nodeWorldWideName = nodeWorldWideName;
-    }
+	public void setNodeWorldWideName(long nodeWorldWideName) {
+		this.nodeWorldWideName = nodeWorldWideName;
+	}
 
-    public void setPortType(FibreChannelPortType portType) {
-        this.portType = portType;
-    }
+	public void setPortType(FibreChannelPortType portType) {
+		this.portType = portType;
+	}
 
-    public void setSpeed(long speed) {
-        this.speed = speed;
-    }
+	public void setSpeed(long speed) {
+		this.speed = speed;
+	}
 }

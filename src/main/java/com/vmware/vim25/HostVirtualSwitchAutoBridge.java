@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostVirtualSwitchAutoBridge extends HostVirtualSwitchBridge {
-    public String[] excludedNicDevice;
+	public String[] excludedNicDevice;
 
-    public String[] getExcludedNicDevice() {
-        return this.excludedNicDevice;
-    }
+	public String[] getExcludedNicDevice() {
+		return this.excludedNicDevice;
+	}
 
-    public void setExcludedNicDevice(String[] excludedNicDevice) {
-        this.excludedNicDevice = excludedNicDevice;
-    }
+	public void setExcludedNicDevice(String[] excludedNicDevice) {
+		this.excludedNicDevice = excludedNicDevice;
+	}
 }

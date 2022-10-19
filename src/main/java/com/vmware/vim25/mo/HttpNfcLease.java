@@ -28,9 +28,16 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.HttpNfcLeaseInfo;
+import com.vmware.vim25.HttpNfcLeaseManifestEntry;
+import com.vmware.vim25.HttpNfcLeaseState;
+import com.vmware.vim25.InvalidState;
+import com.vmware.vim25.LocalizedMethodFault;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.Timedout;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -39,42 +46,42 @@ import java.rmi.RemoteException;
  * @since 4.0
  */
 public class HttpNfcLease extends ManagedObject {
-    public HttpNfcLease(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public HttpNfcLease(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public LocalizedMethodFault getError() {
-        return (LocalizedMethodFault) getCurrentProperty("error");
-    }
+	public LocalizedMethodFault getError() {
+		return (LocalizedMethodFault)getCurrentProperty("error");
+	}
 
-    public HttpNfcLeaseInfo getInfo() {
-        return (HttpNfcLeaseInfo) getCurrentProperty("info");
-    }
+	public HttpNfcLeaseInfo getInfo() {
+		return (HttpNfcLeaseInfo)getCurrentProperty("info");
+	}
 
-    public int getInitializeProgress() {
-        return ((Integer) getCurrentProperty("initializeProgress")).intValue();
-    }
+	public int getInitializeProgress() {
+		return ((Integer)getCurrentProperty("initializeProgress")).intValue();
+	}
 
-    public HttpNfcLeaseState getState() {
-        return (HttpNfcLeaseState) getCurrentProperty("state");
-    }
+	public HttpNfcLeaseState getState() {
+		return (HttpNfcLeaseState)getCurrentProperty("state");
+	}
 
-    public void httpNfcLeaseAbort(LocalizedMethodFault fault) throws Timedout, InvalidState, RuntimeFault, RemoteException {
-        getVimService().httpNfcLeaseAbort(getMOR(), fault);
-    }
+	public void httpNfcLeaseAbort(LocalizedMethodFault fault) throws Timedout, InvalidState, RuntimeFault, RemoteException {
+		getVimService().httpNfcLeaseAbort(getMOR(), fault);
+	}
 
-    public void httpNfcLeaseComplete() throws Timedout, InvalidState, RuntimeFault, RemoteException {
-        getVimService().httpNfcLeaseComplete(getMOR());
-    }
+	public void httpNfcLeaseComplete() throws Timedout, InvalidState, RuntimeFault, RemoteException {
+		getVimService().httpNfcLeaseComplete(getMOR());
+	}
 
-    /**
-     * @since SDK4.1
-     */
-    public HttpNfcLeaseManifestEntry[] httpNfcLeaseGetManifest() throws Timedout, InvalidState, RuntimeFault, RemoteException {
-        return getVimService().httpNfcLeaseGetManifest(getMOR());
-    }
+	/**
+	 * @since SDK4.1
+	 */
+	public HttpNfcLeaseManifestEntry[] httpNfcLeaseGetManifest() throws Timedout, InvalidState, RuntimeFault, RemoteException {
+		return getVimService().httpNfcLeaseGetManifest(getMOR());
+	}
 
-    public void httpNfcLeaseProgress(int percent) throws Timedout, RuntimeFault, RemoteException {
-        getVimService().httpNfcLeaseProgress(getMOR(), percent);
-    }
+	public void httpNfcLeaseProgress(int percent) throws Timedout, RuntimeFault, RemoteException {
+		getVimService().httpNfcLeaseProgress(getMOR(), percent);
+	}
 }

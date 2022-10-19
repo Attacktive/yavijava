@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostTpmEventLogEntry {
-    public HostTpmEventLogEntry[] HostTpmEventLogEntry;
+	public HostTpmEventLogEntry[] HostTpmEventLogEntry;
 
-    public HostTpmEventLogEntry[] getHostTpmEventLogEntry() {
-        return this.HostTpmEventLogEntry;
-    }
+	public HostTpmEventLogEntry[] getHostTpmEventLogEntry() {
+		return this.HostTpmEventLogEntry;
+	}
 
-    public HostTpmEventLogEntry getHostTpmEventLogEntry(int i) {
-        return this.HostTpmEventLogEntry[i];
-    }
+	public HostTpmEventLogEntry getHostTpmEventLogEntry(int i) {
+		return this.HostTpmEventLogEntry[i];
+	}
 
-    public void setHostTpmEventLogEntry(HostTpmEventLogEntry[] HostTpmEventLogEntry) {
-        this.HostTpmEventLogEntry = HostTpmEventLogEntry;
-    }
+	public void setHostTpmEventLogEntry(HostTpmEventLogEntry[] HostTpmEventLogEntry) {
+		this.HostTpmEventLogEntry = HostTpmEventLogEntry;
+	}
 }

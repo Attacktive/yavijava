@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SSPIAuthentication extends GuestAuthentication {
-    public String sspiToken;
+	public String sspiToken;
 
-    public String getSspiToken() {
-        return this.sspiToken;
-    }
+	public String getSspiToken() {
+		return this.sspiToken;
+	}
 
-    public void setSspiToken(String sspiToken) {
-        this.sspiToken = sspiToken;
-    }
+	public void setSspiToken(String sspiToken) {
+		this.sspiToken = sspiToken;
+	}
 }

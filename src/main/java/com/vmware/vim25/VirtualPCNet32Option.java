@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualPCNet32Option extends VirtualEthernetCardOption {
-    public boolean supportsMorphing;
+	public boolean supportsMorphing;
 
-    public boolean isSupportsMorphing() {
-        return this.supportsMorphing;
-    }
+	public boolean isSupportsMorphing() {
+		return this.supportsMorphing;
+	}
 
-    public void setSupportsMorphing(boolean supportsMorphing) {
-        this.supportsMorphing = supportsMorphing;
-    }
+	public void setSupportsMorphing(boolean supportsMorphing) {
+		this.supportsMorphing = supportsMorphing;
+	}
 }

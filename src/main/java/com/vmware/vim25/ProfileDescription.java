@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileDescription extends DynamicData {
-    public ProfileDescriptionSection[] section;
+	public ProfileDescriptionSection[] section;
 
-    public ProfileDescriptionSection[] getSection() {
-        return this.section;
-    }
+	public ProfileDescriptionSection[] getSection() {
+		return this.section;
+	}
 
-    public void setSection(ProfileDescriptionSection[] section) {
-        this.section = section;
-    }
+	public void setSection(ProfileDescriptionSection[] section) {
+		this.section = section;
+	}
 }

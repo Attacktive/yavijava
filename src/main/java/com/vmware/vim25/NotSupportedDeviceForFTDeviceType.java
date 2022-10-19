@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum NotSupportedDeviceForFTDeviceType {
-    virtualVmxnet3("virtualVmxnet3"),
-    paraVirtualSCSIController("paraVirtualSCSIController");
+	virtualVmxnet3("virtualVmxnet3"),
+	paraVirtualSCSIController("paraVirtualSCSIController");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NotSupportedDeviceForFTDeviceType(String val) {
-        this.val = val;
-    }
+	private NotSupportedDeviceForFTDeviceType(String val) {
+		this.val = val;
+	}
 }

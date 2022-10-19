@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmFaultToleranceStateChangedEvent extends VmEvent {
-    public VirtualMachineFaultToleranceState oldState;
-    public VirtualMachineFaultToleranceState newState;
+	public VirtualMachineFaultToleranceState oldState;
+	public VirtualMachineFaultToleranceState newState;
 
-    public VirtualMachineFaultToleranceState getOldState() {
-        return this.oldState;
-    }
+	public VirtualMachineFaultToleranceState getOldState() {
+		return this.oldState;
+	}
 
-    public VirtualMachineFaultToleranceState getNewState() {
-        return this.newState;
-    }
+	public VirtualMachineFaultToleranceState getNewState() {
+		return this.newState;
+	}
 
-    public void setOldState(VirtualMachineFaultToleranceState oldState) {
-        this.oldState = oldState;
-    }
+	public void setOldState(VirtualMachineFaultToleranceState oldState) {
+		this.oldState = oldState;
+	}
 
-    public void setNewState(VirtualMachineFaultToleranceState newState) {
-        this.newState = newState;
-    }
+	public void setNewState(VirtualMachineFaultToleranceState newState) {
+		this.newState = newState;
+	}
 }

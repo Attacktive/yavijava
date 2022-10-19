@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class SessionManagerHttpServiceRequestSpec extends SessionManagerServiceRequestSpec {
-    public String method;
-    public String url;
+	public String method;
+	public String url;
 
-    public String getMethod() {
-        return this.method;
-    }
+	public String getMethod() {
+		return this.method;
+	}
 
-    public String getUrl() {
-        return this.url;
-    }
+	public String getUrl() {
+		return this.url;
+	}
 
-    public void setMethod(String method) {
-        this.method = method;
-    }
+	public void setMethod(String method) {
+		this.method = method;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 }

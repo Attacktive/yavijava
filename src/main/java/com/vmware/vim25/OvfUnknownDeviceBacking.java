@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfUnknownDeviceBacking extends OvfHardwareExport {
-    public VirtualDeviceBackingInfo backing;
+	public VirtualDeviceBackingInfo backing;
 
-    public VirtualDeviceBackingInfo getBacking() {
-        return this.backing;
-    }
+	public VirtualDeviceBackingInfo getBacking() {
+		return this.backing;
+	}
 
-    public void setBacking(VirtualDeviceBackingInfo backing) {
-        this.backing = backing;
-    }
+	public void setBacking(VirtualDeviceBackingInfo backing) {
+		this.backing = backing;
+	}
 }

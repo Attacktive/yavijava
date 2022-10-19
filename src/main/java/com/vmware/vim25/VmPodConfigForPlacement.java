@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmPodConfigForPlacement extends DynamicData {
-    public ManagedObjectReference storagePod;
-    public PodDiskLocator[] disk;
-    public StorageDrsVmConfigInfo vmConfig;
-    public ClusterRuleInfo[] interVmRule;
+	public ManagedObjectReference storagePod;
+	public PodDiskLocator[] disk;
+	public StorageDrsVmConfigInfo vmConfig;
+	public ClusterRuleInfo[] interVmRule;
 
-    public ManagedObjectReference getStoragePod() {
-        return this.storagePod;
-    }
+	public ManagedObjectReference getStoragePod() {
+		return this.storagePod;
+	}
 
-    public PodDiskLocator[] getDisk() {
-        return this.disk;
-    }
+	public PodDiskLocator[] getDisk() {
+		return this.disk;
+	}
 
-    public StorageDrsVmConfigInfo getVmConfig() {
-        return this.vmConfig;
-    }
+	public StorageDrsVmConfigInfo getVmConfig() {
+		return this.vmConfig;
+	}
 
-    public ClusterRuleInfo[] getInterVmRule() {
-        return this.interVmRule;
-    }
+	public ClusterRuleInfo[] getInterVmRule() {
+		return this.interVmRule;
+	}
 
-    public void setStoragePod(ManagedObjectReference storagePod) {
-        this.storagePod = storagePod;
-    }
+	public void setStoragePod(ManagedObjectReference storagePod) {
+		this.storagePod = storagePod;
+	}
 
-    public void setDisk(PodDiskLocator[] disk) {
-        this.disk = disk;
-    }
+	public void setDisk(PodDiskLocator[] disk) {
+		this.disk = disk;
+	}
 
-    public void setVmConfig(StorageDrsVmConfigInfo vmConfig) {
-        this.vmConfig = vmConfig;
-    }
+	public void setVmConfig(StorageDrsVmConfigInfo vmConfig) {
+		this.vmConfig = vmConfig;
+	}
 
-    public void setInterVmRule(ClusterRuleInfo[] interVmRule) {
-        this.interVmRule = interVmRule;
-    }
+	public void setInterVmRule(ClusterRuleInfo[] interVmRule) {
+		this.interVmRule = interVmRule;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDrsFaultsFaultsByVirtualDisk extends ClusterDrsFaultsFaultsByVm {
-    public VirtualDiskId disk;
+	public VirtualDiskId disk;
 
-    public VirtualDiskId getDisk() {
-        return this.disk;
-    }
+	public VirtualDiskId getDisk() {
+		return this.disk;
+	}
 
-    public void setDisk(VirtualDiskId disk) {
-        this.disk = disk;
-    }
+	public void setDisk(VirtualDiskId disk) {
+		this.disk = disk;
+	}
 }

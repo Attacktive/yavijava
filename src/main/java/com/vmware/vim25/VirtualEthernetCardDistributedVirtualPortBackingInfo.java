@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualEthernetCardDistributedVirtualPortBackingInfo extends VirtualDeviceBackingInfo {
-    public DistributedVirtualSwitchPortConnection port;
+	public DistributedVirtualSwitchPortConnection port;
 
-    public DistributedVirtualSwitchPortConnection getPort() {
-        return this.port;
-    }
+	public DistributedVirtualSwitchPortConnection getPort() {
+		return this.port;
+	}
 
-    public void setPort(DistributedVirtualSwitchPortConnection port) {
-        this.port = port;
-    }
+	public void setPort(DistributedVirtualSwitchPortConnection port) {
+		this.port = port;
+	}
 }

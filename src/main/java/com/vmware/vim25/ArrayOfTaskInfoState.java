@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfTaskInfoState {
-    public TaskInfoState[] TaskInfoState;
+	public TaskInfoState[] TaskInfoState;
 
-    public TaskInfoState[] getTaskInfoState() {
-        return this.TaskInfoState;
-    }
+	public TaskInfoState[] getTaskInfoState() {
+		return this.TaskInfoState;
+	}
 
-    public TaskInfoState getTaskInfoState(int i) {
-        return this.TaskInfoState[i];
-    }
+	public TaskInfoState getTaskInfoState(int i) {
+		return this.TaskInfoState[i];
+	}
 
-    public void setTaskInfoState(TaskInfoState[] TaskInfoState) {
-        this.TaskInfoState = TaskInfoState;
-    }
+	public void setTaskInfoState(TaskInfoState[] TaskInfoState) {
+		this.TaskInfoState = TaskInfoState;
+	}
 }

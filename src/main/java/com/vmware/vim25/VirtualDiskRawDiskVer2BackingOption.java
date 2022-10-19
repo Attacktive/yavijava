@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDiskRawDiskVer2BackingOption extends VirtualDeviceDeviceBackingOption {
-    public ChoiceOption descriptorFileNameExtensions;
-    public boolean uuid;
+	public ChoiceOption descriptorFileNameExtensions;
+	public boolean uuid;
 
-    public ChoiceOption getDescriptorFileNameExtensions() {
-        return this.descriptorFileNameExtensions;
-    }
+	public ChoiceOption getDescriptorFileNameExtensions() {
+		return this.descriptorFileNameExtensions;
+	}
 
-    public boolean isUuid() {
-        return this.uuid;
-    }
+	public boolean isUuid() {
+		return this.uuid;
+	}
 
-    public void setDescriptorFileNameExtensions(ChoiceOption descriptorFileNameExtensions) {
-        this.descriptorFileNameExtensions = descriptorFileNameExtensions;
-    }
+	public void setDescriptorFileNameExtensions(ChoiceOption descriptorFileNameExtensions) {
+		this.descriptorFileNameExtensions = descriptorFileNameExtensions;
+	}
 
-    public void setUuid(boolean uuid) {
-        this.uuid = uuid;
-    }
+	public void setUuid(boolean uuid) {
+		this.uuid = uuid;
+	}
 }

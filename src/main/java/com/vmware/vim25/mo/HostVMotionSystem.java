@@ -29,9 +29,14 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.HostConfigFault;
+import com.vmware.vim25.HostIpConfig;
+import com.vmware.vim25.HostVMotionNetConfig;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.NotFound;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -42,28 +47,27 @@ import java.rmi.RemoteException;
 
 public class HostVMotionSystem extends ExtensibleManagedObject {
 
-    public HostVMotionSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostVMotionSystem(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public HostIpConfig getIpConfig() {
-        return (HostIpConfig) getCurrentProperty("ipConfig");
-    }
+	public HostIpConfig getIpConfig() {
+		return (HostIpConfig)getCurrentProperty("ipConfig");
+	}
 
-    public HostVMotionNetConfig getNetConfig() {
-        return (HostVMotionNetConfig) getCurrentProperty("netConfig");
-    }
+	public HostVMotionNetConfig getNetConfig() {
+		return (HostVMotionNetConfig)getCurrentProperty("netConfig");
+	}
 
-    public void deselectVnic() throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().deselectVnic(getMOR());
-    }
+	public void deselectVnic() throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().deselectVnic(getMOR());
+	}
 
-    public void selectVnic(String device) throws HostConfigFault, RuntimeFault, RemoteException {
-        getVimService().selectVnic(getMOR(), device);
-    }
+	public void selectVnic(String device) throws HostConfigFault, RuntimeFault, RemoteException {
+		getVimService().selectVnic(getMOR(), device);
+	}
 
-    public void updateIpConfig(HostIpConfig ipConfig) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
-        getVimService().updateIpConfig(getMOR(), ipConfig);
-    }
-
+	public void updateIpConfig(HostIpConfig ipConfig) throws HostConfigFault, NotFound, RuntimeFault, RemoteException {
+		getVimService().updateIpConfig(getMOR(), ipConfig);
+	}
 }

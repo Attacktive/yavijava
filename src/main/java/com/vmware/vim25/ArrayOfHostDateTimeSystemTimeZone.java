@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostDateTimeSystemTimeZone {
-    public HostDateTimeSystemTimeZone[] HostDateTimeSystemTimeZone;
+	public HostDateTimeSystemTimeZone[] HostDateTimeSystemTimeZone;
 
-    public HostDateTimeSystemTimeZone[] getHostDateTimeSystemTimeZone() {
-        return this.HostDateTimeSystemTimeZone;
-    }
+	public HostDateTimeSystemTimeZone[] getHostDateTimeSystemTimeZone() {
+		return this.HostDateTimeSystemTimeZone;
+	}
 
-    public HostDateTimeSystemTimeZone getHostDateTimeSystemTimeZone(int i) {
-        return this.HostDateTimeSystemTimeZone[i];
-    }
+	public HostDateTimeSystemTimeZone getHostDateTimeSystemTimeZone(int i) {
+		return this.HostDateTimeSystemTimeZone[i];
+	}
 
-    public void setHostDateTimeSystemTimeZone(HostDateTimeSystemTimeZone[] HostDateTimeSystemTimeZone) {
-        this.HostDateTimeSystemTimeZone = HostDateTimeSystemTimeZone;
-    }
+	public void setHostDateTimeSystemTimeZone(HostDateTimeSystemTimeZone[] HostDateTimeSystemTimeZone) {
+		this.HostDateTimeSystemTimeZone = HostDateTimeSystemTimeZone;
+	}
 }

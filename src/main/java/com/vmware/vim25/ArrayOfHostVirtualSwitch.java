@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostVirtualSwitch {
-    public HostVirtualSwitch[] HostVirtualSwitch;
+	public HostVirtualSwitch[] HostVirtualSwitch;
 
-    public HostVirtualSwitch[] getHostVirtualSwitch() {
-        return this.HostVirtualSwitch;
-    }
+	public HostVirtualSwitch[] getHostVirtualSwitch() {
+		return this.HostVirtualSwitch;
+	}
 
-    public HostVirtualSwitch getHostVirtualSwitch(int i) {
-        return this.HostVirtualSwitch[i];
-    }
+	public HostVirtualSwitch getHostVirtualSwitch(int i) {
+		return this.HostVirtualSwitch[i];
+	}
 
-    public void setHostVirtualSwitch(HostVirtualSwitch[] HostVirtualSwitch) {
-        this.HostVirtualSwitch = HostVirtualSwitch;
-    }
+	public void setHostVirtualSwitch(HostVirtualSwitch[] HostVirtualSwitch) {
+		this.HostVirtualSwitch = HostVirtualSwitch;
+	}
 }

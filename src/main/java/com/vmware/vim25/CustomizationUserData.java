@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationUserData extends DynamicData {
-    public String fullName;
-    public String orgName;
-    public CustomizationName computerName;
-    public String productId;
+	public String fullName;
+	public String orgName;
+	public CustomizationName computerName;
+	public String productId;
 
-    public String getFullName() {
-        return this.fullName;
-    }
+	public String getFullName() {
+		return this.fullName;
+	}
 
-    public String getOrgName() {
-        return this.orgName;
-    }
+	public String getOrgName() {
+		return this.orgName;
+	}
 
-    public CustomizationName getComputerName() {
-        return this.computerName;
-    }
+	public CustomizationName getComputerName() {
+		return this.computerName;
+	}
 
-    public String getProductId() {
-        return this.productId;
-    }
+	public String getProductId() {
+		return this.productId;
+	}
 
-    public void setFullName(String fullName) {
-        this.fullName = fullName;
-    }
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
 
-    public void setOrgName(String orgName) {
-        this.orgName = orgName;
-    }
+	public void setOrgName(String orgName) {
+		this.orgName = orgName;
+	}
 
-    public void setComputerName(CustomizationName computerName) {
-        this.computerName = computerName;
-    }
+	public void setComputerName(CustomizationName computerName) {
+		this.computerName = computerName;
+	}
 
-    public void setProductId(String productId) {
-        this.productId = productId;
-    }
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
 }

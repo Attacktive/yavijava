@@ -50,98 +50,92 @@ import org.apache.log4j.Logger;
 
 class ManagedObjectWatcher extends Observable implements Runnable {
 
-    /**
-     * PropertyCollector
-     */
-    private PropertyCollector pc;
-    /**
-     * Vector containing PropertyFilters
-     */
-    private Vector<PropertyFilter> filters = new Vector<PropertyFilter>();
-    /**
-     * Version
-     */
-    private String version = "";
-    /**
-     * Logger
-     */
-    private static Logger log = Logger.getLogger(ManagedObjectWatcher.class);
+	/**
+	 * PropertyCollector
+	 */
+	private PropertyCollector pc;
+	/**
+	 * Vector containing PropertyFilters
+	 */
+	private Vector<PropertyFilter> filters = new Vector<PropertyFilter>();
+	/**
+	 * Version
+	 */
+	private String version = "";
+	/**
+	 * Logger
+	 */
+	private static Logger log = Logger.getLogger(ManagedObjectWatcher.class);
 
-    public ManagedObjectWatcher(PropertyCollector pc) {
-        this.pc = pc;
-    }
+	public ManagedObjectWatcher(PropertyCollector pc) {
+		this.pc = pc;
+	}
 
-    /**
-     *
-     * @param mos
-     * @param propNames
-     */
-    public void watch(ManagedObject[] mos, String[] propNames) {
-        PropertyFilterSpec pfs = new PropertyFilterSpec();
+	/**
+	 * @param mos
+	 * @param propNames
+	 */
+	public void watch(ManagedObject[] mos, String[] propNames) {
+		PropertyFilterSpec pfs = new PropertyFilterSpec();
 
-        ObjectSpec[] oss = new ObjectSpec[mos.length];
-        for (int i = 0; i < oss.length; i++) {
-            oss[i] = new ObjectSpec();
-            oss[i].setObj(mos[i].getMOR());
-        }
-        pfs.setObjectSet(oss);
+		ObjectSpec[] oss = new ObjectSpec[mos.length];
+		for (int i = 0; i < oss.length; i++) {
+			oss[i] = new ObjectSpec();
+			oss[i].setObj(mos[i].getMOR());
+		}
+		pfs.setObjectSet(oss);
 
-        PropertySpec ps = new PropertySpec();
-        ps.setType(mos[0].getMOR().getType());
-        ps.setPathSet(propNames);
-        pfs.setPropSet(new PropertySpec[]{ps});
+		PropertySpec ps = new PropertySpec();
+		ps.setType(mos[0].getMOR().getType());
+		ps.setPathSet(propNames);
+		pfs.setPropSet(new PropertySpec[] { ps });
 
-        watch(pfs);
-    }
+		watch(pfs);
+	}
 
-    /**
-     *
-     * @param pfs
-     */
-    public void watch(PropertyFilterSpec pfs) {
-        try {
-            PropertyFilter pf = pc.createFilter(pfs, true); //report only nesting properties, not enclosing ones.
-            filters.add(pf);
-        }
-        catch (RemoteException re) {
-            log.error("RemoteException caught trying to watch on a PropertyFilterSpec", re);
-            throw new RuntimeException(re);
-        }
-    }
+	/**
+	 * @param pfs
+	 */
+	public void watch(PropertyFilterSpec pfs) {
+		try {
+			PropertyFilter pf = pc.createFilter(pfs, true); //report only nesting properties, not enclosing ones.
+			filters.add(pf);
+		} catch (RemoteException re) {
+			log.error("RemoteException caught trying to watch on a PropertyFilterSpec", re);
+			throw new RuntimeException(re);
+		}
+	}
 
-    /**
-     *
-     */
-    public void run() {
-        while (true) {
-            try {
-                UpdateSet update = pc.waitForUpdates(version);
-                PropertyFilterUpdate[] pfu = update.getFilterSet();
-                this.setChanged();
-                this.notifyObservers(pfu);
-                version = update.getVersion();
-            }
-            catch (NotAuthenticated na) {
-                log.error("NotAuthenticated Exception caught.", na);
-                break;
-            }
-            catch (Exception e) {
-                log.error("Generic Exception caught in run block of ManagedObjectWatcher.", e);
-            }
-        }
-    }
+	/**
+	 *
+	 */
+	public void run() {
+		while (true) {
+			try {
+				UpdateSet update = pc.waitForUpdates(version);
+				PropertyFilterUpdate[] pfu = update.getFilterSet();
+				this.setChanged();
+				this.notifyObservers(pfu);
+				version = update.getVersion();
+			} catch (NotAuthenticated na) {
+				log.error("NotAuthenticated Exception caught.", na);
+				break;
+			} catch (Exception e) {
+				log.error("Generic Exception caught in run block of ManagedObjectWatcher.", e);
+			}
+		}
+	}
 
-    /**
-     *
-     */
-    public void cleanUp() {
-        for (PropertyFilter filter : filters) {
-            try {
-                filter.destroyPropertyFilter();
-            }
-            catch (RemoteException e) {
-                log.error("RemoteException caught in cleanUp", e);
-            }
-        }
-    }
+	/**
+	 *
+	 */
+	public void cleanUp() {
+		for (PropertyFilter filter : filters) {
+			try {
+				filter.destroyPropertyFilter();
+			} catch (RemoteException e) {
+				log.error("RemoteException caught in cleanUp", e);
+			}
+		}
+	}
 }

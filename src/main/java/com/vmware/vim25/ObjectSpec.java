@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ObjectSpec extends DynamicData {
-    public ManagedObjectReference obj;
-    public Boolean skip;
-    public SelectionSpec[] selectSet;
+	public ManagedObjectReference obj;
+	public Boolean skip;
+	public SelectionSpec[] selectSet;
 
-    public ManagedObjectReference getObj() {
-        return this.obj;
-    }
+	public ManagedObjectReference getObj() {
+		return this.obj;
+	}
 
-    public Boolean getSkip() {
-        return this.skip;
-    }
+	public Boolean getSkip() {
+		return this.skip;
+	}
 
-    public SelectionSpec[] getSelectSet() {
-        return this.selectSet;
-    }
+	public SelectionSpec[] getSelectSet() {
+		return this.selectSet;
+	}
 
-    public void setObj(ManagedObjectReference obj) {
-        this.obj = obj;
-    }
+	public void setObj(ManagedObjectReference obj) {
+		this.obj = obj;
+	}
 
-    public void setSkip(Boolean skip) {
-        this.skip = skip;
-    }
+	public void setSkip(Boolean skip) {
+		this.skip = skip;
+	}
 
-    public void setSelectSet(SelectionSpec[] selectSet) {
-        this.selectSet = selectSet;
-    }
+	public void setSelectSet(SelectionSpec[] selectSet) {
+		this.selectSet = selectSet;
+	}
 }

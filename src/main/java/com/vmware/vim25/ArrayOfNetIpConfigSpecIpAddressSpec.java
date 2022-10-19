@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfNetIpConfigSpecIpAddressSpec {
-    public NetIpConfigSpecIpAddressSpec[] NetIpConfigSpecIpAddressSpec;
+	public NetIpConfigSpecIpAddressSpec[] NetIpConfigSpecIpAddressSpec;
 
-    public NetIpConfigSpecIpAddressSpec[] getNetIpConfigSpecIpAddressSpec() {
-        return this.NetIpConfigSpecIpAddressSpec;
-    }
+	public NetIpConfigSpecIpAddressSpec[] getNetIpConfigSpecIpAddressSpec() {
+		return this.NetIpConfigSpecIpAddressSpec;
+	}
 
-    public NetIpConfigSpecIpAddressSpec getNetIpConfigSpecIpAddressSpec(int i) {
-        return this.NetIpConfigSpecIpAddressSpec[i];
-    }
+	public NetIpConfigSpecIpAddressSpec getNetIpConfigSpecIpAddressSpec(int i) {
+		return this.NetIpConfigSpecIpAddressSpec[i];
+	}
 
-    public void setNetIpConfigSpecIpAddressSpec(NetIpConfigSpecIpAddressSpec[] NetIpConfigSpecIpAddressSpec) {
-        this.NetIpConfigSpecIpAddressSpec = NetIpConfigSpecIpAddressSpec;
-    }
+	public void setNetIpConfigSpecIpAddressSpec(NetIpConfigSpecIpAddressSpec[] NetIpConfigSpecIpAddressSpec) {
+		this.NetIpConfigSpecIpAddressSpec = NetIpConfigSpecIpAddressSpec;
+	}
 }

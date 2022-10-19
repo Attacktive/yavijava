@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ServiceConsolePortGroupProfile extends PortGroupProfile {
-    public IpAddressProfile ipConfig;
+	public IpAddressProfile ipConfig;
 
-    public IpAddressProfile getIpConfig() {
-        return this.ipConfig;
-    }
+	public IpAddressProfile getIpConfig() {
+		return this.ipConfig;
+	}
 
-    public void setIpConfig(IpAddressProfile ipConfig) {
-        this.ipConfig = ipConfig;
-    }
+	public void setIpConfig(IpAddressProfile ipConfig) {
+		this.ipConfig = ipConfig;
+	}
 }

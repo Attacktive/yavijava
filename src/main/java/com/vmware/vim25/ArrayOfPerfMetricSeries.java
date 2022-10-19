@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPerfMetricSeries {
-    public PerfMetricSeries[] PerfMetricSeries;
+	public PerfMetricSeries[] PerfMetricSeries;
 
-    public PerfMetricSeries[] getPerfMetricSeries() {
-        return this.PerfMetricSeries;
-    }
+	public PerfMetricSeries[] getPerfMetricSeries() {
+		return this.PerfMetricSeries;
+	}
 
-    public PerfMetricSeries getPerfMetricSeries(int i) {
-        return this.PerfMetricSeries[i];
-    }
+	public PerfMetricSeries getPerfMetricSeries(int i) {
+		return this.PerfMetricSeries[i];
+	}
 
-    public void setPerfMetricSeries(PerfMetricSeries[] PerfMetricSeries) {
-        this.PerfMetricSeries = PerfMetricSeries;
-    }
+	public void setPerfMetricSeries(PerfMetricSeries[] PerfMetricSeries) {
+		this.PerfMetricSeries = PerfMetricSeries;
+	}
 }

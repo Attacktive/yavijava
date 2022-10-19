@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineUsageOnDatastore {
-    public VirtualMachineUsageOnDatastore[] VirtualMachineUsageOnDatastore;
+	public VirtualMachineUsageOnDatastore[] VirtualMachineUsageOnDatastore;
 
-    public VirtualMachineUsageOnDatastore[] getVirtualMachineUsageOnDatastore() {
-        return this.VirtualMachineUsageOnDatastore;
-    }
+	public VirtualMachineUsageOnDatastore[] getVirtualMachineUsageOnDatastore() {
+		return this.VirtualMachineUsageOnDatastore;
+	}
 
-    public VirtualMachineUsageOnDatastore getVirtualMachineUsageOnDatastore(int i) {
-        return this.VirtualMachineUsageOnDatastore[i];
-    }
+	public VirtualMachineUsageOnDatastore getVirtualMachineUsageOnDatastore(int i) {
+		return this.VirtualMachineUsageOnDatastore[i];
+	}
 
-    public void setVirtualMachineUsageOnDatastore(VirtualMachineUsageOnDatastore[] VirtualMachineUsageOnDatastore) {
-        this.VirtualMachineUsageOnDatastore = VirtualMachineUsageOnDatastore;
-    }
+	public void setVirtualMachineUsageOnDatastore(VirtualMachineUsageOnDatastore[] VirtualMachineUsageOnDatastore) {
+		this.VirtualMachineUsageOnDatastore = VirtualMachineUsageOnDatastore;
+	}
 }

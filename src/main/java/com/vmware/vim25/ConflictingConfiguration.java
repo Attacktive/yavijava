@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ConflictingConfiguration extends DvsFault {
-    public ConflictingConfigurationConfig[] configInConflict;
+	public ConflictingConfigurationConfig[] configInConflict;
 
-    public ConflictingConfigurationConfig[] getConfigInConflict() {
-        return this.configInConflict;
-    }
+	public ConflictingConfigurationConfig[] getConfigInConflict() {
+		return this.configInConflict;
+	}
 
-    public void setConfigInConflict(ConflictingConfigurationConfig[] configInConflict) {
-        this.configInConflict = configInConflict;
-    }
+	public void setConfigInConflict(ConflictingConfigurationConfig[] configInConflict) {
+		this.configInConflict = configInConflict;
+	}
 }

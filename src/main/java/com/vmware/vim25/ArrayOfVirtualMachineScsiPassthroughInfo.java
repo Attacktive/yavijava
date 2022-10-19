@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineScsiPassthroughInfo {
-    public VirtualMachineScsiPassthroughInfo[] VirtualMachineScsiPassthroughInfo;
+	public VirtualMachineScsiPassthroughInfo[] VirtualMachineScsiPassthroughInfo;
 
-    public VirtualMachineScsiPassthroughInfo[] getVirtualMachineScsiPassthroughInfo() {
-        return this.VirtualMachineScsiPassthroughInfo;
-    }
+	public VirtualMachineScsiPassthroughInfo[] getVirtualMachineScsiPassthroughInfo() {
+		return this.VirtualMachineScsiPassthroughInfo;
+	}
 
-    public VirtualMachineScsiPassthroughInfo getVirtualMachineScsiPassthroughInfo(int i) {
-        return this.VirtualMachineScsiPassthroughInfo[i];
-    }
+	public VirtualMachineScsiPassthroughInfo getVirtualMachineScsiPassthroughInfo(int i) {
+		return this.VirtualMachineScsiPassthroughInfo[i];
+	}
 
-    public void setVirtualMachineScsiPassthroughInfo(VirtualMachineScsiPassthroughInfo[] VirtualMachineScsiPassthroughInfo) {
-        this.VirtualMachineScsiPassthroughInfo = VirtualMachineScsiPassthroughInfo;
-    }
+	public void setVirtualMachineScsiPassthroughInfo(VirtualMachineScsiPassthroughInfo[] VirtualMachineScsiPassthroughInfo) {
+		this.VirtualMachineScsiPassthroughInfo = VirtualMachineScsiPassthroughInfo;
+	}
 }

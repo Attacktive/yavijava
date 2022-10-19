@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmMacAssignedEvent extends VmEvent {
-    public String adapter;
-    public String mac;
+	public String adapter;
+	public String mac;
 
-    public String getAdapter() {
-        return this.adapter;
-    }
+	public String getAdapter() {
+		return this.adapter;
+	}
 
-    public String getMac() {
-        return this.mac;
-    }
+	public String getMac() {
+		return this.mac;
+	}
 
-    public void setAdapter(String adapter) {
-        this.adapter = adapter;
-    }
+	public void setAdapter(String adapter) {
+		this.adapter = adapter;
+	}
 
-    public void setMac(String mac) {
-        this.mac = mac;
-    }
+	public void setMac(String mac) {
+		this.mac = mac;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDiskCompatibilityMode {
-    virtualMode("virtualMode"),
-    physicalMode("physicalMode");
+	virtualMode("virtualMode"),
+	physicalMode("physicalMode");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDiskCompatibilityMode(String val) {
-        this.val = val;
-    }
+	private VirtualDiskCompatibilityMode(String val) {
+		this.val = val;
+	}
 }

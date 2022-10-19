@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileReferenceHostChangedEvent extends ProfileEvent {
-    public ManagedObjectReference referenceHost;
+	public ManagedObjectReference referenceHost;
 
-    public ManagedObjectReference getReferenceHost() {
-        return this.referenceHost;
-    }
+	public ManagedObjectReference getReferenceHost() {
+		return this.referenceHost;
+	}
 
-    public void setReferenceHost(ManagedObjectReference referenceHost) {
-        this.referenceHost = referenceHost;
-    }
+	public void setReferenceHost(ManagedObjectReference referenceHost) {
+		this.referenceHost = referenceHost;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPropertyChange {
-    public PropertyChange[] PropertyChange;
+	public PropertyChange[] PropertyChange;
 
-    public PropertyChange[] getPropertyChange() {
-        return this.PropertyChange;
-    }
+	public PropertyChange[] getPropertyChange() {
+		return this.PropertyChange;
+	}
 
-    public PropertyChange getPropertyChange(int i) {
-        return this.PropertyChange[i];
-    }
+	public PropertyChange getPropertyChange(int i) {
+		return this.PropertyChange[i];
+	}
 
-    public void setPropertyChange(PropertyChange[] PropertyChange) {
-        this.PropertyChange = PropertyChange;
-    }
+	public void setPropertyChange(PropertyChange[] PropertyChange) {
+		this.PropertyChange = PropertyChange;
+	}
 }

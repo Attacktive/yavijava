@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterConfigSpec extends DynamicData {
-    public ClusterDasConfigInfo dasConfig;
-    public ClusterDasVmConfigSpec[] dasVmConfigSpec;
-    public ClusterDrsConfigInfo drsConfig;
-    public ClusterDrsVmConfigSpec[] drsVmConfigSpec;
-    public ClusterRuleSpec[] rulesSpec;
+	public ClusterDasConfigInfo dasConfig;
+	public ClusterDasVmConfigSpec[] dasVmConfigSpec;
+	public ClusterDrsConfigInfo drsConfig;
+	public ClusterDrsVmConfigSpec[] drsVmConfigSpec;
+	public ClusterRuleSpec[] rulesSpec;
 
-    public ClusterDasConfigInfo getDasConfig() {
-        return this.dasConfig;
-    }
+	public ClusterDasConfigInfo getDasConfig() {
+		return this.dasConfig;
+	}
 
-    public ClusterDasVmConfigSpec[] getDasVmConfigSpec() {
-        return this.dasVmConfigSpec;
-    }
+	public ClusterDasVmConfigSpec[] getDasVmConfigSpec() {
+		return this.dasVmConfigSpec;
+	}
 
-    public ClusterDrsConfigInfo getDrsConfig() {
-        return this.drsConfig;
-    }
+	public ClusterDrsConfigInfo getDrsConfig() {
+		return this.drsConfig;
+	}
 
-    public ClusterDrsVmConfigSpec[] getDrsVmConfigSpec() {
-        return this.drsVmConfigSpec;
-    }
+	public ClusterDrsVmConfigSpec[] getDrsVmConfigSpec() {
+		return this.drsVmConfigSpec;
+	}
 
-    public ClusterRuleSpec[] getRulesSpec() {
-        return this.rulesSpec;
-    }
+	public ClusterRuleSpec[] getRulesSpec() {
+		return this.rulesSpec;
+	}
 
-    public void setDasConfig(ClusterDasConfigInfo dasConfig) {
-        this.dasConfig = dasConfig;
-    }
+	public void setDasConfig(ClusterDasConfigInfo dasConfig) {
+		this.dasConfig = dasConfig;
+	}
 
-    public void setDasVmConfigSpec(ClusterDasVmConfigSpec[] dasVmConfigSpec) {
-        this.dasVmConfigSpec = dasVmConfigSpec;
-    }
+	public void setDasVmConfigSpec(ClusterDasVmConfigSpec[] dasVmConfigSpec) {
+		this.dasVmConfigSpec = dasVmConfigSpec;
+	}
 
-    public void setDrsConfig(ClusterDrsConfigInfo drsConfig) {
-        this.drsConfig = drsConfig;
-    }
+	public void setDrsConfig(ClusterDrsConfigInfo drsConfig) {
+		this.drsConfig = drsConfig;
+	}
 
-    public void setDrsVmConfigSpec(ClusterDrsVmConfigSpec[] drsVmConfigSpec) {
-        this.drsVmConfigSpec = drsVmConfigSpec;
-    }
+	public void setDrsVmConfigSpec(ClusterDrsVmConfigSpec[] drsVmConfigSpec) {
+		this.drsVmConfigSpec = drsVmConfigSpec;
+	}
 
-    public void setRulesSpec(ClusterRuleSpec[] rulesSpec) {
-        this.rulesSpec = rulesSpec;
-    }
+	public void setRulesSpec(ClusterRuleSpec[] rulesSpec) {
+		this.rulesSpec = rulesSpec;
+	}
 }

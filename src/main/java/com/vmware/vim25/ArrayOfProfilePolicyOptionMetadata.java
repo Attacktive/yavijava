@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfilePolicyOptionMetadata {
-    public ProfilePolicyOptionMetadata[] ProfilePolicyOptionMetadata;
+	public ProfilePolicyOptionMetadata[] ProfilePolicyOptionMetadata;
 
-    public ProfilePolicyOptionMetadata[] getProfilePolicyOptionMetadata() {
-        return this.ProfilePolicyOptionMetadata;
-    }
+	public ProfilePolicyOptionMetadata[] getProfilePolicyOptionMetadata() {
+		return this.ProfilePolicyOptionMetadata;
+	}
 
-    public ProfilePolicyOptionMetadata getProfilePolicyOptionMetadata(int i) {
-        return this.ProfilePolicyOptionMetadata[i];
-    }
+	public ProfilePolicyOptionMetadata getProfilePolicyOptionMetadata(int i) {
+		return this.ProfilePolicyOptionMetadata[i];
+	}
 
-    public void setProfilePolicyOptionMetadata(ProfilePolicyOptionMetadata[] ProfilePolicyOptionMetadata) {
-        this.ProfilePolicyOptionMetadata = ProfilePolicyOptionMetadata;
-    }
+	public void setProfilePolicyOptionMetadata(ProfilePolicyOptionMetadata[] ProfilePolicyOptionMetadata) {
+		this.ProfilePolicyOptionMetadata = ProfilePolicyOptionMetadata;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum WillLoseHAProtectionResolution {
-    svmotion("svmotion"),
-    relocate("relocate");
+	svmotion("svmotion"),
+	relocate("relocate");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private WillLoseHAProtectionResolution(String val) {
-        this.val = val;
-    }
+	private WillLoseHAProtectionResolution(String val) {
+		this.val = val;
+	}
 }

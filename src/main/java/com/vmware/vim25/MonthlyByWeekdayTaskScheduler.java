@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MonthlyByWeekdayTaskScheduler extends MonthlyTaskScheduler {
-    public WeekOfMonth offset;
-    public DayOfWeek weekday;
+	public WeekOfMonth offset;
+	public DayOfWeek weekday;
 
-    public WeekOfMonth getOffset() {
-        return this.offset;
-    }
+	public WeekOfMonth getOffset() {
+		return this.offset;
+	}
 
-    public DayOfWeek getWeekday() {
-        return this.weekday;
-    }
+	public DayOfWeek getWeekday() {
+		return this.weekday;
+	}
 
-    public void setOffset(WeekOfMonth offset) {
-        this.offset = offset;
-    }
+	public void setOffset(WeekOfMonth offset) {
+		this.offset = offset;
+	}
 
-    public void setWeekday(DayOfWeek weekday) {
-        this.weekday = weekday;
-    }
+	public void setWeekday(DayOfWeek weekday) {
+		this.weekday = weekday;
+	}
 }

@@ -29,9 +29,13 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.AlreadyExists;
+import com.vmware.vim25.HostAccountSpec;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.UserNotFound;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -41,36 +45,35 @@ import java.rmi.RemoteException;
 
 public class HostLocalAccountManager extends ManagedObject {
 
-    public HostLocalAccountManager(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HostLocalAccountManager(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public void assignUserToGroup(String user, String group) throws AlreadyExists, UserNotFound, RuntimeFault, RemoteException {
-        getVimService().assignUserToGroup(getMOR(), user, group);
-    }
+	public void assignUserToGroup(String user, String group) throws AlreadyExists, UserNotFound, RuntimeFault, RemoteException {
+		getVimService().assignUserToGroup(getMOR(), user, group);
+	}
 
-    public void createGroup(HostAccountSpec group) throws AlreadyExists, RuntimeFault, RemoteException {
-        getVimService().createGroup(getMOR(), group);
-    }
+	public void createGroup(HostAccountSpec group) throws AlreadyExists, RuntimeFault, RemoteException {
+		getVimService().createGroup(getMOR(), group);
+	}
 
-    public void createUser(HostAccountSpec user) throws AlreadyExists, RuntimeFault, RemoteException {
-        getVimService().createUser(getMOR(), user);
-    }
+	public void createUser(HostAccountSpec user) throws AlreadyExists, RuntimeFault, RemoteException {
+		getVimService().createUser(getMOR(), user);
+	}
 
-    public void removeGroup(String groupName) throws UserNotFound, RuntimeFault, RemoteException {
-        getVimService().removeGroup(getMOR(), groupName);
-    }
+	public void removeGroup(String groupName) throws UserNotFound, RuntimeFault, RemoteException {
+		getVimService().removeGroup(getMOR(), groupName);
+	}
 
-    public void removeUser(String userName) throws UserNotFound, RuntimeFault, RemoteException {
-        getVimService().removeUser(getMOR(), userName);
-    }
+	public void removeUser(String userName) throws UserNotFound, RuntimeFault, RemoteException {
+		getVimService().removeUser(getMOR(), userName);
+	}
 
-    public void unassignUserFromGroup(String user, String group) throws UserNotFound, RuntimeFault, RemoteException {
-        getVimService().unassignUserFromGroup(getMOR(), user, group);
-    }
+	public void unassignUserFromGroup(String user, String group) throws UserNotFound, RuntimeFault, RemoteException {
+		getVimService().unassignUserFromGroup(getMOR(), user, group);
+	}
 
-    public void updateUser(HostAccountSpec user) throws AlreadyExists, UserNotFound, RuntimeFault, RemoteException {
-        getVimService().updateUser(getMOR(), user);
-    }
-
+	public void updateUser(HostAccountSpec user) throws AlreadyExists, UserNotFound, RuntimeFault, RemoteException {
+		getVimService().updateUser(getMOR(), user);
+	}
 }

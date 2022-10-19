@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDistributedVirtualSwitchManagerCompatibilityResult {
-    public DistributedVirtualSwitchManagerCompatibilityResult[] DistributedVirtualSwitchManagerCompatibilityResult;
+	public DistributedVirtualSwitchManagerCompatibilityResult[] DistributedVirtualSwitchManagerCompatibilityResult;
 
-    public DistributedVirtualSwitchManagerCompatibilityResult[] getDistributedVirtualSwitchManagerCompatibilityResult() {
-        return this.DistributedVirtualSwitchManagerCompatibilityResult;
-    }
+	public DistributedVirtualSwitchManagerCompatibilityResult[] getDistributedVirtualSwitchManagerCompatibilityResult() {
+		return this.DistributedVirtualSwitchManagerCompatibilityResult;
+	}
 
-    public DistributedVirtualSwitchManagerCompatibilityResult getDistributedVirtualSwitchManagerCompatibilityResult(int i) {
-        return this.DistributedVirtualSwitchManagerCompatibilityResult[i];
-    }
+	public DistributedVirtualSwitchManagerCompatibilityResult getDistributedVirtualSwitchManagerCompatibilityResult(int i) {
+		return this.DistributedVirtualSwitchManagerCompatibilityResult[i];
+	}
 
-    public void setDistributedVirtualSwitchManagerCompatibilityResult(DistributedVirtualSwitchManagerCompatibilityResult[] DistributedVirtualSwitchManagerCompatibilityResult) {
-        this.DistributedVirtualSwitchManagerCompatibilityResult = DistributedVirtualSwitchManagerCompatibilityResult;
-    }
+	public void setDistributedVirtualSwitchManagerCompatibilityResult(DistributedVirtualSwitchManagerCompatibilityResult[] DistributedVirtualSwitchManagerCompatibilityResult) {
+		this.DistributedVirtualSwitchManagerCompatibilityResult = DistributedVirtualSwitchManagerCompatibilityResult;
+	}
 }

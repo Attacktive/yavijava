@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDatastoreBrowserSearchResults extends DynamicData {
-    public ManagedObjectReference datastore;
-    public String folderPath;
-    public FileInfo[] file;
+	public ManagedObjectReference datastore;
+	public String folderPath;
+	public FileInfo[] file;
 
-    public ManagedObjectReference getDatastore() {
-        return this.datastore;
-    }
+	public ManagedObjectReference getDatastore() {
+		return this.datastore;
+	}
 
-    public String getFolderPath() {
-        return this.folderPath;
-    }
+	public String getFolderPath() {
+		return this.folderPath;
+	}
 
-    public FileInfo[] getFile() {
-        return this.file;
-    }
+	public FileInfo[] getFile() {
+		return this.file;
+	}
 
-    public void setDatastore(ManagedObjectReference datastore) {
-        this.datastore = datastore;
-    }
+	public void setDatastore(ManagedObjectReference datastore) {
+		this.datastore = datastore;
+	}
 
-    public void setFolderPath(String folderPath) {
-        this.folderPath = folderPath;
-    }
+	public void setFolderPath(String folderPath) {
+		this.folderPath = folderPath;
+	}
 
-    public void setFile(FileInfo[] file) {
-        this.file = file;
-    }
+	public void setFile(FileInfo[] file) {
+		this.file = file;
+	}
 }

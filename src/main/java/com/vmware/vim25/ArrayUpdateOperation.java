@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ArrayUpdateOperation {
-    add("add"),
-    remove("remove"),
-    edit("edit");
+	add("add"),
+	remove("remove"),
+	edit("edit");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ArrayUpdateOperation(String val) {
-        this.val = val;
-    }
+	private ArrayUpdateOperation(String val) {
+		this.val = val;
+	}
 }

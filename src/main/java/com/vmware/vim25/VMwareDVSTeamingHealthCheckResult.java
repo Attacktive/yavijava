@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDVSTeamingHealthCheckResult extends HostMemberHealthCheckResult {
-    public String teamingStatus;
+	public String teamingStatus;
 
-    public String getTeamingStatus() {
-        return this.teamingStatus;
-    }
+	public String getTeamingStatus() {
+		return this.teamingStatus;
+	}
 
-    public void setTeamingStatus(String teamingStatus) {
-        this.teamingStatus = teamingStatus;
-    }
+	public void setTeamingStatus(String teamingStatus) {
+		this.teamingStatus = teamingStatus;
+	}
 }

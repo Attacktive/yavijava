@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VAppProductSpec extends ArrayUpdateSpec {
-    public VAppProductInfo info;
+	public VAppProductInfo info;
 
-    public VAppProductInfo getInfo() {
-        return this.info;
-    }
+	public VAppProductInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(VAppProductInfo info) {
-        this.info = info;
-    }
+	public void setInfo(VAppProductInfo info) {
+		this.info = info;
+	}
 }

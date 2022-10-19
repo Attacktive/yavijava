@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVnicPortArgument {
-    public VnicPortArgument[] VnicPortArgument;
+	public VnicPortArgument[] VnicPortArgument;
 
-    public VnicPortArgument[] getVnicPortArgument() {
-        return this.VnicPortArgument;
-    }
+	public VnicPortArgument[] getVnicPortArgument() {
+		return this.VnicPortArgument;
+	}
 
-    public VnicPortArgument getVnicPortArgument(int i) {
-        return this.VnicPortArgument[i];
-    }
+	public VnicPortArgument getVnicPortArgument(int i) {
+		return this.VnicPortArgument[i];
+	}
 
-    public void setVnicPortArgument(VnicPortArgument[] VnicPortArgument) {
-        this.VnicPortArgument = VnicPortArgument;
-    }
+	public void setVnicPortArgument(VnicPortArgument[] VnicPortArgument) {
+		this.VnicPortArgument = VnicPortArgument;
+	}
 }

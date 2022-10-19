@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVsanHostRuntimeInfoDiskIssue {
-    public VsanHostRuntimeInfoDiskIssue[] VsanHostRuntimeInfoDiskIssue;
+	public VsanHostRuntimeInfoDiskIssue[] VsanHostRuntimeInfoDiskIssue;
 
-    public VsanHostRuntimeInfoDiskIssue[] getVsanHostRuntimeInfoDiskIssue() {
-        return this.VsanHostRuntimeInfoDiskIssue;
-    }
+	public VsanHostRuntimeInfoDiskIssue[] getVsanHostRuntimeInfoDiskIssue() {
+		return this.VsanHostRuntimeInfoDiskIssue;
+	}
 
-    public VsanHostRuntimeInfoDiskIssue getVsanHostRuntimeInfoDiskIssue(int i) {
-        return this.VsanHostRuntimeInfoDiskIssue[i];
-    }
+	public VsanHostRuntimeInfoDiskIssue getVsanHostRuntimeInfoDiskIssue(int i) {
+		return this.VsanHostRuntimeInfoDiskIssue[i];
+	}
 
-    public void setVsanHostRuntimeInfoDiskIssue(VsanHostRuntimeInfoDiskIssue[] VsanHostRuntimeInfoDiskIssue) {
-        this.VsanHostRuntimeInfoDiskIssue = VsanHostRuntimeInfoDiskIssue;
-    }
+	public void setVsanHostRuntimeInfoDiskIssue(VsanHostRuntimeInfoDiskIssue[] VsanHostRuntimeInfoDiskIssue) {
+		this.VsanHostRuntimeInfoDiskIssue = VsanHostRuntimeInfoDiskIssue;
+	}
 }

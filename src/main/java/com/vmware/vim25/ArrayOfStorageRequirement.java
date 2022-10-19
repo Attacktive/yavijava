@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfStorageRequirement {
-    public StorageRequirement[] StorageRequirement;
+	public StorageRequirement[] StorageRequirement;
 
-    public StorageRequirement[] getStorageRequirement() {
-        return this.StorageRequirement;
-    }
+	public StorageRequirement[] getStorageRequirement() {
+		return this.StorageRequirement;
+	}
 
-    public StorageRequirement getStorageRequirement(int i) {
-        return this.StorageRequirement[i];
-    }
+	public StorageRequirement getStorageRequirement(int i) {
+		return this.StorageRequirement[i];
+	}
 
-    public void setStorageRequirement(StorageRequirement[] StorageRequirement) {
-        this.StorageRequirement = StorageRequirement;
-    }
+	public void setStorageRequirement(StorageRequirement[] StorageRequirement) {
+		this.StorageRequirement = StorageRequirement;
+	}
 }

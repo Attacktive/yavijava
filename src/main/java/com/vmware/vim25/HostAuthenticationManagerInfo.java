@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostAuthenticationManagerInfo extends DynamicData {
-    public HostAuthenticationStoreInfo[] authConfig;
+	public HostAuthenticationStoreInfo[] authConfig;
 
-    public HostAuthenticationStoreInfo[] getAuthConfig() {
-        return this.authConfig;
-    }
+	public HostAuthenticationStoreInfo[] getAuthConfig() {
+		return this.authConfig;
+	}
 
-    public void setAuthConfig(HostAuthenticationStoreInfo[] authConfig) {
-        this.authConfig = authConfig;
-    }
+	public void setAuthConfig(HostAuthenticationStoreInfo[] authConfig) {
+		this.authConfig = authConfig;
+	}
 }

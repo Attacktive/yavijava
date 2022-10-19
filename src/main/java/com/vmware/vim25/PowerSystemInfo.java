@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PowerSystemInfo extends DynamicData {
-    public HostPowerPolicy currentPolicy;
+	public HostPowerPolicy currentPolicy;
 
-    public HostPowerPolicy getCurrentPolicy() {
-        return this.currentPolicy;
-    }
+	public HostPowerPolicy getCurrentPolicy() {
+		return this.currentPolicy;
+	}
 
-    public void setCurrentPolicy(HostPowerPolicy currentPolicy) {
-        this.currentPolicy = currentPolicy;
-    }
+	public void setCurrentPolicy(HostPowerPolicy currentPolicy) {
+		this.currentPolicy = currentPolicy;
+	}
 }

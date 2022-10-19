@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLong {
-    public long[] _long;
+	public long[] _long;
 
-    public long[] get_long() {
-        return this._long;
-    }
+	public long[] get_long() {
+		return this._long;
+	}
 
-    public long get_long(int i) {
-        return this._long[i];
-    }
+	public long get_long(int i) {
+		return this._long[i];
+	}
 
-    public void set_long(long[] _long) {
-        this._long = _long;
-    }
+	public void set_long(long[] _long) {
+		this._long = _long;
+	}
 }

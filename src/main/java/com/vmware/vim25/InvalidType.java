@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidType extends InvalidRequest {
-    public String argument;
+	public String argument;
 
-    public String getArgument() {
-        return this.argument;
-    }
+	public String getArgument() {
+		return this.argument;
+	}
 
-    public void setArgument(String argument) {
-        this.argument = argument;
-    }
+	public void setArgument(String argument) {
+		this.argument = argument;
+	}
 }

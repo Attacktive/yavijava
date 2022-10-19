@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostTpmEventLogEntry extends DynamicData {
-    public int pcrIndex;
-    public HostTpmEventDetails eventDetails;
+	public int pcrIndex;
+	public HostTpmEventDetails eventDetails;
 
-    public int getPcrIndex() {
-        return this.pcrIndex;
-    }
+	public int getPcrIndex() {
+		return this.pcrIndex;
+	}
 
-    public HostTpmEventDetails getEventDetails() {
-        return this.eventDetails;
-    }
+	public HostTpmEventDetails getEventDetails() {
+		return this.eventDetails;
+	}
 
-    public void setPcrIndex(int pcrIndex) {
-        this.pcrIndex = pcrIndex;
-    }
+	public void setPcrIndex(int pcrIndex) {
+		this.pcrIndex = pcrIndex;
+	}
 
-    public void setEventDetails(HostTpmEventDetails eventDetails) {
-        this.eventDetails = eventDetails;
-    }
+	public void setEventDetails(HostTpmEventDetails eventDetails) {
+		this.eventDetails = eventDetails;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPatchManagerStatus {
-    public HostPatchManagerStatus[] HostPatchManagerStatus;
+	public HostPatchManagerStatus[] HostPatchManagerStatus;
 
-    public HostPatchManagerStatus[] getHostPatchManagerStatus() {
-        return this.HostPatchManagerStatus;
-    }
+	public HostPatchManagerStatus[] getHostPatchManagerStatus() {
+		return this.HostPatchManagerStatus;
+	}
 
-    public HostPatchManagerStatus getHostPatchManagerStatus(int i) {
-        return this.HostPatchManagerStatus[i];
-    }
+	public HostPatchManagerStatus getHostPatchManagerStatus(int i) {
+		return this.HostPatchManagerStatus[i];
+	}
 
-    public void setHostPatchManagerStatus(HostPatchManagerStatus[] HostPatchManagerStatus) {
-        this.HostPatchManagerStatus = HostPatchManagerStatus;
-    }
+	public void setHostPatchManagerStatus(HostPatchManagerStatus[] HostPatchManagerStatus) {
+		this.HostPatchManagerStatus = HostPatchManagerStatus;
+	}
 }

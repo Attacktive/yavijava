@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineAffinityInfo extends DynamicData {
-    public int[] affinitySet;
+	public int[] affinitySet;
 
-    public int[] getAffinitySet() {
-        return this.affinitySet;
-    }
+	public int[] getAffinitySet() {
+		return this.affinitySet;
+	}
 
-    public void setAffinitySet(int[] affinitySet) {
-        this.affinitySet = affinitySet;
-    }
+	public void setAffinitySet(int[] affinitySet) {
+		this.affinitySet = affinitySet;
+	}
 }

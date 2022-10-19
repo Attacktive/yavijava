@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSVendorSpecificConfig extends InheritablePolicy {
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] keyValue;
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] keyValue;
 
-    public DistributedVirtualSwitchKeyedOpaqueBlob[] getKeyValue() {
-        return this.keyValue;
-    }
+	public DistributedVirtualSwitchKeyedOpaqueBlob[] getKeyValue() {
+		return this.keyValue;
+	}
 
-    public void setKeyValue(DistributedVirtualSwitchKeyedOpaqueBlob[] keyValue) {
-        this.keyValue = keyValue;
-    }
+	public void setKeyValue(DistributedVirtualSwitchKeyedOpaqueBlob[] keyValue) {
+		this.keyValue = keyValue;
+	}
 }

@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualPCIPassthroughDeviceBackingInfo extends VirtualDeviceDeviceBackingInfo {
-    public String id;
-    public String deviceId;
-    public String systemId;
-    public short vendorId;
+	public String id;
+	public String deviceId;
+	public String systemId;
+	public short vendorId;
 
-    public String getId() {
-        return this.id;
-    }
+	public String getId() {
+		return this.id;
+	}
 
-    public String getDeviceId() {
-        return this.deviceId;
-    }
+	public String getDeviceId() {
+		return this.deviceId;
+	}
 
-    public String getSystemId() {
-        return this.systemId;
-    }
+	public String getSystemId() {
+		return this.systemId;
+	}
 
-    public short getVendorId() {
-        return this.vendorId;
-    }
+	public short getVendorId() {
+		return this.vendorId;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
+	public void setId(String id) {
+		this.id = id;
+	}
 
-    public void setDeviceId(String deviceId) {
-        this.deviceId = deviceId;
-    }
+	public void setDeviceId(String deviceId) {
+		this.deviceId = deviceId;
+	}
 
-    public void setSystemId(String systemId) {
-        this.systemId = systemId;
-    }
+	public void setSystemId(String systemId) {
+		this.systemId = systemId;
+	}
 
-    public void setVendorId(short vendorId) {
-        this.vendorId = vendorId;
-    }
+	public void setVendorId(short vendorId) {
+		this.vendorId = vendorId;
+	}
 }

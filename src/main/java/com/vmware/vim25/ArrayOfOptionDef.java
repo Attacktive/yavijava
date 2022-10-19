@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfOptionDef {
-    public OptionDef[] OptionDef;
+	public OptionDef[] OptionDef;
 
-    public OptionDef[] getOptionDef() {
-        return this.OptionDef;
-    }
+	public OptionDef[] getOptionDef() {
+		return this.OptionDef;
+	}
 
-    public OptionDef getOptionDef(int i) {
-        return this.OptionDef[i];
-    }
+	public OptionDef getOptionDef(int i) {
+		return this.OptionDef[i];
+	}
 
-    public void setOptionDef(OptionDef[] OptionDef) {
-        this.OptionDef = OptionDef;
-    }
+	public void setOptionDef(OptionDef[] OptionDef) {
+		this.OptionDef = OptionDef;
+	}
 }

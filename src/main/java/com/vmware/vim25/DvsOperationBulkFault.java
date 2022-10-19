@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsOperationBulkFault extends DvsFault {
-    public DvsOperationBulkFaultFaultOnHost[] hostFault;
+	public DvsOperationBulkFaultFaultOnHost[] hostFault;
 
-    public DvsOperationBulkFaultFaultOnHost[] getHostFault() {
-        return this.hostFault;
-    }
+	public DvsOperationBulkFaultFaultOnHost[] getHostFault() {
+		return this.hostFault;
+	}
 
-    public void setHostFault(DvsOperationBulkFaultFaultOnHost[] hostFault) {
-        this.hostFault = hostFault;
-    }
+	public void setHostFault(DvsOperationBulkFaultFaultOnHost[] hostFault) {
+		this.hostFault = hostFault;
+	}
 }

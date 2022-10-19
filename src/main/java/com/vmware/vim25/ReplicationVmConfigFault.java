@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ReplicationVmConfigFault extends ReplicationConfigFault {
-    public String reason;
-    public ManagedObjectReference vmRef;
+	public String reason;
+	public ManagedObjectReference vmRef;
 
-    public String getReason() {
-        return this.reason;
-    }
+	public String getReason() {
+		return this.reason;
+	}
 
-    public ManagedObjectReference getVmRef() {
-        return this.vmRef;
-    }
+	public ManagedObjectReference getVmRef() {
+		return this.vmRef;
+	}
 
-    public void setReason(String reason) {
-        this.reason = reason;
-    }
+	public void setReason(String reason) {
+		this.reason = reason;
+	}
 
-    public void setVmRef(ManagedObjectReference vmRef) {
-        this.vmRef = vmRef;
-    }
+	public void setVmRef(ManagedObjectReference vmRef) {
+		this.vmRef = vmRef;
+	}
 }

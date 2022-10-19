@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfMappedOsId extends OvfImport {
-    public int ovfId;
-    public String ovfDescription;
-    public String targetDescription;
+	public int ovfId;
+	public String ovfDescription;
+	public String targetDescription;
 
-    public int getOvfId() {
-        return this.ovfId;
-    }
+	public int getOvfId() {
+		return this.ovfId;
+	}
 
-    public String getOvfDescription() {
-        return this.ovfDescription;
-    }
+	public String getOvfDescription() {
+		return this.ovfDescription;
+	}
 
-    public String getTargetDescription() {
-        return this.targetDescription;
-    }
+	public String getTargetDescription() {
+		return this.targetDescription;
+	}
 
-    public void setOvfId(int ovfId) {
-        this.ovfId = ovfId;
-    }
+	public void setOvfId(int ovfId) {
+		this.ovfId = ovfId;
+	}
 
-    public void setOvfDescription(String ovfDescription) {
-        this.ovfDescription = ovfDescription;
-    }
+	public void setOvfDescription(String ovfDescription) {
+		this.ovfDescription = ovfDescription;
+	}
 
-    public void setTargetDescription(String targetDescription) {
-        this.targetDescription = targetDescription;
-    }
+	public void setTargetDescription(String targetDescription) {
+		this.targetDescription = targetDescription;
+	}
 }

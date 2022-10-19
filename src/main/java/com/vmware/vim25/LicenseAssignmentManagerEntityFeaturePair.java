@@ -34,22 +34,22 @@ package com.vmware.vim25;
  */
 
 public class LicenseAssignmentManagerEntityFeaturePair extends DynamicData {
-    public String entityId;
-    public String feature;
+	public String entityId;
+	public String feature;
 
-    public String getEntityId() {
-        return this.entityId;
-    }
+	public String getEntityId() {
+		return this.entityId;
+	}
 
-    public String getFeature() {
-        return this.feature;
-    }
+	public String getFeature() {
+		return this.feature;
+	}
 
-    public void setEntityId(String entityId) {
-        this.entityId = entityId;
-    }
+	public void setEntityId(String entityId) {
+		this.entityId = entityId;
+	}
 
-    public void setFeature(String feature) {
-        this.feature = feature;
-    }
+	public void setFeature(String feature) {
+		this.feature = feature;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineTargetInfo extends DynamicData {
-    public String name;
-    public String[] configurationTag;
+	public String name;
+	public String[] configurationTag;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public String[] getConfigurationTag() {
-        return this.configurationTag;
-    }
+	public String[] getConfigurationTag() {
+		return this.configurationTag;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setConfigurationTag(String[] configurationTag) {
-        this.configurationTag = configurationTag;
-    }
+	public void setConfigurationTag(String[] configurationTag) {
+		this.configurationTag = configurationTag;
+	}
 }

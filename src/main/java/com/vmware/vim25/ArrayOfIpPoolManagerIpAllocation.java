@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfIpPoolManagerIpAllocation {
-    public IpPoolManagerIpAllocation[] IpPoolManagerIpAllocation;
+	public IpPoolManagerIpAllocation[] IpPoolManagerIpAllocation;
 
-    public IpPoolManagerIpAllocation[] getIpPoolManagerIpAllocation() {
-        return this.IpPoolManagerIpAllocation;
-    }
+	public IpPoolManagerIpAllocation[] getIpPoolManagerIpAllocation() {
+		return this.IpPoolManagerIpAllocation;
+	}
 
-    public IpPoolManagerIpAllocation getIpPoolManagerIpAllocation(int i) {
-        return this.IpPoolManagerIpAllocation[i];
-    }
+	public IpPoolManagerIpAllocation getIpPoolManagerIpAllocation(int i) {
+		return this.IpPoolManagerIpAllocation[i];
+	}
 
-    public void setIpPoolManagerIpAllocation(IpPoolManagerIpAllocation[] IpPoolManagerIpAllocation) {
-        this.IpPoolManagerIpAllocation = IpPoolManagerIpAllocation;
-    }
+	public void setIpPoolManagerIpAllocation(IpPoolManagerIpAllocation[] IpPoolManagerIpAllocation) {
+		this.IpPoolManagerIpAllocation = IpPoolManagerIpAllocation;
+	}
 }

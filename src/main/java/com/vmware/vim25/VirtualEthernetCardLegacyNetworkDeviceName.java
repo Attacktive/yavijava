@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualEthernetCardLegacyNetworkDeviceName {
-    bridged("bridged"),
-    nat("nat"),
-    hostonly("hostonly");
+	bridged("bridged"),
+	nat("nat"),
+	hostonly("hostonly");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualEthernetCardLegacyNetworkDeviceName(String val) {
-        this.val = val;
-    }
+	private VirtualEthernetCardLegacyNetworkDeviceName(String val) {
+		this.val = val;
+	}
 }

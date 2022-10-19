@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchHostMemberRuntimeState extends DynamicData {
-    public int currentMaxProxySwitchPorts;
+	public int currentMaxProxySwitchPorts;
 
-    public int getCurrentMaxProxySwitchPorts() {
-        return this.currentMaxProxySwitchPorts;
-    }
+	public int getCurrentMaxProxySwitchPorts() {
+		return this.currentMaxProxySwitchPorts;
+	}
 
-    public void setCurrentMaxProxySwitchPorts(int currentMaxProxySwitchPorts) {
-        this.currentMaxProxySwitchPorts = currentMaxProxySwitchPorts;
-    }
+	public void setCurrentMaxProxySwitchPorts(int currentMaxProxySwitchPorts) {
+		this.currentMaxProxySwitchPorts = currentMaxProxySwitchPorts;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AfterStartupTaskScheduler extends TaskScheduler {
-    public int minute;
+	public int minute;
 
-    public int getMinute() {
-        return this.minute;
-    }
+	public int getMinute() {
+		return this.minute;
+	}
 
-    public void setMinute(int minute) {
-        this.minute = minute;
-    }
+	public void setMinute(int minute) {
+		this.minute = minute;
+	}
 }

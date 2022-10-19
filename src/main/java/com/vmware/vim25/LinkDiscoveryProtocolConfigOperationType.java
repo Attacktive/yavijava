@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum LinkDiscoveryProtocolConfigOperationType {
-    none("none"),
-    listen("listen"),
-    advertise("advertise"),
-    both("both");
+	none("none"),
+	listen("listen"),
+	advertise("advertise"),
+	both("both");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LinkDiscoveryProtocolConfigOperationType(String val) {
-        this.val = val;
-    }
+	private LinkDiscoveryProtocolConfigOperationType(String val) {
+		this.val = val;
+	}
 }

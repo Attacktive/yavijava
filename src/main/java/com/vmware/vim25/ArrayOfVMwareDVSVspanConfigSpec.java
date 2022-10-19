@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVMwareDVSVspanConfigSpec {
-    public VMwareDVSVspanConfigSpec[] VMwareDVSVspanConfigSpec;
+	public VMwareDVSVspanConfigSpec[] VMwareDVSVspanConfigSpec;
 
-    public VMwareDVSVspanConfigSpec[] getVMwareDVSVspanConfigSpec() {
-        return this.VMwareDVSVspanConfigSpec;
-    }
+	public VMwareDVSVspanConfigSpec[] getVMwareDVSVspanConfigSpec() {
+		return this.VMwareDVSVspanConfigSpec;
+	}
 
-    public VMwareDVSVspanConfigSpec getVMwareDVSVspanConfigSpec(int i) {
-        return this.VMwareDVSVspanConfigSpec[i];
-    }
+	public VMwareDVSVspanConfigSpec getVMwareDVSVspanConfigSpec(int i) {
+		return this.VMwareDVSVspanConfigSpec[i];
+	}
 
-    public void setVMwareDVSVspanConfigSpec(VMwareDVSVspanConfigSpec[] VMwareDVSVspanConfigSpec) {
-        this.VMwareDVSVspanConfigSpec = VMwareDVSVspanConfigSpec;
-    }
+	public void setVMwareDVSVspanConfigSpec(VMwareDVSVspanConfigSpec[] VMwareDVSVspanConfigSpec) {
+		this.VMwareDVSVspanConfigSpec = VMwareDVSVspanConfigSpec;
+	}
 }

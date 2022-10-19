@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualUSBXHCIControllerOption extends VirtualControllerOption {
-    public BoolOption autoConnectDevices;
-    public String[] supportedSpeeds;
+	public BoolOption autoConnectDevices;
+	public String[] supportedSpeeds;
 
-    public BoolOption getAutoConnectDevices() {
-        return this.autoConnectDevices;
-    }
+	public BoolOption getAutoConnectDevices() {
+		return this.autoConnectDevices;
+	}
 
-    public String[] getSupportedSpeeds() {
-        return this.supportedSpeeds;
-    }
+	public String[] getSupportedSpeeds() {
+		return this.supportedSpeeds;
+	}
 
-    public void setAutoConnectDevices(BoolOption autoConnectDevices) {
-        this.autoConnectDevices = autoConnectDevices;
-    }
+	public void setAutoConnectDevices(BoolOption autoConnectDevices) {
+		this.autoConnectDevices = autoConnectDevices;
+	}
 
-    public void setSupportedSpeeds(String[] supportedSpeeds) {
-        this.supportedSpeeds = supportedSpeeds;
-    }
+	public void setSupportedSpeeds(String[] supportedSpeeds) {
+		this.supportedSpeeds = supportedSpeeds;
+	}
 }

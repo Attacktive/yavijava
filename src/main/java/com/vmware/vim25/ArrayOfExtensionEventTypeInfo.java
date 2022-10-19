@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionEventTypeInfo {
-    public ExtensionEventTypeInfo[] ExtensionEventTypeInfo;
+	public ExtensionEventTypeInfo[] ExtensionEventTypeInfo;
 
-    public ExtensionEventTypeInfo[] getExtensionEventTypeInfo() {
-        return this.ExtensionEventTypeInfo;
-    }
+	public ExtensionEventTypeInfo[] getExtensionEventTypeInfo() {
+		return this.ExtensionEventTypeInfo;
+	}
 
-    public ExtensionEventTypeInfo getExtensionEventTypeInfo(int i) {
-        return this.ExtensionEventTypeInfo[i];
-    }
+	public ExtensionEventTypeInfo getExtensionEventTypeInfo(int i) {
+		return this.ExtensionEventTypeInfo[i];
+	}
 
-    public void setExtensionEventTypeInfo(ExtensionEventTypeInfo[] ExtensionEventTypeInfo) {
-        this.ExtensionEventTypeInfo = ExtensionEventTypeInfo;
-    }
+	public void setExtensionEventTypeInfo(ExtensionEventTypeInfo[] ExtensionEventTypeInfo) {
+		this.ExtensionEventTypeInfo = ExtensionEventTypeInfo;
+	}
 }

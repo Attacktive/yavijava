@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostUnresolvedVmfsExtentUnresolvedReason {
-    diskIdMismatch("diskIdMismatch"),
-    uuidConflict("uuidConflict");
+	diskIdMismatch("diskIdMismatch"),
+	uuidConflict("uuidConflict");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostUnresolvedVmfsExtentUnresolvedReason(String val) {
-        this.val = val;
-    }
+	private HostUnresolvedVmfsExtentUnresolvedReason(String val) {
+		this.val = val;
+	}
 }

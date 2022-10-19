@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPciDevice {
-    public HostPciDevice[] HostPciDevice;
+	public HostPciDevice[] HostPciDevice;
 
-    public HostPciDevice[] getHostPciDevice() {
-        return this.HostPciDevice;
-    }
+	public HostPciDevice[] getHostPciDevice() {
+		return this.HostPciDevice;
+	}
 
-    public HostPciDevice getHostPciDevice(int i) {
-        return this.HostPciDevice[i];
-    }
+	public HostPciDevice getHostPciDevice(int i) {
+		return this.HostPciDevice[i];
+	}
 
-    public void setHostPciDevice(HostPciDevice[] HostPciDevice) {
-        this.HostPciDevice = HostPciDevice;
-    }
+	public void setHostPciDevice(HostPciDevice[] HostPciDevice) {
+		this.HostPciDevice = HostPciDevice;
+	}
 }

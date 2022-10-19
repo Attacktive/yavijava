@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VirtualSCSISharing {
-    noSharing("noSharing"),
-    virtualSharing("virtualSharing"),
-    physicalSharing("physicalSharing");
+	noSharing("noSharing"),
+	virtualSharing("virtualSharing"),
+	physicalSharing("physicalSharing");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualSCSISharing(String val) {
-        this.val = val;
-    }
+	private VirtualSCSISharing(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostSystemIdentificationInfo {
-    public HostSystemIdentificationInfo[] HostSystemIdentificationInfo;
+	public HostSystemIdentificationInfo[] HostSystemIdentificationInfo;
 
-    public HostSystemIdentificationInfo[] getHostSystemIdentificationInfo() {
-        return this.HostSystemIdentificationInfo;
-    }
+	public HostSystemIdentificationInfo[] getHostSystemIdentificationInfo() {
+		return this.HostSystemIdentificationInfo;
+	}
 
-    public HostSystemIdentificationInfo getHostSystemIdentificationInfo(int i) {
-        return this.HostSystemIdentificationInfo[i];
-    }
+	public HostSystemIdentificationInfo getHostSystemIdentificationInfo(int i) {
+		return this.HostSystemIdentificationInfo[i];
+	}
 
-    public void setHostSystemIdentificationInfo(HostSystemIdentificationInfo[] HostSystemIdentificationInfo) {
-        this.HostSystemIdentificationInfo = HostSystemIdentificationInfo;
-    }
+	public void setHostSystemIdentificationInfo(HostSystemIdentificationInfo[] HostSystemIdentificationInfo) {
+		this.HostSystemIdentificationInfo = HostSystemIdentificationInfo;
+	}
 }

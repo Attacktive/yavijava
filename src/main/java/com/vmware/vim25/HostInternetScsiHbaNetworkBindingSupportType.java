@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostInternetScsiHbaNetworkBindingSupportType {
-    notsupported("notsupported"),
-    optional("optional"),
-    required("required");
+	notsupported("notsupported"),
+	optional("optional"),
+	required("required");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostInternetScsiHbaNetworkBindingSupportType(String val) {
-        this.val = val;
-    }
+	private HostInternetScsiHbaNetworkBindingSupportType(String val) {
+		this.val = val;
+	}
 }

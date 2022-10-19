@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationPrefixName extends CustomizationName {
-    public String base;
+	public String base;
 
-    public String getBase() {
-        return this.base;
-    }
+	public String getBase() {
+		return this.base;
+	}
 
-    public void setBase(String base) {
-        this.base = base;
-    }
+	public void setBase(String base) {
+		this.base = base;
+	}
 }

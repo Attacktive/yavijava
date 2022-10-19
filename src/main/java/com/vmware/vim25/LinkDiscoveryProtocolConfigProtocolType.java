@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum LinkDiscoveryProtocolConfigProtocolType {
-    cdp("cdp"),
-    lldp("lldp");
+	cdp("cdp"),
+	lldp("lldp");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LinkDiscoveryProtocolConfigProtocolType(String val) {
-        this.val = val;
-    }
+	private LinkDiscoveryProtocolConfigProtocolType(String val) {
+		this.val = val;
+	}
 }

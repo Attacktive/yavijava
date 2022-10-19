@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineRelocateSpecDiskLocator {
-    public VirtualMachineRelocateSpecDiskLocator[] VirtualMachineRelocateSpecDiskLocator;
+	public VirtualMachineRelocateSpecDiskLocator[] VirtualMachineRelocateSpecDiskLocator;
 
-    public VirtualMachineRelocateSpecDiskLocator[] getVirtualMachineRelocateSpecDiskLocator() {
-        return this.VirtualMachineRelocateSpecDiskLocator;
-    }
+	public VirtualMachineRelocateSpecDiskLocator[] getVirtualMachineRelocateSpecDiskLocator() {
+		return this.VirtualMachineRelocateSpecDiskLocator;
+	}
 
-    public VirtualMachineRelocateSpecDiskLocator getVirtualMachineRelocateSpecDiskLocator(int i) {
-        return this.VirtualMachineRelocateSpecDiskLocator[i];
-    }
+	public VirtualMachineRelocateSpecDiskLocator getVirtualMachineRelocateSpecDiskLocator(int i) {
+		return this.VirtualMachineRelocateSpecDiskLocator[i];
+	}
 
-    public void setVirtualMachineRelocateSpecDiskLocator(VirtualMachineRelocateSpecDiskLocator[] VirtualMachineRelocateSpecDiskLocator) {
-        this.VirtualMachineRelocateSpecDiskLocator = VirtualMachineRelocateSpecDiskLocator;
-    }
+	public void setVirtualMachineRelocateSpecDiskLocator(VirtualMachineRelocateSpecDiskLocator[] VirtualMachineRelocateSpecDiskLocator) {
+		this.VirtualMachineRelocateSpecDiskLocator = VirtualMachineRelocateSpecDiskLocator;
+	}
 }

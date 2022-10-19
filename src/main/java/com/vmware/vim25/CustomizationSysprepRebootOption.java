@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum CustomizationSysprepRebootOption {
-    reboot("reboot"),
-    noreboot("noreboot"),
-    shutdown("shutdown");
+	reboot("reboot"),
+	noreboot("noreboot"),
+	shutdown("shutdown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private CustomizationSysprepRebootOption(String val) {
-        this.val = val;
-    }
+	private CustomizationSysprepRebootOption(String val) {
+		this.val = val;
+	}
 }

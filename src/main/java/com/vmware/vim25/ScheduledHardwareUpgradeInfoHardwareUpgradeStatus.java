@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ScheduledHardwareUpgradeInfoHardwareUpgradeStatus {
-    none("none"),
-    pending("pending"),
-    success("success"),
-    failed("failed");
+	none("none"),
+	pending("pending"),
+	success("success"),
+	failed("failed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ScheduledHardwareUpgradeInfoHardwareUpgradeStatus(String val) {
-        this.val = val;
-    }
+	private ScheduledHardwareUpgradeInfoHardwareUpgradeStatus(String val) {
+		this.val = val;
+	}
 }

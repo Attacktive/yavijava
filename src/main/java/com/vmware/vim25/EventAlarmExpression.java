@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EventAlarmExpression extends AlarmExpression {
-    public EventAlarmExpressionComparison[] comparisons;
-    public String eventType;
-    public String eventTypeId;
-    public String objectType;
-    public ManagedEntityStatus status;
+	public EventAlarmExpressionComparison[] comparisons;
+	public String eventType;
+	public String eventTypeId;
+	public String objectType;
+	public ManagedEntityStatus status;
 
-    public EventAlarmExpressionComparison[] getComparisons() {
-        return this.comparisons;
-    }
+	public EventAlarmExpressionComparison[] getComparisons() {
+		return this.comparisons;
+	}
 
-    public String getEventType() {
-        return this.eventType;
-    }
+	public String getEventType() {
+		return this.eventType;
+	}
 
-    public String getEventTypeId() {
-        return this.eventTypeId;
-    }
+	public String getEventTypeId() {
+		return this.eventTypeId;
+	}
 
-    public String getObjectType() {
-        return this.objectType;
-    }
+	public String getObjectType() {
+		return this.objectType;
+	}
 
-    public ManagedEntityStatus getStatus() {
-        return this.status;
-    }
+	public ManagedEntityStatus getStatus() {
+		return this.status;
+	}
 
-    public void setComparisons(EventAlarmExpressionComparison[] comparisons) {
-        this.comparisons = comparisons;
-    }
+	public void setComparisons(EventAlarmExpressionComparison[] comparisons) {
+		this.comparisons = comparisons;
+	}
 
-    public void setEventType(String eventType) {
-        this.eventType = eventType;
-    }
+	public void setEventType(String eventType) {
+		this.eventType = eventType;
+	}
 
-    public void setEventTypeId(String eventTypeId) {
-        this.eventTypeId = eventTypeId;
-    }
+	public void setEventTypeId(String eventTypeId) {
+		this.eventTypeId = eventTypeId;
+	}
 
-    public void setObjectType(String objectType) {
-        this.objectType = objectType;
-    }
+	public void setObjectType(String objectType) {
+		this.objectType = objectType;
+	}
 
-    public void setStatus(ManagedEntityStatus status) {
-        this.status = status;
-    }
+	public void setStatus(ManagedEntityStatus status) {
+		this.status = status;
+	}
 }

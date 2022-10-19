@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostEnableAdminFailedEvent extends HostEvent {
-    public Permission[] permissions;
+	public Permission[] permissions;
 
-    public Permission[] getPermissions() {
-        return this.permissions;
-    }
+	public Permission[] getPermissions() {
+		return this.permissions;
+	}
 
-    public void setPermissions(Permission[] permissions) {
-        this.permissions = permissions;
-    }
+	public void setPermissions(Permission[] permissions) {
+		this.permissions = permissions;
+	}
 }

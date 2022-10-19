@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ArrayUpdateSpec extends DynamicData {
-    public ArrayUpdateOperation operation;
-    public Object removeKey;
+	public ArrayUpdateOperation operation;
+	public Object removeKey;
 
-    public ArrayUpdateOperation getOperation() {
-        return this.operation;
-    }
+	public ArrayUpdateOperation getOperation() {
+		return this.operation;
+	}
 
-    public Object getRemoveKey() {
-        return this.removeKey;
-    }
+	public Object getRemoveKey() {
+		return this.removeKey;
+	}
 
-    public void setOperation(ArrayUpdateOperation operation) {
-        this.operation = operation;
-    }
+	public void setOperation(ArrayUpdateOperation operation) {
+		this.operation = operation;
+	}
 
-    public void setRemoveKey(Object removeKey) {
-        this.removeKey = removeKey;
-    }
+	public void setRemoveKey(Object removeKey) {
+		this.removeKey = removeKey;
+	}
 }

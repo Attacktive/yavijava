@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostScsiTopologyTarget {
-    public HostScsiTopologyTarget[] HostScsiTopologyTarget;
+	public HostScsiTopologyTarget[] HostScsiTopologyTarget;
 
-    public HostScsiTopologyTarget[] getHostScsiTopologyTarget() {
-        return this.HostScsiTopologyTarget;
-    }
+	public HostScsiTopologyTarget[] getHostScsiTopologyTarget() {
+		return this.HostScsiTopologyTarget;
+	}
 
-    public HostScsiTopologyTarget getHostScsiTopologyTarget(int i) {
-        return this.HostScsiTopologyTarget[i];
-    }
+	public HostScsiTopologyTarget getHostScsiTopologyTarget(int i) {
+		return this.HostScsiTopologyTarget[i];
+	}
 
-    public void setHostScsiTopologyTarget(HostScsiTopologyTarget[] HostScsiTopologyTarget) {
-        this.HostScsiTopologyTarget = HostScsiTopologyTarget;
-    }
+	public void setHostScsiTopologyTarget(HostScsiTopologyTarget[] HostScsiTopologyTarget) {
+		this.HostScsiTopologyTarget = HostScsiTopologyTarget;
+	}
 }

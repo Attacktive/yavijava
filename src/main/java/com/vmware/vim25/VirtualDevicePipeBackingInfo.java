@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDevicePipeBackingInfo extends VirtualDeviceBackingInfo {
-    public String pipeName;
+	public String pipeName;
 
-    public String getPipeName() {
-        return this.pipeName;
-    }
+	public String getPipeName() {
+		return this.pipeName;
+	}
 
-    public void setPipeName(String pipeName) {
-        this.pipeName = pipeName;
-    }
+	public void setPipeName(String pipeName) {
+		this.pipeName = pipeName;
+	}
 }

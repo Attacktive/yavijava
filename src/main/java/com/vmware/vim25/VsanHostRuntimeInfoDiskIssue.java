@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostRuntimeInfoDiskIssue extends DynamicData {
-    public String diskId;
-    public String issue;
+	public String diskId;
+	public String issue;
 
-    public String getDiskId() {
-        return this.diskId;
-    }
+	public String getDiskId() {
+		return this.diskId;
+	}
 
-    public String getIssue() {
-        return this.issue;
-    }
+	public String getIssue() {
+		return this.issue;
+	}
 
-    public void setDiskId(String diskId) {
-        this.diskId = diskId;
-    }
+	public void setDiskId(String diskId) {
+		this.diskId = diskId;
+	}
 
-    public void setIssue(String issue) {
-        this.issue = issue;
-    }
+	public void setIssue(String issue) {
+		this.issue = issue;
+	}
 }

@@ -29,7 +29,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo.util;
 
-import javax.net.ssl.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -39,6 +38,12 @@ import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
+import javax.net.ssl.HostnameVerifier;
+import javax.net.ssl.HttpsURLConnection;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSession;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
 
 /**
  * The returned XML data is in the following format:
@@ -69,81 +74,80 @@ import java.security.cert.X509Certificate;
  */
 @Deprecated
 public class VerUtil {
-    /**
-     * Retrieve the target server's name space
-     *
-     * @param target either IP or host name
-     * @return the namespace, e.g. urn:vim25Service
-     * @throws IOException      when there is a network issue or service issue on the target server
-     * @throws RuntimeException wrapping NoSuchAlgorithmException, KeyManagementException which are
-     *                          not likely to happen. If it happens, you can catch the runtime exception and unwrap it
-     *                          for the real exceptions.
-     */
-    public static String getTargetNameSpace(String target) throws IOException {
-        String version = "";
-        String urlStr = "https://" + target + "/sdk/vimService?wsdl";
+	/**
+	 * Retrieve the target server's name space
+	 *
+	 * @param target either IP or host name
+	 * @return the namespace, e.g. urn:vim25Service
+	 * @throws java.io.IOException when there is a network issue or service issue on the target server
+	 * @throws RuntimeException wrapping NoSuchAlgorithmException, KeyManagementException which are
+	 * not likely to happen. If it happens, you can catch the runtime exception and unwrap it
+	 * for the real exceptions.
+	 */
+	public static String getTargetNameSpace(String target) throws IOException {
+		String version = "";
+		String urlStr = "https://" + target + "/sdk/vimService?wsdl";
 
-        try {
-            trustAllHttpsCertificates();
-        }
-        catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+		try {
+			trustAllHttpsCertificates();
+		} catch (Exception e) {
+			throw new RuntimeException(e);
+		}
 
-        HttpsURLConnection.setDefaultHostnameVerifier(
-            new HostnameVerifier() {
-                public boolean verify(String urlHostName, SSLSession session) {
-                    return true;
-                }
-            });
+		HttpsURLConnection.setDefaultHostnameVerifier(
+			new HostnameVerifier() {
+				public boolean verify(String urlHostName, SSLSession session) {
+					return true;
+				}
+			});
 
-        URL url = new URL(urlStr);
-        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-        conn.connect();
-        BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+		URL url = new URL(urlStr);
+		HttpURLConnection conn = (HttpURLConnection)url.openConnection();
+		conn.connect();
+		BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
 
-        String xmlWSDL = "";
-        String line;
-        while ((line = in.readLine()) != null) {
-            xmlWSDL = xmlWSDL + line;
-        }
+		String xmlWSDL = "";
+		String line;
+		while ((line = in.readLine()) != null) {
+			xmlWSDL = xmlWSDL + line;
+		}
 
-        int start = xmlWSDL.indexOf("targetNamespace") + "targetNamespace".length();
-        start = xmlWSDL.indexOf("\"", start);
-        int end = xmlWSDL.indexOf("\"", start + 1);
-        version = xmlWSDL.substring(start + 1, end);
+		int start = xmlWSDL.indexOf("targetNamespace") + "targetNamespace".length();
+		start = xmlWSDL.indexOf("\"", start);
+		int end = xmlWSDL.indexOf("\"", start + 1);
+		version = xmlWSDL.substring(start + 1, end);
 
-        return version;
-    }
+		return version;
+	}
 
-    private static void trustAllHttpsCertificates() throws NoSuchAlgorithmException, KeyManagementException {
-        javax.net.ssl.TrustManager[] trustAllCerts = new javax.net.ssl.TrustManager[1];
-        javax.net.ssl.TrustManager tm = new miTM();
-        trustAllCerts[0] = tm;
-        javax.net.ssl.SSLContext sc = javax.net.ssl.SSLContext.getInstance("SSL");
-        sc.init(null, trustAllCerts, null);
-        javax.net.ssl.HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
-    }
+	private static void trustAllHttpsCertificates() throws NoSuchAlgorithmException, KeyManagementException {
+		TrustManager[] trustAllCerts = new TrustManager[1];
+		TrustManager tm = new miTM();
+		trustAllCerts[0] = tm;
+		SSLContext sc = SSLContext.getInstance("SSL");
+		sc.init(null, trustAllCerts, null);
+		HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
+	}
 
-    private static class miTM implements TrustManager, X509TrustManager {
-        public X509Certificate[] getAcceptedIssuers() {
-            return null;
-        }
+	private static class miTM implements TrustManager, X509TrustManager {
+		public X509Certificate[] getAcceptedIssuers() {
+			return null;
+		}
 
-        public boolean isServerTrusted(X509Certificate[] certs) {
-            return true;
-        }
+		public boolean isServerTrusted(X509Certificate[] certs) {
+			return true;
+		}
 
-        public boolean isClientTrusted(X509Certificate[] certs) {
-            return true;
-        }
+		public boolean isClientTrusted(X509Certificate[] certs) {
+			return true;
+		}
 
-        public void checkServerTrusted(X509Certificate[] certs, String authType) throws CertificateException {
-            return;
-        }
+		public void checkServerTrusted(X509Certificate[] certs, String authType) throws CertificateException {
+			return;
+		}
 
-        public void checkClientTrusted(X509Certificate[] certs, String authType) throws CertificateException {
-            return;
-        }
-    }
+		public void checkClientTrusted(X509Certificate[] certs, String authType) throws CertificateException {
+			return;
+		}
+	}
 }

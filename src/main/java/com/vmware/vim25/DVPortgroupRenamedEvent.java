@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVPortgroupRenamedEvent extends DVPortgroupEvent {
-    public String oldName;
-    public String newName;
+	public String oldName;
+	public String newName;
 
-    public String getOldName() {
-        return this.oldName;
-    }
+	public String getOldName() {
+		return this.oldName;
+	}
 
-    public String getNewName() {
-        return this.newName;
-    }
+	public String getNewName() {
+		return this.newName;
+	}
 
-    public void setOldName(String oldName) {
-        this.oldName = oldName;
-    }
+	public void setOldName(String oldName) {
+		this.oldName = oldName;
+	}
 
-    public void setNewName(String newName) {
-        this.newName = newName;
-    }
+	public void setNewName(String newName) {
+		this.newName = newName;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFileSystemVolumeInfo extends DynamicData {
-    public String[] volumeTypeList;
-    public HostFileSystemMountInfo[] mountInfo;
+	public String[] volumeTypeList;
+	public HostFileSystemMountInfo[] mountInfo;
 
-    public String[] getVolumeTypeList() {
-        return this.volumeTypeList;
-    }
+	public String[] getVolumeTypeList() {
+		return this.volumeTypeList;
+	}
 
-    public HostFileSystemMountInfo[] getMountInfo() {
-        return this.mountInfo;
-    }
+	public HostFileSystemMountInfo[] getMountInfo() {
+		return this.mountInfo;
+	}
 
-    public void setVolumeTypeList(String[] volumeTypeList) {
-        this.volumeTypeList = volumeTypeList;
-    }
+	public void setVolumeTypeList(String[] volumeTypeList) {
+		this.volumeTypeList = volumeTypeList;
+	}
 
-    public void setMountInfo(HostFileSystemMountInfo[] mountInfo) {
-        this.mountInfo = mountInfo;
-    }
+	public void setMountInfo(HostFileSystemMountInfo[] mountInfo) {
+		this.mountInfo = mountInfo;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostVirtualNicConfig {
-    public HostVirtualNicConfig[] HostVirtualNicConfig;
+	public HostVirtualNicConfig[] HostVirtualNicConfig;
 
-    public HostVirtualNicConfig[] getHostVirtualNicConfig() {
-        return this.HostVirtualNicConfig;
-    }
+	public HostVirtualNicConfig[] getHostVirtualNicConfig() {
+		return this.HostVirtualNicConfig;
+	}
 
-    public HostVirtualNicConfig getHostVirtualNicConfig(int i) {
-        return this.HostVirtualNicConfig[i];
-    }
+	public HostVirtualNicConfig getHostVirtualNicConfig(int i) {
+		return this.HostVirtualNicConfig[i];
+	}
 
-    public void setHostVirtualNicConfig(HostVirtualNicConfig[] HostVirtualNicConfig) {
-        this.HostVirtualNicConfig = HostVirtualNicConfig;
-    }
+	public void setHostVirtualNicConfig(HostVirtualNicConfig[] HostVirtualNicConfig) {
+		this.HostVirtualNicConfig = HostVirtualNicConfig;
+	}
 }

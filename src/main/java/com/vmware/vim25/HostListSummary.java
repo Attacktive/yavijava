@@ -28,39 +28,41 @@ POSSIBILITY OF SUCH DAMAGE.
 ================================================================================*/
 
 package com.vmware.vim25;
+
 import lombok.Getter;
 import lombok.Setter;
 
 /**
  * Created by Michael Rice on Sun May 24 16:15:35 CDT 2015
- *
+ * <p>
  * Copyright 2015 Michael Rice
- *
+ * <p>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- *
- *   http://www.apache.org/licenses/LICENSE-2.0
- *
+ * <p>
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * <p>
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
  * @since 6.0
  */
 
 public class HostListSummary extends DynamicData {
-    @Getter @Setter public ManagedObjectReference host;
-    @Getter @Setter public HostHardwareSummary hardware;
-    @Getter @Setter public HostRuntimeInfo runtime;
-    @Getter @Setter public HostConfigSummary config;
-    @Getter @Setter public HostListSummaryQuickStats quickStats;
-    @Getter @Setter public ManagedEntityStatus overallStatus;
-    @Getter @Setter public boolean rebootRequired;
-    @Getter @Setter public CustomFieldValue[] customValue;
-    @Getter @Setter public String managementServerIp;
-    @Getter @Setter public String maxEVCModeKey;
-    @Getter @Setter public String currentEVCModeKey;
-    @Getter @Setter public HostListSummaryGatewaySummary gateway;
+	@Getter @Setter public ManagedObjectReference host;
+	@Getter @Setter public HostHardwareSummary hardware;
+	@Getter @Setter public HostRuntimeInfo runtime;
+	@Getter @Setter public HostConfigSummary config;
+	@Getter @Setter public HostListSummaryQuickStats quickStats;
+	@Getter @Setter public ManagedEntityStatus overallStatus;
+	@Getter @Setter public boolean rebootRequired;
+	@Getter @Setter public CustomFieldValue[] customValue;
+	@Getter @Setter public String managementServerIp;
+	@Getter @Setter public String maxEVCModeKey;
+	@Getter @Setter public String currentEVCModeKey;
+	@Getter @Setter public HostListSummaryGatewaySummary gateway;
 }

@@ -17,13 +17,13 @@ package com.vmware.vim25;
  */
 public class GuestRegistryFault extends GuestOperationsFault {
 
-    public long windowsSystemErrorCode;
+	public long windowsSystemErrorCode;
 
-    public long getWindowsSystemErrorCode() {
-        return windowsSystemErrorCode;
-    }
+	public long getWindowsSystemErrorCode() {
+		return windowsSystemErrorCode;
+	}
 
-    public void setWindowsSystemErrorCode(long windowsSystemErrorCode) {
-        this.windowsSystemErrorCode = windowsSystemErrorCode;
-    }
+	public void setWindowsSystemErrorCode(long windowsSystemErrorCode) {
+		this.windowsSystemErrorCode = windowsSystemErrorCode;
+	}
 }

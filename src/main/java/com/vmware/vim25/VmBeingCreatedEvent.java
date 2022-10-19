@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmBeingCreatedEvent extends VmEvent {
-    public VirtualMachineConfigSpec configSpec;
+	public VirtualMachineConfigSpec configSpec;
 
-    public VirtualMachineConfigSpec getConfigSpec() {
-        return this.configSpec;
-    }
+	public VirtualMachineConfigSpec getConfigSpec() {
+		return this.configSpec;
+	}
 
-    public void setConfigSpec(VirtualMachineConfigSpec configSpec) {
-        this.configSpec = configSpec;
-    }
+	public void setConfigSpec(VirtualMachineConfigSpec configSpec) {
+		this.configSpec = configSpec;
+	}
 }

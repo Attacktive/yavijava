@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostLowLevelProvisioningManagerReloadTarget {
-    currentConfig("currentConfig"),
-    snapshotConfig("snapshotConfig");
+	currentConfig("currentConfig"),
+	snapshotConfig("snapshotConfig");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostLowLevelProvisioningManagerReloadTarget(String val) {
-        this.val = val;
-    }
+	private HostLowLevelProvisioningManagerReloadTarget(String val) {
+		this.val = val;
+	}
 }

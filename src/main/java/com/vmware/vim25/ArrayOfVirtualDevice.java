@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualDevice {
-    public VirtualDevice[] VirtualDevice;
+	public VirtualDevice[] VirtualDevice;
 
-    public VirtualDevice[] getVirtualDevice() {
-        return this.VirtualDevice;
-    }
+	public VirtualDevice[] getVirtualDevice() {
+		return this.VirtualDevice;
+	}
 
-    public VirtualDevice getVirtualDevice(int i) {
-        return this.VirtualDevice[i];
-    }
+	public VirtualDevice getVirtualDevice(int i) {
+		return this.VirtualDevice[i];
+	}
 
-    public void setVirtualDevice(VirtualDevice[] VirtualDevice) {
-        this.VirtualDevice = VirtualDevice;
-    }
+	public void setVirtualDevice(VirtualDevice[] VirtualDevice) {
+		this.VirtualDevice = VirtualDevice;
+	}
 }

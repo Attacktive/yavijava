@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfUpdateVirtualMachineFilesResultFailedVmFileInfo {
-    public UpdateVirtualMachineFilesResultFailedVmFileInfo[] UpdateVirtualMachineFilesResultFailedVmFileInfo;
+	public UpdateVirtualMachineFilesResultFailedVmFileInfo[] UpdateVirtualMachineFilesResultFailedVmFileInfo;
 
-    public UpdateVirtualMachineFilesResultFailedVmFileInfo[] getUpdateVirtualMachineFilesResultFailedVmFileInfo() {
-        return this.UpdateVirtualMachineFilesResultFailedVmFileInfo;
-    }
+	public UpdateVirtualMachineFilesResultFailedVmFileInfo[] getUpdateVirtualMachineFilesResultFailedVmFileInfo() {
+		return this.UpdateVirtualMachineFilesResultFailedVmFileInfo;
+	}
 
-    public UpdateVirtualMachineFilesResultFailedVmFileInfo getUpdateVirtualMachineFilesResultFailedVmFileInfo(int i) {
-        return this.UpdateVirtualMachineFilesResultFailedVmFileInfo[i];
-    }
+	public UpdateVirtualMachineFilesResultFailedVmFileInfo getUpdateVirtualMachineFilesResultFailedVmFileInfo(int i) {
+		return this.UpdateVirtualMachineFilesResultFailedVmFileInfo[i];
+	}
 
-    public void setUpdateVirtualMachineFilesResultFailedVmFileInfo(UpdateVirtualMachineFilesResultFailedVmFileInfo[] UpdateVirtualMachineFilesResultFailedVmFileInfo) {
-        this.UpdateVirtualMachineFilesResultFailedVmFileInfo = UpdateVirtualMachineFilesResultFailedVmFileInfo;
-    }
+	public void setUpdateVirtualMachineFilesResultFailedVmFileInfo(UpdateVirtualMachineFilesResultFailedVmFileInfo[] UpdateVirtualMachineFilesResultFailedVmFileInfo) {
+		this.UpdateVirtualMachineFilesResultFailedVmFileInfo = UpdateVirtualMachineFilesResultFailedVmFileInfo;
+	}
 }

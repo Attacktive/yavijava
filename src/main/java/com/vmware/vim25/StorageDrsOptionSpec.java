@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class StorageDrsOptionSpec extends ArrayUpdateSpec {
-    public OptionValue option;
+	public OptionValue option;
 
-    public OptionValue getOption() {
-        return this.option;
-    }
+	public OptionValue getOption() {
+		return this.option;
+	}
 
-    public void setOption(OptionValue option) {
-        this.option = option;
-    }
+	public void setOption(OptionValue option) {
+		this.option = option;
+	}
 }

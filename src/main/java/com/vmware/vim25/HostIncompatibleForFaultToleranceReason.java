@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostIncompatibleForFaultToleranceReason {
-    product("product"),
-    processor("processor");
+	product("product"),
+	processor("processor");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostIncompatibleForFaultToleranceReason(String val) {
-        this.val = val;
-    }
+	private HostIncompatibleForFaultToleranceReason(String val) {
+		this.val = val;
+	}
 }

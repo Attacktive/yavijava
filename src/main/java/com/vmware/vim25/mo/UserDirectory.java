@@ -29,12 +29,12 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.NotFound;
 import com.vmware.vim25.RuntimeFault;
 import com.vmware.vim25.UserSearchResult;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -43,18 +43,17 @@ import java.rmi.RemoteException;
  */
 
 public class UserDirectory extends ManagedObject {
-    public UserDirectory(ServerConnection sc, ManagedObjectReference mor) {
-        super(sc, mor);
-    }
+	public UserDirectory(ServerConnection sc, ManagedObjectReference mor) {
+		super(sc, mor);
+	}
 
-    public String[] getDomainList() {
-        return (String[]) getCurrentProperty("domainList");
-    }
+	public String[] getDomainList() {
+		return (String[])getCurrentProperty("domainList");
+	}
 
-    public UserSearchResult[] retrieveUserGroups(String domain, String searchStr, String belongsToGroup,
-                                                 String belongsToUser, boolean exactMatch, boolean findUsers, boolean findGroups) throws NotFound, RuntimeFault, RemoteException {
-        return getVimService().retrieveUserGroups(getMOR(), domain, searchStr, belongsToGroup,
-            belongsToUser, exactMatch, findUsers, findGroups);
-    }
-
+	public UserSearchResult[] retrieveUserGroups(String domain, String searchStr, String belongsToGroup,
+		String belongsToUser, boolean exactMatch, boolean findUsers, boolean findGroups) throws NotFound, RuntimeFault, RemoteException {
+		return getVimService().retrieveUserGroups(getMOR(), domain, searchStr, belongsToGroup,
+			belongsToUser, exactMatch, findUsers, findGroups);
+	}
 }

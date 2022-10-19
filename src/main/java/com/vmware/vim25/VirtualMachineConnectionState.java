@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineConnectionState {
-    connected("connected"),
-    disconnected("disconnected"),
-    orphaned("orphaned"),
-    inaccessible("inaccessible"),
-    invalid("invalid");
+	connected("connected"),
+	disconnected("disconnected"),
+	orphaned("orphaned"),
+	inaccessible("inaccessible"),
+	invalid("invalid");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineConnectionState(String val) {
-        this.val = val;
-    }
+	private VirtualMachineConnectionState(String val) {
+		this.val = val;
+	}
 }

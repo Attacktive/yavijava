@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AlarmEventArgument extends EntityEventArgument {
-    public ManagedObjectReference alarm;
+	public ManagedObjectReference alarm;
 
-    public ManagedObjectReference getAlarm() {
-        return this.alarm;
-    }
+	public ManagedObjectReference getAlarm() {
+		return this.alarm;
+	}
 
-    public void setAlarm(ManagedObjectReference alarm) {
-        this.alarm = alarm;
-    }
+	public void setAlarm(ManagedObjectReference alarm) {
+		this.alarm = alarm;
+	}
 }

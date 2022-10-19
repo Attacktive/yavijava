@@ -29,10 +29,10 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -42,27 +42,26 @@ import java.rmi.RemoteException;
 
 abstract public class HistoryCollector extends ManagedObject {
 
-    public HistoryCollector(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public HistoryCollector(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    // The "filter" property type is different from EventHistoryCollector(TaskFilterSpec) and TaskHistoryCollector(EventFilterSpec)
-    // and these two *Spec are not inherited from each other. So getFilter() is moved to subclasses...
+	// The "filter" property type is different from EventHistoryCollector(TaskFilterSpec) and TaskHistoryCollector(EventFilterSpec)
+	// and these two *Spec are not inherited from each other. So getFilter() is moved to subclasses...
 
-    public void destroyCollector() throws RuntimeFault, RemoteException {
-        getVimService().destroyCollector(getMOR());
-    }
+	public void destroyCollector() throws RuntimeFault, RemoteException {
+		getVimService().destroyCollector(getMOR());
+	}
 
-    public void resetCollector() throws RuntimeFault, RemoteException {
-        getVimService().resetCollector(getMOR());
-    }
+	public void resetCollector() throws RuntimeFault, RemoteException {
+		getVimService().resetCollector(getMOR());
+	}
 
-    public void rewindCollector() throws RuntimeFault, RemoteException {
-        getVimService().rewindCollector(getMOR());
-    }
+	public void rewindCollector() throws RuntimeFault, RemoteException {
+		getVimService().rewindCollector(getMOR());
+	}
 
-    public void setCollectorPageSize(int maxCount) throws RuntimeFault, RemoteException {
-        getVimService().setCollectorPageSize(getMOR(), maxCount);
-    }
-
+	public void setCollectorPageSize(int maxCount) throws RuntimeFault, RemoteException {
+		getVimService().setCollectorPageSize(getMOR(), maxCount);
+	}
 }

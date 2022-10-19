@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class MethodAlreadyDisabledFault extends RuntimeFault {
-    public String sourceId;
+	public String sourceId;
 
-    public String getSourceId() {
-        return this.sourceId;
-    }
+	public String getSourceId() {
+		return this.sourceId;
+	}
 
-    public void setSourceId(String sourceId) {
-        this.sourceId = sourceId;
-    }
+	public void setSourceId(String sourceId) {
+		this.sourceId = sourceId;
+	}
 }

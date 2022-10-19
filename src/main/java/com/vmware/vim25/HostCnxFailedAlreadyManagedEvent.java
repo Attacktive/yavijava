@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostCnxFailedAlreadyManagedEvent extends HostEvent {
-    public String serverName;
+	public String serverName;
 
-    public String getServerName() {
-        return this.serverName;
-    }
+	public String getServerName() {
+		return this.serverName;
+	}
 
-    public void setServerName(String serverName) {
-        this.serverName = serverName;
-    }
+	public void setServerName(String serverName) {
+		this.serverName = serverName;
+	}
 }

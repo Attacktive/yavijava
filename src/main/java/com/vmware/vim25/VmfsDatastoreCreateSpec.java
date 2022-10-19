@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmfsDatastoreCreateSpec extends VmfsDatastoreSpec {
-    public HostDiskPartitionSpec partition;
-    public HostVmfsSpec vmfs;
-    public HostScsiDiskPartition[] extent;
+	public HostDiskPartitionSpec partition;
+	public HostVmfsSpec vmfs;
+	public HostScsiDiskPartition[] extent;
 
-    public HostDiskPartitionSpec getPartition() {
-        return this.partition;
-    }
+	public HostDiskPartitionSpec getPartition() {
+		return this.partition;
+	}
 
-    public HostVmfsSpec getVmfs() {
-        return this.vmfs;
-    }
+	public HostVmfsSpec getVmfs() {
+		return this.vmfs;
+	}
 
-    public HostScsiDiskPartition[] getExtent() {
-        return this.extent;
-    }
+	public HostScsiDiskPartition[] getExtent() {
+		return this.extent;
+	}
 
-    public void setPartition(HostDiskPartitionSpec partition) {
-        this.partition = partition;
-    }
+	public void setPartition(HostDiskPartitionSpec partition) {
+		this.partition = partition;
+	}
 
-    public void setVmfs(HostVmfsSpec vmfs) {
-        this.vmfs = vmfs;
-    }
+	public void setVmfs(HostVmfsSpec vmfs) {
+		this.vmfs = vmfs;
+	}
 
-    public void setExtent(HostScsiDiskPartition[] extent) {
-        this.extent = extent;
-    }
+	public void setExtent(HostScsiDiskPartition[] extent) {
+		this.extent = extent;
+	}
 }

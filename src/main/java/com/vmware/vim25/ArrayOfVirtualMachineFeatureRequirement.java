@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineFeatureRequirement {
-    public VirtualMachineFeatureRequirement[] VirtualMachineFeatureRequirement;
+	public VirtualMachineFeatureRequirement[] VirtualMachineFeatureRequirement;
 
-    public VirtualMachineFeatureRequirement[] getVirtualMachineFeatureRequirement() {
-        return this.VirtualMachineFeatureRequirement;
-    }
+	public VirtualMachineFeatureRequirement[] getVirtualMachineFeatureRequirement() {
+		return this.VirtualMachineFeatureRequirement;
+	}
 
-    public VirtualMachineFeatureRequirement getVirtualMachineFeatureRequirement(int i) {
-        return this.VirtualMachineFeatureRequirement[i];
-    }
+	public VirtualMachineFeatureRequirement getVirtualMachineFeatureRequirement(int i) {
+		return this.VirtualMachineFeatureRequirement[i];
+	}
 
-    public void setVirtualMachineFeatureRequirement(VirtualMachineFeatureRequirement[] VirtualMachineFeatureRequirement) {
-        this.VirtualMachineFeatureRequirement = VirtualMachineFeatureRequirement;
-    }
+	public void setVirtualMachineFeatureRequirement(VirtualMachineFeatureRequirement[] VirtualMachineFeatureRequirement) {
+		this.VirtualMachineFeatureRequirement = VirtualMachineFeatureRequirement;
+	}
 }

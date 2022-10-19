@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHttpNfcLeaseHostInfo {
-    public HttpNfcLeaseHostInfo[] HttpNfcLeaseHostInfo;
+	public HttpNfcLeaseHostInfo[] HttpNfcLeaseHostInfo;
 
-    public HttpNfcLeaseHostInfo[] getHttpNfcLeaseHostInfo() {
-        return this.HttpNfcLeaseHostInfo;
-    }
+	public HttpNfcLeaseHostInfo[] getHttpNfcLeaseHostInfo() {
+		return this.HttpNfcLeaseHostInfo;
+	}
 
-    public HttpNfcLeaseHostInfo getHttpNfcLeaseHostInfo(int i) {
-        return this.HttpNfcLeaseHostInfo[i];
-    }
+	public HttpNfcLeaseHostInfo getHttpNfcLeaseHostInfo(int i) {
+		return this.HttpNfcLeaseHostInfo[i];
+	}
 
-    public void setHttpNfcLeaseHostInfo(HttpNfcLeaseHostInfo[] HttpNfcLeaseHostInfo) {
-        this.HttpNfcLeaseHostInfo = HttpNfcLeaseHostInfo;
-    }
+	public void setHttpNfcLeaseHostInfo(HttpNfcLeaseHostInfo[] HttpNfcLeaseHostInfo) {
+		this.HttpNfcLeaseHostInfo = HttpNfcLeaseHostInfo;
+	}
 }

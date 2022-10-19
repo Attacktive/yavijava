@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VmFailedStartingSecondaryEventFailureReason {
-    incompatibleHost("incompatibleHost"),
-    loginFailed("loginFailed"),
-    registerVmFailed("registerVmFailed"),
-    migrateFailed("migrateFailed");
+	incompatibleHost("incompatibleHost"),
+	loginFailed("loginFailed"),
+	registerVmFailed("registerVmFailed"),
+	migrateFailed("migrateFailed");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VmFailedStartingSecondaryEventFailureReason(String val) {
-        this.val = val;
-    }
+	private VmFailedStartingSecondaryEventFailureReason(String val) {
+		this.val = val;
+	}
 }

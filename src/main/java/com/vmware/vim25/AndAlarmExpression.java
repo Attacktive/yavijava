@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class AndAlarmExpression extends AlarmExpression {
-    public AlarmExpression[] expression;
+	public AlarmExpression[] expression;
 
-    public AlarmExpression[] getExpression() {
-        return this.expression;
-    }
+	public AlarmExpression[] getExpression() {
+		return this.expression;
+	}
 
-    public void setExpression(AlarmExpression[] expression) {
-        this.expression = expression;
-    }
+	public void setExpression(AlarmExpression[] expression) {
+		this.expression = expression;
+	}
 }

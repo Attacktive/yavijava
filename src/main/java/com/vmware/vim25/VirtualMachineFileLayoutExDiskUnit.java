@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineFileLayoutExDiskUnit extends DynamicData {
-    public int[] fileKey;
+	public int[] fileKey;
 
-    public int[] getFileKey() {
-        return this.fileKey;
-    }
+	public int[] getFileKey() {
+		return this.fileKey;
+	}
 
-    public void setFileKey(int[] fileKey) {
-        this.fileKey = fileKey;
-    }
+	public void setFileKey(int[] fileKey) {
+		this.fileKey = fileKey;
+	}
 }

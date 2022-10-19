@@ -35,28 +35,28 @@ package com.vmware.vim25;
  */
 
 public enum LicenseManagerLicenseKey {
-    esxFull("esxFull"),
-    esxVmtn("esxVmtn"),
-    esxExpress("esxExpress"),
-    san("san"),
-    iscsi("iscsi"),
-    nas("nas"),
-    vsmp("vsmp"),
-    backup("backup"),
-    vc("vc"),
-    vcExpress("vcExpress"),
-    esxHost("esxHost"),
-    gsxHost("gsxHost"),
-    serverHost("serverHost"),
-    drsPower("drsPower"),
-    vmotion("vmotion"),
-    drs("drs"),
-    das("das");
+	esxFull("esxFull"),
+	esxVmtn("esxVmtn"),
+	esxExpress("esxExpress"),
+	san("san"),
+	iscsi("iscsi"),
+	nas("nas"),
+	vsmp("vsmp"),
+	backup("backup"),
+	vc("vc"),
+	vcExpress("vcExpress"),
+	esxHost("esxHost"),
+	gsxHost("gsxHost"),
+	serverHost("serverHost"),
+	drsPower("drsPower"),
+	vmotion("vmotion"),
+	drs("drs"),
+	das("das");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private LicenseManagerLicenseKey(String val) {
-        this.val = val;
-    }
+	private LicenseManagerLicenseKey(String val) {
+		this.val = val;
+	}
 }

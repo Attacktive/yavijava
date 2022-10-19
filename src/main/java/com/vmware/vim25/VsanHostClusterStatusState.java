@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostClusterStatusState extends DynamicData {
-    public String state;
-    public VsanHostClusterStatusStateCompletionEstimate completion;
+	public String state;
+	public VsanHostClusterStatusStateCompletionEstimate completion;
 
-    public String getState() {
-        return this.state;
-    }
+	public String getState() {
+		return this.state;
+	}
 
-    public VsanHostClusterStatusStateCompletionEstimate getCompletion() {
-        return this.completion;
-    }
+	public VsanHostClusterStatusStateCompletionEstimate getCompletion() {
+		return this.completion;
+	}
 
-    public void setState(String state) {
-        this.state = state;
-    }
+	public void setState(String state) {
+		this.state = state;
+	}
 
-    public void setCompletion(VsanHostClusterStatusStateCompletionEstimate completion) {
-        this.completion = completion;
-    }
+	public void setCompletion(VsanHostClusterStatusStateCompletionEstimate completion) {
+		this.completion = completion;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class UserPasswordChanged extends HostEvent {
-    public String userLogin;
+	public String userLogin;
 
-    public String getUserLogin() {
-        return this.userLogin;
-    }
+	public String getUserLogin() {
+		return this.userLogin;
+	}
 
-    public void setUserLogin(String userLogin) {
-        this.userLogin = userLogin;
-    }
+	public void setUserLogin(String userLogin) {
+		this.userLogin = userLogin;
+	}
 }

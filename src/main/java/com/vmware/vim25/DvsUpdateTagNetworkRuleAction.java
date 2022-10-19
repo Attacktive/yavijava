@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsUpdateTagNetworkRuleAction extends DvsNetworkRuleAction {
-    public Integer qosTag;
-    public Integer dscpTag;
+	public Integer qosTag;
+	public Integer dscpTag;
 
-    public Integer getQosTag() {
-        return this.qosTag;
-    }
+	public Integer getQosTag() {
+		return this.qosTag;
+	}
 
-    public Integer getDscpTag() {
-        return this.dscpTag;
-    }
+	public Integer getDscpTag() {
+		return this.dscpTag;
+	}
 
-    public void setQosTag(Integer qosTag) {
-        this.qosTag = qosTag;
-    }
+	public void setQosTag(Integer qosTag) {
+		this.qosTag = qosTag;
+	}
 
-    public void setDscpTag(Integer dscpTag) {
-        this.dscpTag = dscpTag;
-    }
+	public void setDscpTag(Integer dscpTag) {
+		this.dscpTag = dscpTag;
+	}
 }

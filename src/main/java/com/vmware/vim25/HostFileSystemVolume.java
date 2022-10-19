@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFileSystemVolume extends DynamicData {
-    public String type;
-    public String name;
-    public long capacity;
+	public String type;
+	public String name;
+	public long capacity;
 
-    public String getType() {
-        return this.type;
-    }
+	public String getType() {
+		return this.type;
+	}
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public long getCapacity() {
-        return this.capacity;
-    }
+	public long getCapacity() {
+		return this.capacity;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setCapacity(long capacity) {
-        this.capacity = capacity;
-    }
+	public void setCapacity(long capacity) {
+		this.capacity = capacity;
+	}
 }

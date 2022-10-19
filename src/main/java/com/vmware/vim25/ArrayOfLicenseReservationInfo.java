@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfLicenseReservationInfo {
-    public LicenseReservationInfo[] LicenseReservationInfo;
+	public LicenseReservationInfo[] LicenseReservationInfo;
 
-    public LicenseReservationInfo[] getLicenseReservationInfo() {
-        return this.LicenseReservationInfo;
-    }
+	public LicenseReservationInfo[] getLicenseReservationInfo() {
+		return this.LicenseReservationInfo;
+	}
 
-    public LicenseReservationInfo getLicenseReservationInfo(int i) {
-        return this.LicenseReservationInfo[i];
-    }
+	public LicenseReservationInfo getLicenseReservationInfo(int i) {
+		return this.LicenseReservationInfo[i];
+	}
 
-    public void setLicenseReservationInfo(LicenseReservationInfo[] LicenseReservationInfo) {
-        this.LicenseReservationInfo = LicenseReservationInfo;
-    }
+	public void setLicenseReservationInfo(LicenseReservationInfo[] LicenseReservationInfo) {
+		this.LicenseReservationInfo = LicenseReservationInfo;
+	}
 }

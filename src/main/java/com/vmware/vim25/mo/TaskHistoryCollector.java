@@ -29,12 +29,12 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
+import java.rmi.RemoteException;
+
 import com.vmware.vim25.ManagedObjectReference;
 import com.vmware.vim25.RuntimeFault;
 import com.vmware.vim25.TaskFilterSpec;
 import com.vmware.vim25.TaskInfo;
-
-import java.rmi.RemoteException;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -44,24 +44,23 @@ import java.rmi.RemoteException;
 
 public class TaskHistoryCollector extends HistoryCollector {
 
-    public TaskHistoryCollector(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public TaskHistoryCollector(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public TaskFilterSpec getFilter() {
-        return (TaskFilterSpec) getCurrentProperty("filter");
-    }
+	public TaskFilterSpec getFilter() {
+		return (TaskFilterSpec)getCurrentProperty("filter");
+	}
 
-    public TaskInfo[] getLatestPage() {
-        return (TaskInfo[]) getCurrentProperty("latestPage");
-    }
+	public TaskInfo[] getLatestPage() {
+		return (TaskInfo[])getCurrentProperty("latestPage");
+	}
 
-    public TaskInfo[] readNextTasks(int maxCount) throws RuntimeFault, RemoteException {
-        return getVimService().readNextTasks(getMOR(), maxCount);
-    }
+	public TaskInfo[] readNextTasks(int maxCount) throws RuntimeFault, RemoteException {
+		return getVimService().readNextTasks(getMOR(), maxCount);
+	}
 
-    public TaskInfo[] readPreviousTasks(int maxCount) throws RuntimeFault, RemoteException {
-        return getVimService().readPreviousTasks(getMOR(), maxCount);
-    }
-
+	public TaskInfo[] readPreviousTasks(int maxCount) throws RuntimeFault, RemoteException {
+		return getVimService().readPreviousTasks(getMOR(), maxCount);
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualSwitchProfile {
-    public VirtualSwitchProfile[] VirtualSwitchProfile;
+	public VirtualSwitchProfile[] VirtualSwitchProfile;
 
-    public VirtualSwitchProfile[] getVirtualSwitchProfile() {
-        return this.VirtualSwitchProfile;
-    }
+	public VirtualSwitchProfile[] getVirtualSwitchProfile() {
+		return this.VirtualSwitchProfile;
+	}
 
-    public VirtualSwitchProfile getVirtualSwitchProfile(int i) {
-        return this.VirtualSwitchProfile[i];
-    }
+	public VirtualSwitchProfile getVirtualSwitchProfile(int i) {
+		return this.VirtualSwitchProfile[i];
+	}
 
-    public void setVirtualSwitchProfile(VirtualSwitchProfile[] VirtualSwitchProfile) {
-        this.VirtualSwitchProfile = VirtualSwitchProfile;
-    }
+	public void setVirtualSwitchProfile(VirtualSwitchProfile[] VirtualSwitchProfile) {
+		this.VirtualSwitchProfile = VirtualSwitchProfile;
+	}
 }

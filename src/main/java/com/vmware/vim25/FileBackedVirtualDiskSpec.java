@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FileBackedVirtualDiskSpec extends VirtualDiskSpec {
-    public long capacityKb;
-    public VirtualMachineProfileSpec[] profile;
+	public long capacityKb;
+	public VirtualMachineProfileSpec[] profile;
 
-    public long getCapacityKb() {
-        return this.capacityKb;
-    }
+	public long getCapacityKb() {
+		return this.capacityKb;
+	}
 
-    public VirtualMachineProfileSpec[] getProfile() {
-        return this.profile;
-    }
+	public VirtualMachineProfileSpec[] getProfile() {
+		return this.profile;
+	}
 
-    public void setCapacityKb(long capacityKb) {
-        this.capacityKb = capacityKb;
-    }
+	public void setCapacityKb(long capacityKb) {
+		this.capacityKb = capacityKb;
+	}
 
-    public void setProfile(VirtualMachineProfileSpec[] profile) {
-        this.profile = profile;
-    }
+	public void setProfile(VirtualMachineProfileSpec[] profile) {
+		this.profile = profile;
+	}
 }

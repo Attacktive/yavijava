@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseExpiredEvent extends Event {
-    public LicenseFeatureInfo feature;
+	public LicenseFeatureInfo feature;
 
-    public LicenseFeatureInfo getFeature() {
-        return this.feature;
-    }
+	public LicenseFeatureInfo getFeature() {
+		return this.feature;
+	}
 
-    public void setFeature(LicenseFeatureInfo feature) {
-        this.feature = feature;
-    }
+	public void setFeature(LicenseFeatureInfo feature) {
+		this.feature = feature;
+	}
 }

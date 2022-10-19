@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfManagedObjectReference {
-    public ManagedObjectReference[] ManagedObjectReference;
+	public ManagedObjectReference[] ManagedObjectReference;
 
-    public ManagedObjectReference[] getManagedObjectReference() {
-        return this.ManagedObjectReference;
-    }
+	public ManagedObjectReference[] getManagedObjectReference() {
+		return this.ManagedObjectReference;
+	}
 
-    public ManagedObjectReference getManagedObjectReference(int i) {
-        return this.ManagedObjectReference[i];
-    }
+	public ManagedObjectReference getManagedObjectReference(int i) {
+		return this.ManagedObjectReference[i];
+	}
 
-    public void setManagedObjectReference(ManagedObjectReference[] ManagedObjectReference) {
-        this.ManagedObjectReference = ManagedObjectReference;
-    }
+	public void setManagedObjectReference(ManagedObjectReference[] ManagedObjectReference) {
+		this.ManagedObjectReference = ManagedObjectReference;
+	}
 }

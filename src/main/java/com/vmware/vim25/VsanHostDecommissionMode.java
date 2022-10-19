@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VsanHostDecommissionMode extends DynamicData {
-    public String objectAction;
+	public String objectAction;
 
-    public String getObjectAction() {
-        return this.objectAction;
-    }
+	public String getObjectAction() {
+		return this.objectAction;
+	}
 
-    public void setObjectAction(String objectAction) {
-        this.objectAction = objectAction;
-    }
+	public void setObjectAction(String objectAction) {
+		this.objectAction = objectAction;
+	}
 }

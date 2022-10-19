@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DatacenterCreatedEvent extends DatacenterEvent {
-    public FolderEventArgument parent;
+	public FolderEventArgument parent;
 
-    public FolderEventArgument getParent() {
-        return this.parent;
-    }
+	public FolderEventArgument getParent() {
+		return this.parent;
+	}
 
-    public void setParent(FolderEventArgument parent) {
-        this.parent = parent;
-    }
+	public void setParent(FolderEventArgument parent) {
+		this.parent = parent;
+	}
 }

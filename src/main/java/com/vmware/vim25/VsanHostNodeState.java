@@ -35,21 +35,21 @@ package com.vmware.vim25;
  */
 
 public enum VsanHostNodeState {
-    error("error"),
-    disabled("disabled"),
-    agent("agent"),
-    master("master"),
-    backup("backup"),
-    starting("starting"),
-    stopping("stopping"),
-    enteringMaintenanceMode("enteringMaintenanceMode"),
-    exitingMaintenanceMode("exitingMaintenanceMode"),
-    decommissioning("decommissioning");
+	error("error"),
+	disabled("disabled"),
+	agent("agent"),
+	master("master"),
+	backup("backup"),
+	starting("starting"),
+	stopping("stopping"),
+	enteringMaintenanceMode("enteringMaintenanceMode"),
+	exitingMaintenanceMode("exitingMaintenanceMode"),
+	decommissioning("decommissioning");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VsanHostNodeState(String val) {
-        this.val = val;
-    }
+	private VsanHostNodeState(String val) {
+		this.val = val;
+	}
 }

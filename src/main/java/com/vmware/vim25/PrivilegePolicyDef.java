@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PrivilegePolicyDef extends DynamicData {
-    public String createPrivilege;
-    public String readPrivilege;
-    public String updatePrivilege;
-    public String deletePrivilege;
+	public String createPrivilege;
+	public String readPrivilege;
+	public String updatePrivilege;
+	public String deletePrivilege;
 
-    public String getCreatePrivilege() {
-        return this.createPrivilege;
-    }
+	public String getCreatePrivilege() {
+		return this.createPrivilege;
+	}
 
-    public String getReadPrivilege() {
-        return this.readPrivilege;
-    }
+	public String getReadPrivilege() {
+		return this.readPrivilege;
+	}
 
-    public String getUpdatePrivilege() {
-        return this.updatePrivilege;
-    }
+	public String getUpdatePrivilege() {
+		return this.updatePrivilege;
+	}
 
-    public String getDeletePrivilege() {
-        return this.deletePrivilege;
-    }
+	public String getDeletePrivilege() {
+		return this.deletePrivilege;
+	}
 
-    public void setCreatePrivilege(String createPrivilege) {
-        this.createPrivilege = createPrivilege;
-    }
+	public void setCreatePrivilege(String createPrivilege) {
+		this.createPrivilege = createPrivilege;
+	}
 
-    public void setReadPrivilege(String readPrivilege) {
-        this.readPrivilege = readPrivilege;
-    }
+	public void setReadPrivilege(String readPrivilege) {
+		this.readPrivilege = readPrivilege;
+	}
 
-    public void setUpdatePrivilege(String updatePrivilege) {
-        this.updatePrivilege = updatePrivilege;
-    }
+	public void setUpdatePrivilege(String updatePrivilege) {
+		this.updatePrivilege = updatePrivilege;
+	}
 
-    public void setDeletePrivilege(String deletePrivilege) {
-        this.deletePrivilege = deletePrivilege;
-    }
+	public void setDeletePrivilege(String deletePrivilege) {
+		this.deletePrivilege = deletePrivilege;
+	}
 }

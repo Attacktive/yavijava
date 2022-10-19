@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualPointingDeviceDeviceBackingInfo extends VirtualDeviceDeviceBackingInfo {
-    public String hostPointingDevice;
+	public String hostPointingDevice;
 
-    public String getHostPointingDevice() {
-        return this.hostPointingDevice;
-    }
+	public String getHostPointingDevice() {
+		return this.hostPointingDevice;
+	}
 
-    public void setHostPointingDevice(String hostPointingDevice) {
-        this.hostPointingDevice = hostPointingDevice;
-    }
+	public void setHostPointingDevice(String hostPointingDevice) {
+		this.hostPointingDevice = hostPointingDevice;
+	}
 }

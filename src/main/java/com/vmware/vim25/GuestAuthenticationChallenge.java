@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GuestAuthenticationChallenge extends GuestOperationsFault {
-    public GuestAuthentication serverChallenge;
-    public long sessionID;
+	public GuestAuthentication serverChallenge;
+	public long sessionID;
 
-    public GuestAuthentication getServerChallenge() {
-        return this.serverChallenge;
-    }
+	public GuestAuthentication getServerChallenge() {
+		return this.serverChallenge;
+	}
 
-    public long getSessionID() {
-        return this.sessionID;
-    }
+	public long getSessionID() {
+		return this.sessionID;
+	}
 
-    public void setServerChallenge(GuestAuthentication serverChallenge) {
-        this.serverChallenge = serverChallenge;
-    }
+	public void setServerChallenge(GuestAuthentication serverChallenge) {
+		this.serverChallenge = serverChallenge;
+	}
 
-    public void setSessionID(long sessionID) {
-        this.sessionID = sessionID;
-    }
+	public void setSessionID(long sessionID) {
+		this.sessionID = sessionID;
+	}
 }

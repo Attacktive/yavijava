@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfFirewallProfileRulesetProfile {
-    public FirewallProfileRulesetProfile[] FirewallProfileRulesetProfile;
+	public FirewallProfileRulesetProfile[] FirewallProfileRulesetProfile;
 
-    public FirewallProfileRulesetProfile[] getFirewallProfileRulesetProfile() {
-        return this.FirewallProfileRulesetProfile;
-    }
+	public FirewallProfileRulesetProfile[] getFirewallProfileRulesetProfile() {
+		return this.FirewallProfileRulesetProfile;
+	}
 
-    public FirewallProfileRulesetProfile getFirewallProfileRulesetProfile(int i) {
-        return this.FirewallProfileRulesetProfile[i];
-    }
+	public FirewallProfileRulesetProfile getFirewallProfileRulesetProfile(int i) {
+		return this.FirewallProfileRulesetProfile[i];
+	}
 
-    public void setFirewallProfileRulesetProfile(FirewallProfileRulesetProfile[] FirewallProfileRulesetProfile) {
-        this.FirewallProfileRulesetProfile = FirewallProfileRulesetProfile;
-    }
+	public void setFirewallProfileRulesetProfile(FirewallProfileRulesetProfile[] FirewallProfileRulesetProfile) {
+		this.FirewallProfileRulesetProfile = FirewallProfileRulesetProfile;
+	}
 }

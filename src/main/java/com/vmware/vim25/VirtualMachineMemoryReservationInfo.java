@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineMemoryReservationInfo extends DynamicData {
-    public long virtualMachineMin;
-    public long virtualMachineMax;
-    public long virtualMachineReserved;
-    public String allocationPolicy;
+	public long virtualMachineMin;
+	public long virtualMachineMax;
+	public long virtualMachineReserved;
+	public String allocationPolicy;
 
-    public long getVirtualMachineMin() {
-        return this.virtualMachineMin;
-    }
+	public long getVirtualMachineMin() {
+		return this.virtualMachineMin;
+	}
 
-    public long getVirtualMachineMax() {
-        return this.virtualMachineMax;
-    }
+	public long getVirtualMachineMax() {
+		return this.virtualMachineMax;
+	}
 
-    public long getVirtualMachineReserved() {
-        return this.virtualMachineReserved;
-    }
+	public long getVirtualMachineReserved() {
+		return this.virtualMachineReserved;
+	}
 
-    public String getAllocationPolicy() {
-        return this.allocationPolicy;
-    }
+	public String getAllocationPolicy() {
+		return this.allocationPolicy;
+	}
 
-    public void setVirtualMachineMin(long virtualMachineMin) {
-        this.virtualMachineMin = virtualMachineMin;
-    }
+	public void setVirtualMachineMin(long virtualMachineMin) {
+		this.virtualMachineMin = virtualMachineMin;
+	}
 
-    public void setVirtualMachineMax(long virtualMachineMax) {
-        this.virtualMachineMax = virtualMachineMax;
-    }
+	public void setVirtualMachineMax(long virtualMachineMax) {
+		this.virtualMachineMax = virtualMachineMax;
+	}
 
-    public void setVirtualMachineReserved(long virtualMachineReserved) {
-        this.virtualMachineReserved = virtualMachineReserved;
-    }
+	public void setVirtualMachineReserved(long virtualMachineReserved) {
+		this.virtualMachineReserved = virtualMachineReserved;
+	}
 
-    public void setAllocationPolicy(String allocationPolicy) {
-        this.allocationPolicy = allocationPolicy;
-    }
+	public void setAllocationPolicy(String allocationPolicy) {
+		this.allocationPolicy = allocationPolicy;
+	}
 }

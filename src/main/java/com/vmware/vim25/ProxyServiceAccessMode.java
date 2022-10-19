@@ -34,14 +34,14 @@ package com.vmware.vim25;
  */
 
 public enum ProxyServiceAccessMode {
-    httpOnly("httpOnly"),
-    httpsOnly("httpsOnly"),
-    httpsWithRedirect("httpsWithRedirect"),
-    httpAndHttps("httpAndHttps");
+	httpOnly("httpOnly"),
+	httpsOnly("httpsOnly"),
+	httpsWithRedirect("httpsWithRedirect"),
+	httpAndHttps("httpAndHttps");
 
-    private final String val;
+	private final String val;
 
-    private ProxyServiceAccessMode(String val) {
-        this.val = val;
-    }
+	private ProxyServiceAccessMode(String val) {
+		this.val = val;
+	}
 }

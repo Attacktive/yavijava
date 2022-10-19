@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum PerfFormat {
-    normal("normal"),
-    csv("csv");
+	normal("normal"),
+	csv("csv");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private PerfFormat(String val) {
-        this.val = val;
-    }
+	private PerfFormat(String val) {
+		this.val = val;
+	}
 }

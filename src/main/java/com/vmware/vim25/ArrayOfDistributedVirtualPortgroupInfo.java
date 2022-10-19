@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDistributedVirtualPortgroupInfo {
-    public DistributedVirtualPortgroupInfo[] DistributedVirtualPortgroupInfo;
+	public DistributedVirtualPortgroupInfo[] DistributedVirtualPortgroupInfo;
 
-    public DistributedVirtualPortgroupInfo[] getDistributedVirtualPortgroupInfo() {
-        return this.DistributedVirtualPortgroupInfo;
-    }
+	public DistributedVirtualPortgroupInfo[] getDistributedVirtualPortgroupInfo() {
+		return this.DistributedVirtualPortgroupInfo;
+	}
 
-    public DistributedVirtualPortgroupInfo getDistributedVirtualPortgroupInfo(int i) {
-        return this.DistributedVirtualPortgroupInfo[i];
-    }
+	public DistributedVirtualPortgroupInfo getDistributedVirtualPortgroupInfo(int i) {
+		return this.DistributedVirtualPortgroupInfo[i];
+	}
 
-    public void setDistributedVirtualPortgroupInfo(DistributedVirtualPortgroupInfo[] DistributedVirtualPortgroupInfo) {
-        this.DistributedVirtualPortgroupInfo = DistributedVirtualPortgroupInfo;
-    }
+	public void setDistributedVirtualPortgroupInfo(DistributedVirtualPortgroupInfo[] DistributedVirtualPortgroupInfo) {
+		this.DistributedVirtualPortgroupInfo = DistributedVirtualPortgroupInfo;
+	}
 }

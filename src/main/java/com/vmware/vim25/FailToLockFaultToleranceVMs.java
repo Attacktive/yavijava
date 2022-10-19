@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class FailToLockFaultToleranceVMs extends RuntimeFault {
-    public String vmName;
-    public ManagedObjectReference vm;
-    public ManagedObjectReference alreadyLockedVm;
+	public String vmName;
+	public ManagedObjectReference vm;
+	public ManagedObjectReference alreadyLockedVm;
 
-    public String getVmName() {
-        return this.vmName;
-    }
+	public String getVmName() {
+		return this.vmName;
+	}
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public ManagedObjectReference getAlreadyLockedVm() {
-        return this.alreadyLockedVm;
-    }
+	public ManagedObjectReference getAlreadyLockedVm() {
+		return this.alreadyLockedVm;
+	}
 
-    public void setVmName(String vmName) {
-        this.vmName = vmName;
-    }
+	public void setVmName(String vmName) {
+		this.vmName = vmName;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setAlreadyLockedVm(ManagedObjectReference alreadyLockedVm) {
-        this.alreadyLockedVm = alreadyLockedVm;
-    }
+	public void setAlreadyLockedVm(ManagedObjectReference alreadyLockedVm) {
+		this.alreadyLockedVm = alreadyLockedVm;
+	}
 }

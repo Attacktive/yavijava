@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostService {
-    public HostService[] HostService;
+	public HostService[] HostService;
 
-    public HostService[] getHostService() {
-        return this.HostService;
-    }
+	public HostService[] getHostService() {
+		return this.HostService;
+	}
 
-    public HostService getHostService(int i) {
-        return this.HostService[i];
-    }
+	public HostService getHostService(int i) {
+		return this.HostService[i];
+	}
 
-    public void setHostService(HostService[] HostService) {
-        this.HostService = HostService;
-    }
+	public void setHostService(HostService[] HostService) {
+		this.HostService = HostService;
+	}
 }

@@ -36,49 +36,49 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskDescription extends DynamicData {
-    public TypeDescription[] action;
-    public ScheduledTaskDetail[] schedulerInfo;
-    public ElementDescription[] state;
-    public ElementDescription[] dayOfWeek;
-    public ElementDescription[] weekOfMonth;
+	public TypeDescription[] action;
+	public ScheduledTaskDetail[] schedulerInfo;
+	public ElementDescription[] state;
+	public ElementDescription[] dayOfWeek;
+	public ElementDescription[] weekOfMonth;
 
-    public TypeDescription[] getAction() {
-        return this.action;
-    }
+	public TypeDescription[] getAction() {
+		return this.action;
+	}
 
-    public ScheduledTaskDetail[] getSchedulerInfo() {
-        return this.schedulerInfo;
-    }
+	public ScheduledTaskDetail[] getSchedulerInfo() {
+		return this.schedulerInfo;
+	}
 
-    public ElementDescription[] getState() {
-        return this.state;
-    }
+	public ElementDescription[] getState() {
+		return this.state;
+	}
 
-    public ElementDescription[] getDayOfWeek() {
-        return this.dayOfWeek;
-    }
+	public ElementDescription[] getDayOfWeek() {
+		return this.dayOfWeek;
+	}
 
-    public ElementDescription[] getWeekOfMonth() {
-        return this.weekOfMonth;
-    }
+	public ElementDescription[] getWeekOfMonth() {
+		return this.weekOfMonth;
+	}
 
-    public void setAction(TypeDescription[] action) {
-        this.action = action;
-    }
+	public void setAction(TypeDescription[] action) {
+		this.action = action;
+	}
 
-    public void setSchedulerInfo(ScheduledTaskDetail[] schedulerInfo) {
-        this.schedulerInfo = schedulerInfo;
-    }
+	public void setSchedulerInfo(ScheduledTaskDetail[] schedulerInfo) {
+		this.schedulerInfo = schedulerInfo;
+	}
 
-    public void setState(ElementDescription[] state) {
-        this.state = state;
-    }
+	public void setState(ElementDescription[] state) {
+		this.state = state;
+	}
 
-    public void setDayOfWeek(ElementDescription[] dayOfWeek) {
-        this.dayOfWeek = dayOfWeek;
-    }
+	public void setDayOfWeek(ElementDescription[] dayOfWeek) {
+		this.dayOfWeek = dayOfWeek;
+	}
 
-    public void setWeekOfMonth(ElementDescription[] weekOfMonth) {
-        this.weekOfMonth = weekOfMonth;
-    }
+	public void setWeekOfMonth(ElementDescription[] weekOfMonth) {
+		this.weekOfMonth = weekOfMonth;
+	}
 }

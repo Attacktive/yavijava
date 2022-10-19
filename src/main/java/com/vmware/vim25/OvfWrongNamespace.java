@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfWrongNamespace extends OvfInvalidPackage {
-    public String namespaceName;
+	public String namespaceName;
 
-    public String getNamespaceName() {
-        return this.namespaceName;
-    }
+	public String getNamespaceName() {
+		return this.namespaceName;
+	}
 
-    public void setNamespaceName(String namespaceName) {
-        this.namespaceName = namespaceName;
-    }
+	public void setNamespaceName(String namespaceName) {
+		this.namespaceName = namespaceName;
+	}
 }

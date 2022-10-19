@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfGuestNicInfo {
-    public GuestNicInfo[] GuestNicInfo;
+	public GuestNicInfo[] GuestNicInfo;
 
-    public GuestNicInfo[] getGuestNicInfo() {
-        return this.GuestNicInfo;
-    }
+	public GuestNicInfo[] getGuestNicInfo() {
+		return this.GuestNicInfo;
+	}
 
-    public GuestNicInfo getGuestNicInfo(int i) {
-        return this.GuestNicInfo[i];
-    }
+	public GuestNicInfo getGuestNicInfo(int i) {
+		return this.GuestNicInfo[i];
+	}
 
-    public void setGuestNicInfo(GuestNicInfo[] GuestNicInfo) {
-        this.GuestNicInfo = GuestNicInfo;
-    }
+	public void setGuestNicInfo(GuestNicInfo[] GuestNicInfo) {
+		this.GuestNicInfo = GuestNicInfo;
+	}
 }

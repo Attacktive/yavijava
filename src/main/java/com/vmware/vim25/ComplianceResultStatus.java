@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum ComplianceResultStatus {
-    compliant("compliant"),
-    nonCompliant("nonCompliant"),
-    unknown("unknown");
+	compliant("compliant"),
+	nonCompliant("nonCompliant"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ComplianceResultStatus(String val) {
-        this.val = val;
-    }
+	private ComplianceResultStatus(String val) {
+		this.val = val;
+	}
 }

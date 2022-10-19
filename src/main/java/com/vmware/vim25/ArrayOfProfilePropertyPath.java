@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfProfilePropertyPath {
-    public ProfilePropertyPath[] ProfilePropertyPath;
+	public ProfilePropertyPath[] ProfilePropertyPath;
 
-    public ProfilePropertyPath[] getProfilePropertyPath() {
-        return this.ProfilePropertyPath;
-    }
+	public ProfilePropertyPath[] getProfilePropertyPath() {
+		return this.ProfilePropertyPath;
+	}
 
-    public ProfilePropertyPath getProfilePropertyPath(int i) {
-        return this.ProfilePropertyPath[i];
-    }
+	public ProfilePropertyPath getProfilePropertyPath(int i) {
+		return this.ProfilePropertyPath[i];
+	}
 
-    public void setProfilePropertyPath(ProfilePropertyPath[] ProfilePropertyPath) {
-        this.ProfilePropertyPath = ProfilePropertyPath;
-    }
+	public void setProfilePropertyPath(ProfilePropertyPath[] ProfilePropertyPath) {
+		this.ProfilePropertyPath = ProfilePropertyPath;
+	}
 }

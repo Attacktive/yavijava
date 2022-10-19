@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareUplinkPortOrderPolicy extends InheritablePolicy {
-    public String[] activeUplinkPort;
-    public String[] standbyUplinkPort;
+	public String[] activeUplinkPort;
+	public String[] standbyUplinkPort;
 
-    public String[] getActiveUplinkPort() {
-        return this.activeUplinkPort;
-    }
+	public String[] getActiveUplinkPort() {
+		return this.activeUplinkPort;
+	}
 
-    public String[] getStandbyUplinkPort() {
-        return this.standbyUplinkPort;
-    }
+	public String[] getStandbyUplinkPort() {
+		return this.standbyUplinkPort;
+	}
 
-    public void setActiveUplinkPort(String[] activeUplinkPort) {
-        this.activeUplinkPort = activeUplinkPort;
-    }
+	public void setActiveUplinkPort(String[] activeUplinkPort) {
+		this.activeUplinkPort = activeUplinkPort;
+	}
 
-    public void setStandbyUplinkPort(String[] standbyUplinkPort) {
-        this.standbyUplinkPort = standbyUplinkPort;
-    }
+	public void setStandbyUplinkPort(String[] standbyUplinkPort) {
+		this.standbyUplinkPort = standbyUplinkPort;
+	}
 }

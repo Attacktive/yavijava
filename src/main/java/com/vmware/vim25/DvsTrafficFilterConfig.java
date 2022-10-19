@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsTrafficFilterConfig extends DvsFilterConfig {
-    public DvsTrafficRuleset trafficRuleset;
+	public DvsTrafficRuleset trafficRuleset;
 
-    public DvsTrafficRuleset getTrafficRuleset() {
-        return this.trafficRuleset;
-    }
+	public DvsTrafficRuleset getTrafficRuleset() {
+		return this.trafficRuleset;
+	}
 
-    public void setTrafficRuleset(DvsTrafficRuleset trafficRuleset) {
-        this.trafficRuleset = trafficRuleset;
-    }
+	public void setTrafficRuleset(DvsTrafficRuleset trafficRuleset) {
+		this.trafficRuleset = trafficRuleset;
+	}
 }

@@ -35,16 +35,16 @@ package com.vmware.vim25;
  */
 
 public enum VirtualDeviceFileExtension {
-    iso("iso"),
-    flp("flp"),
-    vmdk("vmdk"),
-    dsk("dsk"),
-    rdm("rdm");
+	iso("iso"),
+	flp("flp"),
+	vmdk("vmdk"),
+	dsk("dsk"),
+	rdm("rdm");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualDeviceFileExtension(String val) {
-        this.val = val;
-    }
+	private VirtualDeviceFileExtension(String val) {
+		this.val = val;
+	}
 }

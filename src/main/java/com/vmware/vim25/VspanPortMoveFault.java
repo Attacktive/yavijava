@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VspanPortMoveFault extends DvsFault {
-    public String srcPortgroupName;
-    public String destPortgroupName;
-    public String portKey;
+	public String srcPortgroupName;
+	public String destPortgroupName;
+	public String portKey;
 
-    public String getSrcPortgroupName() {
-        return this.srcPortgroupName;
-    }
+	public String getSrcPortgroupName() {
+		return this.srcPortgroupName;
+	}
 
-    public String getDestPortgroupName() {
-        return this.destPortgroupName;
-    }
+	public String getDestPortgroupName() {
+		return this.destPortgroupName;
+	}
 
-    public String getPortKey() {
-        return this.portKey;
-    }
+	public String getPortKey() {
+		return this.portKey;
+	}
 
-    public void setSrcPortgroupName(String srcPortgroupName) {
-        this.srcPortgroupName = srcPortgroupName;
-    }
+	public void setSrcPortgroupName(String srcPortgroupName) {
+		this.srcPortgroupName = srcPortgroupName;
+	}
 
-    public void setDestPortgroupName(String destPortgroupName) {
-        this.destPortgroupName = destPortgroupName;
-    }
+	public void setDestPortgroupName(String destPortgroupName) {
+		this.destPortgroupName = destPortgroupName;
+	}
 
-    public void setPortKey(String portKey) {
-        this.portKey = portKey;
-    }
+	public void setPortKey(String portKey) {
+		this.portKey = portKey;
+	}
 }

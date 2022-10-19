@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class NotSupportedHost extends HostConnectFault {
-    public String productName;
-    public String productVersion;
+	public String productName;
+	public String productVersion;
 
-    public String getProductName() {
-        return this.productName;
-    }
+	public String getProductName() {
+		return this.productName;
+	}
 
-    public String getProductVersion() {
-        return this.productVersion;
-    }
+	public String getProductVersion() {
+		return this.productVersion;
+	}
 
-    public void setProductName(String productName) {
-        this.productName = productName;
-    }
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
 
-    public void setProductVersion(String productVersion) {
-        this.productVersion = productVersion;
-    }
+	public void setProductVersion(String productVersion) {
+		this.productVersion = productVersion;
+	}
 }

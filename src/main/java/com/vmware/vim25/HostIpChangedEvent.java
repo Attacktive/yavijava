@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostIpChangedEvent extends HostEvent {
-    public String oldIP;
-    public String newIP;
+	public String oldIP;
+	public String newIP;
 
-    public String getOldIP() {
-        return this.oldIP;
-    }
+	public String getOldIP() {
+		return this.oldIP;
+	}
 
-    public String getNewIP() {
-        return this.newIP;
-    }
+	public String getNewIP() {
+		return this.newIP;
+	}
 
-    public void setOldIP(String oldIP) {
-        this.oldIP = oldIP;
-    }
+	public void setOldIP(String oldIP) {
+		this.oldIP = oldIP;
+	}
 
-    public void setNewIP(String newIP) {
-        this.newIP = newIP;
-    }
+	public void setNewIP(String newIP) {
+		this.newIP = newIP;
+	}
 }

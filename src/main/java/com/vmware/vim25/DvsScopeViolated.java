@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsScopeViolated extends DvsFault {
-    public ManagedObjectReference[] scope;
-    public ManagedObjectReference entity;
+	public ManagedObjectReference[] scope;
+	public ManagedObjectReference entity;
 
-    public ManagedObjectReference[] getScope() {
-        return this.scope;
-    }
+	public ManagedObjectReference[] getScope() {
+		return this.scope;
+	}
 
-    public ManagedObjectReference getEntity() {
-        return this.entity;
-    }
+	public ManagedObjectReference getEntity() {
+		return this.entity;
+	}
 
-    public void setScope(ManagedObjectReference[] scope) {
-        this.scope = scope;
-    }
+	public void setScope(ManagedObjectReference[] scope) {
+		this.scope = scope;
+	}
 
-    public void setEntity(ManagedObjectReference entity) {
-        this.entity = entity;
-    }
+	public void setEntity(ManagedObjectReference entity) {
+		this.entity = entity;
+	}
 }

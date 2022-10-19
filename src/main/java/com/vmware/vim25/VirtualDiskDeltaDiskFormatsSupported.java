@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDiskDeltaDiskFormatsSupported extends DynamicData {
-    public String datastoreType;
-    public ChoiceOption deltaDiskFormat;
+	public String datastoreType;
+	public ChoiceOption deltaDiskFormat;
 
-    public String getDatastoreType() {
-        return this.datastoreType;
-    }
+	public String getDatastoreType() {
+		return this.datastoreType;
+	}
 
-    public ChoiceOption getDeltaDiskFormat() {
-        return this.deltaDiskFormat;
-    }
+	public ChoiceOption getDeltaDiskFormat() {
+		return this.deltaDiskFormat;
+	}
 
-    public void setDatastoreType(String datastoreType) {
-        this.datastoreType = datastoreType;
-    }
+	public void setDatastoreType(String datastoreType) {
+		this.datastoreType = datastoreType;
+	}
 
-    public void setDeltaDiskFormat(ChoiceOption deltaDiskFormat) {
-        this.deltaDiskFormat = deltaDiskFormat;
-    }
+	public void setDeltaDiskFormat(ChoiceOption deltaDiskFormat) {
+		this.deltaDiskFormat = deltaDiskFormat;
+	}
 }

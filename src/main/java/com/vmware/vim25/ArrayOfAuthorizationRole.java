@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAuthorizationRole {
-    public AuthorizationRole[] AuthorizationRole;
+	public AuthorizationRole[] AuthorizationRole;
 
-    public AuthorizationRole[] getAuthorizationRole() {
-        return this.AuthorizationRole;
-    }
+	public AuthorizationRole[] getAuthorizationRole() {
+		return this.AuthorizationRole;
+	}
 
-    public AuthorizationRole getAuthorizationRole(int i) {
-        return this.AuthorizationRole[i];
-    }
+	public AuthorizationRole getAuthorizationRole(int i) {
+		return this.AuthorizationRole[i];
+	}
 
-    public void setAuthorizationRole(AuthorizationRole[] AuthorizationRole) {
-        this.AuthorizationRole = AuthorizationRole;
-    }
+	public void setAuthorizationRole(AuthorizationRole[] AuthorizationRole) {
+		this.AuthorizationRole = AuthorizationRole;
+	}
 }

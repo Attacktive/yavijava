@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ScheduledTaskDetail extends TypeDescription {
-    public String frequency;
+	public String frequency;
 
-    public String getFrequency() {
-        return this.frequency;
-    }
+	public String getFrequency() {
+		return this.frequency;
+	}
 
-    public void setFrequency(String frequency) {
-        this.frequency = frequency;
-    }
+	public void setFrequency(String frequency) {
+		this.frequency = frequency;
+	}
 }

@@ -29,9 +29,16 @@ POSSIBILITY OF SUCH DAMAGE.
 
 package com.vmware.vim25.mo;
 
-import com.vmware.vim25.*;
-
 import java.rmi.RemoteException;
+
+import com.vmware.vim25.CannotCreateFile;
+import com.vmware.vim25.FileAlreadyExists;
+import com.vmware.vim25.FileFault;
+import com.vmware.vim25.FileNotFound;
+import com.vmware.vim25.InvalidDatastore;
+import com.vmware.vim25.InvalidDatastorePath;
+import com.vmware.vim25.ManagedObjectReference;
+import com.vmware.vim25.RuntimeFault;
 
 /**
  * The managed object class corresponding to the one defined in VI SDK API reference.
@@ -41,15 +48,15 @@ import java.rmi.RemoteException;
  */
 
 public class DatastoreNamespaceManager extends ManagedObject {
-    public DatastoreNamespaceManager(ServerConnection serverConnection, ManagedObjectReference mor) {
-        super(serverConnection, mor);
-    }
+	public DatastoreNamespaceManager(ServerConnection serverConnection, ManagedObjectReference mor) {
+		super(serverConnection, mor);
+	}
 
-    public String createDirectory(Datastore datastore, String displayName, String policy) throws CannotCreateFile, FileAlreadyExists, InvalidDatastore, RuntimeFault, RemoteException {
-        return getVimService().createDirectory(this.getMOR(), datastore.getMOR(), displayName, policy);
-    }
+	public String createDirectory(Datastore datastore, String displayName, String policy) throws CannotCreateFile, FileAlreadyExists, InvalidDatastore, RuntimeFault, RemoteException {
+		return getVimService().createDirectory(this.getMOR(), datastore.getMOR(), displayName, policy);
+	}
 
-    public void deleteDirectory(Datacenter datacenter, String datastorePath) throws FileNotFound, InvalidDatastorePath, FileFault, InvalidDatastore, RuntimeFault, RemoteException {
-        getVimService().deleteDirectory(this.getMOR(), datacenter == null ? null : datacenter.getMOR(), datastorePath);
-    }
+	public void deleteDirectory(Datacenter datacenter, String datastorePath) throws FileNotFound, InvalidDatastorePath, FileFault, InvalidDatastore, RuntimeFault, RemoteException {
+		getVimService().deleteDirectory(this.getMOR(), datacenter == null? null: datacenter.getMOR(), datastorePath);
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostCpuPackage {
-    public HostCpuPackage[] HostCpuPackage;
+	public HostCpuPackage[] HostCpuPackage;
 
-    public HostCpuPackage[] getHostCpuPackage() {
-        return this.HostCpuPackage;
-    }
+	public HostCpuPackage[] getHostCpuPackage() {
+		return this.HostCpuPackage;
+	}
 
-    public HostCpuPackage getHostCpuPackage(int i) {
-        return this.HostCpuPackage[i];
-    }
+	public HostCpuPackage getHostCpuPackage(int i) {
+		return this.HostCpuPackage[i];
+	}
 
-    public void setHostCpuPackage(HostCpuPackage[] HostCpuPackage) {
-        this.HostCpuPackage = HostCpuPackage;
-    }
+	public void setHostCpuPackage(HostCpuPackage[] HostCpuPackage) {
+		this.HostCpuPackage = HostCpuPackage;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DrsEnabledEvent extends ClusterEvent {
-    public String behavior;
+	public String behavior;
 
-    public String getBehavior() {
-        return this.behavior;
-    }
+	public String getBehavior() {
+		return this.behavior;
+	}
 
-    public void setBehavior(String behavior) {
-        this.behavior = behavior;
-    }
+	public void setBehavior(String behavior) {
+		this.behavior = behavior;
+	}
 }

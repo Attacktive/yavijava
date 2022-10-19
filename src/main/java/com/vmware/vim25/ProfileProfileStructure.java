@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileProfileStructure extends DynamicData {
-    public String profileTypeName;
-    public ProfileProfileStructureProperty[] child;
+	public String profileTypeName;
+	public ProfileProfileStructureProperty[] child;
 
-    public String getProfileTypeName() {
-        return this.profileTypeName;
-    }
+	public String getProfileTypeName() {
+		return this.profileTypeName;
+	}
 
-    public ProfileProfileStructureProperty[] getChild() {
-        return this.child;
-    }
+	public ProfileProfileStructureProperty[] getChild() {
+		return this.child;
+	}
 
-    public void setProfileTypeName(String profileTypeName) {
-        this.profileTypeName = profileTypeName;
-    }
+	public void setProfileTypeName(String profileTypeName) {
+		this.profileTypeName = profileTypeName;
+	}
 
-    public void setChild(ProfileProfileStructureProperty[] child) {
-        this.child = child;
-    }
+	public void setChild(ProfileProfileStructureProperty[] child) {
+		this.child = child;
+	}
 }

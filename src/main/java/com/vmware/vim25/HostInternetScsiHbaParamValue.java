@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostInternetScsiHbaParamValue extends OptionValue {
-    public Boolean isInherited;
+	public Boolean isInherited;
 
-    public Boolean getIsInherited() {
-        return this.isInherited;
-    }
+	public Boolean getIsInherited() {
+		return this.isInherited;
+	}
 
-    public void setIsInherited(Boolean isInherited) {
-        this.isInherited = isInherited;
-    }
+	public void setIsInherited(Boolean isInherited) {
+		this.isInherited = isInherited;
+	}
 }

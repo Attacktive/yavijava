@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineScsiDiskDeviceInfo {
-    public VirtualMachineScsiDiskDeviceInfo[] VirtualMachineScsiDiskDeviceInfo;
+	public VirtualMachineScsiDiskDeviceInfo[] VirtualMachineScsiDiskDeviceInfo;
 
-    public VirtualMachineScsiDiskDeviceInfo[] getVirtualMachineScsiDiskDeviceInfo() {
-        return this.VirtualMachineScsiDiskDeviceInfo;
-    }
+	public VirtualMachineScsiDiskDeviceInfo[] getVirtualMachineScsiDiskDeviceInfo() {
+		return this.VirtualMachineScsiDiskDeviceInfo;
+	}
 
-    public VirtualMachineScsiDiskDeviceInfo getVirtualMachineScsiDiskDeviceInfo(int i) {
-        return this.VirtualMachineScsiDiskDeviceInfo[i];
-    }
+	public VirtualMachineScsiDiskDeviceInfo getVirtualMachineScsiDiskDeviceInfo(int i) {
+		return this.VirtualMachineScsiDiskDeviceInfo[i];
+	}
 
-    public void setVirtualMachineScsiDiskDeviceInfo(VirtualMachineScsiDiskDeviceInfo[] VirtualMachineScsiDiskDeviceInfo) {
-        this.VirtualMachineScsiDiskDeviceInfo = VirtualMachineScsiDiskDeviceInfo;
-    }
+	public void setVirtualMachineScsiDiskDeviceInfo(VirtualMachineScsiDiskDeviceInfo[] VirtualMachineScsiDiskDeviceInfo) {
+		this.VirtualMachineScsiDiskDeviceInfo = VirtualMachineScsiDiskDeviceInfo;
+	}
 }

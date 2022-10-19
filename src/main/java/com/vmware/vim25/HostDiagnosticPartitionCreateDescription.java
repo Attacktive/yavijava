@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostDiagnosticPartitionCreateDescription extends DynamicData {
-    public HostDiskPartitionLayout layout;
-    public String diskUuid;
-    public HostDiagnosticPartitionCreateSpec spec;
+	public HostDiskPartitionLayout layout;
+	public String diskUuid;
+	public HostDiagnosticPartitionCreateSpec spec;
 
-    public HostDiskPartitionLayout getLayout() {
-        return this.layout;
-    }
+	public HostDiskPartitionLayout getLayout() {
+		return this.layout;
+	}
 
-    public String getDiskUuid() {
-        return this.diskUuid;
-    }
+	public String getDiskUuid() {
+		return this.diskUuid;
+	}
 
-    public HostDiagnosticPartitionCreateSpec getSpec() {
-        return this.spec;
-    }
+	public HostDiagnosticPartitionCreateSpec getSpec() {
+		return this.spec;
+	}
 
-    public void setLayout(HostDiskPartitionLayout layout) {
-        this.layout = layout;
-    }
+	public void setLayout(HostDiskPartitionLayout layout) {
+		this.layout = layout;
+	}
 
-    public void setDiskUuid(String diskUuid) {
-        this.diskUuid = diskUuid;
-    }
+	public void setDiskUuid(String diskUuid) {
+		this.diskUuid = diskUuid;
+	}
 
-    public void setSpec(HostDiagnosticPartitionCreateSpec spec) {
-        this.spec = spec;
-    }
+	public void setSpec(HostDiagnosticPartitionCreateSpec spec) {
+		this.spec = spec;
+	}
 }

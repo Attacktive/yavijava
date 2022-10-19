@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DestinationVsanDisabled extends CannotMoveVsanEnabledHost {
-    public String destinationCluster;
+	public String destinationCluster;
 
-    public String getDestinationCluster() {
-        return this.destinationCluster;
-    }
+	public String getDestinationCluster() {
+		return this.destinationCluster;
+	}
 
-    public void setDestinationCluster(String destinationCluster) {
-        this.destinationCluster = destinationCluster;
-    }
+	public void setDestinationCluster(String destinationCluster) {
+		this.destinationCluster = destinationCluster;
+	}
 }

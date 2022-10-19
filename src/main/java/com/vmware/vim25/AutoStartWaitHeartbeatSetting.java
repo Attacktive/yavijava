@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum AutoStartWaitHeartbeatSetting {
-    yes("yes"),
-    no("no"),
-    systemDefault("systemDefault");
+	yes("yes"),
+	no("no"),
+	systemDefault("systemDefault");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private AutoStartWaitHeartbeatSetting(String val) {
-        this.val = val;
-    }
+	private AutoStartWaitHeartbeatSetting(String val) {
+		this.val = val;
+	}
 }

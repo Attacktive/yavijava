@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfExtensionResourceInfo {
-    public ExtensionResourceInfo[] ExtensionResourceInfo;
+	public ExtensionResourceInfo[] ExtensionResourceInfo;
 
-    public ExtensionResourceInfo[] getExtensionResourceInfo() {
-        return this.ExtensionResourceInfo;
-    }
+	public ExtensionResourceInfo[] getExtensionResourceInfo() {
+		return this.ExtensionResourceInfo;
+	}
 
-    public ExtensionResourceInfo getExtensionResourceInfo(int i) {
-        return this.ExtensionResourceInfo[i];
-    }
+	public ExtensionResourceInfo getExtensionResourceInfo(int i) {
+		return this.ExtensionResourceInfo[i];
+	}
 
-    public void setExtensionResourceInfo(ExtensionResourceInfo[] ExtensionResourceInfo) {
-        this.ExtensionResourceInfo = ExtensionResourceInfo;
-    }
+	public void setExtensionResourceInfo(ExtensionResourceInfo[] ExtensionResourceInfo) {
+		this.ExtensionResourceInfo = ExtensionResourceInfo;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DvsNotAuthorized extends DvsFault {
-    public String sessionExtensionKey;
-    public String dvsExtensionKey;
+	public String sessionExtensionKey;
+	public String dvsExtensionKey;
 
-    public String getSessionExtensionKey() {
-        return this.sessionExtensionKey;
-    }
+	public String getSessionExtensionKey() {
+		return this.sessionExtensionKey;
+	}
 
-    public String getDvsExtensionKey() {
-        return this.dvsExtensionKey;
-    }
+	public String getDvsExtensionKey() {
+		return this.dvsExtensionKey;
+	}
 
-    public void setSessionExtensionKey(String sessionExtensionKey) {
-        this.sessionExtensionKey = sessionExtensionKey;
-    }
+	public void setSessionExtensionKey(String sessionExtensionKey) {
+		this.sessionExtensionKey = sessionExtensionKey;
+	}
 
-    public void setDvsExtensionKey(String dvsExtensionKey) {
-        this.dvsExtensionKey = dvsExtensionKey;
-    }
+	public void setDvsExtensionKey(String dvsExtensionKey) {
+		this.dvsExtensionKey = dvsExtensionKey;
+	}
 }

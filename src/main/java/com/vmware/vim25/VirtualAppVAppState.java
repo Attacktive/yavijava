@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum VirtualAppVAppState {
-    started("started"),
-    stopped("stopped"),
-    starting("starting"),
-    stopping("stopping");
+	started("started"),
+	stopped("stopped"),
+	starting("starting"),
+	stopping("stopping");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualAppVAppState(String val) {
-        this.val = val;
-    }
+	private VirtualAppVAppState(String val) {
+		this.val = val;
+	}
 }

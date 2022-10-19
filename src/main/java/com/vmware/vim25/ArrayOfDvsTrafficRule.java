@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsTrafficRule {
-    public DvsTrafficRule[] DvsTrafficRule;
+	public DvsTrafficRule[] DvsTrafficRule;
 
-    public DvsTrafficRule[] getDvsTrafficRule() {
-        return this.DvsTrafficRule;
-    }
+	public DvsTrafficRule[] getDvsTrafficRule() {
+		return this.DvsTrafficRule;
+	}
 
-    public DvsTrafficRule getDvsTrafficRule(int i) {
-        return this.DvsTrafficRule[i];
-    }
+	public DvsTrafficRule getDvsTrafficRule(int i) {
+		return this.DvsTrafficRule[i];
+	}
 
-    public void setDvsTrafficRule(DvsTrafficRule[] DvsTrafficRule) {
-        this.DvsTrafficRule = DvsTrafficRule;
-    }
+	public void setDvsTrafficRule(DvsTrafficRule[] DvsTrafficRule) {
+		this.DvsTrafficRule = DvsTrafficRule;
+	}
 }

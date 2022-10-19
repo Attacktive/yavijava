@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum NetIpStackInfoEntryType {
-    other("other"),
-    invalid("invalid"),
-    dynamic("dynamic"),
-    manual("manual");
+	other("other"),
+	invalid("invalid"),
+	dynamic("dynamic"),
+	manual("manual");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private NetIpStackInfoEntryType(String val) {
-        this.val = val;
-    }
+	private NetIpStackInfoEntryType(String val) {
+		this.val = val;
+	}
 }

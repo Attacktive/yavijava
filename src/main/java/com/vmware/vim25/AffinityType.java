@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum AffinityType {
-    memory("memory"),
-    cpu("cpu");
+	memory("memory"),
+	cpu("cpu");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private AffinityType(String val) {
-        this.val = val;
-    }
+	private AffinityType(String val) {
+		this.val = val;
+	}
 }

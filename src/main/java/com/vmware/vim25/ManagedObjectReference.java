@@ -38,51 +38,49 @@ import java.text.MessageFormat;
 
 @SuppressWarnings("all")
 public class ManagedObjectReference {
-    public String val;
-    public String type;
+	public String val;
+	public String type;
 
-    public String getVal() {
-        return val;
-    }
+	public String getVal() {
+		return val;
+	}
 
-    public void setVal(String val) {
-        this.val = val;
-    }
+	public void setVal(String val) {
+		this.val = val;
+	}
 
-    public String getType() {
-        return type;
-    }
+	public String getType() {
+		return type;
+	}
 
-    public void setType(String type) {
-        this.type = type;
-    }
+	public void setType(String type) {
+		this.type = type;
+	}
 
-    public String get_value() {
-        return val;
-    }
+	public String get_value() {
+		return val;
+	}
 
-    public void set_value(String val) {
-        this.val = val;
-    }
+	public void set_value(String val) {
+		this.val = val;
+	}
 
-    @Override
-    public boolean equals(Object obj) {
-        if(this == obj)
-            return true;
-        if((obj == null) || (obj.getClass() != this.getClass()))
-            return false;
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) { return true; }
+		if ((obj == null) || (obj.getClass() != this.getClass())) { return false; }
 
-        ManagedObjectReference mor = (ManagedObjectReference)obj;
-        return  mor.getType().equals(getType()) && mor.getVal().equals(getVal());
-    }
+		ManagedObjectReference mor = (ManagedObjectReference)obj;
+		return mor.getType().equals(getType()) && mor.getVal().equals(getVal());
+	}
 
-    @Override
-    public int hashCode()  {
-        return val.hashCode() + type.hashCode();
-    }
+	@Override
+	public int hashCode() {
+		return val.hashCode() + type.hashCode();
+	}
 
-    @Override
-    public String toString() {
-        return MessageFormat.format("{0}:{1}", type, val);
-    }
+	@Override
+	public String toString() {
+		return MessageFormat.format("{0}:{1}", type, val);
+	}
 }

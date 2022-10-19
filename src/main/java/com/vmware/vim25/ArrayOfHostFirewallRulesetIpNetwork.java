@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostFirewallRulesetIpNetwork {
-    public HostFirewallRulesetIpNetwork[] HostFirewallRulesetIpNetwork;
+	public HostFirewallRulesetIpNetwork[] HostFirewallRulesetIpNetwork;
 
-    public HostFirewallRulesetIpNetwork[] getHostFirewallRulesetIpNetwork() {
-        return this.HostFirewallRulesetIpNetwork;
-    }
+	public HostFirewallRulesetIpNetwork[] getHostFirewallRulesetIpNetwork() {
+		return this.HostFirewallRulesetIpNetwork;
+	}
 
-    public HostFirewallRulesetIpNetwork getHostFirewallRulesetIpNetwork(int i) {
-        return this.HostFirewallRulesetIpNetwork[i];
-    }
+	public HostFirewallRulesetIpNetwork getHostFirewallRulesetIpNetwork(int i) {
+		return this.HostFirewallRulesetIpNetwork[i];
+	}
 
-    public void setHostFirewallRulesetIpNetwork(HostFirewallRulesetIpNetwork[] HostFirewallRulesetIpNetwork) {
-        this.HostFirewallRulesetIpNetwork = HostFirewallRulesetIpNetwork;
-    }
+	public void setHostFirewallRulesetIpNetwork(HostFirewallRulesetIpNetwork[] HostFirewallRulesetIpNetwork) {
+		this.HostFirewallRulesetIpNetwork = HostFirewallRulesetIpNetwork;
+	}
 }

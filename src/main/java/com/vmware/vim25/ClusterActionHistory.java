@@ -38,22 +38,22 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class ClusterActionHistory extends DynamicData {
-    public ClusterAction action;
-    public Calendar time;
+	public ClusterAction action;
+	public Calendar time;
 
-    public ClusterAction getAction() {
-        return this.action;
-    }
+	public ClusterAction getAction() {
+		return this.action;
+	}
 
-    public Calendar getTime() {
-        return this.time;
-    }
+	public Calendar getTime() {
+		return this.time;
+	}
 
-    public void setAction(ClusterAction action) {
-        this.action = action;
-    }
+	public void setAction(ClusterAction action) {
+		this.action = action;
+	}
 
-    public void setTime(Calendar time) {
-        this.time = time;
-    }
+	public void setTime(Calendar time) {
+		this.time = time;
+	}
 }

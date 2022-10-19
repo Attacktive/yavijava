@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualDeviceBackingOption {
-    public VirtualDeviceBackingOption[] VirtualDeviceBackingOption;
+	public VirtualDeviceBackingOption[] VirtualDeviceBackingOption;
 
-    public VirtualDeviceBackingOption[] getVirtualDeviceBackingOption() {
-        return this.VirtualDeviceBackingOption;
-    }
+	public VirtualDeviceBackingOption[] getVirtualDeviceBackingOption() {
+		return this.VirtualDeviceBackingOption;
+	}
 
-    public VirtualDeviceBackingOption getVirtualDeviceBackingOption(int i) {
-        return this.VirtualDeviceBackingOption[i];
-    }
+	public VirtualDeviceBackingOption getVirtualDeviceBackingOption(int i) {
+		return this.VirtualDeviceBackingOption[i];
+	}
 
-    public void setVirtualDeviceBackingOption(VirtualDeviceBackingOption[] VirtualDeviceBackingOption) {
-        this.VirtualDeviceBackingOption = VirtualDeviceBackingOption;
-    }
+	public void setVirtualDeviceBackingOption(VirtualDeviceBackingOption[] VirtualDeviceBackingOption) {
+		this.VirtualDeviceBackingOption = VirtualDeviceBackingOption;
+	}
 }

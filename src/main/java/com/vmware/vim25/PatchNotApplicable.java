@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class PatchNotApplicable extends VimFault {
-    public String patchID;
+	public String patchID;
 
-    public String getPatchID() {
-        return this.patchID;
-    }
+	public String getPatchID() {
+		return this.patchID;
+	}
 
-    public void setPatchID(String patchID) {
-        this.patchID = patchID;
-    }
+	public void setPatchID(String patchID) {
+		this.patchID = patchID;
+	}
 }

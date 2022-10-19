@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostProxySwitchConfig {
-    public HostProxySwitchConfig[] HostProxySwitchConfig;
+	public HostProxySwitchConfig[] HostProxySwitchConfig;
 
-    public HostProxySwitchConfig[] getHostProxySwitchConfig() {
-        return this.HostProxySwitchConfig;
-    }
+	public HostProxySwitchConfig[] getHostProxySwitchConfig() {
+		return this.HostProxySwitchConfig;
+	}
 
-    public HostProxySwitchConfig getHostProxySwitchConfig(int i) {
-        return this.HostProxySwitchConfig[i];
-    }
+	public HostProxySwitchConfig getHostProxySwitchConfig(int i) {
+		return this.HostProxySwitchConfig[i];
+	}
 
-    public void setHostProxySwitchConfig(HostProxySwitchConfig[] HostProxySwitchConfig) {
-        this.HostProxySwitchConfig = HostProxySwitchConfig;
-    }
+	public void setHostProxySwitchConfig(HostProxySwitchConfig[] HostProxySwitchConfig) {
+		this.HostProxySwitchConfig = HostProxySwitchConfig;
+	}
 }

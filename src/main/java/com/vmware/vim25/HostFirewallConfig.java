@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostFirewallConfig extends DynamicData {
-    public HostFirewallConfigRuleSetConfig[] rule;
-    public HostFirewallDefaultPolicy defaultBlockingPolicy;
+	public HostFirewallConfigRuleSetConfig[] rule;
+	public HostFirewallDefaultPolicy defaultBlockingPolicy;
 
-    public HostFirewallConfigRuleSetConfig[] getRule() {
-        return this.rule;
-    }
+	public HostFirewallConfigRuleSetConfig[] getRule() {
+		return this.rule;
+	}
 
-    public HostFirewallDefaultPolicy getDefaultBlockingPolicy() {
-        return this.defaultBlockingPolicy;
-    }
+	public HostFirewallDefaultPolicy getDefaultBlockingPolicy() {
+		return this.defaultBlockingPolicy;
+	}
 
-    public void setRule(HostFirewallConfigRuleSetConfig[] rule) {
-        this.rule = rule;
-    }
+	public void setRule(HostFirewallConfigRuleSetConfig[] rule) {
+		this.rule = rule;
+	}
 
-    public void setDefaultBlockingPolicy(HostFirewallDefaultPolicy defaultBlockingPolicy) {
-        this.defaultBlockingPolicy = defaultBlockingPolicy;
-    }
+	public void setDefaultBlockingPolicy(HostFirewallDefaultPolicy defaultBlockingPolicy) {
+		this.defaultBlockingPolicy = defaultBlockingPolicy;
+	}
 }

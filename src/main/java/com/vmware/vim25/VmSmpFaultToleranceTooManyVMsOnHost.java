@@ -21,24 +21,23 @@ package com.vmware.vim25;
  */
 
 public class VmSmpFaultToleranceTooManyVMsOnHost extends InsufficientResourcesFault {
-    public String hostName;
+	public String hostName;
 
-    public int maxNumSmpFtVms;
+	public int maxNumSmpFtVms;
 
-    public String getHostName() {
-        return hostName;
-    }
+	public String getHostName() {
+		return hostName;
+	}
 
-    public void setHostName(String hostName) {
-        this.hostName = hostName;
-    }
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
+	}
 
-    public int getMaxNumSmpFtVms() {
-        return maxNumSmpFtVms;
-    }
+	public int getMaxNumSmpFtVms() {
+		return maxNumSmpFtVms;
+	}
 
-    public void setMaxNumSmpFtVms(int maxNumSmpFtVms) {
-        this.maxNumSmpFtVms = maxNumSmpFtVms;
-    }
-
+	public void setMaxNumSmpFtVms(int maxNumSmpFtVms) {
+		this.maxNumSmpFtVms = maxNumSmpFtVms;
+	}
 }

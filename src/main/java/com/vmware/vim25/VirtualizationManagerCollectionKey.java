@@ -34,13 +34,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualizationManagerCollectionKey {
-    default_inventory("default_inventory"),
-    default_analysis("default_analysis"),
-    default_candidate("default_candidate");
+	default_inventory("default_inventory"),
+	default_analysis("default_analysis"),
+	default_candidate("default_candidate");
 
-    private final String val;
+	private final String val;
 
-    private VirtualizationManagerCollectionKey(String val) {
-        this.val = val;
-    }
+	private VirtualizationManagerCollectionKey(String val) {
+		this.val = val;
+	}
 }

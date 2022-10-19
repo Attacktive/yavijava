@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostImageAcceptanceLevel {
-    vmware_certified("vmware_certified"),
-    vmware_accepted("vmware_accepted"),
-    partner("partner"),
-    community("community");
+	vmware_certified("vmware_certified"),
+	vmware_accepted("vmware_accepted"),
+	partner("partner"),
+	community("community");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostImageAcceptanceLevel(String val) {
-        this.val = val;
-    }
+	private HostImageAcceptanceLevel(String val) {
+		this.val = val;
+	}
 }

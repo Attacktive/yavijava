@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum TaskFilterSpecRecursionOption {
-    self("self"),
-    children("children"),
-    all("all");
+	self("self"),
+	children("children"),
+	all("all");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private TaskFilterSpecRecursionOption(String val) {
-        this.val = val;
-    }
+	private TaskFilterSpecRecursionOption(String val) {
+		this.val = val;
+	}
 }

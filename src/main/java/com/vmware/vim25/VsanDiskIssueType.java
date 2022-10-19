@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum VsanDiskIssueType {
-    nonExist("nonExist"),
-    stampMismatch("stampMismatch"),
-    unknown("unknown");
+	nonExist("nonExist"),
+	stampMismatch("stampMismatch"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VsanDiskIssueType(String val) {
-        this.val = val;
-    }
+	private VsanDiskIssueType(String val) {
+		this.val = val;
+	}
 }

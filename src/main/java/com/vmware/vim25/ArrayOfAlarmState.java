@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfAlarmState {
-    public AlarmState[] AlarmState;
+	public AlarmState[] AlarmState;
 
-    public AlarmState[] getAlarmState() {
-        return this.AlarmState;
-    }
+	public AlarmState[] getAlarmState() {
+		return this.AlarmState;
+	}
 
-    public AlarmState getAlarmState(int i) {
-        return this.AlarmState[i];
-    }
+	public AlarmState getAlarmState(int i) {
+		return this.AlarmState[i];
+	}
 
-    public void setAlarmState(AlarmState[] AlarmState) {
-        this.AlarmState = AlarmState;
-    }
+	public void setAlarmState(AlarmState[] AlarmState) {
+		this.AlarmState = AlarmState;
+	}
 }

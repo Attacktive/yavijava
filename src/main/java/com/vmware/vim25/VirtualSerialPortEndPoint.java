@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum VirtualSerialPortEndPoint {
-    client("client"),
-    server("server");
+	client("client"),
+	server("server");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualSerialPortEndPoint(String val) {
-        this.val = val;
-    }
+	private VirtualSerialPortEndPoint(String val) {
+		this.val = val;
+	}
 }

@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostVmciAccessManagerMode {
-    grant("grant"),
-    replace("replace"),
-    revoke("revoke");
+	grant("grant"),
+	replace("replace"),
+	revoke("revoke");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostVmciAccessManagerMode(String val) {
-        this.val = val;
-    }
+	private HostVmciAccessManagerMode(String val) {
+		this.val = val;
+	}
 }

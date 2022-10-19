@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchManagerHostContainer extends DynamicData {
-    public ManagedObjectReference container;
-    public boolean recursive;
+	public ManagedObjectReference container;
+	public boolean recursive;
 
-    public ManagedObjectReference getContainer() {
-        return this.container;
-    }
+	public ManagedObjectReference getContainer() {
+		return this.container;
+	}
 
-    public boolean isRecursive() {
-        return this.recursive;
-    }
+	public boolean isRecursive() {
+		return this.recursive;
+	}
 
-    public void setContainer(ManagedObjectReference container) {
-        this.container = container;
-    }
+	public void setContainer(ManagedObjectReference container) {
+		this.container = container;
+	}
 
-    public void setRecursive(boolean recursive) {
-        this.recursive = recursive;
-    }
+	public void setRecursive(boolean recursive) {
+		this.recursive = recursive;
+	}
 }

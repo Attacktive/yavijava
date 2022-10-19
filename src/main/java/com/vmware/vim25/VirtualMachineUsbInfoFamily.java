@@ -35,30 +35,30 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineUsbInfoFamily {
-    audio("audio"),
-    hid("hid"),
-    hid_bootable("hid_bootable"),
-    physical("physical"),
-    communication("communication"),
-    imaging("imaging"),
-    printer("printer"),
-    storage("storage"),
-    hub("hub"),
-    smart_card("smart_card"),
-    security("security"),
-    video("video"),
-    wireless("wireless"),
-    bluetooth("bluetooth"),
-    wusb("wusb"),
-    pda("pda"),
-    vendor_specific("vendor_specific"),
-    other("other"),
-    unknownFamily("unknownFamily");
+	audio("audio"),
+	hid("hid"),
+	hid_bootable("hid_bootable"),
+	physical("physical"),
+	communication("communication"),
+	imaging("imaging"),
+	printer("printer"),
+	storage("storage"),
+	hub("hub"),
+	smart_card("smart_card"),
+	security("security"),
+	video("video"),
+	wireless("wireless"),
+	bluetooth("bluetooth"),
+	wusb("wusb"),
+	pda("pda"),
+	vendor_specific("vendor_specific"),
+	other("other"),
+	unknownFamily("unknownFamily");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineUsbInfoFamily(String val) {
-        this.val = val;
-    }
+	private VirtualMachineUsbInfoFamily(String val) {
+		this.val = val;
+	}
 }

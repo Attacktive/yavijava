@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVsanHostDiskMapResult {
-    public VsanHostDiskMapResult[] VsanHostDiskMapResult;
+	public VsanHostDiskMapResult[] VsanHostDiskMapResult;
 
-    public VsanHostDiskMapResult[] getVsanHostDiskMapResult() {
-        return this.VsanHostDiskMapResult;
-    }
+	public VsanHostDiskMapResult[] getVsanHostDiskMapResult() {
+		return this.VsanHostDiskMapResult;
+	}
 
-    public VsanHostDiskMapResult getVsanHostDiskMapResult(int i) {
-        return this.VsanHostDiskMapResult[i];
-    }
+	public VsanHostDiskMapResult getVsanHostDiskMapResult(int i) {
+		return this.VsanHostDiskMapResult[i];
+	}
 
-    public void setVsanHostDiskMapResult(VsanHostDiskMapResult[] VsanHostDiskMapResult) {
-        this.VsanHostDiskMapResult = VsanHostDiskMapResult;
-    }
+	public void setVsanHostDiskMapResult(VsanHostDiskMapResult[] VsanHostDiskMapResult) {
+		this.VsanHostDiskMapResult = VsanHostDiskMapResult;
+	}
 }

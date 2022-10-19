@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostNetworkConfigNetStackSpec {
-    public HostNetworkConfigNetStackSpec[] HostNetworkConfigNetStackSpec;
+	public HostNetworkConfigNetStackSpec[] HostNetworkConfigNetStackSpec;
 
-    public HostNetworkConfigNetStackSpec[] getHostNetworkConfigNetStackSpec() {
-        return this.HostNetworkConfigNetStackSpec;
-    }
+	public HostNetworkConfigNetStackSpec[] getHostNetworkConfigNetStackSpec() {
+		return this.HostNetworkConfigNetStackSpec;
+	}
 
-    public HostNetworkConfigNetStackSpec getHostNetworkConfigNetStackSpec(int i) {
-        return this.HostNetworkConfigNetStackSpec[i];
-    }
+	public HostNetworkConfigNetStackSpec getHostNetworkConfigNetStackSpec(int i) {
+		return this.HostNetworkConfigNetStackSpec[i];
+	}
 
-    public void setHostNetworkConfigNetStackSpec(HostNetworkConfigNetStackSpec[] HostNetworkConfigNetStackSpec) {
-        this.HostNetworkConfigNetStackSpec = HostNetworkConfigNetStackSpec;
-    }
+	public void setHostNetworkConfigNetStackSpec(HostNetworkConfigNetStackSpec[] HostNetworkConfigNetStackSpec) {
+		this.HostNetworkConfigNetStackSpec = HostNetworkConfigNetStackSpec;
+	}
 }

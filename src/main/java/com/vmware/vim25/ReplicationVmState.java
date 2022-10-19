@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum ReplicationVmState {
-    none("none"),
-    paused("paused"),
-    syncing("syncing"),
-    idle("idle"),
-    active("active"),
-    error("error");
+	none("none"),
+	paused("paused"),
+	syncing("syncing"),
+	idle("idle"),
+	active("active"),
+	error("error");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ReplicationVmState(String val) {
-        this.val = val;
-    }
+	private ReplicationVmState(String val) {
+		this.val = val;
+	}
 }

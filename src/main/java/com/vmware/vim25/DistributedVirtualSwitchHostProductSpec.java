@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DistributedVirtualSwitchHostProductSpec extends DynamicData {
-    public String productLineId;
-    public String version;
+	public String productLineId;
+	public String version;
 
-    public String getProductLineId() {
-        return this.productLineId;
-    }
+	public String getProductLineId() {
+		return this.productLineId;
+	}
 
-    public String getVersion() {
-        return this.version;
-    }
+	public String getVersion() {
+		return this.version;
+	}
 
-    public void setProductLineId(String productLineId) {
-        this.productLineId = productLineId;
-    }
+	public void setProductLineId(String productLineId) {
+		this.productLineId = productLineId;
+	}
 
-    public void setVersion(String version) {
-        this.version = version;
-    }
+	public void setVersion(String version) {
+		this.version = version;
+	}
 }

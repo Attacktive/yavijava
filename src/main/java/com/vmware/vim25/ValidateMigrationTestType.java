@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum ValidateMigrationTestType {
-    sourceTests("sourceTests"),
-    compatibilityTests("compatibilityTests"),
-    diskAccessibilityTests("diskAccessibilityTests"),
-    resourceTests("resourceTests");
+	sourceTests("sourceTests"),
+	compatibilityTests("compatibilityTests"),
+	diskAccessibilityTests("diskAccessibilityTests"),
+	resourceTests("resourceTests");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private ValidateMigrationTestType(String val) {
-        this.val = val;
-    }
+	private ValidateMigrationTestType(String val) {
+		this.val = val;
+	}
 }

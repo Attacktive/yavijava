@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostIpRouteOp {
-    public HostIpRouteOp[] HostIpRouteOp;
+	public HostIpRouteOp[] HostIpRouteOp;
 
-    public HostIpRouteOp[] getHostIpRouteOp() {
-        return this.HostIpRouteOp;
-    }
+	public HostIpRouteOp[] getHostIpRouteOp() {
+		return this.HostIpRouteOp;
+	}
 
-    public HostIpRouteOp getHostIpRouteOp(int i) {
-        return this.HostIpRouteOp[i];
-    }
+	public HostIpRouteOp getHostIpRouteOp(int i) {
+		return this.HostIpRouteOp[i];
+	}
 
-    public void setHostIpRouteOp(HostIpRouteOp[] HostIpRouteOp) {
-        this.HostIpRouteOp = HostIpRouteOp;
-    }
+	public void setHostIpRouteOp(HostIpRouteOp[] HostIpRouteOp) {
+		this.HostIpRouteOp = HostIpRouteOp;
+	}
 }

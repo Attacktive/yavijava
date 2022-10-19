@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostNatService extends DynamicData {
-    public String key;
-    public HostNatServiceSpec spec;
+	public String key;
+	public HostNatServiceSpec spec;
 
-    public String getKey() {
-        return this.key;
-    }
+	public String getKey() {
+		return this.key;
+	}
 
-    public HostNatServiceSpec getSpec() {
-        return this.spec;
-    }
+	public HostNatServiceSpec getSpec() {
+		return this.spec;
+	}
 
-    public void setKey(String key) {
-        this.key = key;
-    }
+	public void setKey(String key) {
+		this.key = key;
+	}
 
-    public void setSpec(HostNatServiceSpec spec) {
-        this.spec = spec;
-    }
+	public void setSpec(HostNatServiceSpec spec) {
+		this.spec = spec;
+	}
 }

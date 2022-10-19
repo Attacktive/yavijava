@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostIpConfig extends DynamicData {
-    public boolean dhcp;
-    public String ipAddress;
-    public String subnetMask;
-    public HostIpConfigIpV6AddressConfiguration ipV6Config;
+	public boolean dhcp;
+	public String ipAddress;
+	public String subnetMask;
+	public HostIpConfigIpV6AddressConfiguration ipV6Config;
 
-    public boolean isDhcp() {
-        return this.dhcp;
-    }
+	public boolean isDhcp() {
+		return this.dhcp;
+	}
 
-    public String getIpAddress() {
-        return this.ipAddress;
-    }
+	public String getIpAddress() {
+		return this.ipAddress;
+	}
 
-    public String getSubnetMask() {
-        return this.subnetMask;
-    }
+	public String getSubnetMask() {
+		return this.subnetMask;
+	}
 
-    public HostIpConfigIpV6AddressConfiguration getIpV6Config() {
-        return this.ipV6Config;
-    }
+	public HostIpConfigIpV6AddressConfiguration getIpV6Config() {
+		return this.ipV6Config;
+	}
 
-    public void setDhcp(boolean dhcp) {
-        this.dhcp = dhcp;
-    }
+	public void setDhcp(boolean dhcp) {
+		this.dhcp = dhcp;
+	}
 
-    public void setIpAddress(String ipAddress) {
-        this.ipAddress = ipAddress;
-    }
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
 
-    public void setSubnetMask(String subnetMask) {
-        this.subnetMask = subnetMask;
-    }
+	public void setSubnetMask(String subnetMask) {
+		this.subnetMask = subnetMask;
+	}
 
-    public void setIpV6Config(HostIpConfigIpV6AddressConfiguration ipV6Config) {
-        this.ipV6Config = ipV6Config;
-    }
+	public void setIpV6Config(HostIpConfigIpV6AddressConfiguration ipV6Config) {
+		this.ipV6Config = ipV6Config;
+	}
 }

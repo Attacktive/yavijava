@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public enum VirtualMachineGuestState {
-    running("running"),
-    shuttingDown("shuttingDown"),
-    resetting("resetting"),
-    standby("standby"),
-    notRunning("notRunning"),
-    unknown("unknown");
+	running("running"),
+	shuttingDown("shuttingDown"),
+	resetting("resetting"),
+	standby("standby"),
+	notRunning("notRunning"),
+	unknown("unknown");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private VirtualMachineGuestState(String val) {
-        this.val = val;
-    }
+	private VirtualMachineGuestState(String val) {
+		this.val = val;
+	}
 }

@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostLicensableResourceInfo extends DynamicData {
-    public KeyAnyValue[] resource;
+	public KeyAnyValue[] resource;
 
-    public KeyAnyValue[] getResource() {
-        return this.resource;
-    }
+	public KeyAnyValue[] getResource() {
+		return this.resource;
+	}
 
-    public void setResource(KeyAnyValue[] resource) {
-        this.resource = resource;
-    }
+	public void setResource(KeyAnyValue[] resource) {
+		this.resource = resource;
+	}
 }

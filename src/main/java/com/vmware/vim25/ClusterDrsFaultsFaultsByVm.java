@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDrsFaultsFaultsByVm extends DynamicData {
-    public ManagedObjectReference vm;
-    public LocalizedMethodFault[] fault;
+	public ManagedObjectReference vm;
+	public LocalizedMethodFault[] fault;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public LocalizedMethodFault[] getFault() {
-        return this.fault;
-    }
+	public LocalizedMethodFault[] getFault() {
+		return this.fault;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setFault(LocalizedMethodFault[] fault) {
-        this.fault = fault;
-    }
+	public void setFault(LocalizedMethodFault[] fault) {
+		this.fault = fault;
+	}
 }

@@ -35,15 +35,15 @@ package com.vmware.vim25;
  */
 
 public enum HostRuntimeInfoNetStackInstanceRuntimeInfoState {
-    inactive("inactive"),
-    active("active"),
-    deactivating("deactivating"),
-    activating("activating");
+	inactive("inactive"),
+	active("active"),
+	deactivating("deactivating"),
+	activating("activating");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostRuntimeInfoNetStackInstanceRuntimeInfoState(String val) {
-        this.val = val;
-    }
+	private HostRuntimeInfoNetStackInstanceRuntimeInfoState(String val) {
+		this.val = val;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineLegacyNetworkSwitchInfo {
-    public VirtualMachineLegacyNetworkSwitchInfo[] VirtualMachineLegacyNetworkSwitchInfo;
+	public VirtualMachineLegacyNetworkSwitchInfo[] VirtualMachineLegacyNetworkSwitchInfo;
 
-    public VirtualMachineLegacyNetworkSwitchInfo[] getVirtualMachineLegacyNetworkSwitchInfo() {
-        return this.VirtualMachineLegacyNetworkSwitchInfo;
-    }
+	public VirtualMachineLegacyNetworkSwitchInfo[] getVirtualMachineLegacyNetworkSwitchInfo() {
+		return this.VirtualMachineLegacyNetworkSwitchInfo;
+	}
 
-    public VirtualMachineLegacyNetworkSwitchInfo getVirtualMachineLegacyNetworkSwitchInfo(int i) {
-        return this.VirtualMachineLegacyNetworkSwitchInfo[i];
-    }
+	public VirtualMachineLegacyNetworkSwitchInfo getVirtualMachineLegacyNetworkSwitchInfo(int i) {
+		return this.VirtualMachineLegacyNetworkSwitchInfo[i];
+	}
 
-    public void setVirtualMachineLegacyNetworkSwitchInfo(VirtualMachineLegacyNetworkSwitchInfo[] VirtualMachineLegacyNetworkSwitchInfo) {
-        this.VirtualMachineLegacyNetworkSwitchInfo = VirtualMachineLegacyNetworkSwitchInfo;
-    }
+	public void setVirtualMachineLegacyNetworkSwitchInfo(VirtualMachineLegacyNetworkSwitchInfo[] VirtualMachineLegacyNetworkSwitchInfo) {
+		this.VirtualMachineLegacyNetworkSwitchInfo = VirtualMachineLegacyNetworkSwitchInfo;
+	}
 }

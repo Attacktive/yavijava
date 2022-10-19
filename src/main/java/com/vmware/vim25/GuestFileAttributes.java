@@ -38,31 +38,31 @@ import java.util.Calendar;
 
 @SuppressWarnings("all")
 public class GuestFileAttributes extends DynamicData {
-    public Calendar modificationTime;
-    public Calendar accessTime;
-    public String symlinkTarget;
+	public Calendar modificationTime;
+	public Calendar accessTime;
+	public String symlinkTarget;
 
-    public Calendar getModificationTime() {
-        return this.modificationTime;
-    }
+	public Calendar getModificationTime() {
+		return this.modificationTime;
+	}
 
-    public Calendar getAccessTime() {
-        return this.accessTime;
-    }
+	public Calendar getAccessTime() {
+		return this.accessTime;
+	}
 
-    public String getSymlinkTarget() {
-        return this.symlinkTarget;
-    }
+	public String getSymlinkTarget() {
+		return this.symlinkTarget;
+	}
 
-    public void setModificationTime(Calendar modificationTime) {
-        this.modificationTime = modificationTime;
-    }
+	public void setModificationTime(Calendar modificationTime) {
+		this.modificationTime = modificationTime;
+	}
 
-    public void setAccessTime(Calendar accessTime) {
-        this.accessTime = accessTime;
-    }
+	public void setAccessTime(Calendar accessTime) {
+		this.accessTime = accessTime;
+	}
 
-    public void setSymlinkTarget(String symlinkTarget) {
-        this.symlinkTarget = symlinkTarget;
-    }
+	public void setSymlinkTarget(String symlinkTarget) {
+		this.symlinkTarget = symlinkTarget;
+	}
 }

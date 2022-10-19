@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfComplianceLocator {
-    public ComplianceLocator[] ComplianceLocator;
+	public ComplianceLocator[] ComplianceLocator;
 
-    public ComplianceLocator[] getComplianceLocator() {
-        return this.ComplianceLocator;
-    }
+	public ComplianceLocator[] getComplianceLocator() {
+		return this.ComplianceLocator;
+	}
 
-    public ComplianceLocator getComplianceLocator(int i) {
-        return this.ComplianceLocator[i];
-    }
+	public ComplianceLocator getComplianceLocator(int i) {
+		return this.ComplianceLocator[i];
+	}
 
-    public void setComplianceLocator(ComplianceLocator[] ComplianceLocator) {
-        this.ComplianceLocator = ComplianceLocator;
-    }
+	public void setComplianceLocator(ComplianceLocator[] ComplianceLocator) {
+		this.ComplianceLocator = ComplianceLocator;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSecuritySpec extends DynamicData {
-    public String adminPassword;
-    public Permission[] removePermission;
-    public Permission[] addPermission;
+	public String adminPassword;
+	public Permission[] removePermission;
+	public Permission[] addPermission;
 
-    public String getAdminPassword() {
-        return this.adminPassword;
-    }
+	public String getAdminPassword() {
+		return this.adminPassword;
+	}
 
-    public Permission[] getRemovePermission() {
-        return this.removePermission;
-    }
+	public Permission[] getRemovePermission() {
+		return this.removePermission;
+	}
 
-    public Permission[] getAddPermission() {
-        return this.addPermission;
-    }
+	public Permission[] getAddPermission() {
+		return this.addPermission;
+	}
 
-    public void setAdminPassword(String adminPassword) {
-        this.adminPassword = adminPassword;
-    }
+	public void setAdminPassword(String adminPassword) {
+		this.adminPassword = adminPassword;
+	}
 
-    public void setRemovePermission(Permission[] removePermission) {
-        this.removePermission = removePermission;
-    }
+	public void setRemovePermission(Permission[] removePermission) {
+		this.removePermission = removePermission;
+	}
 
-    public void setAddPermission(Permission[] addPermission) {
-        this.addPermission = addPermission;
-    }
+	public void setAddPermission(Permission[] addPermission) {
+		this.addPermission = addPermission;
+	}
 }

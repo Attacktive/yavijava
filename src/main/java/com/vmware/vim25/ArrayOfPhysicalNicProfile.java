@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPhysicalNicProfile {
-    public PhysicalNicProfile[] PhysicalNicProfile;
+	public PhysicalNicProfile[] PhysicalNicProfile;
 
-    public PhysicalNicProfile[] getPhysicalNicProfile() {
-        return this.PhysicalNicProfile;
-    }
+	public PhysicalNicProfile[] getPhysicalNicProfile() {
+		return this.PhysicalNicProfile;
+	}
 
-    public PhysicalNicProfile getPhysicalNicProfile(int i) {
-        return this.PhysicalNicProfile[i];
-    }
+	public PhysicalNicProfile getPhysicalNicProfile(int i) {
+		return this.PhysicalNicProfile[i];
+	}
 
-    public void setPhysicalNicProfile(PhysicalNicProfile[] PhysicalNicProfile) {
-        this.PhysicalNicProfile = PhysicalNicProfile;
-    }
+	public void setPhysicalNicProfile(PhysicalNicProfile[] PhysicalNicProfile) {
+		this.PhysicalNicProfile = PhysicalNicProfile;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfHostPlugStoreTopologyAdapter {
-    public HostPlugStoreTopologyAdapter[] HostPlugStoreTopologyAdapter;
+	public HostPlugStoreTopologyAdapter[] HostPlugStoreTopologyAdapter;
 
-    public HostPlugStoreTopologyAdapter[] getHostPlugStoreTopologyAdapter() {
-        return this.HostPlugStoreTopologyAdapter;
-    }
+	public HostPlugStoreTopologyAdapter[] getHostPlugStoreTopologyAdapter() {
+		return this.HostPlugStoreTopologyAdapter;
+	}
 
-    public HostPlugStoreTopologyAdapter getHostPlugStoreTopologyAdapter(int i) {
-        return this.HostPlugStoreTopologyAdapter[i];
-    }
+	public HostPlugStoreTopologyAdapter getHostPlugStoreTopologyAdapter(int i) {
+		return this.HostPlugStoreTopologyAdapter[i];
+	}
 
-    public void setHostPlugStoreTopologyAdapter(HostPlugStoreTopologyAdapter[] HostPlugStoreTopologyAdapter) {
-        this.HostPlugStoreTopologyAdapter = HostPlugStoreTopologyAdapter;
-    }
+	public void setHostPlugStoreTopologyAdapter(HostPlugStoreTopologyAdapter[] HostPlugStoreTopologyAdapter) {
+		this.HostPlugStoreTopologyAdapter = HostPlugStoreTopologyAdapter;
+	}
 }

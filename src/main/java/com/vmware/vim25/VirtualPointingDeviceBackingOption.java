@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualPointingDeviceBackingOption extends VirtualDeviceDeviceBackingOption {
-    public ChoiceOption hostPointingDevice;
+	public ChoiceOption hostPointingDevice;
 
-    public ChoiceOption getHostPointingDevice() {
-        return this.hostPointingDevice;
-    }
+	public ChoiceOption getHostPointingDevice() {
+		return this.hostPointingDevice;
+	}
 
-    public void setHostPointingDevice(ChoiceOption hostPointingDevice) {
-        this.hostPointingDevice = hostPointingDevice;
-    }
+	public void setHostPointingDevice(ChoiceOption hostPointingDevice) {
+		this.hostPointingDevice = hostPointingDevice;
+	}
 }

@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfPerfSampleInfo {
-    public PerfSampleInfo[] PerfSampleInfo;
+	public PerfSampleInfo[] PerfSampleInfo;
 
-    public PerfSampleInfo[] getPerfSampleInfo() {
-        return this.PerfSampleInfo;
-    }
+	public PerfSampleInfo[] getPerfSampleInfo() {
+		return this.PerfSampleInfo;
+	}
 
-    public PerfSampleInfo getPerfSampleInfo(int i) {
-        return this.PerfSampleInfo[i];
-    }
+	public PerfSampleInfo getPerfSampleInfo(int i) {
+		return this.PerfSampleInfo[i];
+	}
 
-    public void setPerfSampleInfo(PerfSampleInfo[] PerfSampleInfo) {
-        this.PerfSampleInfo = PerfSampleInfo;
-    }
+	public void setPerfSampleInfo(PerfSampleInfo[] PerfSampleInfo) {
+		this.PerfSampleInfo = PerfSampleInfo;
+	}
 }

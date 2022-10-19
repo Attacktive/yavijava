@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class CustomizationSysprepFailed extends CustomizationFailed {
-    public String sysprepVersion;
-    public String systemVersion;
+	public String sysprepVersion;
+	public String systemVersion;
 
-    public String getSysprepVersion() {
-        return this.sysprepVersion;
-    }
+	public String getSysprepVersion() {
+		return this.sysprepVersion;
+	}
 
-    public String getSystemVersion() {
-        return this.systemVersion;
-    }
+	public String getSystemVersion() {
+		return this.systemVersion;
+	}
 
-    public void setSysprepVersion(String sysprepVersion) {
-        this.sysprepVersion = sysprepVersion;
-    }
+	public void setSysprepVersion(String sysprepVersion) {
+		this.sysprepVersion = sysprepVersion;
+	}
 
-    public void setSystemVersion(String systemVersion) {
-        this.systemVersion = systemVersion;
-    }
+	public void setSystemVersion(String systemVersion) {
+		this.systemVersion = systemVersion;
+	}
 }

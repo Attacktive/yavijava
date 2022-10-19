@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfTypeDescription {
-    public TypeDescription[] TypeDescription;
+	public TypeDescription[] TypeDescription;
 
-    public TypeDescription[] getTypeDescription() {
-        return this.TypeDescription;
-    }
+	public TypeDescription[] getTypeDescription() {
+		return this.TypeDescription;
+	}
 
-    public TypeDescription getTypeDescription(int i) {
-        return this.TypeDescription[i];
-    }
+	public TypeDescription getTypeDescription(int i) {
+		return this.TypeDescription[i];
+	}
 
-    public void setTypeDescription(TypeDescription[] TypeDescription) {
-        this.TypeDescription = TypeDescription;
-    }
+	public void setTypeDescription(TypeDescription[] TypeDescription) {
+		this.TypeDescription = TypeDescription;
+	}
 }

@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DiskChangeInfo extends DynamicData {
-    public long startOffset;
-    public long length;
-    public DiskChangeExtent[] changedArea;
+	public long startOffset;
+	public long length;
+	public DiskChangeExtent[] changedArea;
 
-    public long getStartOffset() {
-        return this.startOffset;
-    }
+	public long getStartOffset() {
+		return this.startOffset;
+	}
 
-    public long getLength() {
-        return this.length;
-    }
+	public long getLength() {
+		return this.length;
+	}
 
-    public DiskChangeExtent[] getChangedArea() {
-        return this.changedArea;
-    }
+	public DiskChangeExtent[] getChangedArea() {
+		return this.changedArea;
+	}
 
-    public void setStartOffset(long startOffset) {
-        this.startOffset = startOffset;
-    }
+	public void setStartOffset(long startOffset) {
+		this.startOffset = startOffset;
+	}
 
-    public void setLength(long length) {
-        this.length = length;
-    }
+	public void setLength(long length) {
+		this.length = length;
+	}
 
-    public void setChangedArea(DiskChangeExtent[] changedArea) {
-        this.changedArea = changedArea;
-    }
+	public void setChangedArea(DiskChangeExtent[] changedArea) {
+		this.changedArea = changedArea;
+	}
 }

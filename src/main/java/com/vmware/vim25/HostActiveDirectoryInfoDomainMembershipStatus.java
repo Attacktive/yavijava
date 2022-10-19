@@ -35,18 +35,18 @@ package com.vmware.vim25;
  */
 
 public enum HostActiveDirectoryInfoDomainMembershipStatus {
-    unknown("unknown"),
-    ok("ok"),
-    noServers("noServers"),
-    clientTrustBroken("clientTrustBroken"),
-    serverTrustBroken("serverTrustBroken"),
-    inconsistentTrust("inconsistentTrust"),
-    otherProblem("otherProblem");
+	unknown("unknown"),
+	ok("ok"),
+	noServers("noServers"),
+	clientTrustBroken("clientTrustBroken"),
+	serverTrustBroken("serverTrustBroken"),
+	inconsistentTrust("inconsistentTrust"),
+	otherProblem("otherProblem");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostActiveDirectoryInfoDomainMembershipStatus(String val) {
-        this.val = val;
-    }
+	private HostActiveDirectoryInfoDomainMembershipStatus(String val) {
+		this.val = val;
+	}
 }

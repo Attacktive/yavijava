@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterDrsVmConfigSpec extends ArrayUpdateSpec {
-    public ClusterDrsVmConfigInfo info;
+	public ClusterDrsVmConfigInfo info;
 
-    public ClusterDrsVmConfigInfo getInfo() {
-        return this.info;
-    }
+	public ClusterDrsVmConfigInfo getInfo() {
+		return this.info;
+	}
 
-    public void setInfo(ClusterDrsVmConfigInfo info) {
-        this.info = info;
-    }
+	public void setInfo(ClusterDrsVmConfigInfo info) {
+		this.info = info;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class DVSHealthCheckConfig extends DynamicData {
-    public Boolean enable;
-    public Integer interval;
+	public Boolean enable;
+	public Integer interval;
 
-    public Boolean getEnable() {
-        return this.enable;
-    }
+	public Boolean getEnable() {
+		return this.enable;
+	}
 
-    public Integer getInterval() {
-        return this.interval;
-    }
+	public Integer getInterval() {
+		return this.interval;
+	}
 
-    public void setEnable(Boolean enable) {
-        this.enable = enable;
-    }
+	public void setEnable(Boolean enable) {
+		this.enable = enable;
+	}
 
-    public void setInterval(Integer interval) {
-        this.interval = interval;
-    }
+	public void setInterval(Integer interval) {
+		this.interval = interval;
+	}
 }

@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ClusterAttemptedVmInfo extends DynamicData {
-    public ManagedObjectReference vm;
-    public ManagedObjectReference task;
+	public ManagedObjectReference vm;
+	public ManagedObjectReference task;
 
-    public ManagedObjectReference getVm() {
-        return this.vm;
-    }
+	public ManagedObjectReference getVm() {
+		return this.vm;
+	}
 
-    public ManagedObjectReference getTask() {
-        return this.task;
-    }
+	public ManagedObjectReference getTask() {
+		return this.task;
+	}
 
-    public void setVm(ManagedObjectReference vm) {
-        this.vm = vm;
-    }
+	public void setVm(ManagedObjectReference vm) {
+		this.vm = vm;
+	}
 
-    public void setTask(ManagedObjectReference task) {
-        this.task = task;
-    }
+	public void setTask(ManagedObjectReference task) {
+		this.task = task;
+	}
 }

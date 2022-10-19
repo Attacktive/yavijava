@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VmPoweringOnWithCustomizedDVPortEvent extends VmEvent {
-    public VnicPortArgument[] vnic;
+	public VnicPortArgument[] vnic;
 
-    public VnicPortArgument[] getVnic() {
-        return this.vnic;
-    }
+	public VnicPortArgument[] getVnic() {
+		return this.vnic;
+	}
 
-    public void setVnic(VnicPortArgument[] vnic) {
-        this.vnic = vnic;
-    }
+	public void setVnic(VnicPortArgument[] vnic) {
+		this.vnic = vnic;
+	}
 }

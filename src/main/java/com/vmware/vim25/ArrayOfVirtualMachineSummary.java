@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfVirtualMachineSummary {
-    public VirtualMachineSummary[] VirtualMachineSummary;
+	public VirtualMachineSummary[] VirtualMachineSummary;
 
-    public VirtualMachineSummary[] getVirtualMachineSummary() {
-        return this.VirtualMachineSummary;
-    }
+	public VirtualMachineSummary[] getVirtualMachineSummary() {
+		return this.VirtualMachineSummary;
+	}
 
-    public VirtualMachineSummary getVirtualMachineSummary(int i) {
-        return this.VirtualMachineSummary[i];
-    }
+	public VirtualMachineSummary getVirtualMachineSummary(int i) {
+		return this.VirtualMachineSummary[i];
+	}
 
-    public void setVirtualMachineSummary(VirtualMachineSummary[] VirtualMachineSummary) {
-        this.VirtualMachineSummary = VirtualMachineSummary;
-    }
+	public void setVirtualMachineSummary(VirtualMachineSummary[] VirtualMachineSummary) {
+		this.VirtualMachineSummary = VirtualMachineSummary;
+	}
 }

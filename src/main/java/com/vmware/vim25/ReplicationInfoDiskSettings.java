@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ReplicationInfoDiskSettings extends DynamicData {
-    public int key;
-    public String diskReplicationId;
+	public int key;
+	public String diskReplicationId;
 
-    public int getKey() {
-        return this.key;
-    }
+	public int getKey() {
+		return this.key;
+	}
 
-    public String getDiskReplicationId() {
-        return this.diskReplicationId;
-    }
+	public String getDiskReplicationId() {
+		return this.diskReplicationId;
+	}
 
-    public void setKey(int key) {
-        this.key = key;
-    }
+	public void setKey(int key) {
+		this.key = key;
+	}
 
-    public void setDiskReplicationId(String diskReplicationId) {
-        this.diskReplicationId = diskReplicationId;
-    }
+	public void setDiskReplicationId(String diskReplicationId) {
+		this.diskReplicationId = diskReplicationId;
+	}
 }

@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum HostNetStackInstanceCongestionControlAlgorithmType {
-    newreno("newreno"),
-    cubic("cubic");
+	newreno("newreno"),
+	cubic("cubic");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostNetStackInstanceCongestionControlAlgorithmType(String val) {
-        this.val = val;
-    }
+	private HostNetStackInstanceCongestionControlAlgorithmType(String val) {
+		this.val = val;
+	}
 }

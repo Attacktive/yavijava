@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDiskChangeExtent {
-    public DiskChangeExtent[] DiskChangeExtent;
+	public DiskChangeExtent[] DiskChangeExtent;
 
-    public DiskChangeExtent[] getDiskChangeExtent() {
-        return this.DiskChangeExtent;
-    }
+	public DiskChangeExtent[] getDiskChangeExtent() {
+		return this.DiskChangeExtent;
+	}
 
-    public DiskChangeExtent getDiskChangeExtent(int i) {
-        return this.DiskChangeExtent[i];
-    }
+	public DiskChangeExtent getDiskChangeExtent(int i) {
+		return this.DiskChangeExtent[i];
+	}
 
-    public void setDiskChangeExtent(DiskChangeExtent[] DiskChangeExtent) {
-        this.DiskChangeExtent = DiskChangeExtent;
-    }
+	public void setDiskChangeExtent(DiskChangeExtent[] DiskChangeExtent) {
+		this.DiskChangeExtent = DiskChangeExtent;
+	}
 }

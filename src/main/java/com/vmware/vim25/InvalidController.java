@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class InvalidController extends InvalidDeviceSpec {
-    public int controllerKey;
+	public int controllerKey;
 
-    public int getControllerKey() {
-        return this.controllerKey;
-    }
+	public int getControllerKey() {
+		return this.controllerKey;
+	}
 
-    public void setControllerKey(int controllerKey) {
-        this.controllerKey = controllerKey;
-    }
+	public void setControllerKey(int controllerKey) {
+		this.controllerKey = controllerKey;
+	}
 }

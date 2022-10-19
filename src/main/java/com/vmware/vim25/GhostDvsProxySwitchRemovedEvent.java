@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class GhostDvsProxySwitchRemovedEvent extends HostEvent {
-    public String[] switchUuid;
+	public String[] switchUuid;
 
-    public String[] getSwitchUuid() {
-        return this.switchUuid;
-    }
+	public String[] getSwitchUuid() {
+		return this.switchUuid;
+	}
 
-    public void setSwitchUuid(String[] switchUuid) {
-        this.switchUuid = switchUuid;
-    }
+	public void setSwitchUuid(String[] switchUuid) {
+		this.switchUuid = switchUuid;
+	}
 }

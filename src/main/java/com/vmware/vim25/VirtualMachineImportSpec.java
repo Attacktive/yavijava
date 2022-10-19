@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualMachineImportSpec extends ImportSpec {
-    public VirtualMachineConfigSpec configSpec;
-    public ManagedObjectReference resPoolEntity;
+	public VirtualMachineConfigSpec configSpec;
+	public ManagedObjectReference resPoolEntity;
 
-    public VirtualMachineConfigSpec getConfigSpec() {
-        return this.configSpec;
-    }
+	public VirtualMachineConfigSpec getConfigSpec() {
+		return this.configSpec;
+	}
 
-    public ManagedObjectReference getResPoolEntity() {
-        return this.resPoolEntity;
-    }
+	public ManagedObjectReference getResPoolEntity() {
+		return this.resPoolEntity;
+	}
 
-    public void setConfigSpec(VirtualMachineConfigSpec configSpec) {
-        this.configSpec = configSpec;
-    }
+	public void setConfigSpec(VirtualMachineConfigSpec configSpec) {
+		this.configSpec = configSpec;
+	}
 
-    public void setResPoolEntity(ManagedObjectReference resPoolEntity) {
-        this.resPoolEntity = resPoolEntity;
-    }
+	public void setResPoolEntity(ManagedObjectReference resPoolEntity) {
+		this.resPoolEntity = resPoolEntity;
+	}
 }

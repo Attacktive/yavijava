@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfIpPool {
-    public IpPool[] IpPool;
+	public IpPool[] IpPool;
 
-    public IpPool[] getIpPool() {
-        return this.IpPool;
-    }
+	public IpPool[] getIpPool() {
+		return this.IpPool;
+	}
 
-    public IpPool getIpPool(int i) {
-        return this.IpPool[i];
-    }
+	public IpPool getIpPool(int i) {
+		return this.IpPool[i];
+	}
 
-    public void setIpPool(IpPool[] IpPool) {
-        this.IpPool = IpPool;
-    }
+	public void setIpPool(IpPool[] IpPool) {
+		this.IpPool = IpPool;
+	}
 }

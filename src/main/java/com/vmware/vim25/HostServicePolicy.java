@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostServicePolicy {
-    on("on"),
-    automatic("automatic"),
-    off("off");
+	on("on"),
+	automatic("automatic"),
+	off("off");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostServicePolicy(String val) {
-        this.val = val;
-    }
+	private HostServicePolicy(String val) {
+		this.val = val;
+	}
 }

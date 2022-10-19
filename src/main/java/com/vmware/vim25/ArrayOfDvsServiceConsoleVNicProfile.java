@@ -35,17 +35,17 @@ package com.vmware.vim25;
  */
 
 public class ArrayOfDvsServiceConsoleVNicProfile {
-    public DvsServiceConsoleVNicProfile[] DvsServiceConsoleVNicProfile;
+	public DvsServiceConsoleVNicProfile[] DvsServiceConsoleVNicProfile;
 
-    public DvsServiceConsoleVNicProfile[] getDvsServiceConsoleVNicProfile() {
-        return this.DvsServiceConsoleVNicProfile;
-    }
+	public DvsServiceConsoleVNicProfile[] getDvsServiceConsoleVNicProfile() {
+		return this.DvsServiceConsoleVNicProfile;
+	}
 
-    public DvsServiceConsoleVNicProfile getDvsServiceConsoleVNicProfile(int i) {
-        return this.DvsServiceConsoleVNicProfile[i];
-    }
+	public DvsServiceConsoleVNicProfile getDvsServiceConsoleVNicProfile(int i) {
+		return this.DvsServiceConsoleVNicProfile[i];
+	}
 
-    public void setDvsServiceConsoleVNicProfile(DvsServiceConsoleVNicProfile[] DvsServiceConsoleVNicProfile) {
-        this.DvsServiceConsoleVNicProfile = DvsServiceConsoleVNicProfile;
-    }
+	public void setDvsServiceConsoleVNicProfile(DvsServiceConsoleVNicProfile[] DvsServiceConsoleVNicProfile) {
+		this.DvsServiceConsoleVNicProfile = DvsServiceConsoleVNicProfile;
+	}
 }

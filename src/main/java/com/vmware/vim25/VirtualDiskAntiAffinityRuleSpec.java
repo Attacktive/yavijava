@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VirtualDiskAntiAffinityRuleSpec extends ClusterRuleInfo {
-    public int[] diskId;
+	public int[] diskId;
 
-    public int[] getDiskId() {
-        return this.diskId;
-    }
+	public int[] getDiskId() {
+		return this.diskId;
+	}
 
-    public void setDiskId(int[] diskId) {
-        this.diskId = diskId;
-    }
+	public void setDiskId(int[] diskId) {
+		this.diskId = diskId;
+	}
 }

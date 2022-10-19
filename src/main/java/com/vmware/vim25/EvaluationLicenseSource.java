@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class EvaluationLicenseSource extends LicenseSource {
-    public Long remainingHours;
+	public Long remainingHours;
 
-    public Long getRemainingHours() {
-        return this.remainingHours;
-    }
+	public Long getRemainingHours() {
+		return this.remainingHours;
+	}
 
-    public void setRemainingHours(Long remainingHours) {
-        this.remainingHours = remainingHours;
-    }
+	public void setRemainingHours(Long remainingHours) {
+		this.remainingHours = remainingHours;
+	}
 }

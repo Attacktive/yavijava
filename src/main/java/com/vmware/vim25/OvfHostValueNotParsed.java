@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class OvfHostValueNotParsed extends OvfSystemFault {
-    public String property;
-    public String value;
+	public String property;
+	public String value;
 
-    public String getProperty() {
-        return this.property;
-    }
+	public String getProperty() {
+		return this.property;
+	}
 
-    public String getValue() {
-        return this.value;
-    }
+	public String getValue() {
+		return this.value;
+	}
 
-    public void setProperty(String property) {
-        this.property = property;
-    }
+	public void setProperty(String property) {
+		this.property = property;
+	}
 
-    public void setValue(String value) {
-        this.value = value;
-    }
+	public void setValue(String value) {
+		this.value = value;
+	}
 }

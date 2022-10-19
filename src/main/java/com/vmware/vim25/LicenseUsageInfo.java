@@ -36,40 +36,40 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class LicenseUsageInfo extends DynamicData {
-    public LicenseSource source;
-    public boolean sourceAvailable;
-    public LicenseReservationInfo[] reservationInfo;
-    public LicenseFeatureInfo[] featureInfo;
+	public LicenseSource source;
+	public boolean sourceAvailable;
+	public LicenseReservationInfo[] reservationInfo;
+	public LicenseFeatureInfo[] featureInfo;
 
-    public LicenseSource getSource() {
-        return this.source;
-    }
+	public LicenseSource getSource() {
+		return this.source;
+	}
 
-    public boolean isSourceAvailable() {
-        return this.sourceAvailable;
-    }
+	public boolean isSourceAvailable() {
+		return this.sourceAvailable;
+	}
 
-    public LicenseReservationInfo[] getReservationInfo() {
-        return this.reservationInfo;
-    }
+	public LicenseReservationInfo[] getReservationInfo() {
+		return this.reservationInfo;
+	}
 
-    public LicenseFeatureInfo[] getFeatureInfo() {
-        return this.featureInfo;
-    }
+	public LicenseFeatureInfo[] getFeatureInfo() {
+		return this.featureInfo;
+	}
 
-    public void setSource(LicenseSource source) {
-        this.source = source;
-    }
+	public void setSource(LicenseSource source) {
+		this.source = source;
+	}
 
-    public void setSourceAvailable(boolean sourceAvailable) {
-        this.sourceAvailable = sourceAvailable;
-    }
+	public void setSourceAvailable(boolean sourceAvailable) {
+		this.sourceAvailable = sourceAvailable;
+	}
 
-    public void setReservationInfo(LicenseReservationInfo[] reservationInfo) {
-        this.reservationInfo = reservationInfo;
-    }
+	public void setReservationInfo(LicenseReservationInfo[] reservationInfo) {
+		this.reservationInfo = reservationInfo;
+	}
 
-    public void setFeatureInfo(LicenseFeatureInfo[] featureInfo) {
-        this.featureInfo = featureInfo;
-    }
+	public void setFeatureInfo(LicenseFeatureInfo[] featureInfo) {
+		this.featureInfo = featureInfo;
+	}
 }

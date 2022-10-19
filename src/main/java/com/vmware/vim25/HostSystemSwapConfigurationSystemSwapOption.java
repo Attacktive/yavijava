@@ -36,13 +36,13 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class HostSystemSwapConfigurationSystemSwapOption extends DynamicData {
-    public int key;
+	public int key;
 
-    public int getKey() {
-        return this.key;
-    }
+	public int getKey() {
+		return this.key;
+	}
 
-    public void setKey(int key) {
-        this.key = key;
-    }
+	public void setKey(int key) {
+		this.key = key;
+	}
 }

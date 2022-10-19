@@ -35,14 +35,14 @@ package com.vmware.vim25;
  */
 
 public enum HostCapabilityVmDirectPathGen2UnsupportedReason {
-    hostNptIncompatibleProduct("hostNptIncompatibleProduct"),
-    hostNptIncompatibleHardware("hostNptIncompatibleHardware"),
-    hostNptDisabled("hostNptDisabled");
+	hostNptIncompatibleProduct("hostNptIncompatibleProduct"),
+	hostNptIncompatibleHardware("hostNptIncompatibleHardware"),
+	hostNptDisabled("hostNptDisabled");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private HostCapabilityVmDirectPathGen2UnsupportedReason(String val) {
-        this.val = val;
-    }
+	private HostCapabilityVmDirectPathGen2UnsupportedReason(String val) {
+		this.val = val;
+	}
 }

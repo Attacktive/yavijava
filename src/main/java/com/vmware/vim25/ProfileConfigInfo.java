@@ -36,31 +36,31 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ProfileConfigInfo extends DynamicData {
-    public String name;
-    public String annotation;
-    public boolean enabled;
+	public String name;
+	public String annotation;
+	public boolean enabled;
 
-    public String getName() {
-        return this.name;
-    }
+	public String getName() {
+		return this.name;
+	}
 
-    public String getAnnotation() {
-        return this.annotation;
-    }
+	public String getAnnotation() {
+		return this.annotation;
+	}
 
-    public boolean isEnabled() {
-        return this.enabled;
-    }
+	public boolean isEnabled() {
+		return this.enabled;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public void setAnnotation(String annotation) {
-        this.annotation = annotation;
-    }
+	public void setAnnotation(String annotation) {
+		this.annotation = annotation;
+	}
 
-    public void setEnabled(boolean enabled) {
-        this.enabled = enabled;
-    }
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 }

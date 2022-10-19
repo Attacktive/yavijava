@@ -35,13 +35,13 @@ package com.vmware.vim25;
  */
 
 public enum DiagnosticPartitionType {
-    singleHost("singleHost"),
-    multiHost("multiHost");
+	singleHost("singleHost"),
+	multiHost("multiHost");
 
-    @SuppressWarnings("unused")
-    private final String val;
+	@SuppressWarnings("unused")
+	private final String val;
 
-    private DiagnosticPartitionType(String val) {
-        this.val = val;
-    }
+	private DiagnosticPartitionType(String val) {
+		this.val = val;
+	}
 }

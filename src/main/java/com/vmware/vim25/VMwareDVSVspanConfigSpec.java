@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class VMwareDVSVspanConfigSpec extends DynamicData {
-    public VMwareVspanSession vspanSession;
-    public String operation;
+	public VMwareVspanSession vspanSession;
+	public String operation;
 
-    public VMwareVspanSession getVspanSession() {
-        return this.vspanSession;
-    }
+	public VMwareVspanSession getVspanSession() {
+		return this.vspanSession;
+	}
 
-    public String getOperation() {
-        return this.operation;
-    }
+	public String getOperation() {
+		return this.operation;
+	}
 
-    public void setVspanSession(VMwareVspanSession vspanSession) {
-        this.vspanSession = vspanSession;
-    }
+	public void setVspanSession(VMwareVspanSession vspanSession) {
+		this.vspanSession = vspanSession;
+	}
 
-    public void setOperation(String operation) {
-        this.operation = operation;
-    }
+	public void setOperation(String operation) {
+		this.operation = operation;
+	}
 }

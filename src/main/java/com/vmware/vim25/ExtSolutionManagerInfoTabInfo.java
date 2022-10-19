@@ -36,22 +36,22 @@ package com.vmware.vim25;
 
 @SuppressWarnings("all")
 public class ExtSolutionManagerInfoTabInfo extends DynamicData {
-    public String label;
-    public String url;
+	public String label;
+	public String url;
 
-    public String getLabel() {
-        return this.label;
-    }
+	public String getLabel() {
+		return this.label;
+	}
 
-    public String getUrl() {
-        return this.url;
-    }
+	public String getUrl() {
+		return this.url;
+	}
 
-    public void setLabel(String label) {
-        this.label = label;
-    }
+	public void setLabel(String label) {
+		this.label = label;
+	}
 
-    public void setUrl(String url) {
-        this.url = url;
-    }
+	public void setUrl(String url) {
+		this.url = url;
+	}
 }
